@@ -1,0 +1,33 @@
+====================================================================================================
+INFERENCE BENCHMARK RESULTS
+====================================================================================================
+
+HARDWARE SPECIFICATIONS
+----------------------------------------------------------------------------------------------------
+os                  : Windows
+os_version          : 10.0.26100
+processor           : Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+cpu_count           : 8
+cpu_threads         : 12
+ram_gb              : 15.65
+gpu_name            : NVIDIA GeForce RTX 2050
+gpu_memory_gb       : 4.0
+cuda_version        : 11.8
+pytorch_version     : 2.7.1+cu118
+
+GPU INFERENCE (RTX 2050)
+----------------------------------------------------------------------------------------------------
+Mean Latency:    35.08 ± 2.36 ms
+Median Latency:  35.02 ms
+Throughput:      28.51 images/sec
+
+CPU INFERENCE
+----------------------------------------------------------------------------------------------------
+Mean Latency:    167.84 ± 12.66 ms
+Median Latency:  166.03 ms
+Throughput:      5.96 images/sec
+
+PREPROCESSING PIPELINE
+----------------------------------------------------------------------------------------------------
+Mean Time:       2232.02 ± 1150.20 ms
+Median Time:     2420.63 ms

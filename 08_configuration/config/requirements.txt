@@ -1,0 +1,119 @@
+# ===================================================================
+# PEDiMS Training Script - Requirements
+# ===================================================================
+# Install all dependencies with: pip install -r requirements.txt
+# For GPU support, see CUDA-specific installation notes below
+# ===================================================================
+
+# Core Deep Learning Framework
+# -----------------------------
+# For CPU-only (current setup):
+torch>=2.0.0
+torchvision>=0.15.0
+
+# For GPU/CUDA support (recommended for training), use instead:
+# torch>=2.0.0+cu118  --index-url https://download.pytorch.org/whl/cu118
+# torchvision>=0.15.0+cu118  --index-url https://download.pytorch.org/whl/cu118
+# (Replace cu118 with your CUDA version: cu117, cu118, cu121, etc.)
+
+# Medical Imaging AI Framework
+# -----------------------------
+monai[all]>=1.3.0
+# Alternative if [all] fails: monai>=1.3.0
+
+# Medical Image I/O
+# -----------------
+nibabel>=5.0.0
+pydicom>=2.4.0
+
+# Medical Image Augmentation
+# ---------------------------
+torchio>=0.19.0
+
+# Machine Learning & Metrics
+# ---------------------------
+scikit-learn>=1.3.0
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Training Visualization
+# ----------------------
+tensorboard>=2.14.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress Bars & Utilities
+# --------------------------
+tqdm>=4.66.0
+pillow>=10.0.0
+
+# Data Processing
+# ---------------
+pandas>=2.0.0
+h5py>=3.9.0
+
+# Additional MONAI Dependencies
+# ------------------------------
+einops>=0.7.0
+fire>=0.5.0
+ignite>=0.4.11
+mlflow>=2.8.0
+optuna>=3.4.0
+psutil>=5.9.0
+pynrrd>=1.0.0
+SimpleITK>=2.3.0
+lmdb>=1.4.1
+
+# Optional but Recommended
+# ------------------------
+opencv-python>=4.8.0
+imageio>=2.31.0
+networkx>=3.1
+
+# Development Tools (optional)
+# -----------------------------
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+notebook>=7.0.0
+
+# ===================================================================
+# INSTALLATION INSTRUCTIONS
+# ===================================================================
+#
+# METHOD 1: Install all at once (CPU version)
+# --------------------------------------------
+# pip install -r requirements.txt
+#
+# METHOD 2: Install with GPU support (RECOMMENDED FOR TRAINING)
+# --------------------------------------------------------------
+# Step 1: Check your CUDA version
+#   nvidia-smi
+#
+# Step 2: Install PyTorch with CUDA support first
+#   For CUDA 11.8:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#   For CUDA 12.1:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Step 3: Install remaining packages
+#   pip install -r requirements.txt --no-deps
+#   pip install monai[all] nibabel torchio scikit-learn tensorboard tqdm
+#
+# METHOD 3: Conda environment (alternative)
+# ------------------------------------------
+# conda create -n pedims python=3.10
+# conda activate pedims
+# conda install pytorch torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
+# pip install -r requirements.txt
+#
+# ===================================================================
+# VERIFY INSTALLATION
+# ===================================================================
+#
+# Run this command to verify all packages are installed:
+#   python -c "import torch, torchvision, monai, nibabel, torchio, sklearn, tensorboard, tqdm; print('All packages installed successfully!')"
+#
+# Check GPU availability:
+#   python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}'); print(f'GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else \"N/A\"}')"
+#
+# ===================================================================

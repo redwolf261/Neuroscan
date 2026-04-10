@@ -1,0 +1,22 @@
+{
+  "trial_model": {
+    "dice_score": 74.51,
+    "recall": 77.0,
+    "precision": 72.0,
+    "epochs_to_best": 200,
+    "parameters_millions": 0.82
+  },
+  "final_model": {
+    "dice_score": 82.31,
+    "recall": 91.64,
+    "precision": 77.6,
+    "epochs_to_best": 28,
+    "parameters_millions": 34.24
+  },
+  "improvements": {
+    "dice_improvement": 7.799999999999997,
+    "recall_improvement": 14.64,
+    "training_speedup": 7.142857142857143,
+    "relative_dice_improvement_percent": 10.468393504227617
+  }
+}

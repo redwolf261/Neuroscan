@@ -1,0 +1,13 @@
+{
+  "true_negatives": 19765,
+  "false_positives": 3790,
+  "false_negatives": 1064,
+  "true_positives": 12245,
+  "accuracy": 0.8683268229166666,
+  "precision": 0.7636420330526972,
+  "recall": 0.9200540987301826,
+  "specificity": 0.8390999787730843,
+  "f1_score": 0.834582878953108,
+  "dice_coefficient": 0.834582878953108,
+  "iou": 0.7161237499268963
+}

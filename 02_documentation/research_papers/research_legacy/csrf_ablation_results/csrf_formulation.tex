@@ -1,0 +1,70 @@
+
+\section{CSRF Module: Mathematical Formulation}
+
+Given multi-scale features $\{\mathbf{F}_1, \mathbf{F}_2, \mathbf{F}_3, \mathbf{F}_4\}$ with resolutions:
+\begin{itemize}
+    \item $\mathbf{F}_1 \in \mathbb{R}^{B \times C_1 \times H/4 \times W/4}$ (high resolution)
+    \item $\mathbf{F}_2 \in \mathbb{R}^{B \times C_2 \times H/8 \times W/8}$
+    \item $\mathbf{F}_3 \in \mathbb{R}^{B \times C_3 \times H/16 \times W/16}$
+    \item $\mathbf{F}_4 \in \mathbb{R}^{B \times C_4 \times H/32 \times W/32}$ (low resolution)
+\end{itemize}
+
+\subsection{Complete CSRF Formulation}
+
+The CSRF module fuses these features through three steps:
+
+\textbf{Step 1: Upsampling}
+\begin{equation}
+\tilde{\mathbf{F}}_i = \text{Upsample}(\mathbf{F}_i, \text{size}=(H_{target}, W_{target}))
+\end{equation}
+
+\textbf{Step 2: Channel-wise Scaling}
+\begin{equation}
+\mathbf{F}'_i = \boldsymbol{\alpha}_i \odot \tilde{\mathbf{F}}_i
+\end{equation}
+where $\boldsymbol{\alpha}_i \in \mathbb{R}^{C_i}$ is a learnable per-channel scaling vector, and $\odot$ denotes element-wise multiplication (broadcasting across spatial dimensions).
+
+\textbf{Step 3: Fusion}
+\begin{equation}
+\mathbf{F}_{fused} = \sum_{i=1}^{4} \text{Conv}_{1\times1}(\mathbf{F}'_i)
+\end{equation}
+
+\subsection{Complete Equation}
+
+\begin{equation}
+\boxed{
+\mathbf{F}_{fused} = \sum_{i=1}^{4} \text{Conv}_{1\times1}\left(\boldsymbol{\alpha}_i \odot \text{Upsample}(\mathbf{F}_i)\right)
+}
+\end{equation}
+
+\subsection{Initialization and Constraints}
+
+\begin{itemize}
+    \item \textbf{Initialization}: $\boldsymbol{\alpha}_i^{(0)} = \mathbf{1}_{C_i}$ (all ones)
+    \item \textbf{Update}: $\boldsymbol{\alpha}_i^{(t+1)} = \boldsymbol{\alpha}_i^{(t)} - \eta \nabla_{\boldsymbol{\alpha}_i} \mathcal{L}$
+    \item \textbf{Optional Clipping}: $\boldsymbol{\alpha}_i \in [0.1, 10.0]$ (for stability)
+\end{itemize}
+
+\subsection{Ablation Variants}
+
+We compare four design choices:
+
+\textbf{Variant 1: No Scaling (Baseline)}
+\begin{equation}
+\mathbf{F}_{fused}^{baseline} = \sum_{i=1}^{4} \text{Conv}_{1\times1}(\text{Upsample}(\mathbf{F}_i))
+\end{equation}
+
+\textbf{Variant 2: Scalar Scaling}
+\begin{equation}
+\mathbf{F}_{fused}^{scalar} = \sum_{i=1}^{4} \text{Conv}_{1\times1}(\alpha_i \cdot \text{Upsample}(\mathbf{F}_i))
+\end{equation}
+where $\alpha_i \in \mathbb{R}$ is a single learnable scalar per scale.
+
+\textbf{Variant 3: Per-Channel Scaling (Proposed)}
+\begin{equation}
+\mathbf{F}_{fused}^{channel} = \sum_{i=1}^{4} \text{Conv}_{1\times1}(\boldsymbol{\alpha}_i \odot \text{Upsample}(\mathbf{F}_i))
+\end{equation}
+
+\textbf{Variant 4: Per-Channel with Clipping}
+Same as Variant 3 but with $\boldsymbol{\alpha}_i \in [0.1, 10.0]$.
+

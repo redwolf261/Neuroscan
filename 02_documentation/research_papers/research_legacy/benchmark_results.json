@@ -1,0 +1,77 @@
+{
+  "hardware": {
+    "os": "Windows",
+    "os_version": "10.0.26100",
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "cpu_count": 8,
+    "cpu_threads": 12,
+    "ram_gb": 15.65,
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "gpu_memory_gb": 4.0,
+    "cuda_version": "11.8",
+    "pytorch_version": "2.7.1+cu118"
+  },
+  "gpu_inference": {
+    "device": "cuda",
+    "mean_ms": 35.07837400007702,
+    "std_ms": 2.3638383262592755,
+    "median_ms": 35.02489999982572,
+    "min_ms": 30.47170000081678,
+    "max_ms": 40.07110000020475,
+    "throughput_images_per_sec": 28.507592740695575
+  },
+  "cpu_inference": {
+    "device": "cpu",
+    "mean_ms": 167.8445899998951,
+    "std_ms": 12.659523485710071,
+    "median_ms": 166.02694999983214,
+    "min_ms": 146.87079999930575,
+    "max_ms": 195.41039999967325,
+    "throughput_images_per_sec": 5.957892357451765
+  },
+  "preprocessing": {
+    "mean_ms": 2232.016970000071,
+    "std_ms": 1150.198574421678,
+    "median_ms": 2420.6333500001165,
+    "min_ms": 737.7982999996675,
+    "max_ms": 4596.372899999551
+  },
+  "batch_sizes": {
+    "1": {
+      "device": "cuda",
+      "mean_ms": 33.09177333324745,
+      "std_ms": 2.481051547669984,
+      "median_ms": 33.124400000360765,
+      "min_ms": 28.25719999964349,
+      "max_ms": 37.59370000079798,
+      "throughput_images_per_sec": 30.218990983940277
+    },
+    "2": {
+      "device": "cuda",
+      "mean_ms": 34.798326666653644,
+      "std_ms": 2.8324511171671936,
+      "median_ms": 34.68774999964808,
+      "min_ms": 29.1932000000088,
+      "max_ms": 42.93319999942469,
+      "throughput_images_per_sec": 28.73701398286702
+    },
+    "4": {
+      "device": "cuda",
+      "mean_ms": 35.961113333390436,
+      "std_ms": 2.312642087929819,
+      "median_ms": 35.73714999993172,
+      "min_ms": 31.804499999452673,
+      "max_ms": 40.45479999967938,
+      "throughput_images_per_sec": 27.80781536792647
+    },
+    "8": {
+      "device": "cuda",
+      "mean_ms": 36.52000333334703,
+      "std_ms": 3.3160972710427097,
+      "median_ms": 36.161400000310095,
+      "min_ms": 31.3942999991923,
+      "max_ms": 45.28499999923952,
+      "throughput_images_per_sec": 27.38225379861571
+    }
+  }
+}

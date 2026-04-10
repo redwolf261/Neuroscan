@@ -1,0 +1,51 @@
+====================================================================================================
+MULTI-SEED EXPERIMENT SUMMARY
+====================================================================================================
+
+Number of seeds: 5
+Seeds: [42, 123, 456, 789, 1024]
+
+AGGREGATED RESULTS (Mean ± Std [95% CI]):
+----------------------------------------------------------------------------------------------------
+
+DICE:
+  Baseline: 0.8346 ± 0.0110 [0.8209, 0.8483]
+  Proposed: 0.8346 ± 0.0110 [0.8209, 0.8483]
+  t-test: t=nan, p=nan ns
+  Effect size: Cohen's d = nan
+  Improvement: +0.00%
+
+PRECISION:
+  Baseline: 0.7748 ± 0.0068 [0.7663, 0.7832]
+  Proposed: 0.7748 ± 0.0068 [0.7663, 0.7832]
+  t-test: t=nan, p=nan ns
+  Effect size: Cohen's d = nan
+  Improvement: +0.00%
+
+RECALL:
+  Baseline: 0.9206 ± 0.0035 [0.9162, 0.9250]
+  Proposed: 0.9206 ± 0.0035 [0.9162, 0.9250]
+  t-test: t=nan, p=nan ns
+  Effect size: Cohen's d = nan
+  Improvement: +0.00%
+
+F1:
+  Baseline: 0.8396 ± 0.0110 [0.8259, 0.8533]
+  Proposed: 0.8396 ± 0.0110 [0.8259, 0.8533]
+  t-test: t=nan, p=nan ns
+  Effect size: Cohen's d = nan
+  Improvement: +0.00%
+
+SPECIFICITY:
+  Baseline: 0.9951 ± 0.0002 [0.9948, 0.9954]
+  Proposed: 0.9951 ± 0.0002 [0.9948, 0.9954]
+  t-test: t=nan, p=nan ns
+  Effect size: Cohen's d = nan
+  Improvement: +0.00%
+
+HD95:
+  Baseline: 8.6093 ± 0.3703 [8.1495, 9.0691]
+  Proposed: 8.6093 ± 0.3703 [8.1495, 9.0691]
+  t-test: t=nan, p=nan ns
+  Effect size: Cohen's d = nan
+  Improvement: +0.00%

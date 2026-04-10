@@ -1,0 +1,28 @@
+CONFUSION MATRIX ANALYSIS REPORT
+================================================================================
+
+1. CONFUSION MATRIX (Raw Counts)
+--------------------------------------------------------------------------------
+                    Predicted Negative  Predicted Positive
+True Negative                   19,765               3,790
+True Positive                    1,064              12,245
+
+2. PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+accuracy                 : 0.868327 (86.83%)
+precision                : 0.763642 (76.36%)
+recall                   : 0.920054 (92.01%)
+specificity              : 0.839100 (83.91%)
+f1_score                 : 0.834583 (83.46%)
+dice_coefficient         : 0.834583 (83.46%)
+iou                      : 0.716124 (71.61%)
+
+3. INTERPRETATION
+--------------------------------------------------------------------------------
+Total pixels analyzed: 36,864
+Class balance: 36.10% lesion pixels
+
+Model correctly classifies 86.83% of all pixels.
+Of predicted lesions, 76.36% are actually lesions (Precision).
+Of actual lesions, 92.01% are detected (Recall/Sensitivity).
+Of actual background, 83.91% are correctly classified (Specificity).

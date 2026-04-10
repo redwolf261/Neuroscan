@@ -1,0 +1,113 @@
+{
+  "lesion_detection": {
+    "num_gt_lesions": 10,
+    "num_pred_lesions": 116,
+    "lesion_tp": 0,
+    "lesion_fp": 116,
+    "lesion_fn": 10,
+    "lesion_recall": 0.0,
+    "lesion_precision": 0.0,
+    "lesion_f1": 0,
+    "lesion_fnr": 1.0
+  },
+  "small_lesion": {
+    "num_small_lesions": 0,
+    "num_detected_small": 0,
+    "small_lesion_sensitivity": null,
+    "small_lesion_fnr": null
+  },
+  "false_negative_rates": {
+    "fnr_voxel": 0.10255331088664423,
+    "fnr_lesion": 1.0,
+    "false_negatives": 731,
+    "gt_positive_voxels": 7128
+  },
+  "calibration": {
+    "ece": 0.06796301989782097,
+    "n_bins": 10,
+    "interpretation": "Good calibration",
+    "bin_statistics": [
+      {
+        "bin_lower": 0.0,
+        "bin_upper": 0.1,
+        "confidence": 0.05003357696735821,
+        "accuracy": 0.0007157670457327163,
+        "proportion": 0.9739704132080078,
+        "count": 1021282
+      },
+      {
+        "bin_lower": 0.1,
+        "bin_upper": 0.2,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.2,
+        "bin_upper": 0.30000000000000004,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.30000000000000004,
+        "bin_upper": 0.4,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.4,
+        "bin_upper": 0.5,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.5,
+        "bin_upper": 0.6000000000000001,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.6000000000000001,
+        "bin_upper": 0.7000000000000001,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.7000000000000001,
+        "bin_upper": 0.8,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.8,
+        "bin_upper": 0.9,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "proportion": 0.0,
+        "count": 0
+      },
+      {
+        "bin_lower": 0.9,
+        "bin_upper": 1.0,
+        "confidence": 1.0,
+        "accuracy": 0.23437385505972008,
+        "proportion": 0.026029586791992188,
+        "count": 27294
+      }
+    ]
+  },
+  "uncertainty": null
+}

@@ -1,0 +1,14 @@
+{
+  "typeCheckingMode": "off",
+  "pythonVersion": "3.10",
+  "include": ["*.py"],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.*",
+    "ablation/**",
+    "archive/**",
+    "backups/**",
+    "trials/**"
+  ]
+}
