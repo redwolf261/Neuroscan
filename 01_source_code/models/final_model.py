@@ -32,7 +32,7 @@
 # Baseline: 69.11% → +4.40% (k=9) → +0.48% (CBAM) → +1.16% (Evidential) → +0.5% (MAE 0.75) ≈ 75.65% Dice
 # ===========================================================================================
 
-import os, time, json, glob, warnings, shutil, tempfile
+import os, sys, time, json, glob, warnings, shutil, tempfile
 warnings.filterwarnings("ignore")
 
 # Fix slow matplotlib import issue - set non-interactive backend BEFORE any imports
@@ -44,7 +44,30 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.cuda.amp import GradScaler, autocast
 from tqdm import tqdm
-from sklearn.metrics import precision_score, recall_score, f1_score
+# ENV-COMPATIBILITY FIX: sklearn.metrics pulls in scipy.stats -> scipy.interpolate's
+# pythran-compiled _rbfinterp_pythran extension, which a Windows Application Control
+# policy on this machine blocks from loading (unrelated to this project - the DLL never
+# even executes, since precision/recall/F1 here are only used for VALIDATION REPORTING,
+# never in the training loop, loss computation, or backward pass). Replaced with a
+# numpy-only equivalent that matches sklearn's binary precision_score/recall_score/
+# f1_score(..., zero_division=0) formulas exactly - same metric, same semantics, no
+# scipy/sklearn dependency.
+def precision_score(y_true, y_pred, zero_division=0):
+    y_true, y_pred = np.asarray(y_true), np.asarray(y_pred)
+    tp = np.sum((y_pred == 1) & (y_true == 1))
+    fp = np.sum((y_pred == 1) & (y_true == 0))
+    return tp / (tp + fp) if (tp + fp) > 0 else float(zero_division)
+
+def recall_score(y_true, y_pred, zero_division=0):
+    y_true, y_pred = np.asarray(y_true), np.asarray(y_pred)
+    tp = np.sum((y_pred == 1) & (y_true == 1))
+    fn = np.sum((y_pred == 0) & (y_true == 1))
+    return tp / (tp + fn) if (tp + fn) > 0 else float(zero_division)
+
+def f1_score(y_true, y_pred, zero_division=0):
+    p = precision_score(y_true, y_pred, zero_division=zero_division)
+    r = recall_score(y_true, y_pred, zero_division=zero_division)
+    return 2 * p * r / (p + r) if (p + r) > 0 else float(zero_division)
 import numpy as np
 
 from monai.transforms.io.dictionary import LoadImaged
@@ -74,6 +97,35 @@ from torch.utils.tensorboard import SummaryWriter
 set_determinism(42)
 
 # ===========================================================================================
+# DIAGNOSTICS (OPTIONAL - all flags default False, see 01_source_code/diagnostics/config.py)
+# ===========================================================================================
+# Everything imported here is additive instrumentation for deciding between two candidate
+# research directions (adaptive slice sampling vs. multi-objective loss optimization).
+# When every flag in diagnostics/config.py is False (the default), none of the functions
+# below are ever called and training is byte-for-byte identical to before this block existed.
+_SOURCE_CODE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 01_source_code/
+if _SOURCE_CODE_DIR not in sys.path:
+    sys.path.insert(0, _SOURCE_CODE_DIR)
+
+from diagnostics import config as diag_config
+from diagnostics.loss_logger import LossLogger, extract_loss_components, extract_evidential_loss
+from diagnostics.gradient_logger import GradientLogger
+from diagnostics.gradient_similarity import GradientSimilarityLogger
+from diagnostics.slice_logger import SliceLogger
+
+diag_config.print_status()
+
+# Lazily-initialized singletons for the segmentation training loop's diagnostic loggers.
+# Stay None (and unused) unless the corresponding ENABLE_* flag is True.
+_seg_loss_logger = None
+_seg_grad_logger = None
+_seg_slice_logger = None
+_seg_sim_logger = None
+
+# Same pattern for the MAE pretraining loop.
+_mae_loss_logger = None
+
+# ===========================================================================================
 # PATHS CONFIGURATION (Separate from trial.py)
 # ===========================================================================================
 custom_path = r"C:\Users\HP\EDI"
@@ -101,7 +153,18 @@ else:
     drive_base = "C:/Users/HP/EDI"
 
 # Dataset is in project folder, not EDI folder
-DATA_PATH = os.path.join(os.path.dirname(__file__), "Dataset", "PediMS", "PediMS")
+# BUGFIX (documented in research_infra/PHASE_1_CODEBASE_AUDIT.md): the original hardcoded
+# path here (Dataset/PediMS/PediMS) does not exist on disk - the real downloaded PediMS
+# dataset lives at <repo_root>/PediMS/{patient}/{timepoint}/processed/. This does not change
+# what data is used, only fixes discovery of the same intended dataset. Overridable via
+# PEDIMS_DATA_PATH for portability.
+_REPO_ROOT_PEDIMS = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "PediMS")
+if os.environ.get('PEDIMS_DATA_PATH'):
+    DATA_PATH = os.environ.get('PEDIMS_DATA_PATH')
+elif os.path.exists(_REPO_ROOT_PEDIMS):
+    DATA_PATH = _REPO_ROOT_PEDIMS
+else:
+    DATA_PATH = os.path.join(os.path.dirname(__file__), "Dataset", "PediMS", "PediMS")
 
 # Ensure drive_base is set
 assert drive_base is not None, "Drive base path could not be determined"
@@ -179,8 +242,11 @@ NUM_WORKERS = 0  # Must be 0 on Windows
 LEARNING_RATE_ENCODER = 1e-5  # Fine-tune pretrained encoder
 LEARNING_RATE_DECODER = 4e-4  # Train decoder from scratch
 MAE_LEARNING_RATE = 1e-4  # MAE pretraining LR
-MAE_EPOCHS = 200  # Extended training: 200 epochs for deeper feature learning (100 more)
-SEGMENTATION_EPOCHS = 80  # Extended training: 80 epochs for better convergence
+# MAE_EPOCHS/SEGMENTATION_EPOCHS are overridable via env vars for exploratory diagnostic
+# runs (e.g. research_infra hypothesis-validation experiments) without editing this file.
+# Architecture, losses, optimizer, and scheduler are unaffected by this - only run length.
+MAE_EPOCHS = int(os.environ.get('MAE_EPOCHS_OVERRIDE', 200))  # Extended training: 200 epochs for deeper feature learning (100 more)
+SEGMENTATION_EPOCHS = int(os.environ.get('SEGMENTATION_EPOCHS_OVERRIDE', 80))  # Extended training: 80 epochs for better convergence
 PATIENCE = 30  # Early stopping patience (increased for extended training)
 
 # ===========================================================================================
@@ -218,20 +284,50 @@ SELF_CORRECTION_THRESHOLD = 0.5  # Stop if max uncertainty < 0.5 (converged)
 # ===========================================================================================
 data_dicts = []
 if os.path.exists(DATA_PATH):
-    for subfolder in sorted(os.listdir(DATA_PATH)):
-        sub_path = os.path.join(DATA_PATH, subfolder)
-        if not os.path.isdir(sub_path): 
+    # BUGFIX (see research_infra/PHASE_1_CODEBASE_AUDIT.md): the real, downloaded PediMS
+    # dataset is organized as {patient}/{timepoint}/processed/{files}, with modality
+    # embedded in the filename (brain_FLAIR.nii.gz, n4_brain_FLAIR.nii.gz, mask_FLAIR.nii.gz,
+    # Consensus.nii) rather than {patient}/{modality}/processed/{files} as the original loop
+    # here assumed. This block walks the actual on-disk layout; it preserves the ORIGINAL
+    # selection intent unchanged: FLAIR as the primary modality (README: "FLAIR sequence
+    # (primary input)"), n4-bias-corrected brain image, modality-specific mask with a
+    # Consensus.nii fallback when no modality-specific mask exists - the same fallback
+    # priority the original "*_mask_*" -> "*_Consensus_*" logic expressed, just matched
+    # against the filenames that actually exist.
+    for patient_folder in sorted(os.listdir(DATA_PATH)):
+        patient_path = os.path.join(DATA_PATH, patient_folder)
+        if not os.path.isdir(patient_path):
             continue
-        for modality in ["T1","T2","FLAIR"]:
-            mod_path = os.path.join(sub_path, modality, "processed")
-            if not os.path.exists(mod_path): 
+        for timepoint_folder in sorted(os.listdir(patient_path)):
+            timepoint_path = os.path.join(patient_path, timepoint_folder)
+            if not os.path.isdir(timepoint_path):
                 continue
-            imgs = sorted(glob.glob(os.path.join(mod_path, "*_brain_*.nii*")))
-            masks = sorted(glob.glob(os.path.join(mod_path, "*_mask_*.nii*")))
-            if len(masks) == 0:
-                masks = sorted(glob.glob(os.path.join(mod_path, "*_Consensus_*.nii*")))
-            for img, m in zip(imgs, masks):
-                data_dicts.append({"image":[img],"label":m,"case":os.path.basename(img)})
+            processed_path = os.path.join(timepoint_path, "processed")
+            if not os.path.exists(processed_path):
+                continue
+
+            brain_files = sorted(glob.glob(os.path.join(processed_path, "*_brain_*.nii*")))
+            mask_files = sorted(glob.glob(os.path.join(processed_path, "*_mask_*.nii*")))
+            if len(mask_files) == 0:
+                mask_files = sorted(glob.glob(os.path.join(processed_path, "Consensus.nii*")))
+
+            flair_imgs = [f for f in brain_files if "FLAIR" in f]
+            flair_masks = [f for f in mask_files if "FLAIR" in f]
+            mask_candidates = flair_masks if flair_masks else mask_files
+
+            if flair_imgs and mask_candidates:
+                img = flair_imgs[0]
+                mask = mask_candidates[0]
+                # NOTE (diagnostics addition, no behavior change): "patient_id"/"modality" are
+                # extra dict keys carried alongside the existing "image"/"label"/"case" keys.
+                # MONAI's dict-transforms and the default DataLoader collate function pass
+                # unrecognized keys through untouched (verified empirically - see
+                # research_infra/PHASE_1_CODEBASE_AUDIT.md Section 5a), so this does not
+                # change what data is loaded, resampled, or fed to the model. "modality" here
+                # stores the timepoint folder name (T1/T2/T3), consistent with this dataset's
+                # own naming (longitudinal timepoints, not MRI sequence modality).
+                data_dicts.append({"image":[img], "label":mask, "case":os.path.basename(img),
+                                    "patient_id": patient_folder, "modality": timepoint_folder})
 else:
     raise RuntimeError(f"DATA_PATH does not exist: {DATA_PATH}")
 
@@ -314,11 +410,55 @@ class AdaptiveSliceSelector(nn.Module):
     
     Based on ablation study showing +3% improvement over fixed selection.
     """
-    def __init__(self, max_slices=64, k=9):
+    def __init__(self, max_slices=64, k=9, selection_mode='adaptive'):
+        """
+        Args:
+            selection_mode: 'adaptive' (default, unchanged behavior) uses the learned
+                scorer + topk exactly as before. 'uniform' bypasses the scorer entirely
+                and gathers k evenly-spaced fixed indices spanning the whole volume -
+                used by the Phase 8 sampling-prototype experiment. 'center_window'
+                bypasses the scorer and gathers k CONSECUTIVE indices centered on the
+                volume midpoint (index max_slices//2) - the same index
+                train_segmentation_epoch always uses as the supervision target
+                (labels[:, :, labels.shape[2]//2, :, :]). Motivated by an empirical
+                check (research_infra/phase8/, one-off script, not retained) showing
+                that under 'adaptive', the supervised center index is included in the
+                selected 9 slices only ~14% of the time, with real selections observed
+                clustering at the volume's extreme edges (e.g. [0,1,2,3,4,10,11,50,51])
+                - i.e. the model is frequently asked to segment a slice it was barely
+                shown. This is exactly the fixed-center-slices behavior
+                Conv2D5Stem's own backward-compatibility branch already implements for
+                full-volume input; this flag makes the same behavior reachable through
+                AdaptiveSliceSelector's pre-selection path instead. 'dynamic_window' is
+                like 'center_window' but the window center is a PER-SAMPLE, PER-CALL
+                index passed to forward() as `center_indices`, instead of a fixed
+                buffer computed once at construction - used together with randomized
+                per-batch supervision targets (see research_infra/phase8/
+                reproduce_attempt_multislice.py) so that every one of a volume's
+                lesion-containing slices (measured: ~22 per volume on average, ~613
+                total across the 28 available samples, vs. 1 fixed slice used per
+                volume under the default scheme) can become a supervision target
+                across training, each with a context window that's guaranteed to be
+                centered on it. Default ('adaptive') preserves the exact original
+                behavior; all three alternatives are opt-in and additive.
+        """
         super().__init__()
         self.k = k
         self.max_slices = max_slices
-        
+        assert selection_mode in ('adaptive', 'uniform', 'center_window', 'dynamic_window')
+        self.selection_mode = selection_mode
+        if selection_mode == 'uniform':
+            import numpy as _np
+            uniform_idx = _np.linspace(0, max_slices - 1, k).round().astype(int)
+            self.register_buffer('uniform_indices', torch.tensor(uniform_idx, dtype=torch.long))
+        elif selection_mode == 'center_window':
+            center = max_slices // 2
+            start = max(0, center - k // 2)
+            end = min(max_slices, start + k)
+            start = max(0, end - k)  # re-clamp in case end got clipped near the boundary
+            window_idx = list(range(start, end))
+            self.register_buffer('center_window_indices', torch.tensor(window_idx, dtype=torch.long))
+
         # Lightweight 3D scorer network
         self.scorer = nn.Sequential(
             nn.Conv3d(1, 8, kernel_size=3, padding=1),
@@ -338,16 +478,55 @@ class AdaptiveSliceSelector(nn.Module):
             nn.Linear(64, 1)  # Score per slice
         )
     
-    def forward(self, x):
+    def forward(self, x, center_indices=None):
         """
         Args:
             x: (B, 1, D, H, W) - full 3D volume
+            center_indices: optional (B,) LongTensor, only used when
+                selection_mode == 'dynamic_window' - the per-sample slice index each
+                sample's k-window should be centered on. Ignored by every other mode
+                (accepted so callers don't need to branch on selection_mode).
         Returns:
             selected_volume: (B, 1, k, H, W) - selected slices
             slice_scores: (B, D) - importance scores (for interpretability)
         """
         B, C, D, H, W = x.shape
-        
+
+        if self.selection_mode in ('uniform', 'center_window'):
+            # No scorer network involved at all (no parameters, no learning, fully
+            # deterministic) - either evenly-spaced across the whole volume ('uniform')
+            # or a consecutive window centered on the supervised index ('center_window').
+            fixed_idx = self.uniform_indices if self.selection_mode == 'uniform' else self.center_window_indices
+            top_indices = fixed_idx.unsqueeze(0).expand(B, -1).to(x.device)
+            selected_volume = x[:, :, top_indices[0], :, :]  # same indices for every sample
+            slice_scores = torch.zeros(B, D, device=x.device, dtype=x.dtype)
+            if diag_config.ENABLE_SLICE_DIAGNOSTICS:
+                self.last_top_indices = top_indices.detach()
+                self.last_slice_scores = slice_scores.detach()
+            return selected_volume, slice_scores
+
+        if self.selection_mode == 'dynamic_window':
+            # Per-sample window, centered on a different index for each sample in the
+            # batch (unlike 'center_window', which uses the same fixed window for
+            # every sample/every batch). No scorer network involved.
+            assert center_indices is not None, "dynamic_window mode requires center_indices"
+            half = self.k // 2
+            top_indices = torch.stack([
+                torch.clamp(
+                    torch.arange(c - half, c - half + self.k, device=x.device),
+                    0, self.max_slices - 1,
+                )
+                for c in center_indices.tolist()
+            ], dim=0)  # (B, k)
+            selected_volume = torch.stack([
+                x[b, :, top_indices[b], :, :] for b in range(B)
+            ], dim=0)  # (B, 1, k, H, W)
+            slice_scores = torch.zeros(B, D, device=x.device, dtype=x.dtype)
+            if diag_config.ENABLE_SLICE_DIAGNOSTICS:
+                self.last_top_indices = top_indices.detach()
+                self.last_slice_scores = slice_scores.detach()
+            return selected_volume, slice_scores
+
         # Score each slice
         features = self.scorer(x)  # (B, 16, D*16)
         B_feat, C_feat, feat_len = features.shape
@@ -375,7 +554,16 @@ class AdaptiveSliceSelector(nn.Module):
             selected_volume.append(selected_slices.unsqueeze(0))
         
         selected_volume = torch.cat(selected_volume, dim=0)  # (B, 1, k, H, W)
-        
+
+        # DIAGNOSTICS (optional, additive - see 01_source_code/diagnostics/slice_logger.py):
+        # stash the selection outcome as plain attributes so the training loop can read
+        # them for logging without changing this function's return signature or the
+        # forward computation above. .detach() so this cannot participate in autograd
+        # and cannot alter gradients; only read when diag_config.ENABLE_SLICE_DIAGNOSTICS.
+        if diag_config.ENABLE_SLICE_DIAGNOSTICS:
+            self.last_top_indices = top_indices.detach()
+            self.last_slice_scores = slice_scores.detach()
+
         return selected_volume, slice_scores
 
 # ===========================================================================================
@@ -454,7 +642,16 @@ class Conv2D5Stem(nn.Module):
         fused = 0
         for i, feat in enumerate(slice_features):
             fused = fused + alphas[:, i:i+1, :, :] * feat
-        
+
+        # DIAGNOSTICS (optional, additive - see 01_source_code/diagnostics/slice_logger.py):
+        # `alphas` is the one quantity in the slice-selection path that IS actually
+        # trained by gradient descent (unlike AdaptiveSliceSelector's ranking scores -
+        # see research_infra/PHASE_1_CODEBASE_AUDIT.md Section 6). Stash it read-only
+        # (.detach()) so the training loop can log it without touching this function's
+        # return value or the fusion computation above.
+        if diag_config.ENABLE_SLICE_DIAGNOSTICS:
+            self.last_fusion_alphas = alphas.detach()
+
         return fused  # (B, C_0, H, W)
 
 # ===========================================================================================
@@ -636,17 +833,22 @@ class HybridMiniSwin2D5_ResNetEncoder(nn.Module):
                 param.requires_grad = False
             print("✓ Frozen AdaptiveSliceSelector - preserving MAE-learned slice selection")
         
-    def forward(self, x):
+    def forward(self, x, center_indices=None):
         """
         Args:
             x: (B, 1, D, H, W) - 3D volume
+            center_indices: optional (B,) LongTensor, forwarded to the slice selector -
+                only meaningful when the selector's selection_mode is 'dynamic_window'
+                (see AdaptiveSliceSelector.forward and research_infra/phase8/
+                reproduce_attempt_multislice.py); ignored otherwise. Default None
+                preserves the exact original behavior.
         Returns:
             features: List of feature maps at each stage
             bottleneck: (B, C_4, H/16, W/16)
         """
         # NOVEL: Adaptive slice selection (learns most informative slices)
         if self.use_adaptive_selection:
-            x, slice_scores = self.slice_selector(x)  # (B, 1, k, H, W), (B, D)
+            x, slice_scores = self.slice_selector(x, center_indices=center_indices)  # (B, 1, k, H, W), (B, D)
             # slice_scores could be saved for visualization/analysis if needed
         
         # Stem (now processes selected slices)
@@ -873,15 +1075,18 @@ class HybridMiniSwin2D5_CBAM(nn.Module):
         self.cbam = CBAM_Module(channels=channels[-1])
         self.decoder = LightweightDecoder(channels=list(reversed(channels)))
         
-    def forward(self, x):
+    def forward(self, x, center_indices=None):
         """
         Args:
             x: (B, 1, D, H, W) - 3D volume
+            center_indices: optional (B,) LongTensor, forwarded to the encoder's slice
+                selector - see HybridMiniSwin2D5_ResNetEncoder.forward. Default None
+                preserves the exact original behavior.
         Returns:
             (B, 1, H, W) - 2D segmentation mask for central slice
         """
         # Encode
-        features = self.encoder(x)
+        features = self.encoder(x, center_indices=center_indices)
         
         # CBAM attention on bottleneck
         bottleneck = features[-1]
@@ -1299,44 +1504,59 @@ def atomic_save(obj, filepath):
                 pass
         return False
 
-def train_mae_epoch(model, loader, optimizer, scaler, device):
+def train_mae_epoch(model, loader, optimizer, scaler, device, epoch=None):
     """Train MAE for one epoch."""
     model.train()
     total_loss = 0
-    
+
+    global _mae_loss_logger
+    if diag_config.ENABLE_LOSS_DIAGNOSTICS and _mae_loss_logger is None:
+        _mae_loss_logger = LossLogger(MAE_PRETRAIN_DIR, phase_name='mae')
+
     pbar = tqdm(loader, desc="MAE Training")
-    for batch in pbar:
+    for batch_idx, batch in enumerate(pbar):
         images = batch["image"].to(device)
-        
+
         with autocast(enabled=use_amp):
             reconstruction, mask, bottleneck = model(images)
-            
+
             # Compute reconstruction loss (L1) on masked positions only
             # reconstruction: (B, H*W, C)
             # bottleneck: (B, C, H, W)
             # mask: (B, H*W) - 1 for masked positions
-            
+
             target = bottleneck.flatten(2).transpose(1, 2)  # (B, H*W, C)
-            
+
             # Compute loss only on masked positions
             mask_expanded = mask.unsqueeze(-1)  # (B, H*W, 1)
             loss = F.l1_loss(reconstruction * mask_expanded, target * mask_expanded)
-        
+
+        if diag_config.ENABLE_LOSS_DIAGNOSTICS:
+            _mae_loss_logger.log_batch(
+                epoch=epoch if epoch is not None else -1, batch_idx=batch_idx,
+                losses_dict={'total': loss.item()},
+                learning_rates={'encoder': optimizer.param_groups[0]['lr'], 'decoder': 0.0},
+                patient_ids=batch.get('patient_id'),
+            )
+
         optimizer.zero_grad()
         scaler.scale(loss).backward()
         scaler.step(optimizer)
         scaler.update()
-        
+
         total_loss += loss.item()
         pbar.set_postfix({"loss": loss.item()})
-    
+
+    if diag_config.ENABLE_LOSS_DIAGNOSTICS:
+        _mae_loss_logger.flush_epoch()
+
     return total_loss / len(loader)
 
-def train_segmentation_epoch(model, loader, criterion, optimizer, scaler, device, 
-                            teacher_model=None, epoch=1, tau_pl=0.5):
+def train_segmentation_epoch(model, loader, criterion, optimizer, scaler, device,
+                            teacher_model=None, epoch=1, tau_pl=0.5, gradient_scale_hook=None):
     """
     Train segmentation model for one epoch with USALD support.
-    
+
     Args:
         model: Student model (being optimized)
         loader: Training data loader
@@ -1347,61 +1567,84 @@ def train_segmentation_epoch(model, loader, criterion, optimizer, scaler, device
         teacher_model: Teacher model (EMA of student, for consistency loss)
         epoch: Current epoch number (for warmup logic)
         tau_pl: Pseudo-label threshold (adaptive, from FDR control)
-    
+        gradient_scale_hook: Optional callable(model) invoked after the real backward
+            pass and after scaler.unscale_(optimizer) (so it sees true, unscaled
+            gradients), but before optimizer.step(). Used only by the Phase 8
+            optimization-prototype experiment (research_infra/phase8/) to apply
+            component-specific gradient scaling; default None reproduces the exact
+            original training behavior (no hook called, no unscale_ forced before step
+            unless ENABLE_GRADIENT_DIAGNOSTICS is also on).
+
     Returns:
         tuple: (avg_loss, avg_dice, loss_consistency, loss_pseudo, mean_evidence)
     """
     model.train()
     if teacher_model is not None:
         teacher_model.eval()  # Teacher always in eval mode
-    
+
     total_loss = 0
     total_dice = 0
     total_loss_consistency = 0
     total_loss_pseudo = 0
     total_evidence = 0
-    
+
     evid_criterion = EvidentialBetaLoss(lambda_kl=LAMBDA_EVIDENTIAL) if USALD_ENABLED else None
     use_consistency = USALD_CONSISTENCY_ENABLED and teacher_model is not None and epoch > WARMUP_EPOCHS
-    
+
+    # ==== DIAGNOSTICS SETUP (optional, additive - see 01_source_code/diagnostics/) ====
+    # Lazily-initialized module-level loggers, only created when their flag is on.
+    # When every ENABLE_* flag is False, none of this block executes and the function
+    # is identical to the pre-instrumentation version above.
+    global _seg_loss_logger, _seg_grad_logger, _seg_slice_logger, _seg_sim_logger
+    if diag_config.ENABLE_LOSS_DIAGNOSTICS and _seg_loss_logger is None:
+        _seg_loss_logger = LossLogger(SEGMENTATION_DIR, phase_name='segmentation')
+    if diag_config.ENABLE_GRADIENT_DIAGNOSTICS and _seg_grad_logger is None:
+        _seg_grad_logger = GradientLogger(SEGMENTATION_DIR, model, phase_name='segmentation')
+    if diag_config.ENABLE_SLICE_DIAGNOSTICS and _seg_slice_logger is None:
+        _seg_slice_logger = SliceLogger(SEGMENTATION_DIR, phase_name='segmentation')
+    if diag_config.ENABLE_GRADIENT_SIMILARITY and _seg_sim_logger is None:
+        _seg_sim_logger = GradientSimilarityLogger(SEGMENTATION_DIR, phase_name='segmentation')
+    # ==== END DIAGNOSTICS SETUP ====
+
     pbar = tqdm(loader, desc="Segmentation Training")
-    for batch in pbar:
+    for batch_idx, batch in enumerate(pbar):
         images = batch["image"].to(device)
         labels = batch["label"].to(device)
-        
+
         # Extract center slice label
-        center_slice_label = labels[:, :, labels.shape[2]//2, :, :]  # (B, 1, H, W)
-        
+        center_index = labels.shape[2] // 2
+        center_slice_label = labels[:, :, center_index, :, :]  # (B, 1, H, W)
+
         with autocast(enabled=use_amp):
             # Student forward pass
             out_dict = model(images)  # dict: {'probs': (B,1,H,W), 'alpha': (B,2,H,W)}
             probs = out_dict["probs"]
-            
+
             # Supervised loss
             loss = criterion(probs, center_slice_label)
-            
+
             # Evidential loss (if USALD enabled)
             loss_evid = 0.0
             if USALD_ENABLED and ("alpha" in out_dict):
                 loss_evid = evid_criterion(out_dict["alpha"], center_slice_label)
                 loss = loss + loss_evid
-                
+
                 # Track mean evidence S = α₀ + α₁ - 2
                 alpha0, alpha1 = out_dict["alpha"][:, 0], out_dict["alpha"][:, 1]
                 evidence_S = (alpha0 + alpha1 - 2.0).mean().item()
                 total_evidence += evidence_S
-            
+
             # Consistency loss (after warmup)
             loss_cons = 0.0
             if use_consistency:
                 with torch.no_grad():
                     teacher_dict = teacher_model(images)
                     teacher_probs = teacher_dict["probs"]
-                
+
                 loss_cons = consistency_loss(probs, teacher_probs, gamma=UNCERTAINTY_GAMMA)
                 loss = loss + LAMBDA_CONSISTENCY * loss_cons
                 total_loss_consistency += loss_cons.item()
-            
+
             # Pseudo-label loss (after warmup, on high-confidence teacher predictions)
             loss_pl = 0.0
             if use_consistency and USALD_FDR_ENABLED:
@@ -1409,37 +1652,133 @@ def train_segmentation_epoch(model, loader, criterion, optimizer, scaler, device
                     # Generate pseudo-labels from teacher with adaptive threshold
                     pseudo_mask = ((teacher_probs >= tau_pl) | (teacher_probs <= (1.0 - tau_pl))).float()
                     pseudo_labels = (teacher_probs >= tau_pl).float()
-                
+
                 # Only compute loss on pseudo-labeled regions
                 if pseudo_mask.sum() > 0:
                     loss_pl = F.binary_cross_entropy(probs * pseudo_mask, pseudo_labels * pseudo_mask, reduction='sum') / (pseudo_mask.sum() + 1e-7)
                     loss = loss + LAMBDA_PSEUDO * loss_pl
                     total_loss_pseudo += loss_pl.item()
-        
+
+        # ==== LOSS DIAGNOSTICS (optional, read-only - does not affect `loss`) ====
+        if diag_config.ENABLE_LOSS_DIAGNOSTICS:
+            hybrid_components = extract_loss_components(criterion, probs, center_slice_label)
+            _seg_loss_logger.log_batch(
+                epoch=epoch, batch_idx=batch_idx,
+                losses_dict={
+                    'dice': hybrid_components['dice'],
+                    'focal_tversky': hybrid_components['focal_tversky'],
+                    'hybrid': hybrid_components['hybrid'],
+                    'evidential': loss_evid.item() if torch.is_tensor(loss_evid) else loss_evid,
+                    'total': loss.item(),
+                },
+                learning_rates={'encoder': optimizer.param_groups[0]['lr'],
+                                 'decoder': optimizer.param_groups[1]['lr']},
+                patient_ids=batch.get('patient_id'),
+            )
+
+        # ==== SLICE DIAGNOSTICS (optional, read-only) ====
+        # Reads attributes stashed during the forward pass above by AdaptiveSliceSelector
+        # and Conv2D5Stem (see their forward() methods) - does not re-run the forward pass
+        # and does not affect `loss`.
+        if diag_config.ENABLE_SLICE_DIAGNOSTICS:
+            selector = model.encoder.slice_selector if model.encoder.use_adaptive_selection else None
+            if selector is not None and hasattr(selector, 'last_top_indices'):
+                _seg_slice_logger.log_batch(
+                    epoch=epoch, batch_idx=batch_idx,
+                    top_indices=selector.last_top_indices,
+                    slice_scores=selector.last_slice_scores,
+                    fusion_alphas=getattr(model.encoder.stem, 'last_fusion_alphas', None),
+                    center_index=center_index,
+                    patient_ids=batch.get('patient_id'),
+                    cases=batch.get('case'),
+                    timepoints=batch.get('modality'),
+                )
+
+        # ==== GRADIENT DIAGNOSTICS: loss-specific attribution + similarity ====
+        # Must run BEFORE the real optimizer.zero_grad()/backward() below, using isolated
+        # backward(retain_graph=True) passes on freshly recomputed (mathematically
+        # identical, deterministic) sub-losses. Each isolated call zeroes the grads it
+        # touches immediately after measuring, so this cannot contaminate the real
+        # backward pass that follows. Gated by per-N-batches sampling to bound overhead.
+        run_loss_specific = (diag_config.ENABLE_GRADIENT_DIAGNOSTICS
+                              and batch_idx % diag_config.LOSS_SPECIFIC_GRADIENT_EVERY_N_BATCHES == 0)
+        run_similarity = (diag_config.ENABLE_GRADIENT_SIMILARITY
+                           and batch_idx % diag_config.GRADIENT_SIMILARITY_EVERY_N_BATCHES == 0)
+        if run_loss_specific or run_similarity:
+            loss_dice_tensor = criterion.dice_loss(probs, center_slice_label)
+            loss_ft_tensor = criterion.focal_tversky(probs, center_slice_label)
+            loss_evid_tensor = loss_evid if torch.is_tensor(loss_evid) else torch.zeros((), device=probs.device)
+            if run_loss_specific:
+                _seg_grad_logger.log_loss_specific_gradients(
+                    loss_dice_tensor, loss_ft_tensor, loss_evid_tensor, model)
+            if run_similarity:
+                sims = _seg_sim_logger.log_gradient_similarity(
+                    epoch, batch_idx, model, loss_dice_tensor, loss_ft_tensor, loss_evid_tensor)
+
         optimizer.zero_grad()
         scaler.scale(loss).backward()
+
+        # ==== GRADIENT DIAGNOSTICS: total / component-wise / layer-wise norms ====
+        # scaler.unscale_() MUST happen before scaler.step() so logged norms reflect true
+        # (unscaled) gradient magnitudes, not the AMP loss-scale factor. Calling it here
+        # does not change scaler.step()'s behavior - PyTorch's GradScaler is designed to
+        # have unscale_() called at most once before step() per iteration, which is
+        # exactly what happens whether or not this flag is on (previously step() did its
+        # own internal unscale; now we do it explicitly one line earlier, same net effect).
+        need_unscale = diag_config.ENABLE_GRADIENT_DIAGNOSTICS or (gradient_scale_hook is not None)
+        if need_unscale:
+            scaler.unscale_(optimizer)
+
+        if diag_config.ENABLE_GRADIENT_DIAGNOSTICS:
+            _seg_grad_logger.log_batch_gradients(epoch, batch_idx, model, amp_scale_factor=scaler.get_scale())
+            if batch_idx % diag_config.LAYER_WISE_EVERY_N_BATCHES == 0:
+                _seg_grad_logger.log_layer_wise_gradients(epoch, batch_idx, model)
+
+        # ==== PHASE 8 OPTIMIZATION-PROTOTYPE HOOK (optional, default None = no-op) ====
+        # Called after unscale_ (true gradients) and before step(), so it can rescale
+        # specific parameter groups' .grad in place. See research_infra/phase8/.
+        if gradient_scale_hook is not None:
+            gradient_scale_hook(model)
+
         scaler.step(optimizer)
         scaler.update()
-        
+
         # Update teacher via EMA (after warmup)
         if use_consistency:
             ema_update(model, teacher_model, decay=EMA_DECAY)
-        
+
         # Compute Dice
         pred_binary = (probs > 0.5).float()
         dice = 2 * (pred_binary * center_slice_label).sum() / (pred_binary.sum() + center_slice_label.sum() + 1e-7)
-        
+
         total_loss += loss.item()
         total_dice += dice.item()
-        
+
         pbar.set_postfix({
-            "loss": loss.item(), 
+            "loss": loss.item(),
             "dice": dice.item(),
             "cons": loss_cons if isinstance(loss_cons, float) else loss_cons.item() if use_consistency else 0.0
         })
-    
+
+    # ==== FLUSH DIAGNOSTIC LOGS (optional) ====
+    if diag_config.ENABLE_LOSS_DIAGNOSTICS:
+        _seg_loss_logger.flush_epoch()
+        summary = _seg_loss_logger.get_epoch_summary(epoch)
+        if summary:
+            print(f"\n[diagnostics] Epoch {epoch} loss breakdown: "
+                  f"dice={summary['mean_dice']:.4f}±{summary['std_dice']:.4f}  "
+                  f"ft={summary['mean_ft']:.4f}±{summary['std_ft']:.4f}  "
+                  f"evid={summary['mean_evid']:.6f}±{summary['std_evid']:.6f}  "
+                  f"total={summary['mean_total']:.4f}±{summary['std_total']:.4f}")
+    if diag_config.ENABLE_GRADIENT_DIAGNOSTICS:
+        _seg_grad_logger.flush_batch()
+    if diag_config.ENABLE_SLICE_DIAGNOSTICS:
+        _seg_slice_logger.flush()
+    if diag_config.ENABLE_GRADIENT_SIMILARITY:
+        _seg_sim_logger.flush()
+
     n = len(loader)
-    return (total_loss / n, total_dice / n, 
+    return (total_loss / n, total_dice / n,
             total_loss_consistency / n if use_consistency else 0.0,
             total_loss_pseudo / n if use_consistency else 0.0,
             total_evidence / n if USALD_ENABLED else 0.0)
@@ -1652,7 +1991,7 @@ if __name__ == "__main__":
     for epoch in range(start_epoch_mae, MAE_EPOCHS + 1):
         print(f"\nMAE Epoch {epoch}/{MAE_EPOCHS}")
         
-        mae_loss = train_mae_epoch(mae_model, train_loader, mae_optimizer, mae_scaler, device)
+        mae_loss = train_mae_epoch(mae_model, train_loader, mae_optimizer, mae_scaler, device, epoch=epoch)
         mae_scheduler.step()
         
         print(f"MAE Loss: {mae_loss:.4f}")
@@ -1975,7 +2314,11 @@ if __name__ == "__main__":
     if os.path.exists(best_model_path):
         # Create deployment-ready model (model weights only, no optimizer/scheduler)
         deployment_model = HybridMiniSwin2D5_CBAM(k_slices=K_SLICES, channels=STAGE_CHANNELS).to('cpu')
-        checkpoint = torch.load(best_model_path, map_location='cpu')
+        # ENV-COMPATIBILITY FIX: PyTorch 2.6+ changed torch.load's default weights_only to
+        # True, which now rejects the numpy scalars this codebase's own checkpoint dicts
+        # contain (e.g. val_metrics values). weights_only=False is safe here because the
+        # checkpoint was just written by this same process moments earlier - trusted source.
+        checkpoint = torch.load(best_model_path, map_location='cpu', weights_only=False)
         deployment_model.load_state_dict(checkpoint['model_state_dict'])
         
         # Save model in deployment format (weights only)

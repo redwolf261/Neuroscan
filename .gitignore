@@ -26,6 +26,7 @@ ESSENTIAL_MODELS_BACKUP/
 **/preprocessed/
 **/processed/
 **/.resume_checkpoints/
+**/.resume_checkpoints_frozen_*/
 
 # ================================================================
 # PYTHON
@@ -89,6 +90,7 @@ ipython_config.py
 
 # Virtual environments
 venv/
+venv_gpu/
 env/
 ENV/
 env.bak/
@@ -168,6 +170,12 @@ checkpoints/
 *.csv
 results/
 experiments/
+
+# Exception: research_infra/ CSVs are small, hand-curated experiment result
+# tables (metrics summaries, comparison tables) that back the phase reports -
+# not machine-noise per-batch diagnostic dumps (those live outside the repo,
+# under the Google-Drive-style OUTPUT_DIR, and stay ignored).
+!research_infra/**/*.csv
 
 # ================================================================
 # OPERATING SYSTEM

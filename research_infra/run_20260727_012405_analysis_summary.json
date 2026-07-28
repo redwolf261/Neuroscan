@@ -1,0 +1,330 @@
+{
+  "q1_component_grad_norm_mean": {
+    "encoder_grad_norm": 0.027533286853448278,
+    "decoder_grad_norm": 0.030424536163793103,
+    "cbam_grad_norm": 0.0002891439224137931
+  },
+  "q1_component_grad_norm_std": {
+    "encoder_grad_norm": 0.05389364828481311,
+    "decoder_grad_norm": 0.007587150274739808,
+    "cbam_grad_norm": 0.0004573854393615513
+  },
+  "q1_decoder_to_encoder_ratio": 1.1050092321245228,
+  "q1_per_loss_grad_norm_mean": {
+    "grad_norm_loss_dice": 0.02693418926724138,
+    "grad_norm_loss_ft": 0.033479556982758625,
+    "grad_norm_loss_evid": 0.02781658931034483
+  },
+  "q1_per_loss_grad_norm_share": {
+    "grad_norm_loss_dice": 0.3052713003547384,
+    "grad_norm_loss_ft": 0.379456303437273,
+    "grad_norm_loss_evid": 0.3152723962079887
+  },
+  "q2_q3_similarity_by_epoch": {
+    "1": {
+      "cosine_sim_dice_vs_ft": 0.689969,
+      "cosine_sim_dice_vs_evid": -0.013653750000000001,
+      "cosine_sim_ft_vs_evid": -0.012821125000000001,
+      "cosine_sim_hybrid_vs_evid": -0.013426
+    },
+    "2": {
+      "cosine_sim_dice_vs_ft": 0.697056625,
+      "cosine_sim_dice_vs_evid": -0.069919125,
+      "cosine_sim_ft_vs_evid": -0.077703,
+      "cosine_sim_hybrid_vs_evid": -0.076002875
+    },
+    "3": {
+      "cosine_sim_dice_vs_ft": 0.70706175,
+      "cosine_sim_dice_vs_evid": -0.002742625,
+      "cosine_sim_ft_vs_evid": 0.001636375,
+      "cosine_sim_hybrid_vs_evid": -0.0005646249999999996
+    },
+    "4": {
+      "cosine_sim_dice_vs_ft": 0.647604125,
+      "cosine_sim_dice_vs_evid": -0.012532375,
+      "cosine_sim_ft_vs_evid": -0.018269624999999998,
+      "cosine_sim_hybrid_vs_evid": -0.016924625
+    },
+    "5": {
+      "cosine_sim_dice_vs_ft": 0.485199,
+      "cosine_sim_dice_vs_evid": -0.001887125,
+      "cosine_sim_ft_vs_evid": 2.337499999999996e-05,
+      "cosine_sim_hybrid_vs_evid": -0.0007339999999999998
+    },
+    "6": {
+      "cosine_sim_dice_vs_ft": 0.530407,
+      "cosine_sim_dice_vs_evid": 0.0051217500000000004,
+      "cosine_sim_ft_vs_evid": 0.0036466250000000006,
+      "cosine_sim_hybrid_vs_evid": 0.0050176249999999995
+    },
+    "7": {
+      "cosine_sim_dice_vs_ft": 0.6273415,
+      "cosine_sim_dice_vs_evid": -0.006985,
+      "cosine_sim_ft_vs_evid": -0.0019700000000000004,
+      "cosine_sim_hybrid_vs_evid": -0.004138375
+    },
+    "8": {
+      "cosine_sim_dice_vs_ft": 0.546049125,
+      "cosine_sim_dice_vs_evid": 0.01047425,
+      "cosine_sim_ft_vs_evid": -0.02703875,
+      "cosine_sim_hybrid_vs_evid": -0.016222874999999998
+    },
+    "9": {
+      "cosine_sim_dice_vs_ft": 0.5767165,
+      "cosine_sim_dice_vs_evid": -0.0015877499999999993,
+      "cosine_sim_ft_vs_evid": -0.008750625,
+      "cosine_sim_hybrid_vs_evid": -0.005960375
+    },
+    "10": {
+      "cosine_sim_dice_vs_ft": 0.591958,
+      "cosine_sim_dice_vs_evid": -0.004582124999999999,
+      "cosine_sim_ft_vs_evid": -0.0041798749999999996,
+      "cosine_sim_hybrid_vs_evid": -0.004393375000000001
+    },
+    "11": {
+      "cosine_sim_dice_vs_ft": 0.573169125,
+      "cosine_sim_dice_vs_evid": 0.009757625,
+      "cosine_sim_ft_vs_evid": -0.012937625000000001,
+      "cosine_sim_hybrid_vs_evid": -0.003278124999999999
+    },
+    "12": {
+      "cosine_sim_dice_vs_ft": 0.6018281249999999,
+      "cosine_sim_dice_vs_evid": 0.0024309999999999996,
+      "cosine_sim_ft_vs_evid": 0.004744499999999999,
+      "cosine_sim_hybrid_vs_evid": 0.004058999999999999
+    },
+    "13": {
+      "cosine_sim_dice_vs_ft": 0.48303087499999997,
+      "cosine_sim_dice_vs_evid": -0.0030246249999999995,
+      "cosine_sim_ft_vs_evid": -0.0005217500000000001,
+      "cosine_sim_hybrid_vs_evid": -0.0007873750000000001
+    },
+    "14": {
+      "cosine_sim_dice_vs_ft": 0.590836625,
+      "cosine_sim_dice_vs_evid": 0.011349874999999999,
+      "cosine_sim_ft_vs_evid": 0.013456875,
+      "cosine_sim_hybrid_vs_evid": 0.012978
+    },
+    "15": {
+      "cosine_sim_dice_vs_ft": 0.496238125,
+      "cosine_sim_dice_vs_evid": -0.012288375000000002,
+      "cosine_sim_ft_vs_evid": 0.01522225,
+      "cosine_sim_hybrid_vs_evid": 0.0003431249999999997
+    },
+    "16": {
+      "cosine_sim_dice_vs_ft": 0.396447375,
+      "cosine_sim_dice_vs_evid": -0.024873625000000003,
+      "cosine_sim_ft_vs_evid": -0.023359875,
+      "cosine_sim_hybrid_vs_evid": -0.0247375
+    },
+    "17": {
+      "cosine_sim_dice_vs_ft": 0.412496875,
+      "cosine_sim_dice_vs_evid": 0.009456875,
+      "cosine_sim_ft_vs_evid": -0.007570375,
+      "cosine_sim_hybrid_vs_evid": -6.199999999999999e-05
+    },
+    "18": {
+      "cosine_sim_dice_vs_ft": 0.592410375,
+      "cosine_sim_dice_vs_evid": -0.01700625,
+      "cosine_sim_ft_vs_evid": -0.008573375,
+      "cosine_sim_hybrid_vs_evid": -0.014095624999999999
+    },
+    "19": {
+      "cosine_sim_dice_vs_ft": 0.418407375,
+      "cosine_sim_dice_vs_evid": 0.0028638750000000005,
+      "cosine_sim_ft_vs_evid": 0.0010523750000000004,
+      "cosine_sim_hybrid_vs_evid": 0.001181124999999999
+    },
+    "20": {
+      "cosine_sim_dice_vs_ft": 0.482224125,
+      "cosine_sim_dice_vs_evid": -0.004774875,
+      "cosine_sim_ft_vs_evid": -0.013988125,
+      "cosine_sim_hybrid_vs_evid": -0.011104500000000002
+    },
+    "21": {
+      "cosine_sim_dice_vs_ft": 0.6743955,
+      "cosine_sim_dice_vs_evid": 0.018295125000000002,
+      "cosine_sim_ft_vs_evid": 0.024108125,
+      "cosine_sim_hybrid_vs_evid": 0.025562
+    },
+    "22": {
+      "cosine_sim_dice_vs_ft": 0.46517287500000004,
+      "cosine_sim_dice_vs_evid": -0.0003543750000000005,
+      "cosine_sim_ft_vs_evid": -0.0024415,
+      "cosine_sim_hybrid_vs_evid": -0.0013263750000000003
+    },
+    "23": {
+      "cosine_sim_dice_vs_ft": 0.60022575,
+      "cosine_sim_dice_vs_evid": -0.006816249999999999,
+      "cosine_sim_ft_vs_evid": -0.008537875,
+      "cosine_sim_hybrid_vs_evid": -0.00816225
+    },
+    "24": {
+      "cosine_sim_dice_vs_ft": 0.492460625,
+      "cosine_sim_dice_vs_evid": 0.054797125,
+      "cosine_sim_ft_vs_evid": -0.003042375,
+      "cosine_sim_hybrid_vs_evid": 0.016275500000000002
+    },
+    "25": {
+      "cosine_sim_dice_vs_ft": 0.384053125,
+      "cosine_sim_dice_vs_evid": -0.0130995,
+      "cosine_sim_ft_vs_evid": -0.02232975,
+      "cosine_sim_hybrid_vs_evid": -0.020819999999999998
+    },
+    "26": {
+      "cosine_sim_dice_vs_ft": 0.383585375,
+      "cosine_sim_dice_vs_evid": 0.0007675,
+      "cosine_sim_ft_vs_evid": -0.004486624999999999,
+      "cosine_sim_hybrid_vs_evid": -0.001517375
+    },
+    "27": {
+      "cosine_sim_dice_vs_ft": 0.486338875,
+      "cosine_sim_dice_vs_evid": 0.013656500000000002,
+      "cosine_sim_ft_vs_evid": 0.012208499999999999,
+      "cosine_sim_hybrid_vs_evid": 0.013436125
+    },
+    "28": {
+      "cosine_sim_dice_vs_ft": 0.499922,
+      "cosine_sim_dice_vs_evid": 0.00669425,
+      "cosine_sim_ft_vs_evid": -0.005325,
+      "cosine_sim_hybrid_vs_evid": -0.00025062500000000085
+    },
+    "29": {
+      "cosine_sim_dice_vs_ft": 0.58160775,
+      "cosine_sim_dice_vs_evid": 0.00509775,
+      "cosine_sim_ft_vs_evid": -0.007975875,
+      "cosine_sim_hybrid_vs_evid": -0.003279875
+    }
+  },
+  "q2_q3_correlation_with_epoch": {
+    "cosine_sim_dice_vs_ft": -0.1542937213969576,
+    "cosine_sim_dice_vs_evid": 0.18940467338614492,
+    "cosine_sim_ft_vs_evid": 0.12385028108308302,
+    "cosine_sim_hybrid_vs_evid": 0.16442531666852667
+  },
+  "q2_q3_sign_changes_across_epochs": {
+    "cosine_sim_dice_vs_ft": 0,
+    "cosine_sim_dice_vs_evid": 17,
+    "cosine_sim_ft_vs_evid": 14,
+    "cosine_sim_hybrid_vs_evid": 14
+  },
+  "q4_component_gradient_summary": {
+    "CBAM": {
+      "mean": 0.00014497827586206898,
+      "std": 0.000276391839325361,
+      "count": 696
+    },
+    "Conv2D5Stem (2.5D fusion)": {
+      "mean": 0.0006387687931034482,
+      "std": 0.002377569223813624,
+      "count": 1856
+    },
+    "Decoder evidential/causal heads": {
+      "mean": 0.006720663663793104,
+      "std": 0.004160858794640757,
+      "count": 2552
+    },
+    "Decoder probability head": {
+      "mean": 0.004062863340517241,
+      "std": 0.006777586174005321,
+      "count": 464
+    },
+    "Decoder upsample/skip": {
+      "mean": 0.0007997933620689654,
+      "std": 0.002169582443124321,
+      "count": 7424
+    },
+    "Encoder ResBlocks (incl. Mini-Swin attn)": {
+      "mean": 0.0009247500145348836,
+      "std": 0.004481631645415373,
+      "count": 39904
+    }
+  },
+  "q4_components_with_zero_recorded_gradient": [
+    "AdaptiveSliceSelector"
+  ],
+  "q5_phase_stats": {
+    "early": {
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mean_loss_dice": 0.995956625,
+      "mean_loss_focal_tversky": 0.9950085000000001,
+      "mean_loss_evidential": 0.050729194444444445,
+      "mean_loss_total": 1.0462119305555555
+    },
+    "mid": {
+      "epochs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "mean_loss_dice": 0.9939391805555557,
+      "mean_loss_focal_tversky": 0.9927508055555556,
+      "mean_loss_evidential": 0.043886180555555564,
+      "mean_loss_total": 1.0372312222222222
+    },
+    "late": {
+      "epochs": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "mean_loss_dice": 0.9924542272727273,
+      "mean_loss_focal_tversky": 0.9910019772727273,
+      "mean_loss_evidential": 0.04082604545454546,
+      "mean_loss_total": 1.0325541363636364
+    }
+  },
+  "q5_grad_phase_stats": {
+    "early": {
+      "mean_total_grad_norm": 0.04330511916666667,
+      "mean_encoder_grad_norm": 0.02353044263888889,
+      "mean_decoder_grad_norm": 0.03192553763888888
+    },
+    "mid": {
+      "mean_total_grad_norm": 0.041481569027777776,
+      "mean_encoder_grad_norm": 0.022962572361111114,
+      "mean_decoder_grad_norm": 0.02952582111111111
+    },
+    "late": {
+      "mean_total_grad_norm": 0.05193262545454546,
+      "mean_encoder_grad_norm": 0.03454801670454546,
+      "mean_decoder_grad_norm": 0.02993175636363636
+    }
+  },
+  "q6_inefficiency_signals": {
+    "total_grad_norm_coefficient_of_variation": 1.0925684947074565,
+    "max_total_grad_norm": 0.55530944,
+    "min_total_grad_norm": 0.02538324,
+    "any_grad_norm_near_zero (<1e-6)": false,
+    "any_grad_norm_very_large (>10)": false,
+    "fraction_of_batches_with_negative_similarity": {
+      "cosine_sim_dice_vs_ft": 0.02586206896551724,
+      "cosine_sim_dice_vs_evid": 0.43103448275862066,
+      "cosine_sim_ft_vs_evid": 0.49137931034482757
+    }
+  }
+}
