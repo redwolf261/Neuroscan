@@ -1,0 +1,51 @@
+# BraTS Training Configuration
+# Baseline training with frozen NeuroScan architecture
+
+dataset:
+  root_dir: "Dataset/Training"
+  val_split: 0.1  # 10% validation split
+  target_shape: [64, 64, 64]  # Resize target
+  normalize: true
+
+model:
+  in_channels: 1  # FLAIR only
+  out_channels: 1  # Binary segmentation (tumor vs background)
+  architecture: "HybridMiniSwin2D5_CSRF"  # From final_model.py
+
+training:
+  epochs: 50
+  batch_size: 8
+  learning_rate: 0.0004
+  weight_decay: 0.00001
+  num_workers: 4
+
+  # Loss configuration
+  loss:
+    type: "HybridLoss"  # From final_model.py
+    enable_evidential: true
+    evidential_weight: 0.5
+
+  # Optimizer
+  optimizer: "Adam"
+  scheduler: "CosineAnnealingLR"
+  warmup_epochs: 5
+
+  # Checkpointing
+  save_dir: "checkpoints/brats_baseline"
+  save_frequency: 5  # Save every N epochs
+  early_stopping_patience: 15
+
+validation:
+  frequency: 1  # Validate every epoch
+  metrics: ["dice", "iou", "precision", "recall"]
+
+hardware:
+  device: "cuda"  # or "cpu"
+  mixed_precision: false  # Can enable for larger batches
+
+notes: |
+  Baseline training on BraTS 2023 GLI dataset.
+  Uses T2-FLAIR modality only (single channel input).
+  Original NeuroScan architecture unchanged.
+  Segmentation converted to binary (tumor vs background).
+  No optimizer modifications yet - pure baseline.
