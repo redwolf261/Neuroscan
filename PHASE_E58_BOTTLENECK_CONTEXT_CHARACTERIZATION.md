@@ -59,6 +59,25 @@ Paired comparisons (all vs. zero, and against each other):
 2. Wrong context (a foreign subject's bottleneck) is causally worse than no context (zero) — a real, significant, and mildly surprising finding: the decoder does not treat a plausible-but-wrong coarse representation as "no information," it treats it as actively misleading signal.
 3. This "actively misleading" effect, however, is **not itself the small-lesion-specific phenomenon** E48 established — it appears to be a general property of the bottleneck pathway (wrong context hurts), not a size-dependent one specifically. The two causal findings (E48's size-dependence, E58's misleading-donor effect) are both real but do not yet compose into one clean, unified story.
 
+## Stage 2b — Checkpoint-artifact control (re-run Stage 2 on E48's own checkpoint)
+
+Per explicit instruction, before interpreting Stage 2's finding (wrong donor worse than zero, size-signature vanishing under substitution) as meaningful, the same protocol was re-run on E48's own original checkpoint (E46/v5, attention-gate model) — identical donor-selection logic and seed, only the checkpoint (and correspondingly the gate's own recomputation from the substituted bottleneck, matching E48's own established convention) differs. Both bit-for-bit sanity checks passed again (max abs diff 0.0).
+
+| Condition | Mean Dice drop | Spearman rho(size, drop) | Permutation p |
+|---|---:|---:|---:|
+| Zero (this run) | 0.2717 | −0.383 | <0.001 |
+| Zero (E48's own original reference, same checkpoint) | 0.3205 | −0.454 | <0.001 |
+| Size-matched donor | **0.5484** | **−0.215** | **0.015** |
+| Random donor | 0.5730 | −0.016 | 0.869 |
+
+Paired comparisons: both donor conditions are dramatically and significantly worse than zero (p<0.0001 for both, paired t-test and Wilcoxon) — donor substitution roughly **doubles** the Dice damage relative to zeroing on this checkpoint, a much larger effect than seen on the plain v3 checkpoint (where the zero-vs-random-donor difference was 0.055 Dice, p=0.026; here it's 0.301 Dice, p<0.0001).
+
+**The checkpoint-artifact control confirms the core finding is real, not an artifact**: "wrong context is worse than no context" reproduces cleanly on both checkpoints, and more strongly on E48's own.
+
+**A new, more specific finding emerged from this control that Stage 2 alone could not show**: on this checkpoint, the size-matched donor condition **retains a statistically significant, if attenuated, size-dependent signature** (rho=−0.215, p=0.015) — unlike Stage 2's own result on the plain v3 checkpoint, where size-matching made no detectable difference (rho≈0, p=0.996). Only the *random* donor's size-signature fully vanishes here (rho=−0.016, p=0.869). This asymmetry between the two checkpoints — one has an attention gate reading the bottleneck, one doesn't — is a genuinely new, unplanned observation, not one of the pre-declared hypotheses, and is reported honestly as such rather than folded into either pre-declared decision rule.
+
+**This raises a specific, previously unasked question**: does the attention gate's own presence (not just the bottleneck's raw content) mediate whether donor substitution preserves or destroys the size-dependent signature? This was not tested by any prior E58 stage and would require deliberately isolating the gate's own contribution (e.g. repeating Stage 2b's substitution but with the gate forced to a fixed/frozen state rather than recomputed from the substituted bottleneck) — a natural next diagnostic step, not a mechanism design.
+
 ## What this means for next steps (explicitly not a novelty claim)
 
 Per the pre-declared framing, this phase's job was to determine *where to search*, not to produce a mechanism. The result is genuinely informative but doesn't point at one single clean target:
