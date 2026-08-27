@@ -78,17 +78,36 @@ Paired comparisons: both donor conditions are dramatically and significantly wor
 
 **This raises a specific, previously unasked question**: does the attention gate's own presence (not just the bottleneck's raw content) mediate whether donor substitution preserves or destroys the size-dependent signature? This was not tested by any prior E58 stage and would require deliberately isolating the gate's own contribution (e.g. repeating Stage 2b's substitution but with the gate forced to a fixed/frozen state rather than recomputed from the substituted bottleneck) — a natural next diagnostic step, not a mechanism design.
 
+## Stage 3 — Out-of-distribution ablation confound test
+
+Before treating the donor-substitution finding (Stages 2/2b) as a genuine "representation compatibility" phenomenon worth a novelty search, a literature check found this exact pattern — a plausible-but-wrong substituted activation being more damaging than zeroing — is already a named, actively-studied confound in the mechanistic-interpretability literature: the "out-of-distribution ablation problem" (Li & Janson, NeurIPS 2024). Resampling/substitution-style ablations are explicitly documented as unreliable because they can push a model into activation regimes never seen during training, so the resulting damage may reflect generic OOD confusion rather than the causal importance of the substituted content.
+
+This was tested directly, not just accepted from the literature: **mean-bottleneck ablation** (replacing each subject's bottleneck with the mean bottleneck across all 125 validation subjects — a smooth, in-distribution-aggregate, non-subject-specific signal, distinct from both zero and a real donor) was run on the same checkpoint as Stage 2. Sanity check passed (max abs diff 0.0).
+
+| Condition | Mean Dice drop |
+|---|---:|
+| Zero | 0.2554 |
+| **Mean bottleneck (new, this stage)** | **0.2119** |
+| Size-matched donor (Stage 2) | 0.2700 |
+| Random donor (Stage 2) | 0.3098 |
+
+Paired comparisons: mean-bottleneck ablation is significantly **less** damaging than both donor conditions (vs. random donor: p<0.0001; vs. size-matched donor: p=0.002), and its damage sits close to — in fact numerically slightly below — zero's own (difference not quite significant, p=0.071).
+
+**Verdict: OOD_CONFOUND_SUPPORTED.** A generic, non-informative, in-distribution-aggregate signal (mean) does comparatively little damage, similar to zero. Donor substitution's *extra* damage over zero appears specific to injecting a real, structured, wrong subject's signal — exactly the pattern the out-of-distribution ablation confound predicts. This is evidence *against* treating the donor-substitution finding as a genuine, novel "cross-subject representation compatibility" phenomenon, and evidence *for* the more mundane explanation: substituting a real donor pushes the decoder into an activation regime it never trained on, and the degraded output reflects that novelty, not a real causal property worth building a mechanism around.
+
 ## What this means for next steps (explicitly not a novelty claim)
 
-Per the pre-declared framing, this phase's job was to determine *where to search*, not to produce a mechanism. The result is genuinely informative but doesn't point at one single clean target:
+Per the pre-declared framing, this phase's job was to determine *where to search*, not to produce a mechanism. With Stage 3's result, the picture is now clearer than it was after Stage 2b alone:
 
-- The "distributed, not localized" finding (Stages 1/1b) rules out spatially-targeted mechanisms (crop/attend/route to a specific coarse region) as a promising direction — consistent with, and further explaining, why E46's attention gate (spatial routing) and E55's dual-resolution crop (spatially-targeted local refinement) both landed flat-to-negative.
-- The "wrong context is worse than none" finding (Stage 2) is real but doesn't decompose along the size axis the way E48's original finding did, so it does not yet sharpen the small-lesion question specifically — it may be a separate, general property of this architecture's bottleneck pathway worth investigating on its own terms, decoupled from the small-lesion framing that has driven the entire post-pivot arc since E48.
+- **The "distributed, not localized" finding (Stages 1/1b) stands.** Neither absolute nor lesion-relative spatial subsets of the bottleneck reproduce the full-ablation signature — this rules out spatially-targeted mechanisms (crop/attend/route to a specific coarse region) as a promising direction, consistent with why E46's attention gate and E55's dual-resolution crop both landed flat-to-negative.
+- **The "wrong context is worse than none" finding (Stages 2/2b) is real, reproduces across two checkpoints, but is most parsimoniously explained by a known measurement confound (Stage 3), not a genuine causal "compatibility" phenomenon.** Mean-bottleneck ablation — a generic, non-informative, in-distribution-aggregate signal — does comparatively little damage, close to zero's own. This shows the extra damage from donor substitution specifically requires injecting a real, structured, wrong subject's content, exactly the signature the out-of-distribution ablation confound predicts (Li & Janson, NeurIPS 2024). The literature check that should have preceded treating this as a novel finding was run only after the effect was already observed, and it correctly identified the mundane explanation before any mechanism was designed around the alternative.
 
-**Recommendation**: before any further mechanism design, this asymmetry between Stage 2's result and E48's original size-signature should itself be investigated — specifically, whether the "actively misleading donor" effect is present broadly across all lesion sizes or concentrated somewhere unexpected (e.g. large lesions, not small ones), since the current data doesn't resolve that. This is a cheap, disclosed next step, not a new architecture.
+**Recommendation: close this diagnostic line.** The E48→E58 causal chain is now complete and consistent: the bottleneck causally matters (E48), its relevant content does not localize spatially in any tested sense (Stages 1/1b), and the one candidate "genuinely new phenomenon" this phase surfaced (donor incompatibility) does not survive a direct confound check (Stage 3) — it is very likely the same out-of-distribution ablation artifact already documented elsewhere, not a novel, actionable causal property. No fresh novelty search or mechanism design is warranted from this specific line of investigation. The open question left standing from E48 itself — small lesions depend disproportionately on the bottleneck, and that dependence is real, causal, and distributed rather than localized — remains true and unexplained at the mechanistic level; this phase narrowed what it is *not* (not spatial routing, not a donor-compatibility effect) without identifying what it *is*.
 
 ## Artifacts on disk
 
 - `experiments/exp_e12_eggo_m/e58/run_e58_octant_ablation.py`, `E58_octant_ablation_table.json`, `E58_octant_summary.json`
 - `experiments/exp_e12_eggo_m/e58/run_e58b_lesion_conditioned_ablation.py`, `E58b_lesion_conditioned_table.json`, `E58b_summary.json`
 - `experiments/exp_e12_eggo_m/e58/run_e58c_bottleneck_substitution.py`, `E58c_substitution_table.json`, `E58c_summary.json`
+- `experiments/exp_e12_eggo_m/e58/run_e58d_substitution_e48_checkpoint.py`, `E58d_substitution_e48ckpt_table.json`, `E58d_summary.json`
+- `experiments/exp_e12_eggo_m/e58/run_e58e_ood_confound_test.py`, `E58e_ood_confound_table.json`, `E58e_summary.json`
