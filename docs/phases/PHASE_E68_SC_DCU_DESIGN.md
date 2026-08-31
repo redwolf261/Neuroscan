@@ -1,9 +1,65 @@
 # Phase E68 — SC-DCU Design: Self-Supervised Correspondence-Verified Deformable Skip Correction
 
-## Status: DESIGN ONLY. No code written, no training run. Per project discipline
-(design before implementation), this document is the complete mathematical
-specification, reviewed for correctness and novelty before any implementation
-begins.
+## Status: SUPERSEDED novelty claim; design retained as the substrate for a
+sharper, corrected hypothesis (H68-B, Section 7 below). A follow-up targeted
+novelty check found this phase's original novelty claim (Sections 1–5 below)
+too strong, and identified a real conceptual gap in the original design
+(Section 6 below) that the original document did not address. **Do not cite
+Sections 1–5's novelty claim; it is retracted.** See Section 7 for the
+corrected direction. No code has been written and no training has been run at
+any point in this phase — the correction below happened entirely at the
+design stage, which is what that stage is for.
+
+## Correction record (read this first)
+
+A follow-up targeted novelty search (not run by this session — supplied
+directly, then independently checked against the cited sources) found:
+
+1. **Synthetic-deformation-as-ground-truth is a standard technique in medical
+   image registration** (e.g. Eppenhof et al., training on synthetically
+   deformed image/segmentation pairs with the deformation field known exactly).
+   The original Section 1 claim ("no admissible ground-truth correspondence
+   signal existed for this setting") is **too strong** — an admissible
+   synthetic signal has existed in the registration literature for years; it
+   simply had not (as far as either search found) been applied to a DCU-style
+   skip-connection offset specifically.
+2. **Transformation-consistency regularization is well-established** in
+   semi-supervised medical segmentation (Bortsova et al.) and image-to-image
+   learning generally. The general pattern "apply a known transformation,
+   supervise the network to respect/recover it" is not new.
+3. **Chan et al.'s offset-fidelity loss is conceptually closer than the
+   original document credited** — its contribution is the general principle
+   of constraining a learned deformable offset toward *any* correspondence
+   field, not specifically "uses optical flow." Swapping the target from
+   optical flow to a synthetic translation is a **domain adaptation of the
+   supervision signal**, not a new loss-computation primitive.
+4. **A deeper, more important problem**: the original design asserted
+   $\Delta^{\text{shifted}} \approx -t$ as the supervision target without
+   justifying why the network's *task-optimal* offset should equal the
+   *externally-imposed geometric* shift. These are not obviously the same
+   quantity — the deformable module estimates whatever sampling displacement
+   minimizes the downstream objective, not necessarily the literal geometric
+   transformation applied to the input, especially given `roll`'s wraparound
+   artifacts, feature ambiguity, and the fact that encoder and decoder
+   representations are not guaranteed to share the same coordinate/semantic
+   structure. Forcing equality by construction (as the original $L_{\text{off}}$
+   does) could suppress a real, useful distinction rather than reveal one.
+
+**Corrected novelty status**:
+
+| Component | Novel? |
+|---|---|
+| Deformable skip alignment (DCU) | No |
+| Offset-fidelity-style loss (any correspondence target) | No |
+| Synthetic-transformation-as-ground-truth | No (standard in registration) |
+| Transformation-consistency supervision | No (standard in semi-supervised segmentation) |
+| DCU + synthetic translation specifically, in 3D segmentation | Possibly unreported, but this alone is an *application*, not a *mechanism* claim |
+| Whether task-optimal deformable offset equals the externally-imposed geometric transformation, and what it means when it doesn't | **Open** — this is the actual question worth pursuing (H68-B, Section 7) |
+
+The honest reframing: Sections 1–6 (original design) are retained below as the
+*substrate* — the offset module and the synthetic-shift construction are still
+useful — but $L_{\text{off}}$ forcing $\Delta \to -t$ is no longer proposed as
+the contribution. Section 7 replaces it.
 
 ## 1. What this targets, precisely
 
@@ -74,57 +130,17 @@ $E_1^*$ replaces $E_1$ in the existing `cat1 = torch.cat([upconv1, E_1], dim=1)`
 concatenation — everything downstream of that point (dec1, seg_head,
 evidential_head) is **completely unchanged**.
 
-### 2.2 The actual contribution: synthetic-translation offset-fidelity loss
+### 2.2 SUPERSEDED: the original hard-equality offset-fidelity loss
 
-**Training-time only**, once per training step, independent of the real forward
-pass's own randomness:
-
-1. Draw a random integer voxel shift $t = (t_x, t_y, t_z)$, each component
-   drawn uniformly from $\{-k, \dots, k\}\setminus\{0\}$ for a small fixed $k$
-   (e.g. $k=4$, chosen to bracket E65's own tested offset of 3 — not tuned
-   post-hoc against any result).
-2. Construct $E_1^{\text{shifted}} = \text{roll}(E_1, t)$ — EXACTLY E65's own
-   translation intervention (same construction, same guarantee: every local
-   neighborhood and the full value distribution preserved exactly, only
-   address changes).
-3. Run $\mathcal{F}_{\text{off}}$ on the shifted pair:
-   $$
-   \Delta^{\text{shifted}} = \mathcal{F}_{\text{off}}\big([\,U(D_2),\ E_1^{\text{shifted}}\,]\big)
-   $$
-4. **Offset-fidelity loss** (the actual new term, this project's own
-   contribution — not present in DCU or in Chan et al.'s video-domain version):
-   $$
-   L_{\text{off}} = \frac{1}{|\Omega|}\sum_{p \in \Omega} \big\| \Delta^{\text{shifted}}_p - (-t) \big\|_2^2
-   $$
-   where $\Omega$ ranges over all voxel positions and $-t$ is the target
-   (the offset that would exactly undo the known applied shift $t$, since the
-   module's job is to realign $E_1^{\text{shifted}}$ back toward correspondence
-   with $U(D_2)$, which was never shifted). This is a direct, closed-form,
-   free ground-truth signal — no optical flow, no extra annotation, no
-   approximation.
-
-Total training loss:
-$$
-L_{\text{total}} = L_{\text{seg}} + \mu \cdot L_{\text{boundary}} + \lambda_{\text{off}} \cdot L_{\text{off}}
-$$
-
-added as one new term alongside the existing composition, matching the
-project's "one variable at a time" discipline — $\lambda_{\text{off}}$ is a new
-hyperparameter requiring its own calibration pass (not guessed), same
-convention as `mu`/`lambda_margin`'s own calibration history in this project.
-
-### 2.3 Why this specifically closes the identified gap
-
-- DCU's offset has never been checked to do what it claims. $L_{\text{off}}$
-  makes this checkable and enforceable: **at evaluation time**, one can measure
-  $\|\Delta^{\text{shifted}} - (-t)\|$ on held-out synthetic shifts as a direct,
-  interpretable diagnostic of whether the module is actually learning
-  correspondence correction — independent of whether Dice improves. This
-  directly operationalizes the project's own constraint #10 ("mechanism ≠
-  performance": measure both separately).
-- It requires zero new annotation (synthetic, closed-form target).
-- It is derived directly from this project's own causal evidence (E65's exact
-  intervention), not from intuition or generic regularization.
+The original design forced $\Delta^{\text{shifted}} \to -t$ by direct L2
+penalty (a hard-equality offset-fidelity loss, in the style of Chan et al.'s
+video-domain version, retargeted to a synthetic shift). **This is retracted**
+as the phase's contribution — both because the underlying supervision pattern
+is not novel (Section "Correction record" above) and, more importantly,
+because nothing justified assuming $-t$ IS the correct target for the
+network's task-optimal offset (Section "Correction record," point 4). Forcing
+equality by construction would have measured nothing — it manufactures
+agreement rather than testing for it. See Section 7 for the replacement.
 
 ## 3. What this does NOT change (isolation discipline)
 
@@ -139,51 +155,22 @@ convention as `mu`/`lambda_margin`'s own calibration history in this project.
 - No architecture change beyond replacing `enc1`'s direct concatenation with
   the SC-DCU-corrected `E_1^*` — a single, localized, isolable modification.
 
-## 4. Pre-declared falsifiable predictions (before any training)
+## 4. SUPERSEDED pre-declared predictions
 
-1. **Offset-fidelity check** (cheapest, run first, no full training needed):
-   at random initialization, $\mathcal{F}_{\text{off}}$'s output should NOT
-   correlate with $-t$ (no prior reason it would). After even a short
-   training run with $L_{\text{off}}$ active, held-out synthetic-shift
-   recovery error should decrease substantially and become significantly
-   better than a shuffled-label control. **If this fails, KILL before any
-   further training** — the module isn't learning correspondence at all,
-   and nothing downstream can be trusted.
-2. **Mechanism check**: if $L_{\text{off}}$ succeeds (prediction 1 holds),
-   test whether the *causal* effect from E65 shrinks specifically on the
-   corrected checkpoint — repeat E65's own translation intervention (now on
-   $E_1^*$ instead of raw $E_1$) and check whether $\Delta$Dice$_{\text{translation}}$
-   is significantly smaller than the original 0.214, using the same
-   statistical discipline (paired test, permutation test, bootstrap CI).
-   **This is the test of whether the mechanism does what it claims**,
-   independent of final Dice.
-3. **Performance check** (the actual project bar): full 125-subject
-   validation Dice, ≥3 seeds, compared against the exact matched baseline
-   (v3/D4-only, same recipe, no SC-DCU) — needs ≥1pp mean improvement with a
-   CI that excludes 0, per the project's own multi-seed confirmation
-   standard (established after the CCABA variance-correction finding).
+The original three predictions (offset-fidelity recovery, causal-effect
+shrinkage, Dice bar) assumed the hard-equality target from Section 2.2 and are
+superseded by Section 7's H68-A/B/C. Retained here only for the historical
+record: predictions 2 and 3's underlying logic (test the mechanism
+independently of Dice; require ≥1pp with multi-seed CI before any performance
+claim) carries forward unchanged into Section 7 — only prediction 1's
+"recovery should converge to $-t$" framing is replaced.
 
-Only if prediction 1 AND 2 hold does prediction 3's result mean what it
-appears to mean (a real mechanism causing the Dice change, not an unrelated
-side effect of adding parameters/capacity). If prediction 1 or 2 fails but
-prediction 3 somehow still shows +1pp, that must be reported honestly as an
-unexplained performance gain, not attributed to the claimed mechanism
-(project constraint #10).
+## 5. SUPERSEDED novelty statement
 
-## 5. Novelty statement (honest, per E67/E67b's search)
-
-**Not novel**: deformable skip-connection realignment as a mechanism (DCU,
-2024). **Not novel**: offset-fidelity supervision as a general principle
-(Chan et al., video domain). **Believed novel** (not found in the E67/E67b
-search, 8 queries across 4 rounds): the specific combination of (a) a
-synthetic-translation self-supervision signal for offset-fidelity in a
-single-volume (non-video) encoder-decoder segmentation setting, where no
-optical-flow-like ground truth exists, and (b) deriving the choice, scale,
-and target of that synthetic perturbation directly from a pre-registered
-causal audit (E62→E65) rather than from intuition. This is a real,
-checkable, falsifiable claim, but a narrower one than "new architecture" —
-the honest framing throughout should be: **a verifiable, causally-motivated
-correction to a known gap in an existing mechanism**, not a new mechanism.
+The original novelty statement (claiming the synthetic-translation
+self-supervision signal itself as likely novel) is retracted — see the
+"Correction record" section at the top of this document. Section 7 states the
+corrected, narrower novelty target.
 
 ## 6. Open implementation questions (to resolve before writing code)
 
@@ -202,8 +189,108 @@ correction to a known gap in an existing mechanism**, not a new mechanism.
    document) clears its own falsifiable checks, size-conditioning becomes
    phase E69, not folded in here.
 
+## 7. CORRECTED direction: does the geometric target even match the task-optimal offset?
+
+This replaces Sections 2.2, 4, and 5's original content as the phase's actual
+contribution.
+
+### 7.1 Two distinct notions of displacement
+
+**Geometric displacement** — known exactly by construction, no learning
+involved:
+$$
+\Delta^{G} = -t
+$$
+the offset that would exactly undo a synthetic shift $t$ applied to $E_1$.
+
+**Task-optimal displacement** — whatever the deformable module actually
+converges to when trained on the real segmentation objective alone (no
+$L_{\text{off}}$ term at all):
+$$
+\Delta^{T} = \arg\min_{\Delta}\ L_{\text{seg}}\Big(\text{decoder}\big(\text{Align}(E_1^{\text{shifted}}, \Delta)\big),\ Y\Big)
+$$
+
+There is no a priori reason $\Delta^G = \Delta^T$. `roll`'s wraparound,
+feature ambiguity, and the fact that `enc1` and `upconv1` are not guaranteed
+to encode the same coordinate/semantic structure could all make the
+task-optimal correction systematically different from the literal geometric
+inverse.
+
+### 7.2 Pre-declared hypotheses (mutually exclusive outcomes, not a single GO/KILL)
+
+**H68-A (geometric-supervision hypothesis, LOW novelty per correction
+record)**: $\Delta^G \approx \Delta^T$ — the task-optimal offset converges to
+(or close to) the known geometric inverse. If true, hard-equality supervision
+(the original Section 2.2 design) is a reasonable, if unoriginal, engineering
+choice — an application/adaptation contribution at most, matching DCU +
+synthetic-shift supervision, nothing more.
+
+**H68-B (feature-correspondence discrepancy hypothesis, the interesting one)**:
+$\Delta^G \neq \Delta^T$ **systematically** (not just noisily) — the
+task-optimal offset reliably diverges from the geometric inverse in a
+structured way (e.g. correlated with lesion size, decoder depth, or local
+feature ambiguity). This would mean the network's real correspondence need is
+not "undo my synthetic corruption," and the discrepancy field itself,
+$$
+\Delta^R = \Delta^T - \Delta^G,
+$$
+becomes the object of interest — is $\Delta^R$ predictable from lesion size
+(continuing the E48/E65 size-specificity thread), from local feature
+ambiguity, or from something else entirely?
+
+**H68-C (no exploitable structure)**: $\Delta^T$ is real (nonzero, the module
+does learn to move things) but its deviation from $\Delta^G$ is unstructured
+noise, uncorrelated with anything measurable. This would mean neither H68-A
+nor H68-B holds, and the whole direction should be reported as a clean null,
+not rescued.
+
+### 7.3 The discriminating experiment (cheap, no full training, matches project
+discipline)
+
+1. Train a SMALL number of steps (pilot scale, not full 30-epoch) with
+   **no** $L_{\text{off}}$ term at all — pure `L_seg` on the SC-DCU-augmented
+   architecture (Section 2.1's base module only), so $\Delta$ is free to
+   converge to whatever the task actually needs.
+2. At evaluation, for held-out subjects, apply a range of KNOWN synthetic
+   shifts $t$ (matching E65's own tested range) to `enc1`, and record the
+   module's own $\Delta^{\text{shifted}}$ (never forced toward anything).
+3. Compare $\Delta^{\text{shifted}}$ against $-t$ directly:
+   - **H68-A supported** if $\Delta^{\text{shifted}} \approx -t$ within a
+     pre-declared tolerance, consistently across subjects and shift
+     magnitudes.
+   - **H68-B supported** if the discrepancy $\Delta^R = \Delta^{\text{shifted}} - (-t)$
+     is significantly correlated with lesion size (Spearman, permutation
+     test, matching this project's own established discipline) or another
+     measurable covariate, tested BEFORE looking at which covariate "wins"
+     (pre-register the candidate list: native lesion size, local gradient
+     magnitude of $E_1$ near the shifted region, decoder-stage depth if
+     extended beyond `enc1`).
+   - **H68-C supported** if neither A nor B holds.
+
+This experiment is strictly cheaper than the original Section 4's full
+pipeline (no $L_{\text{off}}$ to calibrate, no multi-seed Dice run needed to
+get a first answer) and answers the actually load-bearing question before any
+larger investment.
+
+### 7.4 Corrected novelty statement
+
+Whatever H68-A/B/C's outcome, the base SC-DCU module (Section 2.1) and the
+comparison methodology (measuring geometric-vs-task-optimal discrepancy under
+a controlled synthetic shift, in a 3D single-volume segmentation skip
+connection) still appear unreported in the E67/E67b search — but per the
+correction above, that alone is a methodological/application observation, not
+a claimed new principle. If H68-B holds, the discrepancy-structure finding
+itself (not the base module) would be the actual candidate for a defensible
+contribution, on the same evidentiary footing as E48/E65's own causal
+findings — discovered, not invented, and reported honestly regardless of
+which way it comes out.
+
 ## Next step (not yet started)
 
-Implement and run prediction 1 (offset-fidelity check) ONLY — the cheapest,
-first, most falsifiable test. Do not implement prediction 2 or 3's
-infrastructure until prediction 1 passes.
+Implement Section 7.3's discriminating experiment ONLY: the base SC-DCU
+module (Section 2.1) trained briefly with `L_seg` alone (no offset-fidelity
+term of any kind), then measure $\Delta^{\text{shifted}}$ against $-t$ on
+held-out synthetic shifts and test for H68-A vs. H68-B vs. H68-C. Do not
+implement any offset-fidelity loss, calibrate any $\lambda_{\text{off}}$, or
+run a multi-seed Dice comparison until this experiment resolves which
+hypothesis holds.
