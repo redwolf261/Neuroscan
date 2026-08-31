@@ -1,6 +1,11 @@
 # E62/E63 INVALIDATED — Skip-Connection Confound in `forward_from_enc1`
 
-## Status: both phases' causal attribution is wrong. Numbers were real; the interpretation was not. No new runs launched pending a corrected design.
+## Status: RESOLVED by [PHASE_E64_SPLIT_INTERVENTION_AUDIT.md](PHASE_E64_SPLIT_INTERVENTION_AUDIT.md).
+E64's corrected split-intervention design confirms exactly the prediction below:
+Δ_pool = 0.00000 (exactly, both checkpoints) and Δ_skip is real, large, and
+size-specific (both checkpoints, including a gate-free control). The effect is a
+genuine skip-connection representation effect, not a pooling effect. PMD/RCD/TSQL
+remain discarded; see E64 for the corrected finding and its implications.
 
 ## The bug
 
