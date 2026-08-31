@@ -1,5 +1,14 @@
 # Phase E63 — Local Competition Geometry Audit
 
+> ## ⚠️ INVALIDATED — see [PHASE_E62_E63_INVALIDATED_SKIP_CONNECTION_BUG.md](PHASE_E62_E63_INVALIDATED_SKIP_CONNECTION_BUG.md)
+> This phase inherited E62's `forward_from_enc1()` bug: the permuted `enc1` reached
+> the decoder skip connection, not just `pool1` (whose output is provably invariant
+> to any within-cell derangement under non-overlapping `MaxPool3d(2)`). Tests A/B/C
+> all measured skip-connection sensitivity, not a property of information MaxPool3d
+> discards. The KILL verdict on "winner-runner-up geometry" may still be internally
+> informative about the skip-connection effect, but its framing as "the local
+> analogue of the E62 [pooling] intervention" is not correct.
+
 ## Purpose
 
 E62 established that permuting subcell position inside pool1's 2×2×2 cells (holding

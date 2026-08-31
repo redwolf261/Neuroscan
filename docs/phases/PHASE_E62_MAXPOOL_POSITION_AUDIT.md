@@ -1,5 +1,15 @@
 # Phase E62 — Max-Pool Subcell Position-Information Causal Audit
 
+> ## ⚠️ INVALIDATED — see [PHASE_E62_E63_INVALIDATED_SKIP_CONNECTION_BUG.md](PHASE_E62_E63_INVALIDATED_SKIP_CONNECTION_BUG.md)
+> `forward_from_enc1()` used a single `enc1` tensor for both `pool1`'s input AND the
+> decoder skip connection. Since `nn.MaxPool3d(2)` is non-overlapping (k=2,s=2),
+> `pool1(enc1) = pool1(π(enc1))` exactly for any within-cell derangement π — proven,
+> not assumed. Every bit of this phase's measured Dice effect therefore came through
+> the skip/attention-gate path, not through any information MaxPool3d discarded. The
+> numbers below are real; the "MaxPool3d discards task-relevant position" causal
+> claim and the resulting GO verdict are **not supported**. Do not cite this phase as
+> justification for a pooling-operator redesign (PMD or otherwise).
+
 ## Purpose
 
 After E61 killed the "small lesions need a higher-dimensional bottleneck"
