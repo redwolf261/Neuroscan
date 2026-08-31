@@ -1,8 +1,16 @@
 # Phase E68 — SC-DCU Design: Self-Supervised Correspondence-Verified Deformable Skip Correction
 
-## Status: SUPERSEDED novelty claim; design retained as the substrate for a
-sharper, corrected hypothesis (H68-B, Section 7 below). A follow-up targeted
-novelty check found this phase's original novelty claim (Sections 1–5 below)
+## Status: Section 7.3's discriminating experiment WAS RUN — see
+[PHASE_E68_OFFSET_DISCREPANCY_MEASUREMENT_RESULT.md](PHASE_E68_OFFSET_DISCREPANCY_MEASUREMENT_RESULT.md).
+Result: **inconclusive** (the offset module failed an effectiveness check —
+its predicted offset did not track shift magnitude at all — so neither
+H68-A, H68-B, nor H68-C could be reliably distinguished). Not scaled up
+further, per explicit user decision. This SC-DCU thread is closed for now.
+
+## Prior status note (novelty correction): SUPERSEDED novelty claim; design
+retained as the substrate for a sharper, corrected hypothesis (H68-B, Section
+7 below). A follow-up targeted novelty check found this phase's original
+novelty claim (Sections 1–5 below)
 too strong, and identified a real conceptual gap in the original design
 (Section 6 below) that the original document did not address. **Do not cite
 Sections 1–5's novelty claim; it is retracted.** See Section 7 for the
@@ -285,12 +293,55 @@ contribution, on the same evidentiary footing as E48/E65's own causal
 findings — discovered, not invented, and reported honestly regardless of
 which way it comes out.
 
+## 8. STRICT NOVELTY BAR (explicit user constraint): only a structurally new
+mechanism counts
+
+The user's actual novelty bar for this project is stricter than Section 7.4's
+framing assumed: **a new training procedure, loss term, or calibration of an
+existing operator does not count as an algorithmic contribution — only a
+structurally new mechanism (a new operator/architecture component) does.**
+
+This has a direct consequence: **H68-A and H68-C, and H68-B's discrepancy
+CHARACTERIZATION alone, do not clear this bar.** Even if H68-B holds (the
+task-optimal offset systematically diverges from the geometric target, e.g.
+correlated with lesion size), merely *measuring and reporting* that
+discrepancy does not itself constitute a new mechanism — it is still a
+characterization of DCU's existing deformable-resampling operator's behavior.
+
+**What WOULD clear the bar, if H68-B holds**: the discrepancy field
+$\Delta^R = \Delta^T - \Delta^G$ becomes raw material for a NEW operator —
+not "DCU trained a different way," but a component that explicitly
+represents and exploits the geometric/semantic gap itself as a first-class
+computed quantity, e.g. a module whose output is a function of BOTH the
+geometric correction and the measured residual discrepancy, structurally
+different from a single deformable-offset predictor. What that new operator's
+exact form should be is **not yet designed** — per the project's own
+discipline, it must be derived from H68-B's actual measured structure (IF it
+is found), not proposed in advance of the evidence.
+
+**Decision rule for what happens after Section 7.3 runs**, revised for this
+bar:
+- **H68-A or H68-C**: no operator to build. Report the null. Do not attempt to
+  manufacture a mechanism from a non-finding.
+- **H68-B**: proceed to a SEPARATE, later design phase (not started here) that
+  derives a genuinely new operator FROM the measured discrepancy structure —
+  its form is an open question contingent on what H68-B's covariate-structure
+  results actually show (e.g. if $\Delta^R$ is a smooth function of lesion
+  size, the operator might need to explicitly compute and route on a
+  size-like signal as a structural input, not just a training-time target;
+  if $\Delta^R$ correlates with local feature ambiguity instead, a
+  differently-shaped operator would follow). This phase (E68) produces the
+  MEASUREMENT only, not the operator.
+
 ## Next step (not yet started)
 
-Implement Section 7.3's discriminating experiment ONLY: the base SC-DCU
-module (Section 2.1) trained briefly with `L_seg` alone (no offset-fidelity
-term of any kind), then measure $\Delta^{\text{shifted}}$ against $-t$ on
-held-out synthetic shifts and test for H68-A vs. H68-B vs. H68-C. Do not
-implement any offset-fidelity loss, calibrate any $\lambda_{\text{off}}$, or
-run a multi-seed Dice comparison until this experiment resolves which
-hypothesis holds.
+Implement Section 7.3's discriminating experiment ONLY, run as a MEASUREMENT
+phase (not a calibration exercise, per Section 8): the base SC-DCU module
+(Section 2.1) trained briefly with `L_seg` alone (no offset-fidelity term of
+any kind), then measure $\Delta^{\text{shifted}}$ against $-t$ on held-out
+synthetic shifts and test for H68-A vs. H68-B vs. H68-C. Do not implement any
+offset-fidelity loss, calibrate any $\lambda_{\text{off}}$, or run a
+multi-seed Dice comparison — those would all be calibration-of-an-existing-
+mechanism moves that cannot clear the stated bar regardless of outcome. If
+H68-B holds, a NEW phase (not yet numbered) designs the actual novel operator
+from the measured structure; this phase's job ends at the measurement.
