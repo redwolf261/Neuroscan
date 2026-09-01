@@ -1,0 +1,21 @@
+{
+  "seed": 0,
+  "gate_vs_magnitude": {
+    "mean_rho": -0.5659511170555931,
+    "median_rho": -0.5653489205820661,
+    "frac_negative": 1.0,
+    "p": 2.7656419100412703e-133
+  },
+  "gate_vs_local_variance": {
+    "mean_rho": -0.5550221140805349,
+    "median_rho": -0.5444422318393969,
+    "frac_negative": 1.0,
+    "p": 8.876087713638369e-123
+  },
+  "gate_vs_sensitivity_partial_on_magnitude": {
+    "mean_rho": -0.08738342100165666,
+    "median_rho": -0.08964765658520321,
+    "p": 1.5992019471532048e-44
+  },
+  "original_unpartialled_rho": -0.3877
+}

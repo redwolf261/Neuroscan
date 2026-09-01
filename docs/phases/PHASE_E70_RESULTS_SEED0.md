@@ -130,11 +130,45 @@ mechanistic explanation is more consistent with the extra 29 k parameters
 providing incidental optimisation benefit than with correspondence
 correction. The seed-noise hypothesis becomes more plausible, not less.
 
+## Follow-up: what IS the gate actually tracking?
+
+`investigate_cas_gate.py`, seed 0, n = 125. Tested the most parsimonious
+alternative hypothesis: the gate tracks local `enc1` **activation
+statistics**, not correspondence need.
+
+| Test | Mean ρ | frac negative | p |
+|---|---:|---:|---:|
+| Gate vs. local \|enc1\| magnitude | **−0.566** | 125/125 (100 %) | 2.8e-133 |
+| Gate vs. local 3×3×3 variance | **−0.555** | 125/125 (100 %) | 8.9e-123 |
+| Gate vs. E65-sensitivity, **partialled on magnitude** | −0.087 | — | 1.6e-44 |
+
+The magnitude/variance correlations are **stronger and equally unanimous**
+(100 % vs. the original 100 % in the wrong direction for the correspondence
+hypothesis). Controlling for local magnitude shrinks the gate↔sensitivity
+correlation from −0.388 to **−0.087** — a ~78 % reduction in effect size.
+
+### Interpretation
+
+CAS learned a **magnitude/variance-gated smoothing operator**: it resamples
+heavily where the skip tensor is quiet and homogeneous (background) and
+leaves it alone where activations are strong and structured (lesion
+boundaries, informative tissue). This single, simple mechanism explains all
+three original observations at once — the background/lesion split, and most
+of the anti-correlation with the causal sensitivity map, which is itself
+plausibly elevated in the same high-magnitude, information-dense regions
+CAS avoids.
+
+This is a coherent, sensible thing for gradient descent to discover — a
+conservative "only touch what's quiet" editing rule — but it is **not**
+correspondence correction, and it is not what the module was designed to do.
+
 ## Status
 
 - Seed 0 complete for both conditions; all statistics computed.
-- Gate diagnostic complete — **mechanistic prediction falsified** (B and C
-  both opposite to prediction).
+- Gate diagnostic complete — **mechanistic prediction falsified**.
+- Follow-up investigation complete — **root cause identified**: CAS is a
+  magnitude-gated smoothing operator, not a correspondence-correction
+  operator.
 - Seeds 1 and 2 **not** launched (user paused).
 
 ## Where this leaves the contribution
