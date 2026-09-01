@@ -1,0 +1,22 @@
+{
+  "seed": 0,
+  "gate_mean": 0.7221650996208191,
+  "gate_max_mean": 0.9711320242881775,
+  "offset_mean_vox": 1.5318006458282472,
+  "offset_max_mean_vox": 6.498618686676026,
+  "collapsed_to_identity": false,
+  "gate_vs_sensitivity": {
+    "mean_rho": -0.3877304487245231,
+    "median_rho": -0.3875116320397197,
+    "t_p": 8.200281102957968e-114,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "frac_positive": 0.0,
+    "n": 125
+  },
+  "gate_lesion_vs_bg": {
+    "lesion": 0.4932118830680847,
+    "background": 0.7244924550056457,
+    "delta": -0.23128057193756105,
+    "t_p": 3.5906140360924746e-134
+  }
+}

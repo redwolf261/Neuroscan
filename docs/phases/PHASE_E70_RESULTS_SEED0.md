@@ -71,14 +71,81 @@ Comparison 2 has no such caveat: same seed, same recipe, same data, and CAS
 is provably the exact identity at initialisation (5.96 × 10⁻⁸), so the two
 conditions differ in exactly one thing.
 
+## Gate diagnostic: the mechanistic prediction FAILED
+
+`analyze_cas_gates.py`, seed 0, n = 125. Three analyses, all pre-registered.
+
+**A. Did CAS learn a non-trivial correction? — Yes.**
+
+| Quantity | Value |
+|---|---:|
+| Gate mean over subjects | 0.722 |
+| Gate max over subjects | 0.971 |
+| Mean \|offset\| | 1.53 voxels |
+| Max \|offset\| | 6.50 voxels (bound 6.93) |
+| Collapsed to identity? | **No** |
+
+So the +0.30 pp is not explained by "the module did nothing."
+
+**B. Does the gate agree with E65's causal sensitivity map? — NO. It
+anti-correlates.**
+
+| Quantity | Value |
+|---|---:|
+| Mean per-subject Spearman ρ(gate, translation-sensitivity) | **−0.388** |
+| Median ρ | −0.388 |
+| Subjects with ρ > 0 | **0 / 125 (0.0 %)** |
+| t-test p | 8.2e-114 |
+| Wilcoxon p | 3.0e-22 |
+
+The pre-registered prediction was that the gate would be **elevated** where
+E65 measured the network to be most correspondence-sensitive. The observed
+relationship is the **opposite**, unanimously across all 125 subjects.
+
+**C. Is the gate concentrated on lesions? — No, the reverse.**
+
+| Region | Mean gate |
+|---|---:|
+| Lesion | 0.493 |
+| Background | 0.724 |
+| Paired Δ | **−0.231** (p = 3.6e-134) |
+
+CAS applies its heaviest resampling to **background** and largely leaves
+**lesion** regions alone.
+
+### What this means
+
+CAS is **not** performing the function it was designed to perform. It learned
+an active, non-trivial transformation, but that transformation is
+anti-aligned with the causally measured correspondence structure and is
+concentrated away from the lesions. The mechanistic hypothesis behind the
+module is refuted on this seed.
+
+This removes the strongest novelty argument for the design (a module trained
+only on segmentation loss independently recovering an independently measured
+causal structure). That claim cannot be made — the data says the opposite.
+
+It also **weakens** the +0.30 pp result: a small Dice gain with no working
+mechanistic explanation is more consistent with the extra 29 k parameters
+providing incidental optimisation benefit than with correspondence
+correction. The seed-noise hypothesis becomes more plausible, not less.
+
 ## Status
 
-- Seed 0 complete for both conditions.
-- Gate diagnostic (`analyze_cas_gates.py`) running — tests whether CAS's
-  learned gate recovers E65's independently measured correspondence
-  sensitivity. A near-zero gate would indicate MM_CAS ≈ MM functionally and
-  would undercut the +0.30 pp as mechanism rather than noise.
+- Seed 0 complete for both conditions; all statistics computed.
+- Gate diagnostic complete — **mechanistic prediction falsified** (B and C
+  both opposite to prediction).
 - Seeds 1 and 2 **not** launched (user paused).
+
+## Where this leaves the contribution
+
+| Claim | Status |
+|---|---|
+| Multimodal system reaches 0.9200 pooled / 0.9052 per-subject | ✅ solid |
+| +2.11 pp over the prior FLAIR-only baseline | ✅ solid, but expected (modality gain) |
+| CAS improves Dice (+0.30 pp) | ⚠️ single seed, inside noise range, unreplicated |
+| **CAS works by correspondence correction** | ❌ **falsified by the gate diagnostic** |
+| Causal-audit protocol (measure → design → verify) | ✅ intact — it produced a falsifiable prediction, and the verification step caught the failure |
 
 ## Artifacts
 
