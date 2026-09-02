@@ -1,4 +1,48 @@
-# Phase E71 — Prediction 2 Result: FAIL, with a diagnosed likely cause
+# Phase E71 — Prediction 2 Result: FAIL (200 labels) → PASS (1126 labels, marginal)
+
+## UPDATE: scaled re-test PASSES, confirming the diagnosis below
+
+The diagnosis in this document (undertrained head, 200 labels) was tested
+directly: re-ran with ALL 1126 training subjects (not 200) and 150 epochs (not
+30), same architecture, same seed, same held-out validation population, per
+this document's own proposed next step.
+
+| Quantity | 200-label run (FAIL) | 1126-label run (this update) |
+|---|---|---|
+| Spearman(predicted, measured), held-out | +0.540 to +0.701 | **+0.866** (p=7.4×10⁻³⁹) |
+| Predicted range (span) | 0.43 (compressed) | **0.83** (matches measured 0.81) |
+| Spearman(predicted, native_size) | **+0.395** (wrong sign) | **−0.190** (correct sign, p=0.035) |
+| E48's own reference | −0.454 | −0.454 |
+| Partial Spearman (predicted, measured \| size) | +0.821 | **+0.855** |
+
+**Verdict: PASS, but the size-direction match is marginal, not strong.**
+ρ=−0.190 (permutation p=0.035) is the correct sign and clears the pre-declared
+p<0.05 bar, but it is noticeably weaker than both E48's own −0.454 and the
+direct measured-vs-size relationship on this same population (−0.353). The
+partial correlation (0.855) is strong and confirms the predictor carries real
+signal beyond a simple size proxy — this is the more decisive number.
+
+The size-binned breakdown now tracks the measured pattern reasonably well
+(predicted: 0.411 → 0.366 → 0.279 → 0.294 → 0.312 vs. measured:
+0.475 → 0.346 → 0.255 → 0.300 → 0.231), though the largest-lesion bin still
+slightly overshoots — a residual version of the original compression problem,
+much reduced but not fully gone.
+
+**Honest reading**: the original FAIL was substantially a data-scale artifact,
+as diagnosed. CDCG clears prediction 2 on this evidence, but "clears" here
+means a real, direction-correct, partially-independent signal — not an
+emphatic confirmation. Per the design doc's own decision rule this is enough
+to proceed toward the gating-mechanism design (Section 3.3) in a future phase,
+but any eventual Dice claim from that mechanism still needs the full 3-seed
+discipline this project has applied consistently (and which just correctly
+killed CAS).
+
+Artifacts from the scaled run: `E71_prediction2_scaled_summary.json`,
+`E71_val_per_subject_table_scaled.json`, `E71_aux_head_state_scaled.pt`.
+
+---
+
+## Original result and diagnosis (200-label run, superseded above but kept for the record)
 
 ## Result
 

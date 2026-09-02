@@ -1,0 +1,27 @@
+{
+  "n_train_labels": 1126,
+  "n_val_labels": 125,
+  "aux_epochs": 150,
+  "prediction1_reconfirm_rho": 0.8661382488479261,
+  "prediction1_reconfirm_p": 7.409477771330271e-39,
+  "prediction2_rho": -0.18973886328725037,
+  "prediction2_parametric_p": 0.03406302390203277,
+  "prediction2_permutation_p": 0.035,
+  "reference_measured_vs_size_rho": -0.35256528417818733,
+  "reference_measured_vs_size_p": 5.519340841637583e-05,
+  "e48_reference_rho": -0.454,
+  "partial_rho_controlling_size": 0.855010752688172,
+  "partial_p": 7.052141614806824e-37,
+  "predicted_range": [
+    -0.060857824981212616,
+    0.7699660658836365
+  ],
+  "measured_range": [
+    -0.028124868869781494,
+    0.7809475809335709
+  ],
+  "sign_matches_e48": true,
+  "significant": true,
+  "not_degenerate_size_proxy": true,
+  "verdict": "PASS"
+}

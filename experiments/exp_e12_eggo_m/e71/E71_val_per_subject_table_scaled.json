@@ -1,0 +1,627 @@
+{
+  "BraTS-GLI-01041-000": {
+    "predicted_d_i": 0.021247737109661102,
+    "measured_d_i": 0.027183711528778076,
+    "native_size": 91481
+  },
+  "BraTS-GLI-01161-000": {
+    "predicted_d_i": 0.5516467690467834,
+    "measured_d_i": 0.47798436880111694,
+    "native_size": 109939
+  },
+  "BraTS-GLI-01189-000": {
+    "predicted_d_i": 0.4519212543964386,
+    "measured_d_i": 0.37459105253219604,
+    "native_size": 114711
+  },
+  "BraTS-GLI-01336-000": {
+    "predicted_d_i": 0.15408924221992493,
+    "measured_d_i": 0.07652926445007324,
+    "native_size": 50014
+  },
+  "BraTS-GLI-00250-000": {
+    "predicted_d_i": 0.074815534055233,
+    "measured_d_i": 0.0386960506439209,
+    "native_size": 104014
+  },
+  "BraTS-GLI-00501-000": {
+    "predicted_d_i": 0.5309739708900452,
+    "measured_d_i": 0.31473028659820557,
+    "native_size": 194150
+  },
+  "BraTS-GLI-01093-000": {
+    "predicted_d_i": 0.19506317377090454,
+    "measured_d_i": 0.16095024347305298,
+    "native_size": 158406
+  },
+  "BraTS-GLI-01168-000": {
+    "predicted_d_i": 0.30937567353248596,
+    "measured_d_i": 0.4049946069717407,
+    "native_size": 64411
+  },
+  "BraTS-GLI-00506-000": {
+    "predicted_d_i": 0.25208142399787903,
+    "measured_d_i": 0.41669732332229614,
+    "native_size": 88284
+  },
+  "BraTS-GLI-01065-000": {
+    "predicted_d_i": 0.09284697473049164,
+    "measured_d_i": 0.05945926904678345,
+    "native_size": 157478
+  },
+  "BraTS-GLI-01444-000": {
+    "predicted_d_i": 0.20850571990013123,
+    "measured_d_i": 0.14305031299591064,
+    "native_size": 168187
+  },
+  "BraTS-GLI-01326-000": {
+    "predicted_d_i": 0.10399345308542252,
+    "measured_d_i": 0.1316501498222351,
+    "native_size": 215769
+  },
+  "BraTS-GLI-00764-000": {
+    "predicted_d_i": 0.4779878258705139,
+    "measured_d_i": 0.31052666902542114,
+    "native_size": 88252
+  },
+  "BraTS-GLI-00731-001": {
+    "predicted_d_i": 0.6643761992454529,
+    "measured_d_i": 0.5682750791311264,
+    "native_size": 23091
+  },
+  "BraTS-GLI-01258-000": {
+    "predicted_d_i": 0.3067951202392578,
+    "measured_d_i": 0.4743657410144806,
+    "native_size": 59246
+  },
+  "BraTS-GLI-01025-000": {
+    "predicted_d_i": 0.5374084115028381,
+    "measured_d_i": 0.7114810049533844,
+    "native_size": 46623
+  },
+  "BraTS-GLI-00811-000": {
+    "predicted_d_i": 0.14169064164161682,
+    "measured_d_i": 0.1900559663772583,
+    "native_size": 117869
+  },
+  "BraTS-GLI-00103-000": {
+    "predicted_d_i": 0.29427945613861084,
+    "measured_d_i": 0.20410621166229248,
+    "native_size": 225535
+  },
+  "BraTS-GLI-01103-000": {
+    "predicted_d_i": 0.41358518600463867,
+    "measured_d_i": 0.5209148824214935,
+    "native_size": 92469
+  },
+  "BraTS-GLI-00514-001": {
+    "predicted_d_i": 0.4689866602420807,
+    "measured_d_i": 0.4494780898094177,
+    "native_size": 120053
+  },
+  "BraTS-GLI-00611-001": {
+    "predicted_d_i": 0.2637706398963928,
+    "measured_d_i": 0.16382193565368652,
+    "native_size": 88316
+  },
+  "BraTS-GLI-01369-000": {
+    "predicted_d_i": 0.7699660658836365,
+    "measured_d_i": 0.6442082077264786,
+    "native_size": 56813
+  },
+  "BraTS-GLI-01354-000": {
+    "predicted_d_i": 0.19213420152664185,
+    "measured_d_i": 0.057959139347076416,
+    "native_size": 61579
+  },
+  "BraTS-GLI-01227-000": {
+    "predicted_d_i": 0.17549151182174683,
+    "measured_d_i": 0.06977611780166626,
+    "native_size": 73437
+  },
+  "BraTS-GLI-01078-000": {
+    "predicted_d_i": 0.0018749237060546875,
+    "measured_d_i": 0.019436299800872803,
+    "native_size": 122261
+  },
+  "BraTS-GLI-00241-000": {
+    "predicted_d_i": 0.09734130650758743,
+    "measured_d_i": 0.13270211219787598,
+    "native_size": 43568
+  },
+  "BraTS-GLI-00146-000": {
+    "predicted_d_i": 0.4977397322654724,
+    "measured_d_i": 0.3349686861038208,
+    "native_size": 184720
+  },
+  "BraTS-GLI-01349-000": {
+    "predicted_d_i": 0.4639941453933716,
+    "measured_d_i": 0.441625252366066,
+    "native_size": 9993
+  },
+  "BraTS-GLI-00044-000": {
+    "predicted_d_i": 0.5149899125099182,
+    "measured_d_i": 0.6926499158143997,
+    "native_size": 16636
+  },
+  "BraTS-GLI-01315-000": {
+    "predicted_d_i": 0.5076104402542114,
+    "measured_d_i": 0.5829631388187408,
+    "native_size": 135030
+  },
+  "BraTS-GLI-00286-000": {
+    "predicted_d_i": 0.43448933959007263,
+    "measured_d_i": 0.19572705030441284,
+    "native_size": 77815
+  },
+  "BraTS-GLI-00491-000": {
+    "predicted_d_i": 0.33592692017555237,
+    "measured_d_i": 0.2820659279823303,
+    "native_size": 99834
+  },
+  "BraTS-GLI-00367-000": {
+    "predicted_d_i": 0.15156489610671997,
+    "measured_d_i": 0.05397719144821167,
+    "native_size": 87782
+  },
+  "BraTS-GLI-00525-001": {
+    "predicted_d_i": 0.5482514500617981,
+    "measured_d_i": 0.6078037917613983,
+    "native_size": 103083
+  },
+  "BraTS-GLI-00500-001": {
+    "predicted_d_i": 0.4957895874977112,
+    "measured_d_i": 0.6574318706989288,
+    "native_size": 61602
+  },
+  "BraTS-GLI-00708-001": {
+    "predicted_d_i": 0.4571135938167572,
+    "measured_d_i": 0.6617677509784698,
+    "native_size": 38741
+  },
+  "BraTS-GLI-01384-000": {
+    "predicted_d_i": -0.060857824981212616,
+    "measured_d_i": 0.046199142932891846,
+    "native_size": 111382
+  },
+  "BraTS-GLI-00768-001": {
+    "predicted_d_i": 0.3208966851234436,
+    "measured_d_i": 0.3461260199546814,
+    "native_size": 110422
+  },
+  "BraTS-GLI-01450-000": {
+    "predicted_d_i": 0.5862135291099548,
+    "measured_d_i": 0.6002519130706787,
+    "native_size": 89516
+  },
+  "BraTS-GLI-00628-000": {
+    "predicted_d_i": 0.4869350492954254,
+    "measured_d_i": 0.5288795530796051,
+    "native_size": 55153
+  },
+  "BraTS-GLI-00066-000": {
+    "predicted_d_i": 0.37357237935066223,
+    "measured_d_i": 0.559455931186676,
+    "native_size": 38714
+  },
+  "BraTS-GLI-00016-001": {
+    "predicted_d_i": 0.46892547607421875,
+    "measured_d_i": 0.4635447859764099,
+    "native_size": 71716
+  },
+  "BraTS-GLI-01362-000": {
+    "predicted_d_i": 0.009089834988117218,
+    "measured_d_i": 0.04234832525253296,
+    "native_size": 140999
+  },
+  "BraTS-GLI-00604-000": {
+    "predicted_d_i": 0.6100340485572815,
+    "measured_d_i": 0.4765448272228241,
+    "native_size": 149786
+  },
+  "BraTS-GLI-00491-001": {
+    "predicted_d_i": 0.2529542148113251,
+    "measured_d_i": 0.37307149171829224,
+    "native_size": 97063
+  },
+  "BraTS-GLI-00222-000": {
+    "predicted_d_i": 0.16180962324142456,
+    "measured_d_i": 0.35875004529953003,
+    "native_size": 17539
+  },
+  "BraTS-GLI-01062-000": {
+    "predicted_d_i": 0.07196208089590073,
+    "measured_d_i": 0.03325760364532471,
+    "native_size": 136499
+  },
+  "BraTS-GLI-00266-000": {
+    "predicted_d_i": 0.3288416266441345,
+    "measured_d_i": 0.29761505126953125,
+    "native_size": 175363
+  },
+  "BraTS-GLI-01090-000": {
+    "predicted_d_i": 0.18410438299179077,
+    "measured_d_i": 0.11312955617904663,
+    "native_size": 50296
+  },
+  "BraTS-GLI-01374-000": {
+    "predicted_d_i": 0.0032150596380233765,
+    "measured_d_i": 0.02083200216293335,
+    "native_size": 140459
+  },
+  "BraTS-GLI-01176-000": {
+    "predicted_d_i": 0.531960129737854,
+    "measured_d_i": 0.468098908662796,
+    "native_size": 74456
+  },
+  "BraTS-GLI-00436-000": {
+    "predicted_d_i": 0.17668917775154114,
+    "measured_d_i": 0.29177993535995483,
+    "native_size": 113358
+  },
+  "BraTS-GLI-01019-000": {
+    "predicted_d_i": 0.5955139398574829,
+    "measured_d_i": 0.41165226697921753,
+    "native_size": 161243
+  },
+  "BraTS-GLI-00377-000": {
+    "predicted_d_i": 0.31895193457603455,
+    "measured_d_i": 0.51910001039505,
+    "native_size": 30602
+  },
+  "BraTS-GLI-01314-000": {
+    "predicted_d_i": 0.5452394485473633,
+    "measured_d_i": 0.6071001589298248,
+    "native_size": 70433
+  },
+  "BraTS-GLI-00559-000": {
+    "predicted_d_i": 0.43007969856262207,
+    "measured_d_i": 0.2645259499549866,
+    "native_size": 158833
+  },
+  "BraTS-GLI-01114-000": {
+    "predicted_d_i": 0.16606661677360535,
+    "measured_d_i": 0.054272353649139404,
+    "native_size": 76330
+  },
+  "BraTS-GLI-00338-000": {
+    "predicted_d_i": 0.4840458929538727,
+    "measured_d_i": 0.48224490880966187,
+    "native_size": 113856
+  },
+  "BraTS-GLI-01293-000": {
+    "predicted_d_i": 0.35126954317092896,
+    "measured_d_i": 0.13651573657989502,
+    "native_size": 129521
+  },
+  "BraTS-GLI-00242-000": {
+    "predicted_d_i": 0.14822843670845032,
+    "measured_d_i": -0.014228105545043945,
+    "native_size": 166996
+  },
+  "BraTS-GLI-00186-000": {
+    "predicted_d_i": -0.03527424484491348,
+    "measured_d_i": 0.03747814893722534,
+    "native_size": 117131
+  },
+  "BraTS-GLI-01028-000": {
+    "predicted_d_i": 0.3561762571334839,
+    "measured_d_i": 0.3601774573326111,
+    "native_size": 73145
+  },
+  "BraTS-GLI-00511-000": {
+    "predicted_d_i": 0.1876274049282074,
+    "measured_d_i": 0.10963314771652222,
+    "native_size": 90377
+  },
+  "BraTS-GLI-01001-000": {
+    "predicted_d_i": 0.12406549602746964,
+    "measured_d_i": 0.04384124279022217,
+    "native_size": 39628
+  },
+  "BraTS-GLI-01427-000": {
+    "predicted_d_i": 0.5389187335968018,
+    "measured_d_i": 0.5437681376934052,
+    "native_size": 100873
+  },
+  "BraTS-GLI-00683-000": {
+    "predicted_d_i": 0.47201868891716003,
+    "measured_d_i": 0.40116339921951294,
+    "native_size": 119693
+  },
+  "BraTS-GLI-01319-000": {
+    "predicted_d_i": 0.3769852817058563,
+    "measured_d_i": 0.4165937900543213,
+    "native_size": 65321
+  },
+  "BraTS-GLI-01323-000": {
+    "predicted_d_i": 0.16877885162830353,
+    "measured_d_i": 0.36407268047332764,
+    "native_size": 86818
+  },
+  "BraTS-GLI-01402-000": {
+    "predicted_d_i": 0.14806321263313293,
+    "measured_d_i": 0.12503421306610107,
+    "native_size": 75231
+  },
+  "BraTS-GLI-00249-000": {
+    "predicted_d_i": 0.07211633771657944,
+    "measured_d_i": 0.013760387897491455,
+    "native_size": 131601
+  },
+  "BraTS-GLI-00032-001": {
+    "predicted_d_i": 0.7095978260040283,
+    "measured_d_i": 0.695477306842804,
+    "native_size": 122552
+  },
+  "BraTS-GLI-01074-000": {
+    "predicted_d_i": 0.12259993702173233,
+    "measured_d_i": 0.09561163187026978,
+    "native_size": 95372
+  },
+  "BraTS-GLI-00616-000": {
+    "predicted_d_i": 0.42651328444480896,
+    "measured_d_i": 0.43520957231521606,
+    "native_size": 132715
+  },
+  "BraTS-GLI-01530-000": {
+    "predicted_d_i": 0.6523147225379944,
+    "measured_d_i": 0.628309965133667,
+    "native_size": 17082
+  },
+  "BraTS-GLI-00098-000": {
+    "predicted_d_i": 0.513961672782898,
+    "measured_d_i": 0.37164077162742615,
+    "native_size": 66169
+  },
+  "BraTS-GLI-01195-000": {
+    "predicted_d_i": 0.016783826053142548,
+    "measured_d_i": 0.1310625672340393,
+    "native_size": 129183
+  },
+  "BraTS-GLI-00682-001": {
+    "predicted_d_i": 0.3906188905239105,
+    "measured_d_i": 0.4915623962879181,
+    "native_size": 114032
+  },
+  "BraTS-GLI-01075-000": {
+    "predicted_d_i": 0.3420886993408203,
+    "measured_d_i": -0.028124868869781494,
+    "native_size": 140710
+  },
+  "BraTS-GLI-00299-000": {
+    "predicted_d_i": 0.2130870521068573,
+    "measured_d_i": 0.2590966820716858,
+    "native_size": 59335
+  },
+  "BraTS-GLI-00016-000": {
+    "predicted_d_i": 0.24645140767097473,
+    "measured_d_i": 0.11615896224975586,
+    "native_size": 74546
+  },
+  "BraTS-GLI-00404-000": {
+    "predicted_d_i": 0.04458268731832504,
+    "measured_d_i": 0.019333600997924805,
+    "native_size": 148743
+  },
+  "BraTS-GLI-00723-000": {
+    "predicted_d_i": 0.319660484790802,
+    "measured_d_i": 0.3955446481704712,
+    "native_size": 83044
+  },
+  "BraTS-GLI-00498-001": {
+    "predicted_d_i": 0.39215829968452454,
+    "measured_d_i": 0.18768882751464844,
+    "native_size": 102466
+  },
+  "BraTS-GLI-00193-000": {
+    "predicted_d_i": 0.25506818294525146,
+    "measured_d_i": 0.09819900989532471,
+    "native_size": 71098
+  },
+  "BraTS-GLI-01139-000": {
+    "predicted_d_i": 0.43221914768218994,
+    "measured_d_i": 0.385841429233551,
+    "native_size": 138051
+  },
+  "BraTS-GLI-00020-001": {
+    "predicted_d_i": 0.6318016052246094,
+    "measured_d_i": 0.7809475809335709,
+    "native_size": 48705
+  },
+  "BraTS-GLI-00768-000": {
+    "predicted_d_i": 0.4818416237831116,
+    "measured_d_i": 0.552647054195404,
+    "native_size": 109201
+  },
+  "BraTS-GLI-01452-000": {
+    "predicted_d_i": 0.5944377779960632,
+    "measured_d_i": 0.7343088984489441,
+    "native_size": 31109
+  },
+  "BraTS-GLI-01130-000": {
+    "predicted_d_i": 0.1430254578590393,
+    "measured_d_i": 0.06407910585403442,
+    "native_size": 38502
+  },
+  "BraTS-GLI-00680-001": {
+    "predicted_d_i": 0.44977158308029175,
+    "measured_d_i": 0.44384151697158813,
+    "native_size": 62146
+  },
+  "BraTS-GLI-01516-000": {
+    "predicted_d_i": 0.4276028573513031,
+    "measured_d_i": 0.5604967772960663,
+    "native_size": 30323
+  },
+  "BraTS-GLI-00818-000": {
+    "predicted_d_i": 0.3293221592903137,
+    "measured_d_i": 0.38881969451904297,
+    "native_size": 146677
+  },
+  "BraTS-GLI-01255-000": {
+    "predicted_d_i": 0.4809821844100952,
+    "measured_d_i": 0.621918112039566,
+    "native_size": 7513
+  },
+  "BraTS-GLI-00228-000": {
+    "predicted_d_i": 0.47367873787879944,
+    "measured_d_i": 0.5308260023593903,
+    "native_size": 51320
+  },
+  "BraTS-GLI-01273-000": {
+    "predicted_d_i": 0.41868266463279724,
+    "measured_d_i": 0.6395130008459091,
+    "native_size": 7285
+  },
+  "BraTS-GLI-00840-000": {
+    "predicted_d_i": 0.08512060344219208,
+    "measured_d_i": 0.023250341415405273,
+    "native_size": 121324
+  },
+  "BraTS-GLI-00619-000": {
+    "predicted_d_i": 0.4826223850250244,
+    "measured_d_i": 0.35905957221984863,
+    "native_size": 128899
+  },
+  "BraTS-GLI-01380-000": {
+    "predicted_d_i": 0.5037983059883118,
+    "measured_d_i": 0.415184885263443,
+    "native_size": 70109
+  },
+  "BraTS-GLI-00582-000": {
+    "predicted_d_i": 0.5914779901504517,
+    "measured_d_i": 0.7082464545965195,
+    "native_size": 51782
+  },
+  "BraTS-GLI-01155-000": {
+    "predicted_d_i": 0.22213256359100342,
+    "measured_d_i": 0.23896640539169312,
+    "native_size": 196777
+  },
+  "BraTS-GLI-01046-000": {
+    "predicted_d_i": 0.1497589498758316,
+    "measured_d_i": 0.05302906036376953,
+    "native_size": 95466
+  },
+  "BraTS-GLI-00313-000": {
+    "predicted_d_i": 0.23353442549705505,
+    "measured_d_i": 0.10304361581802368,
+    "native_size": 36221
+  },
+  "BraTS-GLI-00021-000": {
+    "predicted_d_i": 0.45659875869750977,
+    "measured_d_i": 0.37770095467567444,
+    "native_size": 89260
+  },
+  "BraTS-GLI-00565-000": {
+    "predicted_d_i": 0.1133035346865654,
+    "measured_d_i": 0.19095492362976074,
+    "native_size": 83290
+  },
+  "BraTS-GLI-01482-000": {
+    "predicted_d_i": 0.5889212489128113,
+    "measured_d_i": 0.5133123099803925,
+    "native_size": 30073
+  },
+  "BraTS-GLI-00347-000": {
+    "predicted_d_i": -0.013007618486881256,
+    "measured_d_i": 0.0017148256301879883,
+    "native_size": 87535
+  },
+  "BraTS-GLI-01253-000": {
+    "predicted_d_i": 0.20571491122245789,
+    "measured_d_i": 0.22252953052520752,
+    "native_size": 95815
+  },
+  "BraTS-GLI-01513-000": {
+    "predicted_d_i": 0.36991578340530396,
+    "measured_d_i": 0.1866198182106018,
+    "native_size": 202427
+  },
+  "BraTS-GLI-00496-000": {
+    "predicted_d_i": 0.5704554915428162,
+    "measured_d_i": 0.505844920873642,
+    "native_size": 45528
+  },
+  "BraTS-GLI-01104-000": {
+    "predicted_d_i": 0.24046435952186584,
+    "measured_d_i": 0.18644952774047852,
+    "native_size": 99795
+  },
+  "BraTS-GLI-00445-000": {
+    "predicted_d_i": 0.6152905821800232,
+    "measured_d_i": 0.48768579959869385,
+    "native_size": 153071
+  },
+  "BraTS-GLI-01068-000": {
+    "predicted_d_i": 0.20126128196716309,
+    "measured_d_i": 0.15259969234466553,
+    "native_size": 39011
+  },
+  "BraTS-GLI-00140-000": {
+    "predicted_d_i": 0.6262940764427185,
+    "measured_d_i": 0.7614392787218094,
+    "native_size": 16748
+  },
+  "BraTS-GLI-01169-000": {
+    "predicted_d_i": 0.4275170862674713,
+    "measured_d_i": 0.3130636215209961,
+    "native_size": 140258
+  },
+  "BraTS-GLI-01421-000": {
+    "predicted_d_i": 0.26813721656799316,
+    "measured_d_i": 0.3952285051345825,
+    "native_size": 137297
+  },
+  "BraTS-GLI-00096-000": {
+    "predicted_d_i": 0.4406551122665405,
+    "measured_d_i": 0.4905409812927246,
+    "native_size": 119315
+  },
+  "BraTS-GLI-00425-000": {
+    "predicted_d_i": -0.016054466366767883,
+    "measured_d_i": 0.012925803661346436,
+    "native_size": 25776
+  },
+  "BraTS-GLI-01536-000": {
+    "predicted_d_i": 0.541691243648529,
+    "measured_d_i": 0.5416553914546967,
+    "native_size": 49858
+  },
+  "BraTS-GLI-00574-000": {
+    "predicted_d_i": 0.19923993945121765,
+    "measured_d_i": 0.049845874309539795,
+    "native_size": 98996
+  },
+  "BraTS-GLI-00130-000": {
+    "predicted_d_i": 0.024698778986930847,
+    "measured_d_i": 0.09219586849212646,
+    "native_size": 149604
+  },
+  "BraTS-GLI-01342-000": {
+    "predicted_d_i": 0.2776496708393097,
+    "measured_d_i": 0.1927819848060608,
+    "native_size": 67771
+  },
+  "BraTS-GLI-01393-000": {
+    "predicted_d_i": 0.11343147605657578,
+    "measured_d_i": 0.05603766441345215,
+    "native_size": 66727
+  },
+  "BraTS-GLI-01428-000": {
+    "predicted_d_i": 0.6418080925941467,
+    "measured_d_i": 0.5542640388011932,
+    "native_size": 139254
+  },
+  "BraTS-GLI-01159-000": {
+    "predicted_d_i": 0.46553170680999756,
+    "measured_d_i": 0.5578353106975555,
+    "native_size": 25809
+  },
+  "BraTS-GLI-01424-000": {
+    "predicted_d_i": 0.30316615104675293,
+    "measured_d_i": 0.2811499834060669,
+    "native_size": 147785
+  }
+}
