@@ -1,0 +1,16 @@
+{
+  "reconfirm_prediction1_rho": 0.5398033794162826,
+  "reconfirm_prediction1_p": 8.239954038165979e-11,
+  "prediction2_rho_pred_vs_size": 0.3949431643625192,
+  "prediction2_parametric_p": 5.165759961099644e-06,
+  "prediction2_permutation_p": 0.0,
+  "reference_measured_d_vs_size_rho": -0.35256528417818733,
+  "reference_measured_d_vs_size_p": 5.519340841637583e-05,
+  "e48_reference_rho": -0.454,
+  "partial_rho_controlling_size_reverify": 0.8209462365591397,
+  "partial_p_reverify": 1.0159688938055795e-31,
+  "sign_matches_e48": false,
+  "significant": true,
+  "not_degenerate_size_proxy": true,
+  "verdict": "FAIL"
+}
