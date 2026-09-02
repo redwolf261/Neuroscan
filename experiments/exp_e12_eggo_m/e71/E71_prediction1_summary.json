@@ -1,0 +1,14 @@
+{
+  "n_train_labels": 200,
+  "n_val_labels": 125,
+  "d_train_mean": 0.3041356909275055,
+  "d_train_std": 0.22263816821399454,
+  "d_val_mean": 0.32141090273857115,
+  "d_val_std": 0.21996274850109304,
+  "spearman_rho": 0.7007803379416282,
+  "parametric_p": 9.23106457974071e-20,
+  "permutation_p": 0.0,
+  "partial_rho_controlling_size": 0.9035883256528416,
+  "partial_p": 4.1406649758966086e-47,
+  "verdict": "PASS"
+}

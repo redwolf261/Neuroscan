@@ -15,6 +15,30 @@
         "per_subject_mean": 0.9052452483800495,
         "epoch_of_best": 28
       }
+    },
+    "1": {
+      "MM": {
+        "pooled": 0.9161078939333799,
+        "per_subject_mean": 0.8986081388029458,
+        "epoch_of_best": 27
+      },
+      "MM_CAS": {
+        "pooled": 0.9180402638022293,
+        "per_subject_mean": 0.9028446904941034,
+        "epoch_of_best": 29
+      }
+    },
+    "2": {
+      "MM": {
+        "pooled": 0.9189316551123086,
+        "per_subject_mean": 0.9039799855605793,
+        "epoch_of_best": 25
+      },
+      "MM_CAS": {
+        "pooled": 0.9183343495643573,
+        "per_subject_mean": 0.9039241409884703,
+        "epoch_of_best": 26
+      }
     }
   },
   "comparisons": [
@@ -60,6 +84,96 @@
         "bootstrap_95ci": [
           0.010381641362038181,
           0.035424329380163114
+        ]
+      }
+    },
+    {
+      "seed": 1,
+      "MM_vs_FLAIR": {
+        "comparison": "[s1] MM vs FLAIR-only  (modality gain)",
+        "n": 125,
+        "mean_delta": 0.014450072649419473,
+        "median_delta": 0.008465691028870181,
+        "std_delta": 0.05604068751908007,
+        "frac_improved": 0.76,
+        "t_p": 0.004809062391571662,
+        "wilcoxon_p": 1.7206943803313575e-07,
+        "bootstrap_95ci": [
+          0.005475213035936536,
+          0.025454777777531516
+        ]
+      },
+      "CAS_vs_MM": {
+        "comparison": "[s1] MM_CAS vs MM     (CAS ablation)",
+        "n": 125,
+        "mean_delta": 0.00423655169115781,
+        "median_delta": 0.0016666319952038933,
+        "std_delta": 0.02566042816352077,
+        "frac_improved": 0.592,
+        "t_p": 0.0683843358320932,
+        "wilcoxon_p": 0.05643485672392835,
+        "bootstrap_95ci": [
+          0.00020064638466151273,
+          0.009292476545513038
+        ]
+      },
+      "CAS_vs_FLAIR": {
+        "comparison": "[s1] MM_CAS vs FLAIR  (total system)",
+        "n": 125,
+        "mean_delta": 0.01868662434057728,
+        "median_delta": 0.009879171935474163,
+        "std_delta": 0.07318647191977277,
+        "frac_improved": 0.752,
+        "t_p": 0.0052246777880420705,
+        "wilcoxon_p": 1.4424445156185788e-08,
+        "bootstrap_95ci": [
+          0.007628570315615735,
+          0.033452115529447275
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "MM_vs_FLAIR": {
+        "comparison": "[s2] MM vs FLAIR-only  (modality gain)",
+        "n": 125,
+        "mean_delta": 0.01982191940705305,
+        "median_delta": 0.01222372046657727,
+        "std_delta": 0.07559732347126784,
+        "frac_improved": 0.792,
+        "t_p": 0.004161788360911168,
+        "wilcoxon_p": 1.361766441469162e-08,
+        "bootstrap_95ci": [
+          0.008103425714328802,
+          0.03483553959311849
+        ]
+      },
+      "CAS_vs_MM": {
+        "comparison": "[s2] MM_CAS vs MM     (CAS ablation)",
+        "n": 125,
+        "mean_delta": -5.584457210903082e-05,
+        "median_delta": -5.073787655707207e-05,
+        "std_delta": 0.022061312099450718,
+        "frac_improved": 0.496,
+        "t_p": 0.9775577199808012,
+        "wilcoxon_p": 0.8254648011727137,
+        "bootstrap_95ci": [
+          -0.0038528672360927155,
+          0.003974993003373078
+        ]
+      },
+      "CAS_vs_FLAIR": {
+        "comparison": "[s2] MM_CAS vs FLAIR  (total system)",
+        "n": 125,
+        "mean_delta": 0.019766074834944025,
+        "median_delta": 0.012077810217797413,
+        "std_delta": 0.07441365789619,
+        "frac_improved": 0.808,
+        "t_p": 0.0037105596583400847,
+        "wilcoxon_p": 2.3772065705168313e-08,
+        "bootstrap_95ci": [
+          0.008646943319184109,
+          0.03473223810747163
         ]
       }
     }

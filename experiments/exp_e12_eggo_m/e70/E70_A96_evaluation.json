@@ -1,0 +1,32 @@
+{
+  "a96_pooled": 0.9193741187257766,
+  "a96_per_subject_mean": 0.9060457961870118,
+  "comparisons": [
+    {
+      "comparison": "MM_A96 vs FLAIR-only (total gain: modality + resolution)",
+      "n": 125,
+      "mean_delta": 0.0218877300334856,
+      "median_delta": 0.012946220674320164,
+      "bootstrap_95ci": [
+        0.010596162494793098,
+        0.03696804619091194
+      ],
+      "t_p": 0.001532830305168271,
+      "wilcoxon_p": 2.022678261619175e-09,
+      "frac_improved": 0.8
+    },
+    {
+      "comparison": "MM_A96 vs MM (resolution-alone contribution, given modality already present)",
+      "n": 125,
+      "mean_delta": 0.003769758016269799,
+      "median_delta": 0.0024466090981430932,
+      "bootstrap_95ci": [
+        -4.763440179184886e-05,
+        0.007904856629862914
+      ],
+      "t_p": 0.06970554102096707,
+      "wilcoxon_p": 0.0031720155007986424,
+      "frac_improved": 0.648
+    }
+  ]
+}
