@@ -1,0 +1,24 @@
+W0903 20:14:26.759000 18188 Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+Processing SNLI-style Hugging Face dataset
+Processing SNLI-style Hugging Face dataset
+Processing SNLI-style Hugging Face dataset
+Processing SciTail-style Hugging Face dataset
+Processing GLUE-style Hugging Face dataset
+Processing GLUE-style Hugging Face dataset
+Processing PAWS-style Hugging Face dataset
+Processing Hans-style Hugging Face dataset
+Processing anli-style Hugging Face dataset
+Traceback (most recent call last):
+  File "C:\Users\Rivan\Projects\Neuroscan\research_infra\ood_crossshift\scripts\train_single_gpu.py", line 124, in <module>
+    main(config)
+  File "C:\Users\Rivan\Projects\Neuroscan\research_infra\ood_crossshift\scripts\train_single_gpu.py", line 110, in main
+    trainer.train(resume_from_checkpoint=last_checkpoint)
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\transformers\trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\transformers\trainer.py", line 2345, in _inner_training_loop
+    self.model.gradient_checkpointing_enable(gradient_checkpointing_kwargs=args.gradient_checkpointing_kwargs)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 1969, in __getattr__
+    raise AttributeError(
+AttributeError: 'OPTModel' object has no attribute 'gradient_checkpointing_enable'

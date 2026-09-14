@@ -1,0 +1,97 @@
+# MEMORY-ADAPTED config for RTX 5050 Laptop (8GB VRAM), derived from source
+# GeneralisationGeneralises/configs/opt_mnli_0_128.toml.
+#
+# Tier labeling (see docs/phases and MEMORY project2_decision_track_a_ood_crossshift.md):
+#   REPLICATION variables (byte-identical to source): model_name/model_size, answer_tokens,
+#     prompt, num_train_epochs, learning_rate, warmup_ratio, bf16, lr_scheduler_type, seed,
+#     all [model.LoRA] fields, dataset.train (mnli/train/few_shot=128), all dataset.test splits.
+#   DEVIATION (locked, must be labeled, not memory-forced): eval_steps=32 explicit
+#     (source ties eval to logging_steps=16 implicitly since eval_steps is unset).
+#   MEMORY-ADAPTED (new, tracked separately): per_device_eval_batch_size 512->8,
+#     per_device_train_batch_size 16->4 with gradient_accumulation_steps=4 (preserves
+#     global batch 16 train-side rounding vs source's DeepSpeed global batch 32 -- NOTE:
+#     source train_batch_size=32 in the deepspeed block for a *multi-GPU* setup; single-GPU
+#     per_device_train_batch_size=16 in [model.training] IS the same as the effective
+#     per-step batch here once accumulation restores it -- see script header comment),
+#     gradient_checkpointing=true, deepspeed section removed entirely (single-GPU LoRA
+#     doesn't need ZeRO), save_safetensors left as source (false) but save_total_limit kept.
+
+[model]
+model_name='opt'
+model_size='2.7b'
+cache_dir='${HF_CACHE_DIR}'
+answer_tokens=[' Yes', ' No']
+prompt='{premise}Question: {hypothesis} Yes or No?'
+
+[model.training]
+output_dir='${OUTPUT_DIR}'
+num_train_epochs=160
+learning_rate=1e-5
+per_device_train_batch_size=4
+gradient_accumulation_steps=4
+per_device_eval_batch_size=8
+warmup_ratio=0.1
+bf16=true
+gradient_checkpointing=true
+eval_strategy='steps'
+eval_steps=32
+logging_strategy='steps'
+logging_steps=16
+eval_on_start=true
+save_strategy='steps'
+save_steps=0.2
+save_total_limit=1
+save_safetensors=false
+lr_scheduler_type="constant_with_warmup"
+logging_dir='./logs'
+seed=0
+report_to='none'
+
+[model.LoRA]
+inference_mode=false
+r=8
+lora_alpha=32
+lora_dropout=0.1
+target_modules = ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+bias="none"
+
+[dataset]
+cache_dir='${HF_CACHE_DIR}'
+
+[dataset.train]
+dataset_name='mnli'
+dataset_split='train'
+few_shot=128
+fs_separator='\n\n'
+
+[[dataset.test]]
+dataset_name='snli'
+dataset_split='test'
+
+[[dataset.test]]
+dataset_name='mnli'
+dataset_split='validation_matched'
+
+[[dataset.test]]
+dataset_name='scitail'
+dataset_split='test'
+
+[[dataset.test]]
+dataset_name='wnli'
+dataset_split='train'
+
+[[dataset.test]]
+dataset_name='rte'
+dataset_split='train'
+
+[[dataset.test]]
+dataset_name='paws'
+dataset_split='test'
+
+[[dataset.test]]
+dataset_name='hans'
+dataset_split='validation'
+
+[[dataset.test]]
+dataset_name='anli'
+dataset_split='test_r3'

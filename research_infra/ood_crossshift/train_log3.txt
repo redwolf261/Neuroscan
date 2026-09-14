@@ -1,0 +1,51 @@
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+W0903 19:59:45.123000 24752 Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+Processing SNLI-style Hugging Face dataset
+Map:   0%|          | 0/261802 [00:00<?, ? examples/s]Map:   0%|          | 1000/261802 [00:00<01:16, 3415.78 examples/s]Map:  20%|#9        | 52000/261802 [00:00<00:01, 167369.61 examples/s]Map:  37%|###7      | 97000/261802 [00:00<00:00, 252850.13 examples/s]Map:  56%|#####6    | 147000/261802 [00:00<00:00, 327470.16 examples/s]Map:  74%|#######4  | 195000/261802 [00:00<00:00, 367404.38 examples/s]Map:  91%|######### | 238000/261802 [00:00<00:00, 376785.60 examples/s]Map: 100%|##########| 261802/261802 [00:01<00:00, 207790.73 examples/s]
+Processing SNLI-style Hugging Face dataset
+Map:   0%|          | 0/6605 [00:00<?, ? examples/s]Map:  15%|#5        | 1000/6605 [00:00<00:01, 3538.99 examples/s]Map: 100%|##########| 6605/6605 [00:00<00:00, 10010.97 examples/s]
+Processing SNLI-style Hugging Face dataset
+Map:   0%|          | 0/6692 [00:00<?, ? examples/s]Map:  15%|#4        | 1000/6692 [00:00<00:01, 3695.86 examples/s]Map: 100%|##########| 6692/6692 [00:00<00:00, 10021.90 examples/s]
+Processing SciTail-style Hugging Face dataset
+Map:   0%|          | 0/2126 [00:00<?, ? examples/s]Map: 100%|##########| 2126/2126 [00:00<00:00, 52380.14 examples/s]
+Processing GLUE-style Hugging Face dataset
+Map:   0%|          | 0/635 [00:00<?, ? examples/s]Map: 100%|##########| 635/635 [00:00<00:00, 2099.42 examples/s]Map: 100%|##########| 635/635 [00:00<00:00, 903.19 examples/s] 
+Processing GLUE-style Hugging Face dataset
+Map:   0%|          | 0/2490 [00:00<?, ? examples/s]Map:  40%|####      | 1000/2490 [00:00<00:00, 3578.95 examples/s]Map: 100%|##########| 2490/2490 [00:00<00:00, 3498.26 examples/s]
+Processing PAWS-style Hugging Face dataset
+Map:   0%|          | 0/8000 [00:00<?, ? examples/s]Map:  12%|#2        | 1000/8000 [00:00<00:01, 3653.05 examples/s]Map: 100%|##########| 8000/8000 [00:00<00:00, 12110.97 examples/s]
+Processing Hans-style Hugging Face dataset
+Map:   0%|          | 0/30000 [00:00<?, ? examples/s]Map:   3%|3         | 1000/30000 [00:00<00:07, 3820.08 examples/s]Map: 100%|##########| 30000/30000 [00:00<00:00, 41608.89 examples/s]
+Processing anli-style Hugging Face dataset
+Map:   0%|          | 0/798 [00:00<?, ? examples/s]Map: 100%|##########| 798/798 [00:00<00:00, 2732.65 examples/s]Map: 100%|##########| 798/798 [00:00<00:00, 1124.96 examples/s]
+Traceback (most recent call last):
+  File "C:\Users\Rivan\Projects\Neuroscan\research_infra\ood_crossshift\scripts\train_single_gpu.py", line 103, in <module>
+    main(config)
+  File "C:\Users\Rivan\Projects\Neuroscan\research_infra\ood_crossshift\scripts\train_single_gpu.py", line 82, in main
+    trainer = Trainer(
+              ^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\transformers\utils\deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\transformers\trainer.py", line 614, in __init__
+    self._move_model_to_device(model, args.device)
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\transformers\trainer.py", line 901, in _move_model_to_device
+    model = model.to(device)
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 1385, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+  [Previous line repeated 5 more times]
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 966, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "C:\Users\Rivan\Projects\Neuroscan\venv_gpu\Lib\site-packages\torch\nn\modules\module.py", line 1371, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA driver error: device not ready
