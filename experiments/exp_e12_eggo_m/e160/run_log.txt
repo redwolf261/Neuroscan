@@ -1,0 +1,180 @@
+Device: cuda
+[Sanity] checkpoint identity PASS (best_mean_dice=0.8929357248544694).
+[Data] val subjects: 125 (full native volumes, NO resize)
+[Sanity] manual trunk vs forward(): max abs diff 0.000e+00 PASS.
+
+[1/125] BraTS-GLI-01041-000 size_WT=  91481 intact=0.8724 abl=0.4706 N_b=+0.4018
+[2/125] BraTS-GLI-01161-000 size_WT= 109939 intact=0.9600 abl=0.8720 N_b=+0.0880
+[3/125] BraTS-GLI-01189-000 size_WT= 114711 intact=0.8310 abl=0.7008 N_b=+0.1302
+[4/125] BraTS-GLI-01336-000 size_WT=  50014 intact=0.9450 abl=0.8605 N_b=+0.0846
+[5/125] BraTS-GLI-00250-000 size_WT= 104014 intact=0.9601 abl=0.9520 N_b=+0.0081
+[6/125] BraTS-GLI-00501-000 size_WT= 194150 intact=0.8316 abl=0.7722 N_b=+0.0593
+[7/125] BraTS-GLI-01093-000 size_WT= 158406 intact=0.9707 abl=0.9662 N_b=+0.0045
+[8/125] BraTS-GLI-01168-000 size_WT=  64411 intact=0.9639 abl=0.8631 N_b=+0.1007
+[9/125] BraTS-GLI-00506-000 size_WT=  88284 intact=0.9544 abl=0.8147 N_b=+0.1397
+[10/125] BraTS-GLI-01065-000 size_WT= 157478 intact=0.9573 abl=0.9518 N_b=+0.0055
+[11/125] BraTS-GLI-01444-000 size_WT= 168187 intact=0.9466 abl=0.9437 N_b=+0.0029
+[12/125] BraTS-GLI-01326-000 size_WT= 215769 intact=0.9772 abl=0.9670 N_b=+0.0102
+[13/125] BraTS-GLI-00764-000 size_WT=  88252 intact=0.8482 abl=0.7106 N_b=+0.1376
+[14/125] BraTS-GLI-00731-001 size_WT=  23091 intact=0.2769 abl=0.2569 N_b=+0.0200
+[15/125] BraTS-GLI-01258-000 size_WT=  59246 intact=0.8841 abl=0.8065 N_b=+0.0776
+[16/125] BraTS-GLI-01025-000 size_WT=  46623 intact=0.9645 abl=0.9093 N_b=+0.0552
+[17/125] BraTS-GLI-00811-000 size_WT= 117869 intact=0.9505 abl=0.9310 N_b=+0.0195
+[18/125] BraTS-GLI-00103-000 size_WT= 225535 intact=0.9230 abl=0.9043 N_b=+0.0187
+[19/125] BraTS-GLI-01103-000 size_WT=  92469 intact=0.6175 abl=0.5012 N_b=+0.1164
+[20/125] BraTS-GLI-00514-001 size_WT= 120053 intact=0.9538 abl=0.9140 N_b=+0.0397
+[21/125] BraTS-GLI-00611-001 size_WT=  88316 intact=0.9476 abl=0.9259 N_b=+0.0217
+[22/125] BraTS-GLI-01369-000 size_WT=  56813 intact=0.9411 abl=0.8557 N_b=+0.0853
+[23/125] BraTS-GLI-01354-000 size_WT=  61579 intact=0.9629 abl=0.9345 N_b=+0.0283
+[24/125] BraTS-GLI-01227-000 size_WT=  73437 intact=0.9260 abl=0.8701 N_b=+0.0559
+[25/125] BraTS-GLI-01078-000 size_WT= 122261 intact=0.9572 abl=0.8112 N_b=+0.1460
+[26/125] BraTS-GLI-00241-000 size_WT=  43568 intact=0.9651 abl=0.9425 N_b=+0.0226
+[27/125] BraTS-GLI-00146-000 size_WT= 184720 intact=0.8192 abl=0.8030 N_b=+0.0162
+[28/125] BraTS-GLI-01349-000 size_WT=   9993 intact=0.9209 abl=0.8122 N_b=+0.1088
+[29/125] BraTS-GLI-00044-000 size_WT=  16636 intact=0.9638 abl=0.9233 N_b=+0.0406
+[30/125] BraTS-GLI-01315-000 size_WT= 135030 intact=0.9473 abl=0.8719 N_b=+0.0754
+[31/125] BraTS-GLI-00286-000 size_WT=  77815 intact=0.8970 abl=0.8435 N_b=+0.0535
+[32/125] BraTS-GLI-00491-000 size_WT=  99834 intact=0.8974 abl=0.7008 N_b=+0.1966
+[33/125] BraTS-GLI-00367-000 size_WT=  87782 intact=0.8999 abl=0.8368 N_b=+0.0631
+[34/125] BraTS-GLI-00525-001 size_WT= 103083 intact=0.4336 abl=0.2727 N_b=+0.1609
+[35/125] BraTS-GLI-00500-001 size_WT=  61602 intact=0.9429 abl=0.9136 N_b=+0.0293
+[36/125] BraTS-GLI-00708-001 size_WT=  38741 intact=0.9702 abl=0.9331 N_b=+0.0371
+[37/125] BraTS-GLI-01384-000 size_WT= 111382 intact=0.9739 abl=0.9591 N_b=+0.0148
+[38/125] BraTS-GLI-00768-001 size_WT= 110422 intact=0.9225 abl=0.7329 N_b=+0.1896
+[39/125] BraTS-GLI-01450-000 size_WT=  89516 intact=0.9154 abl=0.8952 N_b=+0.0202
+[40/125] BraTS-GLI-00628-000 size_WT=  55153 intact=0.9357 abl=0.8507 N_b=+0.0850
+[41/125] BraTS-GLI-00066-000 size_WT=  38714 intact=0.9318 abl=0.9144 N_b=+0.0174
+[42/125] BraTS-GLI-00016-001 size_WT=  71716 intact=0.9574 abl=0.8335 N_b=+0.1239
+[43/125] BraTS-GLI-01362-000 size_WT= 140999 intact=0.9587 abl=0.9500 N_b=+0.0087
+[44/125] BraTS-GLI-00604-000 size_WT= 149786 intact=0.7967 abl=0.6945 N_b=+0.1022
+[45/125] BraTS-GLI-00491-001 size_WT=  97063 intact=0.9738 abl=0.9442 N_b=+0.0296
+[46/125] BraTS-GLI-00222-000 size_WT=  17539 intact=0.8477 abl=0.6720 N_b=+0.1757
+[47/125] BraTS-GLI-01062-000 size_WT= 136499 intact=0.9632 abl=0.9060 N_b=+0.0573
+[48/125] BraTS-GLI-00266-000 size_WT= 175363 intact=0.9647 abl=0.9427 N_b=+0.0220
+[49/125] BraTS-GLI-01090-000 size_WT=  50296 intact=0.9359 abl=0.8836 N_b=+0.0523
+[50/125] BraTS-GLI-01374-000 size_WT= 140459 intact=0.9821 abl=0.9747 N_b=+0.0074
+[51/125] BraTS-GLI-01176-000 size_WT=  74456 intact=0.3203 abl=0.2818 N_b=+0.0385
+[52/125] BraTS-GLI-00436-000 size_WT= 113358 intact=0.9703 abl=0.9470 N_b=+0.0233
+[53/125] BraTS-GLI-01019-000 size_WT= 161243 intact=0.9747 abl=0.9600 N_b=+0.0147
+[54/125] BraTS-GLI-00377-000 size_WT=  30602 intact=0.9373 abl=0.7745 N_b=+0.1628
+[55/125] BraTS-GLI-01314-000 size_WT=  70433 intact=0.3067 abl=0.1915 N_b=+0.1152
+[56/125] BraTS-GLI-00559-000 size_WT= 158833 intact=0.8881 abl=0.8087 N_b=+0.0794
+[57/125] BraTS-GLI-01114-000 size_WT=  76330 intact=0.9122 abl=0.7624 N_b=+0.1498
+[58/125] BraTS-GLI-00338-000 size_WT= 113856 intact=0.8239 abl=0.7021 N_b=+0.1218
+[59/125] BraTS-GLI-01293-000 size_WT= 129521 intact=0.3071 abl=0.3054 N_b=+0.0017
+[60/125] BraTS-GLI-00242-000 size_WT= 166996 intact=0.8891 abl=0.8968 N_b=-0.0077
+[61/125] BraTS-GLI-00186-000 size_WT= 117131 intact=0.9033 abl=0.8550 N_b=+0.0483
+[62/125] BraTS-GLI-01028-000 size_WT=  73145 intact=0.9373 abl=0.9119 N_b=+0.0254
+[63/125] BraTS-GLI-00511-000 size_WT=  90377 intact=0.9507 abl=0.8433 N_b=+0.1074
+[64/125] BraTS-GLI-01001-000 size_WT=  39628 intact=0.9542 abl=0.8934 N_b=+0.0607
+[65/125] BraTS-GLI-01427-000 size_WT= 100873 intact=0.9099 abl=0.7848 N_b=+0.1251
+[66/125] BraTS-GLI-00683-000 size_WT= 119693 intact=0.9229 abl=0.8167 N_b=+0.1062
+[67/125] BraTS-GLI-01319-000 size_WT=  65321 intact=0.9695 abl=0.9475 N_b=+0.0220
+[68/125] BraTS-GLI-01323-000 size_WT=  86818 intact=0.9518 abl=0.9533 N_b=-0.0016
+[69/125] BraTS-GLI-01402-000 size_WT=  75231 intact=0.9139 abl=0.8221 N_b=+0.0917
+[70/125] BraTS-GLI-00249-000 size_WT= 131601 intact=0.9671 abl=0.9465 N_b=+0.0206
+[71/125] BraTS-GLI-00032-001 size_WT= 122552 intact=0.9651 abl=0.8931 N_b=+0.0720
+[72/125] BraTS-GLI-01074-000 size_WT=  95372 intact=0.9330 abl=0.9251 N_b=+0.0079
+[73/125] BraTS-GLI-00616-000 size_WT= 132715 intact=0.9689 abl=0.9209 N_b=+0.0480
+[74/125] BraTS-GLI-01530-000 size_WT=  17082 intact=0.2037 abl=0.0348 N_b=+0.1690
+[75/125] BraTS-GLI-00098-000 size_WT=  66169 intact=0.3386 abl=0.2178 N_b=+0.1208
+[76/125] BraTS-GLI-01195-000 size_WT= 129183 intact=0.9241 abl=0.8878 N_b=+0.0363
+[77/125] BraTS-GLI-00682-001 size_WT= 114032 intact=0.9635 abl=0.9402 N_b=+0.0233
+[78/125] BraTS-GLI-01075-000 size_WT= 140710 intact=0.7884 abl=0.6834 N_b=+0.1051
+[79/125] BraTS-GLI-00299-000 size_WT=  59335 intact=0.7796 abl=0.7296 N_b=+0.0500
+[80/125] BraTS-GLI-00016-000 size_WT=  74546 intact=0.9079 abl=0.8874 N_b=+0.0205
+[81/125] BraTS-GLI-00404-000 size_WT= 148743 intact=0.8933 abl=0.7912 N_b=+0.1022
+[82/125] BraTS-GLI-00723-000 size_WT=  83044 intact=0.9186 abl=0.8600 N_b=+0.0585
+[83/125] BraTS-GLI-00498-001 size_WT= 102466 intact=0.9401 abl=0.9026 N_b=+0.0376
+[84/125] BraTS-GLI-00193-000 size_WT=  71098 intact=0.9368 abl=0.8846 N_b=+0.0522
+[85/125] BraTS-GLI-01139-000 size_WT= 138051 intact=0.9354 abl=0.9268 N_b=+0.0086
+[86/125] BraTS-GLI-00020-001 size_WT=  48705 intact=0.9760 abl=0.9105 N_b=+0.0655
+[87/125] BraTS-GLI-00768-000 size_WT= 109201 intact=0.8988 abl=0.8128 N_b=+0.0860
+[88/125] BraTS-GLI-01452-000 size_WT=  31109 intact=0.8951 abl=0.7451 N_b=+0.1500
+[89/125] BraTS-GLI-01130-000 size_WT=  38502 intact=0.9569 abl=0.8940 N_b=+0.0629
+[90/125] BraTS-GLI-00680-001 size_WT=  62146 intact=0.9609 abl=0.9231 N_b=+0.0379
+[91/125] BraTS-GLI-01516-000 size_WT=  30323 intact=0.6162 abl=0.4406 N_b=+0.1756
+[92/125] BraTS-GLI-00818-000 size_WT= 146677 intact=0.9575 abl=0.9415 N_b=+0.0160
+[93/125] BraTS-GLI-01255-000 size_WT=   7513 intact=0.8383 abl=0.6777 N_b=+0.1607
+[94/125] BraTS-GLI-00228-000 size_WT=  51320 intact=0.9474 abl=0.8830 N_b=+0.0644
+[95/125] BraTS-GLI-01273-000 size_WT=   7285 intact=0.7754 abl=0.6165 N_b=+0.1589
+[96/125] BraTS-GLI-00840-000 size_WT= 121324 intact=0.5996 abl=0.4537 N_b=+0.1459
+[97/125] BraTS-GLI-00619-000 size_WT= 128899 intact=0.9582 abl=0.9237 N_b=+0.0346
+[98/125] BraTS-GLI-01380-000 size_WT=  70109 intact=0.9196 abl=0.9259 N_b=-0.0063
+[99/125] BraTS-GLI-00582-000 size_WT=  51782 intact=0.8898 abl=0.7296 N_b=+0.1602
+[100/125] BraTS-GLI-01155-000 size_WT= 196777 intact=0.9452 abl=0.9284 N_b=+0.0168
+[101/125] BraTS-GLI-01046-000 size_WT=  95466 intact=0.9595 abl=0.9453 N_b=+0.0142
+[102/125] BraTS-GLI-00313-000 size_WT=  36221 intact=0.8449 abl=0.8211 N_b=+0.0238
+[103/125] BraTS-GLI-00021-000 size_WT=  89260 intact=0.2639 abl=0.2269 N_b=+0.0371
+[104/125] BraTS-GLI-00565-000 size_WT=  83290 intact=0.9741 abl=0.9625 N_b=+0.0116
+[105/125] BraTS-GLI-01482-000 size_WT=  30073 intact=0.7667 abl=0.5276 N_b=+0.2391
+[106/125] BraTS-GLI-00347-000 size_WT=  87535 intact=0.9655 abl=0.9570 N_b=+0.0085
+[107/125] BraTS-GLI-01253-000 size_WT=  95815 intact=0.8379 abl=0.7359 N_b=+0.1020
+[108/125] BraTS-GLI-01513-000 size_WT= 202427 intact=0.7549 abl=0.5678 N_b=+0.1871
+[109/125] BraTS-GLI-00496-000 size_WT=  45528 intact=0.8843 abl=0.8349 N_b=+0.0494
+[110/125] BraTS-GLI-01104-000 size_WT=  99795 intact=0.8686 abl=0.7742 N_b=+0.0945
+[111/125] BraTS-GLI-00445-000 size_WT= 153071 intact=0.9569 abl=0.9419 N_b=+0.0150
+[112/125] BraTS-GLI-01068-000 size_WT=  39011 intact=0.8702 abl=0.8250 N_b=+0.0452
+[113/125] BraTS-GLI-00140-000 size_WT=  16748 intact=0.8759 abl=0.7490 N_b=+0.1269
+[114/125] BraTS-GLI-01169-000 size_WT= 140258 intact=0.2984 abl=0.2802 N_b=+0.0182
+[115/125] BraTS-GLI-01421-000 size_WT= 137297 intact=0.9307 abl=0.9038 N_b=+0.0270
+[116/125] BraTS-GLI-00096-000 size_WT= 119315 intact=0.9363 abl=0.8646 N_b=+0.0717
+[117/125] BraTS-GLI-00425-000 size_WT=  25776 intact=0.9183 abl=0.8335 N_b=+0.0849
+[118/125] BraTS-GLI-01536-000 size_WT=  49858 intact=0.5407 abl=0.4851 N_b=+0.0556
+[119/125] BraTS-GLI-00574-000 size_WT=  98996 intact=0.9702 abl=0.9463 N_b=+0.0238
+[120/125] BraTS-GLI-00130-000 size_WT= 149604 intact=0.8932 abl=0.8724 N_b=+0.0209
+[121/125] BraTS-GLI-01342-000 size_WT=  67771 intact=0.9187 abl=0.8725 N_b=+0.0462
+[122/125] BraTS-GLI-01393-000 size_WT=  66727 intact=0.9781 abl=0.9576 N_b=+0.0205
+[123/125] BraTS-GLI-01428-000 size_WT= 139254 intact=0.4391 abl=0.2058 N_b=+0.2332
+[124/125] BraTS-GLI-01159-000 size_WT=  25809 intact=0.6235 abl=0.6049 N_b=+0.0186
+[125/125] BraTS-GLI-01424-000 size_WT= 147785 intact=0.8869 abl=0.7992 N_b=+0.0877
+
+======================================================================
+{
+ "question": "Does E48's size->N_b relationship survive without the 64^3 resize?",
+ "regime": "Regime 2: 4-modality, 3-region, FULL NATIVE resolution, sliding window",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 125,
+ "E48_reference_rho": -0.454,
+ "primary": {
+  "spearman_rho_sizeWT_vs_NbMean": -0.305505376344086,
+  "parametric_p": 0.0005311135579401307,
+  "permutation_p_10k": 0.0008
+ },
+ "per_region": {
+  "ET": {
+   "rho_size_vs_Nb": 0.08526418483363313,
+   "p": 0.34444007334433435,
+   "N_b_mean": 0.04121413685381412,
+   "N_b_std": 0.06737539364122844
+  },
+  "TC": {
+   "rho_size_vs_Nb": 0.14150991241180122,
+   "p": 0.11544887970251212,
+   "N_b_mean": 0.05797513552010059,
+   "N_b_std": 0.09595544055966955
+  },
+  "WT": {
+   "rho_size_vs_Nb": -0.5233671274961597,
+   "p": 3.795965620459086e-10,
+   "N_b_mean": 0.11143980598449707,
+   "N_b_std": 0.1269833043308731
+  }
+ },
+ "median_split": {
+  "median_size_WT": 90377.0,
+  "small_N_b_mean": 0.07422407649496875,
+  "small_n": 63,
+  "large_N_b_mean": 0.06613056095296976,
+  "large_n": 62
+ },
+ "N_b_mean_overall": 0.07020969278613728,
+ "N_b_std_overall": 0.06360864121122785,
+ "dice_intact_mean_overall": 0.859518772651752,
+ "PREREGISTERED_VERDICT": "SURVIVES",
+ "decision_rule": "ARTIFACT if rho>=-0.15 or perm_p>0.05; SURVIVES if rho<=-0.30 and perm_p<0.05; else AMBIGUOUS"
+}
+======================================================================
+
+Raw per-subject table written to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e160\E160_L_per_subject.csv

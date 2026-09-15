@@ -1,0 +1,80 @@
+{
+ "question": "Is the low-task-relevant-rank property universal across stages, or specific to the bottleneck?",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 125,
+ "rank_grid": [
+  1,
+  2,
+  4,
+  8,
+  16,
+  32,
+  64,
+  128,
+  256
+ ],
+ "agreement_threshold": 0.9,
+ "confound_guard": "agreement vs subject's OWN undegraded prediction, never ground truth",
+ "E147_bottleneck_reference": {
+  "mean_R_star": 4.95,
+  "R_over_C": 0.0194,
+  "frac_at_or_below_4": 0.84,
+  "n": 88
+ },
+ "per_stage": {
+  "enc1": {
+   "C": 32,
+   "R_star_mean": 19.616,
+   "R_star_median": 16.0,
+   "R_star_max": 32,
+   "R_over_C_mean": 0.613,
+   "R_over_C_median": 0.5,
+   "frac_subjects_at_or_below_4": 0.008,
+   "frac_subjects_needing_over_half": 0.312
+  },
+  "enc2": {
+   "C": 64,
+   "R_star_mean": 10.496,
+   "R_star_median": 4.0,
+   "R_star_max": 64,
+   "R_over_C_mean": 0.164,
+   "R_over_C_median": 0.0625,
+   "frac_subjects_at_or_below_4": 0.528,
+   "frac_subjects_needing_over_half": 0.032
+  },
+  "enc3": {
+   "C": 128,
+   "R_star_mean": 6.784,
+   "R_star_median": 2.0,
+   "R_star_max": 64,
+   "R_over_C_mean": 0.053,
+   "R_over_C_median": 0.015625,
+   "frac_subjects_at_or_below_4": 0.672,
+   "frac_subjects_needing_over_half": 0.0
+  },
+  "bottleneck": {
+   "C": 256,
+   "R_star_mean": 4.496,
+   "R_star_median": 4.0,
+   "R_star_max": 32,
+   "R_over_C_mean": 0.0175625,
+   "R_over_C_median": 0.015625,
+   "frac_subjects_at_or_below_4": 0.896,
+   "frac_subjects_needing_over_half": 0.0
+  },
+  "dec1": {
+   "C": 32,
+   "R_star_mean": 4.928,
+   "R_star_median": 4.0,
+   "R_star_max": 32,
+   "R_over_C_mean": 0.154,
+   "R_over_C_median": 0.125,
+   "frac_subjects_at_or_below_4": 0.824,
+   "frac_subjects_needing_over_half": 0.008
+  }
+ },
+ "max_R_over_C_mean": 0.613,
+ "PREREGISTERED_VERDICT": "RANK_LIMITED",
+ "decision_rule": "CLOSE if all stages R*/C<=0.05; RANK_LIMITED if any >0.50; else MIXED"
+}

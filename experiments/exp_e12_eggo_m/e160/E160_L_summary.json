@@ -1,0 +1,45 @@
+{
+ "question": "Does E48's size->N_b relationship survive without the 64^3 resize?",
+ "regime": "Regime 2: 4-modality, 3-region, FULL NATIVE resolution, sliding window",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 125,
+ "E48_reference_rho": -0.454,
+ "primary": {
+  "spearman_rho_sizeWT_vs_NbMean": -0.305505376344086,
+  "parametric_p": 0.0005311135579401307,
+  "permutation_p_10k": 0.0008
+ },
+ "per_region": {
+  "ET": {
+   "rho_size_vs_Nb": 0.08526418483363313,
+   "p": 0.34444007334433435,
+   "N_b_mean": 0.04121413685381412,
+   "N_b_std": 0.06737539364122844
+  },
+  "TC": {
+   "rho_size_vs_Nb": 0.14150991241180122,
+   "p": 0.11544887970251212,
+   "N_b_mean": 0.05797513552010059,
+   "N_b_std": 0.09595544055966955
+  },
+  "WT": {
+   "rho_size_vs_Nb": -0.5233671274961597,
+   "p": 3.795965620459086e-10,
+   "N_b_mean": 0.11143980598449707,
+   "N_b_std": 0.1269833043308731
+  }
+ },
+ "median_split": {
+  "median_size_WT": 90377.0,
+  "small_N_b_mean": 0.07422407649496875,
+  "small_n": 63,
+  "large_N_b_mean": 0.06613056095296976,
+  "large_n": 62
+ },
+ "N_b_mean_overall": 0.07020969278613728,
+ "N_b_std_overall": 0.06360864121122785,
+ "dice_intact_mean_overall": 0.859518772651752,
+ "PREREGISTERED_VERDICT": "SURVIVES",
+ "decision_rule": "ARTIFACT if rho>=-0.15 or perm_p>0.05; SURVIVES if rho<=-0.30 and perm_p<0.05; else AMBIGUOUS"
+}

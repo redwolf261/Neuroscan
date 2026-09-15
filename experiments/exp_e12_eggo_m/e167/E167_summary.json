@@ -1,0 +1,60 @@
+{
+ "question": "Does the residual error of the 110 good subjects sit at the GT boundary (annotation-noise signature) or in the interior (recoverable structure)?",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 110,
+ "bar_being_adjudicated": {
+  "the_110_at": {
+   "ET": 0.8995,
+   "TC": 0.938
+  },
+  "route_b_needs": "+0.02 each = 20% of ET residual, 32% of TC residual"
+ },
+ "per_region": {
+  "ET": {
+   "n_subjects": 110,
+   "mean_dice": 0.8995204467960378,
+   "err_frac_within2_mean": 0.9694833641605592,
+   "err_frac_within2_weighted": 0.9391305098685986,
+   "gt_frac_within2_mean": 0.8753860367508589,
+   "enrichment_within2_mean": 1.1315835331621777,
+   "err_strata_mean": {
+    "d<=1": 0.9264129021591143,
+    "d<=2": 0.9694833641605592,
+    "d<=3": 0.9864976970439183,
+    "interior(d>3)": 0.013502302956081633
+   }
+  },
+  "TC": {
+   "n_subjects": 110,
+   "mean_dice": 0.9380329106332627,
+   "err_frac_within2_mean": 0.9446288526750543,
+   "err_frac_within2_weighted": 0.8109076494488917,
+   "gt_frac_within2_mean": 0.4899917750521644,
+   "enrichment_within2_mean": 2.110815540865583,
+   "err_strata_mean": {
+    "d<=1": 0.883038332604562,
+    "d<=2": 0.9446288526750543,
+    "d<=3": 0.9723460109352109,
+    "interior(d>3)": 0.027653989064789077
+   }
+  },
+  "WT": {
+   "n_subjects": 110,
+   "mean_dice": 0.9239196681577155,
+   "err_frac_within2_mean": 0.8091544530164992,
+   "err_frac_within2_weighted": 0.7395163176779747,
+   "gt_frac_within2_mean": 0.43537038965557334,
+   "enrichment_within2_mean": 1.9561044723013474,
+   "err_strata_mean": {
+    "d<=1": 0.7146304994889277,
+    "d<=2": 0.8091544530164992,
+    "d<=3": 0.8498598152814459,
+    "interior(d>3)": 0.1501401847185541
+   }
+  }
+ },
+ "PREREGISTERED_VERDICT_on_ET": "CLOSED",
+ "decision_rule": "CLOSED if ET err_frac_within2>=0.80; OPEN if <=0.50; else AMBIGUOUS",
+ "geometry_control_note": "enrichment_within2 = err_frac / gt_frac. If ~1.0 the error is merely as boundary-adjacent as the GT itself (geometry, not a boundary-specific failure). >1 means error CONCENTRATES at the boundary beyond what geometry alone implies."
+}

@@ -1,0 +1,176 @@
+Device: cuda
+[Sanity] checkpoint identity PASS (best_mean_dice=0.8929357248544694).
+[Subjects] 110 good (excluded 15 catastrophic-tail), by ID from E160.
+[1] BraTS-GLI-01041-000  ET dice=0.779 err<=2vox=0.949 (GT<=2vox=0.999)
+[2] BraTS-GLI-01161-000  ET dice=0.951 err<=2vox=0.976 (GT<=2vox=0.846)
+[3] BraTS-GLI-01189-000  ET dice=0.695 err<=2vox=1.000 (GT<=2vox=0.880)
+[4] BraTS-GLI-01336-000  ET dice=0.911 err<=2vox=1.000 (GT<=2vox=0.998)
+[5] BraTS-GLI-00250-000  ET dice=0.968 err<=2vox=1.000 (GT<=2vox=0.742)
+[6] BraTS-GLI-00501-000  ET dice=0.830 err<=2vox=0.999 (GT<=2vox=0.996)
+[7] BraTS-GLI-01093-000  ET dice=0.963 err<=2vox=0.988 (GT<=2vox=0.606)
+[8] BraTS-GLI-01168-000  ET dice=0.940 err<=2vox=0.949 (GT<=2vox=0.898)
+[9] BraTS-GLI-00506-000  ET dice=0.939 err<=2vox=1.000 (GT<=2vox=0.978)
+[10] BraTS-GLI-01065-000  ET dice=0.934 err<=2vox=0.999 (GT<=2vox=0.984)
+[11] BraTS-GLI-01444-000  ET dice=0.945 err<=2vox=0.991 (GT<=2vox=0.678)
+[12] BraTS-GLI-01326-000  ET dice=0.984 err<=2vox=0.999 (GT<=2vox=0.697)
+[13] BraTS-GLI-00764-000  ET dice=0.869 err<=2vox=0.950 (GT<=2vox=0.848)
+[14] BraTS-GLI-01258-000  ET dice=0.833 err<=2vox=1.000 (GT<=2vox=1.000)
+[15] BraTS-GLI-01025-000  ET dice=0.933 err<=2vox=0.921 (GT<=2vox=0.779)
+[16] BraTS-GLI-00811-000  ET dice=0.906 err<=2vox=0.955 (GT<=2vox=0.938)
+[17] BraTS-GLI-00103-000  ET dice=0.879 err<=2vox=1.000 (GT<=2vox=0.869)
+[18] BraTS-GLI-00514-001  ET dice=0.956 err<=2vox=0.998 (GT<=2vox=0.739)
+[19] BraTS-GLI-00611-001  ET dice=0.947 err<=2vox=1.000 (GT<=2vox=0.964)
+[20] BraTS-GLI-01369-000  ET dice=0.955 err<=2vox=0.998 (GT<=2vox=0.987)
+[21] BraTS-GLI-01354-000  ET dice=0.970 err<=2vox=1.000 (GT<=2vox=0.983)
+[22] BraTS-GLI-01227-000  ET dice=0.905 err<=2vox=1.000 (GT<=2vox=0.994)
+[23] BraTS-GLI-01078-000  ET dice=0.923 err<=2vox=0.990 (GT<=2vox=1.000)
+[24] BraTS-GLI-00241-000  ET dice=0.964 err<=2vox=1.000 (GT<=2vox=0.756)
+[25] BraTS-GLI-00146-000  ET dice=0.643 err<=2vox=0.837 (GT<=2vox=0.982)
+[26] BraTS-GLI-01349-000  ET dice=0.970 err<=2vox=1.000 (GT<=2vox=0.907)
+[27] BraTS-GLI-00044-000  ET dice=0.944 err<=2vox=1.000 (GT<=2vox=0.981)
+[28] BraTS-GLI-01315-000  ET dice=0.915 err<=2vox=0.998 (GT<=2vox=0.870)
+[29] BraTS-GLI-00286-000  ET dice=0.950 err<=2vox=1.000 (GT<=2vox=0.629)
+[30] BraTS-GLI-00491-000  ET dice=0.813 err<=2vox=0.975 (GT<=2vox=0.983)
+[31] BraTS-GLI-00367-000  ET dice=0.916 err<=2vox=0.999 (GT<=2vox=0.725)
+[32] BraTS-GLI-00500-001  ET dice=0.942 err<=2vox=1.000 (GT<=2vox=0.857)
+[33] BraTS-GLI-00708-001  ET dice=0.970 err<=2vox=1.000 (GT<=2vox=0.798)
+[34] BraTS-GLI-01384-000  ET dice=0.963 err<=2vox=0.959 (GT<=2vox=0.977)
+[35] BraTS-GLI-00768-001  ET dice=0.897 err<=2vox=0.758 (GT<=2vox=0.998)
+[36] BraTS-GLI-01450-000  ET dice=0.900 err<=2vox=1.000 (GT<=2vox=0.980)
+[37] BraTS-GLI-00628-000  ET dice=0.921 err<=2vox=1.000 (GT<=2vox=0.811)
+[38] BraTS-GLI-00066-000  ET dice=0.875 err<=2vox=0.998 (GT<=2vox=0.986)
+[39] BraTS-GLI-00016-001  ET dice=0.963 err<=2vox=0.950 (GT<=2vox=0.504)
+[40] BraTS-GLI-01362-000  ET dice=0.941 err<=2vox=0.913 (GT<=2vox=0.900)
+[41] BraTS-GLI-00604-000  ET dice=0.566 err<=2vox=0.703 (GT<=2vox=0.575)
+[42] BraTS-GLI-00491-001  ET dice=0.958 err<=2vox=0.984 (GT<=2vox=0.978)
+[43] BraTS-GLI-00222-000  ET dice=0.785 err<=2vox=0.999 (GT<=2vox=0.998)
+[44] BraTS-GLI-01062-000  ET dice=0.946 err<=2vox=0.986 (GT<=2vox=0.993)
+[45] BraTS-GLI-00266-000  ET dice=0.949 err<=2vox=0.994 (GT<=2vox=0.972)
+[46] BraTS-GLI-01090-000  ET dice=0.939 err<=2vox=0.991 (GT<=2vox=0.841)
+[47] BraTS-GLI-01374-000  ET dice=0.978 err<=2vox=0.991 (GT<=2vox=0.738)
+[48] BraTS-GLI-00436-000  ET dice=0.952 err<=2vox=1.000 (GT<=2vox=0.799)
+[49] BraTS-GLI-01019-000  ET dice=0.969 err<=2vox=0.993 (GT<=2vox=0.841)
+[50] BraTS-GLI-00377-000  ET dice=0.928 err<=2vox=0.984 (GT<=2vox=0.839)
+[51] BraTS-GLI-00559-000  ET dice=0.873 err<=2vox=0.994 (GT<=2vox=0.939)
+[52] BraTS-GLI-01114-000  ET dice=0.883 err<=2vox=1.000 (GT<=2vox=0.985)
+[53] BraTS-GLI-00338-000  ET dice=0.760 err<=2vox=0.857 (GT<=2vox=0.653)
+[54] BraTS-GLI-00242-000  ET dice=0.969 err<=2vox=0.999 (GT<=2vox=0.964)
+[55] BraTS-GLI-00186-000  ET dice=0.873 err<=2vox=0.973 (GT<=2vox=0.881)
+[56] BraTS-GLI-01028-000  ET dice=0.928 err<=2vox=0.997 (GT<=2vox=0.941)
+[57] BraTS-GLI-00511-000  ET dice=0.925 err<=2vox=0.998 (GT<=2vox=0.992)
+[58] BraTS-GLI-01001-000  ET dice=0.916 err<=2vox=0.870 (GT<=2vox=1.000)
+[59] BraTS-GLI-01427-000  ET dice=0.864 err<=2vox=0.994 (GT<=2vox=0.934)
+[60] BraTS-GLI-00683-000  ET dice=0.863 err<=2vox=0.999 (GT<=2vox=0.987)
+[61] BraTS-GLI-01319-000  ET dice=0.964 err<=2vox=0.992 (GT<=2vox=0.919)
+[62] BraTS-GLI-01323-000  ET dice=0.913 err<=2vox=0.914 (GT<=2vox=0.757)
+[63] BraTS-GLI-01402-000  ET dice=0.896 err<=2vox=0.994 (GT<=2vox=0.826)
+[64] BraTS-GLI-00249-000  ET dice=0.953 err<=2vox=0.997 (GT<=2vox=0.902)
+[65] BraTS-GLI-00032-001  ET dice=0.975 err<=2vox=0.986 (GT<=2vox=0.585)
+[66] BraTS-GLI-01074-000  ET dice=0.918 err<=2vox=0.878 (GT<=2vox=0.959)
+[67] BraTS-GLI-00616-000  ET dice=0.941 err<=2vox=1.000 (GT<=2vox=0.995)
+[68] BraTS-GLI-01195-000  ET dice=0.875 err<=2vox=0.969 (GT<=2vox=0.926)
+[69] BraTS-GLI-00682-001  ET dice=0.949 err<=2vox=0.983 (GT<=2vox=0.568)
+[70] BraTS-GLI-01075-000  ET dice=0.782 err<=2vox=0.933 (GT<=2vox=0.778)
+[71] BraTS-GLI-00299-000  ET dice=0.732 err<=2vox=0.999 (GT<=2vox=0.955)
+[72] BraTS-GLI-00016-000  ET dice=0.870 err<=2vox=0.900 (GT<=2vox=0.993)
+[73] BraTS-GLI-00404-000  ET dice=0.817 err<=2vox=0.949 (GT<=2vox=0.892)
+[74] BraTS-GLI-00723-000  ET dice=0.867 err<=2vox=0.975 (GT<=2vox=0.940)
+[75] BraTS-GLI-00498-001  ET dice=0.900 err<=2vox=0.999 (GT<=2vox=0.763)
+[76] BraTS-GLI-00193-000  ET dice=0.950 err<=2vox=0.999 (GT<=2vox=0.805)
+[77] BraTS-GLI-01139-000  ET dice=0.917 err<=2vox=0.995 (GT<=2vox=0.881)
+[78] BraTS-GLI-00020-001  ET dice=0.977 err<=2vox=1.000 (GT<=2vox=0.816)
+[79] BraTS-GLI-00768-000  ET dice=0.866 err<=2vox=1.000 (GT<=2vox=0.996)
+[80] BraTS-GLI-01452-000  ET dice=0.880 err<=2vox=1.000 (GT<=2vox=0.860)
+[81] BraTS-GLI-01130-000  ET dice=0.960 err<=2vox=0.989 (GT<=2vox=0.754)
+[82] BraTS-GLI-00680-001  ET dice=0.960 err<=2vox=1.000 (GT<=2vox=0.725)
+[83] BraTS-GLI-00818-000  ET dice=0.928 err<=2vox=0.991 (GT<=2vox=0.786)
+[84] BraTS-GLI-01255-000  ET dice=0.937 err<=2vox=1.000 (GT<=2vox=0.926)
+[85] BraTS-GLI-00228-000  ET dice=0.964 err<=2vox=0.998 (GT<=2vox=0.675)
+[86] BraTS-GLI-01273-000  ET dice=0.639 err<=2vox=0.677 (GT<=2vox=0.999)
+[87] BraTS-GLI-00619-000  ET dice=0.944 err<=2vox=0.988 (GT<=2vox=0.866)
+[88] BraTS-GLI-01380-000  ET dice=0.973 err<=2vox=1.000 (GT<=2vox=0.690)
+[89] BraTS-GLI-00582-000  ET dice=0.858 err<=2vox=0.964 (GT<=2vox=0.803)
+[90] BraTS-GLI-01155-000  ET dice=0.906 err<=2vox=0.981 (GT<=2vox=0.930)
+[91] BraTS-GLI-01046-000  ET dice=0.946 err<=2vox=0.963 (GT<=2vox=0.805)
+[92] BraTS-GLI-00313-000  ET dice=0.746 err<=2vox=0.854 (GT<=2vox=1.000)
+[93] BraTS-GLI-00565-000  ET dice=0.972 err<=2vox=0.951 (GT<=2vox=0.801)
+[94] BraTS-GLI-01482-000  ET dice=0.895 err<=2vox=1.000 (GT<=2vox=0.999)
+[95] BraTS-GLI-00347-000  ET dice=0.948 err<=2vox=0.996 (GT<=2vox=0.986)
+[96] BraTS-GLI-01253-000  ET dice=0.778 err<=2vox=1.000 (GT<=2vox=0.995)
+[97] BraTS-GLI-01513-000  ET dice=0.759 err<=2vox=0.960 (GT<=2vox=0.986)
+[98] BraTS-GLI-00496-000  ET dice=0.910 err<=2vox=1.000 (GT<=2vox=0.994)
+[99] BraTS-GLI-01104-000  ET dice=0.859 err<=2vox=0.936 (GT<=2vox=0.804)
+[100] BraTS-GLI-00445-000  ET dice=0.965 err<=2vox=0.991 (GT<=2vox=0.793)
+[101] BraTS-GLI-01068-000  ET dice=0.889 err<=2vox=0.997 (GT<=2vox=1.000)
+[102] BraTS-GLI-00140-000  ET dice=0.865 err<=2vox=0.815 (GT<=2vox=0.784)
+[103] BraTS-GLI-01421-000  ET dice=0.905 err<=2vox=0.997 (GT<=2vox=0.919)
+[104] BraTS-GLI-00096-000  ET dice=0.915 err<=2vox=0.998 (GT<=2vox=0.960)
+[105] BraTS-GLI-00425-000  ET dice=0.901 err<=2vox=1.000 (GT<=2vox=0.875)
+[106] BraTS-GLI-00574-000  ET dice=0.969 err<=2vox=1.000 (GT<=2vox=0.855)
+[107] BraTS-GLI-00130-000  ET dice=0.785 err<=2vox=0.848 (GT<=2vox=0.974)
+[108] BraTS-GLI-01342-000  ET dice=0.960 err<=2vox=0.964 (GT<=2vox=0.769)
+[109] BraTS-GLI-01393-000  ET dice=0.970 err<=2vox=1.000 (GT<=2vox=0.902)
+[110] BraTS-GLI-01424-000  ET dice=0.774 err<=2vox=0.970 (GT<=2vox=0.928)
+
+======================================================================
+{
+ "question": "Does the residual error of the 110 good subjects sit at the GT boundary (annotation-noise signature) or in the interior (recoverable structure)?",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 110,
+ "bar_being_adjudicated": {
+  "the_110_at": {
+   "ET": 0.8995,
+   "TC": 0.938
+  },
+  "route_b_needs": "+0.02 each = 20% of ET residual, 32% of TC residual"
+ },
+ "per_region": {
+  "ET": {
+   "n_subjects": 110,
+   "mean_dice": 0.8995204467960378,
+   "err_frac_within2_mean": 0.9694833641605592,
+   "err_frac_within2_weighted": 0.9391305098685986,
+   "gt_frac_within2_mean": 0.8753860367508589,
+   "enrichment_within2_mean": 1.1315835331621777,
+   "err_strata_mean": {
+    "d<=1": 0.9264129021591143,
+    "d<=2": 0.9694833641605592,
+    "d<=3": 0.9864976970439183,
+    "interior(d>3)": 0.013502302956081633
+   }
+  },
+  "TC": {
+   "n_subjects": 110,
+   "mean_dice": 0.9380329106332627,
+   "err_frac_within2_mean": 0.9446288526750543,
+   "err_frac_within2_weighted": 0.8109076494488917,
+   "gt_frac_within2_mean": 0.4899917750521644,
+   "enrichment_within2_mean": 2.110815540865583,
+   "err_strata_mean": {
+    "d<=1": 0.883038332604562,
+    "d<=2": 0.9446288526750543,
+    "d<=3": 0.9723460109352109,
+    "interior(d>3)": 0.027653989064789077
+   }
+  },
+  "WT": {
+   "n_subjects": 110,
+   "mean_dice": 0.9239196681577155,
+   "err_frac_within2_mean": 0.8091544530164992,
+   "err_frac_within2_weighted": 0.7395163176779747,
+   "gt_frac_within2_mean": 0.43537038965557334,
+   "enrichment_within2_mean": 1.9561044723013474,
+   "err_strata_mean": {
+    "d<=1": 0.7146304994889277,
+    "d<=2": 0.8091544530164992,
+    "d<=3": 0.8498598152814459,
+    "interior(d>3)": 0.1501401847185541
+   }
+  }
+ },
+ "PREREGISTERED_VERDICT_on_ET": "CLOSED",
+ "decision_rule": "CLOSED if ET err_frac_within2>=0.80; OPEN if <=0.50; else AMBIGUOUS",
+ "geometry_control_note": "enrichment_within2 = err_frac / gt_frac. If ~1.0 the error is merely as boundary-adjacent as the GT itself (geometry, not a boundary-specific failure). >1 means error CONCENTRATES at the boundary beyond what geometry alone implies."
+}
+======================================================================

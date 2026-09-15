@@ -294,3 +294,56 @@
 **Unexplained anomalies (proven but mechanism unknown)**: 7 (E48 size-dependence most prominent)
 
 **Project narrative**: shifted from "stack plausible loss/architecture tricks" → "the real problem is preprocessing and information loss" → "small-lesion info is genuinely scarce and no single mechanism recovers it — the bottleneck and skip connection are causally load-bearing but in ways we haven't successfully exploited." The failure corpus is rich; the right principle remains elusive.
+
+---
+
+## E156–E164 — INVENTORY CLOSED, ASSUMPTION HUNT, COLLISION PROTOCOL (2026-09-15)
+
+| Phase | Result |
+|---|---|
+| **E156** | All 5 positive results audited: E70 MM +1.75pp (3-seed) is **removal of a self-imposed FLAIR-only handicap**, not a discovery; E15 +3.93pp is an **oracle** (GT centroid, rank-1 decoder); E25 D4-only +0.33pp single-seed, 0/6 pairwise significant; **E45 seed-0 +1.44pp per-subject doubly significant but 3-seed FAILED** (0.8939 vs 0.8942, seed 1 p=0.588); E54 CI includes 0. Case B. |
+| **E157** | Bottleneck self-knowledge: real (held-out ρ=+0.633, partial +0.791) but principle **PUBLISHED** — arXiv 2608.14894 "predictive self-knowledge", model-space, superset of our interventions |
+| **E158** | Terminal state. **Two incompatible regimes** documented: Regime 1 (FLAIR-only, binary, 64³, baseline 0.8842) vs Regime 2 (4-mod, 3-region, native res). Pre-E70 pp-claims are all against the handicapped baseline |
+| **E159** | Assumption enumeration. E (dense voxelwise prediction) 🔴 MaskFormer/Mask2Former/SAM |
+| **E160** | **Assumption L: SURVIVES.** Native-resolution re-test, n=125: ρ_WT = **−0.5234, p=3.8e-10**, *stronger* than E48's −0.454 ⇒ the E48→E97 chain is **NOT a preprocessing artifact**, ~50 experiments admissible. But ET/TC show no size dependence ⇒ orthogonal to the tail |
+| **E161** | **Assumption K (modality informativeness): 🔴 OCCUPIED on all 6 axes.** CoReFuse-Med (2609.10261) claims "modality-quality mismatch even when spatially aligned" as its own novelty |
+| **E162** | Pivot premise ("our causal measurements are less crowded") **tested and FAILED**. Structural law: *on a well-studied task, a measurement's informativeness predicts its prior-art density* |
+| **E163** | Vaswani Track 2.0 charter — the question survives, BraTS as its venue does not |
+| **E164** | Collision-matrix protocol specified. Targets the **inertness claim**, not a module. P(novel ∧ ≥1pp) = 3–5%; P(contradiction-branch contribution) = 35–50% |
+
+## E165–E168 — ARCHITECTURE-NOVELTY SEARCH CLOSED, WITH A MEASURED REASON (2026-09-15)
+
+**The claim is not "we could not improve Dice."** It is that the residual was experimentally
+decomposed into information-limited and boundary-localised error, and **both routes to the
+≥1pp bar were independently closed by measurement**.
+
+| Phase | Result |
+|---|---|
+| **E165** | Per-stage task-relevant rank, n=125: **RANK_LIMITED**. Monotone 35× gradient — enc1 R*/C **0.613** (19.6/32) → bottleneck **0.018** (4.5/256), Wilcoxon p=2.0e-22. **Refutes the earlier "low rank is universal" claim**; E147's ~1.9% is a property of *the bottleneck*, not the network. Independently **replicates E147** at the bottleneck (4.50 vs 4.95; 90% vs 84% at ≤4) |
+| **E166** | Task-equivalent transformation ($D(G(Z))\approx D(F(Z))$ rather than $G(Z)\approx F(Z)$): **🔴 OCCUPIED, verdict #6** — DCP (NeurIPS 2018), BERT-of-Theseus (EMNLP 2020), *Local to Global* (ACL 2026). Also +0.00pp by construction |
+| **Route (a)** | **CLOSED** — E142: zeroing t1c collapses ET 0.8433→0.0015 while WT holds. Information absent from the input |
+| **E167** | Boundary-residual decomposition, n=110: **CLOSED**. ET **93.9%** of weighted error within ≤2 voxels, **98.6%** within ≤3, **interior 1.4%**. Geometry control (enrichment = err_frac / GT_frac) is load-bearing: TC/WT enrichment ≈ **2×** confirms real concentration, not geometry |
+| **Ceiling** | Menze (TMI 2015) inter-rater ET **median 77%** (rater-vs-rater 74–85%); our model **0.900** |
+| **Plateau** | *nnU-Net Revisited* (MICCAI 2024): "scores on BraTS21 are **saturated**"; winning ET 0.8245 (2018) → 0.8203 (2020) |
+| **E168** | Cross-domain search, 10 fields (OT, operator splitting, multigrid, adjoint, RG, predictive coding, sheaf, influence functions, compressed sensing, Lyapunov): **no defensible candidate, verdict #7**. 7 died on prior art, 3 on arithmetic |
+
+**Established**: residual → boundary-concentrated. **Not established**: residual → incorrect
+labels (needs rater-level evidence). Closure stands on the *conjunction* of the three legs, not
+on any one.
+
+**Defensible wording**: *"Under the evaluated input, annotation, and architectural regime, the
+study found no experimentally supported route to the pre-registered ≥1pp improvement."* Not
+"no further improvement is possible."
+
+---
+
+### The arithmetic that reframes the whole tail branch
+
+From `e160/E160_L_per_subject.json`: cohort mean **0.8595**; headroom is a **15-subject tail**
+(ET 0.227 / TC 0.186 / **WT 0.824** — tumour found, failure is sub-partition). Lifting ET&TC on
+those 15 to 0.40 gives **+1.94pp** — but **E140's per-subject oracle (+0.0154 ET) is worth only
++0.062pp overall.** E137/E140/E141 were therefore *arithmetically incapable* of clearing 1pp
+regardless of mechanism. **Run this check before any future audit.**
+
+Also settled: the 15 failures are **not small lesions** (ET sizes up to **39,207** voxels;
+9/15 above 2000), and tiny-target Dice instability does not apply (only 3/125 have ET<500).

@@ -5,6 +5,10 @@
 
 **Methodology recovery update (2026-09-14)**: The related E126 causal protocol has been recovered, but it is not the generator of the saved `Rstar_self` fields. E126 validates graded rank reduction as a causal perturbation of enc3 windows and bottleneck necessity; it does not define the E147 minimum-rank threshold.
 
+**THRESHOLD RULE RECOVERED (2026-09-15)** — *partial recovery; see the caveat below.* `Rstar_self` is the first point on the dyadic grid `[1,2,4,8,16,32,64,128,256]` at which the stored `self_ag` agreement curve reaches **0.90**. This matches **88/88** subjects at threshold 0.90 and at no other threshold (0.85 → 66/88; 0.92 → 81/88; 0.95 → 60/88), and recomputing this doc's headline statistics from the recovered rule reproduces them to 4 decimals (`rho(ap,R*) = -0.6385` vs `-0.638`; `rho(baseDice,R*) = -0.4369` vs `-0.437`). Limitation 4 is therefore **resolved** and limitation 2 **partially** so.
+
+**CAVEAT — what is still missing.** Only the *last step* of the pipeline is recovered. A repo-wide search for `self_ag`/`Rstar` across all `*.py` returns **zero hits**; there is no `e146`/`e147`/`e148` directory; and `git log --all` matching `e14[0-9]|e15[0-9]` returns only this very doc. **The generator was never committed and does not exist on disk.** So it remains UNKNOWN what `self_ag` actually measures (agreement between what and what), where the truncation is applied, and by what metric. `Rstar_gt` has no stored curve at all (`gt_ag` absent) and is recovered only by analogy — it should carry no weight. Consequently `R*` **cannot currently be recomputed** on any other checkpoint, which blocks the checkpoint-invariance test. See `PHASE_E154_RSTAR_RESPECIFICATION_PREREG.md` Parts 0/0b for the full audit, the threshold-sensitivity numbers, and two new facts it surfaces (`R*` is a 6-valued ordinal, not a continuous rank; 31/88 agreement curves are non-monotonic, max dip 0.179).
+
 ## Question
 
 Does the minimum saved rank requirement vary across subjects, and is that variation explained by observable information properties rather than only by baseline difficulty?
@@ -72,9 +76,11 @@ This is evidence for a conditional computational-demand hypothesis, not yet evid
 ## Limitations blocking a final claim
 
 1. Only 88 subjects are present in E147, not the full 125-subject validation set.
-2. The JSON does not record the exact epsilon, target definition, rank grid semantics, or the script that produced `Rstar_self` and `Rstar_gt`. The E126 script is related evidence, but it does not resolve these missing E147 details.
+2. ~~The JSON does not record the exact epsilon, target definition, rank grid semantics, or the script that produced `Rstar_self` and `Rstar_gt`.~~ **RESOLVED 2026-09-15** — the rule (dyadic grid, first crossing of 0.90) is recovered and verified 88/88 against the stored curves. Note `Rstar_gt` has no stored curve (`gt_ag` absent), so it is recovered by analogy only and should not carry weight. **New limitation in its place**: `R*` is a **6-valued ordinal** on a dyadic grid — the apparent `1..32` range is five steps, so all statistics must be rank-based, and the spread is weaker evidence of heterogeneity than a continuous `1..32` range would be.
 3. `Rstar` is a representational rank intervention, not a direct FLOP or dynamic-depth measurement. It should be called a **minimum retained-rank requirement**, not minimum computation, until that distinction is addressed.
-4. The analysis uses saved summaries rather than recomputing subject-level curves, so threshold sensitivity cannot be audited here.
+4. ~~The analysis uses saved summaries rather than recomputing subject-level curves, so threshold sensitivity cannot be audited here.~~ **RESOLVED 2026-09-15** — threshold sensitivity audited: perturbing the threshold to 0.88/0.92 changes `R*` for only 8/88 and 7/88 subjects, with Spearman 0.949 and 0.906 against the 0.90 assignment. The exact value 0.90 is not load-bearing.
+
+5. **NEW (2026-09-15)**: `R*` has not been shown to be **checkpoint-invariant**. E129 established that `N_k` magnitudes are run-dependent across equally-good checkpoints; if `R*` inherits that, it is a trajectory property, not a subject property, and Gate A's GREEN is unearned. This is now the blocking test — see `PHASE_E154_RSTAR_RESPECIFICATION_PREREG.md`. Until it passes, **Gate A should be read as YELLOW, not GREEN**, and Gate B inherits that qualification because `rho_partial = -0.496` is a correlation with the unvalidated half of the pair (`O_i` itself is solid — E143/E144 cross-fitted, pairwise rho 0.786–0.974).
 
 ## Current conclusion
 
