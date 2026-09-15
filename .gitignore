@@ -9,3 +9,21 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# --- environments (venv_gpu was missing; 47k files) ---
+venv_gpu/
+
+# --- data and weights: large binaries, never tracked ---
+Dataset/Training/
+Dataset/Validation/
+Dataset/_resize_cache/
+Dataset/cache_brats2023gli/
+PediMS/
+checkpoints/
+
+# --- experiment run artifacts (checkpoints/logs), keep results JSON ---
+experiments/**/checkpoints/
+experiments/**/runs/**/checkpoints/
+*.nii
+*.nii.gz
+*.npz

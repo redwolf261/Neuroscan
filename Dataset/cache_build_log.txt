@@ -1,0 +1,29 @@
+discovered 1251 subjects -> C:\Users\Rivan\Projects\Neuroscan\Dataset\cache_brats2023gli
+  50/1251  38s elapsed, 909s left, cache=1.4 GB
+  100/1251  74s elapsed, 849s left, cache=2.8 GB
+  150/1251  114s elapsed, 833s left, cache=4.2 GB
+  200/1251  154s elapsed, 811s left, cache=5.5 GB
+  250/1251  195s elapsed, 780s left, cache=6.9 GB
+  300/1251  234s elapsed, 742s left, cache=8.3 GB
+  350/1251  269s elapsed, 693s left, cache=9.6 GB
+  400/1251  299s elapsed, 637s left, cache=11.0 GB
+  450/1251  328s elapsed, 583s left, cache=12.5 GB
+  500/1251  358s elapsed, 537s left, cache=13.8 GB
+  550/1251  382s elapsed, 487s left, cache=15.2 GB
+  600/1251  409s elapsed, 444s left, cache=16.6 GB
+  650/1251  440s elapsed, 407s left, cache=18.0 GB
+  700/1251  475s elapsed, 374s left, cache=19.4 GB
+  750/1251  505s elapsed, 337s left, cache=20.8 GB
+  800/1251  535s elapsed, 301s left, cache=22.1 GB
+  850/1251  567s elapsed, 268s left, cache=23.5 GB
+  900/1251  594s elapsed, 232s left, cache=24.7 GB
+  950/1251  626s elapsed, 198s left, cache=26.1 GB
+  1000/1251  656s elapsed, 165s left, cache=27.4 GB
+  1050/1251  687s elapsed, 132s left, cache=28.8 GB
+  1100/1251  718s elapsed, 99s left, cache=30.1 GB
+  1150/1251  750s elapsed, 66s left, cache=31.5 GB
+  1200/1251  778s elapsed, 33s left, cache=32.9 GB
+  1250/1251  803s elapsed, 1s left, cache=34.2 GB
+  1251/1251  803s elapsed, 0s left, cache=34.2 GB
+
+DONE in 804s. 1251 files, 34.2 GB
