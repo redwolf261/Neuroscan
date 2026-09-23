@@ -1,0 +1,23 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "E_stage_means": {
+    "N_1": 0.1477096391916275,
+    "N_2": 0.16000437021255492,
+    "N_3": 0.1911908496618271
+  },
+  "E_stage_stds": {
+    "N_1": 0.00228895256994599,
+    "N_2": 0.0032882035032388676,
+    "N_3": 0.008260342451591534
+  },
+  "visible_pattern": false,
+  "pooled_r2_stage_size_only": 0.6385591669526974,
+  "pooled_r2_with_E": 0.7226739153496002,
+  "delta_r2_from_E": 0.0841147483969028,
+  "E_coefficient": 12.159844620885146,
+  "within_subject_permutation_p": 0.0,
+  "decision": "CASE_D_NO_CLEAN_PROPERTY_UNEXPECTED",
+  "detail": "E_stage adds explanatory power but no visible raw pattern -- report honestly."
+}

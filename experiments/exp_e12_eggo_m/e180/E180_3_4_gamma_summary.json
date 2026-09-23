@@ -1,0 +1,26 @@
+{
+ "question": "Stage 3-4: per-tile representation-induced decision instability (Gamma), transformation-specific then aggregated",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 10,
+ "families": {
+  "T1_rank": 2,
+  "T4_spectral": 3.0,
+  "T5_smooth": 1.5
+ },
+ "probe_eps": {
+  "T1_rank": 8.0,
+  "T4_spectral": 8.0,
+  "T5_smooth": 16.0
+ },
+ "probe_seed": 999,
+ "n_records": 192,
+ "n_tiles_aggregated": 64,
+ "metrics": [
+  "gamma_dice",
+  "gamma_voxel",
+  "gamma_kl",
+  "gamma_boundary"
+ ],
+ "note": "GT never used. All quantities are whole-volume, prediction-vs-prediction, measured from the SAME degraded operating point Z^deg per the same-operating-point correction. Probe is a FIXED family-independent random direction (Stage 2b correction), not a re-application of the family transform."
+}

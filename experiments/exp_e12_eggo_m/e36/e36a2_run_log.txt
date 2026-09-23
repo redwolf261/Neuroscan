@@ -1,0 +1,25 @@
+Validation set size: 125, using 15 disjoint batches of 8 (120/125 subjects covered)
+Loaded 15 batches.
+[D4only] epoch=1: D4/main ratio = 1.295 +/- 0.533  cos(main,D4) = +0.260 +/- 0.040
+[D4only] epoch=5: D4/main ratio = 0.646 +/- 0.355  cos(main,D4) = +0.419 +/- 0.237
+[D4only] epoch=10: D4/main ratio = 1.002 +/- 0.289  cos(main,D4) = +0.842 +/- 0.073
+[D4only] epoch=15: D4/main ratio = 1.712 +/- 0.540  cos(main,D4) = +0.697 +/- 0.171
+[D4only] epoch=20: D4/main ratio = 1.535 +/- 0.473  cos(main,D4) = +0.581 +/- 0.277
+[D4only] epoch=25: D4/main ratio = 1.886 +/- 0.829  cos(main,D4) = +0.606 +/- 0.286
+[D4only] epoch=30: D4/main ratio = 1.466 +/- 1.029  cos(main,D4) = +0.249 +/- 0.310
+[D2only] epoch=1: D4/main ratio = 0.098 +/- 0.015  cos(main,D4) = +0.101 +/- 0.050
+[D2only] epoch=5: D4/main ratio = 0.051 +/- 0.009  cos(main,D4) = +0.052 +/- 0.083
+[D2only] epoch=10: D4/main ratio = 0.215 +/- 0.052  cos(main,D4) = +0.361 +/- 0.043
+[D2only] epoch=15: D4/main ratio = 0.278 +/- 0.117  cos(main,D4) = -0.167 +/- 0.253
+[D2only] epoch=20: D4/main ratio = 0.368 +/- 0.148  cos(main,D4) = -0.119 +/- 0.263
+[D2only] epoch=25: D4/main ratio = 0.412 +/- 0.147  cos(main,D4) = -0.262 +/- 0.294
+[D2only] epoch=30: D4/main ratio = 0.340 +/- 0.151  cos(main,D4) = -0.596 +/- 0.122
+[Both] epoch=1: D4/main ratio = 0.963 +/- 0.366  cos(main,D4) = -0.056 +/- 0.088
+[Both] epoch=5: D4/main ratio = 0.473 +/- 0.243  cos(main,D4) = +0.282 +/- 0.166
+[Both] epoch=10: D4/main ratio = 1.211 +/- 0.614  cos(main,D4) = +0.572 +/- 0.255
+[Both] epoch=15: D4/main ratio = 1.071 +/- 0.341  cos(main,D4) = +0.574 +/- 0.156
+[Both] epoch=20: D4/main ratio = 1.326 +/- 0.678  cos(main,D4) = +0.480 +/- 0.253
+[Both] epoch=25: D4/main ratio = 1.360 +/- 0.487  cos(main,D4) = +0.640 +/- 0.175
+[Both] epoch=30: D4/main ratio = 1.417 +/- 0.756  cos(main,D4) = +0.516 +/- 0.256
+
+Saved 315 (condition, epoch, batch) records.

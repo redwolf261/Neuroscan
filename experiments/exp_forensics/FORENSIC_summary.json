@@ -1,0 +1,97 @@
+{
+  "n": 125,
+  "mean3": 0.8596970954970532,
+  "total_shortfall_pp": 14.03029045029468,
+  "mechanisms": {
+    "Boundary error (FP+FN within 2vox of GT surface)": {
+      "per_region_pp": {
+        "ET": 16.294900671300226,
+        "TC": 10.7769513064166,
+        "WT": 5.840770023715442
+      },
+      "three_region_pp": 10.970874000477423,
+      "pct_of_shortfall": 78.19420445602393
+    },
+    "- boundary FP only": {
+      "per_region_pp": {
+        "ET": 2.673326264711206,
+        "TC": 1.1819642435399589,
+        "WT": 2.773478226735871
+      },
+      "three_region_pp": 2.209589578329012,
+      "pct_of_shortfall": 15.74870873954433
+    },
+    "- boundary FN only": {
+      "per_region_pp": {
+        "ET": 13.576831280275709,
+        "TC": 9.584882955140628,
+        "WT": 3.0497532707713484
+      },
+      "three_region_pp": 8.737155835395894,
+      "pct_of_shortfall": 62.273520753894196
+    },
+    "Interior error (FP+FN beyond 2vox)": {
+      "per_region_pp": {
+        "ET": 1.9278391367975993,
+        "TC": 7.102507691490125,
+        "WT": 2.931774983824944
+      },
+      "three_region_pp": 3.9873739373708896,
+      "pct_of_shortfall": 28.41975332939128
+    },
+    "- interior FP only": {
+      "per_region_pp": {
+        "ET": 0.4284355979692346,
+        "TC": 0.17086453077243632,
+        "WT": 1.6711515545810407
+      },
+      "three_region_pp": 0.7568172277742372,
+      "pct_of_shortfall": 5.394166503219765
+    },
+    "- interior FN only": {
+      "per_region_pp": {
+        "ET": 1.4814537584871321,
+        "TC": 6.928277107913367,
+        "WT": 1.2484003409926705
+      },
+      "three_region_pp": 3.2193770691310566,
+      "pct_of_shortfall": 22.945904652055436
+    },
+    "All false positives": {
+      "per_region_pp": {
+        "ET": 3.2954831699651432,
+        "TC": 1.3689123026608248,
+        "WT": 4.66257172989716
+      },
+      "three_region_pp": 3.1089890675077094,
+      "pct_of_shortfall": 22.159121213648223
+    },
+    "All false negatives": {
+      "per_region_pp": {
+        "ET": 14.279342338813613,
+        "TC": 13.806510035069502,
+        "WT": 4.100045297926804
+      },
+      "three_region_pp": 10.728632557269973,
+      "pct_of_shortfall": 76.46764402546376
+    },
+    "Missed components (zero-overlap GT comps)": {
+      "per_region_pp": {
+        "ET": 5.357335870054423,
+        "TC": 4.903874556147105,
+        "WT": 0.08347224275108296
+      },
+      "three_region_pp": 3.4482275563175375,
+      "pct_of_shortfall": 24.577021897968717
+    },
+    "Spurious components (zero-overlap pred comps)": {
+      "per_region_pp": {
+        "ET": 0.038673459511602115,
+        "TC": 0.036519500505171804,
+        "WT": 0.5736388186589552
+      },
+      "three_region_pp": 0.21627725955857635,
+      "pct_of_shortfall": 1.5415023682138658
+    }
+  }
+}

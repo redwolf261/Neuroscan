@@ -1,0 +1,72 @@
+[
+  {
+    "epoch": 1,
+    "disp_mean": 0.0,
+    "disp_median": 0.0,
+    "disp_std": 0.0,
+    "tumor_centroid_drift": 0.0,
+    "bg_centroid_drift": 0.0,
+    "mean_boundary_margin": 27.829124450683594,
+    "val_dice": 0.4214601553976536
+  },
+  {
+    "epoch": 5,
+    "disp_mean": 3.9219295978546143,
+    "disp_median": 3.026432514190674,
+    "disp_std": 3.518458366394043,
+    "tumor_centroid_drift": 16.23656463623047,
+    "bg_centroid_drift": 1.7789381742477417,
+    "mean_boundary_margin": 14.162016868591309,
+    "val_dice": 0.7589997157454491
+  },
+  {
+    "epoch": 10,
+    "disp_mean": 4.788538932800293,
+    "disp_median": 4.160148620605469,
+    "disp_std": 3.297278881072998,
+    "tumor_centroid_drift": 12.66883659362793,
+    "bg_centroid_drift": 2.5009920597076416,
+    "mean_boundary_margin": 24.124425888061523,
+    "val_dice": 0.861421474814415
+  },
+  {
+    "epoch": 15,
+    "disp_mean": 5.406154155731201,
+    "disp_median": 4.919326305389404,
+    "disp_std": 3.291532039642334,
+    "tumor_centroid_drift": 12.928922653198242,
+    "bg_centroid_drift": 2.9813783168792725,
+    "mean_boundary_margin": 26.73887825012207,
+    "val_dice": 0.8932665377855301
+  },
+  {
+    "epoch": 20,
+    "disp_mean": 5.761238098144531,
+    "disp_median": 5.350338935852051,
+    "disp_std": 3.3429391384124756,
+    "tumor_centroid_drift": 13.472674369812012,
+    "bg_centroid_drift": 3.277479648590088,
+    "mean_boundary_margin": 25.724695205688477,
+    "val_dice": 0.8658317719586194
+  },
+  {
+    "epoch": 25,
+    "disp_mean": 6.10571813583374,
+    "disp_median": 5.739559173583984,
+    "disp_std": 3.3856937885284424,
+    "tumor_centroid_drift": 13.466768264770508,
+    "bg_centroid_drift": 3.547619342803955,
+    "mean_boundary_margin": 26.428871154785156,
+    "val_dice": 0.8990616530179978
+  },
+  {
+    "epoch": 30,
+    "disp_mean": 6.472011566162109,
+    "disp_median": 6.125826835632324,
+    "disp_std": 3.3868186473846436,
+    "tumor_centroid_drift": 13.580623626708984,
+    "bg_centroid_drift": 3.864499807357788,
+    "mean_boundary_margin": 28.04134750366211,
+    "val_dice": 0.9049997985363006
+  }
+]

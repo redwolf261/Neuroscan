@@ -1,0 +1,28 @@
+{
+  "n_components": 749,
+  "n_censored_never_vanish": 190,
+  "pct_censored": 25.367156208277702,
+  "alpha_c_distribution": {
+    "n": 559,
+    "mean": 0.23076923076923078,
+    "median": 0.25,
+    "sd": 0.2572065750277625,
+    "p5": 0.0,
+    "p25": 0.0,
+    "p50": 0.25,
+    "p75": 0.5,
+    "p95": 0.75
+  },
+  "transition_sharpness": {
+    "n": 314,
+    "mean_pre_vanish_survival": 0.7447527962237831,
+    "median_pre_vanish_survival": 1.0,
+    "pct_full_to_zero_in_one_step": 0.5732484076433121,
+    "pct_near_full_before_vanish": 0.6019108280254777
+  },
+  "alpha_c_vs_size": {
+    "spearman_rho": 0.45581052804562205,
+    "spearman_p": 4.9915389252489986e-30,
+    "r2_nonlinear_size": 0.37194232714159536
+  }
+}

@@ -1,0 +1,32 @@
+Analyzing epoch 5...
+  n_valid_batches=4
+  margin   ||delta_theta||=1.2066e+00 mean||delta_z||=4.5658e+03 amplification=3.7841e+03 cos(delta_z,d_useful)=-0.2687
+  seg      ||delta_theta||=1.1582e+00 mean||delta_z||=2.3548e+03 amplification=2.0332e+03 cos(delta_z,d_useful)=-0.2892
+  total    ||delta_theta||=1.1615e+00 mean||delta_z||=2.3571e+03 amplification=2.0293e+03 cos(delta_z,d_useful)=-0.2900
+Analyzing epoch 10...
+  n_valid_batches=4
+  margin   ||delta_theta||=9.0428e-01 mean||delta_z||=5.0250e+03 amplification=5.5569e+03 cos(delta_z,d_useful)=-0.2791
+  seg      ||delta_theta||=5.7533e-01 mean||delta_z||=2.5574e+03 amplification=4.4451e+03 cos(delta_z,d_useful)=-0.4109
+  total    ||delta_theta||=5.6901e-01 mean||delta_z||=2.6340e+03 amplification=4.6290e+03 cos(delta_z,d_useful)=-0.4076
+Analyzing epoch 15...
+  n_valid_batches=4
+  margin   ||delta_theta||=6.4099e-01 mean||delta_z||=4.9025e+03 amplification=7.6483e+03 cos(delta_z,d_useful)=-0.2693
+  seg      ||delta_theta||=3.9841e-01 mean||delta_z||=1.8551e+03 amplification=4.6564e+03 cos(delta_z,d_useful)=-0.4961
+  total    ||delta_theta||=3.9472e-01 mean||delta_z||=1.9315e+03 amplification=4.8934e+03 cos(delta_z,d_useful)=-0.5163
+Analyzing epoch 20...
+  n_valid_batches=4
+  margin   ||delta_theta||=5.9500e-01 mean||delta_z||=5.2666e+03 amplification=8.8514e+03 cos(delta_z,d_useful)=-0.2653
+  seg      ||delta_theta||=5.1647e-01 mean||delta_z||=2.4387e+03 amplification=4.7219e+03 cos(delta_z,d_useful)=-0.4043
+  total    ||delta_theta||=5.1549e-01 mean||delta_z||=2.4764e+03 amplification=4.8040e+03 cos(delta_z,d_useful)=-0.3999
+Analyzing epoch 25...
+  n_valid_batches=4
+  margin   ||delta_theta||=4.1243e-01 mean||delta_z||=4.6597e+03 amplification=1.1298e+04 cos(delta_z,d_useful)=-0.2581
+  seg      ||delta_theta||=4.5778e-01 mean||delta_z||=2.2752e+03 amplification=4.9701e+03 cos(delta_z,d_useful)=-0.4417
+  total    ||delta_theta||=4.5599e-01 mean||delta_z||=2.2844e+03 amplification=5.0098e+03 cos(delta_z,d_useful)=-0.4416
+Analyzing epoch 30...
+  n_valid_batches=4
+  margin   ||delta_theta||=2.7264e-01 mean||delta_z||=3.3760e+03 amplification=1.2382e+04 cos(delta_z,d_useful)=-0.2415
+  seg      ||delta_theta||=2.2712e-01 mean||delta_z||=1.6877e+03 amplification=7.4308e+03 cos(delta_z,d_useful)=-0.4475
+  total    ||delta_theta||=2.2619e-01 mean||delta_z||=1.6744e+03 amplification=7.4026e+03 cos(delta_z,d_useful)=-0.4497
+
+All outputs saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e21_transport_results

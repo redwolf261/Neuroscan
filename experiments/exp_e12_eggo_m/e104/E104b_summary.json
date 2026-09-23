@@ -1,0 +1,24 @@
+{
+  "n_subjects": 63,
+  "spearman_rho": -0.12216781874039939,
+  "permutation_p": 0.3545,
+  "bootstrap_ci_95": [
+    -0.35702170787509824,
+    0.15207528871834414
+  ],
+  "regression_coefficients": {
+    "intercept": 47.35075212629475,
+    "S_lesion": -0.35853845406898166,
+    "native_size": -0.5536304381288278,
+    "dice_intact": 0.43245788825109943
+  },
+  "regression_p_values": {
+    "intercept": 2.1316282072803006e-13,
+    "S_lesion": 0.009409108202635963,
+    "native_size": 2.0255380328570993e-06,
+    "dice_intact": 0.002233543514497338
+  },
+  "regression_r2": 0.37003777216470213,
+  "s_retains_explanatory_power": true,
+  "interpretation": "DISTINCT_SIGNALS"
+}

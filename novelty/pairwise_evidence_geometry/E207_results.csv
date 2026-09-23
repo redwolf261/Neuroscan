@@ -1,0 +1,3 @@
+tag,n_comp,n_vox,auc_individual_voxel,auc_individual_comp,auc_collective,auc_relational
+L_vs_H,293,8728,0.9944951154628574,0.9850672590398619,0.9864247809453289,0.9861779587806986
+S_vs_H,364,11918,0.9999905071742681,1.0,1.0,1.0

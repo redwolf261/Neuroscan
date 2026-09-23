@@ -1,0 +1,74 @@
+Using 20 fixed validation subjects (same set as E12b.5/E12d/E12f/E13/E14/E15)
+
+Sampling fixed tracking voxel set at epoch 1 (practical z_0)...
+Tracking 10000 fixed voxels across 20 subjects (134 tumor, 9866 background)
+
+======================================================================
+PART A: Latent Drift Budget
+======================================================================
+epoch  1: disp mean=0.000 median=0.000 std=0.000 | tumor_centroid_drift=0.000 bg_centroid_drift=0.000
+epoch  5: disp mean=3.922 median=3.026 std=3.518 | tumor_centroid_drift=16.237 bg_centroid_drift=1.779
+epoch 10: disp mean=4.789 median=4.160 std=3.297 | tumor_centroid_drift=12.669 bg_centroid_drift=2.501
+epoch 15: disp mean=5.406 median=4.919 std=3.292 | tumor_centroid_drift=12.929 bg_centroid_drift=2.981
+epoch 20: disp mean=5.761 median=5.350 std=3.343 | tumor_centroid_drift=13.473 bg_centroid_drift=3.277
+epoch 25: disp mean=6.106 median=5.740 std=3.386 | tumor_centroid_drift=13.467 bg_centroid_drift=3.548
+epoch 30: disp mean=6.472 median=6.126 std=3.387 | tumor_centroid_drift=13.581 bg_centroid_drift=3.864
+
+======================================================================
+PART B: Direction Decomposition
+======================================================================
+epoch  1: E_parallel=0.0000 E_perp=0.0000 frac_parallel=0.00% | fixed_ref: mean_signed_proj=+0.0000 %positive=0.0 | live_ref: mean_change=+0.0000 %positive=0.0
+epoch  5: E_parallel=9.8277 E_perp=17.9334 frac_parallel=35.40% | fixed_ref: mean_signed_proj=-0.8624 %positive=2.8 | live_ref: mean_change=-13.4890 %positive=0.2
+epoch 10: E_parallel=6.9660 E_perp=26.8362 frac_parallel=20.61% | fixed_ref: mean_signed_proj=-1.0513 %positive=2.7 | live_ref: mean_change=-4.0359 %positive=1.7
+epoch 15: E_parallel=6.9329 E_perp=33.1278 frac_parallel=17.31% | fixed_ref: mean_signed_proj=-1.2214 %positive=2.3 | live_ref: mean_change=-1.6917 %positive=2.8
+epoch 20: E_parallel=7.7724 E_perp=36.5947 frac_parallel=17.52% | fixed_ref: mean_signed_proj=-1.3298 %positive=2.3 | live_ref: mean_change=-2.8181 %positive=2.2
+epoch 25: E_parallel=8.3834 E_perp=40.3593 frac_parallel=17.20% | fixed_ref: mean_signed_proj=-1.4986 %positive=2.0 | live_ref: mean_change=-2.3736 %positive=2.5
+epoch 30: E_parallel=8.3757 E_perp=44.9818 frac_parallel=15.70% | fixed_ref: mean_signed_proj=-1.5896 %positive=2.0 | live_ref: mean_change=-1.1679 %positive=3.4
+
+======================================================================
+PART C: Gradient Alignment with E15 Push Direction
+======================================================================
+epoch  1: n=14280 mean_cos=+0.4344 std=0.2088 95% CI=[-0.0527, +0.7684]
+epoch  5: n=8378 mean_cos=+0.4266 std=0.2583 95% CI=[-0.1872, +0.8036]
+epoch 10: n=8746 mean_cos=+0.3902 std=0.2555 95% CI=[-0.1946, +0.7817]
+epoch 15: n=6734 mean_cos=+0.3818 std=0.2611 95% CI=[-0.2071, +0.7893]
+epoch 20: n=6822 mean_cos=+0.3287 std=0.2647 95% CI=[-0.2477, +0.7569]
+epoch 25: n=5963 mean_cos=+0.3597 std=0.2640 95% CI=[-0.2283, +0.7757]
+epoch 30: n=4180 mean_cos=+0.3280 std=0.2674 95% CI=[-0.2438, +0.7738]
+
+Pooled across all checkpoints: n=55103 mean=+0.3905 std=0.2517 (t=364.21, p=0.00e+00)
+
+======================================================================
+PART D: Reachability Ratio
+======================================================================
+M_actual (mean signed parallel displacement, epoch1->epoch30): -1.5896 units
+M_required (E15's realistic push ceiling): 14.0 units
+Reachability ratio R = M_actual / M_required = -0.1135
+
+======================================================================
+PART E: Optimization Budget (Margin Efficiency)
+======================================================================
+epoch  1: margin efficiency = 0.00% of total latent movement energy
+epoch  5: margin efficiency = 35.40% of total latent movement energy
+epoch 10: margin efficiency = 20.61% of total latent movement energy
+epoch 15: margin efficiency = 17.31% of total latent movement energy
+epoch 20: margin efficiency = 17.52% of total latent movement energy
+epoch 25: margin efficiency = 17.20% of total latent movement energy
+epoch 30: margin efficiency = 15.70% of total latent movement energy
+
+======================================================================
+PART F: Falsification -- does training move sufficiently by an ALTERNATE metric?
+======================================================================
+epoch  1: centroid_dist=25.563 est_min_pairwise=3.052 est_mean_pairwise=30.777
+epoch  5: centroid_dist=11.803 est_min_pairwise=1.074 est_mean_pairwise=15.256
+epoch 10: centroid_dist=21.398 est_min_pairwise=5.501 est_mean_pairwise=24.695
+epoch 15: centroid_dist=23.667 est_min_pairwise=4.425 est_mean_pairwise=27.267
+epoch 20: centroid_dist=22.513 est_min_pairwise=10.777 est_mean_pairwise=25.969
+epoch 25: centroid_dist=22.904 est_min_pairwise=11.173 est_mean_pairwise=26.807
+epoch 30: centroid_dist=24.086 est_min_pairwise=9.698 est_mean_pairwise=28.222
+
+Net change (epoch1->epoch30), centroid-to-centroid: -1.4778
+Net change (epoch1->epoch30), estimated min pairwise: +6.6460
+(Compare to E12f's own mean_boundary_margin net change: +0.2122)
+
+All outputs saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e16_margin_reachability_results

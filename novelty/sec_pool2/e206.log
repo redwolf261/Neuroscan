@@ -1,0 +1,7 @@
+E192 inertness check (bottleneck only), 125 subjects
+  25/125 subj, 82 rows (102s)
+  50/125 subj, 186 rows (227s)
+  100/125 subj, 348 rows (429s)
+  125/125 subj, 440 rows (543s)
+
+wrote E192_inertness.csv (440 rows) pops={'L': 74, 'H': 220, 'S': 146}  543s

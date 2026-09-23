@@ -1,0 +1,10 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_subjects": 63,
+  "mean_S_fn": 9.023353742367993,
+  "mean_S_bg": 18.21905719998314,
+  "mean_S_tp": 15.423647451037665,
+  "S_fn_minus_bg": -9.201537059066863,
+  "p_two_sided": 0.0,
+  "decision": "EDL_ASSUMPTION_HOLDS"
+}

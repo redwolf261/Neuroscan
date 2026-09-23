@@ -1,0 +1,79 @@
+[
+  {
+    "epoch": 1,
+    "mean_energy_parallel": 0.0,
+    "mean_energy_perp": 0.0,
+    "mean_energy_total": 0.0,
+    "fraction_energy_parallel": 0.0,
+    "mean_signed_parallel_projection": 0.0,
+    "pct_positive_parallel": 0.0,
+    "mean_live_separation_change": 0.0,
+    "pct_positive_live_separation_change": 0.0
+  },
+  {
+    "epoch": 5,
+    "mean_energy_parallel": 9.827692031860352,
+    "mean_energy_perp": 17.933387756347656,
+    "mean_energy_total": 27.76108169555664,
+    "fraction_energy_parallel": 0.3540097177028656,
+    "mean_signed_parallel_projection": -0.8624016642570496,
+    "pct_positive_parallel": 2.8000000000000003,
+    "mean_live_separation_change": -13.48896626791954,
+    "pct_positive_live_separation_change": 0.22999999999999998
+  },
+  {
+    "epoch": 10,
+    "mean_energy_parallel": 6.965953826904297,
+    "mean_energy_perp": 26.836200714111328,
+    "mean_energy_total": 33.802154541015625,
+    "fraction_energy_parallel": 0.20608018338680267,
+    "mean_signed_parallel_projection": -1.0513426065444946,
+    "pct_positive_parallel": 2.7199999999999998,
+    "mean_live_separation_change": -4.035911641430855,
+    "pct_positive_live_separation_change": 1.67
+  },
+  {
+    "epoch": 15,
+    "mean_energy_parallel": 6.932870388031006,
+    "mean_energy_perp": 33.1278190612793,
+    "mean_energy_total": 40.06068801879883,
+    "fraction_energy_parallel": 0.17305919528007507,
+    "mean_signed_parallel_projection": -1.2213999032974243,
+    "pct_positive_parallel": 2.32,
+    "mean_live_separation_change": -1.6917219635248184,
+    "pct_positive_live_separation_change": 2.81
+  },
+  {
+    "epoch": 20,
+    "mean_energy_parallel": 7.772415637969971,
+    "mean_energy_perp": 36.594688415527344,
+    "mean_energy_total": 44.367103576660156,
+    "fraction_energy_parallel": 0.1751842051744461,
+    "mean_signed_parallel_projection": -1.329830527305603,
+    "pct_positive_parallel": 2.34,
+    "mean_live_separation_change": -2.8180509254455566,
+    "pct_positive_live_separation_change": 2.19
+  },
+  {
+    "epoch": 25,
+    "mean_energy_parallel": 8.383410453796387,
+    "mean_energy_perp": 40.35931396484375,
+    "mean_energy_total": 48.74272537231445,
+    "fraction_energy_parallel": 0.17199306190013885,
+    "mean_signed_parallel_projection": -1.498642921447754,
+    "pct_positive_parallel": 2.03,
+    "mean_live_separation_change": -2.373566501331329,
+    "pct_positive_live_separation_change": 2.4699999999999998
+  },
+  {
+    "epoch": 30,
+    "mean_energy_parallel": 8.375683784484863,
+    "mean_energy_perp": 44.98179244995117,
+    "mean_energy_total": 53.35747528076172,
+    "fraction_energy_parallel": 0.15697301924228668,
+    "mean_signed_parallel_projection": -1.5895880460739136,
+    "pct_positive_parallel": 2.0,
+    "mean_live_separation_change": -1.1678968030929566,
+    "pct_positive_live_separation_change": 3.35
+  }
+]

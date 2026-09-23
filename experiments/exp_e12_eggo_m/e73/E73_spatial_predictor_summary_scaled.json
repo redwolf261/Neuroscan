@@ -1,0 +1,16 @@
+{
+  "n_train_labels": 1126,
+  "n_val": 125,
+  "spatial_head_epochs": 150,
+  "pooled_rho": 0.41437190064639223,
+  "pooled_p_param": 0.0,
+  "pooled_p_perm": 0.0,
+  "per_subject_mean_rho": 0.40963883997286193,
+  "per_subject_std_rho": 0.07239851588916578,
+  "per_subject_ttest_p": 5.028753787152548e-96,
+  "per_subject_wilcoxon_p": 2.9643799464905646e-22,
+  "n_subjects_valid": 125,
+  "check_a_pass": true,
+  "check_b_pass": true,
+  "overall_pass": true
+}

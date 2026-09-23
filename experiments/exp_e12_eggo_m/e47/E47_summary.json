@@ -1,0 +1,15 @@
+{
+  "n_subjects": 125,
+  "mean_dice_intact": 0.8914526472091675,
+  "mean_boundary_drop": -0.0042344145774841305,
+  "sd_boundary_drop": 0.012297931746234085,
+  "mean_interior_drop": -0.004480481624603272,
+  "sd_interior_drop": 0.01166275621123479,
+  "mean_drop_difference": 0.0002460670471191406,
+  "sd_drop_difference": 0.01027135807785136,
+  "frac_boundary_gt_interior": 0.536,
+  "permutation_p_value": 0.808,
+  "n_permutations": 1000,
+  "confound_corr_count_ratio_vs_diff": 0.18502608454532593,
+  "decision": "NULL"
+}

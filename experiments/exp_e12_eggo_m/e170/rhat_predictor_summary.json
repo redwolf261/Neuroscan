@@ -1,0 +1,40 @@
+{
+ "target": "log2 R*_enc1",
+ "n_fit_subjects": 125,
+ "folds": 5,
+ "seed": 0,
+ "oof_report": {
+  "all77": {
+   "n_features": 77,
+   "alpha": 100.0,
+   "oof_r2_log2": 0.6314772898541108,
+   "oof_spearman": 0.7871476574432911,
+   "oof_mae_ranks": 4.449366642457339
+  },
+  "enc1_only": {
+   "n_features": 13,
+   "alpha": 10.0,
+   "oof_r2_log2": 0.13010315019619467,
+   "oof_spearman": 0.35700812982216373,
+   "oof_mae_ranks": 6.72615689958611
+  }
+ },
+ "shipped": {
+  "variant": "all77",
+  "alpha": 100.0,
+  "n_features": 77
+ },
+ "val_Rhat_distribution": {
+  "mean": 18.826631202335456,
+  "std": 6.761012177136857,
+  "p10": 10.00595186106722,
+  "p90": 27.992713434986264
+ },
+ "true_Rstar_distribution": {
+  "mean": 19.616,
+  "std": 8.842428625666141
+ },
+ "constant_arm_value": 19.616,
+ "leakage_note": "OOF folds identical to E169; shipped model refit on all 125",
+ "generalisation_caveat": "fitted on 125 val subjects, applied to 1126 train subjects; generalisation assumed, not verified -- no R* exists on train"
+}

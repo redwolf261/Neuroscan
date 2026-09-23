@@ -1,0 +1,1598 @@
+{
+  "min_support_for_ratio_floor": 1,
+  "note": "Contextual rescue is reported as (count, fraction) of zero-exact-support components that gain >=1 voxel of nonzero Gaussian-context support, NOT as a raw support(C)/support(Y) ratio (undefined/manufactured when support(Y)=0). size64 bins reused verbatim from e25/analyze_4way_comparison.py's own SIZE_BINS/SIZE_LABELS, applied to size_64 instead of E27's gt_size field.",
+  "native_size_bins": {
+    "S1": {
+      "n_components": 489,
+      "D4": {
+        "mean_exact_support_frac": 0.0,
+        "frac_components_nonzero_exact": 0.0,
+        "frac_components_zero_exact": 1.0,
+        "n_zero_exact_components": 489,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.009512996868609408,
+            "mean_gauss_mass_all": 0.0007719536036836719,
+            "mean_gauss_support_frac_when_zero_exact": 0.009512996868609408,
+            "mean_gauss_mass_when_zero_exact": 0.0007719536036836719,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 489,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.09507954291283231,
+            "mean_gauss_mass_all": 0.0007202363811559015,
+            "mean_gauss_support_frac_when_zero_exact": 0.09507954291283231,
+            "mean_gauss_mass_when_zero_exact": 0.0007202363811559015,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 489,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.31674425246037835,
+            "mean_gauss_mass_all": 0.0006849094386739134,
+            "mean_gauss_support_frac_when_zero_exact": 0.31674425246037835,
+            "mean_gauss_mass_when_zero_exact": 0.0006849094386739134,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 489,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.624474273868865,
+            "mean_gauss_mass_all": 0.0006466902731627355,
+            "mean_gauss_support_frac_when_zero_exact": 0.624474273868865,
+            "mean_gauss_mass_when_zero_exact": 0.0006466902731627355,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 489,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 3.120406761247444e-07,
+        "frac_components_nonzero_exact": 0.010224948875255624,
+        "frac_components_zero_exact": 0.9897750511247444,
+        "n_zero_exact_components": 484,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0016506951766998978,
+            "mean_gauss_mass_all": 0.006290987537743368,
+            "mean_gauss_support_frac_when_zero_exact": 0.0016500299627130682,
+            "mean_gauss_mass_when_zero_exact": 0.006250866593539037,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 484,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.014567681373018917,
+            "mean_gauss_mass_all": 0.006023572488823155,
+            "mean_gauss_support_frac_when_zero_exact": 0.014558713298198606,
+            "mean_gauss_mass_when_zero_exact": 0.005983701137891271,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 484,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.050248409341449383,
+            "mean_gauss_mass_all": 0.0059613770232031195,
+            "mean_gauss_support_frac_when_zero_exact": 0.050225691361860794,
+            "mean_gauss_mass_when_zero_exact": 0.005922804252737133,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 484,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.11592448415931748,
+            "mean_gauss_mass_all": 0.005889584048477845,
+            "mean_gauss_support_frac_when_zero_exact": 0.11589724958435563,
+            "mean_gauss_mass_when_zero_exact": 0.005851508219714838,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 484,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 1.7942338877172802e-07,
+        "frac_components_nonzero_exact": 0.04703476482617587,
+        "frac_components_zero_exact": 0.9529652351738241,
+        "n_zero_exact_components": 466,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0004218477900530419,
+            "mean_gauss_mass_all": 0.05544853657255509,
+            "mean_gauss_support_frac_when_zero_exact": 0.0004177011645403031,
+            "mean_gauss_mass_when_zero_exact": 0.053447125811337655,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 466,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.47854077253218885
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.002478507886391232,
+            "mean_gauss_mass_all": 0.05148292513438529,
+            "mean_gauss_support_frac_when_zero_exact": 0.002467323270478474,
+            "mean_gauss_mass_when_zero_exact": 0.04995486304131956,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 466,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.008149535134282336,
+            "mean_gauss_mass_all": 0.04993449221222313,
+            "mean_gauss_support_frac_when_zero_exact": 0.008121515036652528,
+            "mean_gauss_mass_when_zero_exact": 0.048451705659887566,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 466,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.017855248324466385,
+            "mean_gauss_mass_all": 0.0492289223630126,
+            "mean_gauss_support_frac_when_zero_exact": 0.017815503951305996,
+            "mean_gauss_mass_when_zero_exact": 0.04783666601540449,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 466,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      }
+    },
+    "S2": {
+      "n_components": 61,
+      "D4": {
+        "mean_exact_support_frac": 0.0,
+        "frac_components_nonzero_exact": 0.0,
+        "frac_components_zero_exact": 1.0,
+        "n_zero_exact_components": 61,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.011082383452868853,
+            "mean_gauss_mass_all": 0.005056630800951456,
+            "mean_gauss_support_frac_when_zero_exact": 0.011082383452868853,
+            "mean_gauss_mass_when_zero_exact": 0.005056630800951456,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 61,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.10214283427254098,
+            "mean_gauss_mass_all": 0.004682409454931001,
+            "mean_gauss_support_frac_when_zero_exact": 0.10214283427254098,
+            "mean_gauss_mass_when_zero_exact": 0.004682409454931001,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 61,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.3314789318647541,
+            "mean_gauss_mass_all": 0.004410958402316834,
+            "mean_gauss_support_frac_when_zero_exact": 0.3314789318647541,
+            "mean_gauss_mass_when_zero_exact": 0.004410958402316834,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 61,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.651215099897541,
+            "mean_gauss_mass_all": 0.004135953980024721,
+            "mean_gauss_support_frac_when_zero_exact": 0.651215099897541,
+            "mean_gauss_mass_when_zero_exact": 0.004135953980024721,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 61,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 1.5008644979508196e-06,
+        "frac_components_nonzero_exact": 0.04918032786885246,
+        "frac_components_zero_exact": 0.9508196721311475,
+        "n_zero_exact_components": 58,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0019906466124487705,
+            "mean_gauss_mass_all": 0.039247232932047765,
+            "mean_gauss_support_frac_when_zero_exact": 0.001988904229525862,
+            "mean_gauss_mass_when_zero_exact": 0.038548506089839445,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 58,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.1724137931034483
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.015996213819159836,
+            "mean_gauss_mass_all": 0.038343882004989956,
+            "mean_gauss_support_frac_when_zero_exact": 0.015923861799568964,
+            "mean_gauss_mass_when_zero_exact": 0.03757513767301009,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 58,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.05373044873847336,
+            "mean_gauss_mass_all": 0.03809479996562004,
+            "mean_gauss_support_frac_when_zero_exact": 0.05356834674703664,
+            "mean_gauss_mass_when_zero_exact": 0.03740192718546966,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 58,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.12136540647412909,
+            "mean_gauss_mass_all": 0.037422564766201816,
+            "mean_gauss_support_frac_when_zero_exact": 0.12119477370689655,
+            "mean_gauss_mass_when_zero_exact": 0.03680350846643078,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 58,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 9.380403112192623e-07,
+        "frac_components_nonzero_exact": 0.22950819672131148,
+        "frac_components_zero_exact": 0.7704918032786885,
+        "n_zero_exact_components": 47,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0005436881643826844,
+            "mean_gauss_mass_all": 0.33232732019463523,
+            "mean_gauss_support_frac_when_zero_exact": 0.0005425798132064495,
+            "mean_gauss_mass_when_zero_exact": 0.32095364021494033,
+            "n_zero_exact_with_nonzero_context": 10,
+            "n_zero_exact_total": 47,
+            "frac_zero_exact_rescued_by_context": 0.2127659574468085,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.0029341900934938526,
+            "mean_gauss_mass_all": 0.3250187823518378,
+            "mean_gauss_support_frac_when_zero_exact": 0.00292798306079621,
+            "mean_gauss_mass_when_zero_exact": 0.3144079751156746,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 47,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.7872340425531915
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.009029513499775871,
+            "mean_gauss_mass_all": 0.31355450436717175,
+            "mean_gauss_support_frac_when_zero_exact": 0.009097241340799535,
+            "mean_gauss_mass_when_zero_exact": 0.305806058835476,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 47,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.01954988573418289,
+            "mean_gauss_mass_all": 0.3129185484569581,
+            "mean_gauss_support_frac_when_zero_exact": 0.019611196315034905,
+            "mean_gauss_mass_when_zero_exact": 0.3040399491152865,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 47,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      }
+    },
+    "S3": {
+      "n_components": 22,
+      "D4": {
+        "mean_exact_support_frac": 0.0,
+        "frac_components_nonzero_exact": 0.0,
+        "frac_components_zero_exact": 1.0,
+        "n_zero_exact_components": 22,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.012262517755681818,
+            "mean_gauss_mass_all": 0.017155468760227614,
+            "mean_gauss_support_frac_when_zero_exact": 0.012262517755681818,
+            "mean_gauss_mass_when_zero_exact": 0.017155468760227614,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 22,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.10368208451704546,
+            "mean_gauss_mass_all": 0.0161921013654633,
+            "mean_gauss_support_frac_when_zero_exact": 0.10368208451704546,
+            "mean_gauss_mass_when_zero_exact": 0.0161921013654633,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 22,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.31999067826704547,
+            "mean_gauss_mass_all": 0.015124278248880397,
+            "mean_gauss_support_frac_when_zero_exact": 0.31999067826704547,
+            "mean_gauss_mass_when_zero_exact": 0.015124278248880397,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 22,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.6214932528409091,
+            "mean_gauss_mass_all": 0.014220446898517284,
+            "mean_gauss_support_frac_when_zero_exact": 0.6214932528409091,
+            "mean_gauss_mass_when_zero_exact": 0.014220446898517284,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 22,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 5.548650568181818e-06,
+        "frac_components_nonzero_exact": 0.18181818181818182,
+        "frac_components_zero_exact": 0.8181818181818182,
+        "n_zero_exact_components": 18,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0026689009232954545,
+            "mean_gauss_mass_all": 0.1440110575746406,
+            "mean_gauss_support_frac_when_zero_exact": 0.002694023980034722,
+            "mean_gauss_mass_when_zero_exact": 0.1448586703174644,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 18,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.018212058327414772,
+            "mean_gauss_mass_all": 0.13760290769013492,
+            "mean_gauss_support_frac_when_zero_exact": 0.018352932400173612,
+            "mean_gauss_mass_when_zero_exact": 0.13853294567929375,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 18,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.056833440607244316,
+            "mean_gauss_mass_all": 0.13372602567754008,
+            "mean_gauss_support_frac_when_zero_exact": 0.057517157660590276,
+            "mean_gauss_mass_when_zero_exact": 0.1344868472466866,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 18,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.1248931884765625,
+            "mean_gauss_mass_all": 0.1313095444982702,
+            "mean_gauss_support_frac_when_zero_exact": 0.12670728895399305,
+            "mean_gauss_mass_when_zero_exact": 0.13171308777398533,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 18,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 3.988092595880682e-06,
+        "frac_components_nonzero_exact": 0.6363636363636364,
+        "frac_components_zero_exact": 0.36363636363636365,
+        "n_zero_exact_components": 8,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0008026469837535511,
+            "mean_gauss_mass_all": 1.2241630364548077,
+            "mean_gauss_support_frac_when_zero_exact": 0.0008258819580078125,
+            "mean_gauss_mass_when_zero_exact": 1.1355775073170662,
+            "n_zero_exact_with_nonzero_context": 8,
+            "n_zero_exact_total": 8,
+            "frac_zero_exact_rescued_by_context": 1.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.003584254871715199,
+            "mean_gauss_mass_all": 1.1399578126994045,
+            "mean_gauss_support_frac_when_zero_exact": 0.0036940574645996094,
+            "mean_gauss_mass_when_zero_exact": 1.0780929327011108,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 8,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.010394529862837358,
+            "mean_gauss_mass_all": 1.1097590950402347,
+            "mean_gauss_support_frac_when_zero_exact": 0.01074981689453125,
+            "mean_gauss_mass_when_zero_exact": 1.06465382874012,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 8,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.875
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.021170876242897728,
+            "mean_gauss_mass_all": 1.0873884477398612,
+            "mean_gauss_support_frac_when_zero_exact": 0.021936416625976562,
+            "mean_gauss_mass_when_zero_exact": 1.0489741563796997,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 8,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.125
+          }
+        }
+      }
+    },
+    "S4": {
+      "n_components": 15,
+      "D4": {
+        "mean_exact_support_frac": 0.0,
+        "frac_components_nonzero_exact": 0.0,
+        "frac_components_zero_exact": 1.0,
+        "n_zero_exact_components": 15,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.013297526041666667,
+            "mean_gauss_mass_all": 0.044351621096332866,
+            "mean_gauss_support_frac_when_zero_exact": 0.013297526041666667,
+            "mean_gauss_mass_when_zero_exact": 0.044351621096332866,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 15,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.4
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.10831705729166667,
+            "mean_gauss_mass_all": 0.04204439582924048,
+            "mean_gauss_support_frac_when_zero_exact": 0.10831705729166667,
+            "mean_gauss_mass_when_zero_exact": 0.04204439582924048,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 15,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.33056640625,
+            "mean_gauss_mass_all": 0.03890283343692621,
+            "mean_gauss_support_frac_when_zero_exact": 0.33056640625,
+            "mean_gauss_mass_when_zero_exact": 0.03890283343692621,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 15,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.618505859375,
+            "mean_gauss_mass_all": 0.036931009218096736,
+            "mean_gauss_support_frac_when_zero_exact": 0.618505859375,
+            "mean_gauss_mass_when_zero_exact": 0.036931009218096736,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 15,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 1.0172526041666666e-05,
+        "frac_components_nonzero_exact": 0.3333333333333333,
+        "frac_components_zero_exact": 0.6666666666666666,
+        "n_zero_exact_components": 10,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.002956136067708333,
+            "mean_gauss_mass_all": 0.3509878009557724,
+            "mean_gauss_support_frac_when_zero_exact": 0.0027984619140625,
+            "mean_gauss_mass_when_zero_exact": 0.3148294910788536,
+            "n_zero_exact_with_nonzero_context": 1,
+            "n_zero_exact_total": 10,
+            "frac_zero_exact_rescued_by_context": 0.1,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.019012451171875,
+            "mean_gauss_mass_all": 0.340552028020223,
+            "mean_gauss_support_frac_when_zero_exact": 0.0182159423828125,
+            "mean_gauss_mass_when_zero_exact": 0.30517394840717316,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 10,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.7
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.05837605794270833,
+            "mean_gauss_mass_all": 0.33543645441532133,
+            "mean_gauss_support_frac_when_zero_exact": 0.0557037353515625,
+            "mean_gauss_mass_when_zero_exact": 0.3011565670371056,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 10,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.12779947916666667,
+            "mean_gauss_mass_all": 0.3347216596206029,
+            "mean_gauss_support_frac_when_zero_exact": 0.12119140625,
+            "mean_gauss_mass_when_zero_exact": 0.3018934652209282,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 10,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 9.918212890625e-06,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0010195414225260416,
+            "mean_gauss_mass_all": 3.092561650276184,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.004134623209635416,
+            "mean_gauss_mass_all": 2.923297715187073,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.011593882242838542,
+            "mean_gauss_mass_all": 2.8539286931355794,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.02295684814453125,
+            "mean_gauss_mass_all": 2.792960778872172,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      }
+    },
+    "S5": {
+      "n_components": 162,
+      "D4": {
+        "mean_exact_support_frac": 0.006921838831018518,
+        "frac_components_nonzero_exact": 0.8827160493827161,
+        "frac_components_zero_exact": 0.11728395061728394,
+        "n_zero_exact_components": 19,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.10835925443672839,
+            "mean_gauss_mass_all": 32.6846620661701,
+            "mean_gauss_support_frac_when_zero_exact": 0.02314196134868421,
+            "mean_gauss_mass_when_zero_exact": 0.45105242454691935,
+            "n_zero_exact_with_nonzero_context": 5,
+            "n_zero_exact_total": 19,
+            "frac_zero_exact_rescued_by_context": 0.2631578947368421,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.3557550877700617,
+            "mean_gauss_mass_all": 30.45143942774078,
+            "mean_gauss_support_frac_when_zero_exact": 0.14657432154605263,
+            "mean_gauss_mass_when_zero_exact": 0.43272390804792704,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 19,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.7368421052631579
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.6632004726080247,
+            "mean_gauss_mass_all": 29.001895788551113,
+            "mean_gauss_support_frac_when_zero_exact": 0.4016884251644737,
+            "mean_gauss_mass_when_zero_exact": 0.41008300804778147,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 19,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.2631578947368421
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.8858311029128086,
+            "mean_gauss_mass_all": 28.004036525080416,
+            "mean_gauss_support_frac_when_zero_exact": 0.7002852590460527,
+            "mean_gauss_mass_when_zero_exact": 0.3898023055180123,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 19,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 0.007589269567418982,
+        "frac_components_nonzero_exact": 0.9753086419753086,
+        "frac_components_zero_exact": 0.024691358024691357,
+        "n_zero_exact_components": 4,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.04841557255497685,
+            "mean_gauss_mass_all": 271.2532725731532,
+            "mean_gauss_support_frac_when_zero_exact": 0.0057525634765625,
+            "mean_gauss_mass_when_zero_exact": 2.0730671882629395,
+            "n_zero_exact_with_nonzero_context": 3,
+            "n_zero_exact_total": 4,
+            "frac_zero_exact_rescued_by_context": 0.75,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.12100389268663195,
+            "mean_gauss_mass_all": 268.66014549099367,
+            "mean_gauss_support_frac_when_zero_exact": 0.027069091796875,
+            "mean_gauss_mass_when_zero_exact": 1.9113189429044724,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 4,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.2382778591579861,
+            "mean_gauss_mass_all": 265.5685131005299,
+            "mean_gauss_support_frac_when_zero_exact": 0.07171630859375,
+            "mean_gauss_mass_when_zero_exact": 1.8036847561597824,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 4,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.75
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.38927092375578703,
+            "mean_gauss_mass_all": 258.29882433458613,
+            "mean_gauss_support_frac_when_zero_exact": 0.14221954345703125,
+            "mean_gauss_mass_when_zero_exact": 1.7436170130968094,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 4,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.75
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 0.007848198031201774,
+        "frac_components_nonzero_exact": 0.9938271604938271,
+        "frac_components_zero_exact": 0.006172839506172839,
+        "n_zero_exact_components": 1,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.02723672654893663,
+            "mean_gauss_mass_all": 2201.5391725198724,
+            "mean_gauss_support_frac_when_zero_exact": 0.00274658203125,
+            "mean_gauss_mass_when_zero_exact": 19.181346893310547,
+            "n_zero_exact_with_nonzero_context": 1,
+            "n_zero_exact_total": 1,
+            "frac_zero_exact_rescued_by_context": 1.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.050326288482289254,
+            "mean_gauss_mass_all": 2189.0948037512508,
+            "mean_gauss_support_frac_when_zero_exact": 0.010223388671875,
+            "mean_gauss_mass_when_zero_exact": 19.890291213989258,
+            "n_zero_exact_with_nonzero_context": 1,
+            "n_zero_exact_total": 1,
+            "frac_zero_exact_rescued_by_context": 1.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.08569258230703848,
+            "mean_gauss_mass_all": 2179.7452156632035,
+            "mean_gauss_support_frac_when_zero_exact": 0.02264404296875,
+            "mean_gauss_mass_when_zero_exact": 18.33195686340332,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 1,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.12615761933503328,
+            "mean_gauss_mass_all": 2172.718259979177,
+            "mean_gauss_support_frac_when_zero_exact": 0.042022705078125,
+            "mean_gauss_mass_when_zero_exact": 18.209455490112305,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 1,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          }
+        }
+      }
+    }
+  },
+  "size_64_bins": {
+    "1-50": {
+      "n_components": 611,
+      "D4": {
+        "mean_exact_support_frac": 3.59617941898527e-06,
+        "frac_components_nonzero_exact": 0.01309328968903437,
+        "frac_components_zero_exact": 0.9869067103109657,
+        "n_zero_exact_components": 603,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.010340214556055646,
+            "mean_gauss_mass_all": 0.017296400103184933,
+            "mean_gauss_support_frac_when_zero_exact": 0.010174955301616915,
+            "mean_gauss_mass_when_zero_exact": 0.011598849887498245,
+            "n_zero_exact_with_nonzero_context": 2,
+            "n_zero_exact_total": 603,
+            "frac_zero_exact_rescued_by_context": 0.003316749585406302,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.03648424543946932
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.09815971511865794,
+            "mean_gauss_mass_all": 0.016711040042720296,
+            "mean_gauss_support_frac_when_zero_exact": 0.09758904047470979,
+            "mean_gauss_mass_when_zero_exact": 0.011178057193856495,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 603,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.01824212271973466
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.3217581641264321,
+            "mean_gauss_mass_all": 0.015586948577410262,
+            "mean_gauss_support_frac_when_zero_exact": 0.3206708158426617,
+            "mean_gauss_mass_when_zero_exact": 0.010511357353019078,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 603,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.003316749585406302
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.6292914407733224,
+            "mean_gauss_mass_all": 0.014886516020467517,
+            "mean_gauss_support_frac_when_zero_exact": 0.62859732910966,
+            "mean_gauss_mass_when_zero_exact": 0.01004999019515432,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 603,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 4.1455957191080196e-06,
+        "frac_components_nonzero_exact": 0.060556464811783964,
+        "frac_components_zero_exact": 0.939443535188216,
+        "n_zero_exact_components": 574,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.0019333959601319558,
+            "mean_gauss_mass_all": 0.1498775776786617,
+            "mean_gauss_support_frac_when_zero_exact": 0.0017656067107197299,
+            "mean_gauss_mass_when_zero_exact": 0.03363981274222689,
+            "n_zero_exact_with_nonzero_context": 4,
+            "n_zero_exact_total": 574,
+            "frac_zero_exact_rescued_by_context": 0.006968641114982578,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.07317073170731707
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.015537942489898732,
+            "mean_gauss_mass_all": 0.14370074837526486,
+            "mean_gauss_support_frac_when_zero_exact": 0.014966532743766333,
+            "mean_gauss_mass_when_zero_exact": 0.03182243486705726,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 574,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.01916376306620209
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.05222651455094108,
+            "mean_gauss_mass_all": 0.14030484496211898,
+            "mean_gauss_support_frac_when_zero_exact": 0.05103729992378049,
+            "mean_gauss_mass_when_zero_exact": 0.030806649791868566,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 574,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.005226480836236934
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.11906640385254705,
+            "mean_gauss_mass_all": 0.13891786650515203,
+            "mean_gauss_support_frac_when_zero_exact": 0.11704719357374238,
+            "mean_gauss_mass_when_zero_exact": 0.030193330581747776,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 574,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.005226480836236934
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 3.8084538985781507e-06,
+        "frac_components_nonzero_exact": 0.14566284779050737,
+        "frac_components_zero_exact": 0.8543371522094927,
+        "n_zero_exact_components": 522,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.000534432219210311,
+            "mean_gauss_mass_all": 1.2091740723821272,
+            "mean_gauss_support_frac_when_zero_exact": 0.0004396621294862009,
+            "mean_gauss_mass_when_zero_exact": 0.13076082120695903,
+            "n_zero_exact_with_nonzero_context": 19,
+            "n_zero_exact_total": 522,
+            "frac_zero_exact_rescued_by_context": 0.03639846743295019,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.5344827586206896
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.0027969722466851215,
+            "mean_gauss_mass_all": 1.1864007511610584,
+            "mean_gauss_support_frac_when_zero_exact": 0.002542459188293223,
+            "mean_gauss_mass_when_zero_exact": 0.12753098789902254,
+            "n_zero_exact_with_nonzero_context": 1,
+            "n_zero_exact_total": 522,
+            "frac_zero_exact_rescued_by_context": 0.0019157088122605363,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.08812260536398467
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.008775152278219619,
+            "mean_gauss_mass_all": 1.1474689490050565,
+            "mean_gauss_support_frac_when_zero_exact": 0.008277469211154513,
+            "mean_gauss_mass_when_zero_exact": 0.12222330861321697,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 522,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.01532567049808429
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.018859857037882954,
+            "mean_gauss_mass_all": 1.1461624616113797,
+            "mean_gauss_support_frac_when_zero_exact": 0.018086714762837495,
+            "mean_gauss_mass_when_zero_exact": 0.12104025423897866,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 522,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0038314176245210726
+          }
+        }
+      }
+    },
+    "50-150": {
+      "n_components": 5,
+      "D4": {
+        "mean_exact_support_frac": 0.00029296875,
+        "frac_components_nonzero_exact": 0.4,
+        "frac_components_zero_exact": 0.6,
+        "n_zero_exact_components": 3,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.03515625,
+            "mean_gauss_mass_all": 1.2329529643058776,
+            "mean_gauss_support_frac_when_zero_exact": 0.033772786458333336,
+            "mean_gauss_mass_when_zero_exact": 1.1015080014864604,
+            "n_zero_exact_with_nonzero_context": 3,
+            "n_zero_exact_total": 3,
+            "frac_zero_exact_rescued_by_context": 1.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.188916015625,
+            "mean_gauss_mass_all": 1.1561623692512513,
+            "mean_gauss_support_frac_when_zero_exact": 0.189697265625,
+            "mean_gauss_mass_when_zero_exact": 1.0353668332099915,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 3,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.469873046875,
+            "mean_gauss_mass_all": 1.0794088006019593,
+            "mean_gauss_support_frac_when_zero_exact": 0.4580078125,
+            "mean_gauss_mass_when_zero_exact": 0.9911648233731588,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 3,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 1.0
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.756640625,
+            "mean_gauss_mass_all": 1.0165133714675902,
+            "mean_gauss_support_frac_when_zero_exact": 0.7679036458333334,
+            "mean_gauss_mass_when_zero_exact": 0.9271464745203654,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 3,
+            "frac_zero_exact_rescued_by_context": 0.0,
+            "frac_rescued_TRIVIAL_support_nonzero": 1.0,
+            "frac_rescued_STRICT_support_gt_0p01": 0.0
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 0.000286865234375,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.010028076171875,
+            "mean_gauss_mass_all": 9.154613971710205,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.0401123046875,
+            "mean_gauss_mass_all": 9.050899219512939,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.104534912109375,
+            "mean_gauss_mass_all": 9.095308303833008,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.20206298828125,
+            "mean_gauss_mass_all": 8.924235534667968,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 0.00029449462890625,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.004387664794921875,
+            "mean_gauss_mass_all": 78.93251342773438,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.011655426025390625,
+            "mean_gauss_mass_all": 75.39856185913087,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.0262481689453125,
+            "mean_gauss_mass_all": 75.6201904296875,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.045184326171875,
+            "mean_gauss_mass_all": 74.42889862060547,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      }
+    },
+    "150-400": {
+      "n_components": 7,
+      "D4": {
+        "mean_exact_support_frac": 0.0008370535714285714,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.054652622767857144,
+            "mean_gauss_mass_all": 3.9123079776763916,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.24564034598214285,
+            "mean_gauss_mass_all": 3.708104576383318,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.56201171875,
+            "mean_gauss_mass_all": 3.464693137577602,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.85693359375,
+            "mean_gauss_mass_all": 3.2449540070125034,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 0.0008457728794642857,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.019518171037946428,
+            "mean_gauss_mass_all": 32.03470148359026,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.06427437918526786,
+            "mean_gauss_mass_all": 31.079947880336217,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.147705078125,
+            "mean_gauss_mass_all": 30.481952939714706,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.276397705078125,
+            "mean_gauss_mass_all": 30.174922125680105,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 0.0008670261928013393,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.008280617850167411,
+            "mean_gauss_mass_all": 247.59955051967077,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.02072089059012277,
+            "mean_gauss_mass_all": 252.0177459716797,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.04103633335658482,
+            "mean_gauss_mass_all": 245.4098859514509,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.06789452689034599,
+            "mean_gauss_mass_all": 246.8848658970424,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      }
+    },
+    "400-1000": {
+      "n_components": 15,
+      "D4": {
+        "mean_exact_support_frac": 0.002099609375,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.068994140625,
+            "mean_gauss_mass_all": 10.1627960840861,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.268994140625,
+            "mean_gauss_mass_all": 9.754137420654297,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.569970703125,
+            "mean_gauss_mass_all": 9.440470949808757,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.820849609375,
+            "mean_gauss_mass_all": 9.047436809539795,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 0.0023295084635416665,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.028163655598958334,
+            "mean_gauss_mass_all": 87.5356346130371,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.082623291015625,
+            "mean_gauss_mass_all": 85.59483286539714,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.17814534505208332,
+            "mean_gauss_mass_all": 85.6053337097168,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.30532633463541664,
+            "mean_gauss_mass_all": 82.89886906941732,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 0.0024775187174479168,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.01377410888671875,
+            "mean_gauss_mass_all": 704.6390238444011,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.029544321695963542,
+            "mean_gauss_mass_all": 698.5609537760416,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.056052907307942705,
+            "mean_gauss_mass_all": 697.3338541666667,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.08669687906901041,
+            "mean_gauss_mass_all": 688.6492248535156,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      }
+    },
+    ">1000": {
+      "n_components": 111,
+      "D4": {
+        "mean_exact_support_frac": 0.009732633023648648,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.13910077069256757,
+            "mean_gauss_mass_all": 45.94669303378544,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.42872193482545046,
+            "mean_gauss_mass_all": 42.761241904250134,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.7488078899211712,
+            "mean_gauss_mass_all": 40.71213331308451,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.9455456432995496,
+            "mean_gauss_mass_all": 39.32869187776033,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D2": {
+        "mean_exact_support_frac": 0.01067702834670608,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.06382407798423423,
+            "mean_gauss_mass_all": 380.9216927193307,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.15319219365850226,
+            "mean_gauss_mass_all": 377.49392645208684,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.292223681200732,
+            "mean_gauss_mass_all": 373.0329284667969,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.4643452962239583,
+            "mean_gauss_mass_all": 362.8222925684474,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      },
+      "D1": {
+        "mean_exact_support_frac": 0.011033857190931166,
+        "frac_components_nonzero_exact": 1.0,
+        "frac_components_zero_exact": 0.0,
+        "n_zero_exact_components": 0,
+        "sigma_grid": {
+          "0.5": {
+            "mean_gauss_support_frac_all": 0.03668195707303984,
+            "mean_gauss_mass_all": 3093.0973164326438,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.0": {
+            "mean_gauss_support_frac_all": 0.06602945413675394,
+            "mean_gauss_mass_all": 3075.7014940966355,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "1.5": {
+            "mean_gauss_support_frac_all": 0.10990812971785262,
+            "mean_gauss_mass_all": 3062.8145213084176,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          },
+          "2.0": {
+            "mean_gauss_support_frac_all": 0.15897654627894495,
+            "mean_gauss_mass_all": 3053.6842689857826,
+            "mean_gauss_support_frac_when_zero_exact": null,
+            "mean_gauss_mass_when_zero_exact": null,
+            "n_zero_exact_with_nonzero_context": 0,
+            "n_zero_exact_total": 0,
+            "frac_zero_exact_rescued_by_context": null,
+            "frac_rescued_TRIVIAL_support_nonzero": null,
+            "frac_rescued_STRICT_support_gt_0p01": null
+          }
+        }
+      }
+    }
+  }
+}

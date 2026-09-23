@@ -1,0 +1,9 @@
+{
+  "gate1_pass": false,
+  "gate2_evaluated": false,
+  "delta_const_small_mean": 0.012451804825104773,
+  "delta_const_small_p": 0.076,
+  "delta_nc_small_mean": 0.003712582984007895,
+  "delta_nc_small_p": 0.301,
+  "final_decision": "KILL_GATE1"
+}

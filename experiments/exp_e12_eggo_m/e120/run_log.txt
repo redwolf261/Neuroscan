@@ -1,0 +1,64 @@
+Device: cuda
+[Unit test] ContextProbe output shapes: PASS for all context sizes.
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00 PASS.
+
+Extracting 125 validation subjects...
+  extracted 25/125
+  extracted 50/125
+  extracted 75/125
+  extracted 100/125
+  extracted 125/125
+
+Total subjects: 125
+N_b: mean=0.2717 std=0.1733 (sanity check vs ~0.27-0.32 range)
+Probe-train: 93, Probe-eval (held-out): 32 (IDENTICAL split rule to E90-E92/E119)
+
+=== Context C0 (cube=2^3) ===
+C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e120\run_e120_context_sufficiency_audit.py:252: RuntimeWarning: overflow encountered in exp
+  pred = 1 / (1 + np.exp(-logits))
+  Target A (occupancy, Pearson r): mean=-0.0124
+  Target B (presence, Dice):       mean=0.6852
+
+=== Context C1 (cube=4^3) ===
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\numpy\lib\_function_base_impl.py:3036: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\numpy\lib\_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e120\run_e120_context_sufficiency_audit.py:257: RuntimeWarning: overflow encountered in exp
+  pred_bin = (1 / (1 + np.exp(-logits)) >= 0.5).astype(np.float32)
+  Target A (occupancy, Pearson r): mean=-0.0035
+  Target B (presence, Dice):       mean=0.8069
+
+=== Context C2 (cube=6^3) ===
+  Target A (occupancy, Pearson r): mean=0.0000
+  Target B (presence, Dice):       mean=0.8378
+
+=== Context C3 (cube=8^3) ===
+C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e120\run_e120_context_sufficiency_audit.py:382: RuntimeWarning: overflow encountered in exp
+  pred_bin = (1 / (1 + np.exp(-logits)) >= 0.5).astype(np.float32)
+  Target A (occupancy, Pearson r): mean=0.0000
+  Target B (presence, Dice):       mean=0.8400
+
+=== Target C: fractional-occupancy-cell decodability (using Target B probes) ===
+  C0: mean=0.2034 (n_subjects_with_fractional_cells=32)
+  C1: mean=0.2143 (n_subjects_with_fractional_cells=32)
+  C2: mean=0.2094 (n_subjects_with_fractional_cells=32)
+  C3: mean=0.2122 (n_subjects_with_fractional_cells=32)
+
+=== Subject-level Delta_D = D(C3) - D(C0), Target B (presence, Dice) ===
+D(C0): mean=0.6852, D(C3): mean=0.8400, Delta_D: mean=0.1548 std=0.1842
+
+Spearman(Delta_D, N_b) = -0.1107 (param p=5.4639e-01, perm p=0.5450)
+
+=== Model 1/2/3 (N_b ~ Delta_D, N_b ~ size, N_b ~ Delta_D + size) ===
+  Model 1 (N_b ~ Delta_D): R^2=0.0477, coef[1]=-0.2186
+  Model 2 (N_b ~ size): R^2=0.2702, coef[1]=-0.1320
+  Model 3 (N_b ~ Delta_D + size): R^2=0.5223, coef[1]=-0.5609
+
+Partial Spearman (controlling native_size) = -0.4241 (param p=1.5556e-02, perm p=0.0170)
+
+=== E120_B_KILL_NOT_ASSOCIATED_OR_SIZE_EXPLAINED ===
+Delta_D > 0 (context decodability gain is real) but does not significantly predict N_b, or the association is explained by lesion size (does not survive Model 3 / partial correlation).
+
+Saved E120_summary.json

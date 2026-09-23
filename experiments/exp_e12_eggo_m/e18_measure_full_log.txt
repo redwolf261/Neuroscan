@@ -1,0 +1,114 @@
+SKIPPING baseline: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\baseline_results.json), loading existing result
+SKIPPING freeze_bn: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\freeze_bn_results.json), loading existing result
+SKIPPING freeze_encoder: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\freeze_encoder_results.json), loading existing result
+
+######################################################################
+# CONFIG: freeze_decoder
+######################################################################
+  [Part1]  1-> 5: cos=+0.9392
+  [Part1]  5->10: cos=+0.9787
+  [Part1] 10->15: cos=+0.9965
+  [Part1] 15->20: cos=+0.9969
+  [Part1] 20->25: cos=+0.9938
+  [Part1] 25->30: cos=+0.9995
+  [Part4]  1-> 5: rotation_closeness=+0.7159 residual=0.8769
+  [Part4]  5->10: rotation_closeness=+0.9757 residual=0.6040
+  [Part4] 10->15: rotation_closeness=+0.9963 residual=0.3454
+  [Part4] 15->20: rotation_closeness=+0.9967 residual=0.3132
+  [Part4] 20->25: rotation_closeness=+0.9969 residual=0.3015
+  [Part4] 25->30: rotation_closeness=+0.9991 residual=0.2124
+  [Part5] Principal angles / subspace overlap (top-5 PCA components)...
+    epoch  1 vs epoch 1: max principal angle=0.0 deg, mean subspace overlap (cos)=+1.0000
+    epoch  5 vs epoch 1: max principal angle=81.8 deg, mean subspace overlap (cos)=+0.6096
+    epoch 10 vs epoch 1: max principal angle=88.6 deg, mean subspace overlap (cos)=+0.5538
+    epoch 15 vs epoch 1: max principal angle=88.0 deg, mean subspace overlap (cos)=+0.5532
+    epoch 20 vs epoch 1: max principal angle=88.0 deg, mean subspace overlap (cos)=+0.5668
+    epoch 25 vs epoch 1: max principal angle=86.0 deg, mean subspace overlap (cos)=+0.5747
+    epoch 30 vs epoch 1: max principal angle=80.8 deg, mean subspace overlap (cos)=+0.5707
+  [Part2/3] Selecting fixed stratified anchor set...
+  [Part2/3] epoch  1: 15242 nonzero gradients / 40000 anchors
+  [Part2/3] epoch  5: 35314 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 10: 34819 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 15: 35692 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 20: 31992 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 25: 27860 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 30: 26458 nonzero gradients / 40000 anchors
+  [Part2]  1-> 5: n=14970 mean_cos=+0.2622
+  [Part2]  5->10: n=32722 mean_cos=+0.6651
+  [Part2] 10->15: n=33324 mean_cos=+0.8351
+  [Part2] 15->20: n=30985 mean_cos=+0.8034
+  [Part2] 20->25: n=26722 mean_cos=+0.7662
+  [Part2] 25->30: n=24461 mean_cos=+0.7766
+  [Part3] vs epoch 1: e1=+1.000, e5=+0.262, e10=+0.236, e15=+0.222, e20=+0.226, e25=+0.224, e30=+0.219
+  [Rotation summary] 1->5: 0.06081199645996094, 5->10: 0.021295785903930664, 10->30: 0.024523138999938965
+
+######################################################################
+# CONFIG: freeze_seg_head
+######################################################################
+  [Part1]  1-> 5: cos=+0.7167
+  [Part1]  5->10: cos=+0.9343
+  [Part1] 10->15: cos=+0.9628
+  [Part1] 15->20: cos=+0.9142
+  [Part1] 20->25: cos=+0.9376
+  [Part1] 25->30: cos=+0.9772
+  [Part4]  1-> 5: rotation_closeness=+0.4107 residual=0.8063
+  [Part4]  5->10: rotation_closeness=+0.7944 residual=0.5844
+  [Part4] 10->15: rotation_closeness=+0.8336 residual=0.5281
+  [Part4] 15->20: rotation_closeness=+0.7551 residual=0.7361
+  [Part4] 20->25: rotation_closeness=+0.7938 residual=0.3817
+  [Part4] 25->30: rotation_closeness=+0.9452 residual=0.3386
+  [Part5] Principal angles / subspace overlap (top-5 PCA components)...
+    epoch  1 vs epoch 1: max principal angle=0.0 deg, mean subspace overlap (cos)=+1.0000
+    epoch  5 vs epoch 1: max principal angle=82.7 deg, mean subspace overlap (cos)=+0.6237
+    epoch 10 vs epoch 1: max principal angle=88.3 deg, mean subspace overlap (cos)=+0.5897
+    epoch 15 vs epoch 1: max principal angle=87.2 deg, mean subspace overlap (cos)=+0.4801
+    epoch 20 vs epoch 1: max principal angle=86.4 deg, mean subspace overlap (cos)=+0.4538
+    epoch 25 vs epoch 1: max principal angle=86.0 deg, mean subspace overlap (cos)=+0.4514
+    epoch 30 vs epoch 1: max principal angle=85.3 deg, mean subspace overlap (cos)=+0.4533
+  [Part2/3] Selecting fixed stratified anchor set...
+  [Part2/3] epoch  1: 7915 nonzero gradients / 40000 anchors
+  [Part2/3] epoch  5: 5612 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 10: 4275 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 15: 2538 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 20: 5311 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 25: 10607 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 30: 6998 nonzero gradients / 40000 anchors
+  [Part2]  1-> 5: n=2135 mean_cos=+0.1319
+  [Part2]  5->10: n=1542 mean_cos=+0.2377
+  [Part2] 10->15: n=900 mean_cos=+0.3957
+  [Part2] 15->20: n=967 mean_cos=+0.3057
+  [Part2] 20->25: n=3141 mean_cos=+0.2667
+  [Part2] 25->30: n=4864 mean_cos=+0.4866
+  [Part3] vs epoch 1: e1=+1.000, e5=+0.132, e10=+0.100, e15=+0.076, e20=+0.073, e25=+0.045, e30=+0.044
+  [Rotation summary] 1->5: 0.2832958698272705, 5->10: 0.06573474407196045, 10->30: 0.17526400089263916
+
+######################################################################
+# CONFIG: lambda_zero
+######################################################################
+  [Part1]  1-> 5: cos=+0.8671
+  [Part1]  5->10: cos=+0.9858
+  [Part1] 10->15: cos=+0.9754
+  [Part1] 15->20: cos=+0.9965
+  [Part1] 20->25: cos=+0.9997
+  [Part1] 25->30: cos=+0.9997
+  [Part4]  1-> 5: rotation_closeness=+0.2060 residual=0.9984
+  [Part4]  5->10: rotation_closeness=+0.8841 residual=0.4578
+  [Part4] 10->15: rotation_closeness=+0.9248 residual=0.2404
+  [Part4] 15->20: rotation_closeness=+0.9841 residual=0.1316
+  [Part4] 20->25: rotation_closeness=+0.9866 residual=0.1385
+  [Part4] 25->30: rotation_closeness=+0.9729 residual=0.1271
+  [Part5] Principal angles / subspace overlap (top-5 PCA components)...
+    epoch  1 vs epoch 1: max principal angle=0.0 deg, mean subspace overlap (cos)=+1.0000
+    epoch  5 vs epoch 1: max principal angle=79.6 deg, mean subspace overlap (cos)=+0.6213
+    epoch 10 vs epoch 1: max principal angle=83.1 deg, mean subspace overlap (cos)=+0.5584
+    epoch 15 vs epoch 1: max principal angle=86.1 deg, mean subspace overlap (cos)=+0.5755
+    epoch 20 vs epoch 1: max principal angle=85.9 deg, mean subspace overlap (cos)=+0.5151
+    epoch 25 vs epoch 1: max principal angle=84.9 deg, mean subspace overlap (cos)=+0.4835
+    epoch 30 vs epoch 1: max principal angle=87.0 deg, mean subspace overlap (cos)=+0.4862
+  [Part2/3] SKIPPED (lambda=0, no margin gradient exists for this config)
+  [Rotation summary] 1->5: 0.13290631771087646, 5->10: 0.014247655868530273, 10->30: 0.05251610279083252
+
+======================================================================
+Measured 6/6 configs: ['baseline', 'freeze_bn', 'freeze_encoder', 'freeze_decoder', 'freeze_seg_head', 'lambda_zero']
+======================================================================
+Results saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results

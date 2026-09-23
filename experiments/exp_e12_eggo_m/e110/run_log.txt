@@ -1,0 +1,69 @@
+Device: cuda
+Loaded canonical checkpoint: val_dice=0.9101624600589275
+[Sanity check] checkpoint identity PASS.
+
+Building training labels (200 training subjects, real ablation)...
+  [train] labeled 50/200
+  [train] labeled 100/200
+  [train] labeled 150/200
+  [train] labeled 200/200
+
+Building validation labels (all 125 held-out subjects, real ablation)...
+  [val] labeled 50/125
+  [val] labeled 100/125
+
+Training N_b: mean=0.2543 std=0.1669
+Validation N_b: mean=0.2717 std=0.1733
+
+=== READOUT=POOLED  CONDITION=ORIGINAL ===
+    [draw 0 diagnostic] loss: epoch1=0.119818 epoch15=0.027251 epoch30=0.024531 | pred_val std=0.038859 (n_val std=0.173331) | pred_train std=0.040745, TRAIN-SET fit rho=+0.4918
+  rho draws: ['+0.560'] (1/1 valid, 0 capacity-limited)
+  mean rho=+0.5601, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.4918
+
+=== READOUT=POOLED  CONDITION=CHANNEL_SHUFFLE ===
+    [draw 0 diagnostic] loss: epoch1=0.116687 epoch15=0.025641 epoch30=0.025268 | pred_val std=0.024915 (n_val std=0.173331) | pred_train std=0.027342, TRAIN-SET fit rho=+0.4716
+  rho draws: ['+0.446', '+0.444', '+0.450', '+0.525', '+0.494'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.4716, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.4758
+
+=== READOUT=POOLED  CONDITION=SPATIAL_SHUFFLE ===
+    [draw 0 diagnostic] loss: epoch1=0.119818 epoch15=0.027251 epoch30=0.024531 | pred_val std=0.038859 (n_val std=0.173331) | pred_train std=0.040745, TRAIN-SET fit rho=+0.4918
+  rho draws: ['+0.560', '+0.560', '+0.560', '+0.560', '+0.560'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.5601, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.4918
+
+=== READOUT=POOLED  CONDITION=BOTH_SHUFFLE ===
+    [draw 0 diagnostic] loss: epoch1=0.118705 epoch15=0.025725 epoch30=0.025333 | pred_val std=0.026245 (n_val std=0.173331) | pred_train std=0.026826, TRAIN-SET fit rho=+0.4689
+  rho draws: ['+0.510', '+0.482', '+0.472', '+0.468', '+0.403'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.4668, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.4619
+
+=== READOUT=FLATTEN  CONDITION=ORIGINAL ===
+    [draw 0 diagnostic] loss: epoch1=0.043496 epoch15=0.013813 epoch30=0.007723 | pred_val std=0.134556 (n_val std=0.173331) | pred_train std=0.135687, TRAIN-SET fit rho=+0.8771
+  rho draws: ['+0.850'] (1/1 valid, 0 capacity-limited)
+  mean rho=+0.8500, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.8771
+
+=== READOUT=FLATTEN  CONDITION=CHANNEL_SHUFFLE ===
+    [draw 0 diagnostic] loss: epoch1=0.064488 epoch15=0.011206 epoch30=0.002252 | pred_val std=0.103843 (n_val std=0.173331) | pred_train std=0.160283, TRAIN-SET fit rho=+0.9537
+  rho draws: ['+0.051', '+0.041', '+0.226', '+0.112', '+0.056'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.0972, worst-case permutation p=0.6280, mean TRAIN-SET fit rho=+0.9631
+
+=== READOUT=FLATTEN  CONDITION=SPATIAL_SHUFFLE ===
+    [draw 0 diagnostic] loss: epoch1=0.051045 epoch15=0.004687 epoch30=0.000757 | pred_val std=0.107250 (n_val std=0.173331) | pred_train std=0.165547, TRAIN-SET fit rho=+0.9856
+  rho draws: ['+0.178', '+0.354', '+0.230', '+0.238', '+0.197'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.2395, worst-case permutation p=0.0410, mean TRAIN-SET fit rho=+0.9852
+
+=== READOUT=FLATTEN  CONDITION=BOTH_SHUFFLE ===
+    [draw 0 diagnostic] loss: epoch1=0.060493 epoch15=0.008262 epoch30=0.000991 | pred_val std=0.124050 (n_val std=0.173331) | pred_train std=0.172610, TRAIN-SET fit rho=+0.9827
+  rho draws: ['+0.164', '-0.051', '-0.122', '+0.059', '+0.086'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.0274, worst-case permutation p=0.5690, mean TRAIN-SET fit rho=+0.9835
+
+
+======================================================================
+PRE-DECLARED INTERPRETATION
+======================================================================
+FLATTEN readout: S(ORIGINAL)=+0.8500, S(CHANNEL_SHUFFLE)=+0.0972 (sharp_drop=True), S(SPATIAL_SHUFFLE)=+0.2395 (sharp_drop=False), S(BOTH_SHUFFLE)=+0.0274
+
+=== FINAL VERDICT: H_C_CHANNEL_IDENTITY_SUPPORTED ===
+(Convenience label only -- inspect the actual rho/p table above directly, per this project's own established convention of not trusting an auto-classifier's label without checking the underlying numbers.)
+
+[Design confirmation] POOLED readout under SPATIAL_SHUFFLE: rho=+0.5601 vs ORIGINAL rho=+0.5601 -- expected near-IDENTICAL by construction (pooling is permutation-invariant over space); large deviation would indicate a bug.
+
+Saved E110_summary.json

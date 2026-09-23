@@ -1,0 +1,48 @@
+dataset:
+  normalize: true
+  root_dir: C:\Users\Rivan\Projects\Neuroscan\Dataset\Training
+  target_shape:
+  - 64
+  - 64
+  - 64
+  val_split: 0.1
+hardware:
+  device: cuda
+  mixed_precision: false
+model:
+  architecture: HybridMiniSwin2D5_CSRF
+  in_channels: 1
+  out_channels: 1
+notes: 'Baseline training on BraTS 2023 GLI dataset.
+
+  Uses T2-FLAIR modality only (single channel input).
+
+  Original NeuroScan architecture unchanged.
+
+  Segmentation converted to binary (tumor vs background).
+
+  No optimizer modifications yet - pure baseline.
+
+  '
+training:
+  batch_size: 2
+  early_stopping_patience: 15
+  epochs: 5
+  learning_rate: 0.0001
+  loss:
+    enable_evidential: true
+    evidential_weight: 0.5
+    type: HybridLoss
+  optimizer: Adam
+  save_dir: checkpoints/brats_baseline
+  save_frequency: 5
+  scheduler: CosineAnnealingLR
+  warmup_epochs: 5
+  weight_decay: 1.0e-05
+validation:
+  frequency: 1
+  metrics:
+  - dice
+  - iou
+  - precision
+  - recall

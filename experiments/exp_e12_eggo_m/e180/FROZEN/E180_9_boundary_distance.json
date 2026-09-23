@@ -1,0 +1,4342 @@
+[
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 0,
+  "gt_boundary_distance": 34.21185901179426
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 1,
+  "gt_boundary_distance": 36.21798985692859
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 2,
+  "gt_boundary_distance": 42.84678817238396
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 3,
+  "gt_boundary_distance": 46.587099428725516
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 4,
+  "gt_boundary_distance": 37.135273847073236
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 5,
+  "gt_boundary_distance": 39.05173670249332
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 6,
+  "gt_boundary_distance": 45.52906211144858
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 7,
+  "gt_boundary_distance": 49.17319857907327
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 0,
+  "gt_boundary_distance": 43.67517433341116
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 1,
+  "gt_boundary_distance": 45.07335296617081
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 2,
+  "gt_boundary_distance": 39.33852759276226
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 3,
+  "gt_boundary_distance": 40.280792074975345
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 0,
+  "gt_boundary_distance": 42.93955379441807
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 1,
+  "gt_boundary_distance": 46.177769566513156
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 0,
+  "gt_boundary_distance": 57.4572144719065
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 1,
+  "gt_boundary_distance": 54.59134722973974
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 2,
+  "gt_boundary_distance": 65.12121312729933
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 3,
+  "gt_boundary_distance": 62.34260741479786
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 4,
+  "gt_boundary_distance": 51.7867093544647
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 5,
+  "gt_boundary_distance": 48.824223459717054
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 6,
+  "gt_boundary_distance": 59.830309768940765
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 7,
+  "gt_boundary_distance": 56.960944178708075
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 0,
+  "gt_boundary_distance": 44.49316641415007
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 1,
+  "gt_boundary_distance": 41.79010868032697
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 2,
+  "gt_boundary_distance": 44.03325403141128
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 3,
+  "gt_boundary_distance": 41.27253958348093
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 4,
+  "gt_boundary_distance": 45.89856561667898
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 5,
+  "gt_boundary_distance": 43.24910602219515
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 6,
+  "gt_boundary_distance": 45.44808088043135
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 7,
+  "gt_boundary_distance": 42.73153848526607
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.452397728730084
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 1,
+  "gt_boundary_distance": 46.594109406836004
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 2,
+  "gt_boundary_distance": 53.441179497691
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 3,
+  "gt_boundary_distance": 53.517887015431036
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.78182717691211
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 5,
+  "gt_boundary_distance": 44.94644652508905
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 6,
+  "gt_boundary_distance": 51.88462861890722
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 7,
+  "gt_boundary_distance": 51.98019415884881
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 0,
+  "gt_boundary_distance": 49.220388210743785
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 1,
+  "gt_boundary_distance": 51.964144720217405
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 2,
+  "gt_boundary_distance": 49.13998431630977
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 3,
+  "gt_boundary_distance": 51.54617457482359
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.682875989159335
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 5,
+  "gt_boundary_distance": 47.555446892852736
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 6,
+  "gt_boundary_distance": 44.533527217076546
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 7,
+  "gt_boundary_distance": 47.0555963438134
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 0,
+  "gt_boundary_distance": 38.005636728338764
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 1,
+  "gt_boundary_distance": 38.20120309071694
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 0,
+  "gt_boundary_distance": 61.40812775190367
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 1,
+  "gt_boundary_distance": 56.36263119974216
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 2,
+  "gt_boundary_distance": 44.669206264031175
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 3,
+  "gt_boundary_distance": 38.711648200601
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 4,
+  "gt_boundary_distance": 63.9307577311149
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 5,
+  "gt_boundary_distance": 58.94526133044881
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 6,
+  "gt_boundary_distance": 47.40531004449277
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 7,
+  "gt_boundary_distance": 41.48187850893013
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 0,
+  "gt_boundary_distance": 40.115610219559294
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 1,
+  "gt_boundary_distance": 39.15614775358898
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 2,
+  "gt_boundary_distance": 38.75426281532173
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 3,
+  "gt_boundary_distance": 37.61278263578075
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 4,
+  "gt_boundary_distance": 47.75382771638675
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 5,
+  "gt_boundary_distance": 46.78792825742136
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 6,
+  "gt_boundary_distance": 46.399447229599815
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 7,
+  "gt_boundary_distance": 45.265317748345204
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 0,
+  "gt_boundary_distance": 44.76952967782976
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 1,
+  "gt_boundary_distance": 46.01754712184305
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 2,
+  "gt_boundary_distance": 47.38150826294366
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.55287170832012
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 4,
+  "gt_boundary_distance": 39.967365072693816
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 5,
+  "gt_boundary_distance": 41.28039410558277
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 6,
+  "gt_boundary_distance": 42.662674689220445
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.89790961910908
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 0,
+  "gt_boundary_distance": 37.292215004930135
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 1,
+  "gt_boundary_distance": 37.71259060345063
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 2,
+  "gt_boundary_distance": 46.60293869648785
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 3,
+  "gt_boundary_distance": 46.52129855435813
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 4,
+  "gt_boundary_distance": 41.621748177102724
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.02845163844857
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 6,
+  "gt_boundary_distance": 50.69490598903951
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 7,
+  "gt_boundary_distance": 50.6395450044186
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 0,
+  "gt_boundary_distance": 42.98494502029643
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 1,
+  "gt_boundary_distance": 41.59004605328956
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 2,
+  "gt_boundary_distance": 29.769238658001928
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 3,
+  "gt_boundary_distance": 29.10640452948839
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.23217211138274
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.703116525567566
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 6,
+  "gt_boundary_distance": 31.170621998919216
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 7,
+  "gt_boundary_distance": 30.360827660729054
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 0,
+  "gt_boundary_distance": 61.12739893732126
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 1,
+  "gt_boundary_distance": 62.450940504933975
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 2,
+  "gt_boundary_distance": 61.64718602593924
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 3,
+  "gt_boundary_distance": 62.72687527490775
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 4,
+  "gt_boundary_distance": 64.57824821939784
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 5,
+  "gt_boundary_distance": 65.93985300316304
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 6,
+  "gt_boundary_distance": 65.27646566047117
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 7,
+  "gt_boundary_distance": 66.36918605946562
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 0,
+  "gt_boundary_distance": 48.100986002995235
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 1,
+  "gt_boundary_distance": 45.83588643081193
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 2,
+  "gt_boundary_distance": 51.14547466593279
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.241684194846705
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 4,
+  "gt_boundary_distance": 52.62147413862268
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 5,
+  "gt_boundary_distance": 50.31185247898384
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 6,
+  "gt_boundary_distance": 54.81729086778652
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 7,
+  "gt_boundary_distance": 51.84196698698787
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 0,
+  "gt_boundary_distance": 57.62360686283021
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 1,
+  "gt_boundary_distance": 52.86909951612147
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 2,
+  "gt_boundary_distance": 61.89564987096029
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 3,
+  "gt_boundary_distance": 57.24140686197335
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 4,
+  "gt_boundary_distance": 54.88286689307946
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 5,
+  "gt_boundary_distance": 50.00665623557996
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 6,
+  "gt_boundary_distance": 59.19206401086393
+ },
+ {
+  "sid": "BraTS-GLI-01025-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.41898106668867
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 0,
+  "gt_boundary_distance": 49.427935367816154
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 1,
+  "gt_boundary_distance": 40.36396108621614
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 2,
+  "gt_boundary_distance": 53.31696879469602
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 3,
+  "gt_boundary_distance": 43.89056338681936
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.794550494220154
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 5,
+  "gt_boundary_distance": 37.62632331224337
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 6,
+  "gt_boundary_distance": 50.63691083690935
+ },
+ {
+  "sid": "BraTS-GLI-00811-000",
+  "window_id": 7,
+  "gt_boundary_distance": 41.061563877085185
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 0,
+  "gt_boundary_distance": 41.54980049680653
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 1,
+  "gt_boundary_distance": 41.74566890579971
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 2,
+  "gt_boundary_distance": 41.90418988709528
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 3,
+  "gt_boundary_distance": 42.44964460975766
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 4,
+  "gt_boundary_distance": 51.251534013396856
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 5,
+  "gt_boundary_distance": 51.391434017735
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 6,
+  "gt_boundary_distance": 51.75338349862412
+ },
+ {
+  "sid": "BraTS-GLI-00103-000",
+  "window_id": 7,
+  "gt_boundary_distance": 52.25663343736173
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 0,
+  "gt_boundary_distance": 48.32223357574972
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 1,
+  "gt_boundary_distance": 44.9876561584
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 2,
+  "gt_boundary_distance": 51.849503684494096
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.36608214984678
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 4,
+  "gt_boundary_distance": 56.737136691175344
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 5,
+  "gt_boundary_distance": 53.625140842289504
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 6,
+  "gt_boundary_distance": 60.28200207735323
+ },
+ {
+  "sid": "BraTS-GLI-01103-000",
+  "window_id": 7,
+  "gt_boundary_distance": 57.00889055959749
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 0,
+  "gt_boundary_distance": 63.79168130636082
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 1,
+  "gt_boundary_distance": 57.89138129981092
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 2,
+  "gt_boundary_distance": 60.52005211717935
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 3,
+  "gt_boundary_distance": 54.03499864413408
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 4,
+  "gt_boundary_distance": 58.410995030694096
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 5,
+  "gt_boundary_distance": 52.400504816008684
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 6,
+  "gt_boundary_distance": 55.06137814694235
+ },
+ {
+  "sid": "BraTS-GLI-00514-001",
+  "window_id": 7,
+  "gt_boundary_distance": 48.48299138828765
+ },
+ {
+  "sid": "BraTS-GLI-00611-001",
+  "window_id": 0,
+  "gt_boundary_distance": 54.245485834460034
+ },
+ {
+  "sid": "BraTS-GLI-00611-001",
+  "window_id": 1,
+  "gt_boundary_distance": 56.00865020218938
+ },
+ {
+  "sid": "BraTS-GLI-00611-001",
+  "window_id": 2,
+  "gt_boundary_distance": 50.06318459567243
+ },
+ {
+  "sid": "BraTS-GLI-00611-001",
+  "window_id": 3,
+  "gt_boundary_distance": 51.4042669935967
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 0,
+  "gt_boundary_distance": 77.78602410671728
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 1,
+  "gt_boundary_distance": 71.79011527268155
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 2,
+  "gt_boundary_distance": 64.01070579962642
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 3,
+  "gt_boundary_distance": 57.239788349478545
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 4,
+  "gt_boundary_distance": 75.40232825575183
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 5,
+  "gt_boundary_distance": 69.38493590591625
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 6,
+  "gt_boundary_distance": 61.46103131837534
+ },
+ {
+  "sid": "BraTS-GLI-01369-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.64451999395931
+ },
+ {
+  "sid": "BraTS-GLI-01354-000",
+  "window_id": 0,
+  "gt_boundary_distance": 60.658813059073715
+ },
+ {
+  "sid": "BraTS-GLI-01354-000",
+  "window_id": 1,
+  "gt_boundary_distance": 59.030955859904985
+ },
+ {
+  "sid": "BraTS-GLI-01354-000",
+  "window_id": 2,
+  "gt_boundary_distance": 57.944941802883555
+ },
+ {
+  "sid": "BraTS-GLI-01354-000",
+  "window_id": 3,
+  "gt_boundary_distance": 55.98564481390056
+ },
+ {
+  "sid": "BraTS-GLI-01227-000",
+  "window_id": 0,
+  "gt_boundary_distance": 49.84245853691235
+ },
+ {
+  "sid": "BraTS-GLI-01227-000",
+  "window_id": 1,
+  "gt_boundary_distance": 45.37914846695958
+ },
+ {
+  "sid": "BraTS-GLI-01227-000",
+  "window_id": 2,
+  "gt_boundary_distance": 50.465227251660764
+ },
+ {
+  "sid": "BraTS-GLI-01227-000",
+  "window_id": 3,
+  "gt_boundary_distance": 45.98418483712529
+ },
+ {
+  "sid": "BraTS-GLI-01078-000",
+  "window_id": 0,
+  "gt_boundary_distance": 38.33213912744234
+ },
+ {
+  "sid": "BraTS-GLI-01078-000",
+  "window_id": 1,
+  "gt_boundary_distance": 37.12216330842998
+ },
+ {
+  "sid": "BraTS-GLI-01078-000",
+  "window_id": 2,
+  "gt_boundary_distance": 50.19876459528522
+ },
+ {
+  "sid": "BraTS-GLI-01078-000",
+  "window_id": 3,
+  "gt_boundary_distance": 49.34109690405563
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 0,
+  "gt_boundary_distance": 76.27596255981928
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 1,
+  "gt_boundary_distance": 76.80110933850234
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 2,
+  "gt_boundary_distance": 60.977274520820856
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 3,
+  "gt_boundary_distance": 61.35826587472787
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 4,
+  "gt_boundary_distance": 71.73388323290527
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 5,
+  "gt_boundary_distance": 72.34932648366117
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 6,
+  "gt_boundary_distance": 55.75206501354776
+ },
+ {
+  "sid": "BraTS-GLI-00241-000",
+  "window_id": 7,
+  "gt_boundary_distance": 56.209136200468976
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 0,
+  "gt_boundary_distance": 36.98123854286863
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 1,
+  "gt_boundary_distance": 31.944252569323343
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 2,
+  "gt_boundary_distance": 46.56696492474538
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 3,
+  "gt_boundary_distance": 41.69989050770574
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 4,
+  "gt_boundary_distance": 36.36244039502173
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 5,
+  "gt_boundary_distance": 31.257553471379552
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 6,
+  "gt_boundary_distance": 46.06087480946426
+ },
+ {
+  "sid": "BraTS-GLI-00146-000",
+  "window_id": 7,
+  "gt_boundary_distance": 41.115744296014675
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 0,
+  "gt_boundary_distance": 61.1689379269909
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 1,
+  "gt_boundary_distance": 58.6247617715616
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 2,
+  "gt_boundary_distance": 58.73655176467051
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 3,
+  "gt_boundary_distance": 56.35756619081883
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 4,
+  "gt_boundary_distance": 63.76902007650409
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 5,
+  "gt_boundary_distance": 61.24845123883974
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 6,
+  "gt_boundary_distance": 61.443143763276886
+ },
+ {
+  "sid": "BraTS-GLI-01349-000",
+  "window_id": 7,
+  "gt_boundary_distance": 59.09400458248606
+ },
+ {
+  "sid": "BraTS-GLI-00044-000",
+  "window_id": 0,
+  "gt_boundary_distance": 63.22006199630719
+ },
+ {
+  "sid": "BraTS-GLI-00044-000",
+  "window_id": 1,
+  "gt_boundary_distance": 62.263726392081765
+ },
+ {
+  "sid": "BraTS-GLI-00044-000",
+  "window_id": 2,
+  "gt_boundary_distance": 65.58447089907146
+ },
+ {
+  "sid": "BraTS-GLI-00044-000",
+  "window_id": 3,
+  "gt_boundary_distance": 64.6457291543891
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 0,
+  "gt_boundary_distance": 44.57505254687123
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 1,
+  "gt_boundary_distance": 42.21182535224879
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 2,
+  "gt_boundary_distance": 51.095590571819805
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.92293725474757
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 4,
+  "gt_boundary_distance": 41.168993782135296
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 5,
+  "gt_boundary_distance": 38.78272218999821
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 6,
+  "gt_boundary_distance": 47.71016100940471
+ },
+ {
+  "sid": "BraTS-GLI-01315-000",
+  "window_id": 7,
+  "gt_boundary_distance": 45.50299660932679
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.822159466807996
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 1,
+  "gt_boundary_distance": 43.534556051164344
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 2,
+  "gt_boundary_distance": 44.920910149815036
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 3,
+  "gt_boundary_distance": 41.70910946645639
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 4,
+  "gt_boundary_distance": 45.62151478487433
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.262478466773594
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 6,
+  "gt_boundary_distance": 43.80680230053636
+ },
+ {
+  "sid": "BraTS-GLI-00286-000",
+  "window_id": 7,
+  "gt_boundary_distance": 40.444653436673626
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 0,
+  "gt_boundary_distance": 70.73648777791588
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 1,
+  "gt_boundary_distance": 67.80979088985119
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 2,
+  "gt_boundary_distance": 46.11790703427522
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 3,
+  "gt_boundary_distance": 42.10267920513094
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 4,
+  "gt_boundary_distance": 72.25431993404113
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 5,
+  "gt_boundary_distance": 69.34345628530959
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 6,
+  "gt_boundary_distance": 47.92242373293976
+ },
+ {
+  "sid": "BraTS-GLI-00491-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.94397096421068
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 0,
+  "gt_boundary_distance": 51.70265799984386
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 1,
+  "gt_boundary_distance": 49.3916319928832
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 2,
+  "gt_boundary_distance": 81.79713428184196
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 3,
+  "gt_boundary_distance": 79.6106477559844
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 4,
+  "gt_boundary_distance": 49.98733056043093
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 5,
+  "gt_boundary_distance": 47.7635512542993
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 6,
+  "gt_boundary_distance": 80.45928289757416
+ },
+ {
+  "sid": "BraTS-GLI-00367-000",
+  "window_id": 7,
+  "gt_boundary_distance": 78.35878056741022
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 0,
+  "gt_boundary_distance": 44.56628368336764
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 1,
+  "gt_boundary_distance": 46.32372033269911
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 2,
+  "gt_boundary_distance": 51.25918026736474
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 3,
+  "gt_boundary_distance": 52.83268374204428
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 4,
+  "gt_boundary_distance": 40.044047060425186
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 5,
+  "gt_boundary_distance": 41.909728056795046
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 6,
+  "gt_boundary_distance": 46.99972665874056
+ },
+ {
+  "sid": "BraTS-GLI-00525-001",
+  "window_id": 7,
+  "gt_boundary_distance": 48.66939696381999
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 0,
+  "gt_boundary_distance": 58.8491967758196
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 1,
+  "gt_boundary_distance": 57.52742993054351
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 2,
+  "gt_boundary_distance": 73.29575385571435
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 3,
+  "gt_boundary_distance": 72.05620282662046
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 4,
+  "gt_boundary_distance": 55.22484285816017
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 5,
+  "gt_boundary_distance": 53.861219620086324
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 6,
+  "gt_boundary_distance": 70.28848439479945
+ },
+ {
+  "sid": "BraTS-GLI-00500-001",
+  "window_id": 7,
+  "gt_boundary_distance": 69.01208357183843
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 0,
+  "gt_boundary_distance": 81.28805927751925
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 1,
+  "gt_boundary_distance": 74.69675180025065
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 2,
+  "gt_boundary_distance": 63.37100331143483
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 3,
+  "gt_boundary_distance": 55.634135073503636
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 4,
+  "gt_boundary_distance": 78.80583450789213
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 5,
+  "gt_boundary_distance": 72.05386715338187
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 6,
+  "gt_boundary_distance": 60.540915087918286
+ },
+ {
+  "sid": "BraTS-GLI-00708-001",
+  "window_id": 7,
+  "gt_boundary_distance": 52.60453242560814
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 0,
+  "gt_boundary_distance": 53.18042041878041
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 1,
+  "gt_boundary_distance": 52.31422224161022
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 2,
+  "gt_boundary_distance": 49.20944695888766
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 3,
+  "gt_boundary_distance": 47.87852071916753
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 4,
+  "gt_boundary_distance": 47.867208039012816
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 5,
+  "gt_boundary_distance": 47.04066162646359
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 6,
+  "gt_boundary_distance": 44.36174584874454
+ },
+ {
+  "sid": "BraTS-GLI-01384-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.05464207848479
+ },
+ {
+  "sid": "BraTS-GLI-00768-001",
+  "window_id": 0,
+  "gt_boundary_distance": 44.419733564713965
+ },
+ {
+  "sid": "BraTS-GLI-00768-001",
+  "window_id": 1,
+  "gt_boundary_distance": 43.2758224509327
+ },
+ {
+  "sid": "BraTS-GLI-00768-001",
+  "window_id": 2,
+  "gt_boundary_distance": 58.519288686157815
+ },
+ {
+  "sid": "BraTS-GLI-00768-001",
+  "window_id": 3,
+  "gt_boundary_distance": 57.57737925883688
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 0,
+  "gt_boundary_distance": 50.48357243304636
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 1,
+  "gt_boundary_distance": 51.71247281453818
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 2,
+  "gt_boundary_distance": 55.795277837396554
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 3,
+  "gt_boundary_distance": 56.56466275439826
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.80835780096123
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 5,
+  "gt_boundary_distance": 48.06262579698383
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 6,
+  "gt_boundary_distance": 52.02775981652778
+ },
+ {
+  "sid": "BraTS-GLI-01450-000",
+  "window_id": 7,
+  "gt_boundary_distance": 52.82471891442659
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 0,
+  "gt_boundary_distance": 53.82896543921737
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 1,
+  "gt_boundary_distance": 46.870236521875675
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 2,
+  "gt_boundary_distance": 73.03831703351837
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 3,
+  "gt_boundary_distance": 66.07324634224024
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 4,
+  "gt_boundary_distance": 56.196033638561566
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 5,
+  "gt_boundary_distance": 49.29754927499173
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 6,
+  "gt_boundary_distance": 75.14365160019092
+ },
+ {
+  "sid": "BraTS-GLI-00628-000",
+  "window_id": 7,
+  "gt_boundary_distance": 68.23465256068408
+ },
+ {
+  "sid": "BraTS-GLI-00066-000",
+  "window_id": 0,
+  "gt_boundary_distance": 52.56458469041408
+ },
+ {
+  "sid": "BraTS-GLI-00066-000",
+  "window_id": 1,
+  "gt_boundary_distance": 63.61724169147265
+ },
+ {
+  "sid": "BraTS-GLI-00066-000",
+  "window_id": 2,
+  "gt_boundary_distance": 56.637718612544376
+ },
+ {
+  "sid": "BraTS-GLI-00066-000",
+  "window_id": 3,
+  "gt_boundary_distance": 67.40150710178332
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 0,
+  "gt_boundary_distance": 72.53941864476873
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 1,
+  "gt_boundary_distance": 72.27915371026366
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 2,
+  "gt_boundary_distance": 51.7063709461789
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 3,
+  "gt_boundary_distance": 51.42825219167751
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 4,
+  "gt_boundary_distance": 68.0475809661098
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 5,
+  "gt_boundary_distance": 67.82344364453097
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 6,
+  "gt_boundary_distance": 46.80668374824882
+ },
+ {
+  "sid": "BraTS-GLI-00016-001",
+  "window_id": 7,
+  "gt_boundary_distance": 46.54666544274786
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 0,
+  "gt_boundary_distance": 37.255863268646955
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 1,
+  "gt_boundary_distance": 38.20754807157524
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 2,
+  "gt_boundary_distance": 36.65674016507335
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 3,
+  "gt_boundary_distance": 37.41649707842184
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 4,
+  "gt_boundary_distance": 40.83604946031702
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 5,
+  "gt_boundary_distance": 41.71787695875026
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 6,
+  "gt_boundary_distance": 40.282718546670345
+ },
+ {
+  "sid": "BraTS-GLI-01362-000",
+  "window_id": 7,
+  "gt_boundary_distance": 40.98012310556329
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 0,
+  "gt_boundary_distance": 44.47098700766202
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 1,
+  "gt_boundary_distance": 37.09199743663542
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 2,
+  "gt_boundary_distance": 59.129778209855864
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 3,
+  "gt_boundary_distance": 52.78543635398774
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.04157724374134
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 5,
+  "gt_boundary_distance": 38.84252828077132
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 6,
+  "gt_boundary_distance": 60.56788132932578
+ },
+ {
+  "sid": "BraTS-GLI-00604-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.416551471258266
+ },
+ {
+  "sid": "BraTS-GLI-00491-001",
+  "window_id": 0,
+  "gt_boundary_distance": 67.29062433808915
+ },
+ {
+  "sid": "BraTS-GLI-00491-001",
+  "window_id": 1,
+  "gt_boundary_distance": 66.62966835306094
+ },
+ {
+  "sid": "BraTS-GLI-00491-001",
+  "window_id": 2,
+  "gt_boundary_distance": 44.89248056715695
+ },
+ {
+  "sid": "BraTS-GLI-00491-001",
+  "window_id": 3,
+  "gt_boundary_distance": 43.444725331225946
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 0,
+  "gt_boundary_distance": 74.33552332792235
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 1,
+  "gt_boundary_distance": 69.11346320490945
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 2,
+  "gt_boundary_distance": 63.39033333421043
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 3,
+  "gt_boundary_distance": 57.797678958094515
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 4,
+  "gt_boundary_distance": 78.31994439640168
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 5,
+  "gt_boundary_distance": 73.24763279120909
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 6,
+  "gt_boundary_distance": 67.64408245729201
+ },
+ {
+  "sid": "BraTS-GLI-00222-000",
+  "window_id": 7,
+  "gt_boundary_distance": 62.21964965159723
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 0,
+  "gt_boundary_distance": 41.91648352902624
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 1,
+  "gt_boundary_distance": 39.05227528575531
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 2,
+  "gt_boundary_distance": 53.986018489025696
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 3,
+  "gt_boundary_distance": 51.29695964344163
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.51674844868507
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 5,
+  "gt_boundary_distance": 41.7140771207832
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 6,
+  "gt_boundary_distance": 56.47085797242394
+ },
+ {
+  "sid": "BraTS-GLI-01062-000",
+  "window_id": 7,
+  "gt_boundary_distance": 53.838005772182846
+ },
+ {
+  "sid": "BraTS-GLI-00266-000",
+  "window_id": 0,
+  "gt_boundary_distance": 39.246472181628995
+ },
+ {
+  "sid": "BraTS-GLI-00266-000",
+  "window_id": 1,
+  "gt_boundary_distance": 39.79371404002774
+ },
+ {
+  "sid": "BraTS-GLI-00266-000",
+  "window_id": 2,
+  "gt_boundary_distance": 39.82288895022587
+ },
+ {
+  "sid": "BraTS-GLI-00266-000",
+  "window_id": 3,
+  "gt_boundary_distance": 40.206117232542866
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 0,
+  "gt_boundary_distance": 52.83283562915389
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 1,
+  "gt_boundary_distance": 52.108343642141996
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 2,
+  "gt_boundary_distance": 67.37806047248604
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 3,
+  "gt_boundary_distance": 66.94559794643747
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.71819902495941
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 5,
+  "gt_boundary_distance": 46.04401689608542
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 6,
+  "gt_boundary_distance": 61.503912275223534
+ },
+ {
+  "sid": "BraTS-GLI-01090-000",
+  "window_id": 7,
+  "gt_boundary_distance": 61.15938653192156
+ },
+ {
+  "sid": "BraTS-GLI-01374-000",
+  "window_id": 0,
+  "gt_boundary_distance": 59.03145536663555
+ },
+ {
+  "sid": "BraTS-GLI-01374-000",
+  "window_id": 1,
+  "gt_boundary_distance": 57.22463985468786
+ },
+ {
+  "sid": "BraTS-GLI-01374-000",
+  "window_id": 2,
+  "gt_boundary_distance": 42.23071784045169
+ },
+ {
+  "sid": "BraTS-GLI-01374-000",
+  "window_id": 3,
+  "gt_boundary_distance": 39.83566250311507
+ },
+ {
+  "sid": "BraTS-GLI-01176-000",
+  "window_id": 0,
+  "gt_boundary_distance": 50.98109627646534
+ },
+ {
+  "sid": "BraTS-GLI-01176-000",
+  "window_id": 1,
+  "gt_boundary_distance": 66.17121744777187
+ },
+ {
+  "sid": "BraTS-GLI-00436-000",
+  "window_id": 0,
+  "gt_boundary_distance": 40.628539264253746
+ },
+ {
+  "sid": "BraTS-GLI-00436-000",
+  "window_id": 1,
+  "gt_boundary_distance": 39.75501006922968
+ },
+ {
+  "sid": "BraTS-GLI-00436-000",
+  "window_id": 2,
+  "gt_boundary_distance": 42.51176582620839
+ },
+ {
+  "sid": "BraTS-GLI-00436-000",
+  "window_id": 3,
+  "gt_boundary_distance": 41.58844293951855
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 0,
+  "gt_boundary_distance": 53.02271320446092
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 1,
+  "gt_boundary_distance": 50.79192447769113
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 2,
+  "gt_boundary_distance": 38.98249645356972
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 3,
+  "gt_boundary_distance": 36.806308949662515
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 4,
+  "gt_boundary_distance": 49.28060744702802
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 5,
+  "gt_boundary_distance": 47.10638467817946
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 6,
+  "gt_boundary_distance": 34.31508540297231
+ },
+ {
+  "sid": "BraTS-GLI-01019-000",
+  "window_id": 7,
+  "gt_boundary_distance": 32.11382598467179
+ },
+ {
+  "sid": "BraTS-GLI-00377-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.674360435984134
+ },
+ {
+  "sid": "BraTS-GLI-00377-000",
+  "window_id": 1,
+  "gt_boundary_distance": 46.616100211590215
+ },
+ {
+  "sid": "BraTS-GLI-00377-000",
+  "window_id": 2,
+  "gt_boundary_distance": 48.01160136684058
+ },
+ {
+  "sid": "BraTS-GLI-00377-000",
+  "window_id": 3,
+  "gt_boundary_distance": 47.954379217805034
+ },
+ {
+  "sid": "BraTS-GLI-01314-000",
+  "window_id": 0,
+  "gt_boundary_distance": 71.17986736254177
+ },
+ {
+  "sid": "BraTS-GLI-01314-000",
+  "window_id": 1,
+  "gt_boundary_distance": 67.8953747363648
+ },
+ {
+  "sid": "BraTS-GLI-01314-000",
+  "window_id": 2,
+  "gt_boundary_distance": 54.35900554809809
+ },
+ {
+  "sid": "BraTS-GLI-01314-000",
+  "window_id": 3,
+  "gt_boundary_distance": 50.6692905434326
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 0,
+  "gt_boundary_distance": 43.66179593532477
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 1,
+  "gt_boundary_distance": 37.61292182306244
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 2,
+  "gt_boundary_distance": 47.88774987439823
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 3,
+  "gt_boundary_distance": 42.45516136501328
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.544236723527284
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 5,
+  "gt_boundary_distance": 38.78445814928329
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 6,
+  "gt_boundary_distance": 48.51182648347819
+ },
+ {
+  "sid": "BraTS-GLI-00559-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.37112067816907
+ },
+ {
+  "sid": "BraTS-GLI-01114-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.41569705223026
+ },
+ {
+  "sid": "BraTS-GLI-01114-000",
+  "window_id": 1,
+  "gt_boundary_distance": 47.1438647967589
+ },
+ {
+  "sid": "BraTS-GLI-01114-000",
+  "window_id": 2,
+  "gt_boundary_distance": 49.24015323892568
+ },
+ {
+  "sid": "BraTS-GLI-01114-000",
+  "window_id": 3,
+  "gt_boundary_distance": 49.26687062243733
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 0,
+  "gt_boundary_distance": 71.63938268476367
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 1,
+  "gt_boundary_distance": 71.58865117218099
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 2,
+  "gt_boundary_distance": 50.38221922331366
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 3,
+  "gt_boundary_distance": 50.12152308151684
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 4,
+  "gt_boundary_distance": 68.77231085670373
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 5,
+  "gt_boundary_distance": 68.78369337309512
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 6,
+  "gt_boundary_distance": 46.71179299130059
+ },
+ {
+  "sid": "BraTS-GLI-00338-000",
+  "window_id": 7,
+  "gt_boundary_distance": 46.47699353704709
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 0,
+  "gt_boundary_distance": 38.82348495769217
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 1,
+  "gt_boundary_distance": 37.159085194974885
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 2,
+  "gt_boundary_distance": 57.29520572379295
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 3,
+  "gt_boundary_distance": 56.13896442628084
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 4,
+  "gt_boundary_distance": 36.16552615655163
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 5,
+  "gt_boundary_distance": 34.43992600222544
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 6,
+  "gt_boundary_distance": 54.949770419370424
+ },
+ {
+  "sid": "BraTS-GLI-01293-000",
+  "window_id": 7,
+  "gt_boundary_distance": 53.77381467047825
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 0,
+  "gt_boundary_distance": 53.331620333239925
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 1,
+  "gt_boundary_distance": 52.27219118898413
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 2,
+  "gt_boundary_distance": 40.59189148355614
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 3,
+  "gt_boundary_distance": 39.09819307259326
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 4,
+  "gt_boundary_distance": 50.705222611287134
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 5,
+  "gt_boundary_distance": 49.706877922643535
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 6,
+  "gt_boundary_distance": 37.59517211258523
+ },
+ {
+  "sid": "BraTS-GLI-00242-000",
+  "window_id": 7,
+  "gt_boundary_distance": 36.14037172821215
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 0,
+  "gt_boundary_distance": 45.28825541946717
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 1,
+  "gt_boundary_distance": 41.45638889998892
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 2,
+  "gt_boundary_distance": 52.18318141772293
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.29057835313025
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.185217523581194
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.40060366122114
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 6,
+  "gt_boundary_distance": 53.208075166998775
+ },
+ {
+  "sid": "BraTS-GLI-00186-000",
+  "window_id": 7,
+  "gt_boundary_distance": 49.35831636003778
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 0,
+  "gt_boundary_distance": 52.77024114532802
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 1,
+  "gt_boundary_distance": 54.778755463223696
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 2,
+  "gt_boundary_distance": 47.035461748888196
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.7843721208381
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 4,
+  "gt_boundary_distance": 48.50271739291119
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 5,
+  "gt_boundary_distance": 50.59223898260047
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 6,
+  "gt_boundary_distance": 42.75488925770983
+ },
+ {
+  "sid": "BraTS-GLI-01028-000",
+  "window_id": 7,
+  "gt_boundary_distance": 44.5915389600321
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 0,
+  "gt_boundary_distance": 58.3096830069505
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 1,
+  "gt_boundary_distance": 60.01260632310551
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 2,
+  "gt_boundary_distance": 65.63514694298384
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 3,
+  "gt_boundary_distance": 67.03892227925462
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 4,
+  "gt_boundary_distance": 48.310478443368304
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 5,
+  "gt_boundary_distance": 50.045675084608426
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 6,
+  "gt_boundary_distance": 56.44892896458569
+ },
+ {
+  "sid": "BraTS-GLI-00511-000",
+  "window_id": 7,
+  "gt_boundary_distance": 57.88882387494752
+ },
+ {
+  "sid": "BraTS-GLI-01001-000",
+  "window_id": 0,
+  "gt_boundary_distance": 47.58662053805717
+ },
+ {
+  "sid": "BraTS-GLI-01001-000",
+  "window_id": 1,
+  "gt_boundary_distance": 47.557862849967826
+ },
+ {
+  "sid": "BraTS-GLI-01001-000",
+  "window_id": 2,
+  "gt_boundary_distance": 47.53566127645763
+ },
+ {
+  "sid": "BraTS-GLI-01001-000",
+  "window_id": 3,
+  "gt_boundary_distance": 47.40682994046682
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 0,
+  "gt_boundary_distance": 44.056275629387954
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 1,
+  "gt_boundary_distance": 45.0002058447135
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 2,
+  "gt_boundary_distance": 46.101905684184885
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 3,
+  "gt_boundary_distance": 46.99624264976919
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 4,
+  "gt_boundary_distance": 51.83096659128059
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 5,
+  "gt_boundary_distance": 52.619963035858895
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 6,
+  "gt_boundary_distance": 53.8568477044426
+ },
+ {
+  "sid": "BraTS-GLI-01427-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.59689143407507
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 0,
+  "gt_boundary_distance": 58.72250663114926
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 1,
+  "gt_boundary_distance": 59.085857227827695
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 2,
+  "gt_boundary_distance": 42.54880572241826
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 3,
+  "gt_boundary_distance": 42.68659299641151
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 4,
+  "gt_boundary_distance": 51.959628465790296
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 5,
+  "gt_boundary_distance": 52.628861479759884
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 6,
+  "gt_boundary_distance": 35.74932796613961
+ },
+ {
+  "sid": "BraTS-GLI-00683-000",
+  "window_id": 7,
+  "gt_boundary_distance": 36.00505759377578
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 0,
+  "gt_boundary_distance": 58.857718556523196
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 1,
+  "gt_boundary_distance": 57.22742315056849
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 2,
+  "gt_boundary_distance": 47.671291673628254
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 3,
+  "gt_boundary_distance": 45.83742262569456
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 4,
+  "gt_boundary_distance": 56.771926567494766
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 5,
+  "gt_boundary_distance": 55.109386222973875
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 6,
+  "gt_boundary_distance": 45.448777226078505
+ },
+ {
+  "sid": "BraTS-GLI-01319-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.580673841793924
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 0,
+  "gt_boundary_distance": 42.30743183171737
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 1,
+  "gt_boundary_distance": 41.26950567945996
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 2,
+  "gt_boundary_distance": 40.47337763946597
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 3,
+  "gt_boundary_distance": 39.3010969250307
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.47822741821711
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 5,
+  "gt_boundary_distance": 45.491978236729494
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 6,
+  "gt_boundary_distance": 44.77718194869377
+ },
+ {
+  "sid": "BraTS-GLI-01323-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.661781928106
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.70384718686577
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 1,
+  "gt_boundary_distance": 45.49404146122899
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 2,
+  "gt_boundary_distance": 40.91166261765744
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 3,
+  "gt_boundary_distance": 40.03951931340452
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 4,
+  "gt_boundary_distance": 49.090147558509074
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 5,
+  "gt_boundary_distance": 47.91751741348665
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 6,
+  "gt_boundary_distance": 44.04128966791283
+ },
+ {
+  "sid": "BraTS-GLI-01402-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.16486763840144
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 0,
+  "gt_boundary_distance": 45.11095868663694
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 1,
+  "gt_boundary_distance": 45.84914392257043
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 2,
+  "gt_boundary_distance": 48.10815224729871
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.57918212754177
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 4,
+  "gt_boundary_distance": 41.943209088211006
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.7602738432914
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 6,
+  "gt_boundary_distance": 45.00716003989532
+ },
+ {
+  "sid": "BraTS-GLI-00249-000",
+  "window_id": 7,
+  "gt_boundary_distance": 45.54256480201261
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 0,
+  "gt_boundary_distance": 64.22423588246708
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 1,
+  "gt_boundary_distance": 62.33387737626594
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 2,
+  "gt_boundary_distance": 54.8968907417528
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 3,
+  "gt_boundary_distance": 52.861678116874494
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 4,
+  "gt_boundary_distance": 59.93606792039434
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 5,
+  "gt_boundary_distance": 57.9995184799827
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 6,
+  "gt_boundary_distance": 50.26204545390084
+ },
+ {
+  "sid": "BraTS-GLI-00032-001",
+  "window_id": 7,
+  "gt_boundary_distance": 48.1655721545217
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 0,
+  "gt_boundary_distance": 52.229369352443605
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 1,
+  "gt_boundary_distance": 47.57939224067159
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 2,
+  "gt_boundary_distance": 64.32063975043557
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 3,
+  "gt_boundary_distance": 59.9169150161156
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 4,
+  "gt_boundary_distance": 48.90968958745174
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 5,
+  "gt_boundary_distance": 44.11601270837059
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 6,
+  "gt_boundary_distance": 61.40193844463973
+ },
+ {
+  "sid": "BraTS-GLI-01074-000",
+  "window_id": 7,
+  "gt_boundary_distance": 56.84766967773914
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 0,
+  "gt_boundary_distance": 45.153544869739676
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 1,
+  "gt_boundary_distance": 46.23169112248016
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 2,
+  "gt_boundary_distance": 54.7204798076632
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 3,
+  "gt_boundary_distance": 54.81385436653134
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 4,
+  "gt_boundary_distance": 41.72627301961728
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.82380088381473
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 6,
+  "gt_boundary_distance": 51.51598127164838
+ },
+ {
+  "sid": "BraTS-GLI-00616-000",
+  "window_id": 7,
+  "gt_boundary_distance": 51.63218067818559
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 0,
+  "gt_boundary_distance": 71.51329429292309
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 1,
+  "gt_boundary_distance": 76.62223403695485
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 2,
+  "gt_boundary_distance": 58.952261947441166
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 3,
+  "gt_boundary_distance": 64.4603094328265
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 4,
+  "gt_boundary_distance": 71.92546309414554
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 5,
+  "gt_boundary_distance": 77.03126482181038
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 6,
+  "gt_boundary_distance": 59.4016285807715
+ },
+ {
+  "sid": "BraTS-GLI-01530-000",
+  "window_id": 7,
+  "gt_boundary_distance": 64.90448300266816
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 0,
+  "gt_boundary_distance": 41.536456763963706
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 1,
+  "gt_boundary_distance": 43.72614174360937
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 2,
+  "gt_boundary_distance": 39.98133769961767
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 3,
+  "gt_boundary_distance": 41.8494196667384
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 4,
+  "gt_boundary_distance": 42.952993295272115
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 5,
+  "gt_boundary_distance": 45.081652476231774
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 6,
+  "gt_boundary_distance": 41.32463731273835
+ },
+ {
+  "sid": "BraTS-GLI-00098-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.148402384467595
+ },
+ {
+  "sid": "BraTS-GLI-01195-000",
+  "window_id": 0,
+  "gt_boundary_distance": 58.39586699162865
+ },
+ {
+  "sid": "BraTS-GLI-01195-000",
+  "window_id": 1,
+  "gt_boundary_distance": 57.78343763154836
+ },
+ {
+  "sid": "BraTS-GLI-01195-000",
+  "window_id": 2,
+  "gt_boundary_distance": 45.67953098813865
+ },
+ {
+  "sid": "BraTS-GLI-01195-000",
+  "window_id": 3,
+  "gt_boundary_distance": 44.890478681487615
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 0,
+  "gt_boundary_distance": 60.11259503734312
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 1,
+  "gt_boundary_distance": 57.124517474889615
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 2,
+  "gt_boundary_distance": 50.5847042936299
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 3,
+  "gt_boundary_distance": 47.39744146148931
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 4,
+  "gt_boundary_distance": 56.99146320312459
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 5,
+  "gt_boundary_distance": 53.91150334224856
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 6,
+  "gt_boundary_distance": 47.28379813848262
+ },
+ {
+  "sid": "BraTS-GLI-00682-001",
+  "window_id": 7,
+  "gt_boundary_distance": 44.010410350780326
+ },
+ {
+  "sid": "BraTS-GLI-01075-000",
+  "window_id": 0,
+  "gt_boundary_distance": 58.85522981678694
+ },
+ {
+  "sid": "BraTS-GLI-01075-000",
+  "window_id": 1,
+  "gt_boundary_distance": 54.01606439602909
+ },
+ {
+  "sid": "BraTS-GLI-01075-000",
+  "window_id": 2,
+  "gt_boundary_distance": 49.04591255080149
+ },
+ {
+  "sid": "BraTS-GLI-01075-000",
+  "window_id": 3,
+  "gt_boundary_distance": 43.793254973741135
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 0,
+  "gt_boundary_distance": 64.43380672572818
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 1,
+  "gt_boundary_distance": 65.00849609976403
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 2,
+  "gt_boundary_distance": 48.03864222634434
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 3,
+  "gt_boundary_distance": 49.17440281963544
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 4,
+  "gt_boundary_distance": 69.57279026895327
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 5,
+  "gt_boundary_distance": 70.0540707339377
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 6,
+  "gt_boundary_distance": 53.70660647507384
+ },
+ {
+  "sid": "BraTS-GLI-00299-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.74984535562968
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 0,
+  "gt_boundary_distance": 69.7504901694068
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 1,
+  "gt_boundary_distance": 69.67170926534939
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 2,
+  "gt_boundary_distance": 49.494260412280205
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 3,
+  "gt_boundary_distance": 49.26619007300377
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 4,
+  "gt_boundary_distance": 67.40885398509403
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 5,
+  "gt_boundary_distance": 67.34117095438968
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 6,
+  "gt_boundary_distance": 46.875936663927895
+ },
+ {
+  "sid": "BraTS-GLI-00016-000",
+  "window_id": 7,
+  "gt_boundary_distance": 46.657862640120634
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 0,
+  "gt_boundary_distance": 38.55344429965812
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 1,
+  "gt_boundary_distance": 35.34102195839248
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 2,
+  "gt_boundary_distance": 56.06855508478645
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 3,
+  "gt_boundary_distance": 52.59489272471291
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 4,
+  "gt_boundary_distance": 37.56666822705488
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 5,
+  "gt_boundary_distance": 34.30837967210789
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 6,
+  "gt_boundary_distance": 55.29563281069451
+ },
+ {
+  "sid": "BraTS-GLI-00404-000",
+  "window_id": 7,
+  "gt_boundary_distance": 51.81096773231453
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 0,
+  "gt_boundary_distance": 51.036139087386
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 1,
+  "gt_boundary_distance": 52.43707078148392
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 2,
+  "gt_boundary_distance": 47.92550882498415
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 3,
+  "gt_boundary_distance": 49.184551996058666
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 4,
+  "gt_boundary_distance": 47.527749056533224
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 5,
+  "gt_boundary_distance": 48.97677595901115
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 6,
+  "gt_boundary_distance": 44.27525599211262
+ },
+ {
+  "sid": "BraTS-GLI-00723-000",
+  "window_id": 7,
+  "gt_boundary_distance": 45.58172105648199
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 0,
+  "gt_boundary_distance": 52.229415695095135
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 1,
+  "gt_boundary_distance": 54.320188913830556
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 2,
+  "gt_boundary_distance": 56.621550007234795
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 3,
+  "gt_boundary_distance": 58.71632007887149
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 4,
+  "gt_boundary_distance": 46.1739645135544
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 5,
+  "gt_boundary_distance": 48.44796165319271
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 6,
+  "gt_boundary_distance": 50.70510170426159
+ },
+ {
+  "sid": "BraTS-GLI-00498-001",
+  "window_id": 7,
+  "gt_boundary_distance": 52.99462131143449
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 0,
+  "gt_boundary_distance": 51.29017978981971
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 1,
+  "gt_boundary_distance": 52.43323875661772
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 2,
+  "gt_boundary_distance": 43.4620840535786
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 3,
+  "gt_boundary_distance": 45.25833913913666
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 4,
+  "gt_boundary_distance": 51.368749638504234
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 5,
+  "gt_boundary_distance": 52.51094441017246
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 6,
+  "gt_boundary_distance": 43.53590605779397
+ },
+ {
+  "sid": "BraTS-GLI-00193-000",
+  "window_id": 7,
+  "gt_boundary_distance": 45.31987354848
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 0,
+  "gt_boundary_distance": 49.52063509541379
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 1,
+  "gt_boundary_distance": 48.966793185069065
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 2,
+  "gt_boundary_distance": 35.59542828120626
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 3,
+  "gt_boundary_distance": 35.00655582122322
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 4,
+  "gt_boundary_distance": 50.82435879703032
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 5,
+  "gt_boundary_distance": 50.27415975925465
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 6,
+  "gt_boundary_distance": 37.01569896549467
+ },
+ {
+  "sid": "BraTS-GLI-01139-000",
+  "window_id": 7,
+  "gt_boundary_distance": 36.43966016438356
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 0,
+  "gt_boundary_distance": 73.08373032602638
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 1,
+  "gt_boundary_distance": 73.70042123830491
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 2,
+  "gt_boundary_distance": 51.29324535990318
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 3,
+  "gt_boundary_distance": 52.08192563356793
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 4,
+  "gt_boundary_distance": 74.40295030532758
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 5,
+  "gt_boundary_distance": 75.00653538063206
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 6,
+  "gt_boundary_distance": 52.74137858117035
+ },
+ {
+  "sid": "BraTS-GLI-00020-001",
+  "window_id": 7,
+  "gt_boundary_distance": 53.51043624557897
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.0664672937913
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 1,
+  "gt_boundary_distance": 44.47497682595529
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 2,
+  "gt_boundary_distance": 60.88493816731309
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 3,
+  "gt_boundary_distance": 59.387556602752795
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 4,
+  "gt_boundary_distance": 45.09340945282165
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 5,
+  "gt_boundary_distance": 43.387085896250596
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 6,
+  "gt_boundary_distance": 60.013478852937176
+ },
+ {
+  "sid": "BraTS-GLI-00768-000",
+  "window_id": 7,
+  "gt_boundary_distance": 58.42492078687488
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 0,
+  "gt_boundary_distance": 80.55928103204306
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 1,
+  "gt_boundary_distance": 77.69945196777441
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 2,
+  "gt_boundary_distance": 66.50024462907517
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 3,
+  "gt_boundary_distance": 63.4100793657848
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 4,
+  "gt_boundary_distance": 73.88638946301324
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 5,
+  "gt_boundary_distance": 70.88074404584165
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 6,
+  "gt_boundary_distance": 59.234030634593985
+ },
+ {
+  "sid": "BraTS-GLI-01452-000",
+  "window_id": 7,
+  "gt_boundary_distance": 55.953335921323124
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 0,
+  "gt_boundary_distance": 42.178154547989216
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 1,
+  "gt_boundary_distance": 41.43880909768623
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 2,
+  "gt_boundary_distance": 50.321274185145796
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 3,
+  "gt_boundary_distance": 49.73720898839272
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 4,
+  "gt_boundary_distance": 43.39574228775916
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.684900229949044
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 6,
+  "gt_boundary_distance": 51.35675425347002
+ },
+ {
+  "sid": "BraTS-GLI-01130-000",
+  "window_id": 7,
+  "gt_boundary_distance": 50.78307232004741
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 0,
+  "gt_boundary_distance": 56.03344314010999
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 1,
+  "gt_boundary_distance": 55.1211530667504
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 2,
+  "gt_boundary_distance": 66.69367868268945
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 3,
+  "gt_boundary_distance": 65.8158270162072
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 4,
+  "gt_boundary_distance": 49.20488151125261
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 5,
+  "gt_boundary_distance": 48.31081356476785
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 6,
+  "gt_boundary_distance": 60.290088481630505
+ },
+ {
+  "sid": "BraTS-GLI-00680-001",
+  "window_id": 7,
+  "gt_boundary_distance": 59.42979377982177
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 0,
+  "gt_boundary_distance": 69.66152073544994
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 1,
+  "gt_boundary_distance": 67.46372654732494
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 2,
+  "gt_boundary_distance": 70.07305610851611
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 3,
+  "gt_boundary_distance": 67.8269518706016
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 4,
+  "gt_boundary_distance": 64.04704302800405
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 5,
+  "gt_boundary_distance": 61.7620491431828
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 6,
+  "gt_boundary_distance": 64.75926055458005
+ },
+ {
+  "sid": "BraTS-GLI-01516-000",
+  "window_id": 7,
+  "gt_boundary_distance": 62.4286531163134
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 0,
+  "gt_boundary_distance": 54.46391331394159
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 1,
+  "gt_boundary_distance": 50.58363203980116
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 2,
+  "gt_boundary_distance": 41.32026077113429
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 3,
+  "gt_boundary_distance": 36.17126131439995
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 4,
+  "gt_boundary_distance": 61.056602336036065
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 5,
+  "gt_boundary_distance": 57.22424475214819
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 6,
+  "gt_boundary_distance": 48.4662183420511
+ },
+ {
+  "sid": "BraTS-GLI-00818-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.44431589307883
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 0,
+  "gt_boundary_distance": 69.98418713521873
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 1,
+  "gt_boundary_distance": 72.26318751363277
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 2,
+  "gt_boundary_distance": 61.84697124547429
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 3,
+  "gt_boundary_distance": 64.20944786434153
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 4,
+  "gt_boundary_distance": 65.29893876776423
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 5,
+  "gt_boundary_distance": 67.66775377196574
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 6,
+  "gt_boundary_distance": 57.02358798773563
+ },
+ {
+  "sid": "BraTS-GLI-01255-000",
+  "window_id": 7,
+  "gt_boundary_distance": 59.484505244709254
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 0,
+  "gt_boundary_distance": 71.11931462211312
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 1,
+  "gt_boundary_distance": 66.31674000650214
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 2,
+  "gt_boundary_distance": 63.42869145596314
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 3,
+  "gt_boundary_distance": 58.32519745428899
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 4,
+  "gt_boundary_distance": 65.10803673871999
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 5,
+  "gt_boundary_distance": 60.05067815756002
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 6,
+  "gt_boundary_distance": 57.28174841531821
+ },
+ {
+  "sid": "BraTS-GLI-00228-000",
+  "window_id": 7,
+  "gt_boundary_distance": 51.91510825449485
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 0,
+  "gt_boundary_distance": 70.93269821642525
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 1,
+  "gt_boundary_distance": 65.91946666261998
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 2,
+  "gt_boundary_distance": 72.48647037144762
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 3,
+  "gt_boundary_distance": 67.4099072424893
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 4,
+  "gt_boundary_distance": 73.30392182851033
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 5,
+  "gt_boundary_distance": 68.4024424838309
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 6,
+  "gt_boundary_distance": 74.75804731895325
+ },
+ {
+  "sid": "BraTS-GLI-01273-000",
+  "window_id": 7,
+  "gt_boundary_distance": 69.79403077224731
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 0,
+  "gt_boundary_distance": 55.13599295123316
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 1,
+  "gt_boundary_distance": 50.89759708021452
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 2,
+  "gt_boundary_distance": 61.77554503717649
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 3,
+  "gt_boundary_distance": 57.576294692378276
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 4,
+  "gt_boundary_distance": 53.24928799606861
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 5,
+  "gt_boundary_distance": 48.97033984083303
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 6,
+  "gt_boundary_distance": 59.914558589749184
+ },
+ {
+  "sid": "BraTS-GLI-00840-000",
+  "window_id": 7,
+  "gt_boundary_distance": 55.69381309886966
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 0,
+  "gt_boundary_distance": 42.96694991565789
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 1,
+  "gt_boundary_distance": 44.09595546236409
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 2,
+  "gt_boundary_distance": 44.99630135582496
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 3,
+  "gt_boundary_distance": 45.66301941448388
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.615863847805066
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 5,
+  "gt_boundary_distance": 47.72202840089082
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 6,
+  "gt_boundary_distance": 48.55451991305504
+ },
+ {
+  "sid": "BraTS-GLI-00619-000",
+  "window_id": 7,
+  "gt_boundary_distance": 49.195560752211854
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 0,
+  "gt_boundary_distance": 65.70743730417796
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 1,
+  "gt_boundary_distance": 66.23328922867329
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 2,
+  "gt_boundary_distance": 48.71611301176052
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 3,
+  "gt_boundary_distance": 48.743313217377846
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 4,
+  "gt_boundary_distance": 63.734779052845425
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 5,
+  "gt_boundary_distance": 64.28916405169475
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 6,
+  "gt_boundary_distance": 46.44144558924719
+ },
+ {
+  "sid": "BraTS-GLI-01380-000",
+  "window_id": 7,
+  "gt_boundary_distance": 46.50493358515312
+ },
+ {
+  "sid": "BraTS-GLI-00582-000",
+  "window_id": 0,
+  "gt_boundary_distance": 88.12327350339008
+ },
+ {
+  "sid": "BraTS-GLI-00582-000",
+  "window_id": 1,
+  "gt_boundary_distance": 83.67631121509123
+ },
+ {
+  "sid": "BraTS-GLI-00582-000",
+  "window_id": 2,
+  "gt_boundary_distance": 63.12222540394373
+ },
+ {
+  "sid": "BraTS-GLI-00582-000",
+  "window_id": 3,
+  "gt_boundary_distance": 57.80544856269364
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 0,
+  "gt_boundary_distance": 41.78602460835814
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 1,
+  "gt_boundary_distance": 38.598652643424344
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 2,
+  "gt_boundary_distance": 63.88327805225825
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 3,
+  "gt_boundary_distance": 60.8841720596106
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 4,
+  "gt_boundary_distance": 43.7118548527175
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 5,
+  "gt_boundary_distance": 40.55962993577237
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 6,
+  "gt_boundary_distance": 65.40677443248404
+ },
+ {
+  "sid": "BraTS-GLI-01155-000",
+  "window_id": 7,
+  "gt_boundary_distance": 62.43134990338342
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 0,
+  "gt_boundary_distance": 73.81710515035131
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 1,
+  "gt_boundary_distance": 69.16900120368497
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 2,
+  "gt_boundary_distance": 50.098791093206195
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 3,
+  "gt_boundary_distance": 44.80426530137077
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 4,
+  "gt_boundary_distance": 72.35566256390833
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 5,
+  "gt_boundary_distance": 67.6686310858499
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 6,
+  "gt_boundary_distance": 48.37849436409136
+ },
+ {
+  "sid": "BraTS-GLI-01046-000",
+  "window_id": 7,
+  "gt_boundary_distance": 43.040281637629754
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 0,
+  "gt_boundary_distance": 81.40614341703544
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 1,
+  "gt_boundary_distance": 77.1437267614487
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 2,
+  "gt_boundary_distance": 58.15504152387717
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 3,
+  "gt_boundary_distance": 53.22513976437895
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 4,
+  "gt_boundary_distance": 79.95323965919714
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 5,
+  "gt_boundary_distance": 75.6667625501032
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 6,
+  "gt_boundary_distance": 56.45443792330061
+ },
+ {
+  "sid": "BraTS-GLI-00313-000",
+  "window_id": 7,
+  "gt_boundary_distance": 51.47111759517824
+ },
+ {
+  "sid": "BraTS-GLI-00021-000",
+  "window_id": 0,
+  "gt_boundary_distance": 43.93881566230738
+ },
+ {
+  "sid": "BraTS-GLI-00021-000",
+  "window_id": 1,
+  "gt_boundary_distance": 44.12447229893113
+ },
+ {
+  "sid": "BraTS-GLI-00021-000",
+  "window_id": 2,
+  "gt_boundary_distance": 62.121850871801435
+ },
+ {
+  "sid": "BraTS-GLI-00021-000",
+  "window_id": 3,
+  "gt_boundary_distance": 62.20457842434746
+ },
+ {
+  "sid": "BraTS-GLI-00565-000",
+  "window_id": 0,
+  "gt_boundary_distance": 60.52123403996521
+ },
+ {
+  "sid": "BraTS-GLI-00565-000",
+  "window_id": 1,
+  "gt_boundary_distance": 61.243693367112634
+ },
+ {
+  "sid": "BraTS-GLI-00565-000",
+  "window_id": 2,
+  "gt_boundary_distance": 46.94540669484358
+ },
+ {
+  "sid": "BraTS-GLI-00565-000",
+  "window_id": 3,
+  "gt_boundary_distance": 47.427987621735724
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 0,
+  "gt_boundary_distance": 97.42806636161686
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 1,
+  "gt_boundary_distance": 96.45198091805383
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 2,
+  "gt_boundary_distance": 67.7052381943456
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 3,
+  "gt_boundary_distance": 66.46184819251631
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 4,
+  "gt_boundary_distance": 90.48390742779581
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 5,
+  "gt_boundary_distance": 89.47094748899939
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 6,
+  "gt_boundary_distance": 59.58881635891245
+ },
+ {
+  "sid": "BraTS-GLI-01482-000",
+  "window_id": 7,
+  "gt_boundary_distance": 58.29080996530553
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 0,
+  "gt_boundary_distance": 42.90578010158461
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 1,
+  "gt_boundary_distance": 44.61758863426538
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 2,
+  "gt_boundary_distance": 46.55077468150379
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 3,
+  "gt_boundary_distance": 47.645004290276994
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 4,
+  "gt_boundary_distance": 45.279861377901796
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 5,
+  "gt_boundary_distance": 46.87869040744297
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 6,
+  "gt_boundary_distance": 48.93404940242681
+ },
+ {
+  "sid": "BraTS-GLI-00347-000",
+  "window_id": 7,
+  "gt_boundary_distance": 49.93803066688965
+ },
+ {
+  "sid": "BraTS-GLI-01253-000",
+  "window_id": 0,
+  "gt_boundary_distance": 35.165290697720565
+ },
+ {
+  "sid": "BraTS-GLI-01253-000",
+  "window_id": 1,
+  "gt_boundary_distance": 35.74812953604482
+ },
+ {
+  "sid": "BraTS-GLI-01253-000",
+  "window_id": 2,
+  "gt_boundary_distance": 38.221805758239164
+ },
+ {
+  "sid": "BraTS-GLI-01253-000",
+  "window_id": 3,
+  "gt_boundary_distance": 38.413844842945956
+ },
+ {
+  "sid": "BraTS-GLI-01513-000",
+  "window_id": 0,
+  "gt_boundary_distance": 36.56916847256331
+ },
+ {
+  "sid": "BraTS-GLI-01513-000",
+  "window_id": 1,
+  "gt_boundary_distance": 48.86541480910685
+ },
+ {
+  "sid": "BraTS-GLI-01513-000",
+  "window_id": 2,
+  "gt_boundary_distance": 39.57233386139574
+ },
+ {
+  "sid": "BraTS-GLI-01513-000",
+  "window_id": 3,
+  "gt_boundary_distance": 51.73015621015111
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 0,
+  "gt_boundary_distance": 65.25958982338146
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 1,
+  "gt_boundary_distance": 69.38174895520136
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 2,
+  "gt_boundary_distance": 64.8519920382565
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 3,
+  "gt_boundary_distance": 68.73473232213256
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 4,
+  "gt_boundary_distance": 68.31742786856245
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 5,
+  "gt_boundary_distance": 72.3226081362342
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 6,
+  "gt_boundary_distance": 67.82228834232404
+ },
+ {
+  "sid": "BraTS-GLI-00496-000",
+  "window_id": 7,
+  "gt_boundary_distance": 71.57301617543388
+ },
+ {
+  "sid": "BraTS-GLI-01104-000",
+  "window_id": 0,
+  "gt_boundary_distance": 40.59391826511561
+ },
+ {
+  "sid": "BraTS-GLI-01104-000",
+  "window_id": 1,
+  "gt_boundary_distance": 39.40355539715686
+ },
+ {
+  "sid": "BraTS-GLI-01104-000",
+  "window_id": 2,
+  "gt_boundary_distance": 32.02896514494909
+ },
+ {
+  "sid": "BraTS-GLI-01104-000",
+  "window_id": 3,
+  "gt_boundary_distance": 30.951647767121383
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 0,
+  "gt_boundary_distance": 49.90542092354056
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 1,
+  "gt_boundary_distance": 49.931543003225634
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 2,
+  "gt_boundary_distance": 39.02069335502028
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 3,
+  "gt_boundary_distance": 38.77161148712744
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.84483041049671
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 5,
+  "gt_boundary_distance": 44.9763482609001
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 6,
+  "gt_boundary_distance": 34.214269021785675
+ },
+ {
+  "sid": "BraTS-GLI-00445-000",
+  "window_id": 7,
+  "gt_boundary_distance": 34.03882413056366
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 0,
+  "gt_boundary_distance": 60.54687554381672
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 1,
+  "gt_boundary_distance": 62.87780514020559
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 2,
+  "gt_boundary_distance": 71.86706258176271
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 3,
+  "gt_boundary_distance": 74.16489736928797
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 4,
+  "gt_boundary_distance": 50.8720072249698
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 5,
+  "gt_boundary_distance": 53.31822360047497
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 6,
+  "gt_boundary_distance": 62.79347381042745
+ },
+ {
+  "sid": "BraTS-GLI-01068-000",
+  "window_id": 7,
+  "gt_boundary_distance": 65.2373163746815
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 0,
+  "gt_boundary_distance": 87.54955084850103
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 1,
+  "gt_boundary_distance": 86.30887166604019
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 2,
+  "gt_boundary_distance": 69.82922813126025
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 3,
+  "gt_boundary_distance": 68.21496575317873
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 4,
+  "gt_boundary_distance": 84.52385929022186
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 5,
+  "gt_boundary_distance": 83.27078100579429
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 6,
+  "gt_boundary_distance": 66.36283982846211
+ },
+ {
+  "sid": "BraTS-GLI-00140-000",
+  "window_id": 7,
+  "gt_boundary_distance": 64.7335385095355
+ },
+ {
+  "sid": "BraTS-GLI-01169-000",
+  "window_id": 0,
+  "gt_boundary_distance": 43.61964558489359
+ },
+ {
+  "sid": "BraTS-GLI-01169-000",
+  "window_id": 1,
+  "gt_boundary_distance": 38.061573746738226
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.14583756542826
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 1,
+  "gt_boundary_distance": 44.64910756574619
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 2,
+  "gt_boundary_distance": 49.37588412561246
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 3,
+  "gt_boundary_distance": 47.83459711145383
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.10851690584963
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 5,
+  "gt_boundary_distance": 42.580938688814136
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 6,
+  "gt_boundary_distance": 47.28642954285767
+ },
+ {
+  "sid": "BraTS-GLI-01421-000",
+  "window_id": 7,
+  "gt_boundary_distance": 45.71372909282561
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 0,
+  "gt_boundary_distance": 59.273884308715814
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 1,
+  "gt_boundary_distance": 60.54530996213044
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 2,
+  "gt_boundary_distance": 45.57570418541661
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 3,
+  "gt_boundary_distance": 46.615243253516816
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 4,
+  "gt_boundary_distance": 66.88209538113149
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 5,
+  "gt_boundary_distance": 67.95521275601642
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 6,
+  "gt_boundary_distance": 53.94202431890424
+ },
+ {
+  "sid": "BraTS-GLI-00096-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.832041863900095
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 0,
+  "gt_boundary_distance": 54.611863863291035
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 1,
+  "gt_boundary_distance": 55.04866542985385
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 2,
+  "gt_boundary_distance": 65.92949793795948
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 3,
+  "gt_boundary_distance": 66.2116414899271
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 4,
+  "gt_boundary_distance": 65.77226316374484
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 5,
+  "gt_boundary_distance": 66.18667930756367
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 6,
+  "gt_boundary_distance": 76.01879281686503
+ },
+ {
+  "sid": "BraTS-GLI-00425-000",
+  "window_id": 7,
+  "gt_boundary_distance": 76.28740791802171
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 0,
+  "gt_boundary_distance": 63.11943838494563
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 1,
+  "gt_boundary_distance": 65.83821916365964
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 2,
+  "gt_boundary_distance": 60.34932420350066
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 3,
+  "gt_boundary_distance": 63.00231915286238
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 4,
+  "gt_boundary_distance": 59.66731421627917
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 5,
+  "gt_boundary_distance": 62.46342793506571
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 6,
+  "gt_boundary_distance": 56.71412474579545
+ },
+ {
+  "sid": "BraTS-GLI-01536-000",
+  "window_id": 7,
+  "gt_boundary_distance": 59.45301749261986
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 0,
+  "gt_boundary_distance": 48.23902731611482
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 1,
+  "gt_boundary_distance": 50.786132550984824
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 2,
+  "gt_boundary_distance": 54.74012039776193
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 3,
+  "gt_boundary_distance": 56.503428709055264
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 4,
+  "gt_boundary_distance": 46.60828130598423
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 5,
+  "gt_boundary_distance": 49.186944074659976
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 6,
+  "gt_boundary_distance": 53.392504675133715
+ },
+ {
+  "sid": "BraTS-GLI-00574-000",
+  "window_id": 7,
+  "gt_boundary_distance": 55.181460073045635
+ },
+ {
+  "sid": "BraTS-GLI-00130-000",
+  "window_id": 0,
+  "gt_boundary_distance": 54.78187905784615
+ },
+ {
+  "sid": "BraTS-GLI-00130-000",
+  "window_id": 1,
+  "gt_boundary_distance": 54.72530470614282
+ },
+ {
+  "sid": "BraTS-GLI-00130-000",
+  "window_id": 2,
+  "gt_boundary_distance": 42.26630822535446
+ },
+ {
+  "sid": "BraTS-GLI-00130-000",
+  "window_id": 3,
+  "gt_boundary_distance": 41.62296777485488
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 0,
+  "gt_boundary_distance": 46.246455177359735
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 1,
+  "gt_boundary_distance": 42.67175611492894
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 2,
+  "gt_boundary_distance": 63.81492630673514
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 3,
+  "gt_boundary_distance": 60.74080533065011
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 4,
+  "gt_boundary_distance": 44.70121728603821
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 5,
+  "gt_boundary_distance": 41.098486258211565
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 6,
+  "gt_boundary_distance": 62.650569210189396
+ },
+ {
+  "sid": "BraTS-GLI-01342-000",
+  "window_id": 7,
+  "gt_boundary_distance": 59.55231455826493
+ },
+ {
+  "sid": "BraTS-GLI-01393-000",
+  "window_id": 0,
+  "gt_boundary_distance": 59.00894830967332
+ },
+ {
+  "sid": "BraTS-GLI-01393-000",
+  "window_id": 1,
+  "gt_boundary_distance": 54.49170599000422
+ },
+ {
+  "sid": "BraTS-GLI-01393-000",
+  "window_id": 2,
+  "gt_boundary_distance": 68.22227783013693
+ },
+ {
+  "sid": "BraTS-GLI-01393-000",
+  "window_id": 3,
+  "gt_boundary_distance": 63.968512839485804
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 0,
+  "gt_boundary_distance": 41.61378113405155
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 1,
+  "gt_boundary_distance": 40.32164928298392
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 2,
+  "gt_boundary_distance": 45.78429309467194
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 3,
+  "gt_boundary_distance": 44.788503570993065
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 4,
+  "gt_boundary_distance": 36.61065243365015
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 5,
+  "gt_boundary_distance": 35.43293281268
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 6,
+  "gt_boundary_distance": 40.57500151781159
+ },
+ {
+  "sid": "BraTS-GLI-01428-000",
+  "window_id": 7,
+  "gt_boundary_distance": 39.713283715909995
+ },
+ {
+  "sid": "BraTS-GLI-01159-000",
+  "window_id": 0,
+  "gt_boundary_distance": 55.54532544958611
+ },
+ {
+  "sid": "BraTS-GLI-01159-000",
+  "window_id": 1,
+  "gt_boundary_distance": 57.12644388074725
+ },
+ {
+  "sid": "BraTS-GLI-01159-000",
+  "window_id": 2,
+  "gt_boundary_distance": 65.92043192708566
+ },
+ {
+  "sid": "BraTS-GLI-01159-000",
+  "window_id": 3,
+  "gt_boundary_distance": 66.92736263317518
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 0,
+  "gt_boundary_distance": 37.23645204468108
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 1,
+  "gt_boundary_distance": 36.6253420552025
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 2,
+  "gt_boundary_distance": 57.56387436940445
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 3,
+  "gt_boundary_distance": 57.16335834613877
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 4,
+  "gt_boundary_distance": 33.85493922356934
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 5,
+  "gt_boundary_distance": 33.29022735777867
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 6,
+  "gt_boundary_distance": 54.56946374635729
+ },
+ {
+  "sid": "BraTS-GLI-01424-000",
+  "window_id": 7,
+  "gt_boundary_distance": 54.243441772622596
+ }
+]

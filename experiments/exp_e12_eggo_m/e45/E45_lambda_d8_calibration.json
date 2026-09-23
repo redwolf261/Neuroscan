@@ -1,0 +1,10 @@
+{
+  "L_seg_init": 0.9779173135757446,
+  "L_d8_init": 0.9769307971000671,
+  "lambda_d8_value_matched": 1.0010098120343895,
+  "grad_norm_L_seg": 0.27687860830971056,
+  "grad_norm_L_d8_unweighted": 0.6044512885049232,
+  "gradient_ratio_at_value_matched_lambda": 2.185295839155073,
+  "final_lambda_d8": 0.45806604034967724,
+  "seed": 0
+}

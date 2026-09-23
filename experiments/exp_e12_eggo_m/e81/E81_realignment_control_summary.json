@@ -1,0 +1,30 @@
+{
+  "n_subjects": 125,
+  "base_offset": 3,
+  "d_intact_mean": 0.9022760381698608,
+  "d_unrealigned_mean": 0.463678739964962,
+  "d_realigned_mean": 0.8736530857086182,
+  "S_unrealigned": {
+    "mean": 0.43859729820489884,
+    "ci_lo": 0.4221232542976737,
+    "ci_hi": 0.4569334449455142,
+    "ttest_p": 1.7546718130533153e-83,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "S_realigned": {
+    "mean": 0.028622952461242676,
+    "ci_lo": 0.02263154932260513,
+    "ci_hi": 0.03529718347787857,
+    "ttest_p": 1.6508305317407863e-14,
+    "wilcoxon_p": 4.581232036359452e-21,
+    "perm_p": 0.0
+  },
+  "recovery_fraction": 0.9347397884610977,
+  "comparison_ttest_p": 2.977448357290317e-84,
+  "comparison_wilcoxon_p": 2.9643799464905646e-22,
+  "mean_equivariance_error": 0.0009646303350164089,
+  "mean_baseline_scale": 0.010094811713322997,
+  "relative_equivariance_error": 0.09555704082556614,
+  "outcome": "OUTCOME A: D_realigned ~ D_intact -- E80's damage was substantially a coordinate-frame displacement artifact. RETRACT the 'independent absolute-coordinate binding' interpretation of E80's Arm 3 result specifically. E65's original asymmetric finding (translate enc1 ALONE, decoder untouched -- no coordinate-frame confound, since only one side moves and the network cannot simply produce a globally-shifted output to compensate) remains the standing, uncomplicated result and should anchor the causal chain going forward."
+}

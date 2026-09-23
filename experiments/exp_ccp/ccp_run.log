@@ -1,0 +1,18 @@
+checkpoint epoch=34 best_mean_dice=0.8929 arch=v5
+subjects: 125 (cohort size 125)
+
+  10/125  (82s, ~940s left)
+  20/125  (134s, ~705s left)
+  30/125  (174s, ~550s left)
+  40/125  (218s, ~464s left)
+  50/125  (258s, ~388s left)
+  60/125  (297s, ~322s left)
+  70/125  (339s, ~267s left)
+  80/125  (379s, ~213s left)
+  90/125  (421s, ~164s left)
+  100/125  (464s, ~116s left)
+  110/125  (504s, ~69s left)
+  120/125  (545s, ~23s left)
+
+wrote CCP_per_subject.csv (125 rows), CCP_stages.csv (1875 rows)
+runtime 565s

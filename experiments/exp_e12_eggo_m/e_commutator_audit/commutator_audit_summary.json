@@ -1,0 +1,40 @@
+{
+ "e184_summary_note": "subject BraTS-GLI-00506-000 excluded (all 17 candidates failed 15pct reconstruction-closeness check)",
+ "e184_n_subjects": 9,
+ "e184_n_candidates": 170,
+ "e187_n_subjects": 8,
+ "e187_n_candidates": 35,
+ "controls": {
+  "1_e184_positive_control": {
+   "rho_abs_delta_gamma": 0.1952,
+   "p": 0.0108,
+   "rho_signed_delta_gamma": -0.2158,
+   "p_signed": 0.0047
+  },
+  "2_e187_negative_control": {
+   "rho_all_35": 0.6197,
+   "p_all_35": 0.0001,
+   "rho_excl_2_outliers": 0.36,
+   "p_excl_2_outliers": 0.0396,
+   "permutation_p_all_35": 0.005
+  },
+  "3_output_displacement_control": {
+   "rho_ctask_vs_doutput_direct": -0.0384,
+   "p": 0.619,
+   "partial_rho_after_removing_doutput": 0.2574,
+   "p_partial": 0.0007
+  },
+  "4_magnitude_control": {
+   "rho_ctask_vs_perturbnorm_direct": 0.0701,
+   "p": 0.3637,
+   "partial_rho_after_removing_perturbnorm": 0.2085,
+   "p_partial": 0.0064
+  },
+  "5_permutation_null_e184": {
+   "real_rho": 0.1952,
+   "permutation_p": 0.0145,
+   "null_mean": 0.0209,
+   "null_std": 0.0786
+  }
+ }
+}

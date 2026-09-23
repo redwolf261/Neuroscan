@@ -1,0 +1,31 @@
+{
+  "n_subjects": 125,
+  "S_full": {
+    "mean": 0.3173613629937172,
+    "ci_lo": 0.3003496853426099,
+    "ci_hi": 0.33554691932350394,
+    "ttest_p": 2.0145432509358117e-64,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "S_r": {
+    "mean": 0.0223113534450531,
+    "ci_lo": 0.01814484530687332,
+    "ci_hi": 0.02771319544315338,
+    "ttest_p": 2.2562547943501394e-15,
+    "wilcoxon_p": 3.7794550629092275e-20,
+    "perm_p": 0.0
+  },
+  "S_u": {
+    "mean": 0.21343054032325745,
+    "ci_lo": 0.1989472236633301,
+    "ci_hi": 0.22926267468333245,
+    "ttest_p": 7.739239283235759e-55,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "S_r_vs_S_u_ttest_p": 2.2402401262101805e-55,
+  "S_r_vs_S_u_wilcoxon_p": 2.9643799464905646e-22,
+  "additivity_gap": 0.08161946922540664,
+  "reading": "DIRECTION dominates: S_u >> S_r -- direction carries the positional structure; magnitude mainly amplifies the downstream consequence"
+}

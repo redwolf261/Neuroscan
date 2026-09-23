@@ -1,0 +1,55 @@
+total rows=3480  held-out test rows=696  held-out components=58
+
+SMALL-N CAVEAT: ~11-12 components per held-out fold. Every statistic below is on a small sample; treat p-values as suggestive at this n, not as strong confirmatory evidence on their own.
+
+============================================================================================
+TEST 1: crossing rate & dz by condition (held-out test rows)
+============================================================================================
+condition             0.25       0.5       1.0   any-alpha
+prototype             0.0%      0.0%      0.0%        0.0%
+random                0.0%      0.0%      0.0%        0.0%
+proposal              0.0%      0.0%      0.0%        0.0%
+anti_proposal         0.0%      0.0%      0.0%        0.0%
+
+Fisher exact, any-alpha crossing, proposal vs random:
+  proposal 0/58  vs  random 0/58   p=1.000
+
+Mean/median dz by condition at alpha=1.0:
+  prototype        median= +0.2004  mean= +0.5732  n=58
+  random           median= -0.0035  mean= +0.0261  n=58
+  proposal         median= +0.2062  mean= +0.9336  n=58
+  anti_proposal    median= -0.0409  mean= -0.6147  n=58
+  Mann-Whitney proposal vs random dz (alpha=1.0): p=3.550e-01
+
+Cosine of proposal direction to E196 prototype direction (diagnostic,
+NOT trained on -- shows whether the network reinvented the prototype):
+  median cos = +0.2179  mean = +0.1884
+
+============================================================================================
+TEST 2: R / C / H evaluators, leave-one-fold-out (reusing CSV fold ids)
+============================================================================================
+  R [reactivity]
+      held-out AUC(U>0) = 0.5782   held-out R^2(U) = 0.1078
+  C [reactivity,dz]
+      held-out AUC(U>0) = 0.7870   held-out R^2(U) = 0.2638
+  H [z0,z1,dz,reactivity,alpha,a_gate,cos_to_prototype]
+      held-out AUC(U>0) = 0.8038   held-out R^2(U) = 0.2572
+
+  Delta R^2 (H - C) = -0.0066
+  Delta AUC (H - C) = +0.0168
+
+============================================================================================
+TEST 3: partial correlation(U, dz | reactivity) on PROPOSAL test rows
+============================================================================================
+  n = 174
+  raw corr(U, dz)              r=+0.4861  p=1.045e-11
+  partial corr | reactivity    r=+0.3268  p=1.080e-05   SURVIVES
+
+============================================================================================
+VERDICT
+============================================================================================
+  proposal beats random (any-alpha crossing, p<0.10) : False
+  Delta R^2 (H-C) > 0.02                              : False (actual -0.0066)
+  U-dz dependence survives reactivity control          : True
+
+  ==> KILL -- learned proposal does not beat random on held-out folds. The bridge from E196 (precomputed prototype direction) to a TRAINED proposal has not been established.

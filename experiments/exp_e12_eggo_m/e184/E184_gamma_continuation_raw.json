@@ -1,0 +1,1685 @@
+[
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.357135185273364e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012065986792246464
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.40285332640633e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012100497881571415
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.6363805975270225e-06,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012870927651723263
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 7.312498382816557e-06,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.013118048508962032
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 1.4755402844457421e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.01356838146845496
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 3.0226823582779616e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.014437754948933956
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.8666754587902687e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.013202766577402714
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 5.810458605992608e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.013867417971293095
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.779855225933716e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.01228598753611243
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 7.708996236033272e-06,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012637794017791748
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 1.5296947822207585e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012457410494486454
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 2.974095150420908e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012485643227895138
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 5,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 5.533908188226633e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.01260155439376831
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.7490448954049498e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.013134161631266239
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.736198050319217e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.013465483983357784
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.507868703105487e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.012302557627359989
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 4.896148311672732e-05,
+  "epsilon_subject": 6.331365875666961e-05,
+  "gamma_Z_baseline": 0.012726902961730957,
+  "gamma_Zprime": 0.011792520682016971
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00017751210543792695,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.06377245982488
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.0001554143091198057,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.06501104434331262
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.3775912520941347e-05,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.061189234256744385
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.7896277970285155e-05,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.060196757316589355
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 5.684846837539226e-05,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.058493296305338505
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 0.00011685727804433554,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.055246154467264774
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00010805294004967436,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.06125233570734656
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00016531310393474996,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.06034143765767419
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 7.462177018169314e-05,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.0626895626386007
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.0001461927022319287,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.0628861586252848
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 6.525359640363604e-05,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.061365147431691525
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00013267704343888909,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.060808002948760986
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 8.50342694320716e-05,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.062215765317281124
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.0001683424779912457,
+  "epsilon_subject": 0.00019103534577880055,
+  "gamma_Z_baseline": 0.06224455436070764,
+  "gamma_Zprime": 0.062106649080912235
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.992272831965238e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012058397134145138
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.390671918168664e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012396832307179806
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 6.42543236608617e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.011813779671986935
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 5.23995822732104e-06,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012783130009969113
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 1.038863501889864e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012911776701609257
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 2.0464372937567532e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012854695320129395
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 4.0010134398471564e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.01294829448064172
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.0443272407865152e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.01343878110249841
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 6.409871275536716e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.013587137063344357
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.675744639826007e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.01210133234659827
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.3028819921601098e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.013297716776529911
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.4798151571303606e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012909352779388428
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 4.468608312890865e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.013179242610931396
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.6949026505462825e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.013540128866831425
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 5.759542546002194e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.013804157574971554
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.7656015188549645e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.012598315874735477
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.4738124668365344e-05,
+  "epsilon_subject": 6.4297259086743e-05,
+  "gamma_Z_baseline": 0.012864669164021847,
+  "gamma_Zprime": 0.01214069128036499
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 6.834766099927947e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.1079586545626322
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 0,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.0001331206876784563,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10903054475784302
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.548076321952976e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10962402820587158
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 8.86859415913932e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.11128334204355872
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 1,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.00016881390183698386,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.11638092994689941
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.2409116607159376e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10709812243779504
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.4861683414201252e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10562024513880408
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 5.01293980050832e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10565543174743652
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 0.00010157843644265085,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.1032968362172445
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.672603608923964e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10594723622004187
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 9.456686530029401e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10312918821970618
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 3,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.00019207759760320187,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10128955046335852
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 6.820104317739606e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10385660330454505
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 4,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00013264907465782017,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10139777263005578
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 5.5196069297380745e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10554498434066772
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00011037210788344964,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10287922620773315
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.00022143467504065484,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.09779363870620728
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.56112104782369e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10535587867101037
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 7.102618837961927e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10269377628962195
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 6,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.0001421935885446146,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.09757133324941003
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.6714449126739055e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10530680418014526
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 9.151911217486486e-05,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10427780946095788
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "direction_idx": 7,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.00017620890866965055,
+  "epsilon_subject": 0.0002432895707897842,
+  "gamma_Z_baseline": 0.10717324415842688,
+  "gamma_Zprime": 0.10027192036310828
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.331161471782252e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017519215742746952
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 0,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 8.597692067269236e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017577846844991085
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.5270348487538286e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01760067542394006
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 5.014531052438542e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01734030246734619
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 6.236984972929349e-06,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017558693885803223
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 1.2397154023346957e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01751542091369629
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 2.4931005100370385e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017583906650543213
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 5.050387335359119e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017634650071462032
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.008986823260784e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017692704995473263
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 6.056942947907373e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017653663953145382
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.374982381705195e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01744808753331506
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 4,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 8.732298738323152e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01729617516199744
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.5183072719082702e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017674962679545048
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.0324445106089115e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017555534839630127
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 6.0677091823890805e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01832304398218787
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.792606599337887e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017701824506123898
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.6133365938439965e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.01764168341954553
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 6,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 7.39790775696747e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017960846424102783
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.1458194169099443e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017622192700703976
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 4.2515101085882634e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017327090104421017
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "direction_idx": 7,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 8.419767254963517e-05,
+  "epsilon_subject": 9.289265290135518e-05,
+  "gamma_Z_baseline": 0.01764136552810669,
+  "gamma_Zprime": 0.017520884672800663
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.93730440211948e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012814263502756718
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 0,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 9.807834430830553e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012759486834208134
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.299801755929366e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.01311846574147546
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 6.563019269378856e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012910127639770508
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 5.966676326352172e-06,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012957195440928104
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 1.194736614706926e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013053377469380734
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 2.386960113653913e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.01328498125076294
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 4.824704228667542e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013425767421722412
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.480470695649274e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013210654258728027
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 6.982887134654447e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013518154621124268
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 5.578573473030701e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012948036193847656
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.378580964228604e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.01306804021199548
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.7605477953329682e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013519545396169064
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 5.532533396035433e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.01359303792317712
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.2169722797116265e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013082901636759403
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 4.441435157787055e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013209839661916134
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 6,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 8.885729039320722e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.013577600320180294
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.531668360461481e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012935340404510498
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 5.054307621321641e-05,
+  "epsilon_subject": 9.897032578010112e-05,
+  "gamma_Z_baseline": 0.013043701648712158,
+  "gamma_Zprime": 0.012809495131174686
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.0001210542832268402,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.026380956172943115
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00011968688340857625,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.02603016297022498
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.6155894627445377e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.027829746405283573
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.253897375543602e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.026919424533843994
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 6.609925912925974e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.027813275655110714
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 0.00013744182069785893,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.027057170867919922
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 9.723134280648082e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.028059184551239014
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00014848056889604777,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.025772492090860966
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 6.50549991405569e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.02831468979517615
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00012530418462119997,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.028497159481048584
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 7.157358777476475e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.028083542982737186
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.0001488549169152975,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.02877364555994666
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 7.012186688371003e-05,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.026479482650756836
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00013597235374618322,
+  "epsilon_subject": 0.00015533358964603394,
+  "gamma_Z_baseline": 0.028688371181488037,
+  "gamma_Zprime": 0.025970935821533203
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 5.6854463764466345e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02560702959696448
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 0,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00011294408614048734,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.0248206456502279
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.987373904441483e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.025166968504587772
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 9.940713789546862e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.024955252806345585
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.4848536011413671e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.026209533214569092
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.0055884053581394e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02509242296218872
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 6.0808935813838616e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02526356776555383
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 0.00012503014295361936,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.024895648161570194
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.425871156854555e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02511994043985999
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 8.869330486049876e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.024739166100819943
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 7.278428529389203e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02484240134557092
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.4550950911361724e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02681058645248413
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 4.8976864491123706e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.025312761465708378
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 9.836370008997619e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.025103628635406494
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 3.92579568142537e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.024900496006011963
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 7.839816680643708e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.025071918964385986
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.5668507078080438e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.025665581226348877
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 5.1105023885611445e-05,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.02490486701329553
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "direction_idx": 7,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.0001007662940537557,
+  "epsilon_subject": 0.0001258879783563316,
+  "gamma_Z_baseline": 0.024955888589223263,
+  "gamma_Zprime": 0.024503648281097412
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00017745804507285357,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05350734790166223
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 0,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00033643035567365587,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05207435290018714
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00020296640286687762,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05397442976633704
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.0003777093079406768,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05226965745290124
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 4.3366864701965824e-05,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.055462002754211426
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 8.899293607100844e-05,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05574556191762292
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.0001860816846601665,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05567449331283569
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 0.00039851313340477645,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05557153622309363
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00013571869931183755,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05713645617167151
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.0002818196371663362,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05858667691548669
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00010356448183301836,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.0543161233266195
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 4,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00020404973474796861,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05291140079498291
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 4,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.0003986411611549556,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.050256212552388546
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 9.952166874427348e-05,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.056357045968373654
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00019513157894834876,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.056981782118479374
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.00038096928619779646,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05753809213638306
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 0.00012342119589447975,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.056837817033131954
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.000257348787272349,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05743134021759033
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 6.0207690694369376e-05,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.055346767107645634
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 0.00011797047773143277,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05444381634394324
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 7,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 0.0002275980223203078,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05384713411331177
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "direction_idx": 7,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 0.00043426131014712155,
+  "epsilon_subject": 0.0004919761558994651,
+  "gamma_Z_baseline": 0.05582088232040405,
+  "gamma_Zprime": 0.05229936043421424
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 0,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.9331480871187523e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019061823685963986
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 0,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.7788307963637635e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.01871057351430261
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 1,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.6130961739690974e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019250790278116825
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 1,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 3.1700925319455564e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.01895252863566077
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 2,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.479442400726839e-06,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019569536050160763
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 2,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 4.99350244353991e-06,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019656260808308956
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 2,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 1.0033068065240514e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.01985786358515418
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 2,
+  "alpha": 4.0,
+  "output_distance_from_Z0": 2.0257295545889065e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.020557045936584473
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 3,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.3196636245993432e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019571701685587528
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 3,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.6716204956755973e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.01975746949513757
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 4,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 2.1363441192079335e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.018694261709849003
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 4,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 4.167541555943899e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.018011709054311154
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 5,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 7.2205134529212955e-06,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.018977781136830685
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 5,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 1.4420391380554065e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.018503586451212528
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 5,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 2.8679851311608218e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.017235159873962402
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 6,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.0104094144480769e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.01950734853744507
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 6,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.0335886802058667e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019782761732737186
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 6,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 4.17397495766636e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.01997087399164832
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 7,
+  "alpha": 0.5,
+  "output_distance_from_Z0": 1.0633530109771527e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.019072790940602657
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 7,
+  "alpha": 1.0,
+  "output_distance_from_Z0": 2.0992809368181042e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.018687784671783447
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "direction_idx": 7,
+  "alpha": 2.0,
+  "output_distance_from_Z0": 4.089652429684065e-05,
+  "epsilon_subject": 4.989325316273607e-05,
+  "gamma_Z_baseline": 0.01959306001663208,
+  "gamma_Zprime": 0.018218398094177246
+ }
+]

@@ -1,0 +1,35 @@
+======================================================================
+PART 1: REPLICATION on held-out split (pre-registered before looking)
+======================================================================
+Loaded 125 subjects from E124's per-subject table.
+Held-out subjects: 32 (IDENTICAL split rule to E90-E124)
+
+Held-out marginal Spearman(E_N3, N_3): rho=+0.5638 (param p=7.7855e-04, perm p=0.0000)
+Held-out partial Spearman (controlling native_size): rho=+0.8765 (param p=4.8968e-11, perm p=0.0000)
+
+=== PART 1 VERDICT: REPLICATES ===
+
+======================================================================
+PART 2: CAUSAL TEST -- does forcing rank->1 reduce N_b?
+======================================================================
+[Unit test] mean_replace_windows: PASS (window mean correct, all 8 sub-voxels identical).
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00 PASS.
+
+Running 4 conditions per subject (intact-intact, intact-ablated, meanrepl-intact, meanrepl-ablated), 125 subjects...
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+N_b (intact enc3): mean=0.2717 std=0.1733 (cross-check vs established ~0.27-0.32 range)
+N_b (mean-replaced enc3, rank forced ->1): mean=-0.0028 std=0.1264
+Mean-replacement itself costs (Dice drop from forcing rank->1, bottleneck intact): 0.1596 +/- 0.1634 (context: how damaging is the rank-forcing intervention on its own)
+
+Paired shift (N_b_meanreplaced - N_b_intact): mean=-0.2745 (paired t p=1.1966e-30, Wilcoxon p=4.5743e-22, n=125)
+
+=== PART 2 DECISION: CAUSAL_EVIDENCE_CONFIRMED ===
+Forcing effective rank -> 1 SIGNIFICANTLY REDUCES N_b, in the predicted direction -- causal evidence that pre-pooling window effective rank drives bottleneck necessity, not just correlates with it via a third factor. GREEN for further investigation -- prior-art audit next, still NOT architecture implementation.
+
+Saved E125_part2_summary.json, E125_part2_causal_table.json

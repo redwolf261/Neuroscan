@@ -1,0 +1,32 @@
+{
+  "translation_offset": 3,
+  "n_subjects": 125,
+  "enc1": {
+    "mean_drop": 0.3173613629937172,
+    "ci_lo": 0.3003496853426099,
+    "ci_hi": 0.33554691932350394,
+    "ttest_p": 2.0145432509358117e-64,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "bottleneck": {
+    "mean_drop": 0.2105114544034004,
+    "ci_lo": 0.17826388984471558,
+    "ci_hi": 0.24506041396409273,
+    "ttest_p": 1.433598714445636e-23,
+    "wilcoxon_p": 1.584208355633869e-21,
+    "perm_p": 0.0
+  },
+  "enc1_size_rho": -0.6582488479262671,
+  "enc1_size_p": 7.326604534863215e-17,
+  "enc1_hf_partial_rho": 0.054187403993855604,
+  "enc1_hf_partial_p": 0.5483806735398368,
+  "enc1_mag_partial_rho": 0.3012964669738863,
+  "enc1_mag_partial_p": 0.0006390921420456933,
+  "bottleneck_size_rho": -0.316442396313364,
+  "bottleneck_size_p": 0.0003240982198252837,
+  "bottleneck_hf_partial_rho": -0.5892964669738863,
+  "bottleneck_hf_partial_p": 4.848050870739781e-13,
+  "bottleneck_mag_partial_rho": 0.525069124423963,
+  "bottleneck_mag_partial_p": 3.25286207741207e-10
+}

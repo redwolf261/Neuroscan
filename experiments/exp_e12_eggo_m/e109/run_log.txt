@@ -1,0 +1,39 @@
+Device: cuda
+Loaded canonical checkpoint: val_dice=0.9101624600589275
+[Sanity check] checkpoint identity PASS.
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00
+[Sanity check] PASS.
+
+Building training labels (200 training subjects, real ablation)...
+  [train] labeled 50/200
+  [train] labeled 100/200
+  [train] labeled 150/200
+  [train] labeled 200/200
+
+Building validation labels (all 125 held-out subjects, real ablation)...
+  [val] labeled 50/125
+  [val] labeled 100/125
+
+Training N_b: mean=0.2543 std=0.1669
+Validation N_b: mean=0.2717 std=0.1733
+
+Training auxiliary head (30 epochs, 200 labeled subjects)...
+  epoch 10/30: mse=0.026040
+  epoch 20/30: mse=0.025775
+  epoch 30/30: mse=0.023538
+
+=== Prediction fidelity on HELD-OUT validation subjects (n=125) ===
+Spearman(predicted N_b, measured N_b) = +0.6328 (parametric p=2.4302e-15, permutation p=0.0000)
+Partial Spearman (controlling native_size) = +0.7908 (p=5.4562e-28)
+
+=== STEP 4 VERDICT: REPLICATES ===
+
+=== Step 5: channel-sensitivity mechanism probe ===
+Spearman(channel_sensitivity, mean |activation|) = -0.0541 (p=3.8873e-01)
+Spearman(channel_sensitivity, cross-subject variance) = +0.0526 (p=4.0243e-01)
+Fraction of total sensitivity in top 10% of channels (25/256): 0.2365
+
+=== STEP 5 READING: NEITHER_CLEAN_UNEXPLAINED ===
+(Note: this classification is a convenience label only -- read the actual rho/p values above directly, do not trust this label alone, per this project's own established convention of catching auto-classifier mistakes.)
+
+Saved E109_summary.json

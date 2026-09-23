@@ -1,0 +1,41 @@
+frozen checkpoint: epoch 34, mean dice 0.8929
+
+one forward pass per subject; sampling voxels for probe fitting...
+  25
+  50
+  75
+  100
+
+105 good (probe TRAIN) / 8 failing (probe TEST, unseen)
+
+the frozen model's OWN dice on these centred patches:
+   group       ET       TC       WT
+    good   0.8741   0.8905   0.9204
+    FAIL   0.0481   0.1456   0.7996
+
+=== dec1: 32 channels, 2,094,791 training voxels ===
+  ET: probe dice  good=0.8751  FAILING=0.0521
+  TC: probe dice  good=0.8892  FAILING=0.1460
+  WT: probe dice  good=0.8636  FAILING=0.7560
+
+=== dec2: 64 channels, 1,905,889 training voxels ===
+  ET: probe dice  good=0.7867  FAILING=0.0443
+  TC: probe dice  good=0.8530  FAILING=0.1432
+  WT: probe dice  good=0.8297  FAILING=0.6970
+
+=== dec3: 128 channels, 1,200,645 training voxels ===
+  ET: probe dice  good=0.8644  FAILING=0.3345
+  TC: probe dice  good=0.8935  FAILING=0.2133
+  WT: probe dice  good=0.9101  FAILING=0.8040
+
+======================================================================
+VERDICT
+                 model head   dec1 probe   recovery
+  ET                 0.0481       0.0521    +0.0040
+  TC                 0.1456       0.1460    +0.0004
+  WT                 0.7996       0.7560    -0.0436
+
+H1_REPRESENTATION_FAILURE
+dec1 does NOT encode the ET/TC distinction on the failing subjects -- an identical-capacity probe cannot recover it either, so no readout could. The fix must change what the network LEARNS (loss weighting, sampling, synthetic data).
+
+Saved E133_summary.json

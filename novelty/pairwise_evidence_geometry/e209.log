@@ -1,0 +1,5 @@
+E195 Delta_E -> crossing, 125 subjects
+  built 15 donor texture patches
+  125/125 subj, 132 rows (211s)
+
+wrote E195_crossing.csv (132 rows) pops={'L': 58, 'H': 74}  L crossings=14/58  211s

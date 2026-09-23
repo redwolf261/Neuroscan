@@ -1,0 +1,61 @@
+{
+ "question": "Stage 1: transformation laboratory sanity + tile ledger",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "target_stage": "enc3",
+ "transforms": [
+  "T1_rank",
+  "T2_permute",
+  "T3_mix",
+  "T4_spectral",
+  "T5_smooth"
+ ],
+ "identity_gate_results": {
+  "T1_rank": {
+   "identity_param": 128,
+   "max_abs_diff": 0.0,
+   "tolerance": 0.001,
+   "pass": true
+  },
+  "T2_permute": {
+   "identity_param": null,
+   "max_abs_diff": 0.0,
+   "tolerance": 0.0,
+   "pass": true
+  },
+  "T3_mix": {
+   "identity_param": 0.0,
+   "max_abs_diff": 0.0,
+   "tolerance": 0.0,
+   "pass": true
+  },
+  "T4_spectral": {
+   "identity_param": 1.0,
+   "max_abs_diff": 0.0,
+   "tolerance": 0.001,
+   "pass": true
+  },
+  "T5_smooth": {
+   "identity_param": 0.0,
+   "max_abs_diff": 0.0,
+   "tolerance": 0.0,
+   "pass": true
+  }
+ },
+ "dormant_hook_diff": 0.0,
+ "enc3_tile_shape_full": [
+  1,
+  128,
+  32,
+  32,
+  32
+ ],
+ "n_subjects_ledger": 10,
+ "overlap": 0.25,
+ "patch": [
+  128,
+  128,
+  128
+ ],
+ "ALL_GATES_PASS": true
+}

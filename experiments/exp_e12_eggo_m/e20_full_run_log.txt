@@ -1,0 +1,32 @@
+Analyzing epoch 5...
+  [epoch 5] real optimizer state at this checkpoint: lr=3.902358e-04 beta1=0.9 beta2=0.999 eps=1e-08
+  n_valid_steps=15/15
+  ||delta_margin||=1.2523e+00 ||delta_seg||=1.2372e+00 ||delta_total||=1.2396e+00 ratio(margin/seg)=1.0122
+  cos(delta_margin, delta_total)=0.3217431237198454 cos(delta_margin, delta_seg)=0.3069658608131629 margin_projection_coeff_on_total=0.325030110696275
+Analyzing epoch 10...
+  [epoch 10] real optimizer state at this checkpoint: lr=3.618989e-04 beta1=0.9 beta2=0.999 eps=1e-08
+  n_valid_steps=15/15
+  ||delta_margin||=9.5309e-01 ||delta_seg||=6.8656e-01 ||delta_total||=6.8129e-01 ratio(margin/seg)=1.3882
+  cos(delta_margin, delta_total)=0.09227645429106038 cos(delta_margin, delta_seg)=0.04872408105421124 margin_projection_coeff_on_total=0.12909073806421953
+Analyzing epoch 15...
+  [epoch 15] real optimizer state at this checkpoint: lr=3.177632e-04 beta1=0.9 beta2=0.999 eps=1e-08
+  n_valid_steps=15/15
+  ||delta_margin||=8.1896e-01 ||delta_seg||=5.9821e-01 ||delta_total||=5.9565e-01 ratio(margin/seg)=1.3690
+  cos(delta_margin, delta_total)=0.20535040207282856 cos(delta_margin, delta_seg)=0.14038691720041152 margin_projection_coeff_on_total=0.28233790090191646
+Analyzing epoch 20...
+  [epoch 20] real optimizer state at this checkpoint: lr=2.621489e-04 beta1=0.9 beta2=0.999 eps=1e-08
+  n_valid_steps=15/15
+  ||delta_margin||=6.3188e-01 ||delta_seg||=6.2448e-01 ||delta_total||=6.2255e-01 ratio(margin/seg)=1.0119
+  cos(delta_margin, delta_total)=0.14221347309289753 cos(delta_margin, delta_seg)=0.10959396063912086 margin_projection_coeff_on_total=0.1443441640838948
+Analyzing epoch 25...
+  [epoch 25] real optimizer state at this checkpoint: lr=2.005000e-04 beta1=0.9 beta2=0.999 eps=1e-08
+  n_valid_steps=15/15
+  ||delta_margin||=3.7889e-01 ||delta_seg||=3.4259e-01 ||delta_total||=3.4118e-01 ratio(margin/seg)=1.1059
+  cos(delta_margin, delta_total)=-0.05314732887308597 cos(delta_margin, delta_seg)=-0.08803409500215706 margin_projection_coeff_on_total=-0.05902111204595372
+Analyzing epoch 30...
+  [epoch 30] real optimizer state at this checkpoint: lr=1.388511e-04 beta1=0.9 beta2=0.999 eps=1e-08
+  n_valid_steps=15/15
+  ||delta_margin||=2.6081e-01 ||delta_seg||=1.6178e-01 ||delta_total||=1.6066e-01 ratio(margin/seg)=1.6121
+  cos(delta_margin, delta_total)=0.09223747304998532 cos(delta_margin, delta_seg)=0.04465511257352545 margin_projection_coeff_on_total=0.14973222580281567
+
+All outputs saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e20_dec1_update_decomposition_results

@@ -1,0 +1,114 @@
+{
+ "Test_A_T6": {
+  "0.35": {
+   "transform": "T6",
+   "severity": 0.35,
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.35314522793230696,
+    "se_cluster_robust": 0.12444298332627998,
+    "t": 2.8378074720885405,
+    "p": 0.005308543790530251,
+    "r2_within_model": 0.9780121344736613
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": -0.12826211222790945,
+    "pooled_spearman_p": 0.0001512227467171605,
+    "note": "NON-INDEPENDENT observations (tile overlap), descriptive context only"
+   }
+  },
+  "0.5": {
+   "transform": "T6",
+   "severity": 0.5,
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 1.2210966689719345,
+    "se_cluster_robust": 0.5882659924820632,
+    "t": 2.0757560093177863,
+    "p": 0.03998321400864313,
+    "r2_within_model": 0.922567425755629
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.009980756788457043,
+    "pooled_spearman_p": 0.7690368063422105,
+    "note": "NON-INDEPENDENT observations (tile overlap), descriptive context only"
+   }
+  }
+ },
+ "Test_B_T7": {
+  "0.6": {
+   "transform": "T7",
+   "severity": 0.6,
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.1246691848643329,
+    "se_cluster_robust": 0.09253047121056898,
+    "t": 1.3473311357144908,
+    "p": 0.18033044281570976,
+    "r2_within_model": 0.9857533134182257
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.5864259095895258,
+    "pooled_spearman_p": 2.5897213508300173e-81,
+    "note": "NON-INDEPENDENT observations (tile overlap), descriptive context only"
+   }
+  },
+  "0.8": {
+   "transform": "T7",
+   "severity": 0.8,
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.22851536966944005,
+    "se_cluster_robust": 0.1274842722914014,
+    "t": 1.792498522069479,
+    "p": 0.07549134638873323,
+    "r2_within_model": 0.9867186061510691
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.4116350417210848,
+    "pooled_spearman_p": 7.998360690101795e-37,
+    "note": "NON-INDEPENDENT observations (tile overlap), descriptive context only"
+   }
+  },
+  "1.1": {
+   "transform": "T7",
+   "severity": 1.1,
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.0007430018383976255,
+    "se_cluster_robust": 0.005352767341631845,
+    "t": 0.13880704894808935,
+    "p": 0.889827801641959,
+    "r2_within_model": 0.9770375982312377
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": -0.09804579004332573,
+    "pooled_spearman_p": 0.003835103899313246,
+    "note": "NON-INDEPENDENT observations (tile overlap), descriptive context only"
+   }
+  },
+  "1.45": {
+   "transform": "T7",
+   "severity": 1.45,
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.07937330545028368,
+    "se_cluster_robust": 0.07226768361096433,
+    "t": 1.098323641830984,
+    "p": 0.2741912509649529,
+    "r2_within_model": 0.971744226032701
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.10307716200891265,
+    "pooled_spearman_p": 0.0023613159493304945,
+    "note": "NON-INDEPENDENT observations (tile overlap), descriptive context only"
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+  "n_subjects": 40,
+  "dice_S_vs_lesion_mean": 0.08312521153129637,
+  "dice_S_vs_lesion_std": 0.04458962961943076,
+  "frac_S_mass_in_lesion_mean": 0.10452174996753456,
+  "frac_lesion_volume_mean": 0.011178302764892577,
+  "is_just_lesion_mask": false,
+  "mean_S_at_error_voxels": 0.31849560141563416,
+  "mean_S_at_correct_voxels": 0.014062942937016487,
+  "n_subject_pairs": 40,
+  "mean_paired_diff": 0.26185414753854275,
+  "paired_ttest_p": 4.5266389172709995e-10,
+  "wilcoxon_p": 1.8189894035458565e-12,
+  "correlates_with_error": true,
+  "proceed_to_training": true
+}

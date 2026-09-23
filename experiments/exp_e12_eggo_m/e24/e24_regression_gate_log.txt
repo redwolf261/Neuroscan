@@ -1,0 +1,63 @@
+======================================================================
+PHASE E24 GATE 6, SECTION 6 STEP 2: HARD REGRESSION GATE
+======================================================================
+Comparing refactored run_counterfactual(mode='baseline') against
+original C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e22\results.json
+on the ORIGINAL E12f checkpoints: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e12f_pilot_calibrated_seed0\checkpoints
+
+Original E22 results: 1536 rows
+
+Running refactored run_counterfactual(mode='baseline')...
+
+=== Checkpoint epoch 5 (objective=baseline) ===
+
+=== Checkpoint epoch 10 (objective=baseline) ===
+
+=== Checkpoint epoch 15 (objective=baseline) ===
+
+=== Checkpoint epoch 20 (objective=baseline) ===
+
+=== Checkpoint epoch 25 (objective=baseline) ===
+
+=== Checkpoint epoch 30 (objective=baseline) ===
+
+Refactored results: 1536 rows
+
+Row-key coverage: 1536 common, 0 missing in refactored, 0 extra in refactored
+
+======================================================================
+PER-FIELD REGRESSION REPORT
+======================================================================
+field                    n_cmp      max_abs      max_rel     mean_abs  n_sign_chg  n_none_mismatch
+delta_norm                1152     0.00e+00     0.00e+00     0.00e+00           0                0
+dice_before               1536     0.00e+00     0.00e+00     0.00e+00           0                0
+dice_after                1536     0.00e+00     0.00e+00     0.00e+00           0                0
+delta_dice                1536     0.00e+00     0.00e+00     0.00e+00           0                0
+seg_loss_before           1536     0.00e+00     0.00e+00     0.00e+00           0                0
+seg_loss_after            1344     0.00e+00     0.00e+00     0.00e+00           0                0
+delta_seg_loss            1344     0.00e+00     0.00e+00     0.00e+00           0                0
+margin_loss_before        1536     0.00e+00     0.00e+00     0.00e+00           0                0
+margin_loss_after         1344     0.00e+00     0.00e+00     0.00e+00           0                0
+delta_margin_loss         1344     0.00e+00     0.00e+00     0.00e+00           0                0
+geometry_before           1536     0.00e+00     0.00e+00     0.00e+00           0                0
+geometry_after            1536     0.00e+00     0.00e+00     0.00e+00           0                0
+delta_geometry            1536     0.00e+00     0.00e+00     0.00e+00           0                0
+cos_with_g_seg             576     0.00e+00     0.00e+00     0.00e+00           0                0
+cos_with_g_margin          576     0.00e+00     0.00e+00     0.00e+00           0                0
+cos_with_useful            192     0.00e+00     0.00e+00     0.00e+00           0                0
+
+======================================================================
+HEADLINE STATISTIC CHECK (secondary -- row-level check above is primary)
+======================================================================
+Original:    corr(delta_L_margin, delta_Dice) for B_margin = +0.2432, p=6.75e-04, n=192
+Refactored:  corr(delta_L_margin, delta_Dice) for B_margin = +0.2432, p=6.75e-04, n=192
+Sign matches: True
+Correlation absolute difference: 0.000000
+
+======================================================================
+GATE VERDICT
+======================================================================
+REGRESSION GATE: PASS
+The refactored run_counterfactual reproduces the original E22 implementation's
+row-level output (not just the headline correlation) within the defined tolerance.
+Section 6 steps 1-2 are complete. Training (step 3 onward) may be authorized.

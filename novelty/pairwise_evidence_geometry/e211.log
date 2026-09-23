@@ -1,0 +1,12 @@
+E197 HRS-Lite, 125 subjects
+Pass 1: building detected-lesion bottleneck prototype bank...
+  bank size = 49 prototypes
+  collect 125/125 subj, 58 comps
+collected 58 L components (186s)
+fold 0: train=46 test=12 total_rows=696 (974s)
+fold 1: train=46 test=12 total_rows=1392 (1723s)
+fold 2: train=46 test=12 total_rows=2088 (2473s)
+fold 3: train=47 test=11 total_rows=2784 (3321s)
+fold 4: train=47 test=11 total_rows=3480 (4060s)
+
+wrote E197_hrs_lite.csv (3480 rows)  4060s

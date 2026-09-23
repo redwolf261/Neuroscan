@@ -1,0 +1,12 @@
+Full validation set: 125 subjects
+Loading A checkpoint: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\gate6_runs\A_baseline_seed0\checkpoints\best.pth
+  epoch=23 best_val_dice=0.9063020758330822
+  processed 25/125 subjects
+  processed 50/125 subjects
+  processed 75/125 subjects
+  processed 100/125 subjects
+  processed 125/125 subjects
+
+Total WT components: 363
+Subjects with >2% multiclass/binary WT mask disagreement (resampling-order artifact check): 0/125
+Saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e28\E28_subregion_component_table.json

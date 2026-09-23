@@ -1,0 +1,17 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_subjects": 63,
+  "mean_data_evidence_fn": 5.702589428614056,
+  "mean_data_evidence_tp": 14.520536150251116,
+  "mean_smooth_to_data_ratio_fn": 4.045266320781102,
+  "mean_smooth_to_data_ratio_tp": 0.4931546714570787,
+  "mean_ratio_diff": 3.5521116493240235,
+  "ratio_diff_permutation_p": 0.0,
+  "rho_Nb_ratio_diff": 0.14117703533026113,
+  "p_Nb_ratio_diff_param": 0.2697417210602079,
+  "p_Nb_ratio_diff_perm": 0.262,
+  "ratio_elevated": true,
+  "nb_correlates": false,
+  "data_absence_dominant": true,
+  "decision": "KILL_GRAPH_CUTS"
+}

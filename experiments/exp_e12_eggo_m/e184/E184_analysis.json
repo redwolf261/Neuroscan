@@ -1,0 +1,564 @@
+{
+ "per_subject_per_alpha": {
+  "BraTS-GLI-01041-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.0002432895707897842,
+    "distances_within_class": [
+     6.834766099927947e-05,
+     4.548076321952976e-05,
+     1.2409116607159376e-05,
+     4.672603608923964e-05,
+     6.820104317739606e-05,
+     5.5196069297380745e-05,
+     3.56112104782369e-05,
+     4.6714449126739055e-05
+    ],
+    "diam_G_eps": 5.593854439212009e-05,
+    "diam_as_fraction_of_epsilon": 0.22992578025654098
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.0002432895707897842,
+    "distances_within_class": [
+     0.0001331206876784563,
+     8.86859415913932e-05,
+     2.4861683414201252e-05,
+     9.456686530029401e-05,
+     0.00013264907465782017,
+     0.00011037210788344964,
+     7.102618837961927e-05,
+     9.151911217486486e-05
+    ],
+    "diam_G_eps": 0.00010825900426425505,
+    "diam_as_fraction_of_epsilon": 0.44498004543646014
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 6,
+    "epsilon": 0.0002432895707897842,
+    "distances_within_class": [
+     0.00016881390183698386,
+     5.01293980050832e-05,
+     0.00019207759760320187,
+     0.00022143467504065484,
+     0.0001421935885446146,
+     0.00017620890866965055
+    ],
+    "diam_G_eps": 0.00017130527703557163,
+    "diam_as_fraction_of_epsilon": 0.7041209225675727
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-01161-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.00015533358964603394,
+    "distances_within_class": [
+     0.0001210542832268402,
+     0.00011968688340857625,
+     1.6155894627445377e-05,
+     9.723134280648082e-05,
+     0.00014848056889604777,
+     6.50549991405569e-05,
+     7.157358777476475e-05,
+     7.012186688371003e-05
+    ],
+    "diam_G_eps": 0.0001323246742686024,
+    "diam_as_fraction_of_epsilon": 0.8518741797581382
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 4,
+    "epsilon": 0.00015533358964603394,
+    "distances_within_class": [
+     3.253897375543602e-05,
+     0.00012530418462119997,
+     0.0001488549169152975,
+     0.00013597235374618322
+    ],
+    "diam_G_eps": 0.00011631594315986149,
+    "diam_as_fraction_of_epsilon": 0.7488138491160616
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-01189-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.0004919761558994651,
+    "distances_within_class": [
+     0.00017745804507285357,
+     0.00020296640286687762,
+     4.3366864701965824e-05,
+     0.00013571869931183755,
+     0.00010356448183301836,
+     9.952166874427348e-05,
+     0.00012342119589447975,
+     6.0207690694369376e-05
+    ],
+    "diam_G_eps": 0.0001595995381649118,
+    "diam_as_fraction_of_epsilon": 0.3244050270548596
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.0004919761558994651,
+    "distances_within_class": [
+     0.00033643035567365587,
+     0.0003777093079406768,
+     8.899293607100844e-05,
+     0.0002818196371663362,
+     0.00020404973474796861,
+     0.00019513157894834876,
+     0.000257348787272349,
+     0.00011797047773143277
+    ],
+    "diam_G_eps": 0.00028871637186966836,
+    "diam_as_fraction_of_epsilon": 0.5868503349350681
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 4,
+    "epsilon": 0.0004919761558994651,
+    "distances_within_class": [
+     0.0001860816846601665,
+     0.0003986411611549556,
+     0.00038096928619779646,
+     0.0002275980223203078
+    ],
+    "diam_G_eps": 0.00021255947649478912,
+    "diam_as_fraction_of_epsilon": 0.4320523951128751
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 2,
+    "epsilon": 0.0004919761558994651,
+    "distances_within_class": [
+     0.00039851313340477645,
+     0.00043426131014712155
+    ],
+    "diam_G_eps": 3.5748176742345095e-05,
+    "diam_as_fraction_of_epsilon": 0.07266241730148036
+   }
+  },
+  "BraTS-GLI-01336-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 4.989325316273607e-05,
+    "distances_within_class": [
+     1.9331480871187523e-05,
+     1.6130961739690974e-05,
+     2.479442400726839e-06,
+     1.3196636245993432e-05,
+     2.1363441192079335e-05,
+     7.2205134529212955e-06,
+     1.0104094144480769e-05,
+     1.0633530109771527e-05
+    ],
+    "diam_G_eps": 1.8883998791352496e-05,
+    "diam_as_fraction_of_epsilon": 0.3784880238167442
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 4.989325316273607e-05,
+    "distances_within_class": [
+     3.7788307963637635e-05,
+     3.1700925319455564e-05,
+     4.99350244353991e-06,
+     2.6716204956755973e-05,
+     4.167541555943899e-05,
+     1.4420391380554065e-05,
+     2.0335886802058667e-05,
+     2.0992809368181042e-05
+    ],
+    "diam_G_eps": 3.668191311589908e-05,
+    "diam_as_fraction_of_epsilon": 0.7352078846463316
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 4,
+    "epsilon": 4.989325316273607e-05,
+    "distances_within_class": [
+     1.0033068065240514e-05,
+     2.8679851311608218e-05,
+     4.17397495766636e-05,
+     4.089652429684065e-05
+    ],
+    "diam_G_eps": 3.1706681511423085e-05,
+    "diam_as_fraction_of_epsilon": 0.6354903619534665
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-00250-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 6.331365875666961e-05,
+    "distances_within_class": [
+     4.357135185273364e-05,
+     3.40285332640633e-05,
+     3.6363805975270225e-06,
+     2.8666754587902687e-05,
+     4.779855225933716e-05,
+     7.708996236033272e-06,
+     1.7490448954049498e-05,
+     2.507868703105487e-05
+    ],
+    "diam_G_eps": 4.4162171661810135e-05,
+    "diam_as_fraction_of_epsilon": 0.6975141309008301
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 5,
+    "epsilon": 6.331365875666961e-05,
+    "distances_within_class": [
+     7.312498382816557e-06,
+     5.810458605992608e-05,
+     1.5296947822207585e-05,
+     3.736198050319217e-05,
+     4.896148311672732e-05
+    ],
+    "diam_G_eps": 5.079208767710952e-05,
+    "diam_as_fraction_of_epsilon": 0.8022295453231719
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 2,
+    "epsilon": 6.331365875666961e-05,
+    "distances_within_class": [
+     1.4755402844457421e-05,
+     2.974095150420908e-05
+    ],
+    "diam_G_eps": 1.4985548659751657e-05,
+    "diam_as_fraction_of_epsilon": 0.23668745345052492
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 2,
+    "epsilon": 6.331365875666961e-05,
+    "distances_within_class": [
+     3.0226823582779616e-05,
+     5.533908188226633e-05
+    ],
+    "diam_G_eps": 2.511225829948671e-05,
+    "diam_as_fraction_of_epsilon": 0.3966325559544658
+   }
+  },
+  "BraTS-GLI-00501-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.00019103534577880055,
+    "distances_within_class": [
+     0.00017751210543792695,
+     0.0001554143091198057,
+     1.3775912520941347e-05,
+     0.00010805294004967436,
+     0.00016531310393474996,
+     7.462177018169314e-05,
+     6.525359640363604e-05,
+     8.50342694320716e-05
+    ],
+    "diam_G_eps": 0.0001637361929169856,
+    "diam_as_fraction_of_epsilon": 0.8570989428656591
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 4,
+    "epsilon": 0.00019103534577880055,
+    "distances_within_class": [
+     2.7896277970285155e-05,
+     0.0001461927022319287,
+     0.00013267704343888909,
+     0.0001683424779912457
+    ],
+    "diam_G_eps": 0.00014044620002096053,
+    "diam_as_fraction_of_epsilon": 0.7351843683607269
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-01093-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 9.897032578010112e-05,
+    "distances_within_class": [
+     4.93730440211948e-05,
+     3.299801755929366e-05,
+     5.966676326352172e-06,
+     3.480470695649274e-05,
+     5.578573473030701e-05,
+     1.378580964228604e-05,
+     2.2169722797116265e-05,
+     2.531668360461481e-05
+    ],
+    "diam_G_eps": 4.981905840395484e-05,
+    "diam_as_fraction_of_epsilon": 0.5033736931880587
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 7,
+    "epsilon": 9.897032578010112e-05,
+    "distances_within_class": [
+     9.807834430830553e-05,
+     6.563019269378856e-05,
+     1.194736614706926e-05,
+     6.982887134654447e-05,
+     2.7605477953329682e-05,
+     4.441435157787055e-05,
+     5.054307621321641e-05
+    ],
+    "diam_G_eps": 8.613097816123627e-05,
+    "diam_as_fraction_of_epsilon": 0.8702707350141277
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 3,
+    "epsilon": 9.897032578010112e-05,
+    "distances_within_class": [
+     2.386960113653913e-05,
+     5.532533396035433e-05,
+     8.885729039320722e-05
+    ],
+    "diam_G_eps": 6.498768925666809e-05,
+    "diam_as_fraction_of_epsilon": 0.6566381260688389
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-01168-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 0.0001258879783563316,
+    "distances_within_class": [
+     5.6854463764466345e-05,
+     4.987373904441483e-05,
+     1.4848536011413671e-05,
+     4.425871156854555e-05,
+     7.278428529389203e-05,
+     2.4550950911361724e-05,
+     3.92579568142537e-05,
+     2.5668507078080438e-05
+    ],
+    "diam_G_eps": 5.7935749282478355e-05,
+    "diam_as_fraction_of_epsilon": 0.46021669454797826
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 7,
+    "epsilon": 0.0001258879783563316,
+    "distances_within_class": [
+     0.00011294408614048734,
+     9.940713789546862e-05,
+     3.0055884053581394e-05,
+     8.869330486049876e-05,
+     4.8976864491123706e-05,
+     7.839816680643708e-05,
+     5.1105023885611445e-05
+    ],
+    "diam_G_eps": 8.288820208690595e-05,
+    "diam_as_fraction_of_epsilon": 0.658428256368429
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 3,
+    "epsilon": 0.0001258879783563316,
+    "distances_within_class": [
+     6.0808935813838616e-05,
+     9.836370008997619e-05,
+     0.0001007662940537557
+    ],
+    "diam_G_eps": 3.9957358239917085e-05,
+    "diam_as_fraction_of_epsilon": 0.3174040822771495
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-00506-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 6.4297259086743e-05,
+    "distances_within_class": [
+     3.992272831965238e-05,
+     3.390671918168664e-05,
+     5.23995822732104e-06,
+     3.0443272407865152e-05,
+     4.675744639826007e-05,
+     1.3028819921601098e-05,
+     2.6949026505462825e-05,
+     1.7656015188549645e-05
+    ],
+    "diam_G_eps": 4.151748817093903e-05,
+    "diam_as_fraction_of_epsilon": 0.6457116331339734
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 6,
+    "epsilon": 6.4297259086743e-05,
+    "distances_within_class": [
+     6.42543236608617e-05,
+     1.038863501889864e-05,
+     6.409871275536716e-05,
+     2.4798151571303606e-05,
+     5.759542546002194e-05,
+     3.4738124668365344e-05
+    ],
+    "diam_G_eps": 5.386568864196306e-05,
+    "diam_as_fraction_of_epsilon": 0.8377602623665998
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 2,
+    "epsilon": 6.4297259086743e-05,
+    "distances_within_class": [
+     2.0464372937567532e-05,
+     4.468608312890865e-05
+    ],
+    "diam_G_eps": 2.4221710191341117e-05,
+    "diam_as_fraction_of_epsilon": 0.37671450595839195
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  },
+  "BraTS-GLI-01065-000": {
+   "0.5": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 9.289265290135518e-05,
+    "distances_within_class": [
+     4.331161471782252e-05,
+     2.5270348487538286e-05,
+     6.236984972929349e-06,
+     3.008986823260784e-05,
+     4.374982381705195e-05,
+     1.5183072719082702e-05,
+     1.792606599337887e-05,
+     2.1458194169099443e-05
+    ],
+    "diam_G_eps": 3.75128388441226e-05,
+    "diam_as_fraction_of_epsilon": 0.40382998732911995
+   },
+   "1.0": {
+    "n_directions_total": 8,
+    "n_passing": 8,
+    "epsilon": 9.289265290135518e-05,
+    "distances_within_class": [
+     8.597692067269236e-05,
+     5.014531052438542e-05,
+     1.2397154023346957e-05,
+     6.056942947907373e-05,
+     8.732298738323152e-05,
+     3.0324445106089115e-05,
+     3.6133365938439965e-05,
+     4.2515101085882634e-05
+    ],
+    "diam_G_eps": 7.492583335988456e-05,
+    "diam_as_fraction_of_epsilon": 0.8065851390792985
+   },
+   "2.0": {
+    "n_directions_total": 8,
+    "n_passing": 4,
+    "epsilon": 9.289265290135518e-05,
+    "distances_within_class": [
+     2.4931005100370385e-05,
+     6.0677091823890805e-05,
+     7.39790775696747e-05,
+     8.419767254963517e-05
+    ],
+    "diam_G_eps": 5.926666744926479e-05,
+    "diam_as_fraction_of_epsilon": 0.6380124326108052
+   },
+   "4.0": {
+    "n_directions_total": 8,
+    "n_passing": 1,
+    "diam_G_eps": null,
+    "note": "fewer than 2 passing candidates, diam undefined"
+   }
+  }
+ },
+ "summary_per_alpha": {
+  "0.5": {
+   "mean_diam": 7.614302548972774e-05,
+   "std_diam": 5.12046849992226e-05,
+   "mean_diam_frac_of_epsilon": 0.5352438092851902,
+   "mean_n_passing": 8.0,
+   "n_subjects_with_data": 10
+  },
+  "1.0": {
+   "mean_diam": 0.00010390222223577439,
+   "std_diam": 6.863290941687135e-05,
+   "mean_diam_frac_of_epsilon": 0.7226310420646275,
+   "mean_n_passing": 6.5,
+   "n_subjects_with_data": 10
+  },
+  "2.0": {
+   "mean_diam": 7.737380110484082e-05,
+   "std_diam": 6.872271083614844e-05,
+   "mean_diam_frac_of_epsilon": 0.4996400349999531,
+   "mean_n_passing": 3.0,
+   "n_subjects_with_data": 8
+  },
+  "4.0": {
+   "mean_diam": 3.0430217520915903e-05,
+   "std_diam": 5.3179592214291915e-06,
+   "mean_diam_frac_of_epsilon": 0.23464748662797308,
+   "mean_n_passing": 1.2,
+   "n_subjects_with_data": 2
+  }
+ },
+ "overall_mean_diam_frac_of_epsilon": 0.49804059324443595,
+ "READING": "INTERESTING -- diam(G_eps) > 0, candidates within the output-equivalence class show meaningfully different displacement depending on DIRECTION, not just magnitude",
+ "note": "No ground truth or Dice used anywhere in this analysis. This is the existence-question readout only -- NOT a repair algorithm result."
+}

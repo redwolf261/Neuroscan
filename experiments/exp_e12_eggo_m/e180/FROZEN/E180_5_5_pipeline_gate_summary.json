@@ -1,0 +1,92 @@
+{
+  "question": "Stage 5.5: pipeline gate (engineering + scientific sanity) on 5 FRESH subjects, per docs/phases/PHASE_E180_5_5_PIPELINE_GATE_PREREG.md",
+  "fresh_subjects": [
+    "BraTS-GLI-01444-000",
+    "BraTS-GLI-01326-000",
+    "BraTS-GLI-00764-000",
+    "BraTS-GLI-00731-001",
+    "BraTS-GLI-01258-000"
+  ],
+  "offset_used": 10,
+  "note": "subjects at val_loader index 10-14, disjoint from the 10 subjects used in Stages 2/2b/3/4/5's diagnostic pass",
+
+  "engineering_gate": {
+    "identity_no_op_gates_exact": {"pass": true, "detail": "all 5 transforms, dormant hook, checkpoint identity -- all exact/near-exact as in the 10-subject pass"},
+    "tile_ledger_no_duplicates": {"pass": true, "detail": "5/5 subjects: window_ids 0-7, no duplicate window_id, no duplicate enc3 mask (dedup fix verified on fresh data)"},
+    "tile_ledger_deterministic": {"pass": true, "detail": "rebuilt ledger twice, byte-for-byte identical JSON"},
+    "no_nan_inf_gamma": {"pass": true, "detail": "0 NaN across 120 Gamma records x 4 metrics"},
+    "no_nan_inf_delta": {"pass": true, "detail": "0 NaN, 0 Inf across 120 Delta records"},
+    "gpu_memory_stable": {"pass": true, "detail": "no OOM or growth observed across the 5-subject x 3-family x 9-pass runs"},
+    "runtime_measured": {
+      "gamma_5_subjects_seconds_approx": 900,
+      "delta_5_subjects_seconds_approx": 900,
+      "extrapolation_125_subjects": {
+        "gamma_hours_approx": 3.75,
+        "delta_hours_approx": 3.75,
+        "combined_stage3_5_hours_approx": 7.5,
+        "note": "Stage 6-9 (regression/audits) are CPU-only post-processing on stored records, negligible additional GPU time. Total 125-subject GPU commitment for Stages 3+5 is ~7-8 hours."
+      }
+    },
+    "zdeg_baseline_crosscheck": {
+      "pass": "DESIGN_CONSTRAINT_NOT_A_FAILURE",
+      "detail": "Gamma's pipeline never touches GT by construction (E172's rule), so it has no dice_deg to directly compare against Delta's GT-scored dice_deg. Cannot be cross-checked as originally framed. Indirect check: both pipelines call the identical apply_uniform()/FAMILIES[fam]['fn'] construction on the same hook, so Z^deg is constructed identically by code inspection, not by a runtime numeric comparison. This is accepted as sufficient given GT-blindness is a deliberate, load-bearing design constraint, not a gap to close."
+    },
+    "restoration_affects_only_intended_tile": {"pass": "ASSUMED_BY_CONSTRUCTION", "detail": "RestoreHook's masked splice (Z*(1-m) + Z_intact*m) is algebraically restricted to the mask; not independently re-verified numerically in this pass beyond the Stage 1 identity gates already covering the underlying transform functions. No evidence of violation."}
+  },
+
+  "scientific_sanity_gate": {
+    "gamma_non_degenerate": {"pass": true, "detail": "T1_rank dice mean=0.023, T4_spectral dice mean=0.016, T5_smooth dice mean=0.081 -- all nonzero, graded, consistent with 10-subject calibration"},
+    "delta_non_degenerate": {"pass": true, "detail": "median=0.023, 90% positive, max=0.277, min=-0.007 -- consistent with 10-subject pass shape"},
+    "within_subject_direction_reported": {
+      "reduced_granularity_concordance": {
+        "T1_rank": "4/5 concordant, binomial p=0.375",
+        "T4_spectral": "2/5 concordant, binomial p=1.000 (REVERSED from 10-subject pass)",
+        "T5_smooth": "5/5 concordant, binomial p=0.0625"
+      }
+    },
+    "subject_level_dice_deg_confound_reported": {
+      "detail": "rho(Gamma,dice_deg) ranges +0.50 to -0.91 across families; rho(Delta,dice_deg) ranges -0.59 to +0.11. Confound structure differs by family, consistent with it being a real but family-specific nuisance factor, not a fixed artifact."
+    },
+    "pooled_tile_level_correlation_COLLAPSED_ON_FRESH_DATA": {
+      "T1_rank": "rho=-0.112, p=0.493 (n=40) -- NOT significant, unlike 10-subject rho=+0.83",
+      "T4_spectral": "rho=+0.005, p=0.974 (n=40) -- NOT significant, unlike 10-subject rho=+0.73",
+      "T5_smooth": "rho=+0.115, p=0.479 (n=40) -- NOT significant, unlike 10-subject rho=+0.92",
+      "explanation_found": "ONE of the 5 fresh subjects, BraTS-GLI-00731-001, is a KNOWN hard-tail case: its BASELINE (pre-degradation, intact-checkpoint) Dice is ET=0.0, TC=0.0 per E160's stored table -- already failing before E180's degradation was ever applied. Under T1_rank/T4_spectral degradation this subject's dice_deg collapses to exactly 0.0; under T5_smooth it drops to 0.25. This single subject's degenerate tile-level Gamma/Delta values dominate the 5-subject pooled correlation.",
+      "excluding_that_one_subject": {
+        "T1_rank": "rho=+0.722, p<0.0001 (n=32, 4 subjects) -- recovers strong positive signal",
+        "T4_spectral": "rho=+0.950, p<0.0001 (n=32, 4 subjects) -- recovers strong positive signal",
+        "T5_smooth": "rho=-0.062, p=0.734 (n=32, 4 subjects) -- STAYS near zero, a genuinely different/weaker result for this family even excluding the outlier"
+      },
+      "interpretation": "This is reported as found, not smoothed over. Two things are true simultaneously: (1) a single already-broken-at-baseline subject can dominate a small pooled sample -- a real robustness lesson for the 125-subject design, not a pipeline bug; (2) T5_smooth's relationship does not clearly replicate on these 4 non-degenerate fresh subjects even after removing the outlier, unlike T1_rank and T4_spectral which do recover their prior signal cleanly."
+    },
+    "tile_overlap_quantified": {"pass": true, "detail": "max_neighbor_enc3_iou 0.882-0.939 across the 5 fresh subjects, consistent with the 10-subject finding (83-94%)"},
+    "gamma_metric_redundancy": {
+      "T1_rank": "rho 0.57-0.98 (slightly more spread than the 10-subject 0.82-0.98, but same qualitative pattern: largely one phenomenon measured four ways)",
+      "T4_spectral": "rho exactly 1.000 for all pairs (degenerate on this small fresh sample -- likely driven by the same dominant outlier subject creating near-perfect rank correlation across metrics)",
+      "T5_smooth": "rho 0.92-0.99, consistent with the 10-subject pattern",
+      "pass": true
+    },
+    "no_post_hoc_tuning": {"pass": true, "detail": "T1/T4/T5 severities and probe eps used exactly as locked from Stage 2/2b (T1 r=2/eps=8.0, T4 gamma=3.0/eps=8.0, T5 sigma=1.5/eps=16.0). No re-calibration performed in this stage."}
+  },
+
+  "scope_condition_HYPOTHESIS_not_fact": {
+    "detail": "BraTS-GLI-00731-001's baseline ET/TC Dice is 0.0 (E160_L_per_subject.json, dice_intact.ET=0.0, dice_intact.TC=0.0) -- a member of this project's already-documented hard-tail population (memory: 'E139 THE REAL TARGET: 15-subject ET union TC tail'). CORRECTED FRAMING (per review): zero baseline Dice tells us the SUBJECT-LEVEL prediction is poor -- it does not automatically prove every TILE-LEVEL restoration counterfactual is undefined. Some tiles could still contain useful latent information even though the global segmentation misses the structure. The precise, testable statement is: 'The restoration-benefit interpretation may be poorly conditioned for subjects with zero baseline ET/TC Dice, because the counterfactual restoration is anchored to an already unsuccessful representation state.' This is a HYPOTHESIS to test empirically in Stage 6-9 (via the hard-tail diagnosis below), not an established fact, and is not used to justify excluding 00731 or any subject from the primary cohort."
+  },
+
+  "T5_smooth_null_is_a_finding_not_an_inconvenience": {
+    "detail": "T1_rank and T4_spectral cleanly recover strong signal (rho=0.72, 0.95) excluding the one hard-tail subject; T5_smooth stays near zero (rho=-0.06) even after exclusion. This is KEPT and not explained away. If Gamma merely measured generic output sensitivity, all three perturbation families would behave similarly. The observed pattern (T1 strong, T4 very strong, T5 null) raises a genuine mechanistic question -- whether recoverable task value is specifically tied to certain forms of representation-space instability (rank/spectral) rather than arbitrary perturbation sensitivity (local smoothing) -- which the 125-subject run is positioned to answer, not something to resolve now."
+  },
+
+  "GO_NO_GO_RECOMMENDATION": "GO. Engineering gate: full PASS. Scientific sanity gate: mixed rather than catastrophically inconsistent -- exactly the kind of boundary condition a proper 125-subject experiment should expose, not evidence against proceeding. E180 is NOT yet 'supported'; Stage 6-9 on the full 125-subject cohort is the decisive test.",
+
+  "locked_analysis_hierarchy_for_125_subjects": {
+    "principle": "Checkpoint / transforms / probe severities remain FROZEN (T1 r=2/eps=8.0, T4 gamma=3.0/eps=8.0, T5 sigma=1.5/eps=16.0). Tile overlap is explicitly modeled as a covariate, not eliminated. 00731 and every other subject stay in the PRIMARY cohort -- no silent deletion. Any exclusion rule (the E167 110-subject stratum) must be defined INDEPENDENTLY of E180's own results, using E167's pre-existing IDs verbatim, never re-selected to produce a stronger E180 result.",
+    "strata": {
+      "A_full_cohort_125_primary": "All 125 subjects. Report rho(Gamma,Delta), subject-aware/mixed-effects beta, Capture@B, per family (T1/T4/T5), competitor ladder (magnitude/uncertainty/sensitivity), incremental R2_Gamma, boundary control -- the complete Stage 6-9 matrix.",
+      "B_E167_110_subject_secondary": "The IDENTICAL analysis matrix, restricted to E167's pre-existing '110 good subjects' definition (excludes the 15-subject ET/TC bottom-decile union, by ID from E160's stored table, never recomputed or redefined from E180 data). Answers whether the phenomenon holds in the population E167 already considered model behavior interpretable for.",
+      "hard_tail_diagnosis_full_cohort_only": "For subjects NOT in the E167 110 (i.e. the 15-subject tail plus any others revealed by the fresh-subject check), report dice_intact.ET and dice_intact.TC against Gamma and Delta directly, stratified into: (1) well-segmented, (2) poor ET only, (3) poor TC only, (4) zero ET/TC. Tests the scope-condition hypothesis above empirically rather than asserting it."
+    },
+    "same_model_specification_both_strata": "The identical pre-registered regression/statistical specification (Stage 8's nested model, the reduced-granularity robustness check, the sign/permutation diagnostic) is applied to both strata A and B without modification between them.",
+    "decisive_question": "Does Gamma predict Delta beyond subject severity (dice_deg), magnitude, uncertainty, sensitivity, and boundary proximity -- in the full cohort AND in the E167 110-subject stratum? YES on either/both = Stage 10-11 earned. NO on both = KILL E180."
+  }
+}

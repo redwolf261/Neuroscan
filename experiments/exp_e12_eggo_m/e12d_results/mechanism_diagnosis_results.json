@@ -1,0 +1,86 @@
+[
+  {
+    "epoch": 1,
+    "U_hat_mean": 0.930607143131379,
+    "U_hat_frac_near_0": 5e-05,
+    "B_i_mean": 0.555692615365704,
+    "B_i_frac_near_0": 5e-05,
+    "UB_mean": 0.5174650950119107,
+    "UB_frac_near_0": 5e-05,
+    "mean_pairwise_distance": 34.289947509765625,
+    "active_hinge_pct": 0.006535947712418301,
+    "mean_hinge_value": 0.010481593199074268
+  },
+  {
+    "epoch": 5,
+    "U_hat_mean": 0.796328823960212,
+    "U_hat_frac_near_0": 0.0,
+    "B_i_mean": 0.036659961595719485,
+    "B_i_frac_near_0": 0.002125,
+    "UB_mean": 0.0293655318482435,
+    "UB_frac_near_0": 0.000525,
+    "mean_pairwise_distance": 19.002714157104492,
+    "active_hinge_pct": 0.08278867102396514,
+    "mean_hinge_value": 0.15675964951515198
+  },
+  {
+    "epoch": 10,
+    "U_hat_mean": 0.6703466776150528,
+    "U_hat_frac_near_0": 0.0,
+    "B_i_mean": 0.010001131516547537,
+    "B_i_frac_near_0": 0.684075,
+    "UB_mean": 0.007022739994839168,
+    "UB_frac_near_0": 0.0046,
+    "mean_pairwise_distance": 31.94896697998047,
+    "active_hinge_pct": 0.010893246187363835,
+    "mean_hinge_value": 0.021286774426698685
+  },
+  {
+    "epoch": 15,
+    "U_hat_mean": 0.5511800424032314,
+    "U_hat_frac_near_0": 0.0,
+    "B_i_mean": 0.004421152344279206,
+    "B_i_frac_near_0": 0.990375,
+    "UB_mean": 0.002926292613057864,
+    "UB_frac_near_0": 0.021425,
+    "mean_pairwise_distance": 30.14491081237793,
+    "active_hinge_pct": 0.008714596949891068,
+    "mean_hinge_value": 0.004357621539384127
+  },
+  {
+    "epoch": 20,
+    "U_hat_mean": 0.44576453514893855,
+    "U_hat_frac_near_0": 0.0,
+    "B_i_mean": 0.0026656070215163273,
+    "B_i_frac_near_0": 0.990125,
+    "UB_mean": 0.001701154013975029,
+    "UB_frac_near_0": 0.97015,
+    "mean_pairwise_distance": 29.347930908203125,
+    "active_hinge_pct": 0.008714596949891068,
+    "mean_hinge_value": 0.008456976152956486
+  },
+  {
+    "epoch": 25,
+    "U_hat_mean": 0.34669014416689514,
+    "U_hat_frac_near_0": 5e-05,
+    "B_i_mean": 0.00230818640042455,
+    "B_i_frac_near_0": 0.9898,
+    "UB_mean": 0.001509101540061206,
+    "UB_frac_near_0": 0.98205,
+    "mean_pairwise_distance": 29.603515625,
+    "active_hinge_pct": 0.0,
+    "mean_hinge_value": 0.0
+  },
+  {
+    "epoch": 30,
+    "U_hat_mean": 0.2564523805061976,
+    "U_hat_frac_near_0": 0.000425,
+    "B_i_mean": 0.0018050296478903552,
+    "B_i_frac_near_0": 0.991175,
+    "UB_mean": 0.0012238453409972694,
+    "UB_frac_near_0": 0.98595,
+    "mean_pairwise_distance": 31.16786003112793,
+    "active_hinge_pct": 0.0,
+    "mean_hinge_value": 0.0
+  }
+]

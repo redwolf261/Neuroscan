@@ -1,0 +1,181 @@
+{
+  "singular_values": [
+    5.134314479336709,
+    1.8664521216506689,
+    1.1755557244618928
+  ],
+  "random_r_mean": 0.2871143541576641,
+  "rows": [
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-00021-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.27868335666073785,
+      "rowspace_frac": 0.721978255207562,
+      "probe_auc_heldout": 0.959309263854989,
+      "segdir_auc_heldout": 0.8307241989674637
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-00525-001",
+      "n_comp": 1,
+      "cos_probe_seg": 0.32481759657878273,
+      "rowspace_frac": 0.7958801139004843,
+      "probe_auc_heldout": 1.0,
+      "segdir_auc_heldout": 1.0
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-00731-001",
+      "n_comp": 1,
+      "cos_probe_seg": 0.3237964914662265,
+      "rowspace_frac": 0.7950489275712838,
+      "probe_auc_heldout": 0.9999875414247626,
+      "segdir_auc_heldout": 0.899733386489921
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-00840-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.3280008643687163,
+      "rowspace_frac": 0.7977787501985466,
+      "probe_auc_heldout": 0.9177689594356261,
+      "segdir_auc_heldout": 0.9702380952380952
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01103-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.32443101128882396,
+      "rowspace_frac": 0.7962191773688796,
+      "probe_auc_heldout": 0.9374712643678161,
+      "segdir_auc_heldout": 0.9436781609195403
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01176-000",
+      "n_comp": 3,
+      "cos_probe_seg": 0.32131982925747277,
+      "rowspace_frac": 0.7958134180572539,
+      "probe_auc_heldout": 1.0,
+      "segdir_auc_heldout": 1.0
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01293-000",
+      "n_comp": 6,
+      "cos_probe_seg": -0.1769539672767161,
+      "rowspace_frac": 0.291325838937393,
+      "probe_auc_heldout": 0.5913733072471131,
+      "segdir_auc_heldout": 0.5793810229599916
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01314-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.2826106743088252,
+      "rowspace_frac": 0.7520831020338474,
+      "probe_auc_heldout": 0.847989186079197,
+      "segdir_auc_heldout": 0.6318566175865846
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01428-000",
+      "n_comp": 5,
+      "cos_probe_seg": 0.34796476987443253,
+      "rowspace_frac": 0.8170609923605662,
+      "probe_auc_heldout": 0.9680298473436391,
+      "segdir_auc_heldout": 0.8286133494670326
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01530-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.32589494500401445,
+      "rowspace_frac": 0.7971147261215119,
+      "probe_auc_heldout": 0.9985587044534413,
+      "segdir_auc_heldout": 0.8065587044534412
+    },
+    {
+      "region": "ET",
+      "held_out": "BraTS-GLI-01536-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.32466924112818146,
+      "rowspace_frac": 0.7971340591651709,
+      "probe_auc_heldout": 1.0,
+      "segdir_auc_heldout": 0.7194517351997667
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-00021-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.23695907436476724,
+      "rowspace_frac": 0.5745792395545344,
+      "probe_auc_heldout": 0.9563359414451149,
+      "segdir_auc_heldout": 0.9099849808674525
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-00731-001",
+      "n_comp": 1,
+      "cos_probe_seg": 0.21319444958847097,
+      "rowspace_frac": 0.5680536861363309,
+      "probe_auc_heldout": 0.9999844267809533,
+      "segdir_auc_heldout": 0.9975176288839608
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-00840-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.21172967450510324,
+      "rowspace_frac": 0.5674219899816633,
+      "probe_auc_heldout": 0.9047619047619048,
+      "segdir_auc_heldout": 0.982363315696649
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-01176-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.17155214253811601,
+      "rowspace_frac": 0.5847920563250519,
+      "probe_auc_heldout": 0.9990385588073633,
+      "segdir_auc_heldout": 0.9919598689235718
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-01314-000",
+      "n_comp": 2,
+      "cos_probe_seg": 0.22709095799699908,
+      "rowspace_frac": 0.5650810209868992,
+      "probe_auc_heldout": 0.7643850681553809,
+      "segdir_auc_heldout": 0.5311517596611779
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-01428-000",
+      "n_comp": 4,
+      "cos_probe_seg": 0.20975922231674501,
+      "rowspace_frac": 0.5676830863517406,
+      "probe_auc_heldout": 0.9509584509097986,
+      "segdir_auc_heldout": 0.9616295287210924
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-01516-000",
+      "n_comp": 1,
+      "cos_probe_seg": 0.21061019040719717,
+      "rowspace_frac": 0.5693478382366715,
+      "probe_auc_heldout": 0.965767878077374,
+      "segdir_auc_heldout": 0.9688159437280187
+    },
+    {
+      "region": "TC",
+      "held_out": "BraTS-GLI-01530-000",
+      "n_comp": 1,
+      "cos_probe_seg": -0.25530193128944473,
+      "rowspace_frac": 0.3351066176379176,
+      "probe_auc_heldout": 0.8268778948178894,
+      "segdir_auc_heldout": 0.7830339638803723
+    }
+  ]
+}

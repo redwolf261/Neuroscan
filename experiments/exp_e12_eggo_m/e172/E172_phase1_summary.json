@@ -1,0 +1,224 @@
+{
+ "phase": "1 -- positive control at dec1",
+ "site": "dec1 (E15's site; harness validated here)",
+ "n_subjects": 20,
+ "alphas": [
+  0,
+  1,
+  2,
+  4,
+  8,
+  14
+ ],
+ "harness_validation": "oracle reproduces E15 signature: 0.8796 -> 0.8936 peak a=8",
+ "aggregate": {
+  "oracle_GT": {
+   "a1": {
+    "mean_d_dice": 0.0038849731286366763,
+    "frac_improved": 0.95,
+    "mean_repaired": 0.10543225407600403,
+    "mean_broke": 4.628641338513262e-05,
+    "mean_selectivity": 3380.6032275850384,
+    "mean_flipped": 0.00037935575819574295
+   },
+   "a2": {
+    "mean_d_dice": 0.006778803964455923,
+    "frac_improved": 0.95,
+    "mean_repaired": 0.18782525099813938,
+    "mean_broke": 8.991802308173646e-05,
+    "mean_selectivity": 3014.655184747131,
+    "mean_flipped": 0.0006833871404523962
+   },
+   "a4": {
+    "mean_d_dice": 0.010624026010433838,
+    "frac_improved": 0.95,
+    "mean_repaired": 0.3038817159831524,
+    "mean_broke": 0.00017268043093281448,
+    "mean_selectivity": 2515.003713386378,
+    "mean_flipped": 0.0011433601728640496
+   },
+   "a8": {
+    "mean_d_dice": 0.013917198901375133,
+    "frac_improved": 0.85,
+    "mean_repaired": 0.4377144776284695,
+    "mean_broke": 0.00032001716499507893,
+    "mean_selectivity": 1942.24972884325,
+    "mean_flipped": 0.0017383337719365955
+   },
+   "a14": {
+    "mean_d_dice": 0.0035168947651982307,
+    "frac_improved": 0.75,
+    "mean_repaired": 0.5342730790376663,
+    "mean_broke": 0.0009542729207169032,
+    "mean_selectivity": 956.3239476314418,
+    "mean_flipped": 0.0027069013012805954
+   }
+  },
+  "jac": {
+   "a1": {
+    "mean_d_dice": 0.0004827977468570083,
+    "frac_improved": 0.55,
+    "mean_repaired": 0.11156804971396923,
+    "mean_broke": 0.0005405371583037776,
+    "mean_selectivity": 257.2218502895491,
+    "mean_flipped": 0.0009159803623333574
+   },
+   "a2": {
+    "mean_d_dice": -0.002823500086863834,
+    "frac_improved": 0.4,
+    "mean_repaired": 0.19335615616291763,
+    "mean_broke": 0.0012283834970730823,
+    "mean_selectivity": 184.67648634897876,
+    "mean_flipped": 0.0018963655253173783
+   },
+   "a4": {
+    "mean_d_dice": -0.1816466168190042,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.315350791066885,
+    "mean_broke": 0.04038713872432709,
+    "mean_selectivity": 8.146863016560971,
+    "mean_flipped": 0.04137772843241692
+   },
+   "a8": {
+    "mean_d_dice": -0.7933731213473948,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.4535411957651377,
+    "mean_broke": 0.5562947213649749,
+    "mean_selectivity": 0.8870499185796962,
+    "mean_flipped": 0.5559968307614327
+   },
+   "a14": {
+    "mean_d_dice": -0.8187607582076453,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.4818390406668186,
+    "mean_broke": 0.8292950958013534,
+    "mean_selectivity": 0.6308423368036336,
+    "mean_flipped": 0.8281294018030166
+   }
+  },
+  "conf": {
+   "a1": {
+    "mean_d_dice": -0.0045414984226226866,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.24522002302110196,
+    "mean_broke": 0.0010327599447919056,
+    "mean_selectivity": 279.2371800118407,
+    "mean_flipped": 0.0018059492635075004
+   },
+   "a2": {
+    "mean_d_dice": -0.019328601534167926,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.43580343052744863,
+    "mean_broke": 0.0025195895723300055,
+    "mean_selectivity": 215.2333003279669,
+    "mean_flipped": 0.003921985736815259
+   },
+   "a4": {
+    "mean_d_dice": -0.26103454837575557,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.6916819006204605,
+    "mean_broke": 0.04643685072660446,
+    "mean_selectivity": 15.169378784659326,
+    "mean_flipped": 0.04857117459177971
+   },
+   "a8": {
+    "mean_d_dice": -0.7328988134233441,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.7475466161966324,
+    "mean_broke": 0.20901362374424934,
+    "mean_selectivity": 3.8916815575589707,
+    "mean_flipped": 0.21074368581175804
+   },
+   "a14": {
+    "mean_d_dice": -0.7783307782414342,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.7564319297671318,
+    "mean_broke": 0.2858388349413872,
+    "mean_selectivity": 2.9156105008971442,
+    "mean_flipped": 0.2873259477317333
+   }
+  },
+  "rand": {
+   "a1": {
+    "mean_d_dice": -1.3374909758565034e-05,
+    "frac_improved": 0.5,
+    "mean_repaired": 0.020232851756736635,
+    "mean_broke": 6.731456924171652e-05,
+    "mean_selectivity": 319.67775586063306,
+    "mean_flipped": 0.0001302003902310389
+   },
+   "a2": {
+    "mean_d_dice": -0.0002603499839703316,
+    "frac_improved": 0.15,
+    "mean_repaired": 0.03888773452490568,
+    "mean_broke": 0.00013949006952316268,
+    "mean_selectivity": 300.0933982770699,
+    "mean_flipped": 0.0002604881981824292
+   },
+   "a4": {
+    "mean_d_dice": -0.0011522049705187637,
+    "frac_improved": 0.05,
+    "mean_repaired": 0.07353445868939161,
+    "mean_broke": 0.000301280715939356,
+    "mean_selectivity": 274.86274740537186,
+    "mean_flipped": 0.0005320787604432553
+   },
+   "a8": {
+    "mean_d_dice": -0.007800850272178655,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.1336819089949131,
+    "mean_broke": 0.0009250122835510411,
+    "mean_selectivity": 173.97751592107628,
+    "mean_flipped": 0.0013503392809070646
+   },
+   "a14": {
+    "mean_d_dice": -0.2205947298178217,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.20487813428044319,
+    "mean_broke": 0.014894133154302835,
+    "mean_selectivity": 14.76543173415498,
+    "mean_flipped": 0.015510718477889896
+   }
+  }
+ },
+ "best_alpha_per_arm": {
+  "oracle_GT": {
+   "alpha": "a8",
+   "mean_d_dice": 0.013917198901375133,
+   "frac_improved": 0.85,
+   "mean_repaired": 0.4377144776284695,
+   "mean_broke": 0.00032001716499507893,
+   "mean_selectivity": 1942.24972884325,
+   "mean_flipped": 0.0017383337719365955
+  },
+  "jac": {
+   "alpha": "a1",
+   "mean_d_dice": 0.0004827977468570083,
+   "frac_improved": 0.55,
+   "mean_repaired": 0.11156804971396923,
+   "mean_broke": 0.0005405371583037776,
+   "mean_selectivity": 257.2218502895491,
+   "mean_flipped": 0.0009159803623333574
+  },
+  "conf": {
+   "alpha": "a1",
+   "mean_d_dice": -0.0045414984226226866,
+   "frac_improved": 0.0,
+   "mean_repaired": 0.24522002302110196,
+   "mean_broke": 0.0010327599447919056,
+   "mean_selectivity": 279.2371800118407,
+   "mean_flipped": 0.0018059492635075004
+  },
+  "rand": {
+   "alpha": "a1",
+   "mean_d_dice": -1.3374909758565034e-05,
+   "frac_improved": 0.5,
+   "mean_repaired": 0.020232851756736635,
+   "mean_broke": 6.731456924171652e-05,
+   "mean_selectivity": 319.67775586063306,
+   "mean_flipped": 0.0001302003902310389
+  }
+ },
+ "PREREGISTERED_VERDICT": "B_LABELFREE_STEERING_FAILS_oracle_works",
+ "primary_endpoint": "selective corrective movement (repaired/broke), NOT Dice >= 1pp"
+}

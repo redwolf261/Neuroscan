@@ -1,0 +1,102 @@
+{
+ "question": "Is R*_{i,l} predictable from a SINGLE intact forward pass?",
+ "prereg": "docs/phases/PHASE_E169_RSTAR_PREDICTABILITY_PREREG.md",
+ "non_circularity": "all predictors from ONE intact forward pass; E165 agree_curve FORBIDDEN",
+ "n_subjects": 125,
+ "n_features": 77,
+ "n_folds": 5,
+ "cross_fitting": "by subject, folds seeded before features were modelled",
+ "per_stage": {
+  "enc1": {
+   "C": 32,
+   "R_star_distribution": {
+    "4": 1,
+    "8": 20,
+    "16": 65,
+    "32": 39
+   },
+   "target_std_log2": 0.6967811708133335,
+   "r2_oos": 0.6341044298308554,
+   "spearman_oos": 0.8015026665667729,
+   "r2_oos_volume_controlled": 0.5184294431882148,
+   "retained_fraction": 0.8175773875708512,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.08796347097831027
+  },
+  "enc2": {
+   "C": 64,
+   "R_star_distribution": {
+    "2": 28,
+    "4": 38,
+    "8": 22,
+    "16": 24,
+    "32": 9,
+    "64": 4
+   },
+   "target_std_log2": 1.3658696863171098,
+   "r2_oos": 0.7341096977992526,
+   "spearman_oos": 0.8925551499484304,
+   "r2_oos_volume_controlled": 0.5815397709201409,
+   "retained_fraction": 0.7921701247967534,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.09286827822526088
+  },
+  "enc3": {
+   "C": 128,
+   "R_star_distribution": {
+    "1": 42,
+    "2": 25,
+    "4": 17,
+    "8": 18,
+    "16": 16,
+    "32": 5,
+    "64": 2
+   },
+   "target_std_log2": 1.6531956931954548,
+   "r2_oos": 0.7893110820975422,
+   "spearman_oos": 0.8969874412236373,
+   "r2_oos_volume_controlled": 0.6087982454038003,
+   "retained_fraction": 0.7713033038709645,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.1014933721228034
+  },
+  "bottleneck": {
+   "C": 256,
+   "R_star_distribution": {
+    "1": 22,
+    "2": 30,
+    "4": 60,
+    "8": 6,
+    "16": 2,
+    "32": 5
+   },
+   "target_std_log2": 1.1235372712998888,
+   "r2_oos": 0.38800921944174827,
+   "spearman_oos": 0.6455466636925423,
+   "r2_oos_volume_controlled": 0.30707387824661525,
+   "retained_fraction": 0.7914087162372598,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.0932945338390066
+  },
+  "dec1": {
+   "C": 32,
+   "R_star_distribution": {
+    "2": 6,
+    "4": 97,
+    "8": 19,
+    "16": 2,
+    "32": 1
+   },
+   "target_std_log2": 0.5571355310873646,
+   "r2_oos": 0.35684813191507536,
+   "spearman_oos": 0.5397676799093718,
+   "r2_oos_volume_controlled": 0.3452963618174768,
+   "retained_fraction": 0.9676283296325404,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.11509430344335504
+  }
+ },
+ "PREREGISTERED_VERDICT": "C_PARK_PLUS",
+ "decision_rule": "A_KILL if no stage has R2>0.10 with perm p<=0.05; C_PARK_PLUS if best retains >=50% after volume control and p<0.01; else B_PARK_SIZE_PROXY",
+ "allocation_note": "A pass does NOT authorise an allocation design -- closed by E71 (sign -0.290 backwards), E147 (inverse, no scarcity), E72/E73 (inert)."
+}

@@ -1,0 +1,217 @@
+{
+ "question": "Does a label-free direction at enc1 correct segmentation errors?",
+ "gt_firewall": "build_directions() takes no target; GT enters only at scoring",
+ "premeasured_geometry": {
+  "cos_ET_TC": 0.9858,
+  "cos_ET_entropy": 0.1556,
+  "cos_TC_entropy": 0.2701
+ },
+ "n_subjects": 3,
+ "alphas_frac_of_z_norm": [
+  0.0,
+  0.005,
+  0.01,
+  0.02,
+  0.05,
+  0.1
+ ],
+ "aggregate": {
+  "jac": {
+   "alpha_0.005": {
+    "mean_d_dice": -0.015292333232031977,
+    "std": 0.018062674720951574,
+    "frac_improved": 0.3333333333333333,
+    "mean_repaired": 0.11984124407172203,
+    "mean_broke": 0.002487572763736049,
+    "mean_frac_flipped": 0.0032518704732259116,
+    "mean_abs_dprob": 0.0032511105916152396
+   },
+   "alpha_0.01": {
+    "mean_d_dice": -0.028426653809017616,
+    "std": 0.028296132348683542,
+    "frac_improved": 0.3333333333333333,
+    "mean_repaired": 0.1736819048722585,
+    "mean_broke": 0.004005481256172061,
+    "mean_frac_flipped": 0.005111694491157929,
+    "mean_abs_dprob": 0.005111686885356903
+   },
+   "alpha_0.02": {
+    "mean_d_dice": -0.045470972855885826,
+    "std": 0.037379630692326846,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.22989470760027567,
+    "mean_broke": 0.006109554475794236,
+    "mean_frac_flipped": 0.007552570973833402,
+    "mean_abs_dprob": 0.007556526300807794
+   },
+   "alpha_0.05": {
+    "mean_d_dice": -0.06572561793857153,
+    "std": 0.04577156003160199,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.298106128970782,
+    "mean_broke": 0.008752782829105854,
+    "mean_frac_flipped": 0.010553413225958744,
+    "mean_abs_dprob": 0.010562647599726915
+   },
+   "alpha_0.1": {
+    "mean_d_dice": -0.08303403192096288,
+    "std": 0.04784057059273199,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.340556800365448,
+    "mean_broke": 0.010819244508941969,
+    "mean_frac_flipped": 0.012810018844902515,
+    "mean_abs_dprob": 0.012826533056795597
+   }
+  },
+  "conf": {
+   "alpha_0.005": {
+    "mean_d_dice": -0.021432459354400635,
+    "std": 0.003271758149988088,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.056269384920597076,
+    "mean_broke": 0.0024904857079188028,
+    "mean_frac_flipped": 0.002739641427372893,
+    "mean_abs_dprob": 0.0026629448402673006
+   },
+   "alpha_0.01": {
+    "mean_d_dice": -0.036950760417514404,
+    "std": 0.0073426092820105945,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.09214979782700539,
+    "mean_broke": 0.004091436741873622,
+    "mean_frac_flipped": 0.004496945378681024,
+    "mean_abs_dprob": 0.00437218261261781
+   },
+   "alpha_0.02": {
+    "mean_d_dice": -0.05804081757863366,
+    "std": 0.017324002153567133,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.13439413656791052,
+    "mean_broke": 0.006146454097082217,
+    "mean_frac_flipped": 0.006739722720036904,
+    "mean_abs_dprob": 0.006588701158761978
+   },
+   "alpha_0.05": {
+    "mean_d_dice": -0.0918403267860413,
+    "std": 0.038929188859566734,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.2053064157565435,
+    "mean_broke": 0.009197603911161423,
+    "mean_frac_flipped": 0.010118696683396896,
+    "mean_abs_dprob": 0.00997774489223957
+   },
+   "alpha_0.1": {
+    "mean_d_dice": -0.1232188443342845,
+    "std": 0.05524604588680768,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.26688406864802044,
+    "mean_broke": 0.012083165968457857,
+    "mean_frac_flipped": 0.013295068095127741,
+    "mean_abs_dprob": 0.01315480936318636
+   }
+  },
+  "rand": {
+   "alpha_0.005": {
+    "mean_d_dice": 0.00032473272747461185,
+    "std": 0.00038862580701774996,
+    "frac_improved": 0.6666666666666666,
+    "mean_repaired": 0.01048247997338573,
+    "mean_broke": 1.9810653005455e-05,
+    "mean_frac_flipped": 6.702211491453151e-05,
+    "mean_abs_dprob": 6.921545718796551e-05
+   },
+   "alpha_0.01": {
+    "mean_d_dice": 0.0006407433085970915,
+    "std": 0.0007850208427738251,
+    "frac_improved": 0.6666666666666666,
+    "mean_repaired": 0.02138109039515257,
+    "mean_broke": 4.1006530409504194e-05,
+    "mean_frac_flipped": 0.00013664034001218775,
+    "mean_abs_dprob": 0.0001378995996977513
+   },
+   "alpha_0.02": {
+    "mean_d_dice": 0.001204344961378297,
+    "std": 0.0016915335130889442,
+    "frac_improved": 0.6666666666666666,
+    "mean_repaired": 0.042391796285907425,
+    "mean_broke": 8.477990195387974e-05,
+    "mean_frac_flipped": 0.00027481715854567784,
+    "mean_abs_dprob": 0.0002733372578707834
+   },
+   "alpha_0.05": {
+    "mean_d_dice": 0.002125428782569013,
+    "std": 0.004781199463333679,
+    "frac_improved": 0.6666666666666666,
+    "mean_repaired": 0.09391015395522118,
+    "mean_broke": 0.00023533756514855972,
+    "mean_frac_flipped": 0.0006648699636571109,
+    "mean_abs_dprob": 0.0006707136247617503
+   },
+   "alpha_0.1": {
+    "mean_d_dice": 0.0015775561332702266,
+    "std": 0.010358071142132632,
+    "frac_improved": 0.6666666666666666,
+    "mean_repaired": 0.14627229049801826,
+    "mean_broke": 0.0005558049015235156,
+    "mean_frac_flipped": 0.0012568897800520062,
+    "mean_abs_dprob": 0.001264299712299059
+   }
+  },
+  "gt_ORACLE": {
+   "alpha_0.005": {
+    "mean_d_dice": -0.00014552142885001137,
+    "std": 0.0005380936238565945,
+    "frac_improved": 0.6666666666666666,
+    "mean_repaired": 0.008783407354106506,
+    "mean_broke": 8.215777173366708e-05,
+    "mean_frac_flipped": 0.00012445450071633482,
+    "mean_abs_dprob": 0.00012440910601677993
+   },
+   "alpha_0.01": {
+    "mean_d_dice": -0.00039450327555338543,
+    "std": 0.0010431011365838094,
+    "frac_improved": 0.3333333333333333,
+    "mean_repaired": 0.01698682053635518,
+    "mean_broke": 0.00016905239560098076,
+    "mean_frac_flipped": 0.0002507633713927741,
+    "mean_abs_dprob": 0.0002510082073664914
+   },
+   "alpha_0.02": {
+    "mean_d_dice": -0.0009442038006252836,
+    "std": 0.0022268576914785047,
+    "frac_improved": 0.3333333333333333,
+    "mean_repaired": 0.033427764351169266,
+    "mean_broke": 0.00034859652805607766,
+    "mean_frac_flipped": 0.0005095270171295851,
+    "mean_abs_dprob": 0.0005109824899894496
+   },
+   "alpha_0.05": {
+    "mean_d_dice": -0.0034841299057006836,
+    "std": 0.005305315827651584,
+    "frac_improved": 0.3333333333333333,
+    "mean_repaired": 0.0751127153635025,
+    "mean_broke": 0.0009591674121717612,
+    "mean_frac_flipped": 0.0013257133153577645,
+    "mean_abs_dprob": 0.0013345132271448772
+   },
+   "alpha_0.1": {
+    "mean_d_dice": -0.011425475279490152,
+    "std": 0.012412103161803774,
+    "frac_improved": 0.3333333333333333,
+    "mean_repaired": 0.13286679983139038,
+    "mean_broke": 0.0023563741706311703,
+    "mean_frac_flipped": 0.0030105909487853446,
+    "mean_abs_dprob": 0.0030393640821178756
+   }
+  }
+ },
+ "test_at_alpha_0.10": {
+  "jac_mean_d_dice": -0.028426653809017616,
+  "rand_mean_d_dice": 0.0006407433085970915,
+  "conf_mean_d_dice": -0.036950760417514404,
+  "wilcoxon_jac_vs_rand_p": NaN,
+  "wilcoxon_jac_vs_conf_p": NaN
+ },
+ "PREREGISTERED_VERDICT": "B_NO_CORRECTIVE_DIRECTION",
+ "decision_rule": "A if d_Jac > BOTH d_rand and d_conf, significant, and positive; else B. C (conf sharpens without correcting) reported separately."
+}

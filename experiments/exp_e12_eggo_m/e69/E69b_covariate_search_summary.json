@@ -1,0 +1,36 @@
+{
+  "n_improved": 52,
+  "n_degraded": 13,
+  "n_mixed": 60,
+  "covariate_results": {
+    "native_size": {
+      "median_improved": 97805.0,
+      "median_degraded": 77815.0,
+      "median_mixed": 88268.0,
+      "kruskal_wallis_p": 0.8005528341772453,
+      "mannwhitney_improved_vs_degraded_p": 0.6402125992078388
+    },
+    "baseline_dice_intact": {
+      "median_improved": 0.9272996783256531,
+      "median_degraded": 0.8977110385894775,
+      "median_mixed": 0.9228439033031464,
+      "kruskal_wallis_p": 0.1141859818778168,
+      "mannwhitney_improved_vs_degraded_p": 0.020308020988774232
+    },
+    "bottleneck_causal_drop": {
+      "median_improved": 0.3234121799468994,
+      "median_degraded": 0.35925155878067017,
+      "median_mixed": 0.3076688349246979,
+      "kruskal_wallis_p": 0.5040558861357232,
+      "mannwhitney_improved_vs_degraded_p": 0.3210983465651942
+    },
+    "component_count": {
+      "median_improved": 3.0,
+      "median_degraded": 4.0,
+      "median_mixed": 2.0,
+      "kruskal_wallis_p": 0.1805975754045117,
+      "mannwhitney_improved_vs_degraded_p": 0.4947189515876197
+    }
+  },
+  "any_significant": true
+}

@@ -1,0 +1,23 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "n_draws": 5,
+  "mean_n_b": 0.2717103977203369,
+  "mean_delta_shuffle": 0.14476994901895524,
+  "mean_delta_spatial": 0.38386990057229997,
+  "rho_shuffle_nb": -0.3547347999002647,
+  "p_shuffle_nb": 4.927784786713805e-05,
+  "rho_spatial_nb": 0.2062737423562224,
+  "p_spatial_nb": 0.02100358620304057,
+  "partial_rho_shuffle_nb": -0.2583770026843928,
+  "partial_p_shuffle_nb": 0.0036224974885253496,
+  "partial_rho_spatial_nb": 0.35017696357804795,
+  "partial_p_spatial_nb": 6.24706594928864e-05,
+  "bootstrap_frac_shuffle_wins": 0.0,
+  "bootstrap_ci_diff": [
+    -0.7444865676059822,
+    -0.35840502339302155
+  ],
+  "final_verdict_CONVENIENCE_LABEL_ONLY": "PASSIVE_CORRELATE_ONLY_GENUINE_NULL"
+}

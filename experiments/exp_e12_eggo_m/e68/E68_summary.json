@@ -1,0 +1,23 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e25\\deep_sup_runs\\DeepSup_D4only_seed0\\checkpoints\\best.pth",
+  "n_subjects": 125,
+  "shift_range": [
+    -4,
+    -3,
+    -2,
+    2,
+    3,
+    4
+  ],
+  "pilot_epochs": 3,
+  "mean_abs_discrepancy_voxels": 3.023485327243805,
+  "std_abs_discrepancy_voxels": 0.011871410903299521,
+  "tolerance_voxels": 0.5,
+  "size_dependence": {
+    "rho": 0.17367741935483869,
+    "parametric_p": 0.05274383220553235,
+    "permutation_p": 0.051
+  },
+  "outcome": "H68-C_UNSTRUCTURED_NOISE",
+  "offset_tracks_shift_training_check": false
+}

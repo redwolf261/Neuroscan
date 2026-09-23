@@ -1,0 +1,43 @@
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 subject records.
+
+=== ARM RESULTS ===
+
+=== Arm 1: encoder-side only (translate enc1 direction, upconv1 untouched): mean = 0.2134 (95% CI [0.1989, 0.2293]) ===
+  t-test p=7.7392e-55, Wilcoxon p=2.9644e-22, sign-flip permutation p=0.0000
+
+=== Arm 2: decoder-side only (translate upconv1, enc1 direction untouched): mean = 0.2615 (95% CI [0.2470, 0.2774]) ===
+  t-test p=2.2792e-63, Wilcoxon p=2.9644e-22, sign-flip permutation p=0.0000
+
+=== Arm 3: COHERENT joint shift (both translated together, relative alignment preserved): mean = 0.4386 (95% CI [0.4221, 0.4569]) ===
+  t-test p=1.7547e-83, Wilcoxon p=2.9644e-22, sign-flip permutation p=0.0000
+
+=== Coherent-shift recovery: does Arm 3 rescue Arm 1's damage? ===
+  S_arm1 (encoder-only) = 0.2134
+  S_arm3 (coherent)     = 0.4386
+  Recovery fraction: -105.5%
+
+  Arm1 vs Arm3 paired comparison: t=-32.292, p=3.2904e-62, Wilcoxon p=2.9644e-22
+
+=== Arm 4: mismatch sweep (relative offset = |BASE_OFFSET - upconv1_offset|) ===
+  upconv1_offset=0 (relative mismatch=3): mean S = 0.2134
+  upconv1_offset=1 (relative mismatch=2): mean S = 0.2804
+  upconv1_offset=2 (relative mismatch=1): mean S = 0.3675
+  upconv1_offset=3 (relative mismatch=0): mean S = 0.4386
+  upconv1_offset=4 (relative mismatch=1): mean S = 0.5007
+  upconv1_offset=5 (relative mismatch=2): mean S = 0.5751
+
+  Troughs at zero relative mismatch (offset=3): False
+
+=== READING ===
+(i) ENCODER REPRESENTATION property: coherent joint shift does NOT meaningfully recover the damage -- enc1's direction is corrupted by translation independent of what the decoder side is doing. The intervention should target enc1's own positional binding, not the encoder-decoder correspondence.
+
+Saved E80_decoder_readout_summary.json

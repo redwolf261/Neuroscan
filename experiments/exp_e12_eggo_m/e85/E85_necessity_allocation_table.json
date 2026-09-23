@@ -1,0 +1,1002 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "N_b": 0.10422587394714355,
+    "A_b": 0.07825784555227024,
+    "bottleneck_grad_norm": 0.03707537585506078,
+    "total_grad_norm": 0.47375921983818575
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "N_b": 0.3451806902885437,
+    "A_b": 0.07836005966724939,
+    "bottleneck_grad_norm": 0.07130567271878252,
+    "total_grad_norm": 0.9099747118822671
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "N_b": 0.321139395236969,
+    "A_b": 0.108937354156163,
+    "bottleneck_grad_norm": 0.15685877404922588,
+    "total_grad_norm": 1.439898878252238
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "N_b": 0.341431200504303,
+    "A_b": 0.060451259200985256,
+    "bottleneck_grad_norm": 0.06289933395970035,
+    "total_grad_norm": 1.0404966710548718
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "N_b": 0.12404417991638184,
+    "A_b": 0.07724199482412807,
+    "bottleneck_grad_norm": 0.04182232158539973,
+    "total_grad_norm": 0.5414453844780263
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "N_b": 0.32568496465682983,
+    "A_b": 0.09063961302107439,
+    "bottleneck_grad_norm": 0.09822357815610111,
+    "total_grad_norm": 1.083671640712581
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "N_b": 0.10319912433624268,
+    "A_b": 0.05813978310646216,
+    "bottleneck_grad_norm": 0.04311122554465174,
+    "total_grad_norm": 0.7415099135424877
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "N_b": 0.5252918899059296,
+    "A_b": 0.04206603201657486,
+    "bottleneck_grad_norm": 0.03897408568320207,
+    "total_grad_norm": 0.92649778966187
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "N_b": 0.31200188398361206,
+    "A_b": 0.039265076263883945,
+    "bottleneck_grad_norm": 0.023542654328997895,
+    "total_grad_norm": 0.5995825443143848
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "N_b": 0.15381509065628052,
+    "A_b": 0.05819393818809537,
+    "bottleneck_grad_norm": 0.023035458336430892,
+    "total_grad_norm": 0.3958394818026461
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "N_b": 0.1466793417930603,
+    "A_b": 0.06292222220783536,
+    "bottleneck_grad_norm": 0.04311093789067853,
+    "total_grad_norm": 0.6851464614247232
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "N_b": 0.21125119924545288,
+    "A_b": 0.059553170306774976,
+    "bottleneck_grad_norm": 0.04604179506750255,
+    "total_grad_norm": 0.7731208066729014
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "N_b": 0.21876811981201172,
+    "A_b": 0.17489749873880622,
+    "bottleneck_grad_norm": 0.25439950195424177,
+    "total_grad_norm": 1.4545634087893085
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "N_b": 0.569023534655571,
+    "A_b": 0.05909485301573643,
+    "bottleneck_grad_norm": 0.27661375585940107,
+    "total_grad_norm": 4.68084345324865
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "N_b": 0.4077543020248413,
+    "A_b": 0.07931877335281837,
+    "bottleneck_grad_norm": 0.045896075709216284,
+    "total_grad_norm": 0.5786281578645404
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "N_b": 0.6175595819950104,
+    "A_b": 0.04145093256573565,
+    "bottleneck_grad_norm": 0.03572497272552808,
+    "total_grad_norm": 0.8618617366176995
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "N_b": 0.30774861574172974,
+    "A_b": 0.04331973975361514,
+    "bottleneck_grad_norm": 0.022553632296791172,
+    "total_grad_norm": 0.5206317587563304
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "N_b": 0.05951815843582153,
+    "A_b": 0.05424218455686777,
+    "bottleneck_grad_norm": 0.025495330153731052,
+    "total_grad_norm": 0.4700277166566111
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "N_b": 0.3078410029411316,
+    "A_b": 0.08240992317206056,
+    "bottleneck_grad_norm": 0.10896389760492885,
+    "total_grad_norm": 1.3222181675552258
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "N_b": 0.3740886449813843,
+    "A_b": 0.08681222296173784,
+    "bottleneck_grad_norm": 0.11401395841088731,
+    "total_grad_norm": 1.313339925198535
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "N_b": 0.2672809958457947,
+    "A_b": 0.10091859347995609,
+    "bottleneck_grad_norm": 0.14106907006824645,
+    "total_grad_norm": 1.397850140432891
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "N_b": 0.5279592573642731,
+    "A_b": 0.0747528332593348,
+    "bottleneck_grad_norm": 0.06543791742750875,
+    "total_grad_norm": 0.8753904644722902
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "N_b": 0.23353368043899536,
+    "A_b": 0.10219777141185994,
+    "bottleneck_grad_norm": 0.07722533926661478,
+    "total_grad_norm": 0.7556460204537577
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "N_b": 0.12122583389282227,
+    "A_b": 0.04182308449116577,
+    "bottleneck_grad_norm": 0.024408184835039672,
+    "total_grad_norm": 0.5836055645344709
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "N_b": 0.14374232292175293,
+    "A_b": 0.05824609097360842,
+    "bottleneck_grad_norm": 0.04941917211971105,
+    "total_grad_norm": 0.848454742518311
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "N_b": 0.3271137475967407,
+    "A_b": 0.06686740396405522,
+    "bottleneck_grad_norm": 0.04410337831019419,
+    "total_grad_norm": 0.6595646861646087
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "N_b": 0.27389419078826904,
+    "A_b": 0.08344546410665478,
+    "bottleneck_grad_norm": 0.04725759925668688,
+    "total_grad_norm": 0.5663291559656876
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "N_b": 0.5520500019192696,
+    "A_b": 0.10607220442153181,
+    "bottleneck_grad_norm": 0.8980078403220342,
+    "total_grad_norm": 8.466005257638878
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "N_b": 0.7286686897277832,
+    "A_b": 0.09632142796360608,
+    "bottleneck_grad_norm": 0.134310877579111,
+    "total_grad_norm": 1.3944028905993668
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "N_b": 0.46122443675994873,
+    "A_b": 0.07169384750217803,
+    "bottleneck_grad_norm": 0.048932656959749195,
+    "total_grad_norm": 0.6825224013575591
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "N_b": 0.16794246435165405,
+    "A_b": 0.08463096956652873,
+    "bottleneck_grad_norm": 0.11785217631336035,
+    "total_grad_norm": 1.3925419609037601
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "N_b": 0.3684488534927368,
+    "A_b": 0.06055877170089042,
+    "bottleneck_grad_norm": 0.05089475314805036,
+    "total_grad_norm": 0.8404191782394099
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "N_b": 0.24922269582748413,
+    "A_b": 0.056923501118056635,
+    "bottleneck_grad_norm": 0.11532090033025769,
+    "total_grad_norm": 2.0258926114029356
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "N_b": 0.45127636194229126,
+    "A_b": 0.05832868674081132,
+    "bottleneck_grad_norm": 0.03250089440803204,
+    "total_grad_norm": 0.5572025743088069
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "N_b": 0.5627018213272095,
+    "A_b": 0.06772309017582649,
+    "bottleneck_grad_norm": 0.06938111556348688,
+    "total_grad_norm": 1.024482423695607
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "N_b": 0.6343006491661072,
+    "A_b": 0.04526154734381859,
+    "bottleneck_grad_norm": 0.028982799818553777,
+    "total_grad_norm": 0.6403404549648474
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "N_b": 0.0430985689163208,
+    "A_b": 0.03519208044297365,
+    "bottleneck_grad_norm": 0.018145369036356444,
+    "total_grad_norm": 0.5156094441691155
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "N_b": 0.363497793674469,
+    "A_b": 0.07008610504394439,
+    "bottleneck_grad_norm": 0.04209442956039945,
+    "total_grad_norm": 0.6006101998963419
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "N_b": 0.4421892464160919,
+    "A_b": 0.11007043067960094,
+    "bottleneck_grad_norm": 0.09037194124493153,
+    "total_grad_norm": 0.8210374092928839
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "N_b": 0.4909358024597168,
+    "A_b": 0.10128269460430944,
+    "bottleneck_grad_norm": 0.12879780718716355,
+    "total_grad_norm": 1.2716664746169122
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "N_b": 0.5528550446033478,
+    "A_b": 0.08352140302539074,
+    "bottleneck_grad_norm": 0.07765792874519446,
+    "total_grad_norm": 0.929796745890227
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "N_b": 0.34974974393844604,
+    "A_b": 0.06651345501687747,
+    "bottleneck_grad_norm": 0.051521331266025594,
+    "total_grad_norm": 0.7746001354605967
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "N_b": 0.1078561544418335,
+    "A_b": 0.06295264382652926,
+    "bottleneck_grad_norm": 0.04721977271647303,
+    "total_grad_norm": 0.750084028982018
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "N_b": 0.47000694274902344,
+    "A_b": 0.0999661142786365,
+    "bottleneck_grad_norm": 0.052887663842449396,
+    "total_grad_norm": 0.5290559128369751
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "N_b": 0.307589054107666,
+    "A_b": 0.05160925570404963,
+    "bottleneck_grad_norm": 0.05862830613075746,
+    "total_grad_norm": 1.1360037134997292
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "N_b": 0.3385356664657593,
+    "A_b": 0.07980392107939932,
+    "bottleneck_grad_norm": 0.1117410857615848,
+    "total_grad_norm": 1.4001954321318402
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "N_b": 0.136216938495636,
+    "A_b": 0.05952463359048583,
+    "bottleneck_grad_norm": 0.03199901001615086,
+    "total_grad_norm": 0.537575925898105
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "N_b": 0.18759602308273315,
+    "A_b": 0.06207887191471448,
+    "bottleneck_grad_norm": 0.0344066617923563,
+    "total_grad_norm": 0.5542410925189658
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "N_b": 0.28306490182876587,
+    "A_b": 0.11302285980659148,
+    "bottleneck_grad_norm": 0.11762785324293003,
+    "total_grad_norm": 1.0407439118441948
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "N_b": 0.14729446172714233,
+    "A_b": 0.06106316000717704,
+    "bottleneck_grad_norm": 0.04400163027135509,
+    "total_grad_norm": 0.7205920929441478
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "N_b": 0.37944895029067993,
+    "A_b": 0.054690075227110904,
+    "bottleneck_grad_norm": 0.03854517344307774,
+    "total_grad_norm": 0.7047928400721997
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "N_b": 0.27256906032562256,
+    "A_b": 0.10893280352905506,
+    "bottleneck_grad_norm": 0.17324929019111693,
+    "total_grad_norm": 1.5904234957554093
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "N_b": 0.272976279258728,
+    "A_b": 0.05801218196374429,
+    "bottleneck_grad_norm": 0.015159800655888239,
+    "total_grad_norm": 0.26132098712237056
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "N_b": 0.45856767892837524,
+    "A_b": 0.11715424479154225,
+    "bottleneck_grad_norm": 0.20476267694001193,
+    "total_grad_norm": 1.7478041645384275
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "N_b": 0.5492144525051117,
+    "A_b": 0.053687570360177884,
+    "bottleneck_grad_norm": 0.05064386615381345,
+    "total_grad_norm": 0.9433070972304222
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "N_b": 0.32089799642562866,
+    "A_b": 0.12579550325470445,
+    "bottleneck_grad_norm": 0.2138896197835827,
+    "total_grad_norm": 1.7002962287969043
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "N_b": 0.25843411684036255,
+    "A_b": 0.07913590691073553,
+    "bottleneck_grad_norm": 0.09375904047016134,
+    "total_grad_norm": 1.1847850631941395
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "N_b": 0.31362026929855347,
+    "A_b": 0.061025739828495025,
+    "bottleneck_grad_norm": 0.02825837009226314,
+    "total_grad_norm": 0.4630565753349266
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "N_b": 0.24982810020446777,
+    "A_b": 0.1170431790854693,
+    "bottleneck_grad_norm": 0.1585307345702097,
+    "total_grad_norm": 1.3544636757896387
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "N_b": -0.001693427562713623,
+    "A_b": 0.09016633528924602,
+    "bottleneck_grad_norm": 0.0401494108148548,
+    "total_grad_norm": 0.4452816085522259
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "N_b": 0.06543076038360596,
+    "A_b": 0.0613397124392583,
+    "bottleneck_grad_norm": 0.023447166192477772,
+    "total_grad_norm": 0.38225099629699677
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "N_b": 0.3007487654685974,
+    "A_b": 0.08069958255223579,
+    "bottleneck_grad_norm": 0.15818386997576134,
+    "total_grad_norm": 1.9601572272492362
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "N_b": 0.1940709948539734,
+    "A_b": 0.07905215825090438,
+    "bottleneck_grad_norm": 0.05490510456069405,
+    "total_grad_norm": 0.6945427648721523
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "N_b": 0.08762556314468384,
+    "A_b": 0.07744409209023806,
+    "bottleneck_grad_norm": 0.06593709552013484,
+    "total_grad_norm": 0.8514154371298558
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "N_b": 0.43927139043807983,
+    "A_b": 0.07172620397907072,
+    "bottleneck_grad_norm": 0.035701619128367154,
+    "total_grad_norm": 0.4977486211146024
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "N_b": 0.32801294326782227,
+    "A_b": 0.08195996554220297,
+    "bottleneck_grad_norm": 0.08077078440720645,
+    "total_grad_norm": 0.9854907072357882
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "N_b": 0.46701326966285706,
+    "A_b": 0.05085824769176879,
+    "bottleneck_grad_norm": 0.03814800811494746,
+    "total_grad_norm": 0.7500849881055097
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "N_b": 0.3642072081565857,
+    "A_b": 0.07482961954652909,
+    "bottleneck_grad_norm": 0.04605259234104522,
+    "total_grad_norm": 0.6154326671727858
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "N_b": 0.2275141477584839,
+    "A_b": 0.10989926896903529,
+    "bottleneck_grad_norm": 0.08553819050903111,
+    "total_grad_norm": 0.7783326614586668
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "N_b": 0.05873525142669678,
+    "A_b": 0.04522151206808636,
+    "bottleneck_grad_norm": 0.012861874776436792,
+    "total_grad_norm": 0.28441938776995584
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "N_b": 0.48034366965293884,
+    "A_b": 0.06674020828206173,
+    "bottleneck_grad_norm": 0.02185358364232906,
+    "total_grad_norm": 0.3274425448294984
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "N_b": 0.31814777851104736,
+    "A_b": 0.13682976432967367,
+    "bottleneck_grad_norm": 0.048359995049508726,
+    "total_grad_norm": 0.35343183762994396
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "N_b": 0.34794366359710693,
+    "A_b": 0.05730088473413778,
+    "bottleneck_grad_norm": 0.02031100428825445,
+    "total_grad_norm": 0.3544623155906333
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "N_b": 0.535283163189888,
+    "A_b": 0.10300802548400038,
+    "bottleneck_grad_norm": 1.4037279629978554,
+    "total_grad_norm": 13.627365017455732
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "N_b": 0.2484259307384491,
+    "A_b": 0.11624619342888257,
+    "bottleneck_grad_norm": 0.24144854967078036,
+    "total_grad_norm": 2.077044783565274
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "N_b": 0.050741612911224365,
+    "A_b": 0.06613843129283198,
+    "bottleneck_grad_norm": 0.06252622363455108,
+    "total_grad_norm": 0.94538413464499
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "N_b": 0.43380141258239746,
+    "A_b": 0.05725101275572994,
+    "bottleneck_grad_norm": 0.047874057357813735,
+    "total_grad_norm": 0.8362132834588551
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "N_b": 0.1743839979171753,
+    "A_b": 0.1111489064712283,
+    "bottleneck_grad_norm": 0.13638809185310455,
+    "total_grad_norm": 1.227075426859099
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "N_b": 0.3140462040901184,
+    "A_b": 0.07792843815854741,
+    "bottleneck_grad_norm": 0.10419626478928781,
+    "total_grad_norm": 1.3370762619070824
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "N_b": 0.20400726795196533,
+    "A_b": 0.06150287351352607,
+    "bottleneck_grad_norm": 0.21274626360544918,
+    "total_grad_norm": 3.4591272155545836
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "N_b": 0.07725298404693604,
+    "A_b": 0.05280574636902811,
+    "bottleneck_grad_norm": 0.02656230153527392,
+    "total_grad_norm": 0.5030191477580056
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "N_b": 0.43926048278808594,
+    "A_b": 0.047171534920073116,
+    "bottleneck_grad_norm": 0.03842870127139979,
+    "total_grad_norm": 0.8146586990758923
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "N_b": 0.30921584367752075,
+    "A_b": 0.056482268063652315,
+    "bottleneck_grad_norm": 0.04179121648047291,
+    "total_grad_norm": 0.7398997581573137
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "N_b": 0.10584133863449097,
+    "A_b": 0.11177817486198653,
+    "bottleneck_grad_norm": 0.21147985764300845,
+    "total_grad_norm": 1.8919601962022052
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "N_b": 0.32706332206726074,
+    "A_b": 0.053868864948104105,
+    "bottleneck_grad_norm": 0.11685065850226568,
+    "total_grad_norm": 2.1691687510928
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "N_b": 0.5701857805252075,
+    "A_b": 0.06748665814611941,
+    "bottleneck_grad_norm": 0.08430376261496872,
+    "total_grad_norm": 1.2491915429037483
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "N_b": 0.49009114503860474,
+    "A_b": 0.05137636826254257,
+    "bottleneck_grad_norm": 0.022315380981728177,
+    "total_grad_norm": 0.4343510788402273
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "N_b": 0.6649463325738907,
+    "A_b": 0.10656812608482663,
+    "bottleneck_grad_norm": 0.14925359454789836,
+    "total_grad_norm": 1.4005462987037487
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "N_b": 0.04438990354537964,
+    "A_b": 0.09361329648969809,
+    "bottleneck_grad_norm": 0.5594978046291736,
+    "total_grad_norm": 5.97669161977161
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "N_b": 0.5660399198532104,
+    "A_b": 0.07369091076309983,
+    "bottleneck_grad_norm": 0.08465804945119108,
+    "total_grad_norm": 1.1488262063057981
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "N_b": 0.4331340193748474,
+    "A_b": 0.048911977210062754,
+    "bottleneck_grad_norm": 0.052669070423289596,
+    "total_grad_norm": 1.076813357944849
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "N_b": 0.36193305253982544,
+    "A_b": 0.04888318514962608,
+    "bottleneck_grad_norm": 0.046224540923308154,
+    "total_grad_norm": 0.9456122955535711
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "N_b": 0.4858230799436569,
+    "A_b": 0.14672218484527136,
+    "bottleneck_grad_norm": 0.34423016355121366,
+    "total_grad_norm": 2.346135752505513
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "N_b": 0.6751991510391235,
+    "A_b": 0.08431846362436016,
+    "bottleneck_grad_norm": 0.10385496133382033,
+    "total_grad_norm": 1.2316989289142593
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "N_b": 0.6669115796685219,
+    "A_b": 0.06561876798856119,
+    "bottleneck_grad_norm": 0.16208573175327598,
+    "total_grad_norm": 2.470112388905734
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "N_b": 0.12296634912490845,
+    "A_b": 0.07589037032061965,
+    "bottleneck_grad_norm": 0.042653937744368944,
+    "total_grad_norm": 0.5620467730512541
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "N_b": 0.2998659610748291,
+    "A_b": 0.06595791232952676,
+    "bottleneck_grad_norm": 0.04619359851221883,
+    "total_grad_norm": 0.7003496150914372
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "N_b": 0.4217899739742279,
+    "A_b": 0.0948887948851205,
+    "bottleneck_grad_norm": 0.18171660184772503,
+    "total_grad_norm": 1.9150480524884397
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "N_b": 0.6102218329906464,
+    "A_b": 0.05644773347564929,
+    "bottleneck_grad_norm": 0.06401535162045573,
+    "total_grad_norm": 1.1340641630557406
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "N_b": 0.18357592821121216,
+    "A_b": 0.043193424385574615,
+    "bottleneck_grad_norm": 0.028747621717973418,
+    "total_grad_norm": 0.6655555128334375
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "N_b": 0.12093007564544678,
+    "A_b": 0.04420283195500396,
+    "bottleneck_grad_norm": 0.013615428730147766,
+    "total_grad_norm": 0.3080216386137322
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "N_b": 0.24424058198928833,
+    "A_b": 0.08702173316298957,
+    "bottleneck_grad_norm": 0.08319481268908682,
+    "total_grad_norm": 0.9560233939867065
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "N_b": 0.12650549411773682,
+    "A_b": 0.10818948279070814,
+    "bottleneck_grad_norm": 0.10405987899596092,
+    "total_grad_norm": 0.961829896139388
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "N_b": 0.2567206621170044,
+    "A_b": 0.08766574281560825,
+    "bottleneck_grad_norm": 0.08028460604613881,
+    "total_grad_norm": 0.9158036362619483
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "N_b": 0.5821599513292313,
+    "A_b": 0.11867999098334,
+    "bottleneck_grad_norm": 0.41341874891833685,
+    "total_grad_norm": 3.48347472470209
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "N_b": 0.08830559253692627,
+    "A_b": 0.06908965034963091,
+    "bottleneck_grad_norm": 0.04052849485396512,
+    "total_grad_norm": 0.5866073232223504
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "N_b": 0.2457171082496643,
+    "A_b": 0.1328049506611825,
+    "bottleneck_grad_norm": 0.0939001902888467,
+    "total_grad_norm": 0.7070533878545594
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "N_b": 0.3371696472167969,
+    "A_b": 0.06260157614212823,
+    "bottleneck_grad_norm": 0.05368106318818831,
+    "total_grad_norm": 0.8575033808464003
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "N_b": 0.33000344038009644,
+    "A_b": 0.12862809328431662,
+    "bottleneck_grad_norm": 0.20720113773915244,
+    "total_grad_norm": 1.6108544599285923
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "N_b": 0.21751803159713745,
+    "A_b": 0.13664928678405325,
+    "bottleneck_grad_norm": 0.15726835611385157,
+    "total_grad_norm": 1.1508904277150207
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "N_b": 0.25600743293762207,
+    "A_b": 0.03874852440682234,
+    "bottleneck_grad_norm": 0.023577177111061432,
+    "total_grad_norm": 0.6084664505807676
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "N_b": 0.25095486640930176,
+    "A_b": 0.12687900613817538,
+    "bottleneck_grad_norm": 0.23413902398130024,
+    "total_grad_norm": 1.8453724623781746
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "N_b": 0.7926241233944893,
+    "A_b": 0.08890221905702093,
+    "bottleneck_grad_norm": 0.15067123442284178,
+    "total_grad_norm": 1.6947972280219783
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "N_b": 0.37170177698135376,
+    "A_b": 0.10502855225767796,
+    "bottleneck_grad_norm": 0.07209556568625784,
+    "total_grad_norm": 0.6864377746479638
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "N_b": 0.3374035358428955,
+    "A_b": 0.04372356880613119,
+    "bottleneck_grad_norm": 0.02335040509457764,
+    "total_grad_norm": 0.5340461845215
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "N_b": 0.35925155878067017,
+    "A_b": 0.05116238174770543,
+    "bottleneck_grad_norm": 0.04877970116949707,
+    "total_grad_norm": 0.9534290528154463
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "N_b": -0.13214129209518433,
+    "A_b": 0.11712431330571117,
+    "bottleneck_grad_norm": 0.30949615313591244,
+    "total_grad_norm": 2.642458635621481
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "N_b": 0.44179221987724304,
+    "A_b": 0.08098495436760073,
+    "bottleneck_grad_norm": 0.09052327984207158,
+    "total_grad_norm": 1.1177789818979857
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "N_b": 0.39462804794311523,
+    "A_b": 0.09558727053836084,
+    "bottleneck_grad_norm": 0.07342315639851993,
+    "total_grad_norm": 0.7681269272047467
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "N_b": 0.09709739685058594,
+    "A_b": 0.0606842106062741,
+    "bottleneck_grad_norm": 0.04186092895094718,
+    "total_grad_norm": 0.6898158274241307
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "N_b": 0.30039355158805847,
+    "A_b": 0.14867877015356532,
+    "bottleneck_grad_norm": 0.12100561748664139,
+    "total_grad_norm": 0.8138728707646609
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "N_b": 0.10411930084228516,
+    "A_b": 0.05691091216730956,
+    "bottleneck_grad_norm": 0.017943927923292382,
+    "total_grad_norm": 0.31529854714926936
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "N_b": 0.37886935472488403,
+    "A_b": 0.09774784332268319,
+    "bottleneck_grad_norm": 0.07126128786973024,
+    "total_grad_norm": 0.7290318174538535
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "N_b": 0.5708436369895935,
+    "A_b": 0.13438130856581765,
+    "bottleneck_grad_norm": 0.3427543701485368,
+    "total_grad_norm": 2.550610451755362
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "N_b": 0.24749428033828735,
+    "A_b": 0.04865928643070983,
+    "bottleneck_grad_norm": 0.03596657771430036,
+    "total_grad_norm": 0.73915135943303
+  }
+]

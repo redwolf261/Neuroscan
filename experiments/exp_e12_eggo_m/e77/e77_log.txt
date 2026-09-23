@@ -1,0 +1,52 @@
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 subject records.
+
+Pooled sample size: 1250000 voxels (125 subjects x 10000 subsampled each)
+
+=== (1) Population distribution of r(p) at enc1 ===
+  p10: 1.3894
+  p25: 1.3894
+  p50: 1.3894
+  p75: 2.3482
+  p90: 6.1582
+  p95: 7.4850
+  p99: 10.0755
+  IQR (p75-p25): 0.9588
+
+=== (2) r(p) by class (0=background, 1=boundary, 2=interior) ===
+  background (n=1223709): mean r = 2.3503, median = 1.3894
+  boundary (n=22420): mean r = 8.0842, median = 7.5887
+  interior (n=3871): mean r = 10.9060, median = 10.4731
+
+=== (3) Pooled voxel-level Spearman(r(p), local translation impact |Δprobs|) ===
+  rho = +0.5387 (p=0.0000e+00, n=1250000)
+
+  Subject-level Spearman(mean r, subject translation-drop) = +0.1324 (p=1.4116e-01, n=125)
+
+=== (4) Does high magnitude already carry useful information? ===
+  Class means (background < boundary < interior expected if r tracks lesion salience):
+    background: 2.3503
+    boundary: 8.0842
+    interior: 10.9060
+
+  r at ERROR voxels: mean=8.0467  vs  r at CORRECT voxels: mean=2.4703
+  paired t-test (n=125 subjects): t=55.056, p=5.1918e-89
+
+=== (5) High-magnitude tail: rare and disproportionately sensitive? ===
+  Voxels at/above p90 (r>=6.1582): 10.0% of all voxels
+  Mean local translation impact, TAIL voxels: 0.0462
+  Mean local translation impact, NON-TAIL voxels: 0.0030
+  Ratio (tail/non-tail): 15.534x
+
+=== OUTCOME CLASSIFICATION ===
+A: high-magnitude tail is rare and disproportionately translation-sensitive -- promising for a soft tail-control mechanism
+
+Saved E77_magnitude_geometry_summary.json

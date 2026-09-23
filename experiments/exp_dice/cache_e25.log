@@ -1,0 +1,7 @@
+caching 125 subjects | tag=tta_e25 ckpt=epoch_025.pth overlap=0.5 tta=1
+  25/125 (85s, ~342s left)
+  50/125 (181s, ~272s left)
+  75/125 (286s, ~191s left)
+  100/125 (390s, ~97s left)
+  125/125 (487s, ~0s left)
+done in 487s -> C:\Users\Rivan\Projects\Neuroscan\experiments\exp_dice\cache

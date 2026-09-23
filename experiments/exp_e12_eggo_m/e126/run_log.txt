@@ -1,0 +1,28 @@
+Device: cuda
+[Unit test] blend_windows: PASS (alpha=1 identity, alpha=0 matches full mean-replace, intermediate alpha formula correct).
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00 PASS.
+
+Running conditions (intact-intact, intact-ablated, then blend-intact/ablated for 4 alphas), 125 subjects...
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+N_b (intact): mean=0.2717 std=0.1733 (cross-check vs established ~0.27-0.32 range)
+
+=== Dose-response summary ===
+alpha=0.95: intervention-alone cost=0.0003+/-0.0036 (safety bar <0.02: OK), N_b=0.2630+/-0.1705, shift=-0.0087 (paired t p=2.3354e-27, Wilcoxon p=3.3925e-19)
+alpha=0.85: intervention-alone cost=0.0024+/-0.0112 (safety bar <0.02: OK), N_b=0.2441+/-0.1639, shift=-0.0276 (paired t p=8.4588e-29, Wilcoxon p=1.9374e-19)
+alpha=0.7: intervention-alone cost=0.0079+/-0.0302 (safety bar <0.02: OK), N_b=0.2135+/-0.1515, shift=-0.0582 (paired t p=6.7792e-26, Wilcoxon p=3.7931e-19)
+alpha=0.5: intervention-alone cost=0.0237+/-0.0753 (safety bar <0.02: EXCEEDED), N_b=0.1677+/-0.1405, shift=-0.1040 (paired t p=5.5245e-21, Wilcoxon p=9.2121e-19)
+
+N_b sequence (alpha=1.0 [intact] -> [0.95, 0.85, 0.7, 0.5]): [np.float64(0.2717), 0.263, 0.2441, 0.2135, 0.1677]
+Monotonically decreasing as rank is pushed lower: True
+
+=== DECISION ===
+DOSE_RESPONSE_CONFIRMED
+N_b decreases monotonically as effective rank is pushed lower via graded blending, with the gentlest setting staying within the safety bar. This is genuine dose-response causal evidence -- stronger than E125 Part 2's single confounded point. GREEN for a full prior-art audit -- still NOT architecture implementation.
+
+Saved E126_summary.json, E126_per_subject_table.json

@@ -1,0 +1,12 @@
+Validation set size: 125
+  Loaded baseline: epoch_30.pth  best_val_dice=0.9063020758330822
+  Loaded D4only: epoch_30.pth  best_val_dice=0.9095618277788162
+  Loaded D2only: epoch_30.pth  best_val_dice=0.9079674370586872
+  Loaded Both: epoch_30.pth  best_val_dice=0.909111712127924
+  processed 25/125 subjects
+  processed 50/125 subjects
+  processed 75/125 subjects
+  processed 100/125 subjects
+  processed 125/125 subjects
+
+Saved 2961 records.

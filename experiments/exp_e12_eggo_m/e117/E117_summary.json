@@ -1,0 +1,8 @@
+{
+  "checkpoint_lineage": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "checkpoint_val_dice": 0.9101624600589275,
+  "part1_pass": false,
+  "part2_pass": false,
+  "decision": "FAIL_NO_MEANINGFUL_SUPPORT",
+  "detail": "Part 1 pass=False, Part 2 pass=False. At least one pre-declared check did not pass. Per this project's own zero-cost-kill precedent (E60/E116), do not proceed to designing or training OSGRP without first understanding why the order-statistic-reliability hypothesis failed to show the predicted effect."
+}

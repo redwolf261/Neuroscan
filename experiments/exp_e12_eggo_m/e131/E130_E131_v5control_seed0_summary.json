@@ -1,0 +1,11 @@
+{
+  "run_name": "E131_v5control_seed0",
+  "best_mean_dice": 0.8929357248544694,
+  "epochs": 50,
+  "patch": [
+    128,
+    128,
+    128
+  ],
+  "seed": 0
+}

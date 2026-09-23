@@ -1,0 +1,17 @@
+{
+  "n_subjects": 125,
+  "n_derangements_per_subject": 8,
+  "mean_dice_intact": 0.892215856552124,
+  "mean_dice_permuted": 0.8695944182276726,
+  "mean_drop": 0.022621438324451446,
+  "sd_drop": 0.01755406938217076,
+  "ttest_p_greater": 2.0143078350492237e-28,
+  "wilcoxon_p_greater": 8.275303492246448e-20,
+  "sign_flip_permutation_p": 0.0,
+  "spearman_rho_size_vs_drop": -0.35464208909370193,
+  "parametric_p": 4.951799486066325e-05,
+  "permutation_p_twosided": 0.0,
+  "criterion_1_significant_drop": true,
+  "criterion_2_size_specific": true,
+  "decision": "GO"
+}

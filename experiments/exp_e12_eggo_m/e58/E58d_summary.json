@@ -1,0 +1,19 @@
+{
+  "checkpoint": "E46/v5 (E48's own original checkpoint)",
+  "n_subjects": 125,
+  "mean_dice_intact": 0.8922,
+  "mean_drop": {"zero": 0.2717, "donor_size": 0.5484, "donor_rand": 0.5730},
+  "paired_tests": {
+    "zero_vs_donor_size": {"p": 0.0000},
+    "zero_vs_donor_rand": {"p": 0.0000},
+    "donor_size_vs_donor_rand": {"p": 0.5293}
+  },
+  "spearman_by_condition": {
+    "zero": {"rho": -0.3834, "perm_p": 0.0000, "ci_95": [-0.5435, -0.1963]},
+    "donor_size": {"rho": -0.2147, "perm_p": 0.0150, "ci_95": [-0.3833, -0.0546]},
+    "donor_rand": {"rho": -0.0163, "perm_p": 0.8690, "ci_95": [-0.1882, 0.1619]}
+  },
+  "e48_reference_rho_same_checkpoint": -0.454,
+  "stage2_finding_reproduces_on_e48_checkpoint": true,
+  "note": "summary reconstructed from full console log after a trivial numpy-bool JSON serialization bug crashed the script's own final save step; all 125-subject records were already saved successfully to E58d_substitution_e48ckpt_table.json before the crash, and the fix (bool() cast) is applied in the script for any future rerun."
+}

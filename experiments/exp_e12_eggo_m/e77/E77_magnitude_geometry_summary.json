@@ -1,0 +1,34 @@
+{
+  "n_subjects": 125,
+  "pooled_n_voxels": 1250000,
+  "r_percentiles": {
+    "10": 1.3894466161727905,
+    "25": 1.3894466161727905,
+    "50": 1.3894466161727905,
+    "75": 2.3482134342193604,
+    "90": 6.158235168457039,
+    "95": 7.485033369064337,
+    "99": 10.075533866882324
+  },
+  "r_iqr": 0.9587668180465698,
+  "class_means": {
+    "background": 2.350264310836792,
+    "boundary": 8.084161758422852,
+    "interior": 10.905985832214355
+  },
+  "rho_pooled_r_vs_local_drop": 0.5386960646065277,
+  "p_pooled": 0.0,
+  "rho_subject_mean_r_vs_drop": 0.13236251920122888,
+  "p_subject": 0.14116314259959564,
+  "r_error_mean": 8.04674322128296,
+  "r_correct_mean": 2.4702502269744873,
+  "tail_p90_threshold": 6.158235168457039,
+  "tail_fraction": 0.1,
+  "tail_local_drop": 0.04619913175702095,
+  "non_tail_local_drop": 0.0029740408062934875,
+  "tail_ratio": 15.534128189086914,
+  "tail_is_rare": true,
+  "tail_is_disproportionate": true,
+  "magnitude_tracks_lesion": true,
+  "outcome": "A: high-magnitude tail is rare and disproportionately translation-sensitive -- promising for a soft tail-control mechanism"
+}

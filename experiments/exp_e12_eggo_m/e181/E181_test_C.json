@@ -1,0 +1,65 @@
+{
+ "pooled_model": {
+  "specification": "Delta ~ Gamma + magnitude + transform_family (subject FE, cluster-robust)",
+  "beta_gamma": 0.3250821408541752,
+  "p_gamma": 0.013787339709243618,
+  "beta_magnitude": 0.014625655400367397,
+  "p_magnitude": 0.14039614453177962,
+  "beta_transform_family": 0.011846243484542343,
+  "naive_p_transform_family": 0.0003399013039724341,
+  "transform_family_permutation_p": 0.0,
+  "r2_within": 0.24398700895129888,
+  "n_tiles": 3472,
+  "n_subjects": 125
+ },
+ "within_family_gamma_over_magnitude": {
+  "T6": {
+   "gamma_alone_beta": 0.8239538060817176,
+   "gamma_alone_p": 0.0020400962588027483,
+   "magnitude_alone_beta": 0.003093704211607717,
+   "magnitude_alone_p": 0.5829229993988043,
+   "gamma_over_magnitude_control": {
+    "r2_base": 0.7443160569940788,
+    "r2_full": 0.8399011759884598,
+    "observed_delta_r2": 0.09558511899438105,
+    "null_mean": 0.006784162118611967,
+    "null_std": 0.008787582766838947,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "SURVIVES_MAGNITUDE_CONTROL": true,
+   "n_tiles": 1736,
+   "n_subjects": 125
+  },
+  "T7": {
+   "gamma_alone_beta": 0.18169948521313645,
+   "gamma_alone_p": 0.1014607369093663,
+   "magnitude_alone_beta": -385.6032264417425,
+   "magnitude_alone_p": 0.022775933469836085,
+   "gamma_over_magnitude_control": {
+    "r2_base": 0.41254177085197896,
+    "r2_full": 0.44395544743049997,
+    "observed_delta_r2": 0.03141367657852101,
+    "null_mean": 0.000599180973021161,
+    "null_std": 0.0007938798882009655,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "SURVIVES_MAGNITUDE_CONTROL": true,
+   "n_tiles": 1736,
+   "n_subjects": 125
+  }
+ },
+ "magnitude_context": {
+  "T6_range": [
+   0.00030362189863808453,
+   0.6228049397468567
+  ],
+  "T7_range": [
+   0.24255606532096863,
+   0.276773601770401
+  ]
+ },
+ "CLASSIFICATION": "BOTH_SURVIVE -- phenomenon broader than spectral shape, do not force H2",
+ "epistemic_note": "Associational, not causal proof of Gamma causing Delta. The counterfactual restoration gives causal evidence about the tested transformation/restoration mechanism; the Gamma->Delta statistical relationship itself is associational (Gamma is measured, not independently randomized)."
+}

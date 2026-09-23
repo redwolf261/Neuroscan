@@ -1,0 +1,35 @@
+======================================================================
+E24 pre-launch audit fix: delta_d_r calibration for condition E (random-projection control)
+======================================================================
+
+Frozen r (seed=999001): shape=(32,), norm=1.000000
+Verified: r matches run_counterfactual.py's ObjectiveConfig(mode='random_projection') exactly
+
+Euclidean distance distribution at initialization (cross-check, should match delta_d_w's own measurement exactly, same seed/model/data):
+  mean=9.6044 std=2.8808
+  p5=5.5727
+  p10=6.1958
+  p20=7.3317
+  p30=7.9664
+  p50=9.3216
+
+Projected (r) distance distribution at initialization:
+  mean=1.2194 std=0.9489
+  p5=0.1014
+  p10=0.1937
+  p20=0.4045
+  p30=0.6093
+  p50=1.0109
+
+Calibrated delta_d_r (targeting ~20% active hinge at init, same criterion as delta_d/delta_d_w): 0.2022
+  (i.e. 2*delta_d_r = 0.4045)
+  Verification: 20.04% of pairs violate the hinge at this delta_d_r (target: 10-30%)
+
+Sanity check: mean(proj_dist)/mean(euclid_dist) = 0.1270 (must be <= 1.0 for a valid unit-vector projection)
+  PASSED
+
+For comparison, delta_d_w (task-aligned) = 0.2553
+delta_d_r (random-projection)              = 0.2022
+Ratio delta_d_r / delta_d_w = 0.7922
+
+Results saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\e24_results\delta_d_r_calibration.json

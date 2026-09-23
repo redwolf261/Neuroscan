@@ -1,0 +1,127 @@
+{
+ "question": "Which transform severities produce a graded (neither dead nor saturated) output-displacement regime at enc3?",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 10,
+ "overlap": 0.25,
+ "graded_band": [
+  0.02,
+  0.3
+ ],
+ "dead_threshold": 0.01,
+ "saturated_threshold": 0.5,
+ "per_transform": {
+  "T1_rank": {
+   "severities": {
+    "1": {
+     "dY_mean": 0.3661006837772826,
+     "dY_std": 0.4132433163133073
+    },
+    "2": {
+     "dY_mean": 0.15550593634446463,
+     "dY_std": 0.27759804000572086
+    },
+    "4": {
+     "dY_mean": 0.06692382693290712,
+     "dY_std": 0.08283175901188981
+    },
+    "8": {
+     "dY_mean": 0.027117598056793223,
+     "dY_std": 0.027579293976376856
+    },
+    "16": {
+     "dY_mean": 0.010359706481297803,
+     "dY_std": 0.008354057938671472
+    },
+    "32": {
+     "dY_mean": 0.005159749587376916,
+     "dY_std": 0.004230413051927129
+    },
+    "64": {
+     "dY_mean": 0.002143196264902747,
+     "dY_std": 0.0020251571124943342
+    },
+    "128": {
+     "dY_mean": 0.0,
+     "dY_std": 0.0
+    }
+   },
+   "verdict": "GRADED",
+   "chosen_Ts": 2
+  },
+  "T2_permute": {
+   "severities": {
+    "fixed_random_seed12345": {
+     "dY_mean": 0.9961478715452055,
+     "dY_std": 0.007538152618535105
+    }
+   },
+   "verdict": "CONTROL_CONTEXT_ONLY",
+   "chosen_Ts": null
+  },
+  "T3_mix": {
+   "severities": {
+    "0.05": {
+     "dY_mean": 0.0009151339530944713,
+     "dY_std": 0.0007438806476283739
+    },
+    "0.1": {
+     "dY_mean": 0.0019305745760599623,
+     "dY_std": 0.0015780704763196163
+    },
+    "0.2": {
+     "dY_mean": 0.004021994272867835,
+     "dY_std": 0.003440456546404994
+    }
+   },
+   "verdict": "DEAD",
+   "chosen_Ts": null
+  },
+  "T4_spectral": {
+   "severities": {
+    "1.5": {
+     "dY_mean": 0.011999648809432972,
+     "dY_std": 0.008709723000671174
+    },
+    "2.0": {
+     "dY_mean": 0.02689200838406882,
+     "dY_std": 0.02363035361558401
+    },
+    "3.0": {
+     "dY_mean": 0.1118285472194354,
+     "dY_std": 0.17676533466422326
+    },
+    "0.5": {
+     "dY_mean": 0.015611169735590614,
+     "dY_std": 0.010351519900176754
+    },
+    "0.7": {
+     "dY_mean": 0.009070907036463427,
+     "dY_std": 0.0060743292437116
+    }
+   },
+   "verdict": "GRADED",
+   "chosen_Ts": 3.0
+  },
+  "T5_smooth": {
+   "severities": {
+    "0.5": {
+     "dY_mean": 0.012839323282241832,
+     "dY_std": 0.011646768253582216
+    },
+    "1.0": {
+     "dY_mean": 0.04831149379412333,
+     "dY_std": 0.044148480182173266
+    },
+    "1.5": {
+     "dY_mean": 0.09279558857282004,
+     "dY_std": 0.08215790818554732
+    }
+   },
+   "verdict": "GRADED",
+   "chosen_Ts": 1.5
+  }
+ },
+ "PROGRAM_VERDICT": "PROCEED",
+ "decision_rule": "GRADED if any severity in [0.02,0.30] Dice displacement with near-monotonic trend; DEAD if all<=0.01; SATURATED if all>=0.50; program dies if zero families reach GRADED"
+}

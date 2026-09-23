@@ -1,0 +1,17 @@
+Roster loaded: 749 components
+Loaded 'Both' checkpoint epoch_30 (best_val_dice=0.909111712127924)
+  processed 25/125 subjects
+  processed 50/125 subjects
+  processed 75/125 subjects
+  processed 100/125 subjects
+  processed 125/125 subjects
+
+Saved 749 component records.
+
+Mass-conservation spot check, D4 (first 3 subjects):
+  BraTS-GLI-01041-000: sum of component D4 contributions = 40.5156
+  BraTS-GLI-01161-000: sum of component D4 contributions = 48.9375
+  BraTS-GLI-01189-000: sum of component D4 contributions = 50.9844
+
+Components with nonzero D4 footprint: 227/749
+Components with nonzero D2 footprint: 227/749

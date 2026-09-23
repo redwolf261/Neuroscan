@@ -1,0 +1,65 @@
+{
+  "checkpoint": "experiments/exp_e12_eggo_m/e130/runs/E130_baseline_seed0/checkpoints/best.pth",
+  "n_good": 106,
+  "n_fail": 7,
+  "fail_ids": [
+    "BraTS-GLI-00731-001",
+    "BraTS-GLI-00525-001",
+    "BraTS-GLI-01176-000",
+    "BraTS-GLI-01314-000",
+    "BraTS-GLI-01530-000",
+    "BraTS-GLI-00098-000",
+    "BraTS-GLI-00021-000"
+  ],
+  "model_head_on_failing": {
+    "ET": 0.08156389743089676,
+    "TC": 0.14631580848280074,
+    "WT": 0.7641269266605377
+  },
+  "probes": {
+    "dec1": {
+      "ET": {
+        "good": 0.8212955964483181,
+        "fail": 0.07994942953311172
+      },
+      "TC": {
+        "good": 0.8431386825681295,
+        "fail": 0.16152047449057655
+      },
+      "WT": {
+        "good": 0.855487585911211,
+        "fail": 0.7565155029296875
+      }
+    },
+    "dec2": {
+      "ET": {
+        "good": 0.6840932888949711,
+        "fail": 0.022241606643157347
+      },
+      "TC": {
+        "good": 0.8018183229833771,
+        "fail": 0.14613549770521267
+      },
+      "WT": {
+        "good": 0.8023605740295267,
+        "fail": 0.7147676774433681
+      }
+    },
+    "dec3": {
+      "ET": {
+        "good": 0.7298147853832903,
+        "fail": 0.3180350302053349
+      },
+      "TC": {
+        "good": 0.8261147646303728,
+        "fail": 0.16559904175145285
+      },
+      "WT": {
+        "good": 0.8597519167189328,
+        "fail": 0.7524263603346688
+      }
+    }
+  },
+  "verdict": "H1_REPRESENTATION_FAILURE",
+  "detail": "dec1 does NOT encode the ET/TC distinction on the failing subjects -- an identical-capacity probe cannot recover it either, so no readout could. The fix must change what the network LEARNS (loss weighting, sampling, synthetic data)."
+}

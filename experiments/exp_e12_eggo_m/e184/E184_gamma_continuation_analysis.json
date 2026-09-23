@@ -1,0 +1,208 @@
+{
+ "n_records": 187,
+ "n_subjects": 10,
+ "nan_count": 0,
+ "inf_count": 0,
+ "summary_per_alpha": {
+  "0.5": {
+   "n_subjects": 10,
+   "mean_diam_gamma": 0.0022722601890563855,
+   "std_diam_gamma": 0.00177265077618374,
+   "mean_diam_output": 7.614302548972774e-05,
+   "mean_n_candidates": 8.0
+  },
+  "1.0": {
+   "n_subjects": 10,
+   "mean_diam_gamma": 0.002941747506459547,
+   "std_diam_gamma": 0.0028481933486397266,
+   "mean_diam_output": 0.00010390222223577439,
+   "mean_n_candidates": 6.5
+  },
+  "2.0": {
+   "n_subjects": 8,
+   "mean_diam_gamma": 0.00401307642459868,
+   "std_diam_gamma": 0.006000688085021973,
+   "mean_diam_output": 7.737380110484082e-05,
+   "mean_n_candidates": 3.5
+  },
+  "4.0": {
+   "n_subjects": 2,
+   "mean_diam_gamma": 0.00255418817202252,
+   "std_diam_gamma": 0.0007179876168568744,
+   "mean_diam_output": 3.0430217520915903e-05,
+   "mean_n_candidates": 2.0
+  }
+ },
+ "within_group_spearman_output_vs_gamma": {
+  "n_groups": 26,
+  "mean_rho": -0.22536630036630043,
+  "median_rho": -0.30952380952380953,
+  "std_rho": 0.42959124812093413,
+  "fraction_positive": 0.23076923076923078,
+  "individual": [
+   {
+    "sid": "BraTS-GLI-00250-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.6190476190476191
+   },
+   {
+    "sid": "BraTS-GLI-00250-000",
+    "alpha": 1.0,
+    "n": 5,
+    "rho": 0.3
+   },
+   {
+    "sid": "BraTS-GLI-00501-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": 0.28571428571428575
+   },
+   {
+    "sid": "BraTS-GLI-00501-000",
+    "alpha": 1.0,
+    "n": 4,
+    "rho": 0.7999999999999999
+   },
+   {
+    "sid": "BraTS-GLI-00506-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.5952380952380953
+   },
+   {
+    "sid": "BraTS-GLI-00506-000",
+    "alpha": 1.0,
+    "n": 6,
+    "rho": -0.14285714285714288
+   },
+   {
+    "sid": "BraTS-GLI-01041-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.14285714285714288
+   },
+   {
+    "sid": "BraTS-GLI-01041-000",
+    "alpha": 1.0,
+    "n": 8,
+    "rho": -0.1666666666666667
+   },
+   {
+    "sid": "BraTS-GLI-01041-000",
+    "alpha": 2.0,
+    "n": 6,
+    "rho": -0.2571428571428572
+   },
+   {
+    "sid": "BraTS-GLI-01065-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.4523809523809524
+   },
+   {
+    "sid": "BraTS-GLI-01065-000",
+    "alpha": 1.0,
+    "n": 8,
+    "rho": -0.14285714285714288
+   },
+   {
+    "sid": "BraTS-GLI-01065-000",
+    "alpha": 2.0,
+    "n": 4,
+    "rho": -0.39999999999999997
+   },
+   {
+    "sid": "BraTS-GLI-01093-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.19047619047619052
+   },
+   {
+    "sid": "BraTS-GLI-01093-000",
+    "alpha": 1.0,
+    "n": 7,
+    "rho": -0.4642857142857144
+   },
+   {
+    "sid": "BraTS-GLI-01093-000",
+    "alpha": 2.0,
+    "n": 3,
+    "rho": 0.5
+   },
+   {
+    "sid": "BraTS-GLI-01161-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.7142857142857144
+   },
+   {
+    "sid": "BraTS-GLI-01161-000",
+    "alpha": 1.0,
+    "n": 4,
+    "rho": 0.39999999999999997
+   },
+   {
+    "sid": "BraTS-GLI-01168-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.7380952380952381
+   },
+   {
+    "sid": "BraTS-GLI-01168-000",
+    "alpha": 1.0,
+    "n": 7,
+    "rho": -0.7142857142857144
+   },
+   {
+    "sid": "BraTS-GLI-01168-000",
+    "alpha": 2.0,
+    "n": 3,
+    "rho": -1.0
+   },
+   {
+    "sid": "BraTS-GLI-01189-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.30952380952380953
+   },
+   {
+    "sid": "BraTS-GLI-01189-000",
+    "alpha": 1.0,
+    "n": 8,
+    "rho": -0.30952380952380953
+   },
+   {
+    "sid": "BraTS-GLI-01189-000",
+    "alpha": 2.0,
+    "n": 4,
+    "rho": -0.39999999999999997
+   },
+   {
+    "sid": "BraTS-GLI-01336-000",
+    "alpha": 0.5,
+    "n": 8,
+    "rho": -0.4285714285714286
+   },
+   {
+    "sid": "BraTS-GLI-01336-000",
+    "alpha": 1.0,
+    "n": 8,
+    "rho": -0.3571428571428572
+   },
+   {
+    "sid": "BraTS-GLI-01336-000",
+    "alpha": 2.0,
+    "n": 4,
+    "rho": 0.39999999999999997
+   }
+  ]
+ },
+ "READING": "OUTCOME_C -- diam(Gamma) nonzero at every alpha across nearly all subjects, and NOT explained by within-class output-distance spread (mean within-group Spearman rho=-0.225, 77pct groups near-zero-or-negative). Output-equivalent candidates (same D(Z)) show systematically different Gamma depending on perturbation direction, not merely on residual output displacement.",
+ "caveats": [
+  "alpha=2.0 (8 subjects) and alpha=4.0 (2 subjects) are thin relative to alpha=0.5/1.0 (10 subjects each)",
+  "several correlation groups have small n (3-5), individual rho estimates are noisy",
+  "10-subject single-tile single-checkpoint feasibility probe, not full 125-subject subject-aware regime",
+  "existence question only -- no GT/Dice/repair-algorithm involved"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "pooled_model": {
+  "specification": "Delta ~ Gamma + magnitude + transform_family (subject FE, cluster-robust)",
+  "beta_gamma": 0.434791797398383,
+  "p_gamma": 4.591052449320898e-05,
+  "beta_magnitude": 0.022322259490491526,
+  "p_magnitude": 0.0008560055548967327,
+  "beta_transform_family": 0.013602934756601348,
+  "naive_p_transform_family": 2.1732125987217188e-05,
+  "transform_family_permutation_p": 0.0,
+  "r2_within": 0.3728661769059938,
+  "n_tiles": 5208,
+  "n_subjects": 125
+ },
+ "within_family_gamma_over_magnitude": {
+  "T6": {
+   "gamma_alone_beta": 0.8239538060817176,
+   "gamma_alone_p": 0.0020400962588027483,
+   "magnitude_alone_beta": 0.003093704211607717,
+   "magnitude_alone_p": 0.5829229993988043,
+   "gamma_over_magnitude_control": {
+    "r2_base": 0.7443160569940788,
+    "r2_full": 0.8399011759884598,
+    "observed_delta_r2": 0.09558511899438105,
+    "null_mean": 0.006701341858187831,
+    "null_std": 0.009564411162050115,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "SURVIVES_MAGNITUDE_CONTROL": true,
+   "n_tiles": 1736,
+   "n_subjects": 125
+  },
+  "T7": {
+   "gamma_alone_beta": 0.38680888852305384,
+   "gamma_alone_p": 0.0006371170103889323,
+   "magnitude_alone_beta": 0.03195644955423965,
+   "magnitude_alone_p": 3.470498569213554e-05,
+   "gamma_over_magnitude_control": {
+    "r2_base": 0.28851949962963186,
+    "r2_full": 0.46754410934641333,
+    "observed_delta_r2": 0.17902460971678147,
+    "null_mean": 0.0017029379236816618,
+    "null_std": 0.0024323715174287344,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "SURVIVES_MAGNITUDE_CONTROL": true,
+   "n_tiles": 3472,
+   "n_subjects": 125
+  }
+ },
+ "t7_per_severity_context": {
+  "0.6": {
+   "gamma_alone_beta": 0.1246691848643329,
+   "gamma_alone_p": 0.18033044281570976,
+   "magnitude_mean": 0.3465638214267344,
+   "n_tiles": 868,
+   "n_subjects": 125
+  },
+  "0.8": {
+   "gamma_alone_beta": 0.22851536966944005,
+   "gamma_alone_p": 0.07549134638873323,
+   "magnitude_mean": 0.1732753765541837,
+   "n_tiles": 868,
+   "n_subjects": 125
+  },
+  "1.1": {
+   "gamma_alone_beta": 0.0007430018383976255,
+   "gamma_alone_p": 0.889827801641959,
+   "magnitude_mean": 0.08665717666118924,
+   "n_tiles": 868,
+   "n_subjects": 125
+  },
+  "1.45": {
+   "gamma_alone_beta": 0.07937330545028368,
+   "gamma_alone_p": 0.2741912509649529,
+   "magnitude_mean": 0.3899086396540365,
+   "n_tiles": 868,
+   "n_subjects": 125
+  }
+ },
+ "magnitude_context": {
+  "T6_range": [
+   0.00030362189863808453,
+   0.6228049397468567
+  ],
+  "T7_range": [
+   0.080874964594841,
+   0.4151339530944824
+  ]
+ },
+ "epistemic_note": "Associational, not causal proof of Gamma causing Delta. The counterfactual restoration gives causal evidence about the tested transformation/restoration mechanism; the Gamma->Delta statistical relationship itself is associational (Gamma is measured, not independently randomized).",
+ "interpretation_note": "Raw results only. No automatic classification applied -- per explicit instruction, interpretation of these coefficients is a separate, deliberate step, not collapsed here."
+}

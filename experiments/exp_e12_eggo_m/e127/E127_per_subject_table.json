@@ -1,0 +1,1252 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "dice_intact": 0.9344537854194641,
+    "N_b": 0.12499314546585083,
+    "S1_magnitude": 0.2567167282104492,
+    "S2_spatial_concentration": 0.8977276682853699,
+    "S3_channel_agreement": 0.362518310546875,
+    "E126_effective_rank": 0.17121973633766174
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "dice_intact": 0.9027494192123413,
+    "N_b": 0.317859947681427,
+    "S1_magnitude": 0.3301583528518677,
+    "S2_spatial_concentration": 0.9037609100341797,
+    "S3_channel_agreement": 0.378082275390625,
+    "E126_effective_rank": 0.20416870713233948
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "dice_intact": 0.9057566523551941,
+    "N_b": 0.2767738699913025,
+    "S1_magnitude": 0.2987147271633148,
+    "S2_spatial_concentration": 0.9015694260597229,
+    "S3_channel_agreement": 0.37432861328125,
+    "E126_effective_rank": 0.193797767162323
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "dice_intact": 0.95652174949646,
+    "N_b": 0.19995105266571045,
+    "S1_magnitude": 0.2771315276622772,
+    "S2_spatial_concentration": 0.8994256854057312,
+    "S3_channel_agreement": 0.3614501953125,
+    "E126_effective_rank": 0.1842930018901825
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "dice_intact": 0.9270814657211304,
+    "N_b": 0.08639520406723022,
+    "S1_magnitude": 0.28270912170410156,
+    "S2_spatial_concentration": 0.8951537013053894,
+    "S3_channel_agreement": 0.3616485595703125,
+    "E126_effective_rank": 0.18046358227729797
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "dice_intact": 0.9089515209197998,
+    "N_b": 0.30521827936172485,
+    "S1_magnitude": 0.329044908285141,
+    "S2_spatial_concentration": 0.9037522673606873,
+    "S3_channel_agreement": 0.385589599609375,
+    "E126_effective_rank": 0.20388451218605042
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "dice_intact": 0.9491449594497681,
+    "N_b": 0.10219067335128784,
+    "S1_magnitude": 0.29195982217788696,
+    "S2_spatial_concentration": 0.900374174118042,
+    "S3_channel_agreement": 0.3645172119140625,
+    "E126_effective_rank": 0.18475395441055298
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "dice_intact": 0.9178234338760376,
+    "N_b": 0.4587021768093109,
+    "S1_magnitude": 0.2950812876224518,
+    "S2_spatial_concentration": 0.8923231959342957,
+    "S3_channel_agreement": 0.3703460693359375,
+    "E126_effective_rank": 0.19140303134918213
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "dice_intact": 0.955834150314331,
+    "N_b": 0.2695850729942322,
+    "S1_magnitude": 0.30901169776916504,
+    "S2_spatial_concentration": 0.9050695896148682,
+    "S3_channel_agreement": 0.37030029296875,
+    "E126_effective_rank": 0.19215568900108337
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "dice_intact": 0.9380024075508118,
+    "N_b": 0.12743330001831055,
+    "S1_magnitude": 0.3207915723323822,
+    "S2_spatial_concentration": 0.9022902846336365,
+    "S3_channel_agreement": 0.364044189453125,
+    "E126_effective_rank": 0.18850553035736084
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "dice_intact": 0.9155176281929016,
+    "N_b": 0.129014790058136,
+    "S1_magnitude": 0.30009347200393677,
+    "S2_spatial_concentration": 0.8988450169563293,
+    "S3_channel_agreement": 0.3641357421875,
+    "E126_effective_rank": 0.18888415396213531
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "dice_intact": 0.9385358095169067,
+    "N_b": 0.14424312114715576,
+    "S1_magnitude": 0.2989664077758789,
+    "S2_spatial_concentration": 0.90139240026474,
+    "S3_channel_agreement": 0.3624420166015625,
+    "E126_effective_rank": 0.1854996383190155
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "dice_intact": 0.7499391436576843,
+    "N_b": 0.21345144510269165,
+    "S1_magnitude": 0.3063901364803314,
+    "S2_spatial_concentration": 0.9044876098632812,
+    "S3_channel_agreement": 0.3636322021484375,
+    "E126_effective_rank": 0.19276438653469086
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "dice_intact": 0.6945010423660278,
+    "N_b": 0.532466933131218,
+    "S1_magnitude": 0.29369622468948364,
+    "S2_spatial_concentration": 0.9021346569061279,
+    "S3_channel_agreement": 0.38409423828125,
+    "E126_effective_rank": 0.19516056776046753
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "dice_intact": 0.9330199956893921,
+    "N_b": 0.25604480504989624,
+    "S1_magnitude": 0.2993130087852478,
+    "S2_spatial_concentration": 0.9019239544868469,
+    "S3_channel_agreement": 0.3624114990234375,
+    "E126_effective_rank": 0.18703427910804749
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "dice_intact": 0.958832323551178,
+    "N_b": 0.5974377691745758,
+    "S1_magnitude": 0.31878677010536194,
+    "S2_spatial_concentration": 0.8988739848136902,
+    "S3_channel_agreement": 0.3846588134765625,
+    "E126_effective_rank": 0.1966332346200943
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "dice_intact": 0.9432753920555115,
+    "N_b": 0.22745579481124878,
+    "S1_magnitude": 0.3148462772369385,
+    "S2_spatial_concentration": 0.9002059698104858,
+    "S3_channel_agreement": 0.3669891357421875,
+    "E126_effective_rank": 0.1926957666873932
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "dice_intact": 0.93472820520401,
+    "N_b": 0.0557590126991272,
+    "S1_magnitude": 0.36664363741874695,
+    "S2_spatial_concentration": 0.9089617133140564,
+    "S3_channel_agreement": 0.384033203125,
+    "E126_effective_rank": 0.19928696751594543
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "dice_intact": 0.9079582095146179,
+    "N_b": 0.24592411518096924,
+    "S1_magnitude": 0.31536731123924255,
+    "S2_spatial_concentration": 0.9032289385795593,
+    "S3_channel_agreement": 0.36090087890625,
+    "E126_effective_rank": 0.1894158273935318
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "dice_intact": 0.9058703184127808,
+    "N_b": 0.3489036560058594,
+    "S1_magnitude": 0.34389379620552063,
+    "S2_spatial_concentration": 0.9017904996871948,
+    "S3_channel_agreement": 0.375,
+    "E126_effective_rank": 0.2031521201133728
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "dice_intact": 0.8594487905502319,
+    "N_b": 0.25756174325942993,
+    "S1_magnitude": 0.2963327467441559,
+    "S2_spatial_concentration": 0.8999954462051392,
+    "S3_channel_agreement": 0.37518310546875,
+    "E126_effective_rank": 0.19125856459140778
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "dice_intact": 0.8444599509239197,
+    "N_b": 0.5079469680786133,
+    "S1_magnitude": 0.322554349899292,
+    "S2_spatial_concentration": 0.9055642485618591,
+    "S3_channel_agreement": 0.388031005859375,
+    "E126_effective_rank": 0.2019687294960022
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "dice_intact": 0.904979944229126,
+    "N_b": 0.13971537351608276,
+    "S1_magnitude": 0.2653343677520752,
+    "S2_spatial_concentration": 0.8980317115783691,
+    "S3_channel_agreement": 0.3600616455078125,
+    "E126_effective_rank": 0.1805649995803833
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "dice_intact": 0.91259765625,
+    "N_b": 0.06916087865829468,
+    "S1_magnitude": 0.27071142196655273,
+    "S2_spatial_concentration": 0.8960657715797424,
+    "S3_channel_agreement": 0.357269287109375,
+    "E126_effective_rank": 0.18041524291038513
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "dice_intact": 0.9350340962409973,
+    "N_b": 0.07637631893157959,
+    "S1_magnitude": 0.28307923674583435,
+    "S2_spatial_concentration": 0.8958725333213806,
+    "S3_channel_agreement": 0.3638916015625,
+    "E126_effective_rank": 0.1800709366798401
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "dice_intact": 0.9380733966827393,
+    "N_b": 0.2606445550918579,
+    "S1_magnitude": 0.2829207181930542,
+    "S2_spatial_concentration": 0.9003925919532776,
+    "S3_channel_agreement": 0.361907958984375,
+    "E126_effective_rank": 0.18284101784229279
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "dice_intact": 0.8936892151832581,
+    "N_b": 0.2011306881904602,
+    "S1_magnitude": 0.32166188955307007,
+    "S2_spatial_concentration": 0.9026219248771667,
+    "S3_channel_agreement": 0.3828125,
+    "E126_effective_rank": 0.19899435341358185
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "dice_intact": 0.6460176706314087,
+    "N_b": 0.5176843404769897,
+    "S1_magnitude": 0.2817068099975586,
+    "S2_spatial_concentration": 0.9018626809120178,
+    "S3_channel_agreement": 0.37066650390625,
+    "E126_effective_rank": 0.19218111038208008
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "dice_intact": 0.9181636571884155,
+    "N_b": 0.7136232107877731,
+    "S1_magnitude": 0.29767343401908875,
+    "S2_spatial_concentration": 0.9031561613082886,
+    "S3_channel_agreement": 0.3802337646484375,
+    "E126_effective_rank": 0.1968904733657837
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "dice_intact": 0.9524440169334412,
+    "N_b": 0.45393550395965576,
+    "S1_magnitude": 0.3603731095790863,
+    "S2_spatial_concentration": 0.9051456451416016,
+    "S3_channel_agreement": 0.38714599609375,
+    "E126_effective_rank": 0.2041333019733429
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "dice_intact": 0.7811925411224365,
+    "N_b": 0.07781970500946045,
+    "S1_magnitude": 0.30396175384521484,
+    "S2_spatial_concentration": 0.9043652415275574,
+    "S3_channel_agreement": 0.3687744140625,
+    "E126_effective_rank": 0.195327490568161
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "dice_intact": 0.9391928315162659,
+    "N_b": 0.3518640398979187,
+    "S1_magnitude": 0.336689829826355,
+    "S2_spatial_concentration": 0.9064456224441528,
+    "S3_channel_agreement": 0.370849609375,
+    "E126_effective_rank": 0.20044337213039398
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "dice_intact": 0.7839999794960022,
+    "N_b": 0.06446331739425659,
+    "S1_magnitude": 0.2736680209636688,
+    "S2_spatial_concentration": 0.9016827344894409,
+    "S3_channel_agreement": 0.360260009765625,
+    "E126_effective_rank": 0.184373676776886
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "dice_intact": 0.9609764218330383,
+    "N_b": 0.423846960067749,
+    "S1_magnitude": 0.3322497010231018,
+    "S2_spatial_concentration": 0.9043947458267212,
+    "S3_channel_agreement": 0.3916015625,
+    "E126_effective_rank": 0.1997721791267395
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "dice_intact": 0.9499267935752869,
+    "N_b": 0.5559443235397339,
+    "S1_magnitude": 0.3376542925834656,
+    "S2_spatial_concentration": 0.9044110774993896,
+    "S3_channel_agreement": 0.3777618408203125,
+    "E126_effective_rank": 0.20107917487621307
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "dice_intact": 0.9571879506111145,
+    "N_b": 0.6249124705791473,
+    "S1_magnitude": 0.3190692067146301,
+    "S2_spatial_concentration": 0.9030746817588806,
+    "S3_channel_agreement": 0.3848419189453125,
+    "E126_effective_rank": 0.1954098641872406
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "dice_intact": 0.9508448243141174,
+    "N_b": 0.03823596239089966,
+    "S1_magnitude": 0.28765857219696045,
+    "S2_spatial_concentration": 0.9011571407318115,
+    "S3_channel_agreement": 0.3597869873046875,
+    "E126_effective_rank": 0.17901410162448883
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "dice_intact": 0.9448076486587524,
+    "N_b": 0.31138157844543457,
+    "S1_magnitude": 0.30746525526046753,
+    "S2_spatial_concentration": 0.9018908739089966,
+    "S3_channel_agreement": 0.3775177001953125,
+    "E126_effective_rank": 0.1938423365354538
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "dice_intact": 0.8959549069404602,
+    "N_b": 0.3048245906829834,
+    "S1_magnitude": 0.3069107234477997,
+    "S2_spatial_concentration": 0.9029910564422607,
+    "S3_channel_agreement": 0.378509521484375,
+    "E126_effective_rank": 0.19624748826026917
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "dice_intact": 0.8732153177261353,
+    "N_b": 0.4038170576095581,
+    "S1_magnitude": 0.3141532838344574,
+    "S2_spatial_concentration": 0.9049010872840881,
+    "S3_channel_agreement": 0.3703460693359375,
+    "E126_effective_rank": 0.20086930692195892
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "dice_intact": 0.9491375684738159,
+    "N_b": 0.47836628556251526,
+    "S1_magnitude": 0.30376189947128296,
+    "S2_spatial_concentration": 0.9042654633522034,
+    "S3_channel_agreement": 0.368194580078125,
+    "E126_effective_rank": 0.19596940279006958
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "dice_intact": 0.9218026995658875,
+    "N_b": 0.34121501445770264,
+    "S1_magnitude": 0.3065595328807831,
+    "S2_spatial_concentration": 0.9013475775718689,
+    "S3_channel_agreement": 0.3701324462890625,
+    "E126_effective_rank": 0.1920151710510254
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "dice_intact": 0.940954327583313,
+    "N_b": 0.09744948148727417,
+    "S1_magnitude": 0.2834605574607849,
+    "S2_spatial_concentration": 0.8961209058761597,
+    "S3_channel_agreement": 0.3612518310546875,
+    "E126_effective_rank": 0.17889784276485443
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "dice_intact": 0.971651554107666,
+    "N_b": 0.4564257264137268,
+    "S1_magnitude": 0.35998162627220154,
+    "S2_spatial_concentration": 0.9068936705589294,
+    "S3_channel_agreement": 0.39398193359375,
+    "E126_effective_rank": 0.20904168486595154
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "dice_intact": 0.9595541954040527,
+    "N_b": 0.2851453423500061,
+    "S1_magnitude": 0.3182646930217743,
+    "S2_spatial_concentration": 0.9030117988586426,
+    "S3_channel_agreement": 0.3668365478515625,
+    "E126_effective_rank": 0.18981266021728516
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "dice_intact": 0.9259999990463257,
+    "N_b": 0.2267335057258606,
+    "S1_magnitude": 0.25694000720977783,
+    "S2_spatial_concentration": 0.8988403677940369,
+    "S3_channel_agreement": 0.36151123046875,
+    "E126_effective_rank": 0.17765063047409058
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "dice_intact": 0.9383764266967773,
+    "N_b": 0.06948250532150269,
+    "S1_magnitude": 0.29282674193382263,
+    "S2_spatial_concentration": 0.8976917862892151,
+    "S3_channel_agreement": 0.3660125732421875,
+    "E126_effective_rank": 0.18406382203102112
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "dice_intact": 0.9429949522018433,
+    "N_b": 0.18318438529968262,
+    "S1_magnitude": 0.34070098400115967,
+    "S2_spatial_concentration": 0.902495265007019,
+    "S3_channel_agreement": 0.3799591064453125,
+    "E126_effective_rank": 0.19475269317626953
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "dice_intact": 0.8801711797714233,
+    "N_b": 0.1915113925933838,
+    "S1_magnitude": 0.27089303731918335,
+    "S2_spatial_concentration": 0.8988909125328064,
+    "S3_channel_agreement": 0.357147216796875,
+    "E126_effective_rank": 0.1847606599330902
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "dice_intact": 0.9482563138008118,
+    "N_b": 0.06370687484741211,
+    "S1_magnitude": 0.28516584634780884,
+    "S2_spatial_concentration": 0.898456335067749,
+    "S3_channel_agreement": 0.3624725341796875,
+    "E126_effective_rank": 0.17653295397758484
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "dice_intact": 0.9480985403060913,
+    "N_b": 0.31891608238220215,
+    "S1_magnitude": 0.29015016555786133,
+    "S2_spatial_concentration": 0.8998739719390869,
+    "S3_channel_agreement": 0.377044677734375,
+    "E126_effective_rank": 0.19234362244606018
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "dice_intact": 0.9515271186828613,
+    "N_b": 0.19198119640350342,
+    "S1_magnitude": 0.31565865874290466,
+    "S2_spatial_concentration": 0.9006544351577759,
+    "S3_channel_agreement": 0.3681488037109375,
+    "E126_effective_rank": 0.19147859513759613
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "dice_intact": 0.9465133547782898,
+    "N_b": 0.17711180448532104,
+    "S1_magnitude": 0.33046674728393555,
+    "S2_spatial_concentration": 0.9080708026885986,
+    "S3_channel_agreement": 0.378082275390625,
+    "E126_effective_rank": 0.19810733199119568
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "dice_intact": 0.9138230085372925,
+    "N_b": 0.41796618700027466,
+    "S1_magnitude": 0.2774311900138855,
+    "S2_spatial_concentration": 0.8993156552314758,
+    "S3_channel_agreement": 0.3647003173828125,
+    "E126_effective_rank": 0.18733543157577515
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "dice_intact": 0.9248466491699219,
+    "N_b": 0.5085180997848511,
+    "S1_magnitude": 0.30946603417396545,
+    "S2_spatial_concentration": 0.9018585681915283,
+    "S3_channel_agreement": 0.3801116943359375,
+    "E126_effective_rank": 0.1961236149072647
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "dice_intact": 0.8321730494499207,
+    "N_b": 0.30652815103530884,
+    "S1_magnitude": 0.3424113094806671,
+    "S2_spatial_concentration": 0.9037960171699524,
+    "S3_channel_agreement": 0.3700103759765625,
+    "E126_effective_rank": 0.19721218943595886
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "dice_intact": 0.8762409090995789,
+    "N_b": 0.17498070001602173,
+    "S1_magnitude": 0.2548345625400543,
+    "S2_spatial_concentration": 0.8969613909721375,
+    "S3_channel_agreement": 0.3581085205078125,
+    "E126_effective_rank": 0.17737314105033875
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "dice_intact": 0.920261025428772,
+    "N_b": 0.2201971411705017,
+    "S1_magnitude": 0.31103742122650146,
+    "S2_spatial_concentration": 0.9038315415382385,
+    "S3_channel_agreement": 0.3775787353515625,
+    "E126_effective_rank": 0.19577395915985107
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "dice_intact": 0.8660427927970886,
+    "N_b": 0.23225659132003784,
+    "S1_magnitude": 0.27209657430648804,
+    "S2_spatial_concentration": 0.9009358286857605,
+    "S3_channel_agreement": 0.3706512451171875,
+    "E126_effective_rank": 0.18663926422595978
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "dice_intact": 0.6947850584983826,
+    "N_b": -0.0212671160697937,
+    "S1_magnitude": 0.2993060052394867,
+    "S2_spatial_concentration": 0.9004804491996765,
+    "S3_channel_agreement": 0.3565673828125,
+    "E126_effective_rank": 0.18580208718776703
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "dice_intact": 0.9642750024795532,
+    "N_b": 0.04587066173553467,
+    "S1_magnitude": 0.3013693690299988,
+    "S2_spatial_concentration": 0.9028527140617371,
+    "S3_channel_agreement": 0.3654937744140625,
+    "E126_effective_rank": 0.18285156786441803
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "dice_intact": 0.8373231887817383,
+    "N_b": 0.27658528089523315,
+    "S1_magnitude": 0.2959183156490326,
+    "S2_spatial_concentration": 0.9012570381164551,
+    "S3_channel_agreement": 0.3773956298828125,
+    "E126_effective_rank": 0.19304391741752625
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "dice_intact": 0.9178907871246338,
+    "N_b": 0.1726984977722168,
+    "S1_magnitude": 0.30969104170799255,
+    "S2_spatial_concentration": 0.9062305688858032,
+    "S3_channel_agreement": 0.3734130859375,
+    "E126_effective_rank": 0.1938399374485016
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "dice_intact": 0.9424306750297546,
+    "N_b": 0.04596710205078125,
+    "S1_magnitude": 0.2594324052333832,
+    "S2_spatial_concentration": 0.898495078086853,
+    "S3_channel_agreement": 0.3638153076171875,
+    "E126_effective_rank": 0.17595475912094116
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "dice_intact": 0.9039264917373657,
+    "N_b": 0.39855432510375977,
+    "S1_magnitude": 0.3233341574668884,
+    "S2_spatial_concentration": 0.8989890217781067,
+    "S3_channel_agreement": 0.3780364990234375,
+    "E126_effective_rank": 0.19690009951591492
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "dice_intact": 0.8649429678916931,
+    "N_b": 0.3102969527244568,
+    "S1_magnitude": 0.3327241837978363,
+    "S2_spatial_concentration": 0.9082523584365845,
+    "S3_channel_agreement": 0.38787841796875,
+    "E126_effective_rank": 0.2029002606868744
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "dice_intact": 0.9470524191856384,
+    "N_b": 0.44962894916534424,
+    "S1_magnitude": 0.2945709228515625,
+    "S2_spatial_concentration": 0.8989350199699402,
+    "S3_channel_agreement": 0.3691253662109375,
+    "E126_effective_rank": 0.19351842999458313
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "dice_intact": 0.9426044225692749,
+    "N_b": 0.3513070344924927,
+    "S1_magnitude": 0.31536805629730225,
+    "S2_spatial_concentration": 0.8960709571838379,
+    "S3_channel_agreement": 0.3705902099609375,
+    "E126_effective_rank": 0.1913224309682846
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "dice_intact": 0.9348952174186707,
+    "N_b": 0.17558622360229492,
+    "S1_magnitude": 0.3000778555870056,
+    "S2_spatial_concentration": 0.9028391242027283,
+    "S3_channel_agreement": 0.36151123046875,
+    "E126_effective_rank": 0.19194304943084717
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "dice_intact": 0.9546093940734863,
+    "N_b": 0.06029587984085083,
+    "S1_magnitude": 0.27564752101898193,
+    "S2_spatial_concentration": 0.8989778757095337,
+    "S3_channel_agreement": 0.363037109375,
+    "E126_effective_rank": 0.1772216558456421
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "dice_intact": 0.9574585556983948,
+    "N_b": 0.4124768376350403,
+    "S1_magnitude": 0.35753241181373596,
+    "S2_spatial_concentration": 0.9073330760002136,
+    "S3_channel_agreement": 0.3937835693359375,
+    "E126_effective_rank": 0.20849794149398804
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "dice_intact": 0.9401260614395142,
+    "N_b": 0.2168351411819458,
+    "S1_magnitude": 0.2962171733379364,
+    "S2_spatial_concentration": 0.899253249168396,
+    "S3_channel_agreement": 0.359649658203125,
+    "E126_effective_rank": 0.18569496273994446
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "dice_intact": 0.9538621306419373,
+    "N_b": 0.3334997296333313,
+    "S1_magnitude": 0.34626731276512146,
+    "S2_spatial_concentration": 0.9046286344528198,
+    "S3_channel_agreement": 0.3842620849609375,
+    "E126_effective_rank": 0.20435233414173126
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "dice_intact": 0.7765830159187317,
+    "N_b": 0.4623090624809265,
+    "S1_magnitude": 0.2735142707824707,
+    "S2_spatial_concentration": 0.9000167846679688,
+    "S3_channel_agreement": 0.364227294921875,
+    "E126_effective_rank": 0.18558034300804138
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "dice_intact": 0.5513153076171875,
+    "N_b": 0.21619752049446106,
+    "S1_magnitude": 0.3028048872947693,
+    "S2_spatial_concentration": 0.9020271301269531,
+    "S3_channel_agreement": 0.3690338134765625,
+    "E126_effective_rank": 0.19850705564022064
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "dice_intact": 0.9022634029388428,
+    "N_b": 0.05243837833404541,
+    "S1_magnitude": 0.28692466020584106,
+    "S2_spatial_concentration": 0.8976659774780273,
+    "S3_channel_agreement": 0.3575592041015625,
+    "E126_effective_rank": 0.18058516085147858
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "dice_intact": 0.958254873752594,
+    "N_b": 0.41863566637039185,
+    "S1_magnitude": 0.35648974776268005,
+    "S2_spatial_concentration": 0.9049451947212219,
+    "S3_channel_agreement": 0.380096435546875,
+    "E126_effective_rank": 0.2001853734254837
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "dice_intact": 0.7357950210571289,
+    "N_b": 0.12460696697235107,
+    "S1_magnitude": 0.27088773250579834,
+    "S2_spatial_concentration": 0.8970709443092346,
+    "S3_channel_agreement": 0.3594512939453125,
+    "E126_effective_rank": 0.1855669617652893
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "dice_intact": 0.8805298209190369,
+    "N_b": 0.2093801498413086,
+    "S1_magnitude": 0.2912385165691376,
+    "S2_spatial_concentration": 0.9006986618041992,
+    "S3_channel_agreement": 0.36370849609375,
+    "E126_effective_rank": 0.1876404583454132
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "dice_intact": 0.8079251646995544,
+    "N_b": 0.17647433280944824,
+    "S1_magnitude": 0.2852477431297302,
+    "S2_spatial_concentration": 0.9016069173812866,
+    "S3_channel_agreement": 0.36444091796875,
+    "E126_effective_rank": 0.1875874102115631
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "dice_intact": 0.9488896727561951,
+    "N_b": 0.05872923135757446,
+    "S1_magnitude": 0.2835194766521454,
+    "S2_spatial_concentration": 0.9000088572502136,
+    "S3_channel_agreement": 0.3633575439453125,
+    "E126_effective_rank": 0.1794000267982483
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "dice_intact": 0.917416512966156,
+    "N_b": 0.4302676022052765,
+    "S1_magnitude": 0.32451677322387695,
+    "S2_spatial_concentration": 0.9033742547035217,
+    "S3_channel_agreement": 0.3764495849609375,
+    "E126_effective_rank": 0.1961522400379181
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "dice_intact": 0.9431173801422119,
+    "N_b": 0.2852058410644531,
+    "S1_magnitude": 0.2945999801158905,
+    "S2_spatial_concentration": 0.9007493257522583,
+    "S3_channel_agreement": 0.3773193359375,
+    "E126_effective_rank": 0.19163104891777039
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "dice_intact": 0.8315232396125793,
+    "N_b": 0.08385968208312988,
+    "S1_magnitude": 0.27917152643203735,
+    "S2_spatial_concentration": 0.9016551375389099,
+    "S3_channel_agreement": 0.3657989501953125,
+    "E126_effective_rank": 0.18188494443893433
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "dice_intact": 0.9057061672210693,
+    "N_b": 0.272821843624115,
+    "S1_magnitude": 0.31022921204566956,
+    "S2_spatial_concentration": 0.9005261063575745,
+    "S3_channel_agreement": 0.367523193359375,
+    "E126_effective_rank": 0.1950603723526001
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "dice_intact": 0.9017341136932373,
+    "N_b": 0.5379432141780853,
+    "S1_magnitude": 0.31019479036331177,
+    "S2_spatial_concentration": 0.9030607342720032,
+    "S3_channel_agreement": 0.3768310546875,
+    "E126_effective_rank": 0.19926272332668304
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "dice_intact": 0.9582340717315674,
+    "N_b": 0.43157583475112915,
+    "S1_magnitude": 0.33409371972084045,
+    "S2_spatial_concentration": 0.9066639542579651,
+    "S3_channel_agreement": 0.3892059326171875,
+    "E126_effective_rank": 0.20525889098644257
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "dice_intact": 0.9005586504936218,
+    "N_b": 0.5239098966121674,
+    "S1_magnitude": 0.29220589995384216,
+    "S2_spatial_concentration": 0.9024941921234131,
+    "S3_channel_agreement": 0.3685302734375,
+    "E126_effective_rank": 0.1970875859260559
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "dice_intact": 0.690097987651825,
+    "N_b": -0.07522088289260864,
+    "S1_magnitude": 0.2620016038417816,
+    "S2_spatial_concentration": 0.8971619009971619,
+    "S3_channel_agreement": 0.3606719970703125,
+    "E126_effective_rank": 0.1781361699104309
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "dice_intact": 0.9509859085083008,
+    "N_b": 0.5615134537220001,
+    "S1_magnitude": 0.33798083662986755,
+    "S2_spatial_concentration": 0.9085633158683777,
+    "S3_channel_agreement": 0.389678955078125,
+    "E126_effective_rank": 0.20316365361213684
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "dice_intact": 0.8670076727867126,
+    "N_b": 0.2649315595626831,
+    "S1_magnitude": 0.2718208134174347,
+    "S2_spatial_concentration": 0.9013564586639404,
+    "S3_channel_agreement": 0.3671417236328125,
+    "E126_effective_rank": 0.18606194853782654
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "dice_intact": 0.9479740858078003,
+    "N_b": 0.3235592842102051,
+    "S1_magnitude": 0.3354174494743347,
+    "S2_spatial_concentration": 0.9060629606246948,
+    "S3_channel_agreement": 0.368743896484375,
+    "E126_effective_rank": 0.1941789984703064
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "dice_intact": 0.6380165219306946,
+    "N_b": 0.4514275938272476,
+    "S1_magnitude": 0.271867036819458,
+    "S2_spatial_concentration": 0.9028704166412354,
+    "S3_channel_agreement": 0.3691864013671875,
+    "E126_effective_rank": 0.18885785341262817
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "dice_intact": 0.8838226199150085,
+    "N_b": 0.6738337874412537,
+    "S1_magnitude": 0.33728089928627014,
+    "S2_spatial_concentration": 0.9042922854423523,
+    "S3_channel_agreement": 0.3614501953125,
+    "E126_effective_rank": 0.19534915685653687
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "dice_intact": 0.7339449524879456,
+    "N_b": 0.5698873400688171,
+    "S1_magnitude": 0.2590281367301941,
+    "S2_spatial_concentration": 0.8997316956520081,
+    "S3_channel_agreement": 0.36285400390625,
+    "E126_effective_rank": 0.18542712926864624
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "dice_intact": 0.9308297634124756,
+    "N_b": 0.0938253402709961,
+    "S1_magnitude": 0.27124592661857605,
+    "S2_spatial_concentration": 0.8996283411979675,
+    "S3_channel_agreement": 0.3542633056640625,
+    "E126_effective_rank": 0.18133017420768738
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "dice_intact": 0.8857743740081787,
+    "N_b": 0.2635798454284668,
+    "S1_magnitude": 0.3216540515422821,
+    "S2_spatial_concentration": 0.904114305973053,
+    "S3_channel_agreement": 0.381591796875,
+    "E126_effective_rank": 0.20206335186958313
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "dice_intact": 0.8802160024642944,
+    "N_b": 0.40276241302490234,
+    "S1_magnitude": 0.33268827199935913,
+    "S2_spatial_concentration": 0.9055302143096924,
+    "S3_channel_agreement": 0.3861541748046875,
+    "E126_effective_rank": 0.20283730328083038
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "dice_intact": 0.9153794646263123,
+    "N_b": 0.5518956184387207,
+    "S1_magnitude": 0.3152173161506653,
+    "S2_spatial_concentration": 0.9036577939987183,
+    "S3_channel_agreement": 0.3732147216796875,
+    "E126_effective_rank": 0.19867247343063354
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "dice_intact": 0.9618700742721558,
+    "N_b": 0.1544877290725708,
+    "S1_magnitude": 0.3350429832935333,
+    "S2_spatial_concentration": 0.9056500196456909,
+    "S3_channel_agreement": 0.371673583984375,
+    "E126_effective_rank": 0.19771398603916168
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "dice_intact": 0.9552779197692871,
+    "N_b": 0.11287009716033936,
+    "S1_magnitude": 0.3009008765220642,
+    "S2_spatial_concentration": 0.9014889001846313,
+    "S3_channel_agreement": 0.365386962890625,
+    "E126_effective_rank": 0.1906270980834961
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "dice_intact": 0.9254449009895325,
+    "N_b": 0.16402792930603027,
+    "S1_magnitude": 0.26439496874809265,
+    "S2_spatial_concentration": 0.9002756476402283,
+    "S3_channel_agreement": 0.3616943359375,
+    "E126_effective_rank": 0.18068042397499084
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "dice_intact": 0.8285664319992065,
+    "N_b": 0.12039673328399658,
+    "S1_magnitude": 0.2796407639980316,
+    "S2_spatial_concentration": 0.9005286693572998,
+    "S3_channel_agreement": 0.36474609375,
+    "E126_effective_rank": 0.18823246657848358
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "dice_intact": 0.8916131258010864,
+    "N_b": 0.2012873888015747,
+    "S1_magnitude": 0.3051978647708893,
+    "S2_spatial_concentration": 0.902584969997406,
+    "S3_channel_agreement": 0.37640380859375,
+    "E126_effective_rank": 0.19597193598747253
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "dice_intact": 0.7762619256973267,
+    "N_b": 0.5539858937263489,
+    "S1_magnitude": 0.2973816990852356,
+    "S2_spatial_concentration": 0.9063182473182678,
+    "S3_channel_agreement": 0.3715362548828125,
+    "E126_effective_rank": 0.19127459824085236
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "dice_intact": 0.9409164190292358,
+    "N_b": 0.058209359645843506,
+    "S1_magnitude": 0.2783587872982025,
+    "S2_spatial_concentration": 0.9003087878227234,
+    "S3_channel_agreement": 0.3590545654296875,
+    "E126_effective_rank": 0.1790299117565155
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "dice_intact": 0.8283567428588867,
+    "N_b": 0.20681554079055786,
+    "S1_magnitude": 0.29658955335617065,
+    "S2_spatial_concentration": 0.8981520533561707,
+    "S3_channel_agreement": 0.361572265625,
+    "E126_effective_rank": 0.1893908679485321
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "dice_intact": 0.9260525107383728,
+    "N_b": 0.21203607320785522,
+    "S1_magnitude": 0.302408367395401,
+    "S2_spatial_concentration": 0.9011703729629517,
+    "S3_channel_agreement": 0.376007080078125,
+    "E126_effective_rank": 0.19413402676582336
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "dice_intact": 0.7246376872062683,
+    "N_b": 0.22112983465194702,
+    "S1_magnitude": 0.2883495092391968,
+    "S2_spatial_concentration": 0.9032642245292664,
+    "S3_channel_agreement": 0.363372802734375,
+    "E126_effective_rank": 0.19197523593902588
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "dice_intact": 0.7518000602722168,
+    "N_b": 0.20777440071105957,
+    "S1_magnitude": 0.3010060787200928,
+    "S2_spatial_concentration": 0.9004759788513184,
+    "S3_channel_agreement": 0.3600006103515625,
+    "E126_effective_rank": 0.19205635786056519
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "dice_intact": 0.9303476810455322,
+    "N_b": 0.24552083015441895,
+    "S1_magnitude": 0.34578898549079895,
+    "S2_spatial_concentration": 0.9066378474235535,
+    "S3_channel_agreement": 0.3919677734375,
+    "E126_effective_rank": 0.20063480734825134
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "dice_intact": 0.885273277759552,
+    "N_b": 0.05552119016647339,
+    "S1_magnitude": 0.27214035391807556,
+    "S2_spatial_concentration": 0.9024626016616821,
+    "S3_channel_agreement": 0.36688232421875,
+    "E126_effective_rank": 0.1805751919746399
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "dice_intact": 0.9001051783561707,
+    "N_b": 0.7465932369232178,
+    "S1_magnitude": 0.30277690291404724,
+    "S2_spatial_concentration": 0.9036864042282104,
+    "S3_channel_agreement": 0.3859710693359375,
+    "E126_effective_rank": 0.20193395018577576
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "dice_intact": 0.9153589606285095,
+    "N_b": 0.23976343870162964,
+    "S1_magnitude": 0.3105238080024719,
+    "S2_spatial_concentration": 0.8999544382095337,
+    "S3_channel_agreement": 0.3687744140625,
+    "E126_effective_rank": 0.19406035542488098
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "dice_intact": 0.9496186971664429,
+    "N_b": 0.26791536808013916,
+    "S1_magnitude": 0.3221248388290405,
+    "S2_spatial_concentration": 0.9003375172615051,
+    "S3_channel_agreement": 0.3707275390625,
+    "E126_effective_rank": 0.19340144097805023
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "dice_intact": 0.9367928504943848,
+    "N_b": 0.3436851501464844,
+    "S1_magnitude": 0.354800283908844,
+    "S2_spatial_concentration": 0.9084234237670898,
+    "S3_channel_agreement": 0.3687591552734375,
+    "E126_effective_rank": 0.19742551445960999
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "dice_intact": 0.7190569639205933,
+    "N_b": -0.10422194004058838,
+    "S1_magnitude": 0.2400752305984497,
+    "S2_spatial_concentration": 0.8995136618614197,
+    "S3_channel_agreement": 0.3612518310546875,
+    "E126_effective_rank": 0.16724878549575806
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "dice_intact": 0.9195327758789062,
+    "N_b": 0.37493181228637695,
+    "S1_magnitude": 0.30277901887893677,
+    "S2_spatial_concentration": 0.9015949964523315,
+    "S3_channel_agreement": 0.3725738525390625,
+    "E126_effective_rank": 0.19418920576572418
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "dice_intact": 0.9343770742416382,
+    "N_b": 0.1859363317489624,
+    "S1_magnitude": 0.2952783703804016,
+    "S2_spatial_concentration": 0.9024343490600586,
+    "S3_channel_agreement": 0.368804931640625,
+    "E126_effective_rank": 0.19110450148582458
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "dice_intact": 0.9354915022850037,
+    "N_b": 0.07895833253860474,
+    "S1_magnitude": 0.30150148272514343,
+    "S2_spatial_concentration": 0.9014855623245239,
+    "S3_channel_agreement": 0.3631134033203125,
+    "E126_effective_rank": 0.18356144428253174
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "dice_intact": 0.7930864095687866,
+    "N_b": 0.2142024040222168,
+    "S1_magnitude": 0.2816750407218933,
+    "S2_spatial_concentration": 0.8987867832183838,
+    "S3_channel_agreement": 0.359130859375,
+    "E126_effective_rank": 0.18825286626815796
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "dice_intact": 0.9705498814582825,
+    "N_b": 0.09119051694869995,
+    "S1_magnitude": 0.2779906988143921,
+    "S2_spatial_concentration": 0.8974077105522156,
+    "S3_channel_agreement": 0.357421875,
+    "E126_effective_rank": 0.18053260445594788
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "dice_intact": 0.86085444688797,
+    "N_b": 0.35135209560394287,
+    "S1_magnitude": 0.3291245996952057,
+    "S2_spatial_concentration": 0.9023633003234863,
+    "S3_channel_agreement": 0.378997802734375,
+    "E126_effective_rank": 0.19636249542236328
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "dice_intact": 0.8719772696495056,
+    "N_b": 0.547450840473175,
+    "S1_magnitude": 0.29223722219467163,
+    "S2_spatial_concentration": 0.9022805690765381,
+    "S3_channel_agreement": 0.374664306640625,
+    "E126_effective_rank": 0.19583477079868317
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "dice_intact": 0.9142119288444519,
+    "N_b": 0.20153731107711792,
+    "S1_magnitude": 0.2884729504585266,
+    "S2_spatial_concentration": 0.9012019634246826,
+    "S3_channel_agreement": 0.3701629638671875,
+    "E126_effective_rank": 0.18458427488803864
+  }
+]

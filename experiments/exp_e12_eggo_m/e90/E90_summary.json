@@ -1,0 +1,18 @@
+{
+  "n_test": 32,
+  "n_small": 16,
+  "n_large": 16,
+  "median_native_size": 90864.5,
+  "small_mean_decodability_dice": 0.6518729098606855,
+  "large_mean_decodability_dice": 0.7591931372880936,
+  "small_mean_actual_dice": 0.8650496415793896,
+  "large_mean_actual_dice": 0.9036227166652679,
+  "small_mean_extractability_gap": -0.2131767317187041,
+  "large_mean_extractability_gap": -0.14442957937717438,
+  "decodability_small_vs_large_diff": -0.1073202274274081,
+  "decodability_diff_permutation_p": 0.019,
+  "small_gap_positive_permutation_p": 1.0,
+  "large_gap_positive_permutation_p": 1.0,
+  "decision": "H1_H2_INFORMATION_OR_CAPACITY_LIMITED",
+  "detail": "Decodability itself is significantly lower for small lesions -- even a simple linear probe with full access to raw bottleneck features cannot recover much small-lesion signal. Cannot distinguish H1 (capacity) from H2 (upstream information loss) with this probe alone -- would need to probe enc1/enc2/enc3 as a follow-up."
+}

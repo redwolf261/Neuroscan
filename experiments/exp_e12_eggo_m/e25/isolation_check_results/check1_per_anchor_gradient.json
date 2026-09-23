@@ -1,0 +1,423 @@
+[
+  {
+    "g_full_batch_norm": 1.9295204877853394,
+    "per_anchor_probes": [
+      {
+        "category": "TN",
+        "grad_norm": 0.20111806690692902,
+        "cos_with_full_batch_grad": 0.51596999168396
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.04400758445262909,
+        "cos_with_full_batch_grad": 0.056155379861593246
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.019334644079208374,
+        "cos_with_full_batch_grad": -0.03483499214053154
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.11195473372936249,
+        "cos_with_full_batch_grad": -0.11131200194358826
+      },
+      {
+        "category": "TP",
+        "grad_norm": 1.6418545246124268,
+        "cos_with_full_batch_grad": 0.03038107603788376
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.953951835632324,
+        "cos_with_full_batch_grad": 0.6017972230911255
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.64684796333313,
+        "cos_with_full_batch_grad": 0.8360462784767151
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.804633378982544,
+        "cos_with_full_batch_grad": 0.81653892993927
+      },
+      {
+        "category": "FP",
+        "grad_norm": 1.624076008796692,
+        "cos_with_full_batch_grad": 0.5746595859527588
+      },
+      {
+        "category": "FN",
+        "grad_norm": 21.539690017700195,
+        "cos_with_full_batch_grad": 0.49482548236846924
+      },
+      {
+        "category": "FN",
+        "grad_norm": 19.8638973236084,
+        "cos_with_full_batch_grad": 0.5547872185707092
+      },
+      {
+        "category": "FN",
+        "grad_norm": 19.968412399291992,
+        "cos_with_full_batch_grad": 0.27997177839279175
+      },
+      {
+        "category": "FN",
+        "grad_norm": 17.970415115356445,
+        "cos_with_full_batch_grad": 0.26574766635894775
+      }
+    ],
+    "epoch": 5
+  },
+  {
+    "g_full_batch_norm": 0.7185487151145935,
+    "per_anchor_probes": [
+      {
+        "category": "TN",
+        "grad_norm": 1.3485831022262573,
+        "cos_with_full_batch_grad": -0.3050626218318939
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.030261024832725525,
+        "cos_with_full_batch_grad": 0.0007552392780780792
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.12621411681175232,
+        "cos_with_full_batch_grad": 0.13325931131839752
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.35635271668434143,
+        "cos_with_full_batch_grad": 0.16401195526123047
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.29070350527763367,
+        "cos_with_full_batch_grad": -0.19987618923187256
+      },
+      {
+        "category": "FP",
+        "grad_norm": 6.949079513549805,
+        "cos_with_full_batch_grad": 0.5208843946456909
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.513789653778076,
+        "cos_with_full_batch_grad": 0.05393192917108536
+      },
+      {
+        "category": "FP",
+        "grad_norm": 4.337481498718262,
+        "cos_with_full_batch_grad": 0.4043314456939697
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.2744979858398438,
+        "cos_with_full_batch_grad": 0.6198790073394775
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.877823829650879,
+        "cos_with_full_batch_grad": 0.15466193854808807
+      },
+      {
+        "category": "FN",
+        "grad_norm": 8.163345336914062,
+        "cos_with_full_batch_grad": 0.3310822546482086
+      },
+      {
+        "category": "FN",
+        "grad_norm": 14.891524314880371,
+        "cos_with_full_batch_grad": 0.527347207069397
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.10895824432373,
+        "cos_with_full_batch_grad": 0.41306042671203613
+      }
+    ],
+    "epoch": 10
+  },
+  {
+    "g_full_batch_norm": 0.5867910981178284,
+    "per_anchor_probes": [
+      {
+        "category": "TN",
+        "grad_norm": 0.33853909373283386,
+        "cos_with_full_batch_grad": 0.1583816409111023
+      },
+      {
+        "category": "TN",
+        "grad_norm": 2.5932836532592773,
+        "cos_with_full_batch_grad": -0.011375216767191887
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.06267058104276657,
+        "cos_with_full_batch_grad": 0.2840888798236847
+      },
+      {
+        "category": "TP",
+        "grad_norm": 9.156497955322266,
+        "cos_with_full_batch_grad": 0.31903076171875
+      },
+      {
+        "category": "TP",
+        "grad_norm": 7.636889934539795,
+        "cos_with_full_batch_grad": 0.109160877764225
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.014987457543611526,
+        "cos_with_full_batch_grad": -0.17329075932502747
+      },
+      {
+        "category": "FP",
+        "grad_norm": 5.092226505279541,
+        "cos_with_full_batch_grad": 0.6080667972564697
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.8107221126556396,
+        "cos_with_full_batch_grad": 0.45589447021484375
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.073715925216675,
+        "cos_with_full_batch_grad": 0.4659392833709717
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.7129099369049072,
+        "cos_with_full_batch_grad": 0.4027392268180847
+      },
+      {
+        "category": "FN",
+        "grad_norm": 11.547863960266113,
+        "cos_with_full_batch_grad": 0.30976012349128723
+      },
+      {
+        "category": "FN",
+        "grad_norm": 16.731185913085938,
+        "cos_with_full_batch_grad": 0.564405620098114
+      },
+      {
+        "category": "FN",
+        "grad_norm": 16.384424209594727,
+        "cos_with_full_batch_grad": 0.45934435725212097
+      },
+      {
+        "category": "FN",
+        "grad_norm": 12.313531875610352,
+        "cos_with_full_batch_grad": 0.48458394408226013
+      }
+    ],
+    "epoch": 15
+  },
+  {
+    "g_full_batch_norm": 0.5209978222846985,
+    "per_anchor_probes": [
+      {
+        "category": "TN",
+        "grad_norm": 0.5974721908569336,
+        "cos_with_full_batch_grad": 0.3608034551143646
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.2258521467447281,
+        "cos_with_full_batch_grad": 0.48914045095443726
+      },
+      {
+        "category": "TP",
+        "grad_norm": 1.0442898273468018,
+        "cos_with_full_batch_grad": -0.18234065175056458
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.4132950007915497,
+        "cos_with_full_batch_grad": 0.027843132615089417
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.079847812652588,
+        "cos_with_full_batch_grad": 0.38347476720809937
+      },
+      {
+        "category": "FP",
+        "grad_norm": 9.05118179321289,
+        "cos_with_full_batch_grad": 0.6218581199645996
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.565375804901123,
+        "cos_with_full_batch_grad": 0.35517019033432007
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.31223464012146,
+        "cos_with_full_batch_grad": 0.2573731243610382
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.498140335083008,
+        "cos_with_full_batch_grad": 0.35341542959213257
+      },
+      {
+        "category": "FN",
+        "grad_norm": 11.264156341552734,
+        "cos_with_full_batch_grad": 0.44644373655319214
+      },
+      {
+        "category": "FN",
+        "grad_norm": 9.138141632080078,
+        "cos_with_full_batch_grad": 0.3713775873184204
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.609073638916016,
+        "cos_with_full_batch_grad": 0.14182054996490479
+      }
+    ],
+    "epoch": 20
+  },
+  {
+    "g_full_batch_norm": 0.41152265667915344,
+    "per_anchor_probes": [
+      {
+        "category": "TN",
+        "grad_norm": 0.013518961146473885,
+        "cos_with_full_batch_grad": 0.2878352105617523
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.06538959592580795,
+        "cos_with_full_batch_grad": 0.2025708258152008
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.019660355523228645,
+        "cos_with_full_batch_grad": 0.08825113624334335
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.9512288570404053,
+        "cos_with_full_batch_grad": 0.5491107702255249
+      },
+      {
+        "category": "FP",
+        "grad_norm": 2.3828935623168945,
+        "cos_with_full_batch_grad": 0.3421286344528198
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.9318020343780518,
+        "cos_with_full_batch_grad": 0.2588997185230255
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.060792922973633,
+        "cos_with_full_batch_grad": 0.5085510015487671
+      },
+      {
+        "category": "FN",
+        "grad_norm": 11.41214370727539,
+        "cos_with_full_batch_grad": 0.5620808601379395
+      },
+      {
+        "category": "FN",
+        "grad_norm": 7.719181060791016,
+        "cos_with_full_batch_grad": 0.4817315638065338
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.681648254394531,
+        "cos_with_full_batch_grad": 0.4058283269405365
+      },
+      {
+        "category": "FN",
+        "grad_norm": 7.5434160232543945,
+        "cos_with_full_batch_grad": 0.3039906620979309
+      }
+    ],
+    "epoch": 25
+  },
+  {
+    "g_full_batch_norm": 0.4628932774066925,
+    "per_anchor_probes": [
+      {
+        "category": "TN",
+        "grad_norm": 1.7283530235290527,
+        "cos_with_full_batch_grad": 0.3692466616630554
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.41084983944892883,
+        "cos_with_full_batch_grad": 0.27330416440963745
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.1014740914106369,
+        "cos_with_full_batch_grad": -0.022552167996764183
+      },
+      {
+        "category": "TN",
+        "grad_norm": 0.01914033852517605,
+        "cos_with_full_batch_grad": -0.022638794034719467
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.12682418525218964,
+        "cos_with_full_batch_grad": 0.3161756992340088
+      },
+      {
+        "category": "TP",
+        "grad_norm": 0.01126848440617323,
+        "cos_with_full_batch_grad": 0.0158708356320858
+      },
+      {
+        "category": "FP",
+        "grad_norm": 5.170072555541992,
+        "cos_with_full_batch_grad": 0.39616113901138306
+      },
+      {
+        "category": "FP",
+        "grad_norm": 4.193061828613281,
+        "cos_with_full_batch_grad": 0.2738744616508484
+      },
+      {
+        "category": "FP",
+        "grad_norm": 3.165104866027832,
+        "cos_with_full_batch_grad": 0.3067258596420288
+      },
+      {
+        "category": "FP",
+        "grad_norm": 4.009214401245117,
+        "cos_with_full_batch_grad": 0.3320513963699341
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.841182708740234,
+        "cos_with_full_batch_grad": 0.35106346011161804
+      },
+      {
+        "category": "FN",
+        "grad_norm": 10.139958381652832,
+        "cos_with_full_batch_grad": 0.6067289710044861
+      },
+      {
+        "category": "FN",
+        "grad_norm": 9.26109504699707,
+        "cos_with_full_batch_grad": 0.45865052938461304
+      },
+      {
+        "category": "FN",
+        "grad_norm": 4.49448299407959,
+        "cos_with_full_batch_grad": 0.4188382625579834
+      }
+    ],
+    "epoch": 30
+  }
+]

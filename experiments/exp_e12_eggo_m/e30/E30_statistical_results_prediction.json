@@ -1,0 +1,90 @@
+{
+  "n_components": 193,
+  "n_subjects": 125,
+  "predicted_vs_gt_survival_by_alpha": {
+    "0.0": {
+      "mean_s_c": 0.4635736889226295,
+      "mean_s_hat_c": NaN,
+      "spearman_rho": NaN,
+      "spearman_p": NaN
+    },
+    "0.25": {
+      "mean_s_c": 0.2270316644764926,
+      "mean_s_hat_c": NaN,
+      "spearman_rho": NaN,
+      "spearman_p": NaN
+    },
+    "0.5": {
+      "mean_s_c": 0.09840223248110229,
+      "mean_s_hat_c": NaN,
+      "spearman_rho": NaN,
+      "spearman_p": NaN
+    },
+    "0.75": {
+      "mean_s_c": 0.050623435422871385,
+      "mean_s_hat_c": NaN,
+      "spearman_rho": NaN,
+      "spearman_p": NaN
+    },
+    "1.0": {
+      "mean_s_c": 0.025629833319006534,
+      "mean_s_hat_c": NaN,
+      "spearman_rho": NaN,
+      "spearman_p": NaN
+    }
+  },
+  "A_c": {
+    "mean": 0.005967735212218079,
+    "median": 0.0,
+    "sd": 0.021813004894633833,
+    "p5": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.0,
+    "p95": 0.04297090622597997
+  },
+  "G_c": {
+    "mean": 54.5223888420525,
+    "median": -0.5095312830498934,
+    "sd": 565.2687498888749
+  },
+  "predictive_models": {
+    "r2_model0_size_only": 0.0851147972811589,
+    "r2_model1_size_plus_Ac": 0.10607356061496276,
+    "r2_model2_size_plus_Gc": 0.2555022543121729,
+    "r2_model3_size_plus_both": 0.2647036677226844,
+    "delta_r2_model1": 0.020958763333803865,
+    "delta_r2_model2": 0.170387457031014,
+    "delta_r2_model3": 0.1795888704415255,
+    "gate_b_pass_ols_only": "True",
+    "gate_b_outlier_robustness_check": {
+      "spearman_rho_all": 0.6210127445739806,
+      "spearman_p_all": 5.721290556495445e-22,
+      "pearson_r_excl_top5_outliers": 0.10864721068816216,
+      "pearson_p_excl_top5_outliers": 0.1377672414052762,
+      "spearman_rho_excl_top5_outliers": 0.6286954933092354,
+      "spearman_p_excl_top5_outliers": 4.474187557466747e-22
+    },
+    "gate_b_pass_robust": "True",
+    "gate_b_pass_final_requires_both": "True"
+  },
+  "triviality_check": {
+    "spearman_Ac_vs_final_quality": -0.46162123027844987,
+    "spearman_Ac_vs_size": -0.40216002168608295,
+    "spearman_Ac_vs_gt_survival_64": 0.013159955438521626,
+    "r2_Ac_from_size_alone": 0.22570440876268272,
+    "verdict": "A_c is NOT simply a re-expression of size or final outcome"
+  },
+  "subject_clustered_bootstrap_delta_r2": {
+    "mean": 0.031364436869679574,
+    "ci_low": 0.0069671201122158246,
+    "ci_high": 0.10280984625279711,
+    "n_boot": 1000
+  },
+  "subject_clustered_bootstrap_Gc_spearman": {
+    "mean": 0.6237318940495322,
+    "ci_low": 0.4894397125585556,
+    "ci_high": 0.76727593801133,
+    "n_boot": 1000
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e25\\deep_sup_runs\\DeepSup_D4only_seed0\\checkpoints\\best.pth",
+  "n_subjects": 125,
+  "mean_dice_control": 0.8957643356323243,
+  "translation_offset_voxels": 3,
+  "arm_stats": {
+    "translation": {
+      "mean": 0.21425052523612975,
+      "t_p": 1.4754208031318904e-54,
+      "wilcoxon_p": 1.4821899732452823e-22,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.1990420336663723,
+        0.23022696681320665
+      ],
+      "significant": true
+    },
+    "local_perm": {
+      "mean": 0.02703010195493698,
+      "t_p": 4.389160133831383e-33,
+      "wilcoxon_p": 3.5223987969879738e-22,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.02394248332977295,
+        0.030305692051351068
+      ],
+      "significant": true
+    },
+    "channel_perm": {
+      "mean": 0.1009090449474752,
+      "t_p": 3.374908893481405e-47,
+      "wilcoxon_p": 1.4821899732452823e-22,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.09246289670504629,
+        0.10977160853664389
+      ],
+      "significant": true
+    },
+    "smoothing": {
+      "mean": 0.02836699914932251,
+      "t_p": 1.8931156075113915e-30,
+      "wilcoxon_p": 4.47367620816972e-22,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.024910035037994386,
+        0.03215661906003952
+      ],
+      "significant": true
+    }
+  },
+  "size_dependence": {
+    "translation": {
+      "rho": -0.5527864823348694,
+      "parametric_p": 2.3228248195233773e-11,
+      "permutation_p": 0.0,
+      "size_specific": true
+    },
+    "local_perm": {
+      "rho": -0.40349615975422426,
+      "parametric_p": 3.0734630846372714e-06,
+      "permutation_p": 0.0,
+      "size_specific": true
+    },
+    "channel_perm": {
+      "rho": -0.5710599078341013,
+      "parametric_p": 3.5543587910073935e-12,
+      "permutation_p": 0.0,
+      "size_specific": true
+    },
+    "smoothing": {
+      "rho": -0.38158525345622113,
+      "parametric_p": 1.129816117292251e-05,
+      "permutation_p": 0.0,
+      "size_specific": true
+    }
+  },
+  "interpretation": [
+    "Absolute spatial correspondence IS causally necessary (SIZE-SPECIFIC, mean drop=+0.21425) -- supports candidate 1 (a registration/correspondence-preserving fix).",
+    "BOTH local arrangement and absolute correspondence matter independently.",
+    "Semantic channel identity at each location matters (SIZE-SPECIFIC, mean drop=+0.10091) -- supports candidate 3.",
+    "BOTH frequency content and exact arrangement matter independently (smoothing AND local-perm both significant)."
+  ]
+}

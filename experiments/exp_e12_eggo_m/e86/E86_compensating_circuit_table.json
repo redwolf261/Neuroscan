@@ -1,0 +1,1127 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "dice_intact": 0.9344537854194641,
+    "drop_bottleneck_alone": 0.12499314546585083,
+    "drop_psi_clamp_alone": 0.07203078269958496,
+    "drop_joint": 0.10685336589813232,
+    "individual_drop_sum": 0.1970239281654358,
+    "e48_drop_crossref": 0.10422587394714355
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "dice_intact": 0.9027494192123413,
+    "drop_bottleneck_alone": 0.317859947681427,
+    "drop_psi_clamp_alone": 0.28120964765548706,
+    "drop_joint": 0.46202224493026733,
+    "individual_drop_sum": 0.5990695953369141,
+    "e48_drop_crossref": 0.3451806902885437
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "dice_intact": 0.9057566523551941,
+    "drop_bottleneck_alone": 0.2767738699913025,
+    "drop_psi_clamp_alone": 0.10276204347610474,
+    "drop_joint": 0.3652839660644531,
+    "individual_drop_sum": 0.3795359134674072,
+    "e48_drop_crossref": 0.321139395236969
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "dice_intact": 0.95652174949646,
+    "drop_bottleneck_alone": 0.19995105266571045,
+    "drop_psi_clamp_alone": 0.2675004005432129,
+    "drop_joint": 0.41110527515411377,
+    "individual_drop_sum": 0.46745145320892334,
+    "e48_drop_crossref": 0.341431200504303
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "dice_intact": 0.9270814657211304,
+    "drop_bottleneck_alone": 0.08624798059463501,
+    "drop_psi_clamp_alone": 0.1757017970085144,
+    "drop_joint": 0.15681517124176025,
+    "individual_drop_sum": 0.2619497776031494,
+    "e48_drop_crossref": 0.12404417991638184
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "dice_intact": 0.9089515209197998,
+    "drop_bottleneck_alone": 0.3052612543106079,
+    "drop_psi_clamp_alone": 0.1254681944847107,
+    "drop_joint": 0.36789530515670776,
+    "individual_drop_sum": 0.4307294487953186,
+    "e48_drop_crossref": 0.32568496465682983
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "dice_intact": 0.9491449594497681,
+    "drop_bottleneck_alone": 0.10219067335128784,
+    "drop_psi_clamp_alone": 0.12304562330245972,
+    "drop_joint": 0.17672038078308105,
+    "individual_drop_sum": 0.22523629665374756,
+    "e48_drop_crossref": 0.10319912433624268
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "dice_intact": 0.9178234338760376,
+    "drop_bottleneck_alone": 0.4587021768093109,
+    "drop_psi_clamp_alone": 0.12111258506774902,
+    "drop_joint": 0.5488058030605316,
+    "individual_drop_sum": 0.5798147618770599,
+    "e48_drop_crossref": 0.5252918899059296
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "dice_intact": 0.955834150314331,
+    "drop_bottleneck_alone": 0.2694862484931946,
+    "drop_psi_clamp_alone": 0.2973039746284485,
+    "drop_joint": 0.45337414741516113,
+    "individual_drop_sum": 0.5667902231216431,
+    "e48_drop_crossref": 0.31200188398361206
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "dice_intact": 0.9380024075508118,
+    "drop_bottleneck_alone": 0.12743330001831055,
+    "drop_psi_clamp_alone": 0.17626357078552246,
+    "drop_joint": 0.23121148347854614,
+    "individual_drop_sum": 0.303696870803833,
+    "e48_drop_crossref": 0.15381509065628052
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "dice_intact": 0.9155176281929016,
+    "drop_bottleneck_alone": 0.129014790058136,
+    "drop_psi_clamp_alone": 0.09118562936782837,
+    "drop_joint": 0.18661600351333618,
+    "individual_drop_sum": 0.22020041942596436,
+    "e48_drop_crossref": 0.1466793417930603
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "dice_intact": 0.9385358095169067,
+    "drop_bottleneck_alone": 0.14424312114715576,
+    "drop_psi_clamp_alone": 0.052880942821502686,
+    "drop_joint": 0.15906870365142822,
+    "individual_drop_sum": 0.19712406396865845,
+    "e48_drop_crossref": 0.21125119924545288
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "dice_intact": 0.7499391436576843,
+    "drop_bottleneck_alone": 0.21345144510269165,
+    "drop_psi_clamp_alone": 0.2373705506324768,
+    "drop_joint": 0.3459545075893402,
+    "individual_drop_sum": 0.45082199573516846,
+    "e48_drop_crossref": 0.21876811981201172
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "dice_intact": 0.6945010423660278,
+    "drop_bottleneck_alone": 0.532466933131218,
+    "drop_psi_clamp_alone": 0.2786827087402344,
+    "drop_joint": 0.5840853452682495,
+    "individual_drop_sum": 0.8111496418714523,
+    "e48_drop_crossref": 0.569023534655571
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "dice_intact": 0.9330199956893921,
+    "drop_bottleneck_alone": 0.25604480504989624,
+    "drop_psi_clamp_alone": 0.2755625247955322,
+    "drop_joint": 0.4439917802810669,
+    "individual_drop_sum": 0.5316073298454285,
+    "e48_drop_crossref": 0.4077543020248413
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "dice_intact": 0.9584425091743469,
+    "drop_bottleneck_alone": 0.5970479547977448,
+    "drop_psi_clamp_alone": 0.24927914142608643,
+    "drop_joint": 0.6929012835025787,
+    "individual_drop_sum": 0.8463270962238312,
+    "e48_drop_crossref": 0.6175595819950104
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "dice_intact": 0.9432753920555115,
+    "drop_bottleneck_alone": 0.22737038135528564,
+    "drop_psi_clamp_alone": 0.12722188234329224,
+    "drop_joint": 0.33358103036880493,
+    "individual_drop_sum": 0.3545922636985779,
+    "e48_drop_crossref": 0.30774861574172974
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "dice_intact": 0.93472820520401,
+    "drop_bottleneck_alone": 0.0557590126991272,
+    "drop_psi_clamp_alone": 0.09395962953567505,
+    "drop_joint": 0.16003525257110596,
+    "individual_drop_sum": 0.14971864223480225,
+    "e48_drop_crossref": 0.05951815843582153
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "dice_intact": 0.9079582095146179,
+    "drop_bottleneck_alone": 0.24602866172790527,
+    "drop_psi_clamp_alone": 0.23837953805923462,
+    "drop_joint": 0.36956870555877686,
+    "individual_drop_sum": 0.4844081997871399,
+    "e48_drop_crossref": 0.3078410029411316
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "dice_intact": 0.9058703184127808,
+    "drop_bottleneck_alone": 0.3488527536392212,
+    "drop_psi_clamp_alone": 0.1935892105102539,
+    "drop_joint": 0.4179519712924957,
+    "individual_drop_sum": 0.5424419641494751,
+    "e48_drop_crossref": 0.3740886449813843
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "dice_intact": 0.8594487905502319,
+    "drop_bottleneck_alone": 0.25756174325942993,
+    "drop_psi_clamp_alone": 0.1731969714164734,
+    "drop_joint": 0.4001317322254181,
+    "individual_drop_sum": 0.4307587146759033,
+    "e48_drop_crossref": 0.2672809958457947
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "dice_intact": 0.8444599509239197,
+    "drop_bottleneck_alone": 0.5079469680786133,
+    "drop_psi_clamp_alone": 0.2826803922653198,
+    "drop_joint": 0.6030481457710266,
+    "individual_drop_sum": 0.7906273603439331,
+    "e48_drop_crossref": 0.5279592573642731
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "dice_intact": 0.904979944229126,
+    "drop_bottleneck_alone": 0.14013046026229858,
+    "drop_psi_clamp_alone": 0.2975321412086487,
+    "drop_joint": 0.35245782136917114,
+    "individual_drop_sum": 0.43766260147094727,
+    "e48_drop_crossref": 0.23353368043899536
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "dice_intact": 0.91259765625,
+    "drop_bottleneck_alone": 0.06916087865829468,
+    "drop_psi_clamp_alone": 0.2196757197380066,
+    "drop_joint": 0.19756776094436646,
+    "individual_drop_sum": 0.28883659839630127,
+    "e48_drop_crossref": 0.12122583389282227
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "dice_intact": 0.9350340962409973,
+    "drop_bottleneck_alone": 0.07637631893157959,
+    "drop_psi_clamp_alone": 0.09969896078109741,
+    "drop_joint": 0.14805638790130615,
+    "individual_drop_sum": 0.176075279712677,
+    "e48_drop_crossref": 0.14374232292175293
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "dice_intact": 0.9380733966827393,
+    "drop_bottleneck_alone": 0.2606445550918579,
+    "drop_psi_clamp_alone": 0.41446465253829956,
+    "drop_joint": 0.4964067339897156,
+    "individual_drop_sum": 0.6751092076301575,
+    "e48_drop_crossref": 0.3271137475967407
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "dice_intact": 0.8936892151832581,
+    "drop_bottleneck_alone": 0.2011306881904602,
+    "drop_psi_clamp_alone": 0.07349789142608643,
+    "drop_joint": 0.3282044529914856,
+    "individual_drop_sum": 0.27462857961654663,
+    "e48_drop_crossref": 0.27389419078826904
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "dice_intact": 0.6460176706314087,
+    "drop_bottleneck_alone": 0.5176843404769897,
+    "drop_psi_clamp_alone": 0.4100901186466217,
+    "drop_joint": 0.5768550559878349,
+    "individual_drop_sum": 0.9277744591236115,
+    "e48_drop_crossref": 0.5520500019192696
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "dice_intact": 0.9181636571884155,
+    "drop_bottleneck_alone": 0.7136232107877731,
+    "drop_psi_clamp_alone": 0.5284788310527802,
+    "drop_joint": 0.8071820735931396,
+    "individual_drop_sum": 1.2421020418405533,
+    "e48_drop_crossref": 0.7286686897277832
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "dice_intact": 0.9524440169334412,
+    "drop_bottleneck_alone": 0.45390093326568604,
+    "drop_psi_clamp_alone": 0.14753472805023193,
+    "drop_joint": 0.5621497333049774,
+    "individual_drop_sum": 0.601435661315918,
+    "e48_drop_crossref": 0.46122443675994873
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "dice_intact": 0.7811925411224365,
+    "drop_bottleneck_alone": 0.07769143581390381,
+    "drop_psi_clamp_alone": 0.1622692346572876,
+    "drop_joint": 0.2683332562446594,
+    "individual_drop_sum": 0.2399606704711914,
+    "e48_drop_crossref": 0.16794246435165405
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "dice_intact": 0.9391928315162659,
+    "drop_bottleneck_alone": 0.3518640398979187,
+    "drop_psi_clamp_alone": 0.24420714378356934,
+    "drop_joint": 0.4900842010974884,
+    "individual_drop_sum": 0.596071183681488,
+    "e48_drop_crossref": 0.3684488534927368
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "dice_intact": 0.7839999794960022,
+    "drop_bottleneck_alone": 0.06446331739425659,
+    "drop_psi_clamp_alone": 0.13061094284057617,
+    "drop_joint": 0.1660451889038086,
+    "individual_drop_sum": 0.19507426023483276,
+    "e48_drop_crossref": 0.24922269582748413
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "dice_intact": 0.9609764218330383,
+    "drop_bottleneck_alone": 0.423846960067749,
+    "drop_psi_clamp_alone": 0.20304566621780396,
+    "drop_joint": 0.5526591241359711,
+    "individual_drop_sum": 0.626892626285553,
+    "e48_drop_crossref": 0.45127636194229126
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "dice_intact": 0.9499267935752869,
+    "drop_bottleneck_alone": 0.5559443235397339,
+    "drop_psi_clamp_alone": 0.28597646951675415,
+    "drop_joint": 0.668804258108139,
+    "individual_drop_sum": 0.841920793056488,
+    "e48_drop_crossref": 0.5627018213272095
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "dice_intact": 0.9571879506111145,
+    "drop_bottleneck_alone": 0.6249651908874512,
+    "drop_psi_clamp_alone": 0.341194748878479,
+    "drop_joint": 0.7377693057060242,
+    "individual_drop_sum": 0.9661599397659302,
+    "e48_drop_crossref": 0.6343006491661072
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "dice_intact": 0.9508448243141174,
+    "drop_bottleneck_alone": 0.03823596239089966,
+    "drop_psi_clamp_alone": 0.1901683211326599,
+    "drop_joint": 0.13589870929718018,
+    "individual_drop_sum": 0.22840428352355957,
+    "e48_drop_crossref": 0.0430985689163208
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "dice_intact": 0.9448076486587524,
+    "drop_bottleneck_alone": 0.31138157844543457,
+    "drop_psi_clamp_alone": 0.11847126483917236,
+    "drop_joint": 0.4386053681373596,
+    "individual_drop_sum": 0.42985284328460693,
+    "e48_drop_crossref": 0.363497793674469
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "dice_intact": 0.8959549069404602,
+    "drop_bottleneck_alone": 0.3048245906829834,
+    "drop_psi_clamp_alone": 0.15409481525421143,
+    "drop_joint": 0.4480558931827545,
+    "individual_drop_sum": 0.4589194059371948,
+    "e48_drop_crossref": 0.4421892464160919
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "dice_intact": 0.8732153177261353,
+    "drop_bottleneck_alone": 0.4038170576095581,
+    "drop_psi_clamp_alone": 0.35699957609176636,
+    "drop_joint": 0.559944361448288,
+    "individual_drop_sum": 0.7608166337013245,
+    "e48_drop_crossref": 0.4909358024597168
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "dice_intact": 0.9491375684738159,
+    "drop_bottleneck_alone": 0.47847089171409607,
+    "drop_psi_clamp_alone": 0.36567002534866333,
+    "drop_joint": 0.666071891784668,
+    "individual_drop_sum": 0.8441409170627594,
+    "e48_drop_crossref": 0.5528550446033478
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "dice_intact": 0.922065258026123,
+    "drop_bottleneck_alone": 0.34147757291793823,
+    "drop_psi_clamp_alone": 0.2079368233680725,
+    "drop_joint": 0.49009615182876587,
+    "individual_drop_sum": 0.5494143962860107,
+    "e48_drop_crossref": 0.34974974393844604
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "dice_intact": 0.940954327583313,
+    "drop_bottleneck_alone": 0.09744948148727417,
+    "drop_psi_clamp_alone": 0.15532827377319336,
+    "drop_joint": 0.14748716354370117,
+    "individual_drop_sum": 0.25277775526046753,
+    "e48_drop_crossref": 0.1078561544418335
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "dice_intact": 0.971651554107666,
+    "drop_bottleneck_alone": 0.4563925266265869,
+    "drop_psi_clamp_alone": 0.2811599373817444,
+    "drop_joint": 0.5477815568447113,
+    "individual_drop_sum": 0.7375524640083313,
+    "e48_drop_crossref": 0.47000694274902344
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "dice_intact": 0.9595541954040527,
+    "drop_bottleneck_alone": 0.2851453423500061,
+    "drop_psi_clamp_alone": 0.2560040354728699,
+    "drop_joint": 0.4215073585510254,
+    "individual_drop_sum": 0.541149377822876,
+    "e48_drop_crossref": 0.307589054107666
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "dice_intact": 0.9259999990463257,
+    "drop_bottleneck_alone": 0.2267335057258606,
+    "drop_psi_clamp_alone": 0.6155861020088196,
+    "drop_joint": 0.607489138841629,
+    "individual_drop_sum": 0.8423196077346802,
+    "e48_drop_crossref": 0.3385356664657593
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "dice_intact": 0.9383764266967773,
+    "drop_bottleneck_alone": 0.06948250532150269,
+    "drop_psi_clamp_alone": 0.09340548515319824,
+    "drop_joint": 0.14419478178024292,
+    "individual_drop_sum": 0.16288799047470093,
+    "e48_drop_crossref": 0.136216938495636
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "dice_intact": 0.9429949522018433,
+    "drop_bottleneck_alone": 0.1832892894744873,
+    "drop_psi_clamp_alone": 0.11884313821792603,
+    "drop_joint": 0.26775288581848145,
+    "individual_drop_sum": 0.30213242769241333,
+    "e48_drop_crossref": 0.18759602308273315
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "dice_intact": 0.8801711797714233,
+    "drop_bottleneck_alone": 0.1915113925933838,
+    "drop_psi_clamp_alone": 0.26792627573013306,
+    "drop_joint": 0.35224616527557373,
+    "individual_drop_sum": 0.45943766832351685,
+    "e48_drop_crossref": 0.28306490182876587
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "dice_intact": 0.9482563138008118,
+    "drop_bottleneck_alone": 0.06370687484741211,
+    "drop_psi_clamp_alone": 0.1617695689201355,
+    "drop_joint": 0.1170569658279419,
+    "individual_drop_sum": 0.2254764437675476,
+    "e48_drop_crossref": 0.14729446172714233
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "dice_intact": 0.9480985403060913,
+    "drop_bottleneck_alone": 0.31891608238220215,
+    "drop_psi_clamp_alone": 0.17727303504943848,
+    "drop_joint": 0.43060505390167236,
+    "individual_drop_sum": 0.4961891174316406,
+    "e48_drop_crossref": 0.37944895029067993
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "dice_intact": 0.9515271186828613,
+    "drop_bottleneck_alone": 0.19198119640350342,
+    "drop_psi_clamp_alone": 0.13663673400878906,
+    "drop_joint": 0.29769712686538696,
+    "individual_drop_sum": 0.3286179304122925,
+    "e48_drop_crossref": 0.27256906032562256
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "dice_intact": 0.946413516998291,
+    "drop_bottleneck_alone": 0.17701196670532227,
+    "drop_psi_clamp_alone": 0.16419357061386108,
+    "drop_joint": 0.32568979263305664,
+    "individual_drop_sum": 0.34120553731918335,
+    "e48_drop_crossref": 0.272976279258728
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "dice_intact": 0.9138230085372925,
+    "drop_bottleneck_alone": 0.41796618700027466,
+    "drop_psi_clamp_alone": 0.39833974838256836,
+    "drop_joint": 0.5884197950363159,
+    "individual_drop_sum": 0.816305935382843,
+    "e48_drop_crossref": 0.45856767892837524
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "dice_intact": 0.9248466491699219,
+    "drop_bottleneck_alone": 0.5085180997848511,
+    "drop_psi_clamp_alone": 0.20451563596725464,
+    "drop_joint": 0.5712755620479584,
+    "individual_drop_sum": 0.7130337357521057,
+    "e48_drop_crossref": 0.5492144525051117
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "dice_intact": 0.8321730494499207,
+    "drop_bottleneck_alone": 0.30652815103530884,
+    "drop_psi_clamp_alone": 0.13146328926086426,
+    "drop_joint": 0.37075600028038025,
+    "individual_drop_sum": 0.4379914402961731,
+    "e48_drop_crossref": 0.32089799642562866
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "dice_intact": 0.8762409090995789,
+    "drop_bottleneck_alone": 0.17498070001602173,
+    "drop_psi_clamp_alone": 0.20424890518188477,
+    "drop_joint": 0.24276763200759888,
+    "individual_drop_sum": 0.3792296051979065,
+    "e48_drop_crossref": 0.25843411684036255
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "dice_intact": 0.920261025428772,
+    "drop_bottleneck_alone": 0.22010767459869385,
+    "drop_psi_clamp_alone": 0.11942297220230103,
+    "drop_joint": 0.3549489378929138,
+    "individual_drop_sum": 0.3395306468009949,
+    "e48_drop_crossref": 0.31362026929855347
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "dice_intact": 0.8660427927970886,
+    "drop_bottleneck_alone": 0.23225659132003784,
+    "drop_psi_clamp_alone": 0.10989749431610107,
+    "drop_joint": 0.29269087314605713,
+    "individual_drop_sum": 0.3421540856361389,
+    "e48_drop_crossref": 0.24982810020446777
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "dice_intact": 0.6947850584983826,
+    "drop_bottleneck_alone": -0.0212671160697937,
+    "drop_psi_clamp_alone": 0.05087047815322876,
+    "drop_joint": 0.027618348598480225,
+    "individual_drop_sum": 0.02960336208343506,
+    "e48_drop_crossref": -0.001693427562713623
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "dice_intact": 0.9642750024795532,
+    "drop_bottleneck_alone": 0.04587066173553467,
+    "drop_psi_clamp_alone": 0.18173891305923462,
+    "drop_joint": 0.15072423219680786,
+    "individual_drop_sum": 0.2276095747947693,
+    "e48_drop_crossref": 0.06543076038360596
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "dice_intact": 0.8373231887817383,
+    "drop_bottleneck_alone": 0.27658528089523315,
+    "drop_psi_clamp_alone": 0.1134290099143982,
+    "drop_joint": 0.43953070044517517,
+    "individual_drop_sum": 0.39001429080963135,
+    "e48_drop_crossref": 0.3007487654685974
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "dice_intact": 0.9178907871246338,
+    "drop_bottleneck_alone": 0.1726984977722168,
+    "drop_psi_clamp_alone": 0.20919328927993774,
+    "drop_joint": 0.3912088871002197,
+    "individual_drop_sum": 0.38189178705215454,
+    "e48_drop_crossref": 0.1940709948539734
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "dice_intact": 0.9424306750297546,
+    "drop_bottleneck_alone": 0.04596710205078125,
+    "drop_psi_clamp_alone": 0.42834293842315674,
+    "drop_joint": 0.35971593856811523,
+    "individual_drop_sum": 0.474310040473938,
+    "e48_drop_crossref": 0.08762556314468384
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "dice_intact": 0.9039264917373657,
+    "drop_bottleneck_alone": 0.39855432510375977,
+    "drop_psi_clamp_alone": 0.21336138248443604,
+    "drop_joint": 0.4936623275279999,
+    "individual_drop_sum": 0.6119157075881958,
+    "e48_drop_crossref": 0.43927139043807983
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "dice_intact": 0.8649429678916931,
+    "drop_bottleneck_alone": 0.3102969527244568,
+    "drop_psi_clamp_alone": 0.21742218732833862,
+    "drop_joint": 0.42286595702171326,
+    "individual_drop_sum": 0.5277191400527954,
+    "e48_drop_crossref": 0.32801294326782227
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "dice_intact": 0.9470524191856384,
+    "drop_bottleneck_alone": 0.44962894916534424,
+    "drop_psi_clamp_alone": 0.25929927825927734,
+    "drop_joint": 0.5635477304458618,
+    "individual_drop_sum": 0.7089282274246216,
+    "e48_drop_crossref": 0.46701326966285706
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "dice_intact": 0.9426044225692749,
+    "drop_bottleneck_alone": 0.3513070344924927,
+    "drop_psi_clamp_alone": 0.2091473937034607,
+    "drop_joint": 0.4610697627067566,
+    "individual_drop_sum": 0.5604544281959534,
+    "e48_drop_crossref": 0.3642072081565857
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "dice_intact": 0.9348952174186707,
+    "drop_bottleneck_alone": 0.17558622360229492,
+    "drop_psi_clamp_alone": 0.23828065395355225,
+    "drop_joint": 0.31993675231933594,
+    "individual_drop_sum": 0.41386687755584717,
+    "e48_drop_crossref": 0.2275141477584839
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "dice_intact": 0.9546093940734863,
+    "drop_bottleneck_alone": 0.06029587984085083,
+    "drop_psi_clamp_alone": 0.13785773515701294,
+    "drop_joint": 0.10753589868545532,
+    "individual_drop_sum": 0.19815361499786377,
+    "e48_drop_crossref": 0.05873525142669678
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "dice_intact": 0.9574585556983948,
+    "drop_bottleneck_alone": 0.4124768376350403,
+    "drop_psi_clamp_alone": 0.21367615461349487,
+    "drop_joint": 0.5475983321666718,
+    "individual_drop_sum": 0.6261529922485352,
+    "e48_drop_crossref": 0.48034366965293884
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "dice_intact": 0.9401260614395142,
+    "drop_bottleneck_alone": 0.2168351411819458,
+    "drop_psi_clamp_alone": 0.1798001527786255,
+    "drop_joint": 0.35917580127716064,
+    "individual_drop_sum": 0.3966352939605713,
+    "e48_drop_crossref": 0.31814777851104736
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "dice_intact": 0.9538621306419373,
+    "drop_bottleneck_alone": 0.3334997296333313,
+    "drop_psi_clamp_alone": 0.23958992958068848,
+    "drop_joint": 0.4479391574859619,
+    "individual_drop_sum": 0.5730896592140198,
+    "e48_drop_crossref": 0.34794366359710693
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "dice_intact": 0.7765830159187317,
+    "drop_bottleneck_alone": 0.4623090624809265,
+    "drop_psi_clamp_alone": 0.44113996624946594,
+    "drop_joint": 0.5958521217107773,
+    "individual_drop_sum": 0.9034490287303925,
+    "e48_drop_crossref": 0.535283163189888
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "dice_intact": 0.5513153076171875,
+    "drop_bottleneck_alone": 0.21613773703575134,
+    "drop_psi_clamp_alone": 0.15182912349700928,
+    "drop_joint": 0.3108440637588501,
+    "individual_drop_sum": 0.3679668605327606,
+    "e48_drop_crossref": 0.2484259307384491
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "dice_intact": 0.9023793935775757,
+    "drop_bottleneck_alone": 0.05255436897277832,
+    "drop_psi_clamp_alone": 0.14846271276474,
+    "drop_joint": 0.14365148544311523,
+    "individual_drop_sum": 0.2010170817375183,
+    "e48_drop_crossref": 0.050741612911224365
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "dice_intact": 0.958254873752594,
+    "drop_bottleneck_alone": 0.41863566637039185,
+    "drop_psi_clamp_alone": 0.2660900950431824,
+    "drop_joint": 0.5196670293807983,
+    "individual_drop_sum": 0.6847257614135742,
+    "e48_drop_crossref": 0.43380141258239746
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "dice_intact": 0.7357950210571289,
+    "drop_bottleneck_alone": 0.12460696697235107,
+    "drop_psi_clamp_alone": 0.08711439371109009,
+    "drop_joint": 0.15468281507492065,
+    "individual_drop_sum": 0.21172136068344116,
+    "e48_drop_crossref": 0.1743839979171753
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "dice_intact": 0.8805298209190369,
+    "drop_bottleneck_alone": 0.2093801498413086,
+    "drop_psi_clamp_alone": 0.2868240475654602,
+    "drop_joint": 0.40897098183631897,
+    "individual_drop_sum": 0.4962041974067688,
+    "e48_drop_crossref": 0.3140462040901184
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "dice_intact": 0.8082531094551086,
+    "drop_bottleneck_alone": 0.17680227756500244,
+    "drop_psi_clamp_alone": 0.15140843391418457,
+    "drop_joint": 0.32448211312294006,
+    "individual_drop_sum": 0.328210711479187,
+    "e48_drop_crossref": 0.20400726795196533
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "dice_intact": 0.9490131735801697,
+    "drop_bottleneck_alone": 0.05885273218154907,
+    "drop_psi_clamp_alone": 0.06616705656051636,
+    "drop_joint": 0.11007004976272583,
+    "individual_drop_sum": 0.12501978874206543,
+    "e48_drop_crossref": 0.07725298404693604
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "dice_intact": 0.917416512966156,
+    "drop_bottleneck_alone": 0.4302676022052765,
+    "drop_psi_clamp_alone": 0.2917494773864746,
+    "drop_joint": 0.5405296385288239,
+    "individual_drop_sum": 0.7220170795917511,
+    "e48_drop_crossref": 0.43926048278808594
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "dice_intact": 0.9431173801422119,
+    "drop_bottleneck_alone": 0.2852058410644531,
+    "drop_psi_clamp_alone": 0.1952524185180664,
+    "drop_joint": 0.4250686764717102,
+    "individual_drop_sum": 0.48045825958251953,
+    "e48_drop_crossref": 0.30921584367752075
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "dice_intact": 0.8315232396125793,
+    "drop_bottleneck_alone": 0.08356714248657227,
+    "drop_psi_clamp_alone": 0.1550806760787964,
+    "drop_joint": 0.20260125398635864,
+    "individual_drop_sum": 0.23864781856536865,
+    "e48_drop_crossref": 0.10584133863449097
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "dice_intact": 0.9057061672210693,
+    "drop_bottleneck_alone": 0.272821843624115,
+    "drop_psi_clamp_alone": 0.13745898008346558,
+    "drop_joint": 0.3750709891319275,
+    "individual_drop_sum": 0.41028082370758057,
+    "e48_drop_crossref": 0.32706332206726074
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "dice_intact": 0.9017341136932373,
+    "drop_bottleneck_alone": 0.5379432141780853,
+    "drop_psi_clamp_alone": 0.29192793369293213,
+    "drop_joint": 0.6366192102432251,
+    "individual_drop_sum": 0.8298711478710175,
+    "e48_drop_crossref": 0.5701857805252075
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "dice_intact": 0.9582340717315674,
+    "drop_bottleneck_alone": 0.4315282702445984,
+    "drop_psi_clamp_alone": 0.23994237184524536,
+    "drop_joint": 0.5558687746524811,
+    "individual_drop_sum": 0.6714706420898438,
+    "e48_drop_crossref": 0.49009114503860474
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "dice_intact": 0.9005586504936218,
+    "drop_bottleneck_alone": 0.5239098966121674,
+    "drop_psi_clamp_alone": 0.42782101035118103,
+    "drop_joint": 0.6934240162372589,
+    "individual_drop_sum": 0.9517309069633484,
+    "e48_drop_crossref": 0.6649463325738907
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "dice_intact": 0.690097987651825,
+    "drop_bottleneck_alone": -0.07522088289260864,
+    "drop_psi_clamp_alone": 0.1856626272201538,
+    "drop_joint": 0.08643943071365356,
+    "individual_drop_sum": 0.11044174432754517,
+    "e48_drop_crossref": 0.04438990354537964
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "dice_intact": 0.9509859085083008,
+    "drop_bottleneck_alone": 0.5615134537220001,
+    "drop_psi_clamp_alone": 0.3154921531677246,
+    "drop_joint": 0.6913414299488068,
+    "individual_drop_sum": 0.8770056068897247,
+    "e48_drop_crossref": 0.5660399198532104
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "dice_intact": 0.8670076727867126,
+    "drop_bottleneck_alone": 0.2649315595626831,
+    "drop_psi_clamp_alone": 0.4060288369655609,
+    "drop_joint": 0.5215152204036713,
+    "individual_drop_sum": 0.670960396528244,
+    "e48_drop_crossref": 0.4331340193748474
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "dice_intact": 0.9479740858078003,
+    "drop_bottleneck_alone": 0.3235592842102051,
+    "drop_psi_clamp_alone": 0.13317424058914185,
+    "drop_joint": 0.43130064010620117,
+    "individual_drop_sum": 0.4567335247993469,
+    "e48_drop_crossref": 0.36193305253982544
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "dice_intact": 0.6380165219306946,
+    "drop_bottleneck_alone": 0.45133689045906067,
+    "drop_psi_clamp_alone": 0.502678170800209,
+    "drop_joint": 0.5664976462721825,
+    "individual_drop_sum": 0.9540150612592697,
+    "e48_drop_crossref": 0.4858230799436569
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "dice_intact": 0.8838226199150085,
+    "drop_bottleneck_alone": 0.6738337874412537,
+    "drop_psi_clamp_alone": 0.36527740955352783,
+    "drop_joint": 0.7105864882469177,
+    "individual_drop_sum": 1.0391111969947815,
+    "e48_drop_crossref": 0.6751991510391235
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "dice_intact": 0.7339449524879456,
+    "drop_bottleneck_alone": 0.5698873400688171,
+    "drop_psi_clamp_alone": 0.5999609231948853,
+    "drop_joint": 0.6611480191349983,
+    "individual_drop_sum": 1.1698482632637024,
+    "e48_drop_crossref": 0.6669115796685219
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "dice_intact": 0.9308297634124756,
+    "drop_bottleneck_alone": 0.09369820356369019,
+    "drop_psi_clamp_alone": 0.10855114459991455,
+    "drop_joint": 0.16233336925506592,
+    "individual_drop_sum": 0.20224934816360474,
+    "e48_drop_crossref": 0.12296634912490845
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "dice_intact": 0.8857743740081787,
+    "drop_bottleneck_alone": 0.2635798454284668,
+    "drop_psi_clamp_alone": 0.1949862241744995,
+    "drop_joint": 0.37295788526535034,
+    "individual_drop_sum": 0.4585660696029663,
+    "e48_drop_crossref": 0.2998659610748291
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "dice_intact": 0.8802160024642944,
+    "drop_bottleneck_alone": 0.40270209312438965,
+    "drop_psi_clamp_alone": 0.28497058153152466,
+    "drop_joint": 0.5525133013725281,
+    "individual_drop_sum": 0.6876726746559143,
+    "e48_drop_crossref": 0.4217899739742279
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "dice_intact": 0.9153794646263123,
+    "drop_bottleneck_alone": 0.5518956184387207,
+    "drop_psi_clamp_alone": 0.3632274866104126,
+    "drop_joint": 0.6407315731048584,
+    "individual_drop_sum": 0.9151231050491333,
+    "e48_drop_crossref": 0.6102218329906464
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "dice_intact": 0.9618700742721558,
+    "drop_bottleneck_alone": 0.1544877290725708,
+    "drop_psi_clamp_alone": 0.109951913356781,
+    "drop_joint": 0.26405948400497437,
+    "individual_drop_sum": 0.2644396424293518,
+    "e48_drop_crossref": 0.18357592821121216
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "dice_intact": 0.9552779197692871,
+    "drop_bottleneck_alone": 0.1127275824546814,
+    "drop_psi_clamp_alone": 0.25382256507873535,
+    "drop_joint": 0.31332695484161377,
+    "individual_drop_sum": 0.36655014753341675,
+    "e48_drop_crossref": 0.12093007564544678
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "dice_intact": 0.9254449009895325,
+    "drop_bottleneck_alone": 0.16402792930603027,
+    "drop_psi_clamp_alone": 0.4362218379974365,
+    "drop_joint": 0.4812610447406769,
+    "individual_drop_sum": 0.6002497673034668,
+    "e48_drop_crossref": 0.24424058198928833
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "dice_intact": 0.8285664319992065,
+    "drop_bottleneck_alone": 0.12039673328399658,
+    "drop_psi_clamp_alone": 0.18327689170837402,
+    "drop_joint": 0.24639886617660522,
+    "individual_drop_sum": 0.3036736249923706,
+    "e48_drop_crossref": 0.12650549411773682
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "dice_intact": 0.8916131258010864,
+    "drop_bottleneck_alone": 0.2012873888015747,
+    "drop_psi_clamp_alone": 0.2021113634109497,
+    "drop_joint": 0.4251341223716736,
+    "individual_drop_sum": 0.4033987522125244,
+    "e48_drop_crossref": 0.2567206621170044
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "dice_intact": 0.7762619256973267,
+    "drop_bottleneck_alone": 0.5539320707321167,
+    "drop_psi_clamp_alone": 0.33539777994155884,
+    "drop_joint": 0.6191997826099396,
+    "individual_drop_sum": 0.8893298506736755,
+    "e48_drop_crossref": 0.5821599513292313
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "dice_intact": 0.9409164190292358,
+    "drop_bottleneck_alone": 0.058209359645843506,
+    "drop_psi_clamp_alone": 0.25299060344696045,
+    "drop_joint": 0.2037642002105713,
+    "individual_drop_sum": 0.31119996309280396,
+    "e48_drop_crossref": 0.08830559253692627
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "dice_intact": 0.8283567428588867,
+    "drop_bottleneck_alone": 0.20672303438186646,
+    "drop_psi_clamp_alone": 0.2053922414779663,
+    "drop_joint": 0.2983821630477905,
+    "individual_drop_sum": 0.41211527585983276,
+    "e48_drop_crossref": 0.2457171082496643
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "dice_intact": 0.9260525107383728,
+    "drop_bottleneck_alone": 0.21203607320785522,
+    "drop_psi_clamp_alone": 0.037967681884765625,
+    "drop_joint": 0.29207271337509155,
+    "individual_drop_sum": 0.25000375509262085,
+    "e48_drop_crossref": 0.3371696472167969
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "dice_intact": 0.7246376872062683,
+    "drop_bottleneck_alone": 0.22099393606185913,
+    "drop_psi_clamp_alone": 0.3211117386817932,
+    "drop_joint": 0.3956862986087799,
+    "individual_drop_sum": 0.5421056747436523,
+    "e48_drop_crossref": 0.33000344038009644
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "dice_intact": 0.7518000602722168,
+    "drop_bottleneck_alone": 0.20777440071105957,
+    "drop_psi_clamp_alone": 0.2122524380683899,
+    "drop_joint": 0.26631125807762146,
+    "individual_drop_sum": 0.42002683877944946,
+    "e48_drop_crossref": 0.21751803159713745
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "dice_intact": 0.9303476810455322,
+    "drop_bottleneck_alone": 0.24552083015441895,
+    "drop_psi_clamp_alone": 0.11989879608154297,
+    "drop_joint": 0.3538525104522705,
+    "individual_drop_sum": 0.3654196262359619,
+    "e48_drop_crossref": 0.25600743293762207
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "dice_intact": 0.885273277759552,
+    "drop_bottleneck_alone": 0.05552119016647339,
+    "drop_psi_clamp_alone": 0.3545002341270447,
+    "drop_joint": 0.3236185312271118,
+    "individual_drop_sum": 0.41002142429351807,
+    "e48_drop_crossref": 0.25095486640930176
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "dice_intact": 0.9001051783561707,
+    "drop_bottleneck_alone": 0.7466210126876831,
+    "drop_psi_clamp_alone": 0.6311168968677521,
+    "drop_joint": 0.813512459397316,
+    "individual_drop_sum": 1.3777379095554352,
+    "e48_drop_crossref": 0.7926241233944893
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "dice_intact": 0.9153589606285095,
+    "drop_bottleneck_alone": 0.23976343870162964,
+    "drop_psi_clamp_alone": 0.052511751651763916,
+    "drop_joint": 0.31878340244293213,
+    "individual_drop_sum": 0.29227519035339355,
+    "e48_drop_crossref": 0.37170177698135376
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "dice_intact": 0.9496186971664429,
+    "drop_bottleneck_alone": 0.26797914505004883,
+    "drop_psi_clamp_alone": 0.0876462459564209,
+    "drop_joint": 0.3559275269508362,
+    "individual_drop_sum": 0.3556253910064697,
+    "e48_drop_crossref": 0.3374035358428955
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "dice_intact": 0.9367928504943848,
+    "drop_bottleneck_alone": 0.3437458276748657,
+    "drop_psi_clamp_alone": 0.203100323677063,
+    "drop_joint": 0.4664464592933655,
+    "individual_drop_sum": 0.5468461513519287,
+    "e48_drop_crossref": 0.35925155878067017
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "dice_intact": 0.7190569639205933,
+    "drop_bottleneck_alone": -0.10422194004058838,
+    "drop_psi_clamp_alone": 0.15400689840316772,
+    "drop_joint": -0.024735331535339355,
+    "individual_drop_sum": 0.049784958362579346,
+    "e48_drop_crossref": -0.13214129209518433
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "dice_intact": 0.9195327758789062,
+    "drop_bottleneck_alone": 0.37493181228637695,
+    "drop_psi_clamp_alone": 0.28001612424850464,
+    "drop_joint": 0.5601322054862976,
+    "individual_drop_sum": 0.6549479365348816,
+    "e48_drop_crossref": 0.44179221987724304
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "dice_intact": 0.9343770742416382,
+    "drop_bottleneck_alone": 0.1859363317489624,
+    "drop_psi_clamp_alone": 0.1705334186553955,
+    "drop_joint": 0.3455703854560852,
+    "individual_drop_sum": 0.3564697504043579,
+    "e48_drop_crossref": 0.39462804794311523
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "dice_intact": 0.9354915022850037,
+    "drop_bottleneck_alone": 0.07895833253860474,
+    "drop_psi_clamp_alone": 0.1515149474143982,
+    "drop_joint": 0.15685737133026123,
+    "individual_drop_sum": 0.23047327995300293,
+    "e48_drop_crossref": 0.09709739685058594
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "dice_intact": 0.7930864095687866,
+    "drop_bottleneck_alone": 0.21408623456954956,
+    "drop_psi_clamp_alone": 0.20687347650527954,
+    "drop_joint": 0.31741073727607727,
+    "individual_drop_sum": 0.4209597110748291,
+    "e48_drop_crossref": 0.30039355158805847
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "dice_intact": 0.9705498814582825,
+    "drop_bottleneck_alone": 0.09119051694869995,
+    "drop_psi_clamp_alone": 0.27317899465560913,
+    "drop_joint": 0.2882148027420044,
+    "individual_drop_sum": 0.3643695116043091,
+    "e48_drop_crossref": 0.10411930084228516
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "dice_intact": 0.86085444688797,
+    "drop_bottleneck_alone": 0.3513070344924927,
+    "drop_psi_clamp_alone": 0.18132323026657104,
+    "drop_joint": 0.44806528091430664,
+    "individual_drop_sum": 0.5326302647590637,
+    "e48_drop_crossref": 0.37886935472488403
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "dice_intact": 0.8719772696495056,
+    "drop_bottleneck_alone": 0.547450840473175,
+    "drop_psi_clamp_alone": 0.39361104369163513,
+    "drop_joint": 0.6725503355264664,
+    "individual_drop_sum": 0.9410618841648102,
+    "e48_drop_crossref": 0.5708436369895935
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "dice_intact": 0.9142119288444519,
+    "drop_bottleneck_alone": 0.20153731107711792,
+    "drop_psi_clamp_alone": 0.05264323949813843,
+    "drop_joint": 0.25060582160949707,
+    "individual_drop_sum": 0.25418055057525635,
+    "e48_drop_crossref": 0.24749428033828735
+  }
+]

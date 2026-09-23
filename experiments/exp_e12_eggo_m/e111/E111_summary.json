@@ -1,0 +1,104 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_train_labels": 200,
+  "n_val_labels": 125,
+  "n_scramble_draws": 5,
+  "fractions": [
+    0.0,
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "sweep_results": {
+    "0.0": {
+      "rho_per_draw": [
+        0.8499613670691548
+      ],
+      "mean_rho": 0.8499613670691548,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 1,
+      "n_requested_draws": 1,
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.8770929273231831
+    },
+    "0.125": {
+      "rho_per_draw": [
+        0.857018213546654,
+        0.7836386845457548,
+        0.8547908675753059,
+        0.8174574768941701,
+        0.8072639128487447
+      ],
+      "mean_rho": 0.8240338310821258,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5,
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.8651778294457364
+    },
+    "0.25": {
+      "rho_per_draw": [
+        0.7669627756733712,
+        0.7665726061032179,
+        0.7649904224132257,
+        0.7844190236860615,
+        0.7803084182934217
+      ],
+      "mean_rho": 0.7726506492338597,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5,
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.8268713717842948
+    },
+    "0.5": {
+      "rho_per_draw": [
+        0.6392943767970318,
+        0.5782558805780716,
+        0.5714693878184742,
+        0.6070209017225314,
+        0.5979456189647898
+      ],
+      "mean_rho": 0.5987972331761797,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5,
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.7810794269856747
+    },
+    "0.75": {
+      "rho_per_draw": [
+        0.27059949400875855,
+        0.31029233531885353,
+        0.20015084508601966,
+        0.41960125898860406,
+        0.2711279126392026
+      ],
+      "mean_rho": 0.29435436920828767,
+      "worst_case_p": 0.027,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5,
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.6617568439210981
+    },
+    "1.0": {
+      "rho_per_draw": [
+        -0.06424894661904142,
+        0.01799081104581392,
+        -0.050734332925302446,
+        -0.017511547636806582,
+        0.16556400240265676
+      ],
+      "mean_rho": 0.010211997253464047,
+      "worst_case_p": 0.855,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5,
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.520644716117903
+    }
+  },
+  "final_verdict_CONVENIENCE_LABEL_ONLY": "FLAT_THEN_CLIFF_DISTRIBUTED_CODE"
+}

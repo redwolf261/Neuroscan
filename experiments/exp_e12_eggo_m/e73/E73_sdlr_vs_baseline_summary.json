@@ -1,0 +1,13 @@
+{
+  "n_matched": 125,
+  "mean_delta": 0.0004945201200891596,
+  "paired_t": 0.28306324210711925,
+  "paired_t_p": 0.7776003639353476,
+  "wilcoxon_p": 0.9107371044610689,
+  "spearman_difficulty_delta": -0.05607987711213517,
+  "spearman_p_param": 0.5344797086235303,
+  "spearman_p_perm": 0.535,
+  "mean_improved": true,
+  "significant": false,
+  "mechanism_consistent": false
+}

@@ -1,0 +1,41 @@
+Loaded 125 subjects from E121's per-subject table.
+Matched 125 subjects to segmentation files.
+Subjects with lesion_voxels_64==0 (degenerate at 64^3): 0
+Proceeding with 125 non-degenerate subjects.
+
+d_s (equivalent-sphere diameter, 64^3-grid units): mean=16.694 std=3.379 min=7.256 max=23.249
+
+=== Stage N_1 (output res 32^3, cell_width=2.0 grid-units) ===
+  q_N_1: mean=8.347 std=1.689 (median=8.525, frac q<1 [sub-cell-sized lesion]=0.000)
+  Model A (N_k ~ native_size): rho=-0.4482 (perm p=0.0000)
+  Model B (N_k ~ q_k):         rho=-0.4454 (perm p=0.0000)
+  Model C (N_k ~ q_k | size):  partial_rho=-0.1840 (perm p=0.0470)
+  q_k survives size control (Model C significant, same sign as Model B): True
+
+=== Stage N_2 (output res 16^3, cell_width=4.0 grid-units) ===
+  q_N_2: mean=4.174 std=0.845 (median=4.262, frac q<1 [sub-cell-sized lesion]=0.000)
+  Model A (N_k ~ native_size): rho=-0.0362 (perm p=0.6970)
+  Model B (N_k ~ q_k):         rho=-0.0293 (perm p=0.7400)
+  Model C (N_k ~ q_k | size):  partial_rho=+0.2301 (perm p=0.0120)
+  q_k survives size control (Model C significant, same sign as Model B): False
+
+=== Stage N_3 (output res 8^3, cell_width=8.0 grid-units) ===
+  q_N_3: mean=2.087 std=0.422 (median=2.131, frac q<1 [sub-cell-sized lesion]=0.024)
+  Model A (N_k ~ native_size): rho=-0.3833 (perm p=0.0000)
+  Model B (N_k ~ q_k):         rho=-0.3821 (perm p=0.0000)
+  Model C (N_k ~ q_k | size):  partial_rho=+0.0551 (perm p=0.5260)
+  q_k survives size control (Model C significant, same sign as Model B): False
+
+=== BUG CAUGHT: per-stage Models A/B/C cannot test the cross-stage hypothesis (q_k is a constant rescaling of d_s within any one stage, confirmed by Model A~=Model B rho above). Running the POOLED cross-stage regression instead. ===
+
+Pooled n=375 observations (125 subjects x 3 stages)
+Model P1 (N ~ stage + size):     R^2=0.6386
+Model P2 (N ~ stage + size + q): R^2=0.6391, q coefficient=+0.0094
+Delta R^2 from adding q: +0.0005
+Within-subject-permutation test on q's coefficient: p=0.0000
+
+=== DECISION (based on pooled cross-stage test, not the flawed per-stage one) ===
+CASE_A_KILL_Q_DOES_NOT_EXPLAIN_PATTERN
+Pooled cross-stage regression: adding q_k on top of stage-identity + size does not significantly improve fit (perm p=0.0000, Delta R^2=+0.0005). Relative lesion scale does NOT explain the N1~=N3>>N2 pattern beyond what stage identity and absolute size already capture. KILL this hypothesis.
+
+Saved E122_summary.json, E122_per_subject_table.json

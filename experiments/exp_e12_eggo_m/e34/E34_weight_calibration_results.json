@@ -1,0 +1,24 @@
+{
+  "kappa": 3.0,
+  "gamma_calibrated": 0.09949403775607091,
+  "eps_size": 1.0,
+  "w_alpha_stats": {
+    "mean": 2.883856913551938,
+    "var": 1.3296516915189303,
+    "min": 1.0,
+    "max": 4.0
+  },
+  "w_size_stats": {
+    "mean": 2.883856913550577,
+    "var": 0.5529138337789563,
+    "min": 1.0,
+    "max": 3.334884563072751
+  },
+  "triviality_check": {
+    "corr_w_alpha_vs_native_size": -0.7201603253862005,
+    "corr_w_alpha_vs_w_size": 0.7201603253862005,
+    "ks_statistic": 0.36688832836505386,
+    "ks_p": 0.0,
+    "is_trivial": "False"
+  }
+}

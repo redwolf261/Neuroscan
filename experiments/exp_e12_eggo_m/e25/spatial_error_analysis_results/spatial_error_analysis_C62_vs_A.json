@@ -1,0 +1,2830 @@
+{
+  "n_subjects": 125,
+  "subject_records": [
+    {
+      "subject_idx": 0,
+      "subject_id": "BraTS-GLI-01041-000",
+      "dice_a": 0.9285992980003357,
+      "dice_c62": 0.9356454610824585,
+      "delta_dice": 0.007046163082122803,
+      "gt_lesion_volume": 2593,
+      "cc_a": {
+        "n_gt": 12,
+        "n_pred": 4,
+        "n_fp_components": 2,
+        "n_missed_components": 10,
+        "mean_component_dice": 0.13343809336738033
+      },
+      "cc_c62": {
+        "n_gt": 12,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 11,
+        "mean_component_dice": 0.07848461339539695
+      }
+    },
+    {
+      "subject_idx": 1,
+      "subject_id": "BraTS-GLI-01161-000",
+      "dice_a": 0.910163938999176,
+      "dice_c62": 0.8910225629806519,
+      "delta_dice": -0.01914137601852417,
+      "gt_lesion_volume": 3132,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.4553295489649888
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.4457432536205043
+      }
+    },
+    {
+      "subject_idx": 2,
+      "subject_id": "BraTS-GLI-01189-000",
+      "dice_a": 0.883336067199707,
+      "dice_c62": 0.8569026589393616,
+      "delta_dice": -0.02643340826034546,
+      "gt_lesion_volume": 3263,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8833360913453583
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 8,
+        "n_fp_components": 6,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8644614079728583
+      }
+    },
+    {
+      "subject_idx": 3,
+      "subject_id": "BraTS-GLI-01336-000",
+      "dice_a": 0.9538894891738892,
+      "dice_c62": 0.9538567662239075,
+      "delta_dice": -3.272294998168945e-05,
+      "gt_lesion_volume": 1421,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4774489076814658
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.47742157876594277
+      }
+    },
+    {
+      "subject_idx": 4,
+      "subject_id": "BraTS-GLI-00250-000",
+      "dice_a": 0.9190134406089783,
+      "dice_c62": 0.9255675077438354,
+      "delta_dice": 0.006554067134857178,
+      "gt_lesion_volume": 2945,
+      "cc_a": {
+        "n_gt": 12,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 11,
+        "mean_component_dice": 0.07720566625521659
+      },
+      "cc_c62": {
+        "n_gt": 12,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 11,
+        "mean_component_dice": 0.07776003784518952
+      }
+    },
+    {
+      "subject_idx": 5,
+      "subject_id": "BraTS-GLI-00501-000",
+      "dice_a": 0.9030476212501526,
+      "dice_c62": 0.9371331334114075,
+      "delta_dice": 0.03408551216125488,
+      "gt_lesion_volume": 5501,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9037607343796269
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9371331187275137
+      }
+    },
+    {
+      "subject_idx": 6,
+      "subject_id": "BraTS-GLI-01093-000",
+      "dice_a": 0.9554399251937866,
+      "dice_c62": 0.9598568677902222,
+      "delta_dice": 0.004416942596435547,
+      "gt_lesion_volume": 4506,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.47815259225718815
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.48025064339263734
+      }
+    },
+    {
+      "subject_idx": 7,
+      "subject_id": "BraTS-GLI-01168-000",
+      "dice_a": 0.915496826171875,
+      "dice_c62": 0.9161629676818848,
+      "delta_dice": 0.0006661415100097656,
+      "gt_lesion_volume": 1833,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9154968345719791
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9178515007898894
+      }
+    },
+    {
+      "subject_idx": 8,
+      "subject_id": "BraTS-GLI-00506-000",
+      "dice_a": 0.9520337581634521,
+      "dice_c62": 0.9424678087234497,
+      "delta_dice": -0.009565949440002441,
+      "gt_lesion_volume": 2511,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9523992322456813
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9424678274034822
+      }
+    },
+    {
+      "subject_idx": 9,
+      "subject_id": "BraTS-GLI-01065-000",
+      "dice_a": 0.9310495257377625,
+      "dice_c62": 0.9391323924064636,
+      "delta_dice": 0.008082866668701172,
+      "gt_lesion_volume": 4455,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2328901572786348
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2349179422615916
+      }
+    },
+    {
+      "subject_idx": 10,
+      "subject_id": "BraTS-GLI-01444-000",
+      "dice_a": 0.9336723685264587,
+      "dice_c62": 0.9334063529968262,
+      "delta_dice": -0.00026601552963256836,
+      "gt_lesion_volume": 4725,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.23349552139776622
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.23342828968993098
+      }
+    },
+    {
+      "subject_idx": 11,
+      "subject_id": "BraTS-GLI-01326-000",
+      "dice_a": 0.9421893954277039,
+      "dice_c62": 0.9440933465957642,
+      "delta_dice": 0.0019039511680603027,
+      "gt_lesion_volume": 6089,
+      "cc_a": {
+        "n_gt": 5,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.3599690409738021
+      },
+      "cc_c62": {
+        "n_gt": 5,
+        "n_pred": 4,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.693615640464022
+      }
+    },
+    {
+      "subject_idx": 12,
+      "subject_id": "BraTS-GLI-00764-000",
+      "dice_a": 0.7612473368644714,
+      "dice_c62": 0.7619272470474243,
+      "delta_dice": 0.0006799101829528809,
+      "gt_lesion_volume": 2508,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 4,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.42266283524904213
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 4,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.3831353919239905
+      }
+    },
+    {
+      "subject_idx": 13,
+      "subject_id": "BraTS-GLI-00731-001",
+      "dice_a": 0.2963917553424835,
+      "dice_c62": 0.6558704376220703,
+      "delta_dice": 0.3594786822795868,
+      "gt_lesion_volume": 661,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.15498652291105122
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.33962264150943394
+      }
+    },
+    {
+      "subject_idx": 14,
+      "subject_id": "BraTS-GLI-01258-000",
+      "dice_a": 0.9114139676094055,
+      "dice_c62": 0.9170480370521545,
+      "delta_dice": 0.0056340694427490234,
+      "gt_lesion_volume": 1664,
+      "cc_a": {
+        "n_gt": 8,
+        "n_pred": 3,
+        "n_fp_components": 0,
+        "n_missed_components": 5,
+        "mean_component_dice": 0.2617751725470942
+      },
+      "cc_c62": {
+        "n_gt": 8,
+        "n_pred": 4,
+        "n_fp_components": 0,
+        "n_missed_components": 5,
+        "mean_component_dice": 0.24754068629845238
+      }
+    },
+    {
+      "subject_idx": 15,
+      "subject_id": "BraTS-GLI-01025-000",
+      "dice_a": 0.9548147916793823,
+      "dice_c62": 0.9470222592353821,
+      "delta_dice": -0.007792532444000244,
+      "gt_lesion_volume": 1323,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9548148148148148
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9470222871757399
+      }
+    },
+    {
+      "subject_idx": 16,
+      "subject_id": "BraTS-GLI-00811-000",
+      "dice_a": 0.96452397108078,
+      "dice_c62": 0.9689064025878906,
+      "delta_dice": 0.004382431507110596,
+      "gt_lesion_volume": 3301,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9645239539114615
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9693474962063733
+      }
+    },
+    {
+      "subject_idx": 17,
+      "subject_id": "BraTS-GLI-00103-000",
+      "dice_a": 0.9232393503189087,
+      "dice_c62": 0.940966010093689,
+      "delta_dice": 0.017726659774780273,
+      "gt_lesion_volume": 6374,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.46182873403185737
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.470596042836956
+      }
+    },
+    {
+      "subject_idx": 18,
+      "subject_id": "BraTS-GLI-01103-000",
+      "dice_a": 0.9411293268203735,
+      "dice_c62": 0.9429658055305481,
+      "delta_dice": 0.0018364787101745605,
+      "gt_lesion_volume": 2624,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9413178449829762
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9429657794676806
+      }
+    },
+    {
+      "subject_idx": 19,
+      "subject_id": "BraTS-GLI-00514-001",
+      "dice_a": 0.9398857951164246,
+      "dice_c62": 0.9299864172935486,
+      "delta_dice": -0.009899377822875977,
+      "gt_lesion_volume": 3381,
+      "cc_a": {
+        "n_gt": 10,
+        "n_pred": 7,
+        "n_fp_components": 2,
+        "n_missed_components": 7,
+        "mean_component_dice": 0.23956912366912367
+      },
+      "cc_c62": {
+        "n_gt": 10,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 7,
+        "mean_component_dice": 0.1276033908565555
+      }
+    },
+    {
+      "subject_idx": 20,
+      "subject_id": "BraTS-GLI-00611-001",
+      "dice_a": 0.8993603587150574,
+      "dice_c62": 0.8708558082580566,
+      "delta_dice": -0.028504550457000732,
+      "gt_lesion_volume": 2468,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.903598971722365
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8718641451177152
+      }
+    },
+    {
+      "subject_idx": 21,
+      "subject_id": "BraTS-GLI-01369-000",
+      "dice_a": 0.8203697204589844,
+      "dice_c62": 0.8201913833618164,
+      "delta_dice": -0.00017833709716796875,
+      "gt_lesion_volume": 1621,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 4,
+        "n_fp_components": 1,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.5562508144879308
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.37001010180953203
+      }
+    },
+    {
+      "subject_idx": 22,
+      "subject_id": "BraTS-GLI-01354-000",
+      "dice_a": 0.8982353210449219,
+      "dice_c62": 0.8967240452766418,
+      "delta_dice": -0.0015112757682800293,
+      "gt_lesion_volume": 1789,
+      "cc_a": {
+        "n_gt": 9,
+        "n_pred": 3,
+        "n_fp_components": 0,
+        "n_missed_components": 6,
+        "mean_component_dice": 0.18339577631196657
+      },
+      "cc_c62": {
+        "n_gt": 9,
+        "n_pred": 4,
+        "n_fp_components": 0,
+        "n_missed_components": 5,
+        "mean_component_dice": 0.23586178882780137
+      }
+    },
+    {
+      "subject_idx": 23,
+      "subject_id": "BraTS-GLI-01227-000",
+      "dice_a": 0.9076343178749084,
+      "dice_c62": 0.9118065237998962,
+      "delta_dice": 0.004172205924987793,
+      "gt_lesion_volume": 2080,
+      "cc_a": {
+        "n_gt": 5,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.18342857142857144
+      },
+      "cc_c62": {
+        "n_gt": 5,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.18371148793885836
+      }
+    },
+    {
+      "subject_idx": 24,
+      "subject_id": "BraTS-GLI-01078-000",
+      "dice_a": 0.9410898089408875,
+      "dice_c62": 0.9419845342636108,
+      "delta_dice": 0.0008947253227233887,
+      "gt_lesion_volume": 3470,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9410898379970545
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.94198450971796
+      }
+    },
+    {
+      "subject_idx": 25,
+      "subject_id": "BraTS-GLI-00241-000",
+      "dice_a": 0.9285171031951904,
+      "dice_c62": 0.9282187819480896,
+      "delta_dice": -0.0002983212471008301,
+      "gt_lesion_volume": 1234,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9285171102661597
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.928218761868591
+      }
+    },
+    {
+      "subject_idx": 26,
+      "subject_id": "BraTS-GLI-00146-000",
+      "dice_a": 0.8920028805732727,
+      "dice_c62": 0.8642924427986145,
+      "delta_dice": -0.027710437774658203,
+      "gt_lesion_volume": 5279,
+      "cc_a": {
+        "n_gt": 6,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.14894563843513361
+      },
+      "cc_c62": {
+        "n_gt": 6,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.1442911431512808
+      }
+    },
+    {
+      "subject_idx": 27,
+      "subject_id": "BraTS-GLI-01349-000",
+      "dice_a": 0.29487180709838867,
+      "dice_c62": 0.7021276354789734,
+      "delta_dice": 0.4072558283805847,
+      "gt_lesion_volume": 266,
+      "cc_a": {
+        "n_gt": 5,
+        "n_pred": 7,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.1617467680522952
+      },
+      "cc_c62": {
+        "n_gt": 5,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.33422692065129955
+      }
+    },
+    {
+      "subject_idx": 28,
+      "subject_id": "BraTS-GLI-00044-000",
+      "dice_a": 0.9017341136932373,
+      "dice_c62": 0.8783658146858215,
+      "delta_dice": -0.02336829900741577,
+      "gt_lesion_volume": 473,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9017341040462428
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8783658310120706
+      }
+    },
+    {
+      "subject_idx": 29,
+      "subject_id": "BraTS-GLI-01315-000",
+      "dice_a": 0.9588064551353455,
+      "dice_c62": 0.9617134928703308,
+      "delta_dice": 0.0029070377349853516,
+      "gt_lesion_volume": 3809,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.958806443094798
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9617135207496653
+      }
+    },
+    {
+      "subject_idx": 30,
+      "subject_id": "BraTS-GLI-00286-000",
+      "dice_a": 0.8155432939529419,
+      "dice_c62": 0.7362059950828552,
+      "delta_dice": -0.07933729887008667,
+      "gt_lesion_volume": 2195,
+      "cc_a": {
+        "n_gt": 18,
+        "n_pred": 5,
+        "n_fp_components": 1,
+        "n_missed_components": 12,
+        "mean_component_dice": 0.1146428672473849
+      },
+      "cc_c62": {
+        "n_gt": 18,
+        "n_pred": 7,
+        "n_fp_components": 1,
+        "n_missed_components": 14,
+        "mean_component_dice": 0.16867170566157597
+      }
+    },
+    {
+      "subject_idx": 31,
+      "subject_id": "BraTS-GLI-00491-000",
+      "dice_a": 0.9482212066650391,
+      "dice_c62": 0.9451507329940796,
+      "delta_dice": -0.0030704736709594727,
+      "gt_lesion_volume": 2827,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9482212046495245
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9451507446422085
+      }
+    },
+    {
+      "subject_idx": 32,
+      "subject_id": "BraTS-GLI-00367-000",
+      "dice_a": 0.8132490515708923,
+      "dice_c62": 0.7316461801528931,
+      "delta_dice": -0.08160287141799927,
+      "gt_lesion_volume": 2504,
+      "cc_a": {
+        "n_gt": 8,
+        "n_pred": 7,
+        "n_fp_components": 3,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.17670424697110376
+      },
+      "cc_c62": {
+        "n_gt": 8,
+        "n_pred": 5,
+        "n_fp_components": 0,
+        "n_missed_components": 6,
+        "mean_component_dice": 0.17518083989688735
+      }
+    },
+    {
+      "subject_idx": 33,
+      "subject_id": "BraTS-GLI-00525-001",
+      "dice_a": 0.9702009558677673,
+      "dice_c62": 0.9704305529594421,
+      "delta_dice": 0.0002295970916748047,
+      "gt_lesion_volume": 2896,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4852686308492201
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4853831517038575
+      }
+    },
+    {
+      "subject_idx": 34,
+      "subject_id": "BraTS-GLI-00500-001",
+      "dice_a": 0.9621742963790894,
+      "dice_c62": 0.954211413860321,
+      "delta_dice": -0.00796288251876831,
+      "gt_lesion_volume": 1749,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9621742785093864
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9542114188807236
+      }
+    },
+    {
+      "subject_idx": 35,
+      "subject_id": "BraTS-GLI-00708-001",
+      "dice_a": 0.9550359845161438,
+      "dice_c62": 0.936170220375061,
+      "delta_dice": -0.018865764141082764,
+      "gt_lesion_volume": 1091,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9550359712230215
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9361702127659575
+      }
+    },
+    {
+      "subject_idx": 36,
+      "subject_id": "BraTS-GLI-01384-000",
+      "dice_a": 0.9476876258850098,
+      "dice_c62": 0.9555624723434448,
+      "delta_dice": 0.007874846458435059,
+      "gt_lesion_volume": 3172,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9479751251327165
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9555624611559975
+      }
+    },
+    {
+      "subject_idx": 37,
+      "subject_id": "BraTS-GLI-00768-001",
+      "dice_a": 0.917447566986084,
+      "dice_c62": 0.9355280995368958,
+      "delta_dice": 0.018080532550811768,
+      "gt_lesion_volume": 3126,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9175840523653674
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 7,
+        "n_fp_components": 6,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9376718606782768
+      }
+    },
+    {
+      "subject_idx": 38,
+      "subject_id": "BraTS-GLI-01450-000",
+      "dice_a": 0.8770574927330017,
+      "dice_c62": 0.8543071150779724,
+      "delta_dice": -0.022750377655029297,
+      "gt_lesion_volume": 2521,
+      "cc_a": {
+        "n_gt": 13,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 12,
+        "mean_component_dice": 0.06883682355380469
+      },
+      "cc_c62": {
+        "n_gt": 13,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 12,
+        "mean_component_dice": 0.06694450151146068
+      }
+    },
+    {
+      "subject_idx": 39,
+      "subject_id": "BraTS-GLI-00628-000",
+      "dice_a": 0.9098765254020691,
+      "dice_c62": 0.9095354676246643,
+      "delta_dice": -0.00034105777740478516,
+      "gt_lesion_volume": 1535,
+      "cc_a": {
+        "n_gt": 7,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.2533194814123283
+      },
+      "cc_c62": {
+        "n_gt": 7,
+        "n_pred": 4,
+        "n_fp_components": 1,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.33135951807519815
+      }
+    },
+    {
+      "subject_idx": 40,
+      "subject_id": "BraTS-GLI-00066-000",
+      "dice_a": 0.9365853667259216,
+      "dice_c62": 0.9248251914978027,
+      "delta_dice": -0.011760175228118896,
+      "gt_lesion_volume": 1066,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4689165186500888
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.463019693654267
+      }
+    },
+    {
+      "subject_idx": 41,
+      "subject_id": "BraTS-GLI-00016-001",
+      "dice_a": 0.8983256220817566,
+      "dice_c62": 0.8826918601989746,
+      "delta_dice": -0.015633761882781982,
+      "gt_lesion_volume": 2029,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8983256491142927
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8826918644849043
+      }
+    },
+    {
+      "subject_idx": 42,
+      "subject_id": "BraTS-GLI-01362-000",
+      "dice_a": 0.9484747648239136,
+      "dice_c62": 0.9414934515953064,
+      "delta_dice": -0.006981313228607178,
+      "gt_lesion_volume": 3989,
+      "cc_a": {
+        "n_gt": 6,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 5,
+        "mean_component_dice": 0.1582007867282367
+      },
+      "cc_c62": {
+        "n_gt": 6,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.15708126949802712
+      }
+    },
+    {
+      "subject_idx": 43,
+      "subject_id": "BraTS-GLI-00604-000",
+      "dice_a": 0.9710618257522583,
+      "dice_c62": 0.9645537734031677,
+      "delta_dice": -0.006508052349090576,
+      "gt_lesion_volume": 4245,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 5,
+        "n_fp_components": 4,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9717421765530126
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 6,
+        "n_fp_components": 5,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9697040046430644
+      }
+    },
+    {
+      "subject_idx": 44,
+      "subject_id": "BraTS-GLI-00491-001",
+      "dice_a": 0.9623733758926392,
+      "dice_c62": 0.9559633135795593,
+      "delta_dice": -0.006410062313079834,
+      "gt_lesion_volume": 2766,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.48127374705988785
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4780693705267021
+      }
+    },
+    {
+      "subject_idx": 45,
+      "subject_id": "BraTS-GLI-00222-000",
+      "dice_a": 0.9389865398406982,
+      "dice_c62": 0.9340101480484009,
+      "delta_dice": -0.004976391792297363,
+      "gt_lesion_volume": 479,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9389865563598759
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.934010152284264
+      }
+    },
+    {
+      "subject_idx": 46,
+      "subject_id": "BraTS-GLI-01062-000",
+      "dice_a": 0.9397343993186951,
+      "dice_c62": 0.9383535385131836,
+      "delta_dice": -0.0013808608055114746,
+      "gt_lesion_volume": 3896,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4701073071027082
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4694164219129102
+      }
+    },
+    {
+      "subject_idx": 47,
+      "subject_id": "BraTS-GLI-00266-000",
+      "dice_a": 0.9547017812728882,
+      "dice_c62": 0.9394392967224121,
+      "delta_dice": -0.015262484550476074,
+      "gt_lesion_volume": 4975,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9547017785201926
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9396267837541163
+      }
+    },
+    {
+      "subject_idx": 48,
+      "subject_id": "BraTS-GLI-01090-000",
+      "dice_a": 0.8870292901992798,
+      "dice_c62": 0.8999654054641724,
+      "delta_dice": 0.012936115264892578,
+      "gt_lesion_volume": 1416,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8870292887029289
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8999653859466944
+      }
+    },
+    {
+      "subject_idx": 49,
+      "subject_id": "BraTS-GLI-01374-000",
+      "dice_a": 0.9613054990768433,
+      "dice_c62": 0.9653465151786804,
+      "delta_dice": 0.004041016101837158,
+      "gt_lesion_volume": 4002,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9614243323442137
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9653465346534653
+      }
+    },
+    {
+      "subject_idx": 50,
+      "subject_id": "BraTS-GLI-01176-000",
+      "dice_a": 0.9368998408317566,
+      "dice_c62": 0.9366857409477234,
+      "delta_dice": -0.00021409988403320312,
+      "gt_lesion_volume": 2121,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9368998628257887
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9366857142857142
+      }
+    },
+    {
+      "subject_idx": 51,
+      "subject_id": "BraTS-GLI-00436-000",
+      "dice_a": 0.9654097557067871,
+      "dice_c62": 0.9686618447303772,
+      "delta_dice": 0.003252089023590088,
+      "gt_lesion_volume": 3205,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.96571072319202
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9686618614854278
+      }
+    },
+    {
+      "subject_idx": 52,
+      "subject_id": "BraTS-GLI-01019-000",
+      "dice_a": 0.9366018772125244,
+      "dice_c62": 0.9326871037483215,
+      "delta_dice": -0.003914773464202881,
+      "gt_lesion_volume": 4521,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.23442170043006968
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2333233349836452
+      }
+    },
+    {
+      "subject_idx": 53,
+      "subject_id": "BraTS-GLI-00377-000",
+      "dice_a": 0.9107551574707031,
+      "dice_c62": 0.9336437582969666,
+      "delta_dice": 0.022888600826263428,
+      "gt_lesion_volume": 866,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 4,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8158038802024221
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8146996602346304
+      }
+    },
+    {
+      "subject_idx": 54,
+      "subject_id": "BraTS-GLI-01314-000",
+      "dice_a": 0.8989361524581909,
+      "dice_c62": 0.903553307056427,
+      "delta_dice": 0.004617154598236084,
+      "gt_lesion_volume": 1988,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.898936170212766
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9035532994923858
+      }
+    },
+    {
+      "subject_idx": 55,
+      "subject_id": "BraTS-GLI-00559-000",
+      "dice_a": 0.7404125928878784,
+      "dice_c62": 0.7543138861656189,
+      "delta_dice": 0.013901293277740479,
+      "gt_lesion_volume": 4508,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4707746478873239
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.5320705063867832
+      }
+    },
+    {
+      "subject_idx": 56,
+      "subject_id": "BraTS-GLI-01114-000",
+      "dice_a": 0.878753662109375,
+      "dice_c62": 0.8763885498046875,
+      "delta_dice": -0.0023651123046875,
+      "gt_lesion_volume": 2145,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2201490732864381
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 4,
+        "n_fp_components": 2,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.21970402305127198
+      }
+    },
+    {
+      "subject_idx": 57,
+      "subject_id": "BraTS-GLI-00338-000",
+      "dice_a": 0.9260256886482239,
+      "dice_c62": 0.9240685701370239,
+      "delta_dice": -0.001957118511199951,
+      "gt_lesion_volume": 3241,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9274948437252102
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9240685426819683
+      }
+    },
+    {
+      "subject_idx": 58,
+      "subject_id": "BraTS-GLI-01293-000",
+      "dice_a": 0.8080703616142273,
+      "dice_c62": 0.7248485088348389,
+      "delta_dice": -0.08322185277938843,
+      "gt_lesion_volume": 3713,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 5,
+        "n_fp_components": 2,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.26956596772801794
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 4,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.24222610770751854
+      }
+    },
+    {
+      "subject_idx": 59,
+      "subject_id": "BraTS-GLI-00242-000",
+      "dice_a": 0.6914010047912598,
+      "dice_c62": 0.688918948173523,
+      "delta_dice": -0.0024820566177368164,
+      "gt_lesion_volume": 4701,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2373333333333333
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2366100436275875
+      }
+    },
+    {
+      "subject_idx": 60,
+      "subject_id": "BraTS-GLI-00186-000",
+      "dice_a": 0.9469090700149536,
+      "dice_c62": 0.9661093354225159,
+      "delta_dice": 0.019200265407562256,
+      "gt_lesion_volume": 3315,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9470468431771895
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9661093538183462
+      }
+    },
+    {
+      "subject_idx": 61,
+      "subject_id": "BraTS-GLI-01028-000",
+      "dice_a": 0.8719030022621155,
+      "dice_c62": 0.8769506216049194,
+      "delta_dice": 0.005047619342803955,
+      "gt_lesion_volume": 2066,
+      "cc_a": {
+        "n_gt": 5,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.17456464379947229
+      },
+      "cc_c62": {
+        "n_gt": 5,
+        "n_pred": 6,
+        "n_fp_components": 1,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.17565974891109404
+      }
+    },
+    {
+      "subject_idx": 62,
+      "subject_id": "BraTS-GLI-00511-000",
+      "dice_a": 0.910578191280365,
+      "dice_c62": 0.909719705581665,
+      "delta_dice": -0.0008584856986999512,
+      "gt_lesion_volume": 2571,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9105781743818554
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9098853085745494
+      }
+    },
+    {
+      "subject_idx": 63,
+      "subject_id": "BraTS-GLI-01001-000",
+      "dice_a": 0.9454545378684998,
+      "dice_c62": 0.9537521600723267,
+      "delta_dice": 0.008297622203826904,
+      "gt_lesion_volume": 1119,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 6,
+        "n_fp_components": 5,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9508053983456682
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9541684853775644
+      }
+    },
+    {
+      "subject_idx": 64,
+      "subject_id": "BraTS-GLI-01427-000",
+      "dice_a": 0.904549241065979,
+      "dice_c62": 0.9069414138793945,
+      "delta_dice": 0.0023921728134155273,
+      "gt_lesion_volume": 2863,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9045492142266336
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9069413950346226
+      }
+    },
+    {
+      "subject_idx": 65,
+      "subject_id": "BraTS-GLI-00683-000",
+      "dice_a": 0.85161292552948,
+      "dice_c62": 0.8846523761749268,
+      "delta_dice": 0.03303945064544678,
+      "gt_lesion_volume": 3417,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 8,
+        "n_fp_components": 2,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.4631378396288933
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 6,
+        "n_fp_components": 2,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.4715088282504013
+      }
+    },
+    {
+      "subject_idx": 66,
+      "subject_id": "BraTS-GLI-01319-000",
+      "dice_a": 0.9516441226005554,
+      "dice_c62": 0.9337573051452637,
+      "delta_dice": -0.017886817455291748,
+      "gt_lesion_volume": 1822,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4759535655058043
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4670023853697323
+      }
+    },
+    {
+      "subject_idx": 67,
+      "subject_id": "BraTS-GLI-01323-000",
+      "dice_a": 0.9614678621292114,
+      "dice_c62": 0.9594594836235046,
+      "delta_dice": -0.002008378505706787,
+      "gt_lesion_volume": 2459,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9614678899082569
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9594594594594594
+      }
+    },
+    {
+      "subject_idx": 68,
+      "subject_id": "BraTS-GLI-01402-000",
+      "dice_a": 0.9218292236328125,
+      "dice_c62": 0.9219295978546143,
+      "delta_dice": 0.00010037422180175781,
+      "gt_lesion_volume": 2121,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4413161810234088
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.42495808678500985
+      }
+    },
+    {
+      "subject_idx": 69,
+      "subject_id": "BraTS-GLI-00249-000",
+      "dice_a": 0.9468562006950378,
+      "dice_c62": 0.9545868635177612,
+      "delta_dice": 0.007730662822723389,
+      "gt_lesion_volume": 3737,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9468561915738251
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.954711087975013
+      }
+    },
+    {
+      "subject_idx": 70,
+      "subject_id": "BraTS-GLI-00032-001",
+      "dice_a": 0.9529640674591064,
+      "dice_c62": 0.949176013469696,
+      "delta_dice": -0.0037880539894104004,
+      "gt_lesion_volume": 3504,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9529640968549958
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9491760144024374
+      }
+    },
+    {
+      "subject_idx": 71,
+      "subject_id": "BraTS-GLI-01074-000",
+      "dice_a": 0.9312950372695923,
+      "dice_c62": 0.9416189193725586,
+      "delta_dice": 0.010323882102966309,
+      "gt_lesion_volume": 2718,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4695251594613749
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4727566984355332
+      }
+    },
+    {
+      "subject_idx": 72,
+      "subject_id": "BraTS-GLI-00616-000",
+      "dice_a": 0.9476931095123291,
+      "dice_c62": 0.9403061270713806,
+      "delta_dice": -0.007386982440948486,
+      "gt_lesion_volume": 3744,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9476930985734482
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9403061224489796
+      }
+    },
+    {
+      "subject_idx": 73,
+      "subject_id": "BraTS-GLI-01530-000",
+      "dice_a": 0.7687804698944092,
+      "dice_c62": 0.6757215857505798,
+      "delta_dice": -0.09305888414382935,
+      "gt_lesion_volume": 489,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 6,
+        "n_fp_components": 5,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.7755905511811023
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.6786018755328218
+      }
+    },
+    {
+      "subject_idx": 74,
+      "subject_id": "BraTS-GLI-00098-000",
+      "dice_a": 0.5609919428825378,
+      "dice_c62": 0.6013537645339966,
+      "delta_dice": 0.04036182165145874,
+      "gt_lesion_volume": 1886,
+      "cc_a": {
+        "n_gt": 5,
+        "n_pred": 5,
+        "n_fp_components": 2,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.24646653710150018
+      },
+      "cc_c62": {
+        "n_gt": 5,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.1209059075309586
+      }
+    },
+    {
+      "subject_idx": 75,
+      "subject_id": "BraTS-GLI-01195-000",
+      "dice_a": 0.9143238067626953,
+      "dice_c62": 0.8769913911819458,
+      "delta_dice": -0.03733241558074951,
+      "gt_lesion_volume": 3680,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.914323784143904
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8769913815617655
+      }
+    },
+    {
+      "subject_idx": 76,
+      "subject_id": "BraTS-GLI-00682-001",
+      "dice_a": 0.9689151644706726,
+      "dice_c62": 0.9663164615631104,
+      "delta_dice": -0.002598702907562256,
+      "gt_lesion_volume": 3231,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9689151383276344
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9663164400494437
+      }
+    },
+    {
+      "subject_idx": 77,
+      "subject_id": "BraTS-GLI-01075-000",
+      "dice_a": 0.7408190965652466,
+      "dice_c62": 0.7357890009880066,
+      "delta_dice": -0.00503009557723999,
+      "gt_lesion_volume": 3923,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 6,
+        "n_fp_components": 3,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.7412672009677908
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.7357889949977262
+      }
+    },
+    {
+      "subject_idx": 78,
+      "subject_id": "BraTS-GLI-00299-000",
+      "dice_a": 0.8572897911071777,
+      "dice_c62": 0.88652104139328,
+      "delta_dice": 0.029231250286102295,
+      "gt_lesion_volume": 1692,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4287551440329218
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4433786304289901
+      }
+    },
+    {
+      "subject_idx": 79,
+      "subject_id": "BraTS-GLI-00016-000",
+      "dice_a": 0.8049120903015137,
+      "dice_c62": 0.9138743877410889,
+      "delta_dice": 0.1089622974395752,
+      "gt_lesion_volume": 2127,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.20150922302962548
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.22869565217391305
+      }
+    },
+    {
+      "subject_idx": 80,
+      "subject_id": "BraTS-GLI-00404-000",
+      "dice_a": 0.9412042498588562,
+      "dice_c62": 0.942287027835846,
+      "delta_dice": 0.001082777976989746,
+      "gt_lesion_volume": 4223,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.4707750199631357
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.47119980879541107
+      }
+    },
+    {
+      "subject_idx": 81,
+      "subject_id": "BraTS-GLI-00723-000",
+      "dice_a": 0.9057857990264893,
+      "dice_c62": 0.9207292795181274,
+      "delta_dice": 0.014943480491638184,
+      "gt_lesion_volume": 2361,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9057857701329164
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9207292905271502
+      }
+    },
+    {
+      "subject_idx": 82,
+      "subject_id": "BraTS-GLI-00498-001",
+      "dice_a": 0.9473499655723572,
+      "dice_c62": 0.9597827792167664,
+      "delta_dice": 0.01243281364440918,
+      "gt_lesion_volume": 2902,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9473499473499474
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9597827931444086
+      }
+    },
+    {
+      "subject_idx": 83,
+      "subject_id": "BraTS-GLI-00193-000",
+      "dice_a": 0.8689387440681458,
+      "dice_c62": 0.8891208171844482,
+      "delta_dice": 0.02018207311630249,
+      "gt_lesion_volume": 2009,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.43458980044345896
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.4450796995425133
+      }
+    },
+    {
+      "subject_idx": 84,
+      "subject_id": "BraTS-GLI-01139-000",
+      "dice_a": 0.9105005264282227,
+      "dice_c62": 0.8976815342903137,
+      "delta_dice": -0.012818992137908936,
+      "gt_lesion_volume": 3918,
+      "cc_a": {
+        "n_gt": 6,
+        "n_pred": 4,
+        "n_fp_components": 1,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.31861943687556765
+      },
+      "cc_c62": {
+        "n_gt": 6,
+        "n_pred": 3,
+        "n_fp_components": 0,
+        "n_missed_components": 4,
+        "mean_component_dice": 0.14986942404723974
+      }
+    },
+    {
+      "subject_idx": 85,
+      "subject_id": "BraTS-GLI-00020-001",
+      "dice_a": 0.9312477111816406,
+      "dice_c62": 0.9224666357040405,
+      "delta_dice": -0.008781075477600098,
+      "gt_lesion_volume": 1396,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9312477264459803
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9224666426253155
+      }
+    },
+    {
+      "subject_idx": 86,
+      "subject_id": "BraTS-GLI-00768-000",
+      "dice_a": 0.9616472721099854,
+      "dice_c62": 0.9499767422676086,
+      "delta_dice": -0.011670529842376709,
+      "gt_lesion_volume": 3087,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9625550660792952
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9508603317315145
+      }
+    },
+    {
+      "subject_idx": 87,
+      "subject_id": "BraTS-GLI-01452-000",
+      "dice_a": 0.8596205711364746,
+      "dice_c62": 0.8818565607070923,
+      "delta_dice": 0.022235989570617676,
+      "gt_lesion_volume": 864,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.29256594724220625
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2944180313435464
+      }
+    },
+    {
+      "subject_idx": 88,
+      "subject_id": "BraTS-GLI-01130-000",
+      "dice_a": 0.7086669206619263,
+      "dice_c62": 0.739130437374115,
+      "delta_dice": 0.03046351671218872,
+      "gt_lesion_volume": 1086,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 10,
+        "n_fp_components": 8,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.18393703926365773
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.19309346603474595
+      }
+    },
+    {
+      "subject_idx": 89,
+      "subject_id": "BraTS-GLI-00680-001",
+      "dice_a": 0.9391541481018066,
+      "dice_c62": 0.9587973356246948,
+      "delta_dice": 0.019643187522888184,
+      "gt_lesion_volume": 1760,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9450851180669961
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9587973273942093
+      }
+    },
+    {
+      "subject_idx": 90,
+      "subject_id": "BraTS-GLI-01516-000",
+      "dice_a": 0.8542199730873108,
+      "dice_c62": 0.8812121152877808,
+      "delta_dice": 0.02699214220046997,
+      "gt_lesion_volume": 842,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.28510456679470764
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2940938511326861
+      }
+    },
+    {
+      "subject_idx": 91,
+      "subject_id": "BraTS-GLI-00818-000",
+      "dice_a": 0.9480457305908203,
+      "dice_c62": 0.9542660713195801,
+      "delta_dice": 0.006220340728759766,
+      "gt_lesion_volume": 4105,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.948045757864633
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9542660437669044
+      }
+    },
+    {
+      "subject_idx": 92,
+      "subject_id": "BraTS-GLI-01255-000",
+      "dice_a": 0.7036328911781311,
+      "dice_c62": 0.7148014307022095,
+      "delta_dice": 0.01116853952407837,
+      "gt_lesion_volume": 211,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.35904229221862427
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.3659160856730105
+      }
+    },
+    {
+      "subject_idx": 93,
+      "subject_id": "BraTS-GLI-00228-000",
+      "dice_a": 0.9134522080421448,
+      "dice_c62": 0.9066073894500732,
+      "delta_dice": -0.006844818592071533,
+      "gt_lesion_volume": 1454,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9140447615958482
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9080496341075406
+      }
+    },
+    {
+      "subject_idx": 94,
+      "subject_id": "BraTS-GLI-01273-000",
+      "dice_a": 0.7859237790107727,
+      "dice_c62": 0.7797619104385376,
+      "delta_dice": -0.006161868572235107,
+      "gt_lesion_volume": 204,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.3941176470588235
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.39104477611940297
+      }
+    },
+    {
+      "subject_idx": 95,
+      "subject_id": "BraTS-GLI-00840-000",
+      "dice_a": 0.9311893582344055,
+      "dice_c62": 0.93217933177948,
+      "delta_dice": 0.0009899735450744629,
+      "gt_lesion_volume": 3449,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4656621269197334
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.46642055942070143
+      }
+    },
+    {
+      "subject_idx": 96,
+      "subject_id": "BraTS-GLI-00619-000",
+      "dice_a": 0.896248459815979,
+      "dice_c62": 0.8941720128059387,
+      "delta_dice": -0.002076447010040283,
+      "gt_lesion_volume": 3663,
+      "cc_a": {
+        "n_gt": 4,
+        "n_pred": 4,
+        "n_fp_components": 2,
+        "n_missed_components": 3,
+        "mean_component_dice": 0.22424700866455782
+      },
+      "cc_c62": {
+        "n_gt": 4,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.22373170982590582
+      }
+    },
+    {
+      "subject_idx": 97,
+      "subject_id": "BraTS-GLI-01380-000",
+      "dice_a": 0.8179618120193481,
+      "dice_c62": 0.8268635272979736,
+      "delta_dice": 0.008901715278625488,
+      "gt_lesion_volume": 2000,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4090909090909091
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.4141415918134415
+      }
+    },
+    {
+      "subject_idx": 98,
+      "subject_id": "BraTS-GLI-00582-000",
+      "dice_a": 0.9478924870491028,
+      "dice_c62": 0.9289392232894897,
+      "delta_dice": -0.018953263759613037,
+      "gt_lesion_volume": 1471,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.94789246598075
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9289392378990731
+      }
+    },
+    {
+      "subject_idx": 99,
+      "subject_id": "BraTS-GLI-01155-000",
+      "dice_a": 0.9643077254295349,
+      "dice_c62": 0.9672423005104065,
+      "delta_dice": 0.002934575080871582,
+      "gt_lesion_volume": 5587,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 5,
+        "n_fp_components": 4,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9648179172912441
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9672423001602278
+      }
+    },
+    {
+      "subject_idx": 100,
+      "subject_id": "BraTS-GLI-01046-000",
+      "dice_a": 0.9463538527488708,
+      "dice_c62": 0.9427802562713623,
+      "delta_dice": -0.003573596477508545,
+      "gt_lesion_volume": 2691,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9463538825240952
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9429494079655544
+      }
+    },
+    {
+      "subject_idx": 101,
+      "subject_id": "BraTS-GLI-00313-000",
+      "dice_a": 0.9042032957077026,
+      "dice_c62": 0.9006181359291077,
+      "delta_dice": -0.0035851597785949707,
+      "gt_lesion_volume": 1018,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.46061739227813125
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.45942020400148315
+      }
+    },
+    {
+      "subject_idx": 102,
+      "subject_id": "BraTS-GLI-00021-000",
+      "dice_a": 0.8283098340034485,
+      "dice_c62": 0.8024013638496399,
+      "delta_dice": -0.025908470153808594,
+      "gt_lesion_volume": 2562,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8283098054177794
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 3,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8029522828698936
+      }
+    },
+    {
+      "subject_idx": 103,
+      "subject_id": "BraTS-GLI-00565-000",
+      "dice_a": 0.8832116723060608,
+      "dice_c62": 0.8577213287353516,
+      "delta_dice": -0.02549034357070923,
+      "gt_lesion_volume": 2351,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.45140082083751204
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.2884300610073739
+      }
+    },
+    {
+      "subject_idx": 104,
+      "subject_id": "BraTS-GLI-01482-000",
+      "dice_a": 0.7215461730957031,
+      "dice_c62": 0.6993415951728821,
+      "delta_dice": -0.022204577922821045,
+      "gt_lesion_volume": 864,
+      "cc_a": {
+        "n_gt": 9,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 8,
+        "mean_component_dice": 0.08205128205128205
+      },
+      "cc_c62": {
+        "n_gt": 9,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 8,
+        "mean_component_dice": 0.0795672076570953
+      }
+    },
+    {
+      "subject_idx": 105,
+      "subject_id": "BraTS-GLI-00347-000",
+      "dice_a": 0.9458655714988708,
+      "dice_c62": 0.9521511793136597,
+      "delta_dice": 0.006285607814788818,
+      "gt_lesion_volume": 2467,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9458655562165378
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.952151186168074
+      }
+    },
+    {
+      "subject_idx": 106,
+      "subject_id": "BraTS-GLI-01253-000",
+      "dice_a": 0.8332711458206177,
+      "dice_c62": 0.850649356842041,
+      "delta_dice": 0.01737821102142334,
+      "gt_lesion_volume": 2696,
+      "cc_a": {
+        "n_gt": 24,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 18,
+        "mean_component_dice": 0.03558065112218949
+      },
+      "cc_c62": {
+        "n_gt": 24,
+        "n_pred": 7,
+        "n_fp_components": 5,
+        "n_missed_components": 20,
+        "mean_component_dice": 0.04311783334868927
+      }
+    },
+    {
+      "subject_idx": 107,
+      "subject_id": "BraTS-GLI-01513-000",
+      "dice_a": 0.9324153065681458,
+      "dice_c62": 0.9171882271766663,
+      "delta_dice": -0.015227079391479492,
+      "gt_lesion_volume": 5716,
+      "cc_a": {
+        "n_gt": 9,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 6,
+        "mean_component_dice": 0.1037388292215556
+      },
+      "cc_c62": {
+        "n_gt": 9,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 6,
+        "mean_component_dice": 0.1020858903454203
+      }
+    },
+    {
+      "subject_idx": 108,
+      "subject_id": "BraTS-GLI-00496-000",
+      "dice_a": 0.7945685386657715,
+      "dice_c62": 0.8078858852386475,
+      "delta_dice": 0.013317346572875977,
+      "gt_lesion_volume": 1303,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.7945685501533071
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 4,
+        "n_fp_components": 2,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8178343949044586
+      }
+    },
+    {
+      "subject_idx": 109,
+      "subject_id": "BraTS-GLI-01104-000",
+      "dice_a": 0.748062014579773,
+      "dice_c62": 0.7669554352760315,
+      "delta_dice": 0.018893420696258545,
+      "gt_lesion_volume": 2831,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.24967658473479948
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 12,
+        "n_fp_components": 10,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2576112412177986
+      }
+    },
+    {
+      "subject_idx": 110,
+      "subject_id": "BraTS-GLI-00445-000",
+      "dice_a": 0.9335100650787354,
+      "dice_c62": 0.8877196907997131,
+      "delta_dice": -0.04579037427902222,
+      "gt_lesion_volume": 4334,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9335100508062735
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.887906536154089
+      }
+    },
+    {
+      "subject_idx": 111,
+      "subject_id": "BraTS-GLI-01068-000",
+      "dice_a": 0.852394163608551,
+      "dice_c62": 0.8459119200706482,
+      "delta_dice": -0.006482243537902832,
+      "gt_lesion_volume": 1094,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 4,
+        "n_fp_components": 3,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.33514248081224246
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 6,
+        "n_fp_components": 5,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.32993439142512276
+      }
+    },
+    {
+      "subject_idx": 112,
+      "subject_id": "BraTS-GLI-00140-000",
+      "dice_a": 0.8604118824005127,
+      "dice_c62": 0.9143468737602234,
+      "delta_dice": 0.05393499135971069,
+      "gt_lesion_volume": 474,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.8604118993135011
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9143468950749465
+      }
+    },
+    {
+      "subject_idx": 113,
+      "subject_id": "BraTS-GLI-01169-000",
+      "dice_a": 0.9108381271362305,
+      "dice_c62": 0.8527655601501465,
+      "delta_dice": -0.058072566986083984,
+      "gt_lesion_volume": 3975,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.45552986981384597
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.42667117574117913
+      }
+    },
+    {
+      "subject_idx": 114,
+      "subject_id": "BraTS-GLI-01421-000",
+      "dice_a": 0.9372839331626892,
+      "dice_c62": 0.9384445548057556,
+      "delta_dice": 0.0011606216430664062,
+      "gt_lesion_volume": 3907,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4687577179550506
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.612360340102593
+      }
+    },
+    {
+      "subject_idx": 115,
+      "subject_id": "BraTS-GLI-00096-000",
+      "dice_a": 0.9627329111099243,
+      "dice_c62": 0.9445812702178955,
+      "delta_dice": -0.01815164089202881,
+      "gt_lesion_volume": 3397,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9635879218472468
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9445812807881774
+      }
+    },
+    {
+      "subject_idx": 116,
+      "subject_id": "BraTS-GLI-00425-000",
+      "dice_a": 0.9259986877441406,
+      "dice_c62": 0.7538940906524658,
+      "delta_dice": -0.1721045970916748,
+      "gt_lesion_volume": 729,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.4645092983201441
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 6,
+        "n_fp_components": 5,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.3788375450568173
+      }
+    },
+    {
+      "subject_idx": 117,
+      "subject_id": "BraTS-GLI-01536-000",
+      "dice_a": 0.8804755806922913,
+      "dice_c62": 0.8906447291374207,
+      "delta_dice": 0.010169148445129395,
+      "gt_lesion_volume": 1413,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.3346772752292922
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.29716334493303803
+      }
+    },
+    {
+      "subject_idx": 118,
+      "subject_id": "BraTS-GLI-00574-000",
+      "dice_a": 0.9268713593482971,
+      "dice_c62": 0.9059507250785828,
+      "delta_dice": -0.020920634269714355,
+      "gt_lesion_volume": 2782,
+      "cc_a": {
+        "n_gt": 5,
+        "n_pred": 3,
+        "n_fp_components": 1,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.34597009020577335
+      },
+      "cc_c62": {
+        "n_gt": 5,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.18190224513390885
+      }
+    },
+    {
+      "subject_idx": 119,
+      "subject_id": "BraTS-GLI-00130-000",
+      "dice_a": 0.938251256942749,
+      "dice_c62": 0.9229647517204285,
+      "delta_dice": -0.015286505222320557,
+      "gt_lesion_volume": 4276,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9382512373320764
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9229647630619684
+      }
+    },
+    {
+      "subject_idx": 120,
+      "subject_id": "BraTS-GLI-01342-000",
+      "dice_a": 0.7681365609169006,
+      "dice_c62": 0.7902200222015381,
+      "delta_dice": 0.02208346128463745,
+      "gt_lesion_volume": 1930,
+      "cc_a": {
+        "n_gt": 3,
+        "n_pred": 4,
+        "n_fp_components": 2,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.25738798856053385
+      },
+      "cc_c62": {
+        "n_gt": 3,
+        "n_pred": 2,
+        "n_fp_components": 1,
+        "n_missed_components": 2,
+        "mean_component_dice": 0.2636000326237664
+      }
+    },
+    {
+      "subject_idx": 121,
+      "subject_id": "BraTS-GLI-01393-000",
+      "dice_a": 0.9612159132957458,
+      "dice_c62": 0.9643705487251282,
+      "delta_dice": 0.0031546354293823242,
+      "gt_lesion_volume": 1857,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9612159329140462
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9643705463182898
+      }
+    },
+    {
+      "subject_idx": 122,
+      "subject_id": "BraTS-GLI-01428-000",
+      "dice_a": 0.8629106879234314,
+      "dice_c62": 0.8370128273963928,
+      "delta_dice": -0.025897860527038574,
+      "gt_lesion_volume": 3945,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.862910674231429
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.837012810029981
+      }
+    },
+    {
+      "subject_idx": 123,
+      "subject_id": "BraTS-GLI-01159-000",
+      "dice_a": 0.8623452186584473,
+      "dice_c62": 0.8577291369438171,
+      "delta_dice": -0.004616081714630127,
+      "gt_lesion_volume": 714,
+      "cc_a": {
+        "n_gt": 2,
+        "n_pred": 3,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4553846153846154
+      },
+      "cc_c62": {
+        "n_gt": 2,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 1,
+        "mean_component_dice": 0.4514038876889849
+      }
+    },
+    {
+      "subject_idx": 124,
+      "subject_id": "BraTS-GLI-01424-000",
+      "dice_a": 0.9144410490989685,
+      "dice_c62": 0.9158328175544739,
+      "delta_dice": 0.001391768455505371,
+      "gt_lesion_volume": 4203,
+      "cc_a": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9144410304892461
+      },
+      "cc_c62": {
+        "n_gt": 1,
+        "n_pred": 1,
+        "n_fp_components": 0,
+        "n_missed_components": 0,
+        "mean_component_dice": 0.9158328428487346
+      }
+    }
+  ],
+  "slice_position": {
+    "bin_edges": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "error_rate_a": [
+      0.0,
+      0.0,
+      0.0013089192708333334,
+      0.003396205357142857,
+      0.0036100260416666668,
+      0.004157877604166666,
+      0.004526785714285714,
+      0.0015615234375,
+      0.0,
+      0.0
+    ],
+    "error_rate_c62": [
+      0.0,
+      0.0,
+      0.0012532552083333334,
+      0.0034623325892857142,
+      0.0038369140625,
+      0.004436848958333333,
+      0.004778738839285714,
+      0.0015289713541666668,
+      0.0,
+      0.0
+    ]
+  },
+  "boundary_distance": {
+    "bin_labels": [
+      "0-1",
+      "1-2",
+      "2-4",
+      "4-8",
+      ">8"
+    ],
+    "error_rate_a": [
+      0.0,
+      0.11205792258423837,
+      0.005529843564997465,
+      0.00045496787891506033,
+      7.561682079449188e-06
+    ],
+    "error_rate_c62": [
+      0.0,
+      0.11442296216732308,
+      0.007185396837597615,
+      0.0005113980034316569,
+      8.163939944184079e-06
+    ],
+    "n_voxels_per_bin": [
+      0.0,
+      502740.0,
+      676511.0,
+      1701219.0,
+      29887530.0
+    ]
+  },
+  "four_way_classification": {
+    "both_correct": 32689491,
+    "a_wrong_c62_correct_IMPROVEMENT": 15009,
+    "a_correct_c62_wrong_REGRESSION": 17432,
+    "both_wrong": 46068
+  }
+}

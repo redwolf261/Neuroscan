@@ -1,0 +1,11 @@
+{
+  "n_subjects": 40,
+  "raw_rho_mean": 0.05263109944976661,
+  "raw_rho_p": 3.03703438880227e-15,
+  "error_ratio_mean": 1.1915838718414307,
+  "partial_rho_mean": 0.11467263379970119,
+  "partial_rho_std": 0.11793762281154088,
+  "partial_ttest_p": 4.112108622616894e-07,
+  "partial_wilcoxon_p": 3.701643436215818e-09,
+  "survives_boundary_control": true
+}

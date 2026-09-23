@@ -1,0 +1,14 @@
+{
+  "n_swap_subjects": 125,
+  "swap_radius_means": {
+    "1": 3.5858949025472e-05,
+    "2": 4.505022366841636e-05,
+    "3": 7.536562283833822e-05
+  },
+  "swap_local_change_means": {
+    "1": 0.027402127724353534,
+    "2": 0.041194951104617274,
+    "3": 0.04502783878503967
+  },
+  "local_reading": "LOCAL EQUIVALENCE: even the closest (radius=1) donor swap causes near-zero LOCAL probability change at the swapped voxel -- neighboring directions are largely interchangeable at short range. A soft local-correspondence mechanism could plausibly exploit this."
+}

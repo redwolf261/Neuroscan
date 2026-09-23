@@ -1,0 +1,41 @@
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+Labeling 250 training subjects for spatial sensitivity maps...
+  labeled 50/250
+  labeled 100/250
+  labeled 150/250
+  labeled 200/250
+  labeled 250/250
+Train tensors: bottleneck torch.Size([250, 256, 8, 8, 8]), S torch.Size([250, 8, 8, 8])
+Train S: mean=0.0142 std=0.0694
+
+Labeling 125 held-out validation subjects...
+  labeled 25/125
+  labeled 50/125
+  labeled 75/125
+  labeled 100/125
+  labeled 125/125
+Val tensors: bottleneck torch.Size([125, 256, 8, 8, 8]), S torch.Size([125, 8, 8, 8])
+
+Training spatial sensitivity head (60 epochs, 250 labeled subjects, full-batch)...
+  epoch 15/60: mse=0.176241
+  epoch 30/60: mse=0.144039
+  epoch 45/60: mse=0.118831
+  epoch 60/60: mse=0.098365
+
+=== CHECK (a): pooled voxel-level Spearman(predicted, measured), held-out ===
+rho = +0.3939 (parametric p=0.0000e+00, permutation p=0.0000, n_perm=200)
+
+=== CHECK (b): per-subject (within-volume) Spearman, not degenerate ===
+n subjects with valid within-volume correlation: 125/125
+mean per-subject rho = +0.3759 std=0.1888
+one-sample t-test vs 0: t=22.174, p=5.6676e-45
+Wilcoxon signed-rank vs 0: p=4.4656e-22
+
+=== FINAL VERDICT ===
+Check (a) pooled correlation: PASS
+Check (b) not degenerate (per-subject): PASS
+
+OVERALL: PASS -- the bottleneck can be trained to predict WHERE it is causally vulnerable
+
+Saved E73_spatial_predictor_summary.json, E73_spatial_predictor_per_subject.json, E73_spatial_head_state.pt

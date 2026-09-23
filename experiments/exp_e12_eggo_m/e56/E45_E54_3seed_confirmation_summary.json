@@ -1,0 +1,112 @@
+{
+  "E45_D4D8": {
+    "per_seed": {
+      "seed0": {
+        "pooled_dice": 0.9110094904899597,
+        "per_subject_mean": 0.8985681624412537,
+        "per_subject_std": 0.07223096751420018,
+        "delta_mean": 0.014410096287727357,
+        "delta_std": 0.07807714784889566,
+        "delta_median": 0.004006743431091309,
+        "paired_t_p": 0.04115471515171272,
+        "wilcoxon_p": 0.0007532514006762095,
+        "n_subjects": 125
+      },
+      "seed1": {
+        "pooled_dice": 0.9058143086731434,
+        "per_subject_mean": 0.8877957490682602,
+        "per_subject_std": 0.10631613574934405,
+        "delta_mean": 0.003637682914733887,
+        "delta_std": 0.07488157165709741,
+        "delta_median": 0.002677738666534424,
+        "paired_t_p": 0.5880143501885855,
+        "wilcoxon_p": 0.08524074177516104,
+        "n_subjects": 125
+      },
+      "seed2": {
+        "pooled_dice": 0.9088955223560333,
+        "per_subject_mean": 0.8952197155952454,
+        "per_subject_std": 0.07936774204841628,
+        "delta_mean": 0.011061649441719055,
+        "delta_std": 0.07189772495027917,
+        "delta_median": 0.0044661760330200195,
+        "paired_t_p": 0.08790459934419094,
+        "wilcoxon_p": 0.001017467989382956,
+        "n_subjects": 125
+      }
+    },
+    "three_seed_mean_per_subject_dice": 0.8938612090349197,
+    "three_seed_std_per_subject_dice": 0.0055132002979665215,
+    "three_seed_95ci_per_subject_dice": [
+      0.8801656602623079,
+      0.9075567578075315
+    ],
+    "three_seed_mean_pooled_dice": 0.9085731071730455,
+    "pooled_across_seeds_paired_t_p": 0.012574980117754061,
+    "pooled_across_seeds_wilcoxon_p": 1.3376711747208718e-06,
+    "patient_delta_dice_distribution": {
+      "mean": 0.009703142881393432,
+      "median": 0.004122912883758545,
+      "std": 0.07482954810542797,
+      "p5": -0.03482598662376404,
+      "p95": 0.039525246620178235
+    },
+    "confirmed_corrected_target": false,
+    "confirmed_original_target": false
+  },
+  "E54_A96": {
+    "per_seed": {
+      "seed0": {
+        "pooled_dice": 0.9066040629432315,
+        "per_subject_mean": 0.898094205379486,
+        "per_subject_std": 0.07475948252885899,
+        "delta_mean": 0.013936139225959777,
+        "delta_std": 0.06728956906671449,
+        "delta_median": 0.0028375983238220215,
+        "paired_t_p": 0.022226913524592447,
+        "wilcoxon_p": 0.0006179031468558174,
+        "n_subjects": 125
+      },
+      "seed1": {
+        "pooled_dice": 0.9060756810127742,
+        "per_subject_mean": 0.8929734034538269,
+        "per_subject_std": 0.0896126706427786,
+        "delta_mean": 0.008815337300300598,
+        "delta_std": 0.06971782310156988,
+        "delta_median": 0.003988742828369141,
+        "paired_t_p": 0.15996244043419222,
+        "wilcoxon_p": 0.0019296162852781734,
+        "n_subjects": 125
+      },
+      "seed2": {
+        "pooled_dice": 0.9060249839510236,
+        "per_subject_mean": 0.8921790580749511,
+        "per_subject_std": 0.09445084905302599,
+        "delta_mean": 0.008020991921424865,
+        "delta_std": 0.06908378862951907,
+        "delta_median": 0.005381345748901367,
+        "paired_t_p": 0.19666351456916917,
+        "wilcoxon_p": 0.0072648716626030185,
+        "n_subjects": 125
+      }
+    },
+    "three_seed_mean_per_subject_dice": 0.8944155556360881,
+    "three_seed_std_per_subject_dice": 0.0032104663362488317,
+    "three_seed_95ci_per_subject_dice": [
+      0.8864403151379074,
+      0.9023907961342688
+    ],
+    "three_seed_mean_pooled_dice": 0.9062349093023432,
+    "pooled_across_seeds_paired_t_p": 0.003991830600336638,
+    "pooled_across_seeds_wilcoxon_p": 1.101091480836746e-07,
+    "patient_delta_dice_distribution": {
+      "mean": 0.010257489482561747,
+      "median": 0.0041849613189697266,
+      "std": 0.0684795754374725,
+      "p5": -0.03658945560455323,
+      "p95": 0.04967336058616642
+    },
+    "confirmed_corrected_target": true,
+    "confirmed_original_target": false
+  }
+}

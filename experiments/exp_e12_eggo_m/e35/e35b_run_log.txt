@@ -1,0 +1,159 @@
+Roster loaded: 749 components
+subject 1/125 done (BraTS-GLI-01041-000, 22 components) -- 284s elapsed, ETA 35277s more
+subject 2/125 done (BraTS-GLI-01161-000, 1 components) -- 320s elapsed, ETA 19653s more
+subject 3/125 done (BraTS-GLI-01189-000, 1 components) -- 346s elapsed, ETA 14072s more
+subject 4/125 done (BraTS-GLI-01336-000, 3 components) -- 391s elapsed, ETA 11826s more
+subject 5/125 done (BraTS-GLI-00250-000, 3 components) -- 443s elapsed, ETA 10639s more
+subject 6/125 done (BraTS-GLI-00501-000, 1 components) -- 468s elapsed, ETA 9288s more
+subject 7/125 done (BraTS-GLI-01093-000, 1 components) -- 492s elapsed, ETA 8300s more
+subject 8/125 done (BraTS-GLI-01168-000, 3 components) -- 535s elapsed, ETA 7829s more
+subject 9/125 done (BraTS-GLI-00506-000, 1 components) -- 555s elapsed, ETA 7148s more
+subject 10/125 done (BraTS-GLI-01065-000, 3 components) -- 603s elapsed, ETA 6936s more
+  [checkpoint] wrote 117 records to E35_target_family_stats.partial.json
+  processed 50/749 components (740s elapsed)
+subject 11/125 done (BraTS-GLI-01444-000, 14 components) -- 767s elapsed, ETA 7952s more
+subject 12/125 done (BraTS-GLI-01326-000, 2 components) -- 807s elapsed, ETA 7599s more
+subject 13/125 done (BraTS-GLI-00764-000, 2 components) -- 844s elapsed, ETA 7270s more
+subject 14/125 done (BraTS-GLI-00731-001, 5 components) -- 900s elapsed, ETA 7136s more
+subject 15/125 done (BraTS-GLI-01258-000, 7 components) -- 993s elapsed, ETA 7284s more
+subject 16/125 done (BraTS-GLI-01025-000, 1 components) -- 1011s elapsed, ETA 6890s more
+subject 17/125 done (BraTS-GLI-00811-000, 1 components) -- 1033s elapsed, ETA 6566s more
+subject 18/125 done (BraTS-GLI-00103-000, 2 components) -- 1071s elapsed, ETA 6364s more
+subject 19/125 done (BraTS-GLI-01103-000, 3 components) -- 1113s elapsed, ETA 6208s more
+  processed 100/749 components (1315s elapsed)
+subject 20/125 done (BraTS-GLI-00514-001, 33 components) -- 1385s elapsed, ETA 7273s more
+  [checkpoint] wrote 327 records to E35_target_family_stats.partial.json
+subject 21/125 done (BraTS-GLI-00611-001, 1 components) -- 1407s elapsed, ETA 6968s more
+subject 22/125 done (BraTS-GLI-01369-000, 6 components) -- 1486s elapsed, ETA 6957s more
+subject 23/125 done (BraTS-GLI-01354-000, 6 components) -- 1564s elapsed, ETA 6935s more
+subject 24/125 done (BraTS-GLI-01227-000, 13 components) -- 1715s elapsed, ETA 7216s more
+subject 25/125 done (BraTS-GLI-01078-000, 1 components) -- 1738s elapsed, ETA 6953s more
+subject 26/125 done (BraTS-GLI-00241-000, 5 components) -- 1789s elapsed, ETA 6811s more
+  processed 150/749 components (1905s elapsed)
+subject 27/125 done (BraTS-GLI-00146-000, 21 components) -- 2025s elapsed, ETA 7350s more
+subject 28/125 done (BraTS-GLI-01349-000, 5 components) -- 2085s elapsed, ETA 7223s more
+subject 29/125 done (BraTS-GLI-00044-000, 1 components) -- 2103s elapsed, ETA 6961s more
+subject 30/125 done (BraTS-GLI-01315-000, 1 components) -- 2128s elapsed, ETA 6739s more
+  [checkpoint] wrote 507 records to E35_target_family_stats.partial.json
+subject 31/125 done (BraTS-GLI-00286-000, 16 components) -- 2336s elapsed, ETA 7084s more
+subject 32/125 done (BraTS-GLI-00491-000, 1 components) -- 2355s elapsed, ETA 6845s more
+subject 33/125 done (BraTS-GLI-00367-000, 4 components) -- 2422s elapsed, ETA 6751s more
+subject 34/125 done (BraTS-GLI-00525-001, 3 components) -- 2467s elapsed, ETA 6603s more
+subject 35/125 done (BraTS-GLI-00500-001, 1 components) -- 2487s elapsed, ETA 6396s more
+subject 36/125 done (BraTS-GLI-00708-001, 1 components) -- 2506s elapsed, ETA 6195s more
+subject 37/125 done (BraTS-GLI-01384-000, 1 components) -- 2529s elapsed, ETA 6016s more
+  processed 200/749 components (2588s elapsed)
+subject 38/125 done (BraTS-GLI-00768-001, 14 components) -- 2703s elapsed, ETA 6188s more
+  processed 250/749 components (3154s elapsed)
+subject 39/125 done (BraTS-GLI-01450-000, 83 components) -- 3626s elapsed, ETA 7996s more
+  processed 300/749 components (3736s elapsed)
+subject 40/125 done (BraTS-GLI-00628-000, 15 components) -- 3866s elapsed, ETA 8215s more
+  [checkpoint] wrote 924 records to E35_target_family_stats.partial.json
+subject 41/125 done (BraTS-GLI-00066-000, 1 components) -- 3893s elapsed, ETA 7977s more
+subject 42/125 done (BraTS-GLI-00016-001, 2 components) -- 3936s elapsed, ETA 7779s more
+subject 43/125 done (BraTS-GLI-01362-000, 7 components) -- 4069s elapsed, ETA 7759s more
+subject 44/125 done (BraTS-GLI-00604-000, 1 components) -- 4104s elapsed, ETA 7556s more
+subject 45/125 done (BraTS-GLI-00491-001, 2 components) -- 4148s elapsed, ETA 7374s more
+subject 46/125 done (BraTS-GLI-00222-000, 1 components) -- 4173s elapsed, ETA 7167s more
+subject 47/125 done (BraTS-GLI-01062-000, 1 components) -- 4214s elapsed, ETA 6993s more
+subject 48/125 done (BraTS-GLI-00266-000, 5 components) -- 4317s elapsed, ETA 6924s more
+subject 49/125 done (BraTS-GLI-01090-000, 4 components) -- 4412s elapsed, ETA 6843s more
+subject 50/125 done (BraTS-GLI-01374-000, 2 components) -- 4468s elapsed, ETA 6702s more
+  [checkpoint] wrote 1002 records to E35_target_family_stats.partial.json
+subject 51/125 done (BraTS-GLI-01176-000, 1 components) -- 4502s elapsed, ETA 6532s more
+subject 52/125 done (BraTS-GLI-00436-000, 2 components) -- 4556s elapsed, ETA 6395s more
+subject 53/125 done (BraTS-GLI-01019-000, 11 components) -- 4701s elapsed, ETA 6386s more
+  processed 350/749 components (4747s elapsed)
+subject 54/125 done (BraTS-GLI-00377-000, 3 components) -- 4764s elapsed, ETA 6263s more
+subject 55/125 done (BraTS-GLI-01314-000, 5 components) -- 4857s elapsed, ETA 6181s more
+subject 56/125 done (BraTS-GLI-00559-000, 3 components) -- 4931s elapsed, ETA 6076s more
+subject 57/125 done (BraTS-GLI-01114-000, 2 components) -- 4978s elapsed, ETA 5939s more
+subject 58/125 done (BraTS-GLI-00338-000, 1 components) -- 5012s elapsed, ETA 5789s more
+subject 59/125 done (BraTS-GLI-01293-000, 9 components) -- 5161s elapsed, ETA 5773s more
+subject 60/125 done (BraTS-GLI-00242-000, 5 components) -- 5236s elapsed, ETA 5672s more
+  [checkpoint] wrote 1128 records to E35_target_family_stats.partial.json
+subject 61/125 done (BraTS-GLI-00186-000, 3 components) -- 5286s elapsed, ETA 5546s more
+subject 62/125 done (BraTS-GLI-01028-000, 4 components) -- 5336s elapsed, ETA 5422s more
+subject 63/125 done (BraTS-GLI-00511-000, 1 components) -- 5356s elapsed, ETA 5271s more
+subject 64/125 done (BraTS-GLI-01001-000, 5 components) -- 5423s elapsed, ETA 5168s more
+subject 65/125 done (BraTS-GLI-01427-000, 6 components) -- 5490s elapsed, ETA 5068s more
+  processed 400/749 components (5549s elapsed)
+subject 66/125 done (BraTS-GLI-00683-000, 5 components) -- 5549s elapsed, ETA 4960s more
+subject 67/125 done (BraTS-GLI-01319-000, 6 components) -- 5613s elapsed, ETA 4859s more
+subject 68/125 done (BraTS-GLI-01323-000, 5 components) -- 5675s elapsed, ETA 4757s more
+subject 69/125 done (BraTS-GLI-01402-000, 4 components) -- 5732s elapsed, ETA 4652s more
+subject 70/125 done (BraTS-GLI-00249-000, 5 components) -- 5795s elapsed, ETA 4553s more
+  [checkpoint] wrote 1260 records to E35_target_family_stats.partial.json
+subject 71/125 done (BraTS-GLI-00032-001, 1 components) -- 5818s elapsed, ETA 4425s more
+subject 72/125 done (BraTS-GLI-01074-000, 1 components) -- 5839s elapsed, ETA 4298s more
+subject 73/125 done (BraTS-GLI-00616-000, 2 components) -- 5871s elapsed, ETA 4182s more
+subject 74/125 done (BraTS-GLI-01530-000, 5 components) -- 5919s elapsed, ETA 4080s more
+subject 75/125 done (BraTS-GLI-00098-000, 2 components) -- 5951s elapsed, ETA 3967s more
+subject 76/125 done (BraTS-GLI-01195-000, 7 components) -- 6031s elapsed, ETA 3889s more
+subject 77/125 done (BraTS-GLI-00682-001, 2 components) -- 6062s elapsed, ETA 3779s more
+subject 78/125 done (BraTS-GLI-01075-000, 2 components) -- 6099s elapsed, ETA 3675s more
+subject 79/125 done (BraTS-GLI-00299-000, 2 components) -- 6127s elapsed, ETA 3568s more
+subject 80/125 done (BraTS-GLI-00016-000, 3 components) -- 6168s elapsed, ETA 3470s more
+  [checkpoint] wrote 1341 records to E35_target_family_stats.partial.json
+  processed 450/749 components (6211s elapsed)
+subject 81/125 done (BraTS-GLI-00404-000, 3 components) -- 6211s elapsed, ETA 3374s more
+subject 82/125 done (BraTS-GLI-00723-000, 2 components) -- 6245s elapsed, ETA 3275s more
+subject 83/125 done (BraTS-GLI-00498-001, 5 components) -- 6309s elapsed, ETA 3192s more
+subject 84/125 done (BraTS-GLI-00193-000, 2 components) -- 6336s elapsed, ETA 3092s more
+subject 85/125 done (BraTS-GLI-01139-000, 12 components) -- 6469s elapsed, ETA 3044s more
+subject 86/125 done (BraTS-GLI-00020-001, 3 components) -- 6504s elapsed, ETA 2950s more
+subject 87/125 done (BraTS-GLI-00768-000, 1 components) -- 6526s elapsed, ETA 2850s more
+subject 88/125 done (BraTS-GLI-01452-000, 4 components) -- 6572s elapsed, ETA 2763s more
+subject 89/125 done (BraTS-GLI-01130-000, 1 components) -- 6594s elapsed, ETA 2667s more
+subject 90/125 done (BraTS-GLI-00680-001, 1 components) -- 6615s elapsed, ETA 2573s more
+  [checkpoint] wrote 1443 records to E35_target_family_stats.partial.json
+subject 91/125 done (BraTS-GLI-01516-000, 18 components) -- 6817s elapsed, ETA 2547s more
+  processed 500/749 components (6838s elapsed)
+subject 92/125 done (BraTS-GLI-00818-000, 1 components) -- 6838s elapsed, ETA 2453s more
+subject 93/125 done (BraTS-GLI-01255-000, 4 components) -- 6882s elapsed, ETA 2368s more
+subject 94/125 done (BraTS-GLI-00228-000, 1 components) -- 6899s elapsed, ETA 2275s more
+subject 95/125 done (BraTS-GLI-01273-000, 3 components) -- 6934s elapsed, ETA 2190s more
+subject 96/125 done (BraTS-GLI-00840-000, 1 components) -- 6961s elapsed, ETA 2103s more
+subject 97/125 done (BraTS-GLI-00619-000, 1 components) -- 6985s elapsed, ETA 2016s more
+subject 98/125 done (BraTS-GLI-01380-000, 1 components) -- 7009s elapsed, ETA 1931s more
+subject 99/125 done (BraTS-GLI-00582-000, 1 components) -- 7025s elapsed, ETA 1845s more
+subject 100/125 done (BraTS-GLI-01155-000, 1 components) -- 7049s elapsed, ETA 1762s more
+  [checkpoint] wrote 1539 records to E35_target_family_stats.partial.json
+subject 101/125 done (BraTS-GLI-01046-000, 1 components) -- 7069s elapsed, ETA 1680s more
+subject 102/125 done (BraTS-GLI-00313-000, 4 components) -- 7113s elapsed, ETA 1604s more
+subject 103/125 done (BraTS-GLI-00021-000, 4 components) -- 7169s elapsed, ETA 1531s more
+subject 104/125 done (BraTS-GLI-00565-000, 3 components) -- 7213s elapsed, ETA 1457s more
+  processed 550/749 components (7432s elapsed)
+subject 105/125 done (BraTS-GLI-01482-000, 35 components) -- 7518s elapsed, ETA 1432s more
+subject 106/125 done (BraTS-GLI-00347-000, 1 components) -- 7540s elapsed, ETA 1351s more
+subject 107/125 done (BraTS-GLI-01253-000, 20 components) -- 7773s elapsed, ETA 1308s more
+  processed 600/749 components (7986s elapsed)
+subject 108/125 done (BraTS-GLI-01513-000, 39 components) -- 8193s elapsed, ETA 1290s more
+subject 109/125 done (BraTS-GLI-00496-000, 1 components) -- 8213s elapsed, ETA 1206s more
+  processed 650/749 components (8481s elapsed)
+subject 110/125 done (BraTS-GLI-01104-000, 35 components) -- 8538s elapsed, ETA 1164s more
+  [checkpoint] wrote 1968 records to E35_target_family_stats.partial.json
+subject 111/125 done (BraTS-GLI-00445-000, 1 components) -- 8564s elapsed, ETA 1080s more
+subject 112/125 done (BraTS-GLI-01068-000, 3 components) -- 8605s elapsed, ETA 999s more
+subject 113/125 done (BraTS-GLI-00140-000, 1 components) -- 8619s elapsed, ETA 915s more
+subject 114/125 done (BraTS-GLI-01169-000, 2 components) -- 8657s elapsed, ETA 835s more
+subject 115/125 done (BraTS-GLI-01421-000, 8 components) -- 8740s elapsed, ETA 760s more
+subject 116/125 done (BraTS-GLI-00096-000, 2 components) -- 8772s elapsed, ETA 681s more
+subject 117/125 done (BraTS-GLI-00425-000, 1 components) -- 8791s elapsed, ETA 601s more
+subject 118/125 done (BraTS-GLI-01536-000, 15 components) -- 8972s elapsed, ETA 532s more
+subject 119/125 done (BraTS-GLI-00574-000, 3 components) -- 9030s elapsed, ETA 455s more
+  processed 700/749 components (9171s elapsed)
+subject 120/125 done (BraTS-GLI-00130-000, 10 components) -- 9203s elapsed, ETA 383s more
+  [checkpoint] wrote 2106 records to E35_target_family_stats.partial.json
+subject 121/125 done (BraTS-GLI-01342-000, 5 components) -- 9289s elapsed, ETA 307s more
+subject 122/125 done (BraTS-GLI-01393-000, 1 components) -- 9315s elapsed, ETA 229s more
+subject 123/125 done (BraTS-GLI-01428-000, 16 components) -- 9584s elapsed, ETA 156s more
+subject 124/125 done (BraTS-GLI-01159-000, 3 components) -- 9640s elapsed, ETA 78s more
+subject 125/125 done (BraTS-GLI-01424-000, 22 components) -- 9957s elapsed, ETA 0s more
+
+Total component-scale records: 2247 (expected 2247)
+D1 exact-mask size vs E35-A's size_64 crosscheck mismatches: 0 / 749
+Crop edge leaks (component near real native volume boundary): 2436 / 8988 sigma-records
+Margin-capped (large component, reduced blur truncation accuracy): 0 / 8988 sigma-records
+Saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e35\E35_target_family_stats.json
+Removed intermediate checkpoint file (final output saved successfully).

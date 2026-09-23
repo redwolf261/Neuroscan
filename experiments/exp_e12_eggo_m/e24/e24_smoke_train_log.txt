@@ -1,0 +1,57 @@
+======================================================================
+PHASE E24 GATE 5: SMOKE-TRAINING INTEGRATION TEST
+======================================================================
+N_SMOKE_BATCHES = 6 (deliberately small -- integration test, not an experiment)
+
+--- Constructing REAL EGGOMExperiment (baseline path, w_hat=None) ---
+[EGGO-M seed0 mu=0.1 lambda=0.1] Training subjects: 1126
+[EGGO-M seed0] Validation subjects: 125
+[EGGO-M seed0] Device: cuda, initial tau_b=0.9713 (live/adaptive, PHASE_E12E), delta_d=3.6659
+
+--- Running baseline (w_hat=None) smoke batches ---
+  batch 0: seg=0.9058 margin=0.11199 total=0.9847 active%=15.99 grad_finite=True max_grad_norm=0.400 seg_head_zero_grad=True param_changed=True
+  batch 1: seg=0.8976 margin=0.00281 total=0.9657 active%=1.13 grad_finite=True max_grad_norm=0.251 seg_head_zero_grad=True param_changed=True
+  batch 2: seg=0.8842 margin=0.00416 total=0.9508 active%=1.18 grad_finite=True max_grad_norm=0.191 seg_head_zero_grad=True param_changed=True
+  batch 3: seg=0.8744 margin=0.02883 total=0.9433 active%=3.81 grad_finite=True max_grad_norm=0.237 seg_head_zero_grad=True param_changed=True
+  batch 4: seg=0.8708 margin=0.05279 total=0.9430 active%=10.23 grad_finite=True max_grad_norm=0.222 seg_head_zero_grad=True param_changed=True
+  batch 5: seg=0.8638 margin=0.05473 total=0.9361 active%=8.84 grad_finite=True max_grad_norm=0.191 seg_head_zero_grad=True param_changed=True
+
+======================================================================
+ACCEPTANCE CRITERIA CHECK: baseline (w_hat=None)
+======================================================================
+
+  Mean active_hinge_pct across smoke run: 6.86%
+
+  baseline (w_hat=None): ALL CRITERIA PASSED
+
+--- Constructing REAL EGGOMExperiment (task-aligned path, w_hat=seg_head direction) ---
+[EGGO-M seed0 mu=0.1 lambda=0.1] Training subjects: 1126
+[EGGO-M seed0] Validation subjects: 125
+[EGGO-M seed0] Device: cuda, initial tau_b=0.9713 (live/adaptive, PHASE_E12E), delta_d=0.2553
+
+--- Running task-aligned (w_hat=seg_head direction) smoke batches ---
+  batch 0: seg=0.9058 margin=0.00793 total=0.9743 active%=24.13 grad_finite=True max_grad_norm=0.235 seg_head_zero_grad=True param_changed=True orthogonal_frac(max/mean)=3.28e-05/2.02e-07 (n_active_voxels=14345)
+  batch 1: seg=0.8912 margin=0.00700 total=0.9585 active%=18.64 grad_finite=True max_grad_norm=0.205 seg_head_zero_grad=True param_changed=True orthogonal_frac(max/mean)=1.34e-05/1.67e-07 (n_active_voxels=15010)
+  batch 2: seg=0.8764 margin=0.00561 total=0.9448 active%=15.57 grad_finite=True max_grad_norm=0.203 seg_head_zero_grad=True param_changed=True orthogonal_frac(max/mean)=1.59e-05/2.22e-07 (n_active_voxels=14810)
+  batch 3: seg=0.8689 margin=0.00657 total=0.9370 active%=16.36 grad_finite=True max_grad_norm=0.261 seg_head_zero_grad=True param_changed=True orthogonal_frac(max/mean)=1.94e-05/1.81e-07 (n_active_voxels=14696)
+  batch 4: seg=0.8648 margin=0.00463 total=0.9338 active%=15.17 grad_finite=True max_grad_norm=0.231 seg_head_zero_grad=True param_changed=True orthogonal_frac(max/mean)=2.66e-05/1.84e-07 (n_active_voxels=14143)
+  batch 5: seg=0.8588 margin=0.00467 total=0.9280 active%=14.10 grad_finite=True max_grad_norm=0.221 seg_head_zero_grad=True param_changed=True orthogonal_frac(max/mean)=3.86e-05/1.94e-07 (n_active_voxels=14274)
+
+======================================================================
+ACCEPTANCE CRITERIA CHECK: task-aligned
+======================================================================
+
+  Mean active_hinge_pct across smoke run: 17.33%
+
+  task-aligned: ALL CRITERIA PASSED
+
+Checkpoint saved and verified writable: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\e24_smoke_results\smoke_task_aligned\checkpoints\smoke_epoch_0.pth (67340747 bytes)
+Checkpoint reload verified: use_task_margin/delta_d_w fields present and correct
+
+======================================================================
+GATE 5 FINAL SUMMARY
+======================================================================
+  Baseline (w_hat=None):      PASS
+  Task-aligned (w_hat=w_hat): PASS
+
+  GATE 5 OVERALL: PASS -- Gate 6 (real E24/E25 controlled training) may proceed

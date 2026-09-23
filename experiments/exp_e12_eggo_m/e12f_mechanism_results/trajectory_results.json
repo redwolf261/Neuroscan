@@ -1,0 +1,65 @@
+[
+  {
+    "epoch": 1,
+    "val_dice": 0.4214601553976536,
+    "val_ece": 0.3618668078004135,
+    "independent_latent_boundary_auc": 0.9948340485943301,
+    "live_boundary_head_accuracy": 0.98405,
+    "mean_boundary_margin": 27.829124450683594,
+    "mean_evidence": 1.7781670012772084
+  },
+  {
+    "epoch": 5,
+    "val_dice": 0.7589997157454491,
+    "val_ece": 0.15187373044436753,
+    "independent_latent_boundary_auc": 0.9959789124870194,
+    "live_boundary_head_accuracy": 0.994625,
+    "mean_boundary_margin": 14.162016868591309,
+    "mean_evidence": 4.793109109669924
+  },
+  {
+    "epoch": 10,
+    "val_dice": 0.861421474814415,
+    "val_ece": 0.09731572050748125,
+    "independent_latent_boundary_auc": 0.9963233606726511,
+    "live_boundary_head_accuracy": 0.997875,
+    "mean_boundary_margin": 24.124425888061523,
+    "mean_evidence": 8.340493143635989
+  },
+  {
+    "epoch": 15,
+    "val_dice": 0.8932665377855301,
+    "val_ece": 0.07220593595848188,
+    "independent_latent_boundary_auc": 0.9991353394581912,
+    "live_boundary_head_accuracy": 0.998125,
+    "mean_boundary_margin": 26.73887825012207,
+    "mean_evidence": 11.799846233308315
+  },
+  {
+    "epoch": 20,
+    "val_dice": 0.8658317719586194,
+    "val_ece": 0.0601635502429871,
+    "independent_latent_boundary_auc": 0.9993647144556773,
+    "live_boundary_head_accuracy": 0.99825,
+    "mean_boundary_margin": 25.724695205688477,
+    "mean_evidence": 14.477421062934399
+  },
+  {
+    "epoch": 25,
+    "val_dice": 0.8990616530179978,
+    "val_ece": 0.0519634556421807,
+    "independent_latent_boundary_auc": 0.9996278648251211,
+    "live_boundary_head_accuracy": 0.9984,
+    "mean_boundary_margin": 26.428871154785156,
+    "mean_evidence": 17.06503838993907
+  },
+  {
+    "epoch": 30,
+    "val_dice": 0.9049997985363006,
+    "val_ece": 0.046016752866853514,
+    "independent_latent_boundary_auc": 0.999650069515005,
+    "live_boundary_head_accuracy": 0.99835,
+    "mean_boundary_margin": 28.04134750366211,
+    "mean_evidence": 19.535005047535897
+  }
+]

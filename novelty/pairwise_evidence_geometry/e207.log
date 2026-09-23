@@ -1,0 +1,25 @@
+E193 evidence-closure gate, 125 subjects
+  collect 25/125 subj, 84 comps (59s)
+  collect 50/125 subj, 186 comps (127s)
+  collect 100/125 subj, 348 comps (240s)
+  collect 125/125 subj, 438 comps (303s)
+
+collected 438 components
+
+L_vs_H  (n_comp=293, n_vox=8728)
+  AUC individual (voxel-level)     = 0.9945
+  AUC individual (comp mean-feat)  = 0.9851
+  AUC collective (pooled moments)  = 0.9864
+  AUC relational (+ pairwise/Gram) = 0.9862
+  Delta_coll = +0.0014
+  Delta_rel  = +0.0011
+
+S_vs_H  (n_comp=364, n_vox=11918)
+  AUC individual (voxel-level)     = 1.0000
+  AUC individual (comp mean-feat)  = 1.0000
+  AUC collective (pooled moments)  = 1.0000
+  AUC relational (+ pairwise/Gram) = 1.0000
+  Delta_coll = +0.0000
+  Delta_rel  = +0.0000
+
+wrote E193_results.csv, E193_components.csv

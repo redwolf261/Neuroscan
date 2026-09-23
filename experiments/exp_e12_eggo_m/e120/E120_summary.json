@@ -1,0 +1,37 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_eval_subjects": 32,
+  "context_decodability_means": {
+    "A_regression": {
+      "C0": -0.012376882876882867,
+      "C1": -0.0035414932151266454,
+      "C2": 0.0,
+      "C3": 0.0
+    },
+    "B_presence": {
+      "C0": 0.6851815446279943,
+      "C1": 0.8069153605028987,
+      "C2": 0.8378325086086988,
+      "C3": 0.8400014061480761
+    },
+    "C_fractional_only": {
+      "C0": 0.20341943413950503,
+      "C1": 0.21433646115474403,
+      "C2": 0.20939526241272688,
+      "C3": 0.2122436100617051
+    }
+  },
+  "delta_D_mean": 0.15481986152008176,
+  "delta_D_std": 0.18420179793992592,
+  "spearman_delta_D_vs_Nb": -0.11070381231671556,
+  "perm_p_delta_D_vs_Nb": 0.545,
+  "partial_rho_controlling_size": -0.4241202346041055,
+  "partial_perm_p": 0.017,
+  "model1_r2": 0.04774495092515407,
+  "model2_r2": 0.2701834220536383,
+  "model3_r2": 0.5222960277328379,
+  "model3_deltaD_coef": -0.560949154109583,
+  "decision": "E120_B_KILL_NOT_ASSOCIATED_OR_SIZE_EXPLAINED",
+  "detail": "Delta_D > 0 (context decodability gain is real) but does not significantly predict N_b, or the association is explained by lesion size (does not survive Model 3 / partial correlation)."
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "n_valid_components": 31,
+  "n_D4_preferred": 15,
+  "n_D2_preferred": 16,
+  "early_cutoff_epoch": 10,
+  "spearman_early_S_vs_final_S": {
+    "rho": 0.19622881680933593,
+    "p": 0.2900612491036745
+  },
+  "logistic_regression_cv": {
+    "n_splits": 5,
+    "auroc_mean": 0.4333333333333333,
+    "auroc_std": 0.20682789409984761,
+    "balanced_acc_mean": 0.35,
+    "balanced_acc_std": 0.16791201399674902,
+    "f1_mean": 0.39095238095238094,
+    "f1_std": 0.10575717705605711
+  },
+  "trivial_baselines": {
+    "always_D4_balanced_acc": 0.5,
+    "always_D2_balanced_acc": 0.5,
+    "size_only_auroc": 0.4666666666666667,
+    "baseline_dice_only_auroc": 0.6020833333333333
+  }
+}

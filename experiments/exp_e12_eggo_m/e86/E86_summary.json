@@ -1,0 +1,11 @@
+{
+  "n_subjects": 125,
+  "cross_reference_max_diff": 0.20869171619415283,
+  "mean_drop_bottleneck_alone": 0.2717103977203369,
+  "mean_drop_psi_clamp_alone": 0.22509824550151825,
+  "mean_drop_joint": 0.39270354849100114,
+  "n_valid_for_ratio": 122,
+  "median_superadditivity_ratio": 0.8022038735296004,
+  "wilcoxon_p_value": 1.0,
+  "decision": "NO_COMPENSATION_CONFOUND"
+}

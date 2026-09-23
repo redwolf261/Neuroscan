@@ -1,0 +1,170 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_train_labels": 200,
+  "n_val_labels": 125,
+  "n_scramble_draws": 5,
+  "grid_results": {
+    "POOLED__ORIGINAL": {
+      "rho_per_draw": [
+        0.560099170659909
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.49177679441986055,
+      "p_per_draw": [
+        0.0
+      ],
+      "mean_rho": 0.560099170659909,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 1,
+      "n_requested_draws": 1
+    },
+    "POOLED__CHANNEL_SHUFFLE": {
+      "rho_per_draw": [
+        0.4458931580545322,
+        0.44379177233811545,
+        0.4497579873399888,
+        0.5249132487152869,
+        0.4935798672507623
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.4758178954473863,
+      "p_per_draw": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rho": 0.47158720673973714,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5
+    },
+    "POOLED__SPATIAL_SHUFFLE": {
+      "rho_per_draw": [
+        0.560099170659909,
+        0.560099170659909,
+        0.560099170659909,
+        0.560099170659909,
+        0.560099170659909
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.4917767944198605,
+      "p_per_draw": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rho": 0.560099170659909,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5
+    },
+    "POOLED__BOTH_SHUFFLE": {
+      "rho_per_draw": [
+        0.5103663753713784,
+        0.48169659246845226,
+        0.4717119381141327,
+        0.46756753850675503,
+        0.40279938986128905
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.46189154728868226,
+      "p_per_draw": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rho": 0.46682836686440143,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5
+    },
+    "FLATTEN__ORIGINAL": {
+      "rho_per_draw": [
+        0.8499613670691548
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.8770929273231831,
+      "p_per_draw": [
+        0.0
+      ],
+      "mean_rho": 0.8499613670691548,
+      "worst_case_p": 0.0,
+      "n_valid_draws": 1,
+      "n_requested_draws": 1
+    },
+    "FLATTEN__CHANNEL_SHUFFLE": {
+      "rho_per_draw": [
+        0.05095553142176736,
+        0.04131496361750438,
+        0.2259604085416007,
+        0.11176361254024328,
+        0.05584954815605383
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.9630879771994302,
+      "p_per_draw": [
+        0.556,
+        0.628,
+        0.006,
+        0.231,
+        0.507
+      ],
+      "mean_rho": 0.09716881285543391,
+      "worst_case_p": 0.628,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5
+    },
+    "FLATTEN__SPATIAL_SHUFFLE": {
+      "rho_per_draw": [
+        0.1778773853725376,
+        0.35368410704205633,
+        0.23020926299453118,
+        0.23834752434363654,
+        0.19739815268556726
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.9851931298282457,
+      "p_per_draw": [
+        0.041,
+        0.0,
+        0.01,
+        0.009,
+        0.02
+      ],
+      "mean_rho": 0.23950328648766578,
+      "worst_case_p": 0.041,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5
+    },
+    "FLATTEN__BOTH_SHUFFLE": {
+      "rho_per_draw": [
+        0.16432283306138135,
+        -0.0506145170730506,
+        -0.12212307545801727,
+        0.058860305469048656,
+        0.08641180708429101
+      ],
+      "n_capacity_limited": 0,
+      "mean_train_fit_rho": 0.9835022875571889,
+      "p_per_draw": [
+        0.066,
+        0.569,
+        0.183,
+        0.507,
+        0.339
+      ],
+      "mean_rho": 0.02737147061673063,
+      "worst_case_p": 0.569,
+      "n_valid_draws": 5,
+      "n_requested_draws": 5
+    }
+  },
+  "final_verdict_CONVENIENCE_LABEL_ONLY": "H_C_CHANNEL_IDENTITY_SUPPORTED"
+}

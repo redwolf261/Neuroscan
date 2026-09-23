@@ -1,0 +1,29 @@
+{
+  "n_directional_subjects": 125,
+  "n_swap_subjects": 125,
+  "directional_means": {
+    "+x": 0.19243983960151673,
+    "-x": 0.20399439215660095,
+    "+y": 0.15451583862304688,
+    "-y": 0.14873162043094634,
+    "+z": 0.1138236939907074,
+    "-z": 0.11748817181587219,
+    "+xyz_diag": 0.21343054032325745
+  },
+  "axis_range": 0.09017069816589356,
+  "axis_mean": 0.15516559276978173,
+  "diagonal_value": 0.21343054032325745,
+  "magnitude_sweep_means": {
+    "1": 0.07492387390136719,
+    "2": 0.14770762801170348,
+    "3": 0.19243983960151673,
+    "4": 0.21690320110321046,
+    "5": 0.23869623464345932
+  },
+  "swap_radius_means": {
+    "1": 3.5858949025472e-05,
+    "2": 4.505022366841636e-05,
+    "3": 7.536562283833822e-05
+  },
+  "local_reading": "LOCAL EQUIVALENCE: even the closest (radius=1) donor swap causes near-zero damage -- neighboring directions are largely interchangeable at short range. A soft local-correspondence mechanism could plausibly exploit this."
+}

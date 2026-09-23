@@ -1,0 +1,44 @@
+{
+  "checkpoint_lineage": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "checkpoint_val_dice": 0.9101624600589275,
+  "per_stage": {
+    "enc1": {
+      "channels": 32,
+      "resolution": 64,
+      "mean_decodability_small": 0.3869598978199065,
+      "mean_decodability_large": 0.37014405080117285,
+      "diff_small_minus_large": 0.01681584701873362,
+      "permutation_p": 0.846,
+      "significant_deficit": false
+    },
+    "enc2": {
+      "channels": 64,
+      "resolution": 32,
+      "mean_decodability_small": 0.6577810384333134,
+      "mean_decodability_large": 0.6872496623545885,
+      "diff_small_minus_large": -0.02946862392127514,
+      "permutation_p": 0.642,
+      "significant_deficit": false
+    },
+    "enc3": {
+      "channels": 128,
+      "resolution": 16,
+      "mean_decodability_small": 0.7244086191058159,
+      "mean_decodability_large": 0.8057988062500954,
+      "diff_small_minus_large": -0.08139018714427948,
+      "permutation_p": 0.083,
+      "significant_deficit": false
+    },
+    "bottleneck": {
+      "channels": 256,
+      "resolution": 8,
+      "mean_decodability_small": 0.6517492376733571,
+      "mean_decodability_large": 0.7590891942381859,
+      "diff_small_minus_large": -0.10733995656482875,
+      "permutation_p": 0.026,
+      "significant_deficit": true
+    }
+  },
+  "localization": "H1_BOTTLENECK_COMPRESSION_LIMITED",
+  "detail": "enc1/enc2/enc3 show no significant deficit; the deficit appears ONLY at the bottleneck -- the bottleneck's own aggressive compression is where small-lesion information specifically gets lost."
+}

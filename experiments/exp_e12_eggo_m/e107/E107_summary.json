@@ -1,0 +1,21 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_fn_subjects": 63,
+  "n_tp_matched": 63,
+  "mean_abs_delta_ig": 0.10547394541993974,
+  "mean_abs_delta_evidence": 0.0037456153756234953,
+  "mean_abs_delta_random": 0.05323856257434402,
+  "diff_ig_minus_evidence": 0.10172833004431624,
+  "p_ig_vs_evidence": 0.0,
+  "diff_ig_minus_random": 0.052235382845595715,
+  "p_ig_vs_random": 0.0,
+  "diff_evidence_minus_random": -0.04949294719872053,
+  "p_evidence_vs_random": 0.0,
+  "mean_abs_delta_ig_fn_logit": 8.752079327901205,
+  "mean_abs_delta_ig_tp_logit": 20.53288305373419,
+  "diff_fn_minus_tp": -11.780803725832985,
+  "p_fn_vs_tp": 0.0,
+  "spatial_mean_boundary_frac": 0.9840239125953412,
+  "spatial_mean_largest_component_frac": 0.26071332931327584,
+  "decision": "CASE_3_KILL"
+}

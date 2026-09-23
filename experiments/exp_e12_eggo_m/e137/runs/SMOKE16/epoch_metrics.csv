@@ -1,0 +1,1 @@
+epoch,train_loss,train_dice,val_dice_ET,val_dice_TC,val_dice_WT,val_dice_mean,val_hd95_ET,val_hd95_TC,val_hd95_WT,epoch_time_sec,peak_gpu_mb

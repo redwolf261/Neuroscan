@@ -1,0 +1,124 @@
+{
+  "v5_amp_control": {
+    "arm": "v5_amp_control",
+    "arch": "v5",
+    "best_val_dice": 0.9112618714570999,
+    "n": 125,
+    "eff_rank_mean": 0.20100279664993287,
+    "eff_rank_std": 0.007720584579557676,
+    "stages": {
+      "N_1": {
+        "mean": 0.5997246249169111,
+        "std": 0.14813722583282174,
+        "small_mean": 0.6357634751983579,
+        "large_mean": 0.5631045028567314,
+        "small_minus_large": 0.07265897234162644,
+        "small_large_perm_p": 0.004,
+        "rho_size": -0.34683870967741925,
+        "rho_size_perm_p": 0.0,
+        "rho_dice_err": -0.10968356374807987,
+        "rho_dice_err_perm_p": 0.212
+      },
+      "N_2": {
+        "mean": 0.7040807750746608,
+        "std": 0.10527993821978872,
+        "small_mean": 0.7296677682223538,
+        "large_mean": 0.6780810884891018,
+        "small_minus_large": 0.05158667973325204,
+        "small_large_perm_p": 0.005,
+        "rho_size": -0.28495852534562205,
+        "rho_size_perm_p": 0.0,
+        "rho_dice_err": -0.15999999999999998,
+        "rho_dice_err_perm_p": 0.078
+      },
+      "N_3": {
+        "mean": 0.46464535817503927,
+        "std": 0.17069581487610544,
+        "small_mean": 0.5445945945878824,
+        "large_mean": 0.38340661794908587,
+        "small_minus_large": 0.16118797663879653,
+        "small_large_perm_p": 0.0,
+        "rho_size": -0.5686881720430106,
+        "rho_size_perm_p": 0.0,
+        "rho_dice_err": -0.028006144393241166,
+        "rho_dice_err_perm_p": 0.764
+      }
+    },
+    "eff_rank_vs_N3": {
+      "marginal_rho": 0.5801044546850997,
+      "marginal_p": 0.0,
+      "partial_rho_given_size": 0.7704823348694316,
+      "partial_p": 0.0
+    }
+  },
+  "v12_capacity": {
+    "arm": "v12_capacity",
+    "arch": "v12",
+    "best_val_dice": 0.9126491211354733,
+    "n": 125,
+    "eff_rank_mean": 0.2007170774936676,
+    "eff_rank_std": 0.006733880173748842,
+    "stages": {
+      "N_1": {
+        "mean": 0.3936070136986673,
+        "std": 0.19238773625753408,
+        "small_mean": 0.42274977999281077,
+        "large_mean": 0.36399420278687633,
+        "small_minus_large": 0.05875557720593444,
+        "small_large_perm_p": 0.089,
+        "rho_size": -0.19383102918586786,
+        "rho_size_perm_p": 0.032,
+        "rho_dice_err": 0.05148387096774193,
+        "rho_dice_err_perm_p": 0.565
+      },
+      "N_2": {
+        "mean": 0.4803299453854561,
+        "std": 0.18513907778913702,
+        "small_mean": 0.5421381080670963,
+        "large_mean": 0.41752487685411205,
+        "small_minus_large": 0.12461323121298423,
+        "small_large_perm_p": 0.0,
+        "rho_size": -0.40505683563748074,
+        "rho_size_perm_p": 0.0,
+        "rho_dice_err": -0.009155145929339477,
+        "rho_dice_err_perm_p": 0.93
+      },
+      "N_3": {
+        "mean": 0.5300369007289409,
+        "std": 0.18737153741675647,
+        "small_mean": 0.6018192698912961,
+        "large_mean": 0.4570967514188059,
+        "small_minus_large": 0.14472251847249018,
+        "small_large_perm_p": 0.0,
+        "rho_size": -0.4778556067588325,
+        "rho_size_perm_p": 0.0,
+        "rho_dice_err": -0.0502058371735791,
+        "rho_dice_err_perm_p": 0.576
+      }
+    },
+    "eff_rank_vs_N3": {
+      "marginal_rho": 0.5481658986175114,
+      "marginal_p": 0.0,
+      "partial_rho_given_size": 0.7569462365591397,
+      "partial_p": 0.0
+    }
+  },
+  "comparison": {
+    "paired_N3_shift": 0.06539154255390167,
+    "paired_t_p": 5.543368527103239e-26,
+    "wilcoxon_p": 1.1196352252153497e-17,
+    "verdict": "OUTCOME_B_VULNERABILITY_UNCHANGED",
+    "detail": "Dice essentially flat AND the causal vulnerability is intact and statistically indistinguishable from the control: the N_3 small-lesion gap and the effective-rank/N_3 coupling both survive 3x capacity. The deficit is NOT a capacity problem -- this strengthens the case for a mechanism-level intervention and supports freezing the architecture/capacity axis.",
+    "fp32_reference_NOT_A_CONTROL": {
+      "best_val_dice": 0.9101624600589275,
+      "N_1_mean": 0.6525,
+      "N_2_mean": 0.6143,
+      "N_3_mean": 0.2717,
+      "eff_rank_mean": 0.1912
+    },
+    "random_pr_width_baseline": {
+      "128ch": 0.936125,
+      "256ch": 0.967375
+    }
+  }
+}

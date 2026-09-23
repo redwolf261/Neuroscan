@@ -1,0 +1,25 @@
+{
+ "status": "COMPLETE",
+ "sid": "BraTS-GLI-00250-000",
+ "window_id": 0,
+ "gamma_soft_value": 0.03583536284478353,
+ "grad_gamma_norm": 1.637183490943818e-07,
+ "Jv_norm": 9.696328049756697e-12,
+ "random_Jv_norms": [
+  1.157018103919277e-13,
+  1.2921528591866903e-13,
+  1.337373914818221e-13,
+  1.0078753213166137e-13,
+  1.2170022715041653e-13
+ ],
+ "mean_random_Jv_norm": 1.2022844941489934e-13,
+ "r_ratio": 80.64919823007446,
+ "fd_check_relative_errors": [
+  0.5777714050094448,
+  0.5823847424730676,
+  0.5767004757314307
+ ],
+ "fd_check_max_rel_error": 0.5823847424730676,
+ "verdict": "NO -- grad(Gamma_soft) is a generic direction, no null-space preference (r>0.7)",
+ "note": "r = ||J @ grad(Gamma_soft)|| / mean(||J @ d_random||) at matched norm. Small r means grad(Gamma_soft) is preferentially output-null relative to a generic direction of the same size. No GT/Dice/optimizer used anywhere."
+}

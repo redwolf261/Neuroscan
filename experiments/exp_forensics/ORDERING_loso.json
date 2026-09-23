@@ -1,0 +1,14 @@
+{
+  "HARDNEG|mu only (absolute evidence)": 0.726643598615917,
+  "HARDNEG|contrast only": 0.6591695501730104,
+  "HARDNEG|rank only": 0.24134948096885814,
+  "HARDNEG|SHAPE only (scale-free)": 0.7612456747404844,
+  "HARDNEG|raw profile m0..m6": 0.7837370242214533,
+  "HARDNEG|ALL ordering features": 0.865916955017301,
+  "ADJ|mu only (absolute evidence)": 0.7352941176470589,
+  "ADJ|contrast only": 0.8269896193771626,
+  "ADJ|rank only": 0.5484429065743944,
+  "ADJ|SHAPE only (scale-free)": 0.8174740484429066,
+  "ADJ|raw profile m0..m6": 0.7794117647058824,
+  "ADJ|ALL ordering features": 0.8693771626297578
+}

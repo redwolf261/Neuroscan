@@ -1,0 +1,44 @@
+[
+  {
+    "epoch": 1,
+    "centroid_to_centroid_dist": 25.563495635986328,
+    "estimated_min_pairwise_dist": 3.0519726276397705,
+    "estimated_mean_pairwise_dist": 30.776906967163086
+  },
+  {
+    "epoch": 5,
+    "centroid_to_centroid_dist": 11.803491592407227,
+    "estimated_min_pairwise_dist": 1.073930025100708,
+    "estimated_mean_pairwise_dist": 15.256413459777832
+  },
+  {
+    "epoch": 10,
+    "centroid_to_centroid_dist": 21.397586822509766,
+    "estimated_min_pairwise_dist": 5.5006585121154785,
+    "estimated_mean_pairwise_dist": 24.695194244384766
+  },
+  {
+    "epoch": 15,
+    "centroid_to_centroid_dist": 23.667198181152344,
+    "estimated_min_pairwise_dist": 4.424569606781006,
+    "estimated_mean_pairwise_dist": 27.26738929748535
+  },
+  {
+    "epoch": 20,
+    "centroid_to_centroid_dist": 22.513113021850586,
+    "estimated_min_pairwise_dist": 10.777111053466797,
+    "estimated_mean_pairwise_dist": 25.968576431274414
+  },
+  {
+    "epoch": 25,
+    "centroid_to_centroid_dist": 22.904495239257812,
+    "estimated_min_pairwise_dist": 11.173095703125,
+    "estimated_mean_pairwise_dist": 26.807485580444336
+  },
+  {
+    "epoch": 30,
+    "centroid_to_centroid_dist": 24.085678100585938,
+    "estimated_min_pairwise_dist": 9.698015213012695,
+    "estimated_mean_pairwise_dist": 28.221858978271484
+  }
+]

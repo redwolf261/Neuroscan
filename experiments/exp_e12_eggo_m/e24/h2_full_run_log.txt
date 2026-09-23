@@ -1,0 +1,104 @@
+
+######################################################################
+# H2: condition B (objective=task_aligned)
+######################################################################
+
+=== Checkpoint epoch 5 ===
+  ||delta_theta_margin|| = 9.7707e-01
+  batch 0: n_valid=524288 cos_mean=+0.4601 cos_median=+0.6169 cos_std=0.4070
+  batch 1: n_valid=524288 cos_mean=+0.4438 cos_median=+0.6131 cos_std=0.4246
+  batch 2: n_valid=524288 cos_mean=+0.4580 cos_median=+0.6121 cos_std=0.4039
+  batch 3: n_valid=524288 cos_mean=+0.4578 cos_median=+0.6124 cos_std=0.4058
+
+=== Checkpoint epoch 10 ===
+  ||delta_theta_margin|| = 7.0667e-01
+  batch 0: n_valid=524288 cos_mean=+0.3790 cos_median=+0.5537 cos_std=0.3977
+  batch 1: n_valid=524288 cos_mean=+0.3334 cos_median=+0.4750 cos_std=0.3823
+  batch 2: n_valid=524288 cos_mean=+0.3423 cos_median=+0.4902 cos_std=0.3897
+  batch 3: n_valid=524288 cos_mean=+0.3522 cos_median=+0.5074 cos_std=0.3934
+
+=== Checkpoint epoch 15 ===
+  ||delta_theta_margin|| = 6.0147e-01
+  batch 0: n_valid=524288 cos_mean=+0.1926 cos_median=+0.2459 cos_std=0.2418
+  batch 1: n_valid=524288 cos_mean=+0.1815 cos_median=+0.1897 cos_std=0.2092
+  batch 2: n_valid=524288 cos_mean=+0.1884 cos_median=+0.2128 cos_std=0.2237
+  batch 3: n_valid=524288 cos_mean=+0.1747 cos_median=+0.1786 cos_std=0.2199
+
+=== Checkpoint epoch 20 ===
+  ||delta_theta_margin|| = 4.5515e-01
+  batch 0: n_valid=524288 cos_mean=+0.1825 cos_median=+0.2107 cos_std=0.2596
+  batch 1: n_valid=524288 cos_mean=+0.1792 cos_median=+0.2205 cos_std=0.2732
+  batch 2: n_valid=524288 cos_mean=+0.1979 cos_median=+0.2438 cos_std=0.2751
+  batch 3: n_valid=524288 cos_mean=+0.1843 cos_median=+0.2157 cos_std=0.2562
+
+=== Checkpoint epoch 25 ===
+  ||delta_theta_margin|| = 3.3611e-01
+  batch 0: n_valid=524288 cos_mean=+0.1202 cos_median=+0.1787 cos_std=0.2693
+  batch 1: n_valid=524288 cos_mean=+0.1245 cos_median=+0.1774 cos_std=0.2651
+  batch 2: n_valid=524288 cos_mean=+0.1139 cos_median=+0.1865 cos_std=0.3090
+  batch 3: n_valid=524288 cos_mean=+0.1254 cos_median=+0.1970 cos_std=0.2913
+
+=== Checkpoint epoch 30 ===
+  ||delta_theta_margin|| = 2.2982e-01
+  batch 0: n_valid=524288 cos_mean=+0.1240 cos_median=+0.1094 cos_std=0.2099
+  batch 1: n_valid=524288 cos_mean=+0.1416 cos_median=+0.1184 cos_std=0.1974
+  batch 2: n_valid=524288 cos_mean=+0.1332 cos_median=+0.1070 cos_std=0.1919
+  batch 3: n_valid=524288 cos_mean=+0.1230 cos_median=+0.0990 cos_std=0.1985
+
+Saved 24 records to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h2_results\h2_results_B.json
+
+######################################################################
+# H2: condition E (objective=random_projection)
+######################################################################
+Verified: checkpoint's saved r_vector matches ObjectiveConfig(mode='random_projection') exactly
+
+=== Checkpoint epoch 5 ===
+  ||delta_theta_margin|| = 8.5260e-01
+  batch 0: n_valid=524288 cos_mean=-0.0920 cos_median=-0.0437 cos_std=0.3181
+  batch 1: n_valid=524288 cos_mean=-0.1171 cos_median=-0.0610 cos_std=0.3056
+  batch 2: n_valid=524288 cos_mean=-0.1022 cos_median=-0.0426 cos_std=0.3084
+  batch 3: n_valid=524288 cos_mean=-0.1134 cos_median=-0.0558 cos_std=0.3157
+
+=== Checkpoint epoch 10 ===
+  ||delta_theta_margin|| = 8.1338e-01
+  batch 0: n_valid=524288 cos_mean=-0.1071 cos_median=-0.2122 cos_std=0.2220
+  batch 1: n_valid=524288 cos_mean=-0.1085 cos_median=-0.2137 cos_std=0.2147
+  batch 2: n_valid=524288 cos_mean=-0.1083 cos_median=-0.2105 cos_std=0.2254
+  batch 3: n_valid=524288 cos_mean=-0.1016 cos_median=-0.2171 cos_std=0.2265
+
+=== Checkpoint epoch 15 ===
+  ||delta_theta_margin|| = 6.3907e-01
+  batch 0: n_valid=524288 cos_mean=-0.0257 cos_median=-0.1131 cos_std=0.1823
+  batch 1: n_valid=524288 cos_mean=-0.0198 cos_median=-0.1198 cos_std=0.1863
+  batch 2: n_valid=524288 cos_mean=-0.0150 cos_median=-0.1098 cos_std=0.1819
+  batch 3: n_valid=524288 cos_mean=-0.0213 cos_median=-0.1158 cos_std=0.1835
+
+=== Checkpoint epoch 20 ===
+  ||delta_theta_margin|| = 5.0537e-01
+  batch 0: n_valid=524288 cos_mean=-0.0473 cos_median=+0.0191 cos_std=0.1988
+  batch 1: n_valid=524288 cos_mean=-0.0445 cos_median=+0.0205 cos_std=0.1990
+  batch 2: n_valid=524288 cos_mean=-0.0433 cos_median=+0.0263 cos_std=0.1991
+  batch 3: n_valid=524288 cos_mean=-0.0443 cos_median=+0.0136 cos_std=0.1884
+
+=== Checkpoint epoch 25 ===
+  ||delta_theta_margin|| = 3.8293e-01
+  batch 0: n_valid=524288 cos_mean=-0.0412 cos_median=-0.1239 cos_std=0.2028
+  batch 1: n_valid=524288 cos_mean=-0.0476 cos_median=-0.1316 cos_std=0.1993
+  batch 2: n_valid=524288 cos_mean=-0.0586 cos_median=-0.1702 cos_std=0.2040
+  batch 3: n_valid=524288 cos_mean=-0.0583 cos_median=-0.1568 cos_std=0.1908
+
+=== Checkpoint epoch 30 ===
+  ||delta_theta_margin|| = 2.2919e-01
+  batch 0: n_valid=524288 cos_mean=+0.0388 cos_median=+0.1896 cos_std=0.2586
+  batch 1: n_valid=524288 cos_mean=+0.0445 cos_median=+0.1878 cos_std=0.2710
+  batch 2: n_valid=524288 cos_mean=+0.0299 cos_median=+0.1668 cos_std=0.2563
+  batch 3: n_valid=524288 cos_mean=+0.0307 cos_median=+0.1606 cos_std=0.2695
+
+Saved 24 records to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h2_results\h2_results_E.json
+
+======================================================================
+H2: ALL CONDITIONS (B, E) COMPLETE
+======================================================================
+NOTE: no epsilon dimension in this data -- E21's mechanism produces ONE real
+accumulated delta_theta_margin per checkpoint (15 replay steps), not a magnitude sweep.
+Results kept at per-checkpoint, per-batch granularity, not collapsed to one mean.

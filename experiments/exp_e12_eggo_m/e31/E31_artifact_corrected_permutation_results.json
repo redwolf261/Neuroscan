@@ -1,0 +1,15 @@
+{
+  "n_naive_S1_S4": 89,
+  "n_artifact_components_V_c_alpha1_zero": 0,
+  "n_corrected_S1_S4_nonzero_footprint": 89,
+  "corrected_spearman_rho": 0.25450629729801466,
+  "corrected_spearman_p": 0.01609116493953129,
+  "corrected_spearman_excl_top3_outliers": 0.18700909069166913,
+  "corrected_spearman_p_excl_top3_outliers": 0.08468631359748453,
+  "permutation_null_200_trials": {
+    "mean_abs_rho": 0.39240039594988474,
+    "sd": 0.07511541587405053,
+    "fraction_exceeding_real_magnitude": 0.965
+  },
+  "kill_condition_3_triggered": true
+}

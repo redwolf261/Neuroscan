@@ -1,0 +1,67 @@
+
+######################################################################
+# H1 counterfactual rerun: condition A (objective=baseline)
+# checkpoints: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\gate6_runs\A_baseline_seed0\checkpoints
+######################################################################
+
+=== Checkpoint epoch 5 (objective=baseline) ===
+
+=== Checkpoint epoch 10 (objective=baseline) ===
+
+=== Checkpoint epoch 15 (objective=baseline) ===
+
+=== Checkpoint epoch 20 (objective=baseline) ===
+
+=== Checkpoint epoch 25 (objective=baseline) ===
+
+=== Checkpoint epoch 30 (objective=baseline) ===
+
+Condition A: 1536 rows
+Saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h1_results\h1_results_A.json and C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h1_results\h1_results_A.csv
+
+######################################################################
+# H1 counterfactual rerun: condition B (objective=task_aligned)
+# checkpoints: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\gate6_runs\B_task_aligned_seed0\checkpoints
+######################################################################
+
+=== Checkpoint epoch 5 (objective=task_aligned) ===
+
+=== Checkpoint epoch 10 (objective=task_aligned) ===
+
+=== Checkpoint epoch 15 (objective=task_aligned) ===
+
+=== Checkpoint epoch 20 (objective=task_aligned) ===
+
+=== Checkpoint epoch 25 (objective=task_aligned) ===
+
+=== Checkpoint epoch 30 (objective=task_aligned) ===
+
+Condition B: 1536 rows
+Saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h1_results\h1_results_B.json and C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h1_results\h1_results_B.csv
+
+######################################################################
+# H1 counterfactual rerun: condition E (objective=random_projection)
+# checkpoints: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\gate6_runs\E_random_projection_seed0\checkpoints
+######################################################################
+
+=== Checkpoint epoch 5 (objective=random_projection) ===
+
+=== Checkpoint epoch 10 (objective=random_projection) ===
+
+=== Checkpoint epoch 15 (objective=random_projection) ===
+
+=== Checkpoint epoch 20 (objective=random_projection) ===
+
+=== Checkpoint epoch 25 (objective=random_projection) ===
+
+=== Checkpoint epoch 30 (objective=random_projection) ===
+
+Condition E: 1536 rows
+Saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h1_results\h1_results_E.json and C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\h1_results\h1_results_E.csv
+
+======================================================================
+H1 COUNTERFACTUAL RERUNS: ALL THREE CONDITIONS COMPLETE
+======================================================================
+Results kept in SEPARATE files per condition -- no cross-condition merging.
+Next step (per locked analysis order): compute rho_A, rho_B, rho_E independently,
+each condition's own objective against its own Dice change, before any Dice comparison.

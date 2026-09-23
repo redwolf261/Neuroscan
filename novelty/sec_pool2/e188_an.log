@@ -1,0 +1,50 @@
+rows=1584  components={'L': 58, 'S': 119, 'H': 219}  subjects=107
+
+====================================================================================
+INTACT BASELINE dz (median) -- the thing each perturbation destroys
+====================================================================================
+  L: dz_intact median =    6.339   (n=58)
+  S: dz_intact median =   48.979   (n=119)
+  H: dz_intact median =    0.439   (n=219)
+
+====================================================================================
+RAW EFFECTS: Delta = dz_intact - dz_perturbed  (POSITIVE = damage)
+====================================================================================
+perturbation               L           S           H       L-S   p(L vs S)   p(L vs H)
+channel                0.067       9.349       0.203    -9.282    2.07e-20    4.20e-01
+local_spatial          1.165      11.651       0.036   -10.486    5.38e-24    2.91e-07
+amplitude             -0.352       2.818      -0.004    -3.170    1.37e-20    6.25e-05
+translation           -0.351      23.947       0.071   -24.299    8.61e-25    2.40e-02
+
+====================================================================================
+NORMALISED EFFECTS: Delta / |dz_intact|  -- controls for L simply
+having less evidence to lose (THE CONFOUND THAT MATTERS)
+====================================================================================
+perturbation               L           S           H       L-S   p(L vs S)
+channel                0.015       0.192       0.469    -0.177    5.67e-07
+local_spatial          0.188       0.235       0.071    -0.047    2.93e-02
+amplitude             -0.063       0.054      -0.009    -0.117    2.41e-12
+translation           -0.105       0.482       0.158    -0.587    2.02e-15
+
+====================================================================================
+SECONDARY: ordering within each population (rank 1 = most damaging)
+====================================================================================
+  L: local_spatial(1.16) > channel(0.07) > translation(-0.35) > amplitude(-0.35)
+  S: translation(23.95) > local_spatial(11.65) > channel(9.35) > amplitude(2.82)
+  H: channel(0.20) > translation(0.07) > local_spatial(0.04) > amplitude(-0.00)
+
+  E65 at enc1: translation(0.214) > channel(0.101) > smoothing(0.028) ~ local(0.027)
+
+====================================================================================
+PREREGISTERED VERDICT
+====================================================================================
+  S reproduces E65 enc1 ordering?        False
+  perturbations with significant L-vs-S  ['channel', 'local_spatial', 'amplitude', 'translation']
+      channel          normalised L-S = -0.177  p=5.67e-07
+      local_spatial    normalised L-S = -0.047  p=2.93e-02
+      amplitude        normalised L-S = -0.117  p=2.41e-12
+      translation      normalised L-S = -0.587  p=2.02e-15
+
+  K1 (enc3 == enc1, no asymmetry): passed
+
+  ==> ASYMMETRY PRESENT -- proceed to operator design

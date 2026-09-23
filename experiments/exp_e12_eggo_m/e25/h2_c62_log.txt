@@ -1,0 +1,56 @@
+
+######################################################################
+# H2: condition C6-2 (objective=sc_tam), CLASS-CONDITIONAL SIGNED REPORTING
+######################################################################
+
+=== Checkpoint epoch 5 ===
+  ||delta_theta_margin|| = 1.0846e+00
+  batch 0: pooled_cos_mean=+0.3887 | tumor(expect<0): cos_mean=-0.1907 frac_correct_sign=0.916 (n=1150) | background(expect>0): cos_mean=+0.3900 frac_correct_sign=0.910 (n=523138)
+  batch 1: pooled_cos_mean=+0.4128 | tumor(expect<0): cos_mean=-0.0017 frac_correct_sign=0.650 (n=4599) | background(expect>0): cos_mean=+0.4164 frac_correct_sign=0.924 (n=519689)
+  batch 2: pooled_cos_mean=+0.3898 | tumor(expect<0): cos_mean=-0.0214 frac_correct_sign=0.634 (n=9778) | background(expect>0): cos_mean=+0.3976 frac_correct_sign=0.922 (n=514510)
+  batch 3: pooled_cos_mean=+0.4102 | tumor(expect<0): cos_mean=-0.2262 frac_correct_sign=0.892 (n=3439) | background(expect>0): cos_mean=+0.4144 frac_correct_sign=0.930 (n=520849)
+
+=== Checkpoint epoch 10 ===
+  ||delta_theta_margin|| = 9.4082e-01
+  batch 0: pooled_cos_mean=+0.3662 | tumor(expect<0): cos_mean=-0.2924 frac_correct_sign=0.857 (n=5822) | background(expect>0): cos_mean=+0.3736 frac_correct_sign=0.885 (n=518466)
+  batch 1: pooled_cos_mean=+0.3780 | tumor(expect<0): cos_mean=-0.2929 frac_correct_sign=0.857 (n=6265) | background(expect>0): cos_mean=+0.3861 frac_correct_sign=0.889 (n=518023)
+  batch 2: pooled_cos_mean=+0.3518 | tumor(expect<0): cos_mean=-0.3738 frac_correct_sign=0.956 (n=6472) | background(expect>0): cos_mean=+0.3609 frac_correct_sign=0.894 (n=517816)
+  batch 3: pooled_cos_mean=+0.3623 | tumor(expect<0): cos_mean=-0.3796 frac_correct_sign=0.961 (n=2587) | background(expect>0): cos_mean=+0.3660 frac_correct_sign=0.874 (n=521701)
+
+=== Checkpoint epoch 15 ===
+  ||delta_theta_margin|| = 7.9919e-01
+  batch 0: pooled_cos_mean=+0.3471 | tumor(expect<0): cos_mean=-0.3613 frac_correct_sign=0.927 (n=9290) | background(expect>0): cos_mean=+0.3599 frac_correct_sign=0.835 (n=514998)
+  batch 1: pooled_cos_mean=+0.2170 | tumor(expect<0): cos_mean=-0.3093 frac_correct_sign=0.944 (n=2852) | background(expect>0): cos_mean=+0.2199 frac_correct_sign=0.812 (n=521436)
+  batch 2: pooled_cos_mean=+0.3045 | tumor(expect<0): cos_mean=-0.3298 frac_correct_sign=0.937 (n=3516) | background(expect>0): cos_mean=+0.3088 frac_correct_sign=0.904 (n=520772)
+  batch 3: pooled_cos_mean=+0.3578 | tumor(expect<0): cos_mean=-0.3664 frac_correct_sign=0.946 (n=7651) | background(expect>0): cos_mean=+0.3685 frac_correct_sign=0.908 (n=516637)
+
+=== Checkpoint epoch 20 ===
+  ||delta_theta_margin|| = 6.6860e-01
+  batch 0: pooled_cos_mean=+0.2026 | tumor(expect<0): cos_mean=-0.3470 frac_correct_sign=0.922 (n=2373) | background(expect>0): cos_mean=+0.2051 frac_correct_sign=0.760 (n=521915)
+  batch 1: pooled_cos_mean=+0.2027 | tumor(expect<0): cos_mean=-0.3403 frac_correct_sign=0.896 (n=4443) | background(expect>0): cos_mean=+0.2074 frac_correct_sign=0.743 (n=519845)
+  batch 2: pooled_cos_mean=+0.1264 | tumor(expect<0): cos_mean=-0.2204 frac_correct_sign=0.799 (n=6452) | background(expect>0): cos_mean=+0.1307 frac_correct_sign=0.620 (n=517836)
+  batch 3: pooled_cos_mean=+0.1405 | tumor(expect<0): cos_mean=-0.3433 frac_correct_sign=0.923 (n=4115) | background(expect>0): cos_mean=+0.1443 frac_correct_sign=0.738 (n=520173)
+
+=== Checkpoint epoch 25 ===
+  ||delta_theta_margin|| = 5.1774e-01
+  batch 0: pooled_cos_mean=+0.2650 | tumor(expect<0): cos_mean=-0.3310 frac_correct_sign=0.893 (n=6216) | background(expect>0): cos_mean=+0.2721 frac_correct_sign=0.834 (n=518072)
+  batch 1: pooled_cos_mean=+0.2449 | tumor(expect<0): cos_mean=-0.3409 frac_correct_sign=0.898 (n=4439) | background(expect>0): cos_mean=+0.2499 frac_correct_sign=0.824 (n=519849)
+  batch 2: pooled_cos_mean=+0.2923 | tumor(expect<0): cos_mean=-0.3260 frac_correct_sign=0.892 (n=9397) | background(expect>0): cos_mean=+0.3035 frac_correct_sign=0.854 (n=514891)
+  batch 3: pooled_cos_mean=+0.2362 | tumor(expect<0): cos_mean=-0.3815 frac_correct_sign=0.926 (n=6373) | background(expect>0): cos_mean=+0.2438 frac_correct_sign=0.822 (n=517915)
+
+=== Checkpoint epoch 30 ===
+  ||delta_theta_margin|| = 3.4109e-01
+  batch 0: pooled_cos_mean=+0.1830 | tumor(expect<0): cos_mean=-0.3891 frac_correct_sign=0.971 (n=6087) | background(expect>0): cos_mean=+0.1897 frac_correct_sign=0.683 (n=518201)
+  batch 1: pooled_cos_mean=+0.2174 | tumor(expect<0): cos_mean=-0.3677 frac_correct_sign=0.950 (n=8446) | background(expect>0): cos_mean=+0.2270 frac_correct_sign=0.705 (n=515842)
+  batch 2: pooled_cos_mean=+0.0792 | tumor(expect<0): cos_mean=-0.3279 frac_correct_sign=0.922 (n=4199) | background(expect>0): cos_mean=+0.0825 frac_correct_sign=0.574 (n=520089)
+  batch 3: pooled_cos_mean=+0.1160 | tumor(expect<0): cos_mean=-0.3982 frac_correct_sign=0.966 (n=7083) | background(expect>0): cos_mean=+0.1231 frac_correct_sign=0.600 (n=517205)
+
+Saved 24 records to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e25\h2_results\h2_results_C62.json
+
+======================================================================
+H2: C6-2 COMPLETE
+======================================================================
+NOTE: no epsilon dimension in this data (same as B/E's H2) -- ONE real accumulated
+delta_theta_margin per checkpoint (15 replay steps). Results kept at per-checkpoint,
+per-batch granularity, split by voxel class (tumor/background), not pooled --
+pooling would average away the class-conditional sign asymmetry this design targets.

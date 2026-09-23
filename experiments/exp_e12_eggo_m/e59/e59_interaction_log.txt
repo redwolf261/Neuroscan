@@ -1,0 +1,58 @@
+Device: cuda
+Loaded D4-only checkpoint: best_val_dice=0.9095618277788162
+Validation set size: 125
+
+[Sanity check] subset=all 8 groups vs real forward: max abs diff = 0.000000e+00
+[Sanity check] PASS.
+
+Auditing U(subset) for: emptyset, 8 singletons, 28 pairs, all(sanity) -- 38 evaluations/subject, 125 subjects.
+
+  processed 10/125 subjects
+  processed 20/125 subjects
+  processed 30/125 subjects
+  processed 40/125 subjects
+  processed 50/125 subjects
+  processed 60/125 subjects
+  processed 70/125 subjects
+  processed 80/125 subjects
+  processed 90/125 subjects
+  processed 100/125 subjects
+  processed 110/125 subjects
+  processed 120/125 subjects
+
+Saved 125 subject records.
+
+=== E59 Bottleneck Interaction Audit: n=125 subjects ===
+Mean U(all)   = -0.0551  (higher = better, U = -loss)
+Mean U(empty) = -0.2759
+Mean additive-model residual [U(all) - additive_estimate] = -0.0315 (large positive => synergy: real U(all) beats what an additive model predicts)
+
+Mean I_ij across all subjects/pairs: -0.0004 (std=0.0034)
+One-sample t-test (H0: mean I_ij = 0): t=-1.4634, p=1.4588e-01
+Sign-flip permutation test (1000 trials): p=0.1610
+
+Spearman(native_size, mean_I_pair) = -0.4983 (parametric p=3.3422e-09, permutation p=0.0000)
+(Negative rho would match E48's own size-dependence signature: MORE synergy for SMALLER lesions.)
+Spearman(native_size, additive_residual) = -0.3915 (parametric p=6.3310e-06, permutation p=0.0000)
+
+Synergy significant (mean I_ij > 0, both tests p<0.05): False
+Size-specific (more synergy for smaller lesions, rho<0, perm p<0.05): True
+
+=== VERDICT: ADDITIVE_REDUNDANT_SUPPORTED ===
+Traceback (most recent call last):
+  File "C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e59\run_e59_interaction_audit.py", line 315, in <module>
+    main()
+  File "C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e59\run_e59_interaction_audit.py", line 310, in main
+    json.dump(summary, f, indent=2)
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

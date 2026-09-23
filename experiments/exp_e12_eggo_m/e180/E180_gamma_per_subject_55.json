@@ -1,0 +1,1446 @@
+{
+ "per_family_metric": [
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 0,
+   "family": "T1_rank",
+   "gamma_dice": 0.02678392330805457,
+   "gamma_voxel": 0.07700657880338438,
+   "gamma_kl": 0.26541597706576187,
+   "gamma_boundary": 0.5080402451381044
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 1,
+   "family": "T1_rank",
+   "gamma_dice": 0.02672245105107629,
+   "gamma_voxel": 0.07690960899576736,
+   "gamma_kl": 0.26525534441073734,
+   "gamma_boundary": 0.5074746315649244
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 2,
+   "family": "T1_rank",
+   "gamma_dice": 0.025094330310821533,
+   "gamma_voxel": 0.07447261178349118,
+   "gamma_kl": 0.22493868072827658,
+   "gamma_boundary": 0.4835106695397597
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 3,
+   "family": "T1_rank",
+   "gamma_dice": 0.0250608126322428,
+   "gamma_voxel": 0.07442370539337179,
+   "gamma_kl": 0.2248608541364471,
+   "gamma_boundary": 0.4831962318011351
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 4,
+   "family": "T1_rank",
+   "gamma_dice": 0.02678392330805457,
+   "gamma_voxel": 0.07700657880338438,
+   "gamma_kl": 0.2654165333757798,
+   "gamma_boundary": 0.5080402451381044
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 5,
+   "family": "T1_rank",
+   "gamma_dice": 0.02672245105107629,
+   "gamma_voxel": 0.07690960899576736,
+   "gamma_kl": 0.2652559106548627,
+   "gamma_boundary": 0.5074746315649244
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 6,
+   "family": "T1_rank",
+   "gamma_dice": 0.025094330310821533,
+   "gamma_voxel": 0.07447261178349118,
+   "gamma_kl": 0.22493907809257507,
+   "gamma_boundary": 0.4835106695397597
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 7,
+   "family": "T1_rank",
+   "gamma_dice": 0.0250608126322428,
+   "gamma_voxel": 0.07442370539337179,
+   "gamma_kl": 0.22486126143485308,
+   "gamma_boundary": 0.4831962318011351
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 0,
+   "family": "T4_spectral",
+   "gamma_dice": 0.022544026374816895,
+   "gamma_voxel": 0.07596615555662553,
+   "gamma_kl": 0.2373312267009169,
+   "gamma_boundary": 0.4402785164679308
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 1,
+   "family": "T4_spectral",
+   "gamma_dice": 0.022499124209086063,
+   "gamma_voxel": 0.0758954560774581,
+   "gamma_kl": 0.23727203408877054,
+   "gamma_boundary": 0.43987036982866323
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 2,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021797895431518555,
+   "gamma_voxel": 0.07431570922187802,
+   "gamma_kl": 0.23109827113027373,
+   "gamma_boundary": 0.4318657046228542
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 3,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021778881549835205,
+   "gamma_voxel": 0.07428438730934886,
+   "gamma_kl": 0.2310565549414605,
+   "gamma_boundary": 0.43162121766241873
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 4,
+   "family": "T4_spectral",
+   "gamma_dice": 0.022544026374816895,
+   "gamma_voxel": 0.07596615555662553,
+   "gamma_kl": 0.2373312267009169,
+   "gamma_boundary": 0.4402785164679308
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 5,
+   "family": "T4_spectral",
+   "gamma_dice": 0.022499124209086063,
+   "gamma_voxel": 0.0758954560774581,
+   "gamma_kl": 0.23727203408877054,
+   "gamma_boundary": 0.43987036982866323
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 6,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021797895431518555,
+   "gamma_voxel": 0.07431570922187802,
+   "gamma_kl": 0.23109827113027373,
+   "gamma_boundary": 0.4318657046228542
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 7,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021778881549835205,
+   "gamma_voxel": 0.07428438730934886,
+   "gamma_kl": 0.2310565549414605,
+   "gamma_boundary": 0.43162121766241873
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 0,
+   "family": "T5_smooth",
+   "gamma_dice": 0.017318685849507687,
+   "gamma_voxel": 0.03791152394902272,
+   "gamma_kl": 0.11798427378137906,
+   "gamma_boundary": 0.28763331024599487
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 1,
+   "family": "T5_smooth",
+   "gamma_dice": 0.01679859558741248,
+   "gamma_voxel": 0.03696250059351841,
+   "gamma_kl": 0.11360064086814721,
+   "gamma_boundary": 0.28180898636595375
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 2,
+   "family": "T5_smooth",
+   "gamma_dice": 0.013421456019083622,
+   "gamma_voxel": 0.031657287408575145,
+   "gamma_kl": 0.07977967460950215,
+   "gamma_boundary": 0.23973633364574085
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 3,
+   "family": "T5_smooth",
+   "gamma_dice": 0.013066371281941769,
+   "gamma_voxel": 0.0309128699152123,
+   "gamma_kl": 0.07792856606344382,
+   "gamma_boundary": 0.23536184345945607
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 4,
+   "family": "T5_smooth",
+   "gamma_dice": 0.017318685849507687,
+   "gamma_voxel": 0.03791152394902272,
+   "gamma_kl": 0.11798564965526263,
+   "gamma_boundary": 0.28763331024599487
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 5,
+   "family": "T5_smooth",
+   "gamma_dice": 0.01679859558741248,
+   "gamma_voxel": 0.03696250059351841,
+   "gamma_kl": 0.11360201922555764,
+   "gamma_boundary": 0.28180898636595375
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 6,
+   "family": "T5_smooth",
+   "gamma_dice": 0.013421456019083622,
+   "gamma_voxel": 0.031657287408575145,
+   "gamma_kl": 0.07978105793396632,
+   "gamma_boundary": 0.23973633364574085
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 7,
+   "family": "T5_smooth",
+   "gamma_dice": 0.013066371281941769,
+   "gamma_voxel": 0.0309128699152123,
+   "gamma_kl": 0.07792994938790798,
+   "gamma_boundary": 0.23536184345945607
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 0,
+   "family": "T1_rank",
+   "gamma_dice": 0.03422003984451294,
+   "gamma_voxel": 0.10827866720610334,
+   "gamma_kl": 0.30432807141914964,
+   "gamma_boundary": 0.8549608584599016
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 1,
+   "family": "T1_rank",
+   "gamma_dice": 0.03411098321278894,
+   "gamma_voxel": 0.10796694167112164,
+   "gamma_kl": 0.30408791623388726,
+   "gamma_boundary": 0.8540730256237851
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 2,
+   "family": "T1_rank",
+   "gamma_dice": 0.029212693373362186,
+   "gamma_voxel": 0.09734603248377809,
+   "gamma_kl": 0.2693296249490231,
+   "gamma_boundary": 0.7368713060449897
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 3,
+   "family": "T1_rank",
+   "gamma_dice": 0.029163718223571777,
+   "gamma_voxel": 0.09722585330428468,
+   "gamma_kl": 0.2692242725752294,
+   "gamma_boundary": 0.736455429137619
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 4,
+   "family": "T1_rank",
+   "gamma_dice": 0.03158666690190637,
+   "gamma_voxel": 0.10325661613380098,
+   "gamma_kl": 0.29468784232934314,
+   "gamma_boundary": 0.8216891027826912
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 5,
+   "family": "T1_rank",
+   "gamma_dice": 0.03148653109868371,
+   "gamma_voxel": 0.10295177950964302,
+   "gamma_kl": 0.29449057672172785,
+   "gamma_boundary": 0.8208632340184411
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 6,
+   "family": "T1_rank",
+   "gamma_dice": 0.027578433354695675,
+   "gamma_voxel": 0.09391023543016735,
+   "gamma_kl": 0.26288399115825695,
+   "gamma_boundary": 0.7162795792938316
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 7,
+   "family": "T1_rank",
+   "gamma_dice": 0.027536531289418575,
+   "gamma_voxel": 0.09378659277199566,
+   "gamma_kl": 0.26279835558185977,
+   "gamma_boundary": 0.7158745342122449
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 0,
+   "family": "T4_spectral",
+   "gamma_dice": 0.03455098470052087,
+   "gamma_voxel": 0.11638509636450893,
+   "gamma_kl": 0.34686757034311694,
+   "gamma_boundary": 0.6767260434112686
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 1,
+   "family": "T4_spectral",
+   "gamma_dice": 0.03453260660171509,
+   "gamma_voxel": 0.11629500067807455,
+   "gamma_kl": 0.34677363264684874,
+   "gamma_boundary": 0.6765286752796916
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 2,
+   "family": "T4_spectral",
+   "gamma_dice": 0.03132639328638709,
+   "gamma_voxel": 0.10858812400297406,
+   "gamma_kl": 0.3149951638964315,
+   "gamma_boundary": 0.6212251486130308
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 3,
+   "family": "T4_spectral",
+   "gamma_dice": 0.03131765127182007,
+   "gamma_voxel": 0.10855989975112308,
+   "gamma_kl": 0.31494596290091675,
+   "gamma_boundary": 0.6212301882421253
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 4,
+   "family": "T4_spectral",
+   "gamma_dice": 0.03301225105921424,
+   "gamma_voxel": 0.1125531618210974,
+   "gamma_kl": 0.3385446088699003,
+   "gamma_boundary": 0.6540926496157161
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 5,
+   "family": "T4_spectral",
+   "gamma_dice": 0.03298765420913696,
+   "gamma_voxel": 0.11245237505969458,
+   "gamma_kl": 0.3384711843294402,
+   "gamma_boundary": 0.6537322888801352
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 6,
+   "family": "T4_spectral",
+   "gamma_dice": 0.030170083045959473,
+   "gamma_voxel": 0.10548175080408334,
+   "gamma_kl": 0.3080141058502098,
+   "gamma_boundary": 0.6024315750088148
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 7,
+   "family": "T4_spectral",
+   "gamma_dice": 0.030165930589040157,
+   "gamma_voxel": 0.10546040602570961,
+   "gamma_kl": 0.30798588041216135,
+   "gamma_boundary": 0.6023998286708977
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 0,
+   "family": "T5_smooth",
+   "gamma_dice": 0.02077662944793701,
+   "gamma_voxel": 0.03976399240874055,
+   "gamma_kl": 0.17140248169501623,
+   "gamma_boundary": 0.36185363426215406
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 1,
+   "family": "T5_smooth",
+   "gamma_dice": 0.020859162012735966,
+   "gamma_voxel": 0.03972690567277429,
+   "gamma_kl": 0.17112812275687853,
+   "gamma_boundary": 0.362354127138725
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 2,
+   "family": "T5_smooth",
+   "gamma_dice": 0.010238945484161377,
+   "gamma_voxel": 0.022415510973475158,
+   "gamma_kl": 0.043550734873861074,
+   "gamma_boundary": 0.16329752400595474
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 3,
+   "family": "T5_smooth",
+   "gamma_dice": 0.010279536247253418,
+   "gamma_voxel": 0.022382092172325684,
+   "gamma_kl": 0.04346236198519667,
+   "gamma_boundary": 0.1633388671953796
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 4,
+   "family": "T5_smooth",
+   "gamma_dice": 0.01613175868988037,
+   "gamma_voxel": 0.03294421027060648,
+   "gamma_kl": 0.13035098370164633,
+   "gamma_boundary": 0.28683533650574394
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 5,
+   "family": "T5_smooth",
+   "gamma_dice": 0.016057968139648438,
+   "gamma_voxel": 0.03271675282425187,
+   "gamma_kl": 0.13000410019109646,
+   "gamma_boundary": 0.2855632354469608
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 6,
+   "family": "T5_smooth",
+   "gamma_dice": 0.008549471696217892,
+   "gamma_voxel": 0.019655867056237546,
+   "gamma_kl": 0.0391687136143446,
+   "gamma_boundary": 0.13500028166752953
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 7,
+   "family": "T5_smooth",
+   "gamma_dice": 0.00853993495305383,
+   "gamma_voxel": 0.01956755355628878,
+   "gamma_kl": 0.03908560471609235,
+   "gamma_boundary": 0.13461053169777992
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 0,
+   "family": "T1_rank",
+   "gamma_dice": 0.028873542944590214,
+   "gamma_voxel": 0.05985257720139465,
+   "gamma_kl": 0.1539442383994659,
+   "gamma_boundary": 0.21489417842109612
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 1,
+   "family": "T1_rank",
+   "gamma_dice": 0.02867380777994788,
+   "gamma_voxel": 0.05950149040342051,
+   "gamma_kl": 0.15306350899239382,
+   "gamma_boundary": 0.21387155923813964
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 2,
+   "family": "T1_rank",
+   "gamma_dice": 0.023884812990824345,
+   "gamma_voxel": 0.05001054787715466,
+   "gamma_kl": 0.11711139976978302,
+   "gamma_boundary": 0.17891490608887176
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 3,
+   "family": "T1_rank",
+   "gamma_dice": 0.023706595102945927,
+   "gamma_voxel": 0.04969717591017353,
+   "gamma_kl": 0.1162151296933492,
+   "gamma_boundary": 0.17799404090860596
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 4,
+   "family": "T1_rank",
+   "gamma_dice": 0.02870267629623413,
+   "gamma_voxel": 0.05954725737258182,
+   "gamma_kl": 0.15235247276723385,
+   "gamma_boundary": 0.21384915214242772
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 5,
+   "family": "T1_rank",
+   "gamma_dice": 0.02849171559015906,
+   "gamma_voxel": 0.05916952216496236,
+   "gamma_kl": 0.1515359121064345,
+   "gamma_boundary": 0.21268368582706945
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 6,
+   "family": "T1_rank",
+   "gamma_dice": 0.02372421820958459,
+   "gamma_voxel": 0.049719921319330534,
+   "gamma_kl": 0.1162398848682642,
+   "gamma_boundary": 0.17798742250244629
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 7,
+   "family": "T1_rank",
+   "gamma_dice": 0.02353700002034509,
+   "gamma_voxel": 0.049386077155536195,
+   "gamma_kl": 0.11540660696725051,
+   "gamma_boundary": 0.1769739547894631
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 0,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021684706211090088,
+   "gamma_voxel": 0.04604328512325103,
+   "gamma_kl": 0.1307821168253819,
+   "gamma_boundary": 0.15981524554309337
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 1,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021651804447174072,
+   "gamma_voxel": 0.0459997921069956,
+   "gamma_kl": 0.13076706851522127,
+   "gamma_boundary": 0.15963953977293593
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 2,
+   "family": "T4_spectral",
+   "gamma_dice": 0.01597374677658081,
+   "gamma_voxel": 0.034273331042366524,
+   "gamma_kl": 0.072615888590614,
+   "gamma_boundary": 0.11783230066435262
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 3,
+   "family": "T4_spectral",
+   "gamma_dice": 0.015941659609476688,
+   "gamma_voxel": 0.034223038837538744,
+   "gamma_kl": 0.07260037399828434,
+   "gamma_boundary": 0.11765230337557099
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 4,
+   "family": "T4_spectral",
+   "gamma_dice": 0.021636009216308594,
+   "gamma_voxel": 0.04592929369936308,
+   "gamma_kl": 0.1305416338145733,
+   "gamma_boundary": 0.15840192596567162
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 5,
+   "family": "T4_spectral",
+   "gamma_dice": 0.02162655194600427,
+   "gamma_voxel": 0.045920771768358605,
+   "gamma_kl": 0.13053137995302677,
+   "gamma_boundary": 0.15805586199562968
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 6,
+   "family": "T4_spectral",
+   "gamma_dice": 0.01589212814966834,
+   "gamma_voxel": 0.03410278531798638,
+   "gamma_kl": 0.07243314323325951,
+   "gamma_boundary": 0.1162352575863956
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 7,
+   "family": "T4_spectral",
+   "gamma_dice": 0.015880465507507324,
+   "gamma_voxel": 0.03408780063546394,
+   "gamma_kl": 0.07241878472268581,
+   "gamma_boundary": 0.11585728953498686
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 0,
+   "family": "T5_smooth",
+   "gamma_dice": 0.05855584144592285,
+   "gamma_voxel": 0.12031075099869579,
+   "gamma_kl": 0.4635188678900401,
+   "gamma_boundary": 0.571250102962611
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 1,
+   "family": "T5_smooth",
+   "gamma_dice": 0.058384259541829464,
+   "gamma_voxel": 0.12001252483150508,
+   "gamma_kl": 0.4613925516605377,
+   "gamma_boundary": 0.5702344414163761
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 2,
+   "family": "T5_smooth",
+   "gamma_dice": 0.051326076189676884,
+   "gamma_voxel": 0.1092008254093346,
+   "gamma_kl": 0.38624633600314456,
+   "gamma_boundary": 0.5067658761139635
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 3,
+   "family": "T5_smooth",
+   "gamma_dice": 0.051125089327494266,
+   "gamma_voxel": 0.10883842441646494,
+   "gamma_kl": 0.3841280862689018,
+   "gamma_boundary": 0.5055157127889189
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 4,
+   "family": "T5_smooth",
+   "gamma_dice": 0.05784650643666589,
+   "gamma_voxel": 0.11852292725976019,
+   "gamma_kl": 0.45799070099989575,
+   "gamma_boundary": 0.5528025020587471
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 5,
+   "family": "T5_smooth",
+   "gamma_dice": 0.05768106381098426,
+   "gamma_voxel": 0.11825833619712459,
+   "gamma_kl": 0.455936923623085,
+   "gamma_boundary": 0.551847294954678
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 6,
+   "family": "T5_smooth",
+   "gamma_dice": 0.050621549288431766,
+   "gamma_voxel": 0.10742260350615442,
+   "gamma_kl": 0.38076797624429065,
+   "gamma_boundary": 0.4957813535199207
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 7,
+   "family": "T5_smooth",
+   "gamma_dice": 0.0504202047983805,
+   "gamma_voxel": 0.10708514605344935,
+   "gamma_kl": 0.37866585453351337,
+   "gamma_boundary": 0.49458398850504154
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 0,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 1,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 2,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 3,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 4,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 5,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 6,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 7,
+   "family": "T1_rank",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 0,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 1,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 2,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 3,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 4,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 5,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 6,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 7,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0,
+   "gamma_voxel": 0.0,
+   "gamma_kl": 0.0,
+   "gamma_boundary": 0.0
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 0,
+   "family": "T5_smooth",
+   "gamma_dice": 0.27796483536561334,
+   "gamma_voxel": 0.9094247246022031,
+   "gamma_kl": 6.040694713592529,
+   "gamma_boundary": 5.453973518587314
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 1,
+   "family": "T5_smooth",
+   "gamma_dice": 0.27796483536561334,
+   "gamma_voxel": 0.9094247246022031,
+   "gamma_kl": 6.040646076202393,
+   "gamma_boundary": 5.453973518587314
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 2,
+   "family": "T5_smooth",
+   "gamma_dice": 0.27151582638422644,
+   "gamma_voxel": 0.897796817625459,
+   "gamma_kl": 5.877448558807373,
+   "gamma_boundary": 5.315707108736899
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 3,
+   "family": "T5_smooth",
+   "gamma_dice": 0.27151582638422644,
+   "gamma_voxel": 0.897796817625459,
+   "gamma_kl": 5.877401351928711,
+   "gamma_boundary": 5.315707108736899
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 4,
+   "family": "T5_smooth",
+   "gamma_dice": 0.33026487970103824,
+   "gamma_voxel": 0.9953760369917041,
+   "gamma_kl": 6.893289566040039,
+   "gamma_boundary": 10.228356952888015
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 5,
+   "family": "T5_smooth",
+   "gamma_dice": 0.33026487970103824,
+   "gamma_voxel": 0.9953760369917041,
+   "gamma_kl": 6.893279075622559,
+   "gamma_boundary": 10.228356952888015
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 6,
+   "family": "T5_smooth",
+   "gamma_dice": 0.32798201218247414,
+   "gamma_voxel": 0.9919080647354821,
+   "gamma_kl": 6.801876068115234,
+   "gamma_boundary": 9.164326931034338
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 7,
+   "family": "T5_smooth",
+   "gamma_dice": 0.32798201218247414,
+   "gamma_voxel": 0.9919080647354821,
+   "gamma_kl": 6.801865577697754,
+   "gamma_boundary": 9.164326931034338
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 0,
+   "family": "T1_rank",
+   "gamma_dice": 0.04127039511998498,
+   "gamma_voxel": 0.045270523261256204,
+   "gamma_kl": 0.17559399145344892,
+   "gamma_boundary": 0.3752429407773838
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 1,
+   "family": "T1_rank",
+   "gamma_dice": 0.04127039511998498,
+   "gamma_voxel": 0.045270523261256204,
+   "gamma_kl": 0.17559399145344892,
+   "gamma_boundary": 0.3752429407773838
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 2,
+   "family": "T1_rank",
+   "gamma_dice": 0.03289775053660071,
+   "gamma_voxel": 0.03577074632500413,
+   "gamma_kl": 0.10711283391962449,
+   "gamma_boundary": 0.30563014801927224
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 3,
+   "family": "T1_rank",
+   "gamma_dice": 0.03289775053660071,
+   "gamma_voxel": 0.03577074632500413,
+   "gamma_kl": 0.10711283391962449,
+   "gamma_boundary": 0.30563014801927224
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 4,
+   "family": "T1_rank",
+   "gamma_dice": 0.0304240187009176,
+   "gamma_voxel": 0.03252321816176209,
+   "gamma_kl": 0.10309548924366634,
+   "gamma_boundary": 0.29009435082511287
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 5,
+   "family": "T1_rank",
+   "gamma_dice": 0.0304240187009176,
+   "gamma_voxel": 0.03252321816176209,
+   "gamma_kl": 0.10309548924366634,
+   "gamma_boundary": 0.29009435082511287
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 6,
+   "family": "T1_rank",
+   "gamma_dice": 0.025063753128051758,
+   "gamma_voxel": 0.026689374270538076,
+   "gamma_kl": 0.06055651574085156,
+   "gamma_boundary": 0.24674558712505998
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 7,
+   "family": "T1_rank",
+   "gamma_dice": 0.025063753128051758,
+   "gamma_voxel": 0.026689374270538076,
+   "gamma_kl": 0.06055651574085156,
+   "gamma_boundary": 0.24674558712505998
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 0,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0077870885531107215,
+   "gamma_voxel": 0.022406610352843696,
+   "gamma_kl": 0.027898105249429744,
+   "gamma_boundary": 0.0859066495118425
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 1,
+   "family": "T4_spectral",
+   "gamma_dice": 0.0077870885531107215,
+   "gamma_voxel": 0.022406610352843696,
+   "gamma_kl": 0.027898105249429744,
+   "gamma_boundary": 0.0859066495118425
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 2,
+   "family": "T4_spectral",
+   "gamma_dice": 0.006780942281087277,
+   "gamma_voxel": 0.02060762528237518,
+   "gamma_kl": 0.02619656144330899,
+   "gamma_boundary": 0.08263126353597683
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 3,
+   "family": "T4_spectral",
+   "gamma_dice": 0.006780942281087277,
+   "gamma_voxel": 0.02060762528237518,
+   "gamma_kl": 0.02619656144330899,
+   "gamma_boundary": 0.08263126353597683
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 4,
+   "family": "T4_spectral",
+   "gamma_dice": 0.006640791893005371,
+   "gamma_voxel": 0.02056042435424354,
+   "gamma_kl": 0.026118938617097836,
+   "gamma_boundary": 0.07844503866411778
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 5,
+   "family": "T4_spectral",
+   "gamma_dice": 0.006640791893005371,
+   "gamma_voxel": 0.02056042435424354,
+   "gamma_kl": 0.026118938617097836,
+   "gamma_boundary": 0.07844503866411778
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 6,
+   "family": "T4_spectral",
+   "gamma_dice": 0.005712886651357052,
+   "gamma_voxel": 0.019285813212686395,
+   "gamma_kl": 0.025339490443002433,
+   "gamma_boundary": 0.07633081542107
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 7,
+   "family": "T4_spectral",
+   "gamma_dice": 0.005712886651357052,
+   "gamma_voxel": 0.019285813212686395,
+   "gamma_kl": 0.025339490443002433,
+   "gamma_boundary": 0.07633081542107
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 0,
+   "family": "T5_smooth",
+   "gamma_dice": 0.025796949863433838,
+   "gamma_voxel": 0.05893738216534959,
+   "gamma_kl": 0.12958166499932608,
+   "gamma_boundary": 0.37651077886853407
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 1,
+   "family": "T5_smooth",
+   "gamma_dice": 0.025796949863433838,
+   "gamma_voxel": 0.05893738216534959,
+   "gamma_kl": 0.12958166499932608,
+   "gamma_boundary": 0.37651077886853407
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 2,
+   "family": "T5_smooth",
+   "gamma_dice": 0.020466307799021366,
+   "gamma_voxel": 0.050843864820123555,
+   "gamma_kl": 0.08805367071181536,
+   "gamma_boundary": 0.3379031525792942
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 3,
+   "family": "T5_smooth",
+   "gamma_dice": 0.020466307799021366,
+   "gamma_voxel": 0.050843864820123555,
+   "gamma_kl": 0.08805367071181536,
+   "gamma_boundary": 0.3379031525792942
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 4,
+   "family": "T5_smooth",
+   "gamma_dice": 0.02107769250869751,
+   "gamma_voxel": 0.05192678908910831,
+   "gamma_kl": 0.10165007722874482,
+   "gamma_boundary": 0.33743353867528975
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 5,
+   "family": "T5_smooth",
+   "gamma_dice": 0.02107769250869751,
+   "gamma_voxel": 0.05192678908910831,
+   "gamma_kl": 0.10165007722874482,
+   "gamma_boundary": 0.33743353867528975
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 6,
+   "family": "T5_smooth",
+   "gamma_dice": 0.017270982265472412,
+   "gamma_voxel": 0.04621282033080145,
+   "gamma_kl": 0.0843133522818486,
+   "gamma_boundary": 0.31510856030408196
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 7,
+   "family": "T5_smooth",
+   "gamma_dice": 0.017270982265472412,
+   "gamma_voxel": 0.04621282033080145,
+   "gamma_kl": 0.0843133522818486,
+   "gamma_boundary": 0.31510856030408196
+  }
+ ],
+ "aggregated": [
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 0,
+   "gamma_dice_mean_over_families": 0.022215545177459717,
+   "gamma_voxel_mean_over_families": 0.06362808610301088,
+   "gamma_kl_mean_over_families": 0.20691049251601926,
+   "gamma_boundary_mean_over_families": 0.4119840239506767,
+   "gamma_family_raw_mean": 0.17618453693679162
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 1,
+   "gamma_dice_mean_over_families": 0.022006723615858276,
+   "gamma_voxel_mean_over_families": 0.06325585522224796,
+   "gamma_kl_mean_over_families": 0.20537600645588505,
+   "gamma_boundary_mean_over_families": 0.40971799591984714,
+   "gamma_family_raw_mean": 0.17508914530345956
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 2,
+   "gamma_dice_mean_over_families": 0.020104560587141235,
+   "gamma_voxel_mean_over_families": 0.060148536137981455,
+   "gamma_kl_mean_over_families": 0.1786055421560175,
+   "gamma_boundary_mean_over_families": 0.3850375692694516,
+   "gamma_family_raw_mean": 0.16097405203764792
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 3,
+   "gamma_dice_mean_over_families": 0.019968688488006592,
+   "gamma_voxel_mean_over_families": 0.05987365420597765,
+   "gamma_kl_mean_over_families": 0.17794865838045046,
+   "gamma_boundary_mean_over_families": 0.3833930976410033,
+   "gamma_family_raw_mean": 0.16029602467885953
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 4,
+   "gamma_dice_mean_over_families": 0.022215545177459717,
+   "gamma_voxel_mean_over_families": 0.06362808610301088,
+   "gamma_kl_mean_over_families": 0.20691113657731977,
+   "gamma_boundary_mean_over_families": 0.4119840239506767,
+   "gamma_family_raw_mean": 0.17618469795211678
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 5,
+   "gamma_dice_mean_over_families": 0.022006723615858276,
+   "gamma_voxel_mean_over_families": 0.06325585522224796,
+   "gamma_kl_mean_over_families": 0.20537665465639698,
+   "gamma_boundary_mean_over_families": 0.40971799591984714,
+   "gamma_family_raw_mean": 0.17508930735358755
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 6,
+   "gamma_dice_mean_over_families": 0.020104560587141235,
+   "gamma_voxel_mean_over_families": 0.060148536137981455,
+   "gamma_kl_mean_over_families": 0.17860613571893835,
+   "gamma_boundary_mean_over_families": 0.3850375692694516,
+   "gamma_family_raw_mean": 0.16097420042837818
+  },
+  {
+   "sid": "BraTS-GLI-01444-000",
+   "window_id": 7,
+   "gamma_dice_mean_over_families": 0.019968688488006592,
+   "gamma_voxel_mean_over_families": 0.05987365420597765,
+   "gamma_kl_mean_over_families": 0.1779492552547405,
+   "gamma_boundary_mean_over_families": 0.3833930976410033,
+   "gamma_family_raw_mean": 0.160296173897432
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 0,
+   "gamma_dice_mean_over_families": 0.02984921799765694,
+   "gamma_voxel_mean_over_families": 0.08814258532645093,
+   "gamma_kl_mean_over_families": 0.274199374485761,
+   "gamma_boundary_mean_over_families": 0.6311801787111081,
+   "gamma_family_raw_mean": 0.25584283913024425
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 1,
+   "gamma_dice_mean_over_families": 0.029834250609079998,
+   "gamma_voxel_mean_over_families": 0.08799628267399016,
+   "gamma_kl_mean_over_families": 0.2739965572125382,
+   "gamma_boundary_mean_over_families": 0.6309852760140672,
+   "gamma_family_raw_mean": 0.2557030916274189
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 2,
+   "gamma_dice_mean_over_families": 0.02359267738130355,
+   "gamma_voxel_mean_over_families": 0.07611655582007577,
+   "gamma_kl_mean_over_families": 0.20929184123977188,
+   "gamma_boundary_mean_over_families": 0.5071313262213251,
+   "gamma_family_raw_mean": 0.20403310016561907
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 3,
+   "gamma_dice_mean_over_families": 0.023586968580881756,
+   "gamma_voxel_mean_over_families": 0.07605594840924447,
+   "gamma_kl_mean_over_families": 0.20921086582044765,
+   "gamma_boundary_mean_over_families": 0.5070081615250412,
+   "gamma_family_raw_mean": 0.20396548608390377
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 4,
+   "gamma_dice_mean_over_families": 0.02691022555033366,
+   "gamma_voxel_mean_over_families": 0.08291799607516828,
+   "gamma_kl_mean_over_families": 0.2545278116336299,
+   "gamma_boundary_mean_over_families": 0.587539029634717,
+   "gamma_family_raw_mean": 0.23797376572346227
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 5,
+   "gamma_dice_mean_over_families": 0.026844051149156372,
+   "gamma_voxel_mean_over_families": 0.08270696913119649,
+   "gamma_kl_mean_over_families": 0.25432195374742145,
+   "gamma_boundary_mean_over_families": 0.586719586115179,
+   "gamma_family_raw_mean": 0.2376481400357384
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 6,
+   "gamma_dice_mean_over_families": 0.022099329365624348,
+   "gamma_voxel_mean_over_families": 0.07301595109682942,
+   "gamma_kl_mean_over_families": 0.2033556035409371,
+   "gamma_boundary_mean_over_families": 0.4845704786567253,
+   "gamma_family_raw_mean": 0.1957603406650291
+  },
+  {
+   "sid": "BraTS-GLI-01326-000",
+   "window_id": 7,
+   "gamma_dice_mean_over_families": 0.02208079894383752,
+   "gamma_voxel_mean_over_families": 0.07293818411799802,
+   "gamma_kl_mean_over_families": 0.20328994690337118,
+   "gamma_boundary_mean_over_families": 0.4842949648603075,
+   "gamma_family_raw_mean": 0.19565097370637854
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 0,
+   "gamma_dice_mean_over_families": 0.03637136353386772,
+   "gamma_voxel_mean_over_families": 0.07540220444111383,
+   "gamma_kl_mean_over_families": 0.24941507437162933,
+   "gamma_boundary_mean_over_families": 0.3153198423089335,
+   "gamma_family_raw_mean": 0.1691271211638861
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 1,
+   "gamma_dice_mean_over_families": 0.0362366239229838,
+   "gamma_voxel_mean_over_families": 0.07517126911397372,
+   "gamma_kl_mean_over_families": 0.2484077097227176,
+   "gamma_boundary_mean_over_families": 0.3145818468091506,
+   "gamma_family_raw_mean": 0.1685993623922064
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 2,
+   "gamma_dice_mean_over_families": 0.03039487865236068,
+   "gamma_voxel_mean_over_families": 0.06449490144295193,
+   "gamma_kl_mean_over_families": 0.19199120812118053,
+   "gamma_boundary_mean_over_families": 0.2678376942890626,
+   "gamma_family_raw_mean": 0.13867967062638895
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 3,
+   "gamma_dice_mean_over_families": 0.03025778134663896,
+   "gamma_voxel_mean_over_families": 0.0642528797213924,
+   "gamma_kl_mean_over_families": 0.19098119665351176,
+   "gamma_boundary_mean_over_families": 0.2670540190243653,
+   "gamma_family_raw_mean": 0.13813646918647712
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 4,
+   "gamma_dice_mean_over_families": 0.0360617306497362,
+   "gamma_voxel_mean_over_families": 0.07466649277723503,
+   "gamma_kl_mean_over_families": 0.24696160252723431,
+   "gamma_boundary_mean_over_families": 0.30835119338894884,
+   "gamma_family_raw_mean": 0.1665102548357886
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 5,
+   "gamma_dice_mean_over_families": 0.0359331104490492,
+   "gamma_voxel_mean_over_families": 0.07444954337681518,
+   "gamma_kl_mean_over_families": 0.24600140522751543,
+   "gamma_boundary_mean_over_families": 0.307528947592459,
+   "gamma_family_raw_mean": 0.1659782516614597
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 6,
+   "gamma_dice_mean_over_families": 0.030079298549228233,
+   "gamma_voxel_mean_over_families": 0.06374843671449044,
+   "gamma_kl_mean_over_families": 0.18981366811527145,
+   "gamma_boundary_mean_over_families": 0.26333467786958753,
+   "gamma_family_raw_mean": 0.13674402031214442
+  },
+  {
+   "sid": "BraTS-GLI-00764-000",
+   "window_id": 7,
+   "gamma_dice_mean_over_families": 0.029945890108744305,
+   "gamma_voxel_mean_over_families": 0.06351967461481649,
+   "gamma_kl_mean_over_families": 0.18883041540781656,
+   "gamma_boundary_mean_over_families": 0.26247174427649717,
+   "gamma_family_raw_mean": 0.13619193110196862
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 0,
+   "gamma_dice_mean_over_families": 0.09265494512187111,
+   "gamma_voxel_mean_over_families": 0.30314157486740106,
+   "gamma_kl_mean_over_families": 2.0135649045308432,
+   "gamma_boundary_mean_over_families": 1.817991172862438,
+   "gamma_family_raw_mean": 1.0568381493456382
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 1,
+   "gamma_dice_mean_over_families": 0.09265494512187111,
+   "gamma_voxel_mean_over_families": 0.30314157486740106,
+   "gamma_kl_mean_over_families": 2.0135486920674643,
+   "gamma_boundary_mean_over_families": 1.817991172862438,
+   "gamma_family_raw_mean": 1.0568340962297935
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 2,
+   "gamma_dice_mean_over_families": 0.09050527546140881,
+   "gamma_voxel_mean_over_families": 0.299265605875153,
+   "gamma_kl_mean_over_families": 1.9591495196024578,
+   "gamma_boundary_mean_over_families": 1.7719023695789664,
+   "gamma_family_raw_mean": 1.0302056926294965
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 3,
+   "gamma_dice_mean_over_families": 0.09050527546140881,
+   "gamma_voxel_mean_over_families": 0.299265605875153,
+   "gamma_kl_mean_over_families": 1.959133783976237,
+   "gamma_boundary_mean_over_families": 1.7719023695789664,
+   "gamma_family_raw_mean": 1.0302017587229413
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 4,
+   "gamma_dice_mean_over_families": 0.11008829323367941,
+   "gamma_voxel_mean_over_families": 0.33179201233056804,
+   "gamma_kl_mean_over_families": 2.297763188680013,
+   "gamma_boundary_mean_over_families": 3.4094523176293383,
+   "gamma_family_raw_mean": 1.5372739529683999
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 5,
+   "gamma_dice_mean_over_families": 0.11008829323367941,
+   "gamma_voxel_mean_over_families": 0.33179201233056804,
+   "gamma_kl_mean_over_families": 2.297759691874186,
+   "gamma_boundary_mean_over_families": 3.4094523176293383,
+   "gamma_family_raw_mean": 1.537273078766943
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 6,
+   "gamma_dice_mean_over_families": 0.10932733739415805,
+   "gamma_voxel_mean_over_families": 0.33063602157849403,
+   "gamma_kl_mean_over_families": 2.267292022705078,
+   "gamma_boundary_mean_over_families": 3.054775643678113,
+   "gamma_family_raw_mean": 1.4405077563389608
+  },
+  {
+   "sid": "BraTS-GLI-00731-001",
+   "window_id": 7,
+   "gamma_dice_mean_over_families": 0.10932733739415805,
+   "gamma_voxel_mean_over_families": 0.33063602157849403,
+   "gamma_kl_mean_over_families": 2.2672885258992515,
+   "gamma_boundary_mean_over_families": 3.054775643678113,
+   "gamma_family_raw_mean": 1.4405068821375042
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 0,
+   "gamma_dice_mean_over_families": 0.024951477845509846,
+   "gamma_voxel_mean_over_families": 0.04220483859314983,
+   "gamma_kl_mean_over_families": 0.11102458723406823,
+   "gamma_boundary_mean_over_families": 0.2792201230525868,
+   "gamma_family_raw_mean": 0.11435025668132869
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 1,
+   "gamma_dice_mean_over_families": 0.024951477845509846,
+   "gamma_voxel_mean_over_families": 0.04220483859314983,
+   "gamma_kl_mean_over_families": 0.11102458723406823,
+   "gamma_boundary_mean_over_families": 0.2792201230525868,
+   "gamma_family_raw_mean": 0.11435025668132869
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 2,
+   "gamma_dice_mean_over_families": 0.020048333538903118,
+   "gamma_voxel_mean_over_families": 0.035740745475834286,
+   "gamma_kl_mean_over_families": 0.07378768869158295,
+   "gamma_boundary_mean_over_families": 0.24205485471151444,
+   "gamma_family_raw_mean": 0.0929079056044587
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 3,
+   "gamma_dice_mean_over_families": 0.020048333538903118,
+   "gamma_voxel_mean_over_families": 0.035740745475834286,
+   "gamma_kl_mean_over_families": 0.07378768869158295,
+   "gamma_boundary_mean_over_families": 0.24205485471151444,
+   "gamma_family_raw_mean": 0.0929079056044587
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 4,
+   "gamma_dice_mean_over_families": 0.01938083436754016,
+   "gamma_voxel_mean_over_families": 0.03500347720170465,
+   "gamma_kl_mean_over_families": 0.07695483502983634,
+   "gamma_boundary_mean_over_families": 0.23532430938817347,
+   "gamma_family_raw_mean": 0.09166586399681365
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 5,
+   "gamma_dice_mean_over_families": 0.01938083436754016,
+   "gamma_voxel_mean_over_families": 0.03500347720170465,
+   "gamma_kl_mean_over_families": 0.07695483502983634,
+   "gamma_boundary_mean_over_families": 0.23532430938817347,
+   "gamma_family_raw_mean": 0.09166586399681365
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 6,
+   "gamma_dice_mean_over_families": 0.016015874014960407,
+   "gamma_voxel_mean_over_families": 0.03072933593800864,
+   "gamma_kl_mean_over_families": 0.05673645282190085,
+   "gamma_boundary_mean_over_families": 0.21272832095007063,
+   "gamma_family_raw_mean": 0.07905249593123513
+  },
+  {
+   "sid": "BraTS-GLI-01258-000",
+   "window_id": 7,
+   "gamma_dice_mean_over_families": 0.016015874014960407,
+   "gamma_voxel_mean_over_families": 0.03072933593800864,
+   "gamma_kl_mean_over_families": 0.05673645282190085,
+   "gamma_boundary_mean_over_families": 0.21272832095007063,
+   "gamma_family_raw_mean": 0.07905249593123513
+  }
+ ]
+}

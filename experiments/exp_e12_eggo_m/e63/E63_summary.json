@@ -1,0 +1,77 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "n_subjects": 125,
+  "mean_active_cells_per_subject": 169349.44,
+  "intervention_scale": "whole_active_volume_per_subject",
+  "global_gap_cutoffs": [
+    0.05003279447555542,
+    0.15544968843460083,
+    0.3769272565841675
+  ],
+  "mean_drop_A": 0.02225902462005615,
+  "mean_drop_B": 0.00031807518005371095,
+  "mean_drop_C": 0.001890838623046875,
+  "stats_A": {
+    "t_p": 4.281943474993e-28,
+    "wilcoxon_p": 8.463534372830558e-20,
+    "perm_p": 0.0,
+    "bootstrap_95ci": [
+      0.019234958410263063,
+      0.025206452775001525
+    ]
+  },
+  "stats_B": {
+    "t_p": 0.28571043419007336,
+    "wilcoxon_p": 0.2825348089768146,
+    "perm_p": 0.285,
+    "bootstrap_95ci": [
+      -0.0008085753798484802,
+      0.0014075792789459219
+    ]
+  },
+  "stats_C": {
+    "t_p": 0.002482531288701563,
+    "wilcoxon_p": 0.0026121712934452433,
+    "perm_p": 0.002,
+    "bootstrap_95ci": [
+      0.0005837846279144287,
+      0.0031817273736000047
+    ]
+  },
+  "F_WR": 0.01428971714588954,
+  "quartile_means_drop_B": {
+    "0": {
+      "mean": -0.00022696447372436523,
+      "n_subjects": 125
+    },
+    "1": {
+      "mean": -0.0003100781440734863,
+      "n_subjects": 125
+    },
+    "2": {
+      "mean": -0.0007045488357543946,
+      "n_subjects": 125
+    },
+    "3": {
+      "mean": -0.00023874425888061523,
+      "n_subjects": 125
+    }
+  },
+  "gap_hypothesis_supported": true,
+  "size_dependence": {
+    "rho": -0.17545314900153608,
+    "parametric_p": 0.05033237437867579,
+    "permutation_p": 0.05
+  },
+  "small_lesion_hypothesis_supported": false,
+  "criteria": {
+    "1_test_b_nonzero": false,
+    "2_F_WR_substantial": false,
+    "3_gap_dependence": true,
+    "4_small_lesion": false,
+    "5_permutation_survives": false,
+    "6_sufficiency": false,
+    "7_test_c_weaker": false
+  },
+  "verdict": "KILL"
+}

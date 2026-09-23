@@ -1,0 +1,7 @@
+E191 kinetic-energy existence gate, 125 subjects
+  25/125 subj, 168 rows (92s)
+  50/125 subj, 376 rows (191s)
+  100/125 subj, 700 rows (363s)
+  125/125 subj, 880 rows (452s)
+
+wrote E191_kinetic.csv (880 rows) pops={'L': 148, 'H': 440, 'S': 292}  452s

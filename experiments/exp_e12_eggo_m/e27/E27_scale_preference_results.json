@@ -1,0 +1,161 @@
+{
+  "n_components": 363,
+  "epsilon_used": 0.05,
+  "noise_floor_estimate": 0.007451281957761596,
+  "early_cutoff_epoch": 10,
+  "S_dice_distribution": {
+    "n": 363,
+    "mean": 0.0002925949722113638,
+    "median": 0.0,
+    "std": 0.1512367594918673,
+    "iqr": 5.840438141777054e-05,
+    "min": -1.0,
+    "max": 1.0,
+    "p5": -0.037705897656019734,
+    "p25": -2.787494409710648e-05,
+    "p50": 0.0,
+    "p75": 3.052943732066406e-05,
+    "p95": 0.02969183490619684
+  },
+  "S_iou_distribution": {
+    "n": 363,
+    "mean": 0.0012322780661219428,
+    "median": 0.0,
+    "std": 0.1336103384475959,
+    "iqr": 3.6505055607338535e-05,
+    "min": -1.0,
+    "max": 1.0,
+    "p5": -0.058863487378003836,
+    "p25": -1.9020271179353703e-05,
+    "p50": 0.0,
+    "p75": 1.7484784427984832e-05,
+    "p95": 0.04802812080533909
+  },
+  "S_coverage_distribution": {
+    "n": 363,
+    "mean": -0.0012806245945891283,
+    "median": 0.0,
+    "std": 0.24642707271093006,
+    "iqr": 0.004679349951780876,
+    "min": -1.0,
+    "max": 1.0,
+    "p5": -0.22778115501519758,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.004679349951780876,
+    "p95": 0.17819320765353444
+  },
+  "category_results": {
+    "all_components": {
+      "n": 363,
+      "D4_preferred": 15,
+      "D2_preferred": 16,
+      "Neutral": 332,
+      "D4_pct": 4.132231404958677,
+      "D2_pct": 4.40771349862259,
+      "Neutral_pct": 91.46005509641873
+    },
+    "detected_by_all_four": {
+      "n": 160,
+      "D4_preferred": 8,
+      "D2_preferred": 8,
+      "Neutral": 144,
+      "D4_pct": 5.0,
+      "D2_pct": 5.0,
+      "Neutral_pct": 90.0
+    },
+    "size_1-50": {
+      "n": 223,
+      "D4_preferred": 11,
+      "D2_preferred": 10,
+      "Neutral": 202,
+      "D4_pct": 4.932735426008969,
+      "D2_pct": 4.484304932735426,
+      "Neutral_pct": 90.5829596412556
+    },
+    "size_50-150": {
+      "n": 8,
+      "D4_preferred": 0,
+      "D2_preferred": 5,
+      "Neutral": 3,
+      "D4_pct": 0.0,
+      "D2_pct": 62.5,
+      "Neutral_pct": 37.5
+    },
+    "size_150-400": {
+      "n": 6,
+      "D4_preferred": 0,
+      "D2_preferred": 0,
+      "Neutral": 6,
+      "D4_pct": 0.0,
+      "D2_pct": 0.0,
+      "Neutral_pct": 100.0
+    },
+    "size_400-1000": {
+      "n": 15,
+      "D4_preferred": 2,
+      "D2_preferred": 1,
+      "Neutral": 12,
+      "D4_pct": 13.333333333333334,
+      "D2_pct": 6.666666666666667,
+      "Neutral_pct": 80.0
+    },
+    "size_>1000": {
+      "n": 111,
+      "D4_preferred": 2,
+      "D2_preferred": 0,
+      "Neutral": 109,
+      "D4_pct": 1.8018018018018018,
+      "D2_pct": 0.0,
+      "Neutral_pct": 98.1981981981982
+    }
+  },
+  "heterogeneity_test": {
+    "n_non_neutral": 31,
+    "n_d4_preferred": 15,
+    "n_d2_preferred": 16,
+    "d4_fraction": 0.4838709677419355,
+    "d4_fraction_ci_low": 0.30154565071234124,
+    "d4_fraction_ci_high": 0.6693940269482439,
+    "binom_pvalue_vs_0.5": 1.0
+  },
+  "confounder_analysis": {
+    "spearman_baseline_dice_vs_S": {
+      "rho": 0.016228658265918666,
+      "p": 0.7579671755006419
+    },
+    "spearman_baseline_coverage_vs_S": {
+      "rho": -0.004569613381753573,
+      "p": 0.9308598970528961
+    },
+    "spearman_size_vs_S": {
+      "rho": 0.023212634533446148,
+      "p": 0.6593620407571823
+    },
+    "partial_r_baseline_dice_controlling_nonlinear_size": {
+      "r": -0.07882826167303422,
+      "p": 0.13386491530757327
+    },
+    "r2_nonlinear_size_and_baseline_dice_model": 0.008002857542001474
+  },
+  "both_comparison": {
+    "mean_both_minus_max_single": -0.009653247394118037,
+    "median_both_minus_max_single": 0.0,
+    "n_both_dominates": 12,
+    "n_single_dominates": 19,
+    "n_tied": 332,
+    "pct_both_dominates": 3.3057851239669422,
+    "pct_single_dominates": 5.234159779614325,
+    "pct_tied": 91.46005509641873
+  },
+  "cross_endpoint_stability": {
+    "agreement_dice_iou": 0.9807162534435262,
+    "agreement_dice_coverage": 0.8898071625344353
+  },
+  "subject_clustered_bootstrap": {
+    "mean": 0.48689404908454376,
+    "ci_low": 0.3,
+    "ci_high": 0.6578947368421053,
+    "n_boot": 2000
+  }
+}

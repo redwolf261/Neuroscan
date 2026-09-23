@@ -1,0 +1,2210 @@
+[
+  {
+    "epoch": 5,
+    "category": "TN",
+    "voxel_idx": 161872,
+    "g_z_norm": 0.012127005495131016,
+    "g_theta_norm": 0.6913434434887821,
+    "cos_gz_what": 0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 5.998645782470703,
+        "dz_ga_norm": 7.607388496398926,
+        "cos_Delta_z_GD__grad_z_L": -0.4930344521999359,
+        "cos_Delta_z_GA__grad_z_L": 0.44287216663360596,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9775586128234863,
+        "cos_Delta_z_GD__w_hat": -0.4930344521999359
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.7378053069114685,
+        "dz_ga_norm": 0.7438599467277527,
+        "cos_Delta_z_GD__grad_z_L": -0.487287700176239,
+        "cos_Delta_z_GA__grad_z_L": 0.4876100718975067,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999560117721558,
+        "cos_Delta_z_GD__w_hat": -0.4872876703739166
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.07424525916576385,
+        "dz_ga_norm": 0.07676223665475845,
+        "cos_Delta_z_GD__grad_z_L": -0.4871448278427124,
+        "cos_Delta_z_GA__grad_z_L": 0.47876691818237305,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9986646175384521,
+        "cos_Delta_z_GD__w_hat": -0.4871448278427124
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0075295972637832165,
+        "dz_ga_norm": 0.006837776862084866,
+        "cos_Delta_z_GD__grad_z_L": -0.4962858557701111,
+        "cos_Delta_z_GA__grad_z_L": 0.4456961154937744,
+        "cos_Delta_z_GD__Delta_z_GA": -0.966888964176178,
+        "cos_Delta_z_GD__w_hat": -0.4962858259677887
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "TN",
+    "voxel_idx": 428567,
+    "g_z_norm": 0.0001176567020593211,
+    "g_theta_norm": 0.009152107606957872,
+    "cos_gz_what": 0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.04726448655128479,
+        "dz_ga_norm": 0.04708940535783768,
+        "cos_Delta_z_GD__grad_z_L": -0.5236883759498596,
+        "cos_Delta_z_GA__grad_z_L": 0.5209580659866333,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998142719268799,
+        "cos_Delta_z_GD__w_hat": -0.5236883163452148
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.004328626208007336,
+        "dz_ga_norm": 0.004519454203546047,
+        "cos_Delta_z_GD__grad_z_L": -0.5092764496803284,
+        "cos_Delta_z_GA__grad_z_L": 0.5021753311157227,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9931031465530396,
+        "cos_Delta_z_GD__w_hat": -0.5092764496803284
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0007662150892429054,
+        "dz_ga_norm": 0.0007575054187327623,
+        "cos_Delta_z_GD__grad_z_L": -0.5701860189437866,
+        "cos_Delta_z_GA__grad_z_L": 0.35092151165008545,
+        "cos_Delta_z_GD__Delta_z_GA": -0.5872372388839722,
+        "cos_Delta_z_GD__w_hat": -0.5701860189437866
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.00022443664784077555,
+        "dz_ga_norm": 0.0002315631281817332,
+        "cos_Delta_z_GD__grad_z_L": -0.03928424417972565,
+        "cos_Delta_z_GA__grad_z_L": 0.35434943437576294,
+        "cos_Delta_z_GD__Delta_z_GA": -0.39929988980293274,
+        "cos_Delta_z_GD__w_hat": -0.03928425908088684
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "TP",
+    "voxel_idx": 419879,
+    "g_z_norm": 0.024247080087661743,
+    "g_theta_norm": 1.3845179301750379,
+    "cos_gz_what": -0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 6.82465124130249,
+        "dz_ga_norm": 8.289955139160156,
+        "cos_Delta_z_GD__grad_z_L": -0.24090233445167542,
+        "cos_Delta_z_GA__grad_z_L": 0.4994766116142273,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8249313831329346,
+        "cos_Delta_z_GD__w_hat": 0.24090233445167542
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.8081302642822266,
+        "dz_ga_norm": 0.90462726354599,
+        "cos_Delta_z_GD__grad_z_L": -0.3521578013896942,
+        "cos_Delta_z_GA__grad_z_L": 0.4595476984977722,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9366188645362854,
+        "cos_Delta_z_GD__w_hat": 0.3521578013896942
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.08788486570119858,
+        "dz_ga_norm": 0.09001126140356064,
+        "cos_Delta_z_GD__grad_z_L": -0.42676395177841187,
+        "cos_Delta_z_GA__grad_z_L": 0.4283148944377899,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9977041482925415,
+        "cos_Delta_z_GD__w_hat": 0.42676395177841187
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.007952223531901836,
+        "dz_ga_norm": 0.008804898709058762,
+        "cos_Delta_z_GD__grad_z_L": -0.43385136127471924,
+        "cos_Delta_z_GA__grad_z_L": 0.41770195960998535,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9900345802307129,
+        "cos_Delta_z_GD__w_hat": 0.43385136127471924
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "TP",
+    "voxel_idx": 444395,
+    "g_z_norm": 0.041733261197805405,
+    "g_theta_norm": 1.3329416136273335,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 13.790478706359863,
+        "dz_ga_norm": 10.635992050170898,
+        "cos_Delta_z_GD__grad_z_L": -0.21122696995735168,
+        "cos_Delta_z_GA__grad_z_L": 0.38498032093048096,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9338439106941223,
+        "cos_Delta_z_GD__w_hat": 0.2112269252538681
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 1.3969835042953491,
+        "dz_ga_norm": 1.3514304161071777,
+        "cos_Delta_z_GD__grad_z_L": -0.21572259068489075,
+        "cos_Delta_z_GA__grad_z_L": 0.22616751492023468,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9917494058609009,
+        "cos_Delta_z_GD__w_hat": 0.21572256088256836
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.14097635447978973,
+        "dz_ga_norm": 0.13685482740402222,
+        "cos_Delta_z_GD__grad_z_L": -0.22805346548557281,
+        "cos_Delta_z_GA__grad_z_L": 0.2268024981021881,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999352097511292,
+        "cos_Delta_z_GD__w_hat": 0.22805342078208923
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.015555411577224731,
+        "dz_ga_norm": 0.013184182345867157,
+        "cos_Delta_z_GD__grad_z_L": -0.225025475025177,
+        "cos_Delta_z_GA__grad_z_L": 0.23096558451652527,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9980319142341614,
+        "cos_Delta_z_GD__w_hat": 0.22502544522285461
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "FP",
+    "voxel_idx": 416160,
+    "g_z_norm": 0.7591990232467651,
+    "g_theta_norm": 70.66421300406117,
+    "cos_gz_what": 0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 9.49556827545166,
+        "dz_ga_norm": 10.43838119506836,
+        "cos_Delta_z_GD__grad_z_L": -0.5333874225616455,
+        "cos_Delta_z_GA__grad_z_L": -0.539781928062439,
+        "cos_Delta_z_GD__Delta_z_GA": 0.9524266123771667,
+        "cos_Delta_z_GD__w_hat": -0.5333874225616455
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 8.991206169128418,
+        "dz_ga_norm": 10.05375862121582,
+        "cos_Delta_z_GD__grad_z_L": -0.5265791416168213,
+        "cos_Delta_z_GA__grad_z_L": 0.2123408019542694,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7773858308792114,
+        "cos_Delta_z_GD__w_hat": -0.5265791416168213
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 7.78590202331543,
+        "dz_ga_norm": 6.234931945800781,
+        "cos_Delta_z_GD__grad_z_L": -0.5402828454971313,
+        "cos_Delta_z_GA__grad_z_L": 0.2761368751525879,
+        "cos_Delta_z_GD__Delta_z_GA": -0.765449583530426,
+        "cos_Delta_z_GD__w_hat": -0.5402828454971313
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 1.2029556035995483,
+        "dz_ga_norm": 0.9607094526290894,
+        "cos_Delta_z_GD__grad_z_L": -0.5704110860824585,
+        "cos_Delta_z_GA__grad_z_L": 0.40654999017715454,
+        "cos_Delta_z_GD__Delta_z_GA": -0.856824517250061,
+        "cos_Delta_z_GD__w_hat": -0.5704110860824585
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "FP",
+    "voxel_idx": 407715,
+    "g_z_norm": 0.5072860717773438,
+    "g_theta_norm": 22.391281899067977,
+    "cos_gz_what": 0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 12.28104019165039,
+        "dz_ga_norm": 11.564746856689453,
+        "cos_Delta_z_GD__grad_z_L": -0.48059070110321045,
+        "cos_Delta_z_GA__grad_z_L": -0.4635837972164154,
+        "cos_Delta_z_GD__Delta_z_GA": 0.9154729843139648,
+        "cos_Delta_z_GD__w_hat": -0.48059070110321045
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 11.590168952941895,
+        "dz_ga_norm": 12.62264633178711,
+        "cos_Delta_z_GD__grad_z_L": -0.4367377460002899,
+        "cos_Delta_z_GA__grad_z_L": 0.24782541394233704,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8893390893936157,
+        "cos_Delta_z_GD__w_hat": -0.43673771619796753
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 1.971107006072998,
+        "dz_ga_norm": 2.0415055751800537,
+        "cos_Delta_z_GD__grad_z_L": -0.32823294401168823,
+        "cos_Delta_z_GA__grad_z_L": 0.2578023076057434,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9678534865379333,
+        "cos_Delta_z_GD__w_hat": -0.32823294401168823
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.19971930980682373,
+        "dz_ga_norm": 0.20085261762142181,
+        "cos_Delta_z_GD__grad_z_L": -0.29032039642333984,
+        "cos_Delta_z_GA__grad_z_L": 0.2826686501502991,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9974473118782043,
+        "cos_Delta_z_GD__w_hat": -0.29032039642333984
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "FN",
+    "voxel_idx": 420457,
+    "g_z_norm": 0.26795297861099243,
+    "g_theta_norm": 12.216549113580642,
+    "cos_gz_what": -0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 3.068506956100464,
+        "dz_ga_norm": 5.085247039794922,
+        "cos_Delta_z_GD__grad_z_L": 0.2841056287288666,
+        "cos_Delta_z_GA__grad_z_L": 0.5258522629737854,
+        "cos_Delta_z_GD__Delta_z_GA": 0.8544422388076782,
+        "cos_Delta_z_GD__w_hat": -0.2841056287288666
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 6.07294225692749,
+        "dz_ga_norm": 4.74350118637085,
+        "cos_Delta_z_GD__grad_z_L": -0.4647073447704315,
+        "cos_Delta_z_GA__grad_z_L": 0.5050061941146851,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8581193685531616,
+        "cos_Delta_z_GD__w_hat": 0.4647073447704315
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.9639675617218018,
+        "dz_ga_norm": 0.9636769890785217,
+        "cos_Delta_z_GD__grad_z_L": -0.5454040765762329,
+        "cos_Delta_z_GA__grad_z_L": 0.5314742922782898,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9973052144050598,
+        "cos_Delta_z_GD__w_hat": 0.5454040765762329
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.09192274510860443,
+        "dz_ga_norm": 0.09296451508998871,
+        "cos_Delta_z_GD__grad_z_L": -0.5402204990386963,
+        "cos_Delta_z_GA__grad_z_L": 0.5348940491676331,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9994789361953735,
+        "cos_Delta_z_GD__w_hat": 0.5402204990386963
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "category": "FN",
+    "voxel_idx": 157646,
+    "g_z_norm": 0.26355844736099243,
+    "g_theta_norm": 19.96022769606493,
+    "cos_gz_what": -0.9999998807907104,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 7.937250137329102,
+        "dz_ga_norm": 60.00585174560547,
+        "cos_Delta_z_GD__grad_z_L": -0.2600901424884796,
+        "cos_Delta_z_GA__grad_z_L": 0.6527806520462036,
+        "cos_Delta_z_GD__Delta_z_GA": -0.39291685819625854,
+        "cos_Delta_z_GD__w_hat": 0.2600901424884796
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 16.84316635131836,
+        "dz_ga_norm": 10.375730514526367,
+        "cos_Delta_z_GD__grad_z_L": -0.28701403737068176,
+        "cos_Delta_z_GA__grad_z_L": 0.6226031184196472,
+        "cos_Delta_z_GD__Delta_z_GA": -0.6138428449630737,
+        "cos_Delta_z_GD__w_hat": 0.28701403737068176
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 3.0856316089630127,
+        "dz_ga_norm": 2.8748741149902344,
+        "cos_Delta_z_GD__grad_z_L": -0.4966672956943512,
+        "cos_Delta_z_GA__grad_z_L": 0.5125387907028198,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9920399188995361,
+        "cos_Delta_z_GD__w_hat": 0.4966672658920288
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.3044498562812805,
+        "dz_ga_norm": 0.30151647329330444,
+        "cos_Delta_z_GD__grad_z_L": -0.5178552269935608,
+        "cos_Delta_z_GA__grad_z_L": 0.5171009302139282,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998176097869873,
+        "cos_Delta_z_GD__w_hat": 0.5178552269935608
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "TN",
+    "voxel_idx": 174804,
+    "g_z_norm": 0.013791958801448345,
+    "g_theta_norm": 1.0676939836587354,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 4.726228713989258,
+        "dz_ga_norm": 3.095600128173828,
+        "cos_Delta_z_GD__grad_z_L": -0.6502094268798828,
+        "cos_Delta_z_GA__grad_z_L": 0.5023223161697388,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7526611685752869,
+        "cos_Delta_z_GD__w_hat": -0.6502094268798828
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.719660222530365,
+        "dz_ga_norm": 0.7203031182289124,
+        "cos_Delta_z_GD__grad_z_L": -0.6613690257072449,
+        "cos_Delta_z_GA__grad_z_L": 0.6487997770309448,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9925361275672913,
+        "cos_Delta_z_GD__w_hat": -0.6613690853118896
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0734315812587738,
+        "dz_ga_norm": 0.07730062305927277,
+        "cos_Delta_z_GD__grad_z_L": -0.6605430841445923,
+        "cos_Delta_z_GA__grad_z_L": 0.6609899997711182,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998302459716797,
+        "cos_Delta_z_GD__w_hat": -0.6605431437492371
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.006683181505650282,
+        "dz_ga_norm": 0.0076389494352042675,
+        "cos_Delta_z_GD__grad_z_L": -0.6583105325698853,
+        "cos_Delta_z_GA__grad_z_L": 0.6543187499046326,
+        "cos_Delta_z_GD__Delta_z_GA": -0.992149829864502,
+        "cos_Delta_z_GD__w_hat": -0.6583106517791748
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "TN",
+    "voxel_idx": 383961,
+    "g_z_norm": 0.0020474111661314964,
+    "g_theta_norm": 0.16633036632157583,
+    "cos_gz_what": 1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 1.5110245943069458,
+        "dz_ga_norm": 1.4585627317428589,
+        "cos_Delta_z_GD__grad_z_L": -0.6603096723556519,
+        "cos_Delta_z_GA__grad_z_L": 0.6557932496070862,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9565567970275879,
+        "cos_Delta_z_GD__w_hat": -0.6603096723556519
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.15817122161388397,
+        "dz_ga_norm": 0.16914910078048706,
+        "cos_Delta_z_GD__grad_z_L": -0.6664859056472778,
+        "cos_Delta_z_GA__grad_z_L": 0.6683762669563293,
+        "cos_Delta_z_GD__Delta_z_GA": -0.999290406703949,
+        "cos_Delta_z_GD__w_hat": -0.6664859056472778
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.015917837619781494,
+        "dz_ga_norm": 0.016468601301312447,
+        "cos_Delta_z_GD__grad_z_L": -0.670601487159729,
+        "cos_Delta_z_GA__grad_z_L": 0.6629010438919067,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9966310262680054,
+        "cos_Delta_z_GD__w_hat": -0.670601487159729
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0026580155827105045,
+        "dz_ga_norm": 0.001456060796044767,
+        "cos_Delta_z_GD__grad_z_L": -0.6774685382843018,
+        "cos_Delta_z_GA__grad_z_L": 0.6263542175292969,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9302634000778198,
+        "cos_Delta_z_GD__w_hat": -0.6774685382843018
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "TP",
+    "voxel_idx": 186781,
+    "g_z_norm": 0.01103189866989851,
+    "g_theta_norm": 0.30893749566851086,
+    "cos_gz_what": -1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 1.7091491222381592,
+        "dz_ga_norm": 1.7964988946914673,
+        "cos_Delta_z_GD__grad_z_L": -0.38505950570106506,
+        "cos_Delta_z_GA__grad_z_L": 0.3818734586238861,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9723466634750366,
+        "cos_Delta_z_GD__w_hat": 0.38505950570106506
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.18629160523414612,
+        "dz_ga_norm": 0.19014416635036469,
+        "cos_Delta_z_GD__grad_z_L": -0.38952165842056274,
+        "cos_Delta_z_GA__grad_z_L": 0.3826696574687958,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9979128837585449,
+        "cos_Delta_z_GD__w_hat": 0.38952165842056274
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.019279416650533676,
+        "dz_ga_norm": 0.018760796636343002,
+        "cos_Delta_z_GD__grad_z_L": -0.3893561363220215,
+        "cos_Delta_z_GA__grad_z_L": 0.37452220916748047,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9970747232437134,
+        "cos_Delta_z_GD__w_hat": 0.3893561363220215
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0023089649621397257,
+        "dz_ga_norm": 0.0017942587146535516,
+        "cos_Delta_z_GD__grad_z_L": -0.3636295795440674,
+        "cos_Delta_z_GA__grad_z_L": 0.3538263440132141,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9041428565979004,
+        "cos_Delta_z_GD__w_hat": 0.363629549741745
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "TP",
+    "voxel_idx": 363037,
+    "g_z_norm": 0.0003111361002083868,
+    "g_theta_norm": 0.0094296151138497,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.0414508655667305,
+        "dz_ga_norm": 0.04285513237118721,
+        "cos_Delta_z_GD__grad_z_L": -0.34642258286476135,
+        "cos_Delta_z_GA__grad_z_L": 0.34798985719680786,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999082684516907,
+        "cos_Delta_z_GD__w_hat": 0.34642261266708374
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.004138791002333164,
+        "dz_ga_norm": 0.00453605642542243,
+        "cos_Delta_z_GD__grad_z_L": -0.3202846944332123,
+        "cos_Delta_z_GA__grad_z_L": 0.3586282730102539,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9769482612609863,
+        "cos_Delta_z_GD__w_hat": 0.3202846944332123
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.00018970566452480853,
+        "dz_ga_norm": 0.0003273950715083629,
+        "cos_Delta_z_GD__grad_z_L": 0.04313436523079872,
+        "cos_Delta_z_GA__grad_z_L": 0.20541532337665558,
+        "cos_Delta_z_GD__Delta_z_GA": 0.5594839453697205,
+        "cos_Delta_z_GD__w_hat": -0.04313436895608902
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.00010603688133414835,
+        "dz_ga_norm": 0.0001664374431129545,
+        "cos_Delta_z_GD__grad_z_L": 0.25658154487609863,
+        "cos_Delta_z_GA__grad_z_L": 0.3843457102775574,
+        "cos_Delta_z_GD__Delta_z_GA": 0.19181925058364868,
+        "cos_Delta_z_GD__w_hat": -0.25658154487609863
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "FP",
+    "voxel_idx": 182545,
+    "g_z_norm": 0.19110947847366333,
+    "g_theta_norm": 5.853377665400169,
+    "cos_gz_what": 1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 7.3538055419921875,
+        "dz_ga_norm": 13.744989395141602,
+        "cos_Delta_z_GD__grad_z_L": -0.6675912737846375,
+        "cos_Delta_z_GA__grad_z_L": 0.23590123653411865,
+        "cos_Delta_z_GD__Delta_z_GA": -0.4589282274246216,
+        "cos_Delta_z_GD__w_hat": -0.6675912737846375
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 2.5358245372772217,
+        "dz_ga_norm": 2.586148500442505,
+        "cos_Delta_z_GD__grad_z_L": -0.5586603879928589,
+        "cos_Delta_z_GA__grad_z_L": 0.3409215807914734,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8839255571365356,
+        "cos_Delta_z_GD__w_hat": -0.5586603879928589
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.24690407514572144,
+        "dz_ga_norm": 0.24750734865665436,
+        "cos_Delta_z_GD__grad_z_L": -0.3563777208328247,
+        "cos_Delta_z_GA__grad_z_L": 0.35596078634262085,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9996591806411743,
+        "cos_Delta_z_GD__w_hat": -0.3563777208328247
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.02455013431608677,
+        "dz_ga_norm": 0.025099467486143112,
+        "cos_Delta_z_GD__grad_z_L": -0.35847726464271545,
+        "cos_Delta_z_GA__grad_z_L": 0.35739636421203613,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9996041655540466,
+        "cos_Delta_z_GD__w_hat": -0.35847726464271545
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "FP",
+    "voxel_idx": 133466,
+    "g_z_norm": 0.17772825062274933,
+    "g_theta_norm": 11.626748309007123,
+    "cos_gz_what": 1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 7.095205307006836,
+        "dz_ga_norm": 6.5655198097229,
+        "cos_Delta_z_GD__grad_z_L": -0.6860734224319458,
+        "cos_Delta_z_GA__grad_z_L": 0.1888718605041504,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3609362840652466,
+        "cos_Delta_z_GD__w_hat": -0.6860734224319458
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 5.932724952697754,
+        "dz_ga_norm": 4.683863639831543,
+        "cos_Delta_z_GD__grad_z_L": -0.6916055679321289,
+        "cos_Delta_z_GA__grad_z_L": 0.39566802978515625,
+        "cos_Delta_z_GD__Delta_z_GA": -0.6088743209838867,
+        "cos_Delta_z_GD__w_hat": -0.6916055679321289
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.9618504643440247,
+        "dz_ga_norm": 0.762953519821167,
+        "cos_Delta_z_GD__grad_z_L": -0.6525425910949707,
+        "cos_Delta_z_GA__grad_z_L": 0.5521823167800903,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8693289160728455,
+        "cos_Delta_z_GD__w_hat": -0.6525425910949707
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.09811333566904068,
+        "dz_ga_norm": 0.09573237597942352,
+        "cos_Delta_z_GD__grad_z_L": -0.652405321598053,
+        "cos_Delta_z_GA__grad_z_L": 0.6483849287033081,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9952077269554138,
+        "cos_Delta_z_GD__w_hat": -0.6524052619934082
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "FN",
+    "voxel_idx": 165330,
+    "g_z_norm": 0.9709792137145996,
+    "g_theta_norm": 69.88788659645645,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 2.485368251800537,
+        "dz_ga_norm": 4.965020656585693,
+        "cos_Delta_z_GD__grad_z_L": -0.04224897921085358,
+        "cos_Delta_z_GA__grad_z_L": 0.6560722589492798,
+        "cos_Delta_z_GD__Delta_z_GA": -0.07378506660461426,
+        "cos_Delta_z_GD__w_hat": 0.04224899411201477
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 15.056502342224121,
+        "dz_ga_norm": 6.631839275360107,
+        "cos_Delta_z_GD__grad_z_L": -0.316342294216156,
+        "cos_Delta_z_GA__grad_z_L": 0.6741278767585754,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3893302083015442,
+        "cos_Delta_z_GD__w_hat": 0.316342294216156
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 3.335946559906006,
+        "dz_ga_norm": 5.456360816955566,
+        "cos_Delta_z_GD__grad_z_L": -0.4789838194847107,
+        "cos_Delta_z_GA__grad_z_L": 0.665837287902832,
+        "cos_Delta_z_GD__Delta_z_GA": -0.6755862236022949,
+        "cos_Delta_z_GD__w_hat": 0.47898387908935547
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.7095563411712646,
+        "dz_ga_norm": 0.7872757315635681,
+        "cos_Delta_z_GD__grad_z_L": -0.6377272009849548,
+        "cos_Delta_z_GA__grad_z_L": 0.665204644203186,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9603703022003174,
+        "cos_Delta_z_GD__w_hat": 0.6377272605895996
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "category": "FN",
+    "voxel_idx": 391586,
+    "g_z_norm": 0.7177394032478333,
+    "g_theta_norm": 42.55376258893031,
+    "cos_gz_what": -0.9999999403953552,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 6.208651542663574,
+        "dz_ga_norm": 3.3599438667297363,
+        "cos_Delta_z_GD__grad_z_L": 0.1412702351808548,
+        "cos_Delta_z_GA__grad_z_L": 0.21373547613620758,
+        "cos_Delta_z_GD__Delta_z_GA": -0.1457304209470749,
+        "cos_Delta_z_GD__w_hat": -0.14127026498317719
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 4.946310997009277,
+        "dz_ga_norm": 5.251850128173828,
+        "cos_Delta_z_GD__grad_z_L": -0.3685747981071472,
+        "cos_Delta_z_GA__grad_z_L": 0.6275159120559692,
+        "cos_Delta_z_GD__Delta_z_GA": -0.585303783416748,
+        "cos_Delta_z_GD__w_hat": 0.368574857711792
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 2.44041109085083,
+        "dz_ga_norm": 3.904269218444824,
+        "cos_Delta_z_GD__grad_z_L": -0.63764488697052,
+        "cos_Delta_z_GA__grad_z_L": 0.642909049987793,
+        "cos_Delta_z_GD__Delta_z_GA": -0.884813666343689,
+        "cos_Delta_z_GD__w_hat": 0.6376449465751648
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.3964956998825073,
+        "dz_ga_norm": 0.41867417097091675,
+        "cos_Delta_z_GD__grad_z_L": -0.6655728220939636,
+        "cos_Delta_z_GA__grad_z_L": 0.6658875942230225,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9997025728225708,
+        "cos_Delta_z_GD__w_hat": 0.6655728816986084
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "TN",
+    "voxel_idx": 145326,
+    "g_z_norm": 0.02293255180120468,
+    "g_theta_norm": 1.9289707006137222,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 5.679996490478516,
+        "dz_ga_norm": 3.2687759399414062,
+        "cos_Delta_z_GD__grad_z_L": -0.6445706486701965,
+        "cos_Delta_z_GA__grad_z_L": 0.4946184754371643,
+        "cos_Delta_z_GD__Delta_z_GA": -0.5500348806381226,
+        "cos_Delta_z_GD__w_hat": -0.6445705890655518
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.950143575668335,
+        "dz_ga_norm": 0.7741711735725403,
+        "cos_Delta_z_GD__grad_z_L": -0.6673636436462402,
+        "cos_Delta_z_GA__grad_z_L": 0.6007821559906006,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8480847477912903,
+        "cos_Delta_z_GD__w_hat": -0.6673636436462402
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.10181861370801926,
+        "dz_ga_norm": 0.09292628616094589,
+        "cos_Delta_z_GD__grad_z_L": -0.6710047721862793,
+        "cos_Delta_z_GA__grad_z_L": 0.6640758514404297,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9841097593307495,
+        "cos_Delta_z_GD__w_hat": -0.6710047721862793
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.009927523322403431,
+        "dz_ga_norm": 0.010180972516536713,
+        "cos_Delta_z_GD__grad_z_L": -0.672224760055542,
+        "cos_Delta_z_GA__grad_z_L": 0.6700525283813477,
+        "cos_Delta_z_GD__Delta_z_GA": -0.997704803943634,
+        "cos_Delta_z_GD__w_hat": -0.6722247004508972
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "TN",
+    "voxel_idx": 386279,
+    "g_z_norm": 0.005318877287209034,
+    "g_theta_norm": 0.3723340355403761,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 3.122950315475464,
+        "dz_ga_norm": 1.9626882076263428,
+        "cos_Delta_z_GD__grad_z_L": -0.6388440132141113,
+        "cos_Delta_z_GA__grad_z_L": 0.5878701210021973,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8143605589866638,
+        "cos_Delta_z_GD__w_hat": -0.6388440132141113
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.38105568289756775,
+        "dz_ga_norm": 0.3674114942550659,
+        "cos_Delta_z_GD__grad_z_L": -0.6378097534179688,
+        "cos_Delta_z_GA__grad_z_L": 0.6183749437332153,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9748636484146118,
+        "cos_Delta_z_GD__w_hat": -0.6378097534179688
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.03837861493229866,
+        "dz_ga_norm": 0.03739079460501671,
+        "cos_Delta_z_GD__grad_z_L": -0.6391056776046753,
+        "cos_Delta_z_GA__grad_z_L": 0.6365096569061279,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9996774196624756,
+        "cos_Delta_z_GD__w_hat": -0.6391056776046753
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.002858477644622326,
+        "dz_ga_norm": 0.003975166939198971,
+        "cos_Delta_z_GD__grad_z_L": -0.6250920295715332,
+        "cos_Delta_z_GA__grad_z_L": 0.6257320642471313,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9655077457427979,
+        "cos_Delta_z_GD__w_hat": -0.625092089176178
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "TP",
+    "voxel_idx": 370676,
+    "g_z_norm": 0.0007083048112690449,
+    "g_theta_norm": 0.02554670596392142,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.1508883684873581,
+        "dz_ga_norm": 0.14789049327373505,
+        "cos_Delta_z_GD__grad_z_L": -0.3681230843067169,
+        "cos_Delta_z_GA__grad_z_L": 0.3515608608722687,
+        "cos_Delta_z_GD__Delta_z_GA": -0.991028904914856,
+        "cos_Delta_z_GD__w_hat": 0.3681230843067169
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.014837412163615227,
+        "dz_ga_norm": 0.015138437040150166,
+        "cos_Delta_z_GD__grad_z_L": -0.3567677438259125,
+        "cos_Delta_z_GA__grad_z_L": 0.3523551821708679,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9988458156585693,
+        "cos_Delta_z_GD__w_hat": 0.3567677438259125
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0009595102746970952,
+        "dz_ga_norm": 0.0016769332578405738,
+        "cos_Delta_z_GD__grad_z_L": -0.37654680013656616,
+        "cos_Delta_z_GA__grad_z_L": 0.3293662667274475,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8567712903022766,
+        "cos_Delta_z_GD__w_hat": 0.37654680013656616
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0005236846627667546,
+        "dz_ga_norm": 0.00031444389605894685,
+        "cos_Delta_z_GD__grad_z_L": -0.36424341797828674,
+        "cos_Delta_z_GA__grad_z_L": 0.0444185733795166,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3954087793827057,
+        "cos_Delta_z_GD__w_hat": 0.36424338817596436
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "TP",
+    "voxel_idx": 152874,
+    "g_z_norm": 0.014005709439516068,
+    "g_theta_norm": 0.26587756153266984,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.895545244216919,
+        "dz_ga_norm": 1.0269883871078491,
+        "cos_Delta_z_GD__grad_z_L": -0.36888617277145386,
+        "cos_Delta_z_GA__grad_z_L": 0.3890945613384247,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9765302538871765,
+        "cos_Delta_z_GD__w_hat": 0.36888617277145386
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.09678258746862411,
+        "dz_ga_norm": 0.09600356966257095,
+        "cos_Delta_z_GD__grad_z_L": -0.3783254027366638,
+        "cos_Delta_z_GA__grad_z_L": 0.38189852237701416,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9995583295822144,
+        "cos_Delta_z_GD__w_hat": 0.3783254027366638
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.00931159220635891,
+        "dz_ga_norm": 0.009636255912482738,
+        "cos_Delta_z_GD__grad_z_L": -0.37462326884269714,
+        "cos_Delta_z_GA__grad_z_L": 0.38074636459350586,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9992713928222656,
+        "cos_Delta_z_GD__w_hat": 0.37462329864501953
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0010562241077423096,
+        "dz_ga_norm": 0.0007568919099867344,
+        "cos_Delta_z_GD__grad_z_L": -0.37238186597824097,
+        "cos_Delta_z_GA__grad_z_L": 0.3963785767555237,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9398550987243652,
+        "cos_Delta_z_GD__w_hat": 0.37238189578056335
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "FP",
+    "voxel_idx": 337508,
+    "g_z_norm": 0.10895447432994843,
+    "g_theta_norm": 10.154251494174229,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 7.92667293548584,
+        "dz_ga_norm": 11.589251518249512,
+        "cos_Delta_z_GD__grad_z_L": -0.6328500509262085,
+        "cos_Delta_z_GA__grad_z_L": 0.40887510776519775,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3579368591308594,
+        "cos_Delta_z_GD__w_hat": -0.6328500509262085
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 7.447292804718018,
+        "dz_ga_norm": 5.944664478302002,
+        "cos_Delta_z_GD__grad_z_L": -0.6398006677627563,
+        "cos_Delta_z_GA__grad_z_L": 0.4052133858203888,
+        "cos_Delta_z_GD__Delta_z_GA": -0.4534716308116913,
+        "cos_Delta_z_GD__w_hat": -0.6398006677627563
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 1.596522331237793,
+        "dz_ga_norm": 0.9118204116821289,
+        "cos_Delta_z_GD__grad_z_L": -0.6133735179901123,
+        "cos_Delta_z_GA__grad_z_L": 0.4586864113807678,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7655595541000366,
+        "cos_Delta_z_GD__w_hat": -0.6133735179901123
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.13422608375549316,
+        "dz_ga_norm": 0.1359250247478485,
+        "cos_Delta_z_GD__grad_z_L": -0.48109865188598633,
+        "cos_Delta_z_GA__grad_z_L": 0.45898550748825073,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9740899801254272,
+        "cos_Delta_z_GD__w_hat": -0.48109865188598633
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "FP",
+    "voxel_idx": 149604,
+    "g_z_norm": 0.12985871732234955,
+    "g_theta_norm": 3.7213523968254676,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 9.446535110473633,
+        "dz_ga_norm": 8.735908508300781,
+        "cos_Delta_z_GD__grad_z_L": -0.6325937509536743,
+        "cos_Delta_z_GA__grad_z_L": 0.28065675497055054,
+        "cos_Delta_z_GD__Delta_z_GA": -0.30564260482788086,
+        "cos_Delta_z_GD__w_hat": -0.6325937509536743
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 2.5774481296539307,
+        "dz_ga_norm": 1.4882874488830566,
+        "cos_Delta_z_GD__grad_z_L": -0.6386513710021973,
+        "cos_Delta_z_GA__grad_z_L": 0.32443952560424805,
+        "cos_Delta_z_GD__Delta_z_GA": -0.5815173983573914,
+        "cos_Delta_z_GD__w_hat": -0.6386513710021973
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.2038353830575943,
+        "dz_ga_norm": 0.18361754715442657,
+        "cos_Delta_z_GD__grad_z_L": -0.3983535170555115,
+        "cos_Delta_z_GA__grad_z_L": 0.4063498079776764,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9613193273544312,
+        "cos_Delta_z_GD__w_hat": -0.3983535170555115
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.019376814365386963,
+        "dz_ga_norm": 0.021731706336140633,
+        "cos_Delta_z_GD__grad_z_L": -0.3985446095466614,
+        "cos_Delta_z_GA__grad_z_L": 0.3999423086643219,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9984601140022278,
+        "cos_Delta_z_GD__w_hat": -0.398544579744339
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "FN",
+    "voxel_idx": 395105,
+    "g_z_norm": 1.099838137626648,
+    "g_theta_norm": 68.50741458700872,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 4.26027250289917,
+        "dz_ga_norm": 8.07705020904541,
+        "cos_Delta_z_GD__grad_z_L": 0.5567178726196289,
+        "cos_Delta_z_GA__grad_z_L": 0.4375643730163574,
+        "cos_Delta_z_GD__Delta_z_GA": 0.9123235940933228,
+        "cos_Delta_z_GD__w_hat": -0.5567179918289185
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 3.2436575889587402,
+        "dz_ga_norm": 6.536538124084473,
+        "cos_Delta_z_GD__grad_z_L": -0.36143532395362854,
+        "cos_Delta_z_GA__grad_z_L": 0.5736324787139893,
+        "cos_Delta_z_GD__Delta_z_GA": -0.45153436064720154,
+        "cos_Delta_z_GD__w_hat": 0.36143532395362854
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 3.5483484268188477,
+        "dz_ga_norm": 4.156378746032715,
+        "cos_Delta_z_GD__grad_z_L": -0.42861416935920715,
+        "cos_Delta_z_GA__grad_z_L": 0.5970379114151001,
+        "cos_Delta_z_GD__Delta_z_GA": -0.5278764963150024,
+        "cos_Delta_z_GD__w_hat": 0.42861419916152954
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.6276345252990723,
+        "dz_ga_norm": 0.7175172567367554,
+        "cos_Delta_z_GD__grad_z_L": -0.5117272734642029,
+        "cos_Delta_z_GA__grad_z_L": 0.5868865251541138,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9013416171073914,
+        "cos_Delta_z_GD__w_hat": 0.5117273330688477
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "category": "FN",
+    "voxel_idx": 358066,
+    "g_z_norm": 0.9568395018577576,
+    "g_theta_norm": 92.63065591992371,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 3.0637691020965576,
+        "dz_ga_norm": 7.110602378845215,
+        "cos_Delta_z_GD__grad_z_L": 0.12439481914043427,
+        "cos_Delta_z_GA__grad_z_L": 0.6321710348129272,
+        "cos_Delta_z_GD__Delta_z_GA": 0.24967657029628754,
+        "cos_Delta_z_GD__w_hat": -0.12439481168985367
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 16.095762252807617,
+        "dz_ga_norm": 7.28162956237793,
+        "cos_Delta_z_GD__grad_z_L": -0.3190907835960388,
+        "cos_Delta_z_GA__grad_z_L": 0.6474566459655762,
+        "cos_Delta_z_GD__Delta_z_GA": -0.27222272753715515,
+        "cos_Delta_z_GD__w_hat": 0.3190907835960388
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 4.86746883392334,
+        "dz_ga_norm": 6.033651351928711,
+        "cos_Delta_z_GD__grad_z_L": -0.4680026173591614,
+        "cos_Delta_z_GA__grad_z_L": 0.6474523544311523,
+        "cos_Delta_z_GD__Delta_z_GA": -0.44338369369506836,
+        "cos_Delta_z_GD__w_hat": 0.4680026173591614
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 1.0916478633880615,
+        "dz_ga_norm": 1.3792681694030762,
+        "cos_Delta_z_GD__grad_z_L": -0.6303389072418213,
+        "cos_Delta_z_GA__grad_z_L": 0.6512154340744019,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8856369256973267,
+        "cos_Delta_z_GD__w_hat": 0.6303389072418213
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "TN",
+    "voxel_idx": 435690,
+    "g_z_norm": 0.0003161401255056262,
+    "g_theta_norm": 0.021780016843362563,
+    "cos_gz_what": 1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.016682147979736328,
+        "dz_ga_norm": 0.016514549031853676,
+        "cos_Delta_z_GD__grad_z_L": -0.5748848915100098,
+        "cos_Delta_z_GA__grad_z_L": 0.5730225443840027,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9966812133789062,
+        "cos_Delta_z_GD__w_hat": -0.5748848915100098
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.0011036767391487956,
+        "dz_ga_norm": 0.00276581640355289,
+        "cos_Delta_z_GD__grad_z_L": 0.1427600383758545,
+        "cos_Delta_z_GA__grad_z_L": 0.6527693867683411,
+        "cos_Delta_z_GD__Delta_z_GA": 0.043326422572135925,
+        "cos_Delta_z_GD__w_hat": 0.1427600383758545
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0007557810167782009,
+        "dz_ga_norm": 0.0003319371899124235,
+        "cos_Delta_z_GD__grad_z_L": -0.5282848477363586,
+        "cos_Delta_z_GA__grad_z_L": 0.31256598234176636,
+        "cos_Delta_z_GD__Delta_z_GA": -0.35981154441833496,
+        "cos_Delta_z_GD__w_hat": -0.5282848477363586
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0001637542445678264,
+        "dz_ga_norm": 0.0001665038289502263,
+        "cos_Delta_z_GD__grad_z_L": 0.08499623835086823,
+        "cos_Delta_z_GA__grad_z_L": 0.4842917025089264,
+        "cos_Delta_z_GD__Delta_z_GA": 0.27903762459754944,
+        "cos_Delta_z_GD__w_hat": 0.08499623835086823
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "TN",
+    "voxel_idx": 431724,
+    "g_z_norm": 0.007716722320765257,
+    "g_theta_norm": 0.34365236665040955,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 2.033276319503784,
+        "dz_ga_norm": 1.6786164045333862,
+        "cos_Delta_z_GD__grad_z_L": -0.5807995796203613,
+        "cos_Delta_z_GA__grad_z_L": 0.4298262596130371,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8829041123390198,
+        "cos_Delta_z_GD__w_hat": -0.5807995796203613
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.19949690997600555,
+        "dz_ga_norm": 0.19310955703258514,
+        "cos_Delta_z_GD__grad_z_L": -0.5306616425514221,
+        "cos_Delta_z_GA__grad_z_L": 0.49647361040115356,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9854593276977539,
+        "cos_Delta_z_GD__w_hat": -0.5306617021560669
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.021166954189538956,
+        "dz_ga_norm": 0.01969466358423233,
+        "cos_Delta_z_GD__grad_z_L": -0.49615585803985596,
+        "cos_Delta_z_GA__grad_z_L": 0.5025392174720764,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9968132376670837,
+        "cos_Delta_z_GD__w_hat": -0.49615585803985596
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.002187298145145178,
+        "dz_ga_norm": 0.002688435837626457,
+        "cos_Delta_z_GD__grad_z_L": -0.49106794595718384,
+        "cos_Delta_z_GA__grad_z_L": 0.4897055923938751,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9558692574501038,
+        "cos_Delta_z_GD__w_hat": -0.49106794595718384
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "TP",
+    "voxel_idx": 403179,
+    "g_z_norm": 0.0006551772239618003,
+    "g_theta_norm": 0.017603372439118435,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.0816839262843132,
+        "dz_ga_norm": 0.08036059141159058,
+        "cos_Delta_z_GD__grad_z_L": -0.3979557752609253,
+        "cos_Delta_z_GA__grad_z_L": 0.3980248272418976,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999867677688599,
+        "cos_Delta_z_GD__w_hat": 0.3979557752609253
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.009118686430156231,
+        "dz_ga_norm": 0.007564642932265997,
+        "cos_Delta_z_GD__grad_z_L": -0.3943355083465576,
+        "cos_Delta_z_GA__grad_z_L": 0.40520045161247253,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9914582371711731,
+        "cos_Delta_z_GD__w_hat": 0.3943355083465576
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0010728711495175958,
+        "dz_ga_norm": 0.0006857706466689706,
+        "cos_Delta_z_GD__grad_z_L": -0.4173456132411957,
+        "cos_Delta_z_GA__grad_z_L": 0.3370591998100281,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8793349862098694,
+        "cos_Delta_z_GD__w_hat": 0.41734564304351807
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.00023686210624873638,
+        "dz_ga_norm": 0.00019181054085493088,
+        "cos_Delta_z_GD__grad_z_L": 0.11180181801319122,
+        "cos_Delta_z_GA__grad_z_L": -0.31821054220199585,
+        "cos_Delta_z_GD__Delta_z_GA": -0.16992336511611938,
+        "cos_Delta_z_GD__w_hat": -0.11180181056261063
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "TP",
+    "voxel_idx": 186787,
+    "g_z_norm": 0.0003835060924757272,
+    "g_theta_norm": 0.013316913622169455,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.08515247702598572,
+        "dz_ga_norm": 0.08621983230113983,
+        "cos_Delta_z_GD__grad_z_L": -0.30746540427207947,
+        "cos_Delta_z_GA__grad_z_L": 0.3598300814628601,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9751706719398499,
+        "cos_Delta_z_GD__w_hat": 0.30746540427207947
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.009350434876978397,
+        "dz_ga_norm": 0.009542006999254227,
+        "cos_Delta_z_GD__grad_z_L": -0.29946252703666687,
+        "cos_Delta_z_GA__grad_z_L": 0.36120450496673584,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9623470306396484,
+        "cos_Delta_z_GD__w_hat": 0.29946252703666687
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.000416308525018394,
+        "dz_ga_norm": 0.0016785712214186788,
+        "cos_Delta_z_GD__grad_z_L": -0.34236645698547363,
+        "cos_Delta_z_GA__grad_z_L": 0.36577048897743225,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9551946520805359,
+        "cos_Delta_z_GD__w_hat": 0.34236645698547363
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0002413269248791039,
+        "dz_ga_norm": 0.000402020406909287,
+        "cos_Delta_z_GD__grad_z_L": 0.29544052481651306,
+        "cos_Delta_z_GA__grad_z_L": 0.3505600392818451,
+        "cos_Delta_z_GD__Delta_z_GA": 0.9344604015350342,
+        "cos_Delta_z_GD__w_hat": -0.29544052481651306
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "FP",
+    "voxel_idx": 399012,
+    "g_z_norm": 0.24200589954853058,
+    "g_theta_norm": 6.5154693019754495,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 5.505247116088867,
+        "dz_ga_norm": 16.618066787719727,
+        "cos_Delta_z_GD__grad_z_L": -0.28705841302871704,
+        "cos_Delta_z_GA__grad_z_L": 0.42280930280685425,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7434094548225403,
+        "cos_Delta_z_GD__w_hat": -0.28705841302871704
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 2.3135671615600586,
+        "dz_ga_norm": 3.351682186126709,
+        "cos_Delta_z_GD__grad_z_L": -0.35483819246292114,
+        "cos_Delta_z_GA__grad_z_L": 0.3719226121902466,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9875578880310059,
+        "cos_Delta_z_GD__w_hat": -0.35483822226524353
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.3318538963794708,
+        "dz_ga_norm": 0.3330609202384949,
+        "cos_Delta_z_GD__grad_z_L": -0.3822201192378998,
+        "cos_Delta_z_GA__grad_z_L": 0.3762931227684021,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9985998868942261,
+        "cos_Delta_z_GD__w_hat": -0.38222014904022217
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.03444093465805054,
+        "dz_ga_norm": 0.034042056649923325,
+        "cos_Delta_z_GD__grad_z_L": -0.37971991300582886,
+        "cos_Delta_z_GA__grad_z_L": 0.38281333446502686,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9995976090431213,
+        "cos_Delta_z_GD__w_hat": -0.37971997261047363
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "FP",
+    "voxel_idx": 435363,
+    "g_z_norm": 0.37875810265541077,
+    "g_theta_norm": 10.085926214511936,
+    "cos_gz_what": 1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 8.296567916870117,
+        "dz_ga_norm": 5.881418228149414,
+        "cos_Delta_z_GD__grad_z_L": -0.44828376173973083,
+        "cos_Delta_z_GA__grad_z_L": -0.45971083641052246,
+        "cos_Delta_z_GD__Delta_z_GA": -0.05632562190294266,
+        "cos_Delta_z_GD__w_hat": -0.44828376173973083
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 1.9897187948226929,
+        "dz_ga_norm": 2.4752252101898193,
+        "cos_Delta_z_GD__grad_z_L": -0.4832141101360321,
+        "cos_Delta_z_GA__grad_z_L": 0.4379645586013794,
+        "cos_Delta_z_GD__Delta_z_GA": -0.962101936340332,
+        "cos_Delta_z_GD__w_hat": -0.4832141101360321
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.24788089096546173,
+        "dz_ga_norm": 0.25239235162734985,
+        "cos_Delta_z_GD__grad_z_L": -0.46646642684936523,
+        "cos_Delta_z_GA__grad_z_L": 0.4658570885658264,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999371767044067,
+        "cos_Delta_z_GD__w_hat": -0.46646642684936523
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.025634659454226494,
+        "dz_ga_norm": 0.024859314784407616,
+        "cos_Delta_z_GD__grad_z_L": -0.46838411688804626,
+        "cos_Delta_z_GA__grad_z_L": 0.4705383777618408,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9991282224655151,
+        "cos_Delta_z_GD__w_hat": -0.46838411688804626
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "FN",
+    "voxel_idx": 432679,
+    "g_z_norm": 0.9809008836746216,
+    "g_theta_norm": 60.78941107852615,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 2.783170461654663,
+        "dz_ga_norm": 7.868503093719482,
+        "cos_Delta_z_GD__grad_z_L": 0.19869858026504517,
+        "cos_Delta_z_GA__grad_z_L": 0.6249552965164185,
+        "cos_Delta_z_GD__Delta_z_GA": 0.12881967425346375,
+        "cos_Delta_z_GD__w_hat": -0.19869861006736755
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 4.495931148529053,
+        "dz_ga_norm": 7.225904941558838,
+        "cos_Delta_z_GD__grad_z_L": -0.33691954612731934,
+        "cos_Delta_z_GA__grad_z_L": 0.646882176399231,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3506847321987152,
+        "cos_Delta_z_GD__w_hat": 0.33691954612731934
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 2.6076762676239014,
+        "dz_ga_norm": 4.838175296783447,
+        "cos_Delta_z_GD__grad_z_L": -0.4860670268535614,
+        "cos_Delta_z_GA__grad_z_L": 0.6608852744102478,
+        "cos_Delta_z_GD__Delta_z_GA": -0.5422666668891907,
+        "cos_Delta_z_GD__w_hat": 0.4860670566558838
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.5066761374473572,
+        "dz_ga_norm": 0.5933716297149658,
+        "cos_Delta_z_GD__grad_z_L": -0.6122944951057434,
+        "cos_Delta_z_GA__grad_z_L": 0.6240738034248352,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9222450256347656,
+        "cos_Delta_z_GD__w_hat": 0.6122945547103882
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "category": "FN",
+    "voxel_idx": 145300,
+    "g_z_norm": 0.5902241468429565,
+    "g_theta_norm": 60.45263795951329,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 4.099154949188232,
+        "dz_ga_norm": 6.807157516479492,
+        "cos_Delta_z_GD__grad_z_L": 0.014499746263027191,
+        "cos_Delta_z_GA__grad_z_L": 0.6629858016967773,
+        "cos_Delta_z_GD__Delta_z_GA": -0.2968448996543884,
+        "cos_Delta_z_GD__w_hat": -0.014499753713607788
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 10.275979042053223,
+        "dz_ga_norm": 7.642006874084473,
+        "cos_Delta_z_GD__grad_z_L": -0.3593932092189789,
+        "cos_Delta_z_GA__grad_z_L": 0.6434465646743774,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3495607376098633,
+        "cos_Delta_z_GD__w_hat": 0.3593932092189789
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 4.3266072273254395,
+        "dz_ga_norm": 5.63137149810791,
+        "cos_Delta_z_GD__grad_z_L": -0.5598410367965698,
+        "cos_Delta_z_GA__grad_z_L": 0.6352942585945129,
+        "cos_Delta_z_GD__Delta_z_GA": -0.5901342630386353,
+        "cos_Delta_z_GD__w_hat": 0.5598410367965698
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.8741669654846191,
+        "dz_ga_norm": 0.945476233959198,
+        "cos_Delta_z_GD__grad_z_L": -0.6688106060028076,
+        "cos_Delta_z_GA__grad_z_L": 0.6770341396331787,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9516943693161011,
+        "cos_Delta_z_GD__w_hat": 0.6688106656074524
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "TN",
+    "voxel_idx": 325463,
+    "g_z_norm": 0.04124712944030762,
+    "g_theta_norm": 2.0852871402346276,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 7.753389835357666,
+        "dz_ga_norm": 5.519030570983887,
+        "cos_Delta_z_GD__grad_z_L": -0.6481418013572693,
+        "cos_Delta_z_GA__grad_z_L": 0.4014790952205658,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3993242383003235,
+        "cos_Delta_z_GD__w_hat": -0.6481418013572693
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 1.4502534866333008,
+        "dz_ga_norm": 1.107784628868103,
+        "cos_Delta_z_GD__grad_z_L": -0.6138074398040771,
+        "cos_Delta_z_GA__grad_z_L": 0.49012938141822815,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8673393726348877,
+        "cos_Delta_z_GD__w_hat": -0.6138074398040771
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.13246846199035645,
+        "dz_ga_norm": 0.1266462802886963,
+        "cos_Delta_z_GD__grad_z_L": -0.5645315647125244,
+        "cos_Delta_z_GA__grad_z_L": 0.49819761514663696,
+        "cos_Delta_z_GD__Delta_z_GA": -0.956674337387085,
+        "cos_Delta_z_GD__w_hat": -0.5645315647125244
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.012172022834420204,
+        "dz_ga_norm": 0.012460538186132908,
+        "cos_Delta_z_GD__grad_z_L": -0.4957640767097473,
+        "cos_Delta_z_GA__grad_z_L": 0.49867185950279236,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9974193572998047,
+        "cos_Delta_z_GD__w_hat": -0.4957641363143921
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "TN",
+    "voxel_idx": 174885,
+    "g_z_norm": 0.0029876732733100653,
+    "g_theta_norm": 0.20208049055610935,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.9923707246780396,
+        "dz_ga_norm": 0.9962916970252991,
+        "cos_Delta_z_GD__grad_z_L": -0.6509069204330444,
+        "cos_Delta_z_GA__grad_z_L": 0.6533969044685364,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9628408551216125,
+        "cos_Delta_z_GD__w_hat": -0.6509069204330444
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.10202906280755997,
+        "dz_ga_norm": 0.1028694286942482,
+        "cos_Delta_z_GD__grad_z_L": -0.6502505540847778,
+        "cos_Delta_z_GA__grad_z_L": 0.6508277654647827,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9996676445007324,
+        "cos_Delta_z_GD__w_hat": -0.6502505540847778
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.008877744898200035,
+        "dz_ga_norm": 0.01201426051557064,
+        "cos_Delta_z_GD__grad_z_L": -0.6462883353233337,
+        "cos_Delta_z_GA__grad_z_L": 0.6499793529510498,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9934213161468506,
+        "cos_Delta_z_GD__w_hat": -0.6462883353233337
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.000945087696891278,
+        "dz_ga_norm": 0.0015342485858127475,
+        "cos_Delta_z_GD__grad_z_L": -0.46060147881507874,
+        "cos_Delta_z_GA__grad_z_L": 0.62122642993927,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7001482248306274,
+        "cos_Delta_z_GD__w_hat": -0.46060147881507874
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "TP",
+    "voxel_idx": 371697,
+    "g_z_norm": 0.1387733519077301,
+    "g_theta_norm": 4.173178566460515,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 21.469221115112305,
+        "dz_ga_norm": 6.86196756362915,
+        "cos_Delta_z_GD__grad_z_L": -0.18219386041164398,
+        "cos_Delta_z_GA__grad_z_L": 0.6432965993881226,
+        "cos_Delta_z_GD__Delta_z_GA": -0.43921324610710144,
+        "cos_Delta_z_GD__w_hat": 0.18219386041164398
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 3.266460657119751,
+        "dz_ga_norm": 3.239435911178589,
+        "cos_Delta_z_GD__grad_z_L": -0.2491445541381836,
+        "cos_Delta_z_GA__grad_z_L": 0.52882319688797,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8168044090270996,
+        "cos_Delta_z_GD__w_hat": 0.2491445243358612
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.3706340491771698,
+        "dz_ga_norm": 0.36392611265182495,
+        "cos_Delta_z_GD__grad_z_L": -0.30862075090408325,
+        "cos_Delta_z_GA__grad_z_L": 0.30776214599609375,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998737573623657,
+        "cos_Delta_z_GD__w_hat": 0.30862075090408325
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.03810109943151474,
+        "dz_ga_norm": 0.036461666226387024,
+        "cos_Delta_z_GD__grad_z_L": -0.30873334407806396,
+        "cos_Delta_z_GA__grad_z_L": 0.3097253143787384,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998905658721924,
+        "cos_Delta_z_GD__w_hat": 0.30873334407806396
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "TP",
+    "voxel_idx": 367071,
+    "g_z_norm": 0.0032630034256726503,
+    "g_theta_norm": 0.09919541775212093,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.5212090015411377,
+        "dz_ga_norm": 0.5202073454856873,
+        "cos_Delta_z_GD__grad_z_L": -0.32021364569664,
+        "cos_Delta_z_GA__grad_z_L": 0.3034094274044037,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9968971014022827,
+        "cos_Delta_z_GD__w_hat": 0.3202137053012848
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.05325646698474884,
+        "dz_ga_norm": 0.05078698322176933,
+        "cos_Delta_z_GD__grad_z_L": -0.31451380252838135,
+        "cos_Delta_z_GA__grad_z_L": 0.3149610161781311,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999876022338867,
+        "cos_Delta_z_GD__w_hat": 0.31451383233070374
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0058683673851192,
+        "dz_ga_norm": 0.005323759745806456,
+        "cos_Delta_z_GD__grad_z_L": -0.31663694977760315,
+        "cos_Delta_z_GA__grad_z_L": 0.30552828311920166,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9975605010986328,
+        "cos_Delta_z_GD__w_hat": 0.31663697957992554
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0004192851483821869,
+        "dz_ga_norm": 0.0003087685036007315,
+        "cos_Delta_z_GD__grad_z_L": -0.296718567609787,
+        "cos_Delta_z_GA__grad_z_L": -0.3555667996406555,
+        "cos_Delta_z_GD__Delta_z_GA": 0.9659112095832825,
+        "cos_Delta_z_GD__w_hat": 0.2967185974121094
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "FP",
+    "voxel_idx": 354204,
+    "g_z_norm": 0.43813130259513855,
+    "g_theta_norm": 15.229217432289055,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 2.6623923778533936,
+        "dz_ga_norm": 6.9799933433532715,
+        "cos_Delta_z_GD__grad_z_L": -0.3850598931312561,
+        "cos_Delta_z_GA__grad_z_L": -0.6561223268508911,
+        "cos_Delta_z_GD__Delta_z_GA": 0.14388877153396606,
+        "cos_Delta_z_GD__w_hat": -0.3850599229335785
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 5.593075752258301,
+        "dz_ga_norm": 5.918143272399902,
+        "cos_Delta_z_GD__grad_z_L": -0.6742297410964966,
+        "cos_Delta_z_GA__grad_z_L": 0.3071068227291107,
+        "cos_Delta_z_GD__Delta_z_GA": -0.29733872413635254,
+        "cos_Delta_z_GD__w_hat": -0.6742297410964966
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.9114143252372742,
+        "dz_ga_norm": 0.9357588291168213,
+        "cos_Delta_z_GD__grad_z_L": -0.3741438090801239,
+        "cos_Delta_z_GA__grad_z_L": 0.3267142176628113,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8692501187324524,
+        "cos_Delta_z_GD__w_hat": -0.3741438686847687
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0933091789484024,
+        "dz_ga_norm": 0.0953264832496643,
+        "cos_Delta_z_GD__grad_z_L": -0.31868797540664673,
+        "cos_Delta_z_GA__grad_z_L": 0.32358989119529724,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9996036291122437,
+        "cos_Delta_z_GD__w_hat": -0.31868797540664673
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "FP",
+    "voxel_idx": 341852,
+    "g_z_norm": 0.2857927978038788,
+    "g_theta_norm": 7.113906973167772,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 1.5486094951629639,
+        "dz_ga_norm": 7.168021202087402,
+        "cos_Delta_z_GD__grad_z_L": -0.2504015862941742,
+        "cos_Delta_z_GA__grad_z_L": -0.6334744691848755,
+        "cos_Delta_z_GD__Delta_z_GA": 0.21604418754577637,
+        "cos_Delta_z_GD__w_hat": -0.2504015862941742
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 1.5486094951629639,
+        "dz_ga_norm": 1.99982488155365,
+        "cos_Delta_z_GD__grad_z_L": -0.2504015862941742,
+        "cos_Delta_z_GA__grad_z_L": 0.3001246750354767,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9799887537956238,
+        "cos_Delta_z_GD__w_hat": -0.2504015862941742
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.20642033219337463,
+        "dz_ga_norm": 0.21037837862968445,
+        "cos_Delta_z_GD__grad_z_L": -0.2634710371494293,
+        "cos_Delta_z_GA__grad_z_L": 0.263290137052536,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999991059303284,
+        "cos_Delta_z_GD__w_hat": -0.26347100734710693
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.020606504753232002,
+        "dz_ga_norm": 0.01998227648437023,
+        "cos_Delta_z_GD__grad_z_L": -0.2631276547908783,
+        "cos_Delta_z_GA__grad_z_L": 0.2633397579193115,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999986886978149,
+        "cos_Delta_z_GD__w_hat": -0.2631276249885559
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "FN",
+    "voxel_idx": 166119,
+    "g_z_norm": 0.22924105823040009,
+    "g_theta_norm": 11.990165559192858,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 11.2055082321167,
+        "dz_ga_norm": 12.459522247314453,
+        "cos_Delta_z_GD__grad_z_L": -0.35997912287712097,
+        "cos_Delta_z_GA__grad_z_L": 0.6361915469169617,
+        "cos_Delta_z_GD__Delta_z_GA": -0.2791973650455475,
+        "cos_Delta_z_GD__w_hat": 0.35997912287712097
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 4.036740303039551,
+        "dz_ga_norm": 4.433341979980469,
+        "cos_Delta_z_GD__grad_z_L": -0.5253223180770874,
+        "cos_Delta_z_GA__grad_z_L": 0.6341944932937622,
+        "cos_Delta_z_GD__Delta_z_GA": -0.6603900194168091,
+        "cos_Delta_z_GD__w_hat": 0.5253223180770874
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.9508700966835022,
+        "dz_ga_norm": 0.8335839509963989,
+        "cos_Delta_z_GD__grad_z_L": -0.6386409997940063,
+        "cos_Delta_z_GA__grad_z_L": 0.6384894251823425,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9967923164367676,
+        "cos_Delta_z_GD__w_hat": 0.6386409997940063
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.09728531539440155,
+        "dz_ga_norm": 0.0974818542599678,
+        "cos_Delta_z_GD__grad_z_L": -0.639514684677124,
+        "cos_Delta_z_GA__grad_z_L": 0.6378821134567261,
+        "cos_Delta_z_GD__Delta_z_GA": -0.999813437461853,
+        "cos_Delta_z_GD__w_hat": 0.639514684677124
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "category": "FN",
+    "voxel_idx": 137838,
+    "g_z_norm": 0.5191779136657715,
+    "g_theta_norm": 39.925863349043645,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 10.571412086486816,
+        "dz_ga_norm": 5.960908889770508,
+        "cos_Delta_z_GD__grad_z_L": -0.19644099473953247,
+        "cos_Delta_z_GA__grad_z_L": 0.5614475607872009,
+        "cos_Delta_z_GD__Delta_z_GA": -0.02699003368616104,
+        "cos_Delta_z_GD__w_hat": 0.19644096493721008
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 10.398601531982422,
+        "dz_ga_norm": 7.025174617767334,
+        "cos_Delta_z_GD__grad_z_L": -0.3796684145927429,
+        "cos_Delta_z_GA__grad_z_L": 0.6101120710372925,
+        "cos_Delta_z_GD__Delta_z_GA": -0.18427416682243347,
+        "cos_Delta_z_GD__w_hat": 0.37966835498809814
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 3.1568806171417236,
+        "dz_ga_norm": 3.9261982440948486,
+        "cos_Delta_z_GD__grad_z_L": -0.4834854006767273,
+        "cos_Delta_z_GA__grad_z_L": 0.6347643733024597,
+        "cos_Delta_z_GD__Delta_z_GA": -0.47990500926971436,
+        "cos_Delta_z_GD__w_hat": 0.4834854006767273
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.45077624917030334,
+        "dz_ga_norm": 0.4996790885925293,
+        "cos_Delta_z_GD__grad_z_L": -0.5765053629875183,
+        "cos_Delta_z_GA__grad_z_L": 0.6205184459686279,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9423524737358093,
+        "cos_Delta_z_GD__w_hat": 0.5765053629875183
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "TN",
+    "voxel_idx": 92310,
+    "g_z_norm": 0.02280016615986824,
+    "g_theta_norm": 1.3135170957957154,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 3.1372594833374023,
+        "dz_ga_norm": 1.651995062828064,
+        "cos_Delta_z_GD__grad_z_L": -0.6859023571014404,
+        "cos_Delta_z_GA__grad_z_L": 0.6112511157989502,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8015457391738892,
+        "cos_Delta_z_GD__w_hat": -0.6859023571014404
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.451522558927536,
+        "dz_ga_norm": 0.4234166741371155,
+        "cos_Delta_z_GD__grad_z_L": -0.6694664359092712,
+        "cos_Delta_z_GA__grad_z_L": 0.6678338050842285,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9876158237457275,
+        "cos_Delta_z_GD__w_hat": -0.669466495513916
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.046125344932079315,
+        "dz_ga_norm": 0.04474258795380592,
+        "cos_Delta_z_GD__grad_z_L": -0.6694350242614746,
+        "cos_Delta_z_GA__grad_z_L": 0.6691499948501587,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998191595077515,
+        "cos_Delta_z_GD__w_hat": -0.6694351434707642
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.005790091585367918,
+        "dz_ga_norm": 0.0047915480099618435,
+        "cos_Delta_z_GD__grad_z_L": -0.6804028749465942,
+        "cos_Delta_z_GA__grad_z_L": 0.6644989848136902,
+        "cos_Delta_z_GD__Delta_z_GA": -0.993783175945282,
+        "cos_Delta_z_GD__w_hat": -0.6804028749465942
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "TN",
+    "voxel_idx": 354391,
+    "g_z_norm": 0.03530609980225563,
+    "g_theta_norm": 2.3265590409365933,
+    "cos_gz_what": 1.000000238418579,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 7.148477554321289,
+        "dz_ga_norm": 3.0741443634033203,
+        "cos_Delta_z_GD__grad_z_L": -0.6714198589324951,
+        "cos_Delta_z_GA__grad_z_L": 0.580642819404602,
+        "cos_Delta_z_GD__Delta_z_GA": -0.564556360244751,
+        "cos_Delta_z_GD__w_hat": -0.6714199185371399
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 1.6047098636627197,
+        "dz_ga_norm": 1.1052669286727905,
+        "cos_Delta_z_GD__grad_z_L": -0.6339930295944214,
+        "cos_Delta_z_GA__grad_z_L": 0.5578627586364746,
+        "cos_Delta_z_GD__Delta_z_GA": -0.820456862449646,
+        "cos_Delta_z_GD__w_hat": -0.6339930295944214
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.1595544070005417,
+        "dz_ga_norm": 0.14675530791282654,
+        "cos_Delta_z_GD__grad_z_L": -0.636526346206665,
+        "cos_Delta_z_GA__grad_z_L": 0.614793062210083,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9251134395599365,
+        "cos_Delta_z_GD__w_hat": -0.636526346206665
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.01646372303366661,
+        "dz_ga_norm": 0.01697130873799324,
+        "cos_Delta_z_GD__grad_z_L": -0.6305292844772339,
+        "cos_Delta_z_GA__grad_z_L": 0.6213455200195312,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9771515727043152,
+        "cos_Delta_z_GD__w_hat": -0.6305292844772339
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "TP",
+    "voxel_idx": 67431,
+    "g_z_norm": 0.001978641375899315,
+    "g_theta_norm": 0.06814153588448098,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.4268482029438019,
+        "dz_ga_norm": 0.42217427492141724,
+        "cos_Delta_z_GD__grad_z_L": -0.3467842936515808,
+        "cos_Delta_z_GA__grad_z_L": 0.34738168120384216,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999197125434875,
+        "cos_Delta_z_GD__w_hat": 0.3467843234539032
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.04106772318482399,
+        "dz_ga_norm": 0.041755251586437225,
+        "cos_Delta_z_GD__grad_z_L": -0.3522666096687317,
+        "cos_Delta_z_GA__grad_z_L": 0.34849387407302856,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9999042749404907,
+        "cos_Delta_z_GD__w_hat": 0.35226666927337646
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.0045223538763821125,
+        "dz_ga_norm": 0.004175297450274229,
+        "cos_Delta_z_GD__grad_z_L": -0.3570321202278137,
+        "cos_Delta_z_GA__grad_z_L": 0.3926362991333008,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9848634600639343,
+        "cos_Delta_z_GD__w_hat": 0.3570321798324585
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0007673526997677982,
+        "dz_ga_norm": 0.00039258645847439766,
+        "cos_Delta_z_GD__grad_z_L": -0.32427576184272766,
+        "cos_Delta_z_GA__grad_z_L": 0.47008153796195984,
+        "cos_Delta_z_GD__Delta_z_GA": -0.6346670389175415,
+        "cos_Delta_z_GD__w_hat": 0.32427579164505005
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "TP",
+    "voxel_idx": 71709,
+    "g_z_norm": 0.0023374403826892376,
+    "g_theta_norm": 0.10967641300317575,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 0.85666424036026,
+        "dz_ga_norm": 0.8707382082939148,
+        "cos_Delta_z_GD__grad_z_L": -0.43926507234573364,
+        "cos_Delta_z_GA__grad_z_L": 0.43818944692611694,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998692274093628,
+        "cos_Delta_z_GD__w_hat": 0.4392651319503784
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.08755915611982346,
+        "dz_ga_norm": 0.08575507253408432,
+        "cos_Delta_z_GD__grad_z_L": -0.43830981850624084,
+        "cos_Delta_z_GA__grad_z_L": 0.4385117292404175,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998399615287781,
+        "cos_Delta_z_GD__w_hat": 0.43830984830856323
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.008684627711772919,
+        "dz_ga_norm": 0.00872726645320654,
+        "cos_Delta_z_GD__grad_z_L": -0.4525851011276245,
+        "cos_Delta_z_GA__grad_z_L": 0.437895804643631,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9909273982048035,
+        "cos_Delta_z_GD__w_hat": 0.4525851607322693
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.0009294998017139733,
+        "dz_ga_norm": 0.000736645539291203,
+        "cos_Delta_z_GD__grad_z_L": -0.3849565386772156,
+        "cos_Delta_z_GA__grad_z_L": 0.4074617624282837,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7943701148033142,
+        "cos_Delta_z_GD__w_hat": 0.38495659828186035
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "FP",
+    "voxel_idx": 381996,
+    "g_z_norm": 0.22314335405826569,
+    "g_theta_norm": 7.107693759864057,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 8.618032455444336,
+        "dz_ga_norm": 5.765777587890625,
+        "cos_Delta_z_GD__grad_z_L": -0.6912104487419128,
+        "cos_Delta_z_GA__grad_z_L": 0.3732990324497223,
+        "cos_Delta_z_GD__Delta_z_GA": -0.3332899808883667,
+        "cos_Delta_z_GD__w_hat": -0.6912104487419128
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 3.6189653873443604,
+        "dz_ga_norm": 3.3952529430389404,
+        "cos_Delta_z_GD__grad_z_L": -0.6426721215248108,
+        "cos_Delta_z_GA__grad_z_L": 0.34609147906303406,
+        "cos_Delta_z_GD__Delta_z_GA": -0.7440299391746521,
+        "cos_Delta_z_GD__w_hat": -0.6426721811294556
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.3374786376953125,
+        "dz_ga_norm": 0.3453230857849121,
+        "cos_Delta_z_GD__grad_z_L": -0.3572414815425873,
+        "cos_Delta_z_GA__grad_z_L": 0.344355970621109,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9801676273345947,
+        "cos_Delta_z_GD__w_hat": -0.35724151134490967
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.03361676633358002,
+        "dz_ga_norm": 0.03377725929021835,
+        "cos_Delta_z_GD__grad_z_L": -0.3344065248966217,
+        "cos_Delta_z_GA__grad_z_L": 0.33738189935684204,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9995043873786926,
+        "cos_Delta_z_GD__w_hat": -0.3344065546989441
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "FP",
+    "voxel_idx": 100185,
+    "g_z_norm": 0.05822613835334778,
+    "g_theta_norm": 2.5275260987652644,
+    "cos_gz_what": 1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 2.5733556747436523,
+        "dz_ga_norm": 4.563523292541504,
+        "cos_Delta_z_GD__grad_z_L": -0.3972318470478058,
+        "cos_Delta_z_GA__grad_z_L": 0.2687390446662903,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8128104209899902,
+        "cos_Delta_z_GD__w_hat": -0.39723190665245056
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 0.525124728679657,
+        "dz_ga_norm": 0.5661577582359314,
+        "cos_Delta_z_GD__grad_z_L": -0.3340482711791992,
+        "cos_Delta_z_GA__grad_z_L": 0.31561681628227234,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9911414384841919,
+        "cos_Delta_z_GD__w_hat": -0.334048330783844
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 0.05526232719421387,
+        "dz_ga_norm": 0.05509679764509201,
+        "cos_Delta_z_GD__grad_z_L": -0.3203829228878021,
+        "cos_Delta_z_GA__grad_z_L": 0.3185666501522064,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9998893737792969,
+        "cos_Delta_z_GD__w_hat": -0.3203829824924469
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.004875004291534424,
+        "dz_ga_norm": 0.005045399535447359,
+        "cos_Delta_z_GD__grad_z_L": -0.3160720467567444,
+        "cos_Delta_z_GA__grad_z_L": 0.31004926562309265,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9988727569580078,
+        "cos_Delta_z_GD__w_hat": -0.31607213616371155
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "FN",
+    "voxel_idx": 350124,
+    "g_z_norm": 0.6050072908401489,
+    "g_theta_norm": 35.315210221577324,
+    "cos_gz_what": -1.0000001192092896,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 14.998905181884766,
+        "dz_ga_norm": 43.00959396362305,
+        "cos_Delta_z_GD__grad_z_L": -0.2804122865200043,
+        "cos_Delta_z_GA__grad_z_L": 0.5072339177131653,
+        "cos_Delta_z_GD__Delta_z_GA": -0.10249143838882446,
+        "cos_Delta_z_GD__w_hat": 0.2804122865200043
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 10.751511573791504,
+        "dz_ga_norm": 14.600099563598633,
+        "cos_Delta_z_GD__grad_z_L": -0.31673452258110046,
+        "cos_Delta_z_GA__grad_z_L": 0.6158613562583923,
+        "cos_Delta_z_GD__Delta_z_GA": -0.169977068901062,
+        "cos_Delta_z_GD__w_hat": 0.31673452258110046
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 2.356818437576294,
+        "dz_ga_norm": 3.4357423782348633,
+        "cos_Delta_z_GD__grad_z_L": -0.3797363340854645,
+        "cos_Delta_z_GA__grad_z_L": 0.6169716715812683,
+        "cos_Delta_z_GD__Delta_z_GA": -0.6423455476760864,
+        "cos_Delta_z_GD__w_hat": 0.3797363340854645
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.37269291281700134,
+        "dz_ga_norm": 0.39123430848121643,
+        "cos_Delta_z_GD__grad_z_L": -0.5043545961380005,
+        "cos_Delta_z_GA__grad_z_L": 0.5399214029312134,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9682393074035645,
+        "cos_Delta_z_GD__w_hat": 0.5043545961380005
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "category": "FN",
+    "voxel_idx": 395104,
+    "g_z_norm": 0.5841378569602966,
+    "g_theta_norm": 30.235527499083506,
+    "cos_gz_what": -1.0,
+    "eps_sweep": [
+      {
+        "eps": 0.1,
+        "dz_gd_norm": 8.515398025512695,
+        "dz_ga_norm": 7.310369491577148,
+        "cos_Delta_z_GD__grad_z_L": -0.38296908140182495,
+        "cos_Delta_z_GA__grad_z_L": 0.49927911162376404,
+        "cos_Delta_z_GD__Delta_z_GA": 0.1024138331413269,
+        "cos_Delta_z_GD__w_hat": 0.38296908140182495
+      },
+      {
+        "eps": 0.01,
+        "dz_gd_norm": 11.38679027557373,
+        "dz_ga_norm": 8.174427032470703,
+        "cos_Delta_z_GD__grad_z_L": -0.3877614140510559,
+        "cos_Delta_z_GA__grad_z_L": 0.6437607407569885,
+        "cos_Delta_z_GD__Delta_z_GA": -0.24376367032527924,
+        "cos_Delta_z_GD__w_hat": 0.3877614438533783
+      },
+      {
+        "eps": 0.001,
+        "dz_gd_norm": 1.8925495147705078,
+        "dz_ga_norm": 2.2291243076324463,
+        "cos_Delta_z_GD__grad_z_L": -0.5670833587646484,
+        "cos_Delta_z_GA__grad_z_L": 0.654392421245575,
+        "cos_Delta_z_GD__Delta_z_GA": -0.8498517274856567,
+        "cos_Delta_z_GD__w_hat": 0.5670834183692932
+      },
+      {
+        "eps": 0.0001,
+        "dz_gd_norm": 0.2384895384311676,
+        "dz_ga_norm": 0.24165944755077362,
+        "cos_Delta_z_GD__grad_z_L": -0.61174476146698,
+        "cos_Delta_z_GA__grad_z_L": 0.6394221782684326,
+        "cos_Delta_z_GD__Delta_z_GA": -0.9696141481399536,
+        "cos_Delta_z_GD__w_hat": 0.61174476146698
+      }
+    ]
+  }
+]

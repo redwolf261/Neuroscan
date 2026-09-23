@@ -1,0 +1,39 @@
+{
+  "tag": "E131_v14_seed0",
+  "checkpoint": "experiments/exp_e12_eggo_m/e131/runs/E131_v14_seed0/checkpoints/best.pth",
+  "epoch": 38,
+  "n_subjects": 125,
+  "per_region": {
+    "ET": {
+      "dice_mean": 0.8190958677530289,
+      "dice_std": 0.2545603343494836,
+      "dice_median": 0.9103521704673767,
+      "hd95_mean": 3.638307991055487,
+      "hd95_std": 6.7221126246207366,
+      "n_hd95_defined": 120
+    },
+    "TC": {
+      "dice_mean": 0.8440461443215609,
+      "dice_std": 0.2696212302004123,
+      "dice_median": 0.9511866569519043,
+      "hd95_mean": 4.186461440076431,
+      "hd95_std": 7.196359673198533,
+      "n_hd95_defined": 120
+    },
+    "WT": {
+      "dice_mean": 0.9164361310005188,
+      "dice_std": 0.0911456611208099,
+      "dice_median": 0.9478318691253662,
+      "hd95_mean": 6.568301051100732,
+      "hd95_std": 10.357724126183216,
+      "n_hd95_defined": 125
+    }
+  },
+  "mean_dice": 0.8598593810250362,
+  "n_empty_gt": {
+    "ET": 0,
+    "TC": 0,
+    "WT": 0
+  },
+  "note": "Evaluated the epoch-32 checkpoint saved BEFORE the epoch-39 training collapse. Training-time val used only 25 subjects; this uses all 125."
+}

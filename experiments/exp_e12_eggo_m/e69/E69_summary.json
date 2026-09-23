@@ -1,0 +1,44 @@
+{
+  "per_seed_stats": {
+    "0": {
+      "mean": 0.013936139225959777,
+      "median": 0.0028375983238220215,
+      "std": 0.0670198703098019,
+      "frac_improved": 0.64,
+      "frac_degraded": 0.36
+    },
+    "1": {
+      "mean": 0.008815337300300598,
+      "median": 0.003988742828369141,
+      "std": 0.06943839182439075,
+      "frac_improved": 0.632,
+      "frac_degraded": 0.368
+    },
+    "2": {
+      "mean": 0.008020991921424865,
+      "median": 0.005381345748901367,
+      "std": 0.06880689858289504,
+      "frac_improved": 0.68,
+      "frac_degraded": 0.32
+    }
+  },
+  "cross_seed_consistency": {
+    "consistently_improved": 52,
+    "consistently_degraded": 13,
+    "mixed_sign": 60,
+    "n_subjects": 125,
+    "binomial_p": 9.170393540640319e-11
+  },
+  "size_dependence_pooled": {
+    "rho": -0.11787683122390925,
+    "parametric_p": 0.022429238880451292,
+    "permutation_p": 0.023
+  },
+  "trajectory_summary": {
+    "baseline_final_val_dice": 0.9061994627118111,
+    "e54_seed0_final_val_dice": 0.9066040629432315,
+    "e54_seed1_final_val_dice": 0.905423208834633,
+    "e54_seed2_final_val_dice": 0.9060249839510236
+  },
+  "outcome": "C_STRONG_JUSTIFIES_REPLICATION"
+}

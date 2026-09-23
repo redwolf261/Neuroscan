@@ -1,0 +1,1 @@
+epoch,train_loss,train_dice,train_seg_loss,train_boundary_loss,train_cw_loss,val_loss,val_dice,val_iou,val_precision,val_recall,val_f1,val_hd95,val_ece,boundary_bce,boundary_auc_proxy,epoch_time_sec,peak_gpu_memory_mb

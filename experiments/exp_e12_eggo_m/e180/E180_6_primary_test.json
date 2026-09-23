@@ -1,0 +1,4376 @@
+{
+ "A_full_125_primary": {
+  "stratum": "A_full_125",
+  "T1_rank": {
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.5821513887936152,
+    "se_cluster_robust": 0.3633397694661664,
+    "t": 1.6022231468053598,
+    "p": 0.11165068867642414,
+    "r2_within_model": 0.9637216445785374,
+    "n_tiles": 868,
+    "n_subjects": 125
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.4111782836666917,
+    "pooled_spearman_p": 9.739796200362795e-37,
+    "note": "NON-INDEPENDENT observations (tile overlap 83-94%), descriptive context only, never used as evidence for or against H180"
+   },
+   "reduced_granularity_robustness": {
+    "n_concordant": 78,
+    "n_total": 125,
+    "binomial_p": 0.0070473165425661115,
+    "detail": [
+     {
+      "sid": "BraTS-GLI-01041-000",
+      "d_gamma": -0.018886884053548103,
+      "d_delta": -0.054668525854746464,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01161-000",
+      "d_gamma": -0.005467216173807743,
+      "d_delta": -0.0016369024912517016,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01189-000",
+      "d_gamma": -0.004280348618825314,
+      "d_delta": 0.006648917992909786,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01336-000",
+      "d_gamma": -0.0034201741218566895,
+      "d_delta": -0.010099351406097412,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00250-000",
+      "d_gamma": -0.0008103648821512488,
+      "d_delta": -6.733338038134029e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00501-000",
+      "d_gamma": -0.019334594408671024,
+      "d_delta": -0.12621398766835534,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01093-000",
+      "d_gamma": -0.007630189259846931,
+      "d_delta": -0.003525873025258419,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01168-000",
+      "d_gamma": 3.0994415283203125e-06,
+      "d_delta": -2.4437904357910156e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00506-000",
+      "d_gamma": 0.00011074542999267578,
+      "d_delta": -0.0020537773768106726,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01065-000",
+      "d_gamma": -0.007993360360463497,
+      "d_delta": -0.001315454641977909,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01444-000",
+      "d_gamma": -0.0017231106758117676,
+      "d_delta": -5.930662155151367e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01326-000",
+      "d_gamma": -0.006683508555094364,
+      "d_delta": -0.0015157461166381836,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00764-000",
+      "d_gamma": -0.0053365429242451246,
+      "d_delta": -0.0011668801307678223,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00731-001",
+      "d_gamma": 0.0,
+      "d_delta": -0.011778195699055971,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01258-000",
+      "d_gamma": -0.016206641991933224,
+      "d_delta": -0.008107165495554569,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01025-000",
+      "d_gamma": -0.0005576610565185547,
+      "d_delta": -0.00023458401362108638,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00811-000",
+      "d_gamma": -0.0014193058013916016,
+      "d_delta": -0.0010693073272705078,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00103-000",
+      "d_gamma": -0.008658746878306034,
+      "d_delta": -0.006268441677093506,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01103-000",
+      "d_gamma": -0.005695998668670654,
+      "d_delta": -0.021877917150656345,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00514-001",
+      "d_gamma": -0.00039827823638916016,
+      "d_delta": -0.00032486518224084104,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00611-001",
+      "d_gamma": -0.0010738968849182129,
+      "d_delta": -0.017840663592020634,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01369-000",
+      "d_gamma": -0.0003374616305032996,
+      "d_delta": -0.0017777681350708008,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01354-000",
+      "d_gamma": -0.07389106849829352,
+      "d_delta": -0.00144881010055542,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01227-000",
+      "d_gamma": -0.00029257933298743044,
+      "d_delta": 0.0009386539459228516,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01078-000",
+      "d_gamma": -0.00822359323501587,
+      "d_delta": -0.00023504098256421635,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00241-000",
+      "d_gamma": 0.0001156926155090332,
+      "d_delta": -9.781122207641602e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00146-000",
+      "d_gamma": -0.013568778832753425,
+      "d_delta": 0.001597742239634159,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01349-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.29191190004348755,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00044-000",
+      "d_gamma": -0.00774383544921875,
+      "d_delta": -0.0020734270413717004,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01315-000",
+      "d_gamma": -0.0035283764203389856,
+      "d_delta": -0.0034078359603881836,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00286-000",
+      "d_gamma": 0.002644360065460205,
+      "d_delta": 0.0003731846809387207,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-000",
+      "d_gamma": 0.005045294761657715,
+      "d_delta": 0.000673830509185791,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00367-000",
+      "d_gamma": -0.15017578999201464,
+      "d_delta": -0.7473471164703369,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00525-001",
+      "d_gamma": 0.01457194735606504,
+      "d_delta": -0.0459083843161352,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00500-001",
+      "d_gamma": -0.03801673650741577,
+      "d_delta": -0.06007250150044752,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00708-001",
+      "d_gamma": -1.7265478769901144e-05,
+      "d_delta": -8.006890614864481e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01384-000",
+      "d_gamma": -0.0027846892674764367,
+      "d_delta": 0.0002161065737407153,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00768-001",
+      "d_gamma": -0.0006465713183085864,
+      "d_delta": -0.04579669237136841,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01450-000",
+      "d_gamma": -0.0029130180676778528,
+      "d_delta": -0.0005337993303934363,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00628-000",
+      "d_gamma": -0.30344376961390185,
+      "d_delta": -0.1958944002787273,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00066-000",
+      "d_gamma": -0.0029472907384235913,
+      "d_delta": -0.017290989557902092,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00016-001",
+      "d_gamma": -1.0708967844719197e-05,
+      "d_delta": 0.00023331244786573002,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01362-000",
+      "d_gamma": -0.0017306009928385047,
+      "d_delta": 0.0006930430730183179,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00604-000",
+      "d_gamma": -0.018774668375651005,
+      "d_delta": -0.009942710399627686,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-001",
+      "d_gamma": 0.00031034151713049685,
+      "d_delta": 3.516674041748047e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00222-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.00024207433064782347,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01062-000",
+      "d_gamma": -0.009546240170796638,
+      "d_delta": -0.006204505761464363,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00266-000",
+      "d_gamma": -0.011101365089416504,
+      "d_delta": -0.000556031862894657,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01090-000",
+      "d_gamma": -0.33540133138497663,
+      "d_delta": -0.046196917692820194,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01374-000",
+      "d_gamma": 4.780292510986328e-05,
+      "d_delta": 0.0005432566006978723,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01176-000",
+      "d_gamma": -0.03743319710095727,
+      "d_delta": -0.06353775660196939,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00436-000",
+      "d_gamma": -0.002361913522084591,
+      "d_delta": -0.0004168351491292688,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01019-000",
+      "d_gamma": -0.003272394339243645,
+      "d_delta": -0.0005141496658325195,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00377-000",
+      "d_gamma": -0.00038202603658044065,
+      "d_delta": -0.0013079444567362097,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01314-000",
+      "d_gamma": 0.0,
+      "d_delta": 4.589557647705078e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00559-000",
+      "d_gamma": -0.006166815757751465,
+      "d_delta": -0.0030554533004760742,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01114-000",
+      "d_gamma": -0.01575879255930579,
+      "d_delta": -0.027018308639526367,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00338-000",
+      "d_gamma": -0.002941608428955078,
+      "d_delta": -0.00019427140553796018,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01293-000",
+      "d_gamma": -0.01610511541366577,
+      "d_delta": -0.11788786140580973,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00242-000",
+      "d_gamma": 0.0006980697313944129,
+      "d_delta": -0.0006892283757526929,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00186-000",
+      "d_gamma": -0.018473664919535282,
+      "d_delta": -0.038233160972595215,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01028-000",
+      "d_gamma": -0.000707248846689823,
+      "d_delta": -0.0016314188639322547,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00511-000",
+      "d_gamma": -0.011828740437825558,
+      "d_delta": -0.02033223708470666,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01001-000",
+      "d_gamma": -0.008044858773549435,
+      "d_delta": -0.03543257713317871,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01427-000",
+      "d_gamma": -0.004353582859039307,
+      "d_delta": -0.0003831585248311731,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00683-000",
+      "d_gamma": -0.005580584208170536,
+      "d_delta": -0.0014512936274211352,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01319-000",
+      "d_gamma": -7.271766662597656e-06,
+      "d_delta": 1.233816146850586e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01323-000",
+      "d_gamma": -0.000303645928700802,
+      "d_delta": -0.0008171002070108679,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01402-000",
+      "d_gamma": -0.005198518435160282,
+      "d_delta": -0.0051905115445455285,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00249-000",
+      "d_gamma": -0.0015399853388468054,
+      "d_delta": -0.0009955366452534253,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00032-001",
+      "d_gamma": -0.0014876921971639367,
+      "d_delta": 0.008723298708597893,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01074-000",
+      "d_gamma": -0.010449786980946785,
+      "d_delta": 0.0038867592811584473,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00616-000",
+      "d_gamma": -0.0011632045110067102,
+      "d_delta": -0.0013888080914814527,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01530-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.017271796862284333,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00098-000",
+      "d_gamma": -0.0070842007795969275,
+      "d_delta": -0.11136438138782975,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01195-000",
+      "d_gamma": 0.0008135040601094934,
+      "d_delta": 2.0047028859493388e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00682-001",
+      "d_gamma": -0.001387159029642815,
+      "d_delta": 0.0008993943532307203,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01075-000",
+      "d_gamma": -0.02176930507024122,
+      "d_delta": -0.000993351141611809,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00299-000",
+      "d_gamma": -0.047625819842020745,
+      "d_delta": 0.0006403923034667969,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00016-000",
+      "d_gamma": 0.0002644062042236328,
+      "d_delta": 0.00012501080830884526,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00404-000",
+      "d_gamma": -0.014075438181559319,
+      "d_delta": -0.023767371972401863,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00723-000",
+      "d_gamma": -0.0009632507960001258,
+      "d_delta": 3.784894943237305e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00498-001",
+      "d_gamma": -0.0025048057238260535,
+      "d_delta": -0.0009187062581380578,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00193-000",
+      "d_gamma": -0.003964205582936642,
+      "d_delta": 0.009884496529897091,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01139-000",
+      "d_gamma": 0.0012633999188741418,
+      "d_delta": -5.1021575927734375e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00020-001",
+      "d_gamma": 0.0009084145228068774,
+      "d_delta": 1.563628514611448e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-000",
+      "d_gamma": -0.006462295850118038,
+      "d_delta": -0.04527312517166138,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01452-000",
+      "d_gamma": 0.0,
+      "d_delta": -3.774960835811747e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01130-000",
+      "d_gamma": -0.0033979217211405066,
+      "d_delta": -0.0003035465876261023,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00680-001",
+      "d_gamma": -0.0031090378761291504,
+      "d_delta": 0.002565324306488037,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01516-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.08763901889324188,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00818-000",
+      "d_gamma": -0.00183945894241333,
+      "d_delta": 0.0009414752324422571,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01255-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0010893742243448523,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00228-000",
+      "d_gamma": 3.6338965098026144e-05,
+      "d_delta": 0.00010738770167029177,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01273-000",
+      "d_gamma": 0.014799108107884651,
+      "d_delta": -0.00033473968505859375,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00840-000",
+      "d_gamma": -0.023854513963063595,
+      "d_delta": -0.2301772087812424,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00619-000",
+      "d_gamma": -0.0005095005035400391,
+      "d_delta": 0.0007359186808267859,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01380-000",
+      "d_gamma": -0.000633537769317627,
+      "d_delta": -0.003650963306427002,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00582-000",
+      "d_gamma": 0.0004872282346090051,
+      "d_delta": 0.0005824963251748194,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01155-000",
+      "d_gamma": -0.013845781485239739,
+      "d_delta": -0.006235977013905769,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01046-000",
+      "d_gamma": -2.5709470113155497e-05,
+      "d_delta": -3.4809112548828125e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00313-000",
+      "d_gamma": 0.0,
+      "d_delta": -1.537799835205078e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00021-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.026911497116088923,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00565-000",
+      "d_gamma": 0.00037755568822217533,
+      "d_delta": -0.00033144156138098513,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01482-000",
+      "d_gamma": -0.017808496952056885,
+      "d_delta": 0.0001468658447265625,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00347-000",
+      "d_gamma": -0.0066906015078226355,
+      "d_delta": -0.0017708539962768555,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01253-000",
+      "d_gamma": -0.0032181143760681152,
+      "d_delta": 0.001385331153869629,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01513-000",
+      "d_gamma": -0.07787764072418213,
+      "d_delta": -0.19427057107289636,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00496-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.6605520844459534,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01104-000",
+      "d_gamma": -0.0027529001235961914,
+      "d_delta": -0.014993806680043575,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00445-000",
+      "d_gamma": -0.006296435991922977,
+      "d_delta": 0.0034797191619873047,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01068-000",
+      "d_gamma": -0.0032565792401630933,
+      "d_delta": 0.011948088804880741,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00140-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0011160969734191895,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01169-000",
+      "d_gamma": -0.0011404355367024,
+      "d_delta": 0.0013256669044494629,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01421-000",
+      "d_gamma": -0.0019301176071166992,
+      "d_delta": 0.0010091265042623254,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00096-000",
+      "d_gamma": -0.0061605175336201246,
+      "d_delta": 0.0002174973487854004,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00425-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.3369907736778259,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01536-000",
+      "d_gamma": -0.33333333333333337,
+      "d_delta": 0.00848947962125135,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00574-000",
+      "d_gamma": 0.0006412863731384277,
+      "d_delta": 0.0003118316332498816,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00130-000",
+      "d_gamma": -0.001804490884145027,
+      "d_delta": -0.00010271867116284916,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01342-000",
+      "d_gamma": -0.006768365701039558,
+      "d_delta": -0.008927305539449093,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01393-000",
+      "d_gamma": -0.0006277759869892652,
+      "d_delta": -0.0008240540822347375,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01428-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.0118722369273504,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01159-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.08913257718086243,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01424-000",
+      "d_gamma": -0.028379658857981438,
+      "d_delta": -0.0038947264353434985,
+      "concordant": true
+     }
+    ]
+   }
+  },
+  "T4_spectral": {
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.7490816720840331,
+    "se_cluster_robust": 0.1088597961851905,
+    "t": 6.881159972132481,
+    "p": 2.607960514211527e-10,
+    "r2_within_model": 0.9547537648755241,
+    "n_tiles": 868,
+    "n_subjects": 125
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.6726743656772688,
+    "pooled_spearman_p": 2.1287867193350415e-115,
+    "note": "NON-INDEPENDENT observations (tile overlap 83-94%), descriptive context only, never used as evidence for or against H180"
+   },
+   "reduced_granularity_robustness": {
+    "n_concordant": 78,
+    "n_total": 125,
+    "binomial_p": 0.0070473165425661115,
+    "detail": [
+     {
+      "sid": "BraTS-GLI-01041-000",
+      "d_gamma": -0.020450512568155887,
+      "d_delta": -0.040178537368774414,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01161-000",
+      "d_gamma": -0.002899150053660038,
+      "d_delta": -0.0018083651860555383,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01189-000",
+      "d_gamma": -0.0039047598838806152,
+      "d_delta": 0.0007448395093282434,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01336-000",
+      "d_gamma": -0.003152449925740486,
+      "d_delta": -0.006248017152150509,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00250-000",
+      "d_gamma": -6.351868311571529e-05,
+      "d_delta": -8.974472681688717e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00501-000",
+      "d_gamma": -0.08357323209444678,
+      "d_delta": -0.052431722482045584,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01093-000",
+      "d_gamma": -0.0016962091128032153,
+      "d_delta": -0.0021696090698242188,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01168-000",
+      "d_gamma": 0.0,
+      "d_delta": -2.4437904357910156e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00506-000",
+      "d_gamma": -0.00033585230509436403,
+      "d_delta": -0.0008612473805744703,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01065-000",
+      "d_gamma": -0.007803281148274777,
+      "d_delta": -0.00038037697474158083,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01444-000",
+      "d_gamma": -0.0007651448249816895,
+      "d_delta": 0.00023541847864794185,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01326-000",
+      "d_gamma": -0.004385054111480713,
+      "d_delta": -0.0011594295501708984,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00764-000",
+      "d_gamma": -0.005804240703582764,
+      "d_delta": 0.0007887482643127441,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00731-001",
+      "d_gamma": 0.0,
+      "d_delta": -0.00777639945348102,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01258-000",
+      "d_gamma": -0.0020742019017536695,
+      "d_delta": -0.0010929703712463379,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01025-000",
+      "d_gamma": -0.000557859738667843,
+      "d_delta": -0.000526726245880127,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00811-000",
+      "d_gamma": -0.0008739630381267016,
+      "d_delta": -0.000622868537902832,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00103-000",
+      "d_gamma": -0.0020624399185180664,
+      "d_delta": -0.003995498021443722,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01103-000",
+      "d_gamma": -0.049888769785563114,
+      "d_delta": -0.008245403567949894,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00514-001",
+      "d_gamma": -0.0003183285395303992,
+      "d_delta": -0.00020587444305419922,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00611-001",
+      "d_gamma": -0.001324911912282345,
+      "d_delta": -0.014717419942220089,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01369-000",
+      "d_gamma": -0.002629061539967781,
+      "d_delta": -0.0013871590296427039,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01354-000",
+      "d_gamma": -0.008988598982493046,
+      "d_delta": -0.0011883775393168872,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01227-000",
+      "d_gamma": -0.0003416339556375769,
+      "d_delta": 0.0009366472562154504,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01078-000",
+      "d_gamma": -0.0016947189966837195,
+      "d_delta": 0.00014346837997436523,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00241-000",
+      "d_gamma": 0.00012328227361035893,
+      "d_delta": -1.3828277587890625e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00146-000",
+      "d_gamma": -0.008120357990264893,
+      "d_delta": 0.001331031322479248,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01349-000",
+      "d_gamma": -0.33333333333333337,
+      "d_delta": -0.27172561486562097,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00044-000",
+      "d_gamma": -0.006763676802317264,
+      "d_delta": -0.0004395643870035437,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01315-000",
+      "d_gamma": -0.0035546422004699707,
+      "d_delta": -0.0015649596850076941,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00286-000",
+      "d_gamma": 0.0017688671747843054,
+      "d_delta": 0.002808809280395508,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-000",
+      "d_gamma": 0.001260538895924923,
+      "d_delta": 0.0006736318270365027,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00367-000",
+      "d_gamma": -0.034120817979176765,
+      "d_delta": -0.6720770796140035,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00525-001",
+      "d_gamma": -0.010819435119628906,
+      "d_delta": -0.03435165984168026,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00500-001",
+      "d_gamma": -0.008170783519744873,
+      "d_delta": -0.005030075709025028,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00708-001",
+      "d_gamma": -4.152456919315206e-06,
+      "d_delta": -2.803405125939573e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01384-000",
+      "d_gamma": -0.004009882609049553,
+      "d_delta": 3.9915243784660603e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00768-001",
+      "d_gamma": -0.012263476848602295,
+      "d_delta": -0.018874486287434933,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01450-000",
+      "d_gamma": -0.0017652114232381555,
+      "d_delta": -0.00030535459518432617,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00628-000",
+      "d_gamma": -0.3496420780817667,
+      "d_delta": -0.18729710578918463,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00066-000",
+      "d_gamma": -0.00559808810551965,
+      "d_delta": -0.0037732521692912524,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00016-001",
+      "d_gamma": -1.0192394256591797e-05,
+      "d_delta": 0.00022866328557324955,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01362-000",
+      "d_gamma": -0.0013635953267415735,
+      "d_delta": 0.0005320906639099121,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00604-000",
+      "d_gamma": -0.01401730378468835,
+      "d_delta": -6.61611557006836e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-001",
+      "d_gamma": 9.751319885253906e-05,
+      "d_delta": 6.93400700890745e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00222-000",
+      "d_gamma": -0.0003473361333211633,
+      "d_delta": 7.331371307373047e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01062-000",
+      "d_gamma": -0.010023057460784912,
+      "d_delta": -0.0031091968218485144,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00266-000",
+      "d_gamma": -0.004329204559326172,
+      "d_delta": -8.064508438110352e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01090-000",
+      "d_gamma": -0.11719824870427453,
+      "d_delta": -0.037640055020650154,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01374-000",
+      "d_gamma": -1.6927719116210938e-05,
+      "d_delta": 0.00044786930084228516,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01176-000",
+      "d_gamma": -0.054437220096588135,
+      "d_delta": -0.03464698791503906,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00436-000",
+      "d_gamma": -0.0010119875272115442,
+      "d_delta": -0.0007307529449462891,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01019-000",
+      "d_gamma": -0.0011161168416341516,
+      "d_delta": -0.0006225903828938062,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00377-000",
+      "d_gamma": -0.00040713946024584224,
+      "d_delta": -0.0013721783955891187,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01314-000",
+      "d_gamma": -0.0016252398490905762,
+      "d_delta": 0.000266035397847475,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00559-000",
+      "d_gamma": -0.005212048689524296,
+      "d_delta": -0.001723011334737179,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01114-000",
+      "d_gamma": -0.016197959582010868,
+      "d_delta": -0.025904874006907108,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00338-000",
+      "d_gamma": -0.013928353786468506,
+      "d_delta": 0.00388258695602417,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01293-000",
+      "d_gamma": -0.228163997332255,
+      "d_delta": -0.1274455115199089,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00242-000",
+      "d_gamma": 0.0001994172732034949,
+      "d_delta": -0.000498354434967041,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00186-000",
+      "d_gamma": -0.0066280364990234375,
+      "d_delta": -0.013371924559275383,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01028-000",
+      "d_gamma": -0.00044242540995276247,
+      "d_delta": -0.0013895233472187574,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00511-000",
+      "d_gamma": -0.006317635377248165,
+      "d_delta": -0.014134327570597294,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01001-000",
+      "d_gamma": -0.01335078477859497,
+      "d_delta": -0.004733125368754032,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01427-000",
+      "d_gamma": -0.0023825963338216516,
+      "d_delta": -0.0013524095217386511,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00683-000",
+      "d_gamma": -0.0035205483436584473,
+      "d_delta": -0.00031606356302904537,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01319-000",
+      "d_gamma": 3.323952356970583e-05,
+      "d_delta": 1.430511474609375e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01323-000",
+      "d_gamma": -0.0002785126368205493,
+      "d_delta": -0.0005033016204833984,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01402-000",
+      "d_gamma": -0.003412485122680664,
+      "d_delta": -0.006244401137034061,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00249-000",
+      "d_gamma": -0.0018793543179829175,
+      "d_delta": -0.00022015968958533083,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00032-001",
+      "d_gamma": -0.0021210511525472375,
+      "d_delta": 0.00953686237335205,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01074-000",
+      "d_gamma": -0.004571994145711189,
+      "d_delta": 0.0034370024998983117,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00616-000",
+      "d_gamma": -0.0007959802945455285,
+      "d_delta": -4.098812739050661e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01530-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.011905133724212646,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00098-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.08631307010849312,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01195-000",
+      "d_gamma": 9.079774220821513e-06,
+      "d_delta": 3.9259592692020284e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00682-001",
+      "d_gamma": -0.0007977485656738281,
+      "d_delta": 0.0003629128138223914,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01075-000",
+      "d_gamma": -0.0006113052368164062,
+      "d_delta": -0.0011612772941589355,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00299-000",
+      "d_gamma": -0.0019338528315225867,
+      "d_delta": 0.00044498840967810427,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00016-000",
+      "d_gamma": 0.00012445449829101562,
+      "d_delta": 5.900859832763672e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00404-000",
+      "d_gamma": -0.009048263231913212,
+      "d_delta": -0.01777847607930494,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00723-000",
+      "d_gamma": -0.0002142985661823804,
+      "d_delta": 0.0006203254063924524,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00498-001",
+      "d_gamma": -0.0014372865358989184,
+      "d_delta": -0.000852664311726925,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00193-000",
+      "d_gamma": -0.0023576815923055383,
+      "d_delta": 0.010495324929555294,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01139-000",
+      "d_gamma": 0.00026351213455200195,
+      "d_delta": -0.00010635455449425901,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00020-001",
+      "d_gamma": 0.00020551681518554688,
+      "d_delta": 2.537171045935427e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-000",
+      "d_gamma": -0.01938462257385254,
+      "d_delta": -0.009734511375427246,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01452-000",
+      "d_gamma": 0.00026049216588341917,
+      "d_delta": -1.2973944346184041e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01130-000",
+      "d_gamma": -0.0021387338638305664,
+      "d_delta": -0.00031185150146484375,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00680-001",
+      "d_gamma": -0.0018535653750101355,
+      "d_delta": 0.002852201461791992,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01516-000",
+      "d_gamma": -0.03458028535048163,
+      "d_delta": -0.07963226735591888,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00818-000",
+      "d_gamma": -0.001282195250193241,
+      "d_delta": 0.0015841126441955566,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01255-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0011444091796875,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00228-000",
+      "d_gamma": -6.783008575439453e-05,
+      "d_delta": 0.00015767415364575932,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01273-000",
+      "d_gamma": 0.0008552869160970422,
+      "d_delta": -6.554524103796755e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00840-000",
+      "d_gamma": -0.016075710455576542,
+      "d_delta": -0.14007337391376495,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00619-000",
+      "d_gamma": -0.000583946704864502,
+      "d_delta": 0.0005318721135457727,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01380-000",
+      "d_gamma": -0.001409908135732052,
+      "d_delta": -0.0028986732165019458,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00582-000",
+      "d_gamma": -0.0006641149520874023,
+      "d_delta": -0.0004176894823710864,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01155-000",
+      "d_gamma": -0.007994850476582771,
+      "d_delta": -0.0007069706916809082,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01046-000",
+      "d_gamma": -2.7755896250369894e-05,
+      "d_delta": -1.271565755212034e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00313-000",
+      "d_gamma": -0.00014064709345495974,
+      "d_delta": -2.6702880859375e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00021-000",
+      "d_gamma": -0.034656306107838875,
+      "d_delta": -0.01823314030965173,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00565-000",
+      "d_gamma": -0.0003866155942280347,
+      "d_delta": 0.00011124213536584104,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01482-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0002290805180867883,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00347-000",
+      "d_gamma": -0.0009696284929912036,
+      "d_delta": -0.0009093284606933594,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01253-000",
+      "d_gamma": -0.004081706206003899,
+      "d_delta": 0.0010615785916645581,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01513-000",
+      "d_gamma": -0.023025234540303474,
+      "d_delta": -0.2596932252248128,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00496-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.6594865719477335,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01104-000",
+      "d_gamma": -0.0021456082661946985,
+      "d_delta": -0.013432661692301506,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00445-000",
+      "d_gamma": -0.0051406025886535645,
+      "d_delta": 0.0022169947624206543,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01068-000",
+      "d_gamma": -0.0024322072664897387,
+      "d_delta": 0.010022580623626709,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00140-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0006944537162780762,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01169-000",
+      "d_gamma": -0.002954880396525139,
+      "d_delta": 0.0022762219111124304,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01421-000",
+      "d_gamma": -0.0003376404444377368,
+      "d_delta": 0.000977317492167118,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00096-000",
+      "d_gamma": -0.003917237122853634,
+      "d_delta": 0.0010689099629720422,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00425-000",
+      "d_gamma": -0.021191736062367683,
+      "d_delta": -0.29205928246180224,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01536-000",
+      "d_gamma": -0.008608241875966427,
+      "d_delta": 0.011111214756965637,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00574-000",
+      "d_gamma": 0.0002621610959371301,
+      "d_delta": 0.0012762745221455152,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00130-000",
+      "d_gamma": -0.0006203651428222656,
+      "d_delta": 0.00016663471857714107,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01342-000",
+      "d_gamma": -0.0075423320134481164,
+      "d_delta": -0.007370690504709954,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01393-000",
+      "d_gamma": -0.0010813474655151367,
+      "d_delta": -0.0007334152857463305,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01428-000",
+      "d_gamma": -0.007478892803192139,
+      "d_delta": -0.00370754798253381,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01159-000",
+      "d_gamma": 0.011893153190612793,
+      "d_delta": -0.08957579731941223,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01424-000",
+      "d_gamma": -0.012965718905130985,
+      "d_delta": 0.0008146762847900391,
+      "concordant": false
+     }
+    ]
+   }
+  },
+  "T5_smooth": {
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.44846858829629366,
+    "se_cluster_robust": 0.2898265685096479,
+    "t": 1.5473687957678208,
+    "p": 0.1243227942510261,
+    "r2_within_model": 0.9647207789000435,
+    "n_tiles": 868,
+    "n_subjects": 125
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.5199189454978688,
+    "pooled_spearman_p": 2.8394428338712496e-61,
+    "note": "NON-INDEPENDENT observations (tile overlap 83-94%), descriptive context only, never used as evidence for or against H180"
+   },
+   "reduced_granularity_robustness": {
+    "n_concordant": 92,
+    "n_total": 125,
+    "binomial_p": 1.2560405612579237e-07,
+    "detail": [
+     {
+      "sid": "BraTS-GLI-01041-000",
+      "d_gamma": -0.040447572867075565,
+      "d_delta": -0.04893569151560462,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01161-000",
+      "d_gamma": -0.009345392386118534,
+      "d_delta": -7.410844167110575e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01189-000",
+      "d_gamma": -0.004468123118082645,
+      "d_delta": 0.011017322540283203,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01336-000",
+      "d_gamma": -0.00564299027125037,
+      "d_delta": -0.007809499899546379,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00250-000",
+      "d_gamma": 2.1199385325076925e-05,
+      "d_delta": -3.6338965098137166e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00501-000",
+      "d_gamma": -0.013857603073120117,
+      "d_delta": -0.02032923698425293,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01093-000",
+      "d_gamma": -0.003538668155670166,
+      "d_delta": -0.002164761225382561,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01168-000",
+      "d_gamma": 5.185604095458984e-06,
+      "d_delta": -7.331371307373047e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00506-000",
+      "d_gamma": -0.0017039974530537183,
+      "d_delta": -0.0016567111015319824,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01065-000",
+      "d_gamma": -0.01263493299484253,
+      "d_delta": -0.003020147482554081,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01444-000",
+      "d_gamma": -0.004252314567565918,
+      "d_delta": -0.0007882912953693921,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01326-000",
+      "d_gamma": -0.012236694494883182,
+      "d_delta": -0.007624109586079952,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00764-000",
+      "d_gamma": -0.008135636647542355,
+      "d_delta": -0.0031615495681762695,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00731-001",
+      "d_gamma": 0.0500171768168608,
+      "d_delta": 0.001770635445912716,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01258-000",
+      "d_gamma": -0.008525967597961426,
+      "d_delta": -0.0021514892578125,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01025-000",
+      "d_gamma": -0.0021450122197469446,
+      "d_delta": -0.002318084239959717,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00811-000",
+      "d_gamma": -0.001102447509765625,
+      "d_delta": -0.0009433825810749585,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00103-000",
+      "d_gamma": -0.007848719755808586,
+      "d_delta": -0.0020693341890971606,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01103-000",
+      "d_gamma": -0.02308954795201623,
+      "d_delta": -0.008242102960745457,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00514-001",
+      "d_gamma": -0.00029627482096350466,
+      "d_delta": 0.0002621610959371301,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00611-001",
+      "d_gamma": -0.0087586442629497,
+      "d_delta": -0.002809425195058224,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01369-000",
+      "d_gamma": -0.0024021069208780554,
+      "d_delta": -0.0008283257484436035,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01354-000",
+      "d_gamma": -0.004802564779917362,
+      "d_delta": -0.0035528143246968957,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01227-000",
+      "d_gamma": -0.0018014311790466309,
+      "d_delta": -0.00042754411697387695,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01078-000",
+      "d_gamma": -0.005438387393951416,
+      "d_delta": -0.001873771349588993,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00241-000",
+      "d_gamma": 0.000584562619527107,
+      "d_delta": -8.398294448852539e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00146-000",
+      "d_gamma": -0.022941668828328488,
+      "d_delta": -0.0013837615648906176,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01349-000",
+      "d_gamma": -0.025189518928527832,
+      "d_delta": -0.2587015628814697,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00044-000",
+      "d_gamma": -0.0034837921460469934,
+      "d_delta": 0.0007311503092447547,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01315-000",
+      "d_gamma": -0.013460993766784668,
+      "d_delta": -0.008661707242329841,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00286-000",
+      "d_gamma": 0.00084807475407922,
+      "d_delta": -0.004776696364084954,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00491-000",
+      "d_gamma": 0.003426690896352169,
+      "d_delta": 0.00042208035786950315,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00367-000",
+      "d_gamma": -0.5015668819348017,
+      "d_delta": -0.5127608577410381,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00525-001",
+      "d_gamma": -0.0011241833368936804,
+      "d_delta": -0.031817231482515695,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00500-001",
+      "d_gamma": -0.029573937257130978,
+      "d_delta": -0.03241632382074988,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00708-001",
+      "d_gamma": -0.00012284517288208008,
+      "d_delta": -1.601378122961794e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01384-000",
+      "d_gamma": -0.008111397425333622,
+      "d_delta": -0.004680772622426277,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-001",
+      "d_gamma": -0.003544032573699951,
+      "d_delta": 0.014161527156829834,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01450-000",
+      "d_gamma": -0.0095215837160747,
+      "d_delta": -0.0020963152249653394,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00628-000",
+      "d_gamma": -0.010310590267181396,
+      "d_delta": -0.028212904930114746,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00066-000",
+      "d_gamma": -0.004700640837351444,
+      "d_delta": -0.002185960610707638,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00016-001",
+      "d_gamma": -6.0558319091796875e-05,
+      "d_delta": 0.00021674235661817143,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01362-000",
+      "d_gamma": -0.0032878716786702844,
+      "d_delta": -0.0006242195765178149,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00604-000",
+      "d_gamma": -0.02471446990966797,
+      "d_delta": -0.011490702629089355,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-001",
+      "d_gamma": 0.0002557833989461633,
+      "d_delta": 1.6887982686730751e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00222-000",
+      "d_gamma": 0.002136051654815674,
+      "d_delta": -0.00017617146174109255,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01062-000",
+      "d_gamma": -0.01799444357554114,
+      "d_delta": -0.009548405806223514,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00266-000",
+      "d_gamma": -0.017238159974416134,
+      "d_delta": -0.00047494967778527464,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01090-000",
+      "d_gamma": -0.056871791680653816,
+      "d_delta": -0.03321727116902662,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01374-000",
+      "d_gamma": -8.046627044677734e-06,
+      "d_delta": -0.0002840558687845496,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01176-000",
+      "d_gamma": -0.005783279736836788,
+      "d_delta": 0.0007281502087910785,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00436-000",
+      "d_gamma": -0.00248674551645911,
+      "d_delta": -0.0014828046162923547,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01019-000",
+      "d_gamma": -0.005858361721038818,
+      "d_delta": -0.0022194981575012207,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00377-000",
+      "d_gamma": -0.0024080475171407434,
+      "d_delta": -0.0012920101483662183,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01314-000",
+      "d_gamma": -0.000521083672841316,
+      "d_delta": -0.00016085306803387267,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00559-000",
+      "d_gamma": -0.01690274477005005,
+      "d_delta": 0.0033281842867532996,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01114-000",
+      "d_gamma": -0.02460622787475586,
+      "d_delta": -0.04701588551203406,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00338-000",
+      "d_gamma": -0.0031912922859191895,
+      "d_delta": -0.0006807446479797363,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01293-000",
+      "d_gamma": -0.6524479612708092,
+      "d_delta": -0.04143931965033215,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00242-000",
+      "d_gamma": 0.00031455357869469847,
+      "d_delta": -0.00040413935979199955,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00186-000",
+      "d_gamma": -0.01645028591156006,
+      "d_delta": -0.04751684268315637,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01028-000",
+      "d_gamma": -0.0015861193339029578,
+      "d_delta": -0.0005218386650085449,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00511-000",
+      "d_gamma": -0.027440210183461433,
+      "d_delta": -0.032841821511586544,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01001-000",
+      "d_gamma": -0.014894843101501465,
+      "d_delta": -0.05942668517430616,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01427-000",
+      "d_gamma": -0.008444170157114739,
+      "d_delta": 0.0013930002848306922,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00683-000",
+      "d_gamma": -0.007815996805826786,
+      "d_delta": 0.0013542373975117261,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01319-000",
+      "d_gamma": -7.698933283484255e-05,
+      "d_delta": 2.829233805334841e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01323-000",
+      "d_gamma": 2.6543935140010966e-05,
+      "d_delta": 0.0005289117495219653,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01402-000",
+      "d_gamma": -0.001278539498647091,
+      "d_delta": -0.0023232499758402136,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00249-000",
+      "d_gamma": -0.006247580051422119,
+      "d_delta": -0.004894693692525154,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00032-001",
+      "d_gamma": -0.003876050313313839,
+      "d_delta": 0.007169644037882561,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01074-000",
+      "d_gamma": -0.013052304585774777,
+      "d_delta": -0.001009066899617439,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00616-000",
+      "d_gamma": -0.008383353551228767,
+      "d_delta": -0.003868401050567627,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01530-000",
+      "d_gamma": -0.004591089052458641,
+      "d_delta": -0.02468411127726236,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00098-000",
+      "d_gamma": 0.015675266583760616,
+      "d_delta": -0.06117557113369304,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01195-000",
+      "d_gamma": -2.0901362101199972e-05,
+      "d_delta": -7.97112782796594e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00682-001",
+      "d_gamma": -0.0014779170354207727,
+      "d_delta": -8.64267349243164e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01075-000",
+      "d_gamma": -0.0005645751953125,
+      "d_delta": 0.0006810228029887622,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00299-000",
+      "d_gamma": 0.0039118131001790735,
+      "d_delta": -0.0019622445106506348,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00016-000",
+      "d_gamma": 0.0006132324536640699,
+      "d_delta": 8.390347162878786e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00404-000",
+      "d_gamma": -0.017824769020080566,
+      "d_delta": -0.01910877227783203,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00723-000",
+      "d_gamma": -0.00046404202779137815,
+      "d_delta": 5.398193995154177e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00498-001",
+      "d_gamma": -0.002421120802561516,
+      "d_delta": -0.001026451587677002,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00193-000",
+      "d_gamma": 0.0006442070007324219,
+      "d_delta": 0.006309688091278076,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01139-000",
+      "d_gamma": 0.0015367666880289343,
+      "d_delta": -4.329284032189573e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00020-001",
+      "d_gamma": 0.0010905663172403601,
+      "d_delta": 9.300311406457151e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-000",
+      "d_gamma": -0.015592575073242188,
+      "d_delta": -0.001851816972096798,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01452-000",
+      "d_gamma": -4.3193499247196065e-05,
+      "d_delta": -1.2973944346184041e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01130-000",
+      "d_gamma": -0.00684434175491333,
+      "d_delta": -0.0003933906555175781,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00680-001",
+      "d_gamma": -0.006261030832926506,
+      "d_delta": -0.004249533017476437,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01516-000",
+      "d_gamma": -0.15592366456985474,
+      "d_delta": -0.024540210763613346,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00818-000",
+      "d_gamma": -0.0033756494522094727,
+      "d_delta": 0.0005924105644226074,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01255-000",
+      "d_gamma": 0.011073927084604862,
+      "d_delta": 0.000844120979309082,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00228-000",
+      "d_gamma": -0.00016754865646362305,
+      "d_delta": -5.553166071581295e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01273-000",
+      "d_gamma": 0.007877030720313538,
+      "d_delta": 0.0017046332359313965,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00840-000",
+      "d_gamma": -0.002498924732208252,
+      "d_delta": -0.09312624732653296,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00619-000",
+      "d_gamma": -0.0020318031311035156,
+      "d_delta": 0.0013289054234822961,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01380-000",
+      "d_gamma": -0.0036795735359191895,
+      "d_delta": -0.0024153590202331543,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00582-000",
+      "d_gamma": -0.0001151760419209058,
+      "d_delta": 0.0011486609776814038,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01155-000",
+      "d_gamma": -0.024853308995564705,
+      "d_delta": -0.01698005199432373,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01046-000",
+      "d_gamma": -0.00027885039647412846,
+      "d_delta": -0.00019321839014685427,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00313-000",
+      "d_gamma": 0.0002038876215616492,
+      "d_delta": -2.6702880859375e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00021-000",
+      "d_gamma": -0.044731855392456055,
+      "d_delta": 0.003996729850769043,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00565-000",
+      "d_gamma": -0.00012942155202233518,
+      "d_delta": -0.00016091267267859255,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01482-000",
+      "d_gamma": 0.00014813741048180784,
+      "d_delta": 0.00023661057154333864,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00347-000",
+      "d_gamma": -0.004136304060618046,
+      "d_delta": -0.004048029581705803,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01253-000",
+      "d_gamma": -0.011293073495229122,
+      "d_delta": 0.001773218313852909,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01513-000",
+      "d_gamma": -0.08569238583246874,
+      "d_delta": -0.12383811672528588,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00496-000",
+      "d_gamma": -0.03201472759246826,
+      "d_delta": -0.2915715525547663,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01104-000",
+      "d_gamma": -0.009456455707550049,
+      "d_delta": -0.015937487284342522,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00445-000",
+      "d_gamma": -0.010329167048136467,
+      "d_delta": -0.004006683826446533,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01068-000",
+      "d_gamma": -0.00892782211303711,
+      "d_delta": -0.0036066373189290735,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00140-000",
+      "d_gamma": 5.781650543212891e-06,
+      "d_delta": 0.0009008248647055517,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01169-000",
+      "d_gamma": -0.001240690549214607,
+      "d_delta": 0.0012708504994710101,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01421-000",
+      "d_gamma": -0.0024800697962443774,
+      "d_delta": -0.0008164048194885254,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00096-000",
+      "d_gamma": -0.010656217734018925,
+      "d_delta": -0.004082957903544071,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00425-000",
+      "d_gamma": -0.14093827207883192,
+      "d_delta": -0.22754816214243578,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01536-000",
+      "d_gamma": 0.019374708334604973,
+      "d_delta": -0.0025672664244970056,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00574-000",
+      "d_gamma": -0.004611055056254032,
+      "d_delta": -0.0033111174901326867,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00130-000",
+      "d_gamma": -0.0006295641263326379,
+      "d_delta": 8.394320805871214e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01342-000",
+      "d_gamma": -0.010541578133900997,
+      "d_delta": -0.03754393259684252,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01393-000",
+      "d_gamma": -0.0016710162162780762,
+      "d_delta": -0.001900037129720089,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01428-000",
+      "d_gamma": 0.014229173461596023,
+      "d_delta": -0.0020445783933004114,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01159-000",
+      "d_gamma": 0.0002889235814411695,
+      "d_delta": -0.09734506408373511,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01424-000",
+      "d_gamma": -0.05140165487925208,
+      "d_delta": -0.03179005781809496,
+      "concordant": true
+     }
+    ]
+   }
+  }
+ },
+ "B_E167_110_secondary": {
+  "stratum": "B_E167_110",
+  "T1_rank": {
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.8257192970916182,
+    "se_cluster_robust": 0.5004596838134203,
+    "t": 1.64992170957663,
+    "p": 0.10183783014492853,
+    "r2_within_model": 0.9657451557449177,
+    "n_tiles": 772,
+    "n_subjects": 110
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.477448646358902,
+    "pooled_spearman_p": 3.3087976706664103e-45,
+    "note": "NON-INDEPENDENT observations (tile overlap 83-94%), descriptive context only, never used as evidence for or against H180"
+   },
+   "reduced_granularity_robustness": {
+    "n_concordant": 73,
+    "n_total": 110,
+    "binomial_p": 0.0007689850065829601,
+    "detail": [
+     {
+      "sid": "BraTS-GLI-01041-000",
+      "d_gamma": -0.018886884053548103,
+      "d_delta": -0.054668525854746464,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01161-000",
+      "d_gamma": -0.005467216173807743,
+      "d_delta": -0.0016369024912517016,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01189-000",
+      "d_gamma": -0.004280348618825314,
+      "d_delta": 0.006648917992909786,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01336-000",
+      "d_gamma": -0.0034201741218566895,
+      "d_delta": -0.010099351406097412,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00250-000",
+      "d_gamma": -0.0008103648821512488,
+      "d_delta": -6.733338038134029e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00501-000",
+      "d_gamma": -0.019334594408671024,
+      "d_delta": -0.12621398766835534,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01093-000",
+      "d_gamma": -0.007630189259846931,
+      "d_delta": -0.003525873025258419,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01168-000",
+      "d_gamma": 3.0994415283203125e-06,
+      "d_delta": -2.4437904357910156e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00506-000",
+      "d_gamma": 0.00011074542999267578,
+      "d_delta": -0.0020537773768106726,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01065-000",
+      "d_gamma": -0.007993360360463497,
+      "d_delta": -0.001315454641977909,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01444-000",
+      "d_gamma": -0.0017231106758117676,
+      "d_delta": -5.930662155151367e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01326-000",
+      "d_gamma": -0.006683508555094364,
+      "d_delta": -0.0015157461166381836,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00764-000",
+      "d_gamma": -0.0053365429242451246,
+      "d_delta": -0.0011668801307678223,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01258-000",
+      "d_gamma": -0.016206641991933224,
+      "d_delta": -0.008107165495554569,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01025-000",
+      "d_gamma": -0.0005576610565185547,
+      "d_delta": -0.00023458401362108638,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00811-000",
+      "d_gamma": -0.0014193058013916016,
+      "d_delta": -0.0010693073272705078,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00103-000",
+      "d_gamma": -0.008658746878306034,
+      "d_delta": -0.006268441677093506,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00514-001",
+      "d_gamma": -0.00039827823638916016,
+      "d_delta": -0.00032486518224084104,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00611-001",
+      "d_gamma": -0.0010738968849182129,
+      "d_delta": -0.017840663592020634,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01369-000",
+      "d_gamma": -0.0003374616305032996,
+      "d_delta": -0.0017777681350708008,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01354-000",
+      "d_gamma": -0.07389106849829352,
+      "d_delta": -0.00144881010055542,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01227-000",
+      "d_gamma": -0.00029257933298743044,
+      "d_delta": 0.0009386539459228516,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01078-000",
+      "d_gamma": -0.00822359323501587,
+      "d_delta": -0.00023504098256421635,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00241-000",
+      "d_gamma": 0.0001156926155090332,
+      "d_delta": -9.781122207641602e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00146-000",
+      "d_gamma": -0.013568778832753425,
+      "d_delta": 0.001597742239634159,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01349-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.29191190004348755,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00044-000",
+      "d_gamma": -0.00774383544921875,
+      "d_delta": -0.0020734270413717004,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01315-000",
+      "d_gamma": -0.0035283764203389856,
+      "d_delta": -0.0034078359603881836,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00286-000",
+      "d_gamma": 0.002644360065460205,
+      "d_delta": 0.0003731846809387207,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-000",
+      "d_gamma": 0.005045294761657715,
+      "d_delta": 0.000673830509185791,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00367-000",
+      "d_gamma": -0.15017578999201464,
+      "d_delta": -0.7473471164703369,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00500-001",
+      "d_gamma": -0.03801673650741577,
+      "d_delta": -0.06007250150044752,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00708-001",
+      "d_gamma": -1.7265478769901144e-05,
+      "d_delta": -8.006890614864481e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01384-000",
+      "d_gamma": -0.0027846892674764367,
+      "d_delta": 0.0002161065737407153,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00768-001",
+      "d_gamma": -0.0006465713183085864,
+      "d_delta": -0.04579669237136841,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01450-000",
+      "d_gamma": -0.0029130180676778528,
+      "d_delta": -0.0005337993303934363,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00628-000",
+      "d_gamma": -0.30344376961390185,
+      "d_delta": -0.1958944002787273,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00066-000",
+      "d_gamma": -0.0029472907384235913,
+      "d_delta": -0.017290989557902092,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00016-001",
+      "d_gamma": -1.0708967844719197e-05,
+      "d_delta": 0.00023331244786573002,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01362-000",
+      "d_gamma": -0.0017306009928385047,
+      "d_delta": 0.0006930430730183179,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00604-000",
+      "d_gamma": -0.018774668375651005,
+      "d_delta": -0.009942710399627686,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-001",
+      "d_gamma": 0.00031034151713049685,
+      "d_delta": 3.516674041748047e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00222-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.00024207433064782347,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01062-000",
+      "d_gamma": -0.009546240170796638,
+      "d_delta": -0.006204505761464363,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00266-000",
+      "d_gamma": -0.011101365089416504,
+      "d_delta": -0.000556031862894657,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01090-000",
+      "d_gamma": -0.33540133138497663,
+      "d_delta": -0.046196917692820194,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01374-000",
+      "d_gamma": 4.780292510986328e-05,
+      "d_delta": 0.0005432566006978723,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00436-000",
+      "d_gamma": -0.002361913522084591,
+      "d_delta": -0.0004168351491292688,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01019-000",
+      "d_gamma": -0.003272394339243645,
+      "d_delta": -0.0005141496658325195,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00377-000",
+      "d_gamma": -0.00038202603658044065,
+      "d_delta": -0.0013079444567362097,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00559-000",
+      "d_gamma": -0.006166815757751465,
+      "d_delta": -0.0030554533004760742,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01114-000",
+      "d_gamma": -0.01575879255930579,
+      "d_delta": -0.027018308639526367,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00338-000",
+      "d_gamma": -0.002941608428955078,
+      "d_delta": -0.00019427140553796018,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00242-000",
+      "d_gamma": 0.0006980697313944129,
+      "d_delta": -0.0006892283757526929,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00186-000",
+      "d_gamma": -0.018473664919535282,
+      "d_delta": -0.038233160972595215,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01028-000",
+      "d_gamma": -0.000707248846689823,
+      "d_delta": -0.0016314188639322547,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00511-000",
+      "d_gamma": -0.011828740437825558,
+      "d_delta": -0.02033223708470666,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01001-000",
+      "d_gamma": -0.008044858773549435,
+      "d_delta": -0.03543257713317871,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01427-000",
+      "d_gamma": -0.004353582859039307,
+      "d_delta": -0.0003831585248311731,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00683-000",
+      "d_gamma": -0.005580584208170536,
+      "d_delta": -0.0014512936274211352,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01319-000",
+      "d_gamma": -7.271766662597656e-06,
+      "d_delta": 1.233816146850586e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01323-000",
+      "d_gamma": -0.000303645928700802,
+      "d_delta": -0.0008171002070108679,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01402-000",
+      "d_gamma": -0.005198518435160282,
+      "d_delta": -0.0051905115445455285,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00249-000",
+      "d_gamma": -0.0015399853388468054,
+      "d_delta": -0.0009955366452534253,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00032-001",
+      "d_gamma": -0.0014876921971639367,
+      "d_delta": 0.008723298708597893,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01074-000",
+      "d_gamma": -0.010449786980946785,
+      "d_delta": 0.0038867592811584473,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00616-000",
+      "d_gamma": -0.0011632045110067102,
+      "d_delta": -0.0013888080914814527,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01195-000",
+      "d_gamma": 0.0008135040601094934,
+      "d_delta": 2.0047028859493388e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00682-001",
+      "d_gamma": -0.001387159029642815,
+      "d_delta": 0.0008993943532307203,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01075-000",
+      "d_gamma": -0.02176930507024122,
+      "d_delta": -0.000993351141611809,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00299-000",
+      "d_gamma": -0.047625819842020745,
+      "d_delta": 0.0006403923034667969,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00016-000",
+      "d_gamma": 0.0002644062042236328,
+      "d_delta": 0.00012501080830884526,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00404-000",
+      "d_gamma": -0.014075438181559319,
+      "d_delta": -0.023767371972401863,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00723-000",
+      "d_gamma": -0.0009632507960001258,
+      "d_delta": 3.784894943237305e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00498-001",
+      "d_gamma": -0.0025048057238260535,
+      "d_delta": -0.0009187062581380578,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00193-000",
+      "d_gamma": -0.003964205582936642,
+      "d_delta": 0.009884496529897091,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01139-000",
+      "d_gamma": 0.0012633999188741418,
+      "d_delta": -5.1021575927734375e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00020-001",
+      "d_gamma": 0.0009084145228068774,
+      "d_delta": 1.563628514611448e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-000",
+      "d_gamma": -0.006462295850118038,
+      "d_delta": -0.04527312517166138,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01452-000",
+      "d_gamma": 0.0,
+      "d_delta": -3.774960835811747e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01130-000",
+      "d_gamma": -0.0033979217211405066,
+      "d_delta": -0.0003035465876261023,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00680-001",
+      "d_gamma": -0.0031090378761291504,
+      "d_delta": 0.002565324306488037,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00818-000",
+      "d_gamma": -0.00183945894241333,
+      "d_delta": 0.0009414752324422571,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01255-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0010893742243448523,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00228-000",
+      "d_gamma": 3.6338965098026144e-05,
+      "d_delta": 0.00010738770167029177,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01273-000",
+      "d_gamma": 0.014799108107884651,
+      "d_delta": -0.00033473968505859375,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00619-000",
+      "d_gamma": -0.0005095005035400391,
+      "d_delta": 0.0007359186808267859,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01380-000",
+      "d_gamma": -0.000633537769317627,
+      "d_delta": -0.003650963306427002,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00582-000",
+      "d_gamma": 0.0004872282346090051,
+      "d_delta": 0.0005824963251748194,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01155-000",
+      "d_gamma": -0.013845781485239739,
+      "d_delta": -0.006235977013905769,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01046-000",
+      "d_gamma": -2.5709470113155497e-05,
+      "d_delta": -3.4809112548828125e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00313-000",
+      "d_gamma": 0.0,
+      "d_delta": -1.537799835205078e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00565-000",
+      "d_gamma": 0.00037755568822217533,
+      "d_delta": -0.00033144156138098513,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01482-000",
+      "d_gamma": -0.017808496952056885,
+      "d_delta": 0.0001468658447265625,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00347-000",
+      "d_gamma": -0.0066906015078226355,
+      "d_delta": -0.0017708539962768555,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01253-000",
+      "d_gamma": -0.0032181143760681152,
+      "d_delta": 0.001385331153869629,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01513-000",
+      "d_gamma": -0.07787764072418213,
+      "d_delta": -0.19427057107289636,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00496-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.6605520844459534,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01104-000",
+      "d_gamma": -0.0027529001235961914,
+      "d_delta": -0.014993806680043575,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00445-000",
+      "d_gamma": -0.006296435991922977,
+      "d_delta": 0.0034797191619873047,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01068-000",
+      "d_gamma": -0.0032565792401630933,
+      "d_delta": 0.011948088804880741,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00140-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0011160969734191895,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01421-000",
+      "d_gamma": -0.0019301176071166992,
+      "d_delta": 0.0010091265042623254,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00096-000",
+      "d_gamma": -0.0061605175336201246,
+      "d_delta": 0.0002174973487854004,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00425-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.3369907736778259,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00574-000",
+      "d_gamma": 0.0006412863731384277,
+      "d_delta": 0.0003118316332498816,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00130-000",
+      "d_gamma": -0.001804490884145027,
+      "d_delta": -0.00010271867116284916,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01342-000",
+      "d_gamma": -0.006768365701039558,
+      "d_delta": -0.008927305539449093,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01393-000",
+      "d_gamma": -0.0006277759869892652,
+      "d_delta": -0.0008240540822347375,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01424-000",
+      "d_gamma": -0.028379658857981438,
+      "d_delta": -0.0038947264353434985,
+      "concordant": true
+     }
+    ]
+   }
+  },
+  "T4_spectral": {
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 0.7827726643456623,
+    "se_cluster_robust": 0.1352935769227115,
+    "t": 5.785734120939334,
+    "p": 7.0120041106847e-08,
+    "r2_within_model": 0.9537973272425134,
+    "n_tiles": 772,
+    "n_subjects": 110
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.6761167209022722,
+    "pooled_spearman_p": 3.052032654427518e-104,
+    "note": "NON-INDEPENDENT observations (tile overlap 83-94%), descriptive context only, never used as evidence for or against H180"
+   },
+   "reduced_granularity_robustness": {
+    "n_concordant": 70,
+    "n_total": 110,
+    "binomial_p": 0.005447429511444476,
+    "detail": [
+     {
+      "sid": "BraTS-GLI-01041-000",
+      "d_gamma": -0.020450512568155887,
+      "d_delta": -0.040178537368774414,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01161-000",
+      "d_gamma": -0.002899150053660038,
+      "d_delta": -0.0018083651860555383,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01189-000",
+      "d_gamma": -0.0039047598838806152,
+      "d_delta": 0.0007448395093282434,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01336-000",
+      "d_gamma": -0.003152449925740486,
+      "d_delta": -0.006248017152150509,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00250-000",
+      "d_gamma": -6.351868311571529e-05,
+      "d_delta": -8.974472681688717e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00501-000",
+      "d_gamma": -0.08357323209444678,
+      "d_delta": -0.052431722482045584,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01093-000",
+      "d_gamma": -0.0016962091128032153,
+      "d_delta": -0.0021696090698242188,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01168-000",
+      "d_gamma": 0.0,
+      "d_delta": -2.4437904357910156e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00506-000",
+      "d_gamma": -0.00033585230509436403,
+      "d_delta": -0.0008612473805744703,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01065-000",
+      "d_gamma": -0.007803281148274777,
+      "d_delta": -0.00038037697474158083,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01444-000",
+      "d_gamma": -0.0007651448249816895,
+      "d_delta": 0.00023541847864794185,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01326-000",
+      "d_gamma": -0.004385054111480713,
+      "d_delta": -0.0011594295501708984,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00764-000",
+      "d_gamma": -0.005804240703582764,
+      "d_delta": 0.0007887482643127441,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01258-000",
+      "d_gamma": -0.0020742019017536695,
+      "d_delta": -0.0010929703712463379,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01025-000",
+      "d_gamma": -0.000557859738667843,
+      "d_delta": -0.000526726245880127,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00811-000",
+      "d_gamma": -0.0008739630381267016,
+      "d_delta": -0.000622868537902832,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00103-000",
+      "d_gamma": -0.0020624399185180664,
+      "d_delta": -0.003995498021443722,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00514-001",
+      "d_gamma": -0.0003183285395303992,
+      "d_delta": -0.00020587444305419922,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00611-001",
+      "d_gamma": -0.001324911912282345,
+      "d_delta": -0.014717419942220089,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01369-000",
+      "d_gamma": -0.002629061539967781,
+      "d_delta": -0.0013871590296427039,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01354-000",
+      "d_gamma": -0.008988598982493046,
+      "d_delta": -0.0011883775393168872,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01227-000",
+      "d_gamma": -0.0003416339556375769,
+      "d_delta": 0.0009366472562154504,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01078-000",
+      "d_gamma": -0.0016947189966837195,
+      "d_delta": 0.00014346837997436523,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00241-000",
+      "d_gamma": 0.00012328227361035893,
+      "d_delta": -1.3828277587890625e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00146-000",
+      "d_gamma": -0.008120357990264893,
+      "d_delta": 0.001331031322479248,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01349-000",
+      "d_gamma": -0.33333333333333337,
+      "d_delta": -0.27172561486562097,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00044-000",
+      "d_gamma": -0.006763676802317264,
+      "d_delta": -0.0004395643870035437,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01315-000",
+      "d_gamma": -0.0035546422004699707,
+      "d_delta": -0.0015649596850076941,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00286-000",
+      "d_gamma": 0.0017688671747843054,
+      "d_delta": 0.002808809280395508,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-000",
+      "d_gamma": 0.001260538895924923,
+      "d_delta": 0.0006736318270365027,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00367-000",
+      "d_gamma": -0.034120817979176765,
+      "d_delta": -0.6720770796140035,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00500-001",
+      "d_gamma": -0.008170783519744873,
+      "d_delta": -0.005030075709025028,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00708-001",
+      "d_gamma": -4.152456919315206e-06,
+      "d_delta": -2.803405125939573e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01384-000",
+      "d_gamma": -0.004009882609049553,
+      "d_delta": 3.9915243784660603e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00768-001",
+      "d_gamma": -0.012263476848602295,
+      "d_delta": -0.018874486287434933,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01450-000",
+      "d_gamma": -0.0017652114232381555,
+      "d_delta": -0.00030535459518432617,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00628-000",
+      "d_gamma": -0.3496420780817667,
+      "d_delta": -0.18729710578918463,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00066-000",
+      "d_gamma": -0.00559808810551965,
+      "d_delta": -0.0037732521692912524,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00016-001",
+      "d_gamma": -1.0192394256591797e-05,
+      "d_delta": 0.00022866328557324955,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01362-000",
+      "d_gamma": -0.0013635953267415735,
+      "d_delta": 0.0005320906639099121,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00604-000",
+      "d_gamma": -0.01401730378468835,
+      "d_delta": -6.61611557006836e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-001",
+      "d_gamma": 9.751319885253906e-05,
+      "d_delta": 6.93400700890745e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00222-000",
+      "d_gamma": -0.0003473361333211633,
+      "d_delta": 7.331371307373047e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01062-000",
+      "d_gamma": -0.010023057460784912,
+      "d_delta": -0.0031091968218485144,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00266-000",
+      "d_gamma": -0.004329204559326172,
+      "d_delta": -8.064508438110352e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01090-000",
+      "d_gamma": -0.11719824870427453,
+      "d_delta": -0.037640055020650154,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01374-000",
+      "d_gamma": -1.6927719116210938e-05,
+      "d_delta": 0.00044786930084228516,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00436-000",
+      "d_gamma": -0.0010119875272115442,
+      "d_delta": -0.0007307529449462891,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01019-000",
+      "d_gamma": -0.0011161168416341516,
+      "d_delta": -0.0006225903828938062,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00377-000",
+      "d_gamma": -0.00040713946024584224,
+      "d_delta": -0.0013721783955891187,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00559-000",
+      "d_gamma": -0.005212048689524296,
+      "d_delta": -0.001723011334737179,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01114-000",
+      "d_gamma": -0.016197959582010868,
+      "d_delta": -0.025904874006907108,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00338-000",
+      "d_gamma": -0.013928353786468506,
+      "d_delta": 0.00388258695602417,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00242-000",
+      "d_gamma": 0.0001994172732034949,
+      "d_delta": -0.000498354434967041,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00186-000",
+      "d_gamma": -0.0066280364990234375,
+      "d_delta": -0.013371924559275383,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01028-000",
+      "d_gamma": -0.00044242540995276247,
+      "d_delta": -0.0013895233472187574,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00511-000",
+      "d_gamma": -0.006317635377248165,
+      "d_delta": -0.014134327570597294,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01001-000",
+      "d_gamma": -0.01335078477859497,
+      "d_delta": -0.004733125368754032,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01427-000",
+      "d_gamma": -0.0023825963338216516,
+      "d_delta": -0.0013524095217386511,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00683-000",
+      "d_gamma": -0.0035205483436584473,
+      "d_delta": -0.00031606356302904537,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01319-000",
+      "d_gamma": 3.323952356970583e-05,
+      "d_delta": 1.430511474609375e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01323-000",
+      "d_gamma": -0.0002785126368205493,
+      "d_delta": -0.0005033016204833984,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01402-000",
+      "d_gamma": -0.003412485122680664,
+      "d_delta": -0.006244401137034061,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00249-000",
+      "d_gamma": -0.0018793543179829175,
+      "d_delta": -0.00022015968958533083,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00032-001",
+      "d_gamma": -0.0021210511525472375,
+      "d_delta": 0.00953686237335205,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01074-000",
+      "d_gamma": -0.004571994145711189,
+      "d_delta": 0.0034370024998983117,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00616-000",
+      "d_gamma": -0.0007959802945455285,
+      "d_delta": -4.098812739050661e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01195-000",
+      "d_gamma": 9.079774220821513e-06,
+      "d_delta": 3.9259592692020284e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00682-001",
+      "d_gamma": -0.0007977485656738281,
+      "d_delta": 0.0003629128138223914,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01075-000",
+      "d_gamma": -0.0006113052368164062,
+      "d_delta": -0.0011612772941589355,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00299-000",
+      "d_gamma": -0.0019338528315225867,
+      "d_delta": 0.00044498840967810427,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00016-000",
+      "d_gamma": 0.00012445449829101562,
+      "d_delta": 5.900859832763672e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00404-000",
+      "d_gamma": -0.009048263231913212,
+      "d_delta": -0.01777847607930494,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00723-000",
+      "d_gamma": -0.0002142985661823804,
+      "d_delta": 0.0006203254063924524,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00498-001",
+      "d_gamma": -0.0014372865358989184,
+      "d_delta": -0.000852664311726925,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00193-000",
+      "d_gamma": -0.0023576815923055383,
+      "d_delta": 0.010495324929555294,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01139-000",
+      "d_gamma": 0.00026351213455200195,
+      "d_delta": -0.00010635455449425901,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00020-001",
+      "d_gamma": 0.00020551681518554688,
+      "d_delta": 2.537171045935427e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-000",
+      "d_gamma": -0.01938462257385254,
+      "d_delta": -0.009734511375427246,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01452-000",
+      "d_gamma": 0.00026049216588341917,
+      "d_delta": -1.2973944346184041e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01130-000",
+      "d_gamma": -0.0021387338638305664,
+      "d_delta": -0.00031185150146484375,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00680-001",
+      "d_gamma": -0.0018535653750101355,
+      "d_delta": 0.002852201461791992,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00818-000",
+      "d_gamma": -0.001282195250193241,
+      "d_delta": 0.0015841126441955566,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01255-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0011444091796875,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00228-000",
+      "d_gamma": -6.783008575439453e-05,
+      "d_delta": 0.00015767415364575932,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01273-000",
+      "d_gamma": 0.0008552869160970422,
+      "d_delta": -6.554524103796755e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00619-000",
+      "d_gamma": -0.000583946704864502,
+      "d_delta": 0.0005318721135457727,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01380-000",
+      "d_gamma": -0.001409908135732052,
+      "d_delta": -0.0028986732165019458,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00582-000",
+      "d_gamma": -0.0006641149520874023,
+      "d_delta": -0.0004176894823710864,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01155-000",
+      "d_gamma": -0.007994850476582771,
+      "d_delta": -0.0007069706916809082,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01046-000",
+      "d_gamma": -2.7755896250369894e-05,
+      "d_delta": -1.271565755212034e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00313-000",
+      "d_gamma": -0.00014064709345495974,
+      "d_delta": -2.6702880859375e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00565-000",
+      "d_gamma": -0.0003866155942280347,
+      "d_delta": 0.00011124213536584104,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01482-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0002290805180867883,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00347-000",
+      "d_gamma": -0.0009696284929912036,
+      "d_delta": -0.0009093284606933594,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01253-000",
+      "d_gamma": -0.004081706206003899,
+      "d_delta": 0.0010615785916645581,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01513-000",
+      "d_gamma": -0.023025234540303474,
+      "d_delta": -0.2596932252248128,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00496-000",
+      "d_gamma": 0.0,
+      "d_delta": -0.6594865719477335,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01104-000",
+      "d_gamma": -0.0021456082661946985,
+      "d_delta": -0.013432661692301506,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00445-000",
+      "d_gamma": -0.0051406025886535645,
+      "d_delta": 0.0022169947624206543,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01068-000",
+      "d_gamma": -0.0024322072664897387,
+      "d_delta": 0.010022580623626709,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00140-000",
+      "d_gamma": 0.0,
+      "d_delta": 0.0006944537162780762,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01421-000",
+      "d_gamma": -0.0003376404444377368,
+      "d_delta": 0.000977317492167118,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00096-000",
+      "d_gamma": -0.003917237122853634,
+      "d_delta": 0.0010689099629720422,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00425-000",
+      "d_gamma": -0.021191736062367683,
+      "d_delta": -0.29205928246180224,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00574-000",
+      "d_gamma": 0.0002621610959371301,
+      "d_delta": 0.0012762745221455152,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00130-000",
+      "d_gamma": -0.0006203651428222656,
+      "d_delta": 0.00016663471857714107,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01342-000",
+      "d_gamma": -0.0075423320134481164,
+      "d_delta": -0.007370690504709954,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01393-000",
+      "d_gamma": -0.0010813474655151367,
+      "d_delta": -0.0007334152857463305,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01424-000",
+      "d_gamma": -0.012965718905130985,
+      "d_delta": 0.0008146762847900391,
+      "concordant": false
+     }
+    ]
+   }
+  },
+  "T5_smooth": {
+   "primary_subject_fixed_effects": {
+    "beta_gamma": 1.017762641471236,
+    "se_cluster_robust": 0.06441230972386804,
+    "t": 15.800747494296159,
+    "p": 0.0,
+    "r2_within_model": 0.9835884528732017,
+    "n_tiles": 772,
+    "n_subjects": 110
+   },
+   "secondary_descriptive_NOT_EVIDENCE": {
+    "pooled_spearman_rho": 0.6033118363642223,
+    "pooled_spearman_p": 1.0278319254102351e-77,
+    "note": "NON-INDEPENDENT observations (tile overlap 83-94%), descriptive context only, never used as evidence for or against H180"
+   },
+   "reduced_granularity_robustness": {
+    "n_concordant": 84,
+    "n_total": 110,
+    "binomial_p": 2.6140393458029345e-08,
+    "detail": [
+     {
+      "sid": "BraTS-GLI-01041-000",
+      "d_gamma": -0.040447572867075565,
+      "d_delta": -0.04893569151560462,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01161-000",
+      "d_gamma": -0.009345392386118534,
+      "d_delta": -7.410844167110575e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01189-000",
+      "d_gamma": -0.004468123118082645,
+      "d_delta": 0.011017322540283203,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01336-000",
+      "d_gamma": -0.00564299027125037,
+      "d_delta": -0.007809499899546379,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00250-000",
+      "d_gamma": 2.1199385325076925e-05,
+      "d_delta": -3.6338965098137166e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00501-000",
+      "d_gamma": -0.013857603073120117,
+      "d_delta": -0.02032923698425293,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01093-000",
+      "d_gamma": -0.003538668155670166,
+      "d_delta": -0.002164761225382561,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01168-000",
+      "d_gamma": 5.185604095458984e-06,
+      "d_delta": -7.331371307373047e-06,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00506-000",
+      "d_gamma": -0.0017039974530537183,
+      "d_delta": -0.0016567111015319824,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01065-000",
+      "d_gamma": -0.01263493299484253,
+      "d_delta": -0.003020147482554081,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01444-000",
+      "d_gamma": -0.004252314567565918,
+      "d_delta": -0.0007882912953693921,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01326-000",
+      "d_gamma": -0.012236694494883182,
+      "d_delta": -0.007624109586079952,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00764-000",
+      "d_gamma": -0.008135636647542355,
+      "d_delta": -0.0031615495681762695,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01258-000",
+      "d_gamma": -0.008525967597961426,
+      "d_delta": -0.0021514892578125,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01025-000",
+      "d_gamma": -0.0021450122197469446,
+      "d_delta": -0.002318084239959717,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00811-000",
+      "d_gamma": -0.001102447509765625,
+      "d_delta": -0.0009433825810749585,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00103-000",
+      "d_gamma": -0.007848719755808586,
+      "d_delta": -0.0020693341890971606,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00514-001",
+      "d_gamma": -0.00029627482096350466,
+      "d_delta": 0.0002621610959371301,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00611-001",
+      "d_gamma": -0.0087586442629497,
+      "d_delta": -0.002809425195058224,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01369-000",
+      "d_gamma": -0.0024021069208780554,
+      "d_delta": -0.0008283257484436035,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01354-000",
+      "d_gamma": -0.004802564779917362,
+      "d_delta": -0.0035528143246968957,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01227-000",
+      "d_gamma": -0.0018014311790466309,
+      "d_delta": -0.00042754411697387695,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01078-000",
+      "d_gamma": -0.005438387393951416,
+      "d_delta": -0.001873771349588993,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00241-000",
+      "d_gamma": 0.000584562619527107,
+      "d_delta": -8.398294448852539e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00146-000",
+      "d_gamma": -0.022941668828328488,
+      "d_delta": -0.0013837615648906176,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01349-000",
+      "d_gamma": -0.025189518928527832,
+      "d_delta": -0.2587015628814697,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00044-000",
+      "d_gamma": -0.0034837921460469934,
+      "d_delta": 0.0007311503092447547,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01315-000",
+      "d_gamma": -0.013460993766784668,
+      "d_delta": -0.008661707242329841,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00286-000",
+      "d_gamma": 0.00084807475407922,
+      "d_delta": -0.004776696364084954,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00491-000",
+      "d_gamma": 0.003426690896352169,
+      "d_delta": 0.00042208035786950315,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00367-000",
+      "d_gamma": -0.5015668819348017,
+      "d_delta": -0.5127608577410381,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00500-001",
+      "d_gamma": -0.029573937257130978,
+      "d_delta": -0.03241632382074988,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00708-001",
+      "d_gamma": -0.00012284517288208008,
+      "d_delta": -1.601378122961794e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01384-000",
+      "d_gamma": -0.008111397425333622,
+      "d_delta": -0.004680772622426277,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-001",
+      "d_gamma": -0.003544032573699951,
+      "d_delta": 0.014161527156829834,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01450-000",
+      "d_gamma": -0.0095215837160747,
+      "d_delta": -0.0020963152249653394,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00628-000",
+      "d_gamma": -0.010310590267181396,
+      "d_delta": -0.028212904930114746,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00066-000",
+      "d_gamma": -0.004700640837351444,
+      "d_delta": -0.002185960610707638,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00016-001",
+      "d_gamma": -6.0558319091796875e-05,
+      "d_delta": 0.00021674235661817143,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01362-000",
+      "d_gamma": -0.0032878716786702844,
+      "d_delta": -0.0006242195765178149,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00604-000",
+      "d_gamma": -0.02471446990966797,
+      "d_delta": -0.011490702629089355,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00491-001",
+      "d_gamma": 0.0002557833989461633,
+      "d_delta": 1.6887982686730751e-06,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00222-000",
+      "d_gamma": 0.002136051654815674,
+      "d_delta": -0.00017617146174109255,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01062-000",
+      "d_gamma": -0.01799444357554114,
+      "d_delta": -0.009548405806223514,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00266-000",
+      "d_gamma": -0.017238159974416134,
+      "d_delta": -0.00047494967778527464,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01090-000",
+      "d_gamma": -0.056871791680653816,
+      "d_delta": -0.03321727116902662,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01374-000",
+      "d_gamma": -8.046627044677734e-06,
+      "d_delta": -0.0002840558687845496,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00436-000",
+      "d_gamma": -0.00248674551645911,
+      "d_delta": -0.0014828046162923547,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01019-000",
+      "d_gamma": -0.005858361721038818,
+      "d_delta": -0.0022194981575012207,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00377-000",
+      "d_gamma": -0.0024080475171407434,
+      "d_delta": -0.0012920101483662183,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00559-000",
+      "d_gamma": -0.01690274477005005,
+      "d_delta": 0.0033281842867532996,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01114-000",
+      "d_gamma": -0.02460622787475586,
+      "d_delta": -0.04701588551203406,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00338-000",
+      "d_gamma": -0.0031912922859191895,
+      "d_delta": -0.0006807446479797363,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00242-000",
+      "d_gamma": 0.00031455357869469847,
+      "d_delta": -0.00040413935979199955,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00186-000",
+      "d_gamma": -0.01645028591156006,
+      "d_delta": -0.04751684268315637,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01028-000",
+      "d_gamma": -0.0015861193339029578,
+      "d_delta": -0.0005218386650085449,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00511-000",
+      "d_gamma": -0.027440210183461433,
+      "d_delta": -0.032841821511586544,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01001-000",
+      "d_gamma": -0.014894843101501465,
+      "d_delta": -0.05942668517430616,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01427-000",
+      "d_gamma": -0.008444170157114739,
+      "d_delta": 0.0013930002848306922,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00683-000",
+      "d_gamma": -0.007815996805826786,
+      "d_delta": 0.0013542373975117261,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01319-000",
+      "d_gamma": -7.698933283484255e-05,
+      "d_delta": 2.829233805334841e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01323-000",
+      "d_gamma": 2.6543935140010966e-05,
+      "d_delta": 0.0005289117495219653,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01402-000",
+      "d_gamma": -0.001278539498647091,
+      "d_delta": -0.0023232499758402136,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00249-000",
+      "d_gamma": -0.006247580051422119,
+      "d_delta": -0.004894693692525154,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00032-001",
+      "d_gamma": -0.003876050313313839,
+      "d_delta": 0.007169644037882561,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01074-000",
+      "d_gamma": -0.013052304585774777,
+      "d_delta": -0.001009066899617439,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00616-000",
+      "d_gamma": -0.008383353551228767,
+      "d_delta": -0.003868401050567627,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01195-000",
+      "d_gamma": -2.0901362101199972e-05,
+      "d_delta": -7.97112782796594e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00682-001",
+      "d_gamma": -0.0014779170354207727,
+      "d_delta": -8.64267349243164e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01075-000",
+      "d_gamma": -0.0005645751953125,
+      "d_delta": 0.0006810228029887622,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00299-000",
+      "d_gamma": 0.0039118131001790735,
+      "d_delta": -0.0019622445106506348,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00016-000",
+      "d_gamma": 0.0006132324536640699,
+      "d_delta": 8.390347162878786e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00404-000",
+      "d_gamma": -0.017824769020080566,
+      "d_delta": -0.01910877227783203,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00723-000",
+      "d_gamma": -0.00046404202779137815,
+      "d_delta": 5.398193995154177e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00498-001",
+      "d_gamma": -0.002421120802561516,
+      "d_delta": -0.001026451587677002,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00193-000",
+      "d_gamma": 0.0006442070007324219,
+      "d_delta": 0.006309688091278076,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01139-000",
+      "d_gamma": 0.0015367666880289343,
+      "d_delta": -4.329284032189573e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00020-001",
+      "d_gamma": 0.0010905663172403601,
+      "d_delta": 9.300311406457151e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00768-000",
+      "d_gamma": -0.015592575073242188,
+      "d_delta": -0.001851816972096798,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01452-000",
+      "d_gamma": -4.3193499247196065e-05,
+      "d_delta": -1.2973944346184041e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01130-000",
+      "d_gamma": -0.00684434175491333,
+      "d_delta": -0.0003933906555175781,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00680-001",
+      "d_gamma": -0.006261030832926506,
+      "d_delta": -0.004249533017476437,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00818-000",
+      "d_gamma": -0.0033756494522094727,
+      "d_delta": 0.0005924105644226074,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01255-000",
+      "d_gamma": 0.011073927084604862,
+      "d_delta": 0.000844120979309082,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00228-000",
+      "d_gamma": -0.00016754865646362305,
+      "d_delta": -5.553166071581295e-05,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01273-000",
+      "d_gamma": 0.007877030720313538,
+      "d_delta": 0.0017046332359313965,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00619-000",
+      "d_gamma": -0.0020318031311035156,
+      "d_delta": 0.0013289054234822961,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01380-000",
+      "d_gamma": -0.0036795735359191895,
+      "d_delta": -0.0024153590202331543,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00582-000",
+      "d_gamma": -0.0001151760419209058,
+      "d_delta": 0.0011486609776814038,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01155-000",
+      "d_gamma": -0.024853308995564705,
+      "d_delta": -0.01698005199432373,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01046-000",
+      "d_gamma": -0.00027885039647412846,
+      "d_delta": -0.00019321839014685427,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00313-000",
+      "d_gamma": 0.0002038876215616492,
+      "d_delta": -2.6702880859375e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-00565-000",
+      "d_gamma": -0.00012942155202233518,
+      "d_delta": -0.00016091267267859255,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01482-000",
+      "d_gamma": 0.00014813741048180784,
+      "d_delta": 0.00023661057154333864,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00347-000",
+      "d_gamma": -0.004136304060618046,
+      "d_delta": -0.004048029581705803,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01253-000",
+      "d_gamma": -0.011293073495229122,
+      "d_delta": 0.001773218313852909,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01513-000",
+      "d_gamma": -0.08569238583246874,
+      "d_delta": -0.12383811672528588,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00496-000",
+      "d_gamma": -0.03201472759246826,
+      "d_delta": -0.2915715525547663,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01104-000",
+      "d_gamma": -0.009456455707550049,
+      "d_delta": -0.015937487284342522,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00445-000",
+      "d_gamma": -0.010329167048136467,
+      "d_delta": -0.004006683826446533,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01068-000",
+      "d_gamma": -0.00892782211303711,
+      "d_delta": -0.0036066373189290735,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00140-000",
+      "d_gamma": 5.781650543212891e-06,
+      "d_delta": 0.0009008248647055517,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01421-000",
+      "d_gamma": -0.0024800697962443774,
+      "d_delta": -0.0008164048194885254,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00096-000",
+      "d_gamma": -0.010656217734018925,
+      "d_delta": -0.004082957903544071,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00425-000",
+      "d_gamma": -0.14093827207883192,
+      "d_delta": -0.22754816214243578,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00574-000",
+      "d_gamma": -0.004611055056254032,
+      "d_delta": -0.0033111174901326867,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-00130-000",
+      "d_gamma": -0.0006295641263326379,
+      "d_delta": 8.394320805871214e-05,
+      "concordant": false
+     },
+     {
+      "sid": "BraTS-GLI-01342-000",
+      "d_gamma": -0.010541578133900997,
+      "d_delta": -0.03754393259684252,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01393-000",
+      "d_gamma": -0.0016710162162780762,
+      "d_delta": -0.001900037129720089,
+      "concordant": true
+     },
+     {
+      "sid": "BraTS-GLI-01424-000",
+      "d_gamma": -0.05140165487925208,
+      "d_delta": -0.03179005781809496,
+      "concordant": true
+     }
+    ]
+   }
+  }
+ }
+}

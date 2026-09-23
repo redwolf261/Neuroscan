@@ -1,0 +1,12 @@
+{
+  "L_seg_init": 0.8937170505523682,
+  "L_local_init": 0.7559341788291931,
+  "lambda_local_value_matched": 1.1822683450251927,
+  "grad_norm_L_seg": 0.5970811376226643,
+  "grad_norm_L_local_unweighted": 2.5515105206300026,
+  "raw_gradient_ratio": 4.27330618881897,
+  "blowup_factor_at_value_matched_lambda": 5.052194635640918,
+  "target_ratio": 1.0,
+  "final_lambda_local": 0.23401084682779866,
+  "seed": 0
+}

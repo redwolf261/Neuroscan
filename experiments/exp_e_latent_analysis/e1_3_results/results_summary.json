@@ -1,0 +1,45 @@
+{
+  "cluster_tightness": {
+    "tumor_mean_dist_to_own_centroid": 13.433552215892659,
+    "tumor_std_dist_to_own_centroid": 7.44849794280187,
+    "tumor_mean_dist_to_other_centroid": 30.645685106939762,
+    "background_mean_dist_to_own_centroid": 4.34680307392596,
+    "background_std_dist_to_own_centroid": 1.690685421057578,
+    "background_mean_dist_to_other_centroid": 29.628196825984045,
+    "centroid_separation": 29.26271992570022
+  },
+  "latent_classifier_auc": 0.9994784850968395,
+  "latent_boundary_distance": {
+    "signed_pearson_r": -0.38122196852254836,
+    "signed_pearson_p": 0.0,
+    "signed_spearman_rho": -0.12639179955718538,
+    "signed_spearman_p": 4.01016418176593e-212,
+    "abs_pearson_r": 0.30755658125984214,
+    "abs_pearson_p": 0.0,
+    "abs_spearman_rho": 0.1195518369346054,
+    "abs_spearman_p": 7.603697479947654e-190,
+    "abs_polynomial_r2": {
+      "1": 0.09459105067624207,
+      "2": 0.16494754530729583,
+      "3": 0.16496984448366825,
+      "4": 0.21923685230042633
+    }
+  },
+  "incorrect_voxels_latent_boundary": {
+    "mean_abs_dist_correct": 1.4559992092484095,
+    "mean_abs_dist_incorrect": 0.6482589340725503,
+    "t": 20.714079789970395,
+    "p": 5.745780596008488e-35,
+    "cohens_d": 1.4104142992658693
+  },
+  "horse_race_auc_vs_correctness": {
+    "abs_image_boundary_distance": 0.9950680130184428,
+    "feature_norm": 0.9155074590964651,
+    "abs_latent_boundary_distance": 0.7762112011624311,
+    "evidence_reference": 0.9652931849531936
+  },
+  "pca_explained_variance_ratio_2d": [
+    0.600637776926294,
+    0.32502324964511037
+  ]
+}

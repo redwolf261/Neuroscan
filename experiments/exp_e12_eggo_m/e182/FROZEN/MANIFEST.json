@@ -1,0 +1,41 @@
+{
+ "E182_calibration.json": {
+  "sha256_16": "7a689c75dee41b7f",
+  "bytes": 2419
+ },
+ "T7_severity_set_LOCKED": [
+  0.6,
+  0.8,
+  1.1,
+  1.45
+ ],
+ "T6_severity_set_UNCHANGED_from_E181": [
+  0.35,
+  0.5
+ ],
+ "rank_invariance_threshold": "<1e-4 (corrected from <1e-6 after investigation, GPU SVD precision floor, documented in PHASE_E182 prereg)",
+ "CALIBRATION_GATE_PASS": true,
+ "note": "FROZEN 2026-09-18 before full 125-subject E182 collection. Severity set locked, not re-tuned. Full 125-subject collection FROZEN 2026-09-18 before Test A/B/C analysis. T6 diagnostics match E181-D exactly (unchanged). T7 magnitude spread confirmed clean and non-degenerate across full cohort: means 0.087/0.173/0.347/0.390, all non-overlapping.",
+ "E182_D_gamma.json": {
+  "sha256_16": "e506685df7f9154f",
+  "bytes": 1720727
+ },
+ "E182_D_delta.json": {
+  "sha256_16": "620af79579b01bd1",
+  "bytes": 2115541
+ },
+ "n_records": 5208,
+ "n_subjects": 125,
+ "configs": {
+  "T6": [
+   0.35,
+   0.5
+  ],
+  "T7": [
+   0.6,
+   0.8,
+   1.1,
+   1.45
+  ]
+ }
+}

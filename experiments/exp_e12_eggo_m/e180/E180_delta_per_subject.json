@@ -1,0 +1,1538 @@
+[
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8724335432052612,
+  "delta_i_global": 0.16919164856274926
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8724886576334635,
+  "delta_i_global": 0.16924676299095154
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8183739980061849,
+  "delta_i_global": 0.11513210336367297
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8179342349370321,
+  "delta_i_global": 0.11469234029452013
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8725945353507996,
+  "delta_i_global": 0.1693526407082876
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8726149201393127,
+  "delta_i_global": 0.16937302549680078
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8181787927945455,
+  "delta_i_global": 0.11493689815203356
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.703241894642512,
+  "dice_cf_i": 0.8177650173505148,
+  "delta_i_global": 0.1145231227080028
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8724335432052612,
+  "delta_i_global": 0.16883526245752967
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8724409937858582,
+  "delta_i_global": 0.1688427130381266
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8326566219329834,
+  "delta_i_global": 0.12905834118525183
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8326811989148458,
+  "delta_i_global": 0.12908291816711426
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8725328246752421,
+  "delta_i_global": 0.1689345439275105
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8725591699282328,
+  "delta_i_global": 0.16896088918050123
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8322455286979675,
+  "delta_i_global": 0.12864724795023597
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.7035982807477316,
+  "dice_cf_i": 0.8322550058364868,
+  "delta_i_global": 0.12865672508875525
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.8724335432052612,
+  "delta_i_global": 0.22298527757326758
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.8722477952639262,
+  "delta_i_global": 0.2227995296319325
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.8240764339764913,
+  "delta_i_global": 0.17462816834449768
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.8236430287361145,
+  "delta_i_global": 0.17419476310412085
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.8724479476610819,
+  "delta_i_global": 0.22299968202908826
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.872206449508667,
+  "delta_i_global": 0.22275818387667334
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.823951005935669,
+  "delta_i_global": 0.1745027403036753
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.6494482656319936,
+  "dice_cf_i": 0.8234978516896566,
+  "delta_i_global": 0.17404958605766296
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.962522010008494,
+  "dice_cf_i": 0.9599863489468893,
+  "delta_i_global": -0.0025356610616047437
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.962522010008494,
+  "dice_cf_i": 0.9600200851758321,
+  "delta_i_global": -0.0025019248326618726
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.962522010008494,
+  "dice_cf_i": 0.9582852125167847,
+  "delta_i_global": -0.004236797491709354
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.962522010008494,
+  "dice_cf_i": 0.9583494464556376,
+  "delta_i_global": -0.004172563552856445
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.9632695913314819,
+  "dice_cf_i": 0.959993302822113,
+  "delta_i_global": -0.0032762885093688965
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.9632695913314819,
+  "dice_cf_i": 0.9599712093671163,
+  "delta_i_global": -0.0032983819643656043
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.9632695913314819,
+  "dice_cf_i": 0.9581950108210245,
+  "delta_i_global": -0.005074580510457394
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.9632695913314819,
+  "dice_cf_i": 0.9581849376360575,
+  "delta_i_global": -0.005084653695424435
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.9061317642529806,
+  "dice_cf_i": 0.959993302822113,
+  "delta_i_global": 0.05386153856913245
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.9061317642529806,
+  "dice_cf_i": 0.9599954088528951,
+  "delta_i_global": 0.05386364459991455
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.9061317642529806,
+  "dice_cf_i": 0.9599738915761312,
+  "delta_i_global": 0.053842127323150635
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.9061317642529806,
+  "dice_cf_i": 0.9599858919779459,
+  "delta_i_global": 0.05385412772496534
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.8034553527832031,
+  "dice_cf_i": 0.8310125867525736,
+  "delta_i_global": 0.027557233969370487
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.8034553527832031,
+  "dice_cf_i": 0.8376615047454834,
+  "delta_i_global": 0.03420615196228027
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.817794660727183,
+  "dice_cf_i": 0.8310125867525736,
+  "delta_i_global": 0.013217926025390625
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.817794660727183,
+  "dice_cf_i": 0.8317574262619019,
+  "delta_i_global": 0.013962765534718868
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.8307244578997294,
+  "dice_cf_i": 0.8310125867525736,
+  "delta_i_global": 0.0002881288528442383
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.8307244578997294,
+  "dice_cf_i": 0.8420299092928568,
+  "delta_i_global": 0.011305451393127441
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04991028706232714
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04991028706232714
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9349697430928549,
+  "delta_i_global": 0.03981093565622973
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9349697430928549,
+  "delta_i_global": 0.03981093565622973
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04991028706232714
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04991028706232714
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9349697430928549,
+  "delta_i_global": 0.03981093565622973
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.8951588074366251,
+  "dice_cf_i": 0.9349697430928549,
+  "delta_i_global": 0.03981093565622973
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04590123891830444
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04590123891830444
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9388210773468018,
+  "delta_i_global": 0.039653221766153934
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9388210773468018,
+  "delta_i_global": 0.039653221766153934
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04590123891830444
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04590123891830444
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9388210773468018,
+  "delta_i_global": 0.039653221766153934
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.8991678555806478,
+  "dice_cf_i": 0.9388210773468018,
+  "delta_i_global": 0.039653221766153934
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04741859436035156
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04741859436035156
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9372595945994059,
+  "delta_i_global": 0.03960909446080518
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9372595945994059,
+  "delta_i_global": 0.03960909446080518
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04741859436035156
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9450690944989523,
+  "delta_i_global": 0.04741859436035156
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9372595945994059,
+  "delta_i_global": 0.03960909446080518
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.8976505001386007,
+  "dice_cf_i": 0.9372595945994059,
+  "delta_i_global": 0.03960909446080518
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9601010878880819,
+  "delta_i_global": 0.01774841547012329
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9601010878880819,
+  "delta_i_global": 0.01774841547012329
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9599900841712952,
+  "delta_i_global": 0.01763741175333655
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9599900841712952,
+  "delta_i_global": 0.01763741175333655
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9601537187894186,
+  "delta_i_global": 0.01780104637145996
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9601537187894186,
+  "delta_i_global": 0.01780104637145996
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9600337545077006,
+  "delta_i_global": 0.01768108208974195
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.9423526724179586,
+  "dice_cf_i": 0.9600337545077006,
+  "delta_i_global": 0.01768108208974195
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.9601010878880819,
+  "delta_i_global": 0.008016963799794552
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.9601010878880819,
+  "delta_i_global": 0.008016963799794552
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.9599878390630087,
+  "delta_i_global": 0.00790371497472131
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.9599878390630087,
+  "delta_i_global": 0.00790371497472131
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.9601244330406189,
+  "delta_i_global": 0.008040308952331543
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.9601244330406189,
+  "delta_i_global": 0.008040308952331543
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.960011343161265,
+  "delta_i_global": 0.007927219072977665
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.9520841240882874,
+  "dice_cf_i": 0.960011343161265,
+  "delta_i_global": 0.007927219072977665
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.9601010878880819,
+  "delta_i_global": 0.014106671015421623
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.9601010878880819,
+  "delta_i_global": 0.014106671015421623
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.960126539071401,
+  "delta_i_global": 0.014132122198740715
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.960126539071401,
+  "delta_i_global": 0.014132122198740715
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.9600442051887512,
+  "delta_i_global": 0.014049788316090939
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.9600442051887512,
+  "delta_i_global": 0.014049788316090939
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.9600647489229838,
+  "delta_i_global": 0.014070332050323486
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.9459944168726603,
+  "dice_cf_i": 0.9600647489229838,
+  "delta_i_global": 0.014070332050323486
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.8315674066543579,
+  "delta_i_global": 0.8108316970368227
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.8316149711608887,
+  "delta_i_global": 0.8108792615433534
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.7050227125485738,
+  "delta_i_global": 0.6842870029310386
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.7053534189860026,
+  "delta_i_global": 0.6846177093684673
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.8315674066543579,
+  "delta_i_global": 0.8108316970368227
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.8316149711608887,
+  "delta_i_global": 0.8108792615433534
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.7050227125485738,
+  "delta_i_global": 0.6842870029310386
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.020735709617535274,
+  "dice_cf_i": 0.7053534189860026,
+  "delta_i_global": 0.6846177093684673
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.8315674066543579,
+  "delta_i_global": 0.5101710312689345
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.8318376739819845,
+  "delta_i_global": 0.510441298596561
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.7789036631584167,
+  "delta_i_global": 0.45750728777299327
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.7791356841723124,
+  "delta_i_global": 0.4577393087868889
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.8315674066543579,
+  "delta_i_global": 0.5101710312689345
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.8318376739819845,
+  "delta_i_global": 0.510441298596561
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.7789036631584167,
+  "delta_i_global": 0.45750728777299327
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.3213963753854235,
+  "dice_cf_i": 0.7791356841723124,
+  "delta_i_global": 0.4577393087868889
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.8315674066543579,
+  "delta_i_global": 0.08774514993031823
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.8316136797269186,
+  "delta_i_global": 0.0877914230028789
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.8111364444096884,
+  "delta_i_global": 0.06731418768564867
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.811238169670105,
+  "delta_i_global": 0.0674159129460653
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.8315674066543579,
+  "delta_i_global": 0.08774514993031823
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.8316136797269186,
+  "delta_i_global": 0.0877914230028789
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.8111364444096884,
+  "delta_i_global": 0.06731418768564867
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.7438222567240397,
+  "dice_cf_i": 0.811238169670105,
+  "delta_i_global": 0.0674159129460653
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.970675011475881,
+  "delta_i_global": 0.03100285927454638
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.9706544677416483,
+  "delta_i_global": 0.03098231554031372
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.9671958287556967,
+  "delta_i_global": 0.027523676554362053
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.9671491384506226,
+  "delta_i_global": 0.02747698624928796
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.970675011475881,
+  "delta_i_global": 0.03100285927454638
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.9706544677416483,
+  "delta_i_global": 0.03098231554031372
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.9671958287556967,
+  "delta_i_global": 0.027523676554362053
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.9396721522013346,
+  "dice_cf_i": 0.9671491384506226,
+  "delta_i_global": 0.02747698624928796
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.970675011475881,
+  "delta_i_global": 0.02333368857701623
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.9706901907920837,
+  "delta_i_global": 0.023348867893218994
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.9685193101565043,
+  "delta_i_global": 0.02117798725763953
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.9685054024060568,
+  "delta_i_global": 0.021164079507192013
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.970675011475881,
+  "delta_i_global": 0.02333368857701623
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.9706901907920837,
+  "delta_i_global": 0.023348867893218994
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.9685193101565043,
+  "delta_i_global": 0.02117798725763953
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.9473413228988647,
+  "dice_cf_i": 0.9685054024060568,
+  "delta_i_global": 0.021164079507192013
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.970675011475881,
+  "delta_i_global": 0.022370239098866818
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.9706261356671652,
+  "delta_i_global": 0.022321363290150997
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.968546450138092,
+  "delta_i_global": 0.02024167776107788
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.9685102502504984,
+  "delta_i_global": 0.020205477873484257
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.970675011475881,
+  "delta_i_global": 0.022370239098866818
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.9706261356671652,
+  "delta_i_global": 0.022321363290150997
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.968546450138092,
+  "delta_i_global": 0.02024167776107788
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.9483047723770142,
+  "dice_cf_i": 0.9685102502504984,
+  "delta_i_global": 0.020205477873484257
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.9484189748764038,
+  "dice_cf_i": 0.9639512101809183,
+  "delta_i_global": 0.01553223530451453
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.9484189748764038,
+  "dice_cf_i": 0.9639487663904825,
+  "delta_i_global": 0.015529791514078739
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.9573894540468851,
+  "dice_cf_i": 0.9639552235603333,
+  "delta_i_global": 0.0065657695134481164
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.9573894540468851,
+  "dice_cf_i": 0.9639527797698975,
+  "delta_i_global": 0.006563325723012325
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.9151454965273539,
+  "dice_cf_i": 0.9639299114545187,
+  "delta_i_global": 0.04878441492716479
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.9151454965273539,
+  "dice_cf_i": 0.9639225800832113,
+  "delta_i_global": 0.048777083555857415
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.9544118444124857,
+  "delta_i_global": 0.022654175758361816
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.9544033805529276,
+  "delta_i_global": 0.02264571189880371
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.9522969524065653,
+  "delta_i_global": 0.020539283752441406
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.9522969524065653,
+  "delta_i_global": 0.020539283752441406
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.9545453985532125,
+  "delta_i_global": 0.022787729899088616
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.9545453985532125,
+  "delta_i_global": 0.022787729899088616
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.952358067035675,
+  "delta_i_global": 0.020600398381551144
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.9317576686541239,
+  "dice_cf_i": 0.952358067035675,
+  "delta_i_global": 0.020600398381551144
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9544118444124857,
+  "delta_i_global": 0.01189831892649329
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9544000029563904,
+  "delta_i_global": 0.01188647747039795
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9534706672032675,
+  "delta_i_global": 0.01095714171727502
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9534706672032675,
+  "delta_i_global": 0.01095714171727502
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9545680085817972,
+  "delta_i_global": 0.012054483095804813
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9545680085817972,
+  "delta_i_global": 0.012054483095804813
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9535505970319113,
+  "delta_i_global": 0.01103707154591882
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.9425135254859924,
+  "dice_cf_i": 0.9535505970319113,
+  "delta_i_global": 0.01103707154591882
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9544118444124857,
+  "delta_i_global": 0.032618145147959354
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9544186194737753,
+  "delta_i_global": 0.0326249202092489
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9527294238408407,
+  "delta_i_global": 0.030935724576314327
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9527310927708944,
+  "delta_i_global": 0.03093739350636804
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9544673959414164,
+  "delta_i_global": 0.03267369667689002
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9544724822044373,
+  "delta_i_global": 0.03267878293991089
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9527551333109537,
+  "delta_i_global": 0.030961434046427372
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.9217936992645264,
+  "dice_cf_i": 0.9527551333109537,
+  "delta_i_global": 0.030961434046427372
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 0,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.9573368231455485,
+  "delta_i_global": 0.01947297652562452
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 1,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.9573368231455485,
+  "delta_i_global": 0.01947297652562452
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 2,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.957453449567159,
+  "delta_i_global": 0.019589602947235107
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 3,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.957453449567159,
+  "delta_i_global": 0.019589602947235107
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 4,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.9560978213946024,
+  "delta_i_global": 0.018233974774678474
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 5,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.9560978213946024,
+  "delta_i_global": 0.018233974774678474
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 6,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.9560213685035706,
+  "delta_i_global": 0.01815752188364661
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 7,
+  "family": "T1_rank",
+  "dice_deg": 0.937863846619924,
+  "dice_cf_i": 0.9560213685035706,
+  "delta_i_global": 0.01815752188364661
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 0,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9573368231455485,
+  "delta_i_global": 0.00712033112843824
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 1,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9573368231455485,
+  "delta_i_global": 0.00712033112843824
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 2,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9574188590049744,
+  "delta_i_global": 0.007202366987864139
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 3,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9574188590049744,
+  "delta_i_global": 0.007202366987864139
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 4,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9570099115371704,
+  "delta_i_global": 0.006793419520060184
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 5,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9570099115371704,
+  "delta_i_global": 0.006793419520060184
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 6,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9569564461708069,
+  "delta_i_global": 0.006739954153696659
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 7,
+  "family": "T4_spectral",
+  "dice_deg": 0.9502164920171102,
+  "dice_cf_i": 0.9569564461708069,
+  "delta_i_global": 0.006739954153696659
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 0,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9573368231455485,
+  "delta_i_global": 0.03707915544509888
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 1,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9573368231455485,
+  "delta_i_global": 0.03707915544509888
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 2,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9571371475855509,
+  "delta_i_global": 0.03687947988510132
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 3,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9571372270584106,
+  "delta_i_global": 0.036879559357961056
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 4,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9547390739123026,
+  "delta_i_global": 0.03448140621185303
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 5,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9547390739123026,
+  "delta_i_global": 0.03448140621185303
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 6,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9543166756629944,
+  "delta_i_global": 0.034059007962544796
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "window_id": 7,
+  "family": "T5_smooth",
+  "dice_deg": 0.9202576677004496,
+  "dice_cf_i": 0.9543166756629944,
+  "delta_i_global": 0.034059007962544796
+ }
+]

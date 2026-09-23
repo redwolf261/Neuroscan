@@ -1,0 +1,43 @@
+Device: cuda
+Loaded D4-only checkpoint: best_val_dice=0.9095618277788162
+Validation set size: 125
+Sampled 6 balanced partitions (|A|=|B|=4):
+  A=[0, 3, 4, 7] B=[1, 2, 5, 6]
+  A=[2, 3, 6, 7] B=[0, 1, 4, 5]
+  A=[1, 2, 3, 5] B=[0, 4, 6, 7]
+  A=[1, 3, 4, 6] B=[0, 2, 5, 7]
+  A=[1, 2, 6, 7] B=[0, 3, 4, 5]
+  A=[0, 1, 2, 7] B=[3, 4, 5, 6]
+
+[Sanity check] subset=all 8 groups vs real forward: max abs diff = 0.000000e+00
+[Sanity check] PASS.
+
+  processed 25/125 subjects
+  processed 50/125 subjects
+  processed 75/125 subjects
+  processed 100/125 subjects
+  processed 125/125 subjects
+
+Saved 125 subject records.
+
+=== E60 DBC Feasibility (Gamma via balanced partitions): n=125 subjects ===
+Mean Gamma overall: -0.02224 (std=0.05975)
+Spearman(native_size, mean_Gamma) = -0.2872 (parametric p=1.1653e-03, permutation p=0.0010)
+(Note: Gamma uses LOSS, not -loss/utility, so the EXPECTED sign is OPPOSITE E59's own I_ij: 
+ positive synergy for small lesions in loss terms means Gamma should be NEGATIVE for small,
+ i.e. rho should be POSITIVE here if E59's phenomenon reproduces under this sign convention.
+ This is checked explicitly below, not assumed.)
+
+Median native_size: 90377
+SMALL lesions (n=62): mean Gamma = -0.00615, t=-0.632 p=0.5300
+LARGE lesions (n=63): mean Gamma = -0.03809, t=-10.028 p=0.0000
+
+Small-lesion Gamma significantly NEGATIVE: False
+Small-lesion Gamma significantly POSITIVE: False
+(Whichever of these is true AND differs systematically from the large-lesion group
+ is evidence the phenomenon reproduces under DBC's own balanced-partition formulation --
+ the specific sign just depends on the loss-vs-utility convention, checked here explicitly.)
+
+=== VERDICT: DBC_KILLED_PHENOMENON_DOES_NOT_REPRODUCE ===
+
+Saved E60_summary.json

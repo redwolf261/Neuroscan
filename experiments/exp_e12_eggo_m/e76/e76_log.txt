@@ -1,0 +1,47 @@
+Device: cuda
+[Sanity check] Direction preservation verified numerically for all alphas (max diff < 1e-5). PASS.
+
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 subject records.
+
+--- (a) Intact (no translation) Dice across alpha -- operating-regime check ---
+  alpha=0.7: mean D_intact = 0.8921
+  alpha=0.8: mean D_intact = 0.8976
+  alpha=0.9: mean D_intact = 0.9007
+  alpha=1.0: mean D_intact = 0.9023
+  alpha=1.1: mean D_intact = 0.9020
+  alpha=1.2: mean D_intact = 0.9008
+  alpha=1.3: mean D_intact = 0.8990
+
+  Max deviation from alpha=1.0's D_intact: 0.0101 (threshold: <=0.02 per alpha)
+  Operating-regime stability: PASS
+
+--- (b) Translation-induced Dice drop S(alpha) across the narrow range ---
+  alpha=0.7: mean S = 0.2772 (std 0.1022)
+  alpha=0.8: mean S = 0.2925 (std 0.1040)
+  alpha=0.9: mean S = 0.3057 (std 0.1045)
+  alpha=1.0: mean S = 0.3174 (std 0.1045)
+  alpha=1.1: mean S = 0.3268 (std 0.1035)
+  alpha=1.2: mean S = 0.3356 (std 0.1031)
+  alpha=1.3: mean S = 0.3436 (std 0.1030)
+
+  Monotonic (non-decreasing): True
+  Strictly monotonic: True
+
+  Local slope dS/dalpha near alpha=1 (S(1.10)-S(0.90)): +0.0211
+  paired t-test: t=20.605, p=7.3948e-42
+  Wilcoxon: p=1.5470e-21
+
+=== E76 VERDICT ===
+  (a) Operating-regime stable: True
+  (b) S(alpha) monotonic: True, local slope positive & significant: True
+  OVERALL: PASS -- clean local relationship in the natural operating regime
+
+Saved E76_enc1_operating_regime_summary.json

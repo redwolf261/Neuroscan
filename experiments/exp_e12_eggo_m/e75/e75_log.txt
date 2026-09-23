@@ -1,0 +1,60 @@
+Device: cuda
+[Sanity check] Direction preservation verified numerically for all alphas (max diff < 1e-5). PASS.
+
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved subject records for both loci.
+
+
+==================== LOCUS: enc1 ====================
+
+--- (a) Confound check: intact-but-rescaled Dice, no translation ---
+  alpha=0.25: mean Dice = 0.7727
+  alpha=0.5: mean Dice = 0.8696
+  alpha=1.0: mean Dice = 0.9023
+  alpha=2.0: mean Dice = 0.8673
+
+--- (b) MAIN TEST: translation-induced Dice drop S(alpha) ---
+  alpha=0.25: mean S = 0.2036 (std 0.0860)
+  alpha=0.5: mean S = 0.2424 (std 0.0956)
+  alpha=1.0: mean S = 0.3174 (std 0.1045)
+  alpha=2.0: mean S = 0.3721 (std 0.0909)
+
+  Monotonic (mean S increases with alpha): True
+  S(2.0) vs S(1.0): paired t p=3.0263e-25, Wilcoxon p=3.2356e-17, mean diff=+0.0548
+  S(1.0) vs S(0.25): paired t p=9.1937e-35, Wilcoxon p=1.9151e-21, mean diff=+0.1138
+  S(2.0) vs S(0.25): paired t p=4.9630e-49, Wilcoxon p=4.5743e-22, mean diff=+0.1686
+
+  LOCUS VERDICT: PASS
+
+==================== LOCUS: bottleneck ====================
+
+--- (a) Confound check: intact-but-rescaled Dice, no translation ---
+  alpha=0.25: mean Dice = 0.8283
+  alpha=0.5: mean Dice = 0.8901
+  alpha=1.0: mean Dice = 0.9023
+  alpha=2.0: mean Dice = 0.8804
+
+--- (b) MAIN TEST: translation-induced Dice drop S(alpha) ---
+  alpha=0.25: mean S = 0.2134 (std 0.1481)
+  alpha=0.5: mean S = 0.2467 (std 0.1895)
+  alpha=1.0: mean S = 0.2105 (std 0.1884)
+  alpha=2.0: mean S = 0.1250 (std 0.1647)
+
+  Monotonic (mean S increases with alpha): False
+  S(2.0) vs S(1.0): paired t p=1.7459e-15, Wilcoxon p=2.6200e-17, mean diff=-0.0856
+  S(1.0) vs S(0.25): paired t p=7.9520e-01, Wilcoxon p=1.9457e-03, mean diff=-0.0029
+  S(2.0) vs S(0.25): paired t p=7.8527e-10, Wilcoxon p=2.0748e-11, mean diff=-0.0884
+
+  LOCUS VERDICT: FAIL
+
+==================================================
+=== OVERALL E75 VERDICT: FAIL -- magnitude is NOT confirmed causal at both loci; do not design a decoupling intervention on this basis alone ===
+
+Saved E75_magnitude_causality_summary.json

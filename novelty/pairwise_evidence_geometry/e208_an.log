@@ -1,0 +1,42 @@
+rows=394  pops={'L': 58, 'S': 118, 'H': 218}  subjects=107
+
+========================================================================================
+DELTA_E (shell shift after hypothesis insertion) by population
+========================================================================================
+  L: median=+4.4879  mean=+7.8111  n(>0)=48/58
+  S: median=+0.1109  mean=+1.7535  n(>0)=88/118
+  H: median=-0.1632  mean=+0.1576  n(>0)=84/218
+
+  Mann-Whitney L vs H: p=1.407e-13   L vs S: p=6.870e-07
+
+========================================================================================
+REACTIVITY (E107 flatness check) by population
+========================================================================================
+  L: median=4.3558  mean=8.2879
+  S: median=1.9753  mean=7.6716
+  H: median=0.9902  mean=2.8260
+
+  Mann-Whitney reactivity L vs H: p=4.306e-10   L vs S: p=5.195e-02
+  median reactivity L / median reactivity S = 2.2051
+  (E107 reference: FN/TP logit-space ratio was 8.75/20.53 = 0.426)
+
+========================================================================================
+DECISIVE: does Delta_E survive controlling for reactivity? (L vs H)
+========================================================================================
+  raw corr(delta_E, label)        r=+0.4179  p=4.287e-13
+  partial corr | reactivity       r=+0.2970  p=4.996e-07   SURVIVES
+
+========================================================================================
+PERMUTATION CONTROL (subject-preserving, 200 iters) on Delta_E, L vs H
+========================================================================================
+  observed median(delta_E_L)-median(delta_E_H) = +4.6511   perm p = 0.0000
+
+========================================================================================
+VERDICT
+========================================================================================
+  Delta_E discriminates L from H (raw)         : True
+  Delta_E discriminates L from H (permutation) : True
+  Delta_E survives reactivity control           : True
+  E107 flatness reproduces (L reactivity << S)  : False
+
+  ==> PASS -- Delta_E is a real, reactivity-independent discriminator.

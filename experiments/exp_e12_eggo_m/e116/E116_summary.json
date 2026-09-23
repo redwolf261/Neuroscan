@@ -1,0 +1,20 @@
+{
+  "checkpoint_lineage": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "checkpoint_val_dice": 0.9101624600589275,
+  "per_stage_strat_means": {
+    "real_pool3": {
+      "small_mean": 0.5975266247987747,
+      "large_mean": 0.7441980056464672
+    },
+    "soft_pool3": {
+      "small_mean": 0.6122499257326126,
+      "large_mean": 0.7241497486829758
+    }
+  },
+  "small_gain": 0.01472330093383789,
+  "small_gain_p": 0.816,
+  "large_gain": -0.02004825696349144,
+  "large_gain_p": 0.486,
+  "decision": "FAIL_NO_MEANINGFUL_GAIN",
+  "detail": "No meaningful, size-specific small-lesion decodability gain from replacing MaxPool3d with a simple magnitude-weighted soft pooling alternative at this exact site. Per this project's own zero-cost-kill precedent (E60), this specific alternative should be killed here -- do not proceed to a trainable/causally-conditioned version without first understanding WHY this simplest alternative failed to help."
+}

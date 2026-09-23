@@ -1,0 +1,40 @@
+{
+  "q1_cross_sectional_per_checkpoint": {
+    "epoch_1.pth": {
+      "rho": -0.009062980030721965,
+      "p": 0.9200971973218275
+    },
+    "epoch_5.pth": {
+      "rho": 0.06521658986175113,
+      "p": 0.469932925145647
+    },
+    "epoch_10.pth": {
+      "rho": 0.08570814132104453,
+      "p": 0.34192452936723705
+    },
+    "epoch_15.pth": {
+      "rho": -0.03899231950844854,
+      "p": 0.6659362240718774
+    },
+    "epoch_20.pth": {
+      "rho": 0.10854070660522272,
+      "p": 0.22824425746718563
+    },
+    "epoch_25.pth": {
+      "rho": 0.03910291858678955,
+      "p": 0.6650456517758563
+    },
+    "epoch_30.pth": {
+      "rho": 0.04866973886328724,
+      "p": 0.5898888101875122
+    }
+  },
+  "q2_n_pairs": 750,
+  "q2_rho_delta_N_delta_A": 0.23399791288517843,
+  "q2_p_parametric": 8.704635608943482e-11,
+  "q2_p_permutation": 0.0,
+  "q3_rho_Ab_vs_subsequent_dice_gain": -0.09629592230386186,
+  "q3_p": 0.008317338246561647,
+  "a_b_construct_validity": "QUESTIONABLE",
+  "case": "CASE_1_DYNAMIC_TRACKING_DESPITE_STATIC_NULL"
+}

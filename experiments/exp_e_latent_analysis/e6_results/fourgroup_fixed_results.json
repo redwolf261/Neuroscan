@@ -1,0 +1,27 @@
+{
+  "tau_rho": 0.7805767780386254,
+  "groups": {
+    "correct_dense": {
+      "n": 57980,
+      "mean_evidence": 19.88089079549289,
+      "mean_rho": 0.17407608633480964
+    },
+    "correct_sparse": {
+      "n": 1935,
+      "mean_evidence": 17.428139808442857,
+      "mean_rho": 1.8765491541711885
+    },
+    "incorrect_dense": {
+      "n": 4,
+      "mean_evidence": 18.289912700653076,
+      "mean_rho": 0.4158655627558314
+    },
+    "incorrect_sparse": {
+      "n": 81,
+      "mean_evidence": 5.724428995155994,
+      "mean_rho": 2.7708391910005035
+    }
+  },
+  "pct_incorrect_that_are_sparse": 95.29411764705883,
+  "pct_sparse_that_are_correct": 95.98214285714286
+}

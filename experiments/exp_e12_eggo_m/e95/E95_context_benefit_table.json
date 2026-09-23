@@ -1,0 +1,1002 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "N_b": 0.10422587394714355,
+    "dice_full_context": 0.8695810437202454,
+    "dice_reduced_context": 0.8502131104469299,
+    "delta_D_context": 0.01936793327331543
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "N_b": 0.3451806902885437,
+    "dice_full_context": 0.8719615936279297,
+    "dice_reduced_context": 0.41115158796310425,
+    "delta_D_context": 0.46081000566482544
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "N_b": 0.321139395236969,
+    "dice_full_context": 0.8695923089981079,
+    "dice_reduced_context": 0.24169029295444489,
+    "delta_D_context": 0.627902016043663
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "N_b": 0.341431200504303,
+    "dice_full_context": 0.8786524534225464,
+    "dice_reduced_context": 0.737511932849884,
+    "delta_D_context": 0.14114052057266235
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "N_b": 0.12404417991638184,
+    "dice_full_context": 0.8546240329742432,
+    "dice_reduced_context": 0.8651377558708191,
+    "delta_D_context": -0.010513722896575928
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "N_b": 0.32568496465682983,
+    "dice_full_context": 0.8870221972465515,
+    "dice_reduced_context": 0.19219349324703217,
+    "delta_D_context": 0.6948287039995193
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "N_b": 0.10319912433624268,
+    "dice_full_context": 0.8932337164878845,
+    "dice_reduced_context": 0.6555718779563904,
+    "delta_D_context": 0.23766183853149414
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "N_b": 0.5252918899059296,
+    "dice_full_context": 0.8863574862480164,
+    "dice_reduced_context": 0.2666490375995636,
+    "delta_D_context": 0.6197084486484528
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "N_b": 0.31200188398361206,
+    "dice_full_context": 0.9108388423919678,
+    "dice_reduced_context": 0.35707369446754456,
+    "delta_D_context": 0.5537651479244232
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "N_b": 0.15381509065628052,
+    "dice_full_context": 0.8796992301940918,
+    "dice_reduced_context": 0.8000090718269348,
+    "delta_D_context": 0.07969015836715698
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "N_b": 0.1466793417930603,
+    "dice_full_context": 0.8519754409790039,
+    "dice_reduced_context": 0.6369071006774902,
+    "delta_D_context": 0.21506834030151367
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "N_b": 0.21125119924545288,
+    "dice_full_context": 0.889483630657196,
+    "dice_reduced_context": 0.652368426322937,
+    "delta_D_context": 0.23711520433425903
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "N_b": 0.21876811981201172,
+    "dice_full_context": 0.6835680603981018,
+    "dice_reduced_context": 0.5369664430618286,
+    "delta_D_context": 0.1466016173362732
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "N_b": 0.569023534655571,
+    "dice_full_context": 0.613614559173584,
+    "dice_reduced_context": 0.44544118642807007,
+    "delta_D_context": 0.16817337274551392
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "N_b": 0.4077543020248413,
+    "dice_full_context": 0.8435722589492798,
+    "dice_reduced_context": 0.8897011280059814,
+    "delta_D_context": -0.04612886905670166
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "N_b": 0.6175595819950104,
+    "dice_full_context": 0.8799999952316284,
+    "dice_reduced_context": 0.1405775099992752,
+    "delta_D_context": 0.7394224852323532
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "N_b": 0.30774861574172974,
+    "dice_full_context": 0.8876287341117859,
+    "dice_reduced_context": 0.75016850233078,
+    "delta_D_context": 0.13746023178100586
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "N_b": 0.05951815843582153,
+    "dice_full_context": 0.8829109072685242,
+    "dice_reduced_context": 0.7621383666992188,
+    "delta_D_context": 0.12077254056930542
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "N_b": 0.3078410029411316,
+    "dice_full_context": 0.8980230689048767,
+    "dice_reduced_context": 0.620376706123352,
+    "delta_D_context": 0.27764636278152466
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "N_b": 0.3740886449813843,
+    "dice_full_context": 0.8298150897026062,
+    "dice_reduced_context": 0.7769995331764221,
+    "delta_D_context": 0.05281555652618408
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "N_b": 0.2672809958457947,
+    "dice_full_context": 0.8182682991027832,
+    "dice_reduced_context": 0.339483380317688,
+    "delta_D_context": 0.4787849187850952
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "N_b": 0.5279592573642731,
+    "dice_full_context": 0.7646065354347229,
+    "dice_reduced_context": 0.585981011390686,
+    "delta_D_context": 0.17862552404403687
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "N_b": 0.23353368043899536,
+    "dice_full_context": 0.7863388061523438,
+    "dice_reduced_context": 0.7454079985618591,
+    "delta_D_context": 0.04093080759048462
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "N_b": 0.12122583389282227,
+    "dice_full_context": 0.829675555229187,
+    "dice_reduced_context": 0.8421662449836731,
+    "delta_D_context": -0.012490689754486084
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "N_b": 0.14374232292175293,
+    "dice_full_context": 0.8789367079734802,
+    "dice_reduced_context": 0.7964053153991699,
+    "delta_D_context": 0.0825313925743103
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "N_b": 0.3271137475967407,
+    "dice_full_context": 0.8672632575035095,
+    "dice_reduced_context": 0.7238917946815491,
+    "delta_D_context": 0.14337146282196045
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "N_b": 0.27389419078826904,
+    "dice_full_context": 0.8504860997200012,
+    "dice_reduced_context": 0.3064316511154175,
+    "delta_D_context": 0.5440544486045837
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "N_b": 0.5520500019192696,
+    "dice_full_context": 0.5753968358039856,
+    "dice_reduced_context": 0.3180621266365051,
+    "delta_D_context": 0.25733470916748047
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "N_b": 0.7286686897277832,
+    "dice_full_context": 0.798828125,
+    "dice_reduced_context": 0.341320276260376,
+    "delta_D_context": 0.457507848739624
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "N_b": 0.46122443675994873,
+    "dice_full_context": 0.9101284146308899,
+    "dice_reduced_context": 0.29734310507774353,
+    "delta_D_context": 0.6127853095531464
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "N_b": 0.16794246435165405,
+    "dice_full_context": 0.6646751165390015,
+    "dice_reduced_context": 0.6247893571853638,
+    "delta_D_context": 0.039885759353637695
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "N_b": 0.3684488534927368,
+    "dice_full_context": 0.8944230079650879,
+    "dice_reduced_context": 0.633162260055542,
+    "delta_D_context": 0.2612607479095459
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "N_b": 0.24922269582748413,
+    "dice_full_context": 0.7168853282928467,
+    "dice_reduced_context": 0.6668873429298401,
+    "delta_D_context": 0.04999798536300659
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "N_b": 0.45127636194229126,
+    "dice_full_context": 0.9041876196861267,
+    "dice_reduced_context": 0.19594301283359528,
+    "delta_D_context": 0.7082446068525314
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "N_b": 0.5627018213272095,
+    "dice_full_context": 0.8721029758453369,
+    "dice_reduced_context": 0.6340207457542419,
+    "delta_D_context": 0.23808223009109497
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "N_b": 0.6343006491661072,
+    "dice_full_context": 0.8747252821922302,
+    "dice_reduced_context": 0.6161354184150696,
+    "delta_D_context": 0.25858986377716064
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "N_b": 0.0430985689163208,
+    "dice_full_context": 0.8739064931869507,
+    "dice_reduced_context": 0.8050410747528076,
+    "delta_D_context": 0.06886541843414307
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "N_b": 0.363497793674469,
+    "dice_full_context": 0.8829421401023865,
+    "dice_reduced_context": 0.8106889128684998,
+    "delta_D_context": 0.07225322723388672
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "N_b": 0.4421892464160919,
+    "dice_full_context": 0.8122560381889343,
+    "dice_reduced_context": 0.587228536605835,
+    "delta_D_context": 0.22502750158309937
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "N_b": 0.4909358024597168,
+    "dice_full_context": 0.8081700205802917,
+    "dice_reduced_context": 0.6500264406204224,
+    "delta_D_context": 0.15814357995986938
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "N_b": 0.5528550446033478,
+    "dice_full_context": 0.8806228637695312,
+    "dice_reduced_context": 0.8217592239379883,
+    "delta_D_context": 0.05886363983154297
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "N_b": 0.34974974393844604,
+    "dice_full_context": 0.8631378412246704,
+    "dice_reduced_context": 0.5562714338302612,
+    "delta_D_context": 0.3068664073944092
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "N_b": 0.1078561544418335,
+    "dice_full_context": 0.8865572214126587,
+    "dice_reduced_context": 0.8101110458374023,
+    "delta_D_context": 0.07644617557525635
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "N_b": 0.47000694274902344,
+    "dice_full_context": 0.9138163924217224,
+    "dice_reduced_context": 0.4007229208946228,
+    "delta_D_context": 0.5130934715270996
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "N_b": 0.307589054107666,
+    "dice_full_context": 0.8971568942070007,
+    "dice_reduced_context": 0.8231440782546997,
+    "delta_D_context": 0.07401281595230103
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "N_b": 0.3385356664657593,
+    "dice_full_context": 0.8407766819000244,
+    "dice_reduced_context": 0.493441641330719,
+    "delta_D_context": 0.3473350405693054
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "N_b": 0.136216938495636,
+    "dice_full_context": 0.8672633171081543,
+    "dice_reduced_context": 0.8257938623428345,
+    "delta_D_context": 0.041469454765319824
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "N_b": 0.18759602308273315,
+    "dice_full_context": 0.9014464616775513,
+    "dice_reduced_context": 0.6311795711517334,
+    "delta_D_context": 0.27026689052581787
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "N_b": 0.28306490182876587,
+    "dice_full_context": 0.81486576795578,
+    "dice_reduced_context": 0.3517167866230011,
+    "delta_D_context": 0.46314898133277893
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "N_b": 0.14729446172714233,
+    "dice_full_context": 0.8853949308395386,
+    "dice_reduced_context": 0.6727892756462097,
+    "delta_D_context": 0.21260565519332886
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "N_b": 0.37944895029067993,
+    "dice_full_context": 0.8781169652938843,
+    "dice_reduced_context": 0.29067596793174744,
+    "delta_D_context": 0.5874409973621368
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "N_b": 0.27256906032562256,
+    "dice_full_context": 0.8952863812446594,
+    "dice_reduced_context": 0.25429975986480713,
+    "delta_D_context": 0.6409866213798523
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "N_b": 0.272976279258728,
+    "dice_full_context": 0.8882032036781311,
+    "dice_reduced_context": 0.4147280156612396,
+    "delta_D_context": 0.4734751880168915
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "N_b": 0.45856767892837524,
+    "dice_full_context": 0.7833894491195679,
+    "dice_reduced_context": 0.5170998573303223,
+    "delta_D_context": 0.2662895917892456
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "N_b": 0.5492144525051117,
+    "dice_full_context": 0.8547389507293701,
+    "dice_reduced_context": 0.25227874517440796,
+    "delta_D_context": 0.6024602055549622
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "N_b": 0.32089799642562866,
+    "dice_full_context": 0.7915809750556946,
+    "dice_reduced_context": 0.7898162603378296,
+    "delta_D_context": 0.0017647147178649902
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "N_b": 0.25843411684036255,
+    "dice_full_context": 0.8161067962646484,
+    "dice_reduced_context": 0.40099796652793884,
+    "delta_D_context": 0.4151088297367096
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "N_b": 0.31362026929855347,
+    "dice_full_context": 0.8683473467826843,
+    "dice_reduced_context": 0.7218015193939209,
+    "delta_D_context": 0.14654582738876343
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "N_b": 0.24982810020446777,
+    "dice_full_context": 0.8210850358009338,
+    "dice_reduced_context": 0.14091673493385315,
+    "delta_D_context": 0.6801683008670807
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "N_b": -0.001693427562713623,
+    "dice_full_context": 0.6405823230743408,
+    "dice_reduced_context": 0.598027765750885,
+    "delta_D_context": 0.04255455732345581
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "N_b": 0.06543076038360596,
+    "dice_full_context": 0.8926570415496826,
+    "dice_reduced_context": 0.8956797122955322,
+    "delta_D_context": -0.0030226707458496094
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "N_b": 0.3007487654685974,
+    "dice_full_context": 0.7759446501731873,
+    "dice_reduced_context": 0.5504561066627502,
+    "delta_D_context": 0.225488543510437
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "N_b": 0.1940709948539734,
+    "dice_full_context": 0.8533868789672852,
+    "dice_reduced_context": 0.5267934203147888,
+    "delta_D_context": 0.32659345865249634
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "N_b": 0.08762556314468384,
+    "dice_full_context": 0.872635543346405,
+    "dice_reduced_context": 0.8402227759361267,
+    "delta_D_context": 0.03241276741027832
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "N_b": 0.43927139043807983,
+    "dice_full_context": 0.8598892092704773,
+    "dice_reduced_context": 0.4574037194252014,
+    "delta_D_context": 0.4024854898452759
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "N_b": 0.32801294326782227,
+    "dice_full_context": 0.8212832808494568,
+    "dice_reduced_context": 0.5916783809661865,
+    "delta_D_context": 0.22960489988327026
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "N_b": 0.46701326966285706,
+    "dice_full_context": 0.8800631165504456,
+    "dice_reduced_context": 0.28190305829048157,
+    "delta_D_context": 0.598160058259964
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "N_b": 0.3642072081565857,
+    "dice_full_context": 0.9000605940818787,
+    "dice_reduced_context": 0.6008914709091187,
+    "delta_D_context": 0.29916912317276
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "N_b": 0.2275141477584839,
+    "dice_full_context": 0.8543090224266052,
+    "dice_reduced_context": 0.799963116645813,
+    "delta_D_context": 0.054345905780792236
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "N_b": 0.05873525142669678,
+    "dice_full_context": 0.9045945405960083,
+    "dice_reduced_context": 0.5577988624572754,
+    "delta_D_context": 0.3467956781387329
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "N_b": 0.48034366965293884,
+    "dice_full_context": 0.8869941830635071,
+    "dice_reduced_context": 0.5843837261199951,
+    "delta_D_context": 0.30261045694351196
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "N_b": 0.31814777851104736,
+    "dice_full_context": 0.8643128871917725,
+    "dice_reduced_context": 0.8168901801109314,
+    "delta_D_context": 0.047422707080841064
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "N_b": 0.34794366359710693,
+    "dice_full_context": 0.8851462602615356,
+    "dice_reduced_context": 0.70018470287323,
+    "delta_D_context": 0.18496155738830566
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "N_b": 0.535283163189888,
+    "dice_full_context": 0.728735625743866,
+    "dice_reduced_context": 0.17662909626960754,
+    "delta_D_context": 0.5521065294742584
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "N_b": 0.2484259307384491,
+    "dice_full_context": 0.4937728941440582,
+    "dice_reduced_context": 0.29672080278396606,
+    "delta_D_context": 0.19705209136009216
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "N_b": 0.050741612911224365,
+    "dice_full_context": 0.862740159034729,
+    "dice_reduced_context": 0.6600968241691589,
+    "delta_D_context": 0.20264333486557007
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "N_b": 0.43380141258239746,
+    "dice_full_context": 0.8990797400474548,
+    "dice_reduced_context": 0.581437349319458,
+    "delta_D_context": 0.3176423907279968
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "N_b": 0.1743839979171753,
+    "dice_full_context": 0.6794592142105103,
+    "dice_reduced_context": 0.6069470047950745,
+    "delta_D_context": 0.07251220941543579
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "N_b": 0.3140462040901184,
+    "dice_full_context": 0.8304781317710876,
+    "dice_reduced_context": 0.4331342279911041,
+    "delta_D_context": 0.3973439037799835
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "N_b": 0.20400726795196533,
+    "dice_full_context": 0.7665244936943054,
+    "dice_reduced_context": 0.5483623147010803,
+    "delta_D_context": 0.2181621789932251
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "N_b": 0.07725298404693604,
+    "dice_full_context": 0.8971639275550842,
+    "dice_reduced_context": 0.8849712014198303,
+    "delta_D_context": 0.012192726135253906
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "N_b": 0.43926048278808594,
+    "dice_full_context": 0.8601603507995605,
+    "dice_reduced_context": 0.3562180995941162,
+    "delta_D_context": 0.5039422512054443
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "N_b": 0.30921584367752075,
+    "dice_full_context": 0.8985409736633301,
+    "dice_reduced_context": 0.16905012726783752,
+    "delta_D_context": 0.7294908463954926
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "N_b": 0.10584133863449097,
+    "dice_full_context": 0.7882611155509949,
+    "dice_reduced_context": 0.44986841082572937,
+    "delta_D_context": 0.3383927047252655
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "N_b": 0.32706332206726074,
+    "dice_full_context": 0.8708399534225464,
+    "dice_reduced_context": 0.5574098229408264,
+    "delta_D_context": 0.31343013048171997
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "N_b": 0.5701857805252075,
+    "dice_full_context": 0.8590278029441833,
+    "dice_reduced_context": 0.2168537974357605,
+    "delta_D_context": 0.6421740055084229
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "N_b": 0.49009114503860474,
+    "dice_full_context": 0.9149960875511169,
+    "dice_reduced_context": 0.36520683765411377,
+    "delta_D_context": 0.5497892498970032
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "N_b": 0.6649463325738907,
+    "dice_full_context": 0.7995701432228088,
+    "dice_reduced_context": 0.28289252519607544,
+    "delta_D_context": 0.5166776180267334
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "N_b": 0.04438990354537964,
+    "dice_full_context": 0.678559422492981,
+    "dice_reduced_context": 0.7473587989807129,
+    "delta_D_context": -0.06879937648773193
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "N_b": 0.5660399198532104,
+    "dice_full_context": 0.8669787645339966,
+    "dice_reduced_context": 0.15483032166957855,
+    "delta_D_context": 0.712148442864418
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "N_b": 0.4331340193748474,
+    "dice_full_context": 0.7624309659004211,
+    "dice_reduced_context": 0.45745187997817993,
+    "delta_D_context": 0.3049790859222412
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "N_b": 0.36193305253982544,
+    "dice_full_context": 0.8917627930641174,
+    "dice_reduced_context": 0.3560396730899811,
+    "delta_D_context": 0.5357231199741364
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "N_b": 0.4858230799436569,
+    "dice_full_context": 0.5099846124649048,
+    "dice_reduced_context": 0.18134959042072296,
+    "delta_D_context": 0.3286350220441818
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "N_b": 0.6751991510391235,
+    "dice_full_context": 0.8167082071304321,
+    "dice_reduced_context": 0.10077900439500809,
+    "delta_D_context": 0.715929202735424
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "N_b": 0.6669115796685219,
+    "dice_full_context": 0.6920821070671082,
+    "dice_reduced_context": 0.5489789843559265,
+    "delta_D_context": 0.14310312271118164
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "N_b": 0.12296634912490845,
+    "dice_full_context": 0.8747648596763611,
+    "dice_reduced_context": 0.6782695055007935,
+    "delta_D_context": 0.19649535417556763
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "N_b": 0.2998659610748291,
+    "dice_full_context": 0.8423361778259277,
+    "dice_reduced_context": 0.24193871021270752,
+    "delta_D_context": 0.6003974676132202
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "N_b": 0.4217899739742279,
+    "dice_full_context": 0.8021120429039001,
+    "dice_reduced_context": 0.4730128347873688,
+    "delta_D_context": 0.32909920811653137
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "N_b": 0.6102218329906464,
+    "dice_full_context": 0.887333333492279,
+    "dice_reduced_context": 0.47312334179878235,
+    "delta_D_context": 0.4142099916934967
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "N_b": 0.18357592821121216,
+    "dice_full_context": 0.9209718704223633,
+    "dice_reduced_context": 0.744831383228302,
+    "delta_D_context": 0.17614048719406128
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "N_b": 0.12093007564544678,
+    "dice_full_context": 0.8935259580612183,
+    "dice_reduced_context": 0.5426815748214722,
+    "delta_D_context": 0.3508443832397461
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "N_b": 0.24424058198928833,
+    "dice_full_context": 0.8648896813392639,
+    "dice_reduced_context": 0.46777164936065674,
+    "delta_D_context": 0.3971180319786072
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "N_b": 0.12650549411773682,
+    "dice_full_context": 0.7761863470077515,
+    "dice_reduced_context": 0.3337571620941162,
+    "delta_D_context": 0.44242918491363525
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "N_b": 0.2567206621170044,
+    "dice_full_context": 0.843571126461029,
+    "dice_reduced_context": 0.5374511480331421,
+    "delta_D_context": 0.30611997842788696
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "N_b": 0.5821599513292313,
+    "dice_full_context": 0.7455853223800659,
+    "dice_reduced_context": 0.35884779691696167,
+    "delta_D_context": 0.38673752546310425
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "N_b": 0.08830559253692627,
+    "dice_full_context": 0.8826053142547607,
+    "dice_reduced_context": 0.8319281339645386,
+    "delta_D_context": 0.05067718029022217
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "N_b": 0.2457171082496643,
+    "dice_full_context": 0.8264243602752686,
+    "dice_reduced_context": 0.6701450347900391,
+    "delta_D_context": 0.1562793254852295
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "N_b": 0.3371696472167969,
+    "dice_full_context": 0.877220869064331,
+    "dice_reduced_context": 0.4993002116680145,
+    "delta_D_context": 0.37792065739631653
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "N_b": 0.33000344038009644,
+    "dice_full_context": 0.6927176117897034,
+    "dice_reduced_context": 0.3435325026512146,
+    "delta_D_context": 0.34918510913848877
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "N_b": 0.21751803159713745,
+    "dice_full_context": 0.7272727489471436,
+    "dice_reduced_context": 0.5750417113304138,
+    "delta_D_context": 0.15223103761672974
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "N_b": 0.25600743293762207,
+    "dice_full_context": 0.8632440567016602,
+    "dice_reduced_context": 0.8087950348854065,
+    "delta_D_context": 0.05444902181625366
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "N_b": 0.25095486640930176,
+    "dice_full_context": 0.8244831562042236,
+    "dice_reduced_context": 0.6821311116218567,
+    "delta_D_context": 0.14235204458236694
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "N_b": 0.7926241233944893,
+    "dice_full_context": 0.7618110179901123,
+    "dice_reduced_context": 0.20364616811275482,
+    "delta_D_context": 0.5581648498773575
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "N_b": 0.37170177698135376,
+    "dice_full_context": 0.8592180013656616,
+    "dice_reduced_context": 0.7991634607315063,
+    "delta_D_context": 0.06005454063415527
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "N_b": 0.3374035358428955,
+    "dice_full_context": 0.8955739140510559,
+    "dice_reduced_context": 0.6717973947525024,
+    "delta_D_context": 0.22377651929855347
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "N_b": 0.35925155878067017,
+    "dice_full_context": 0.910844087600708,
+    "dice_reduced_context": 0.721961498260498,
+    "delta_D_context": 0.18888258934020996
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "N_b": -0.13214129209518433,
+    "dice_full_context": 0.676149845123291,
+    "dice_reduced_context": 0.09344517439603806,
+    "delta_D_context": 0.582704670727253
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "N_b": 0.44179221987724304,
+    "dice_full_context": 0.8657569289207458,
+    "dice_reduced_context": 0.5449028015136719,
+    "delta_D_context": 0.320854127407074
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "N_b": 0.39462804794311523,
+    "dice_full_context": 0.854750394821167,
+    "dice_reduced_context": 0.6778851747512817,
+    "delta_D_context": 0.17686522006988525
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "N_b": 0.09709739685058594,
+    "dice_full_context": 0.8862053155899048,
+    "dice_reduced_context": 0.6791796684265137,
+    "delta_D_context": 0.2070256471633911
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "N_b": 0.30039355158805847,
+    "dice_full_context": 0.7278420329093933,
+    "dice_reduced_context": 0.43829211592674255,
+    "delta_D_context": 0.28954991698265076
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "N_b": 0.10411930084228516,
+    "dice_full_context": 0.8824273347854614,
+    "dice_reduced_context": 0.7464855313301086,
+    "delta_D_context": 0.13594180345535278
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "N_b": 0.37886935472488403,
+    "dice_full_context": 0.8163425922393799,
+    "dice_reduced_context": 0.36476555466651917,
+    "delta_D_context": 0.4515770375728607
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "N_b": 0.5708436369895935,
+    "dice_full_context": 0.7432525753974915,
+    "dice_reduced_context": 0.5646588206291199,
+    "delta_D_context": 0.17859375476837158
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "N_b": 0.24749428033828735,
+    "dice_full_context": 0.8622713088989258,
+    "dice_reduced_context": 0.231413796544075,
+    "delta_D_context": 0.6308575123548508
+  }
+]

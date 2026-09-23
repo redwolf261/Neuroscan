@@ -1,0 +1,38 @@
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 directional-sweep records, 125 local-swap records.
+
+=== PART 1: Directional sweep (magnitude 3, all directions) ===
+  +x: mean S = 0.1924 (std 0.0759)
+  -x: mean S = 0.2040 (std 0.0754)
+  +y: mean S = 0.1545 (std 0.0633)
+  -y: mean S = 0.1487 (std 0.0614)
+  +z: mean S = 0.1138 (std 0.0448)
+  -z: mean S = 0.1175 (std 0.0496)
+  +xyz_diag: mean S = 0.2134 (std 0.0860)
+
+  Axis-aligned mean: 0.1552, range: 0.0902 (meaningfully anisotropic)
+  Diagonal offset (same-magnitude-per-axis, larger Euclidean distance): 0.2134
+
+  Magnitude sweep (+x axis only):
+    magnitude=1: mean S = 0.0749
+    magnitude=2: mean S = 0.1477
+    magnitude=3: mean S = 0.1924
+    magnitude=4: mean S = 0.2169
+    magnitude=5: mean S = 0.2387
+
+=== PART 2: Local donor swap probe ===
+  radius=1: mean S = 0.0000 (std 0.0003, n=125 subjects)
+  radius=2: mean S = 0.0000 (std 0.0007, n=125 subjects)
+  radius=3: mean S = 0.0001 (std 0.0006, n=125 subjects)
+
+LOCAL EQUIVALENCE: even the closest (radius=1) donor swap causes near-zero damage -- neighboring directions are largely interchangeable at short range. A soft local-correspondence mechanism could plausibly exploit this.
+
+Saved E82_local_donor_summary.json

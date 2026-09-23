@@ -1,0 +1,6 @@
+E196 endogenous hypothesis feasibility, 125 subjects
+Pass 1: building detected-lesion bottleneck prototype bank...
+  bank size = 49 S-component prototypes from 49 subjects
+  125/125 subj, 592 rows (268s)
+
+wrote E196_endogenous.csv (592 rows) conds={'prototype': 296, 'random': 296}  268s

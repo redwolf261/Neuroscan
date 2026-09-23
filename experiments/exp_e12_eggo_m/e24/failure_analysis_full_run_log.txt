@@ -1,0 +1,76 @@
+
+######################################################################
+# Failure analysis: condition A (objective=baseline)
+######################################################################
+
+=== Checkpoint epoch 5 ===
+  epoch 5: 8 subject records
+
+=== Checkpoint epoch 10 ===
+  epoch 10: 8 subject records
+
+=== Checkpoint epoch 15 ===
+  epoch 15: 8 subject records
+
+=== Checkpoint epoch 20 ===
+  epoch 20: 8 subject records
+
+=== Checkpoint epoch 25 ===
+  epoch 25: 8 subject records
+
+=== Checkpoint epoch 30 ===
+  epoch 30: 8 subject records
+
+Saved 48 records to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\failure_analysis_results\failure_analysis_A.json
+
+######################################################################
+# Failure analysis: condition B (objective=task_aligned)
+######################################################################
+
+=== Checkpoint epoch 5 ===
+  epoch 5: 8 subject records
+
+=== Checkpoint epoch 10 ===
+  epoch 10: 8 subject records
+
+=== Checkpoint epoch 15 ===
+  epoch 15: 8 subject records
+
+=== Checkpoint epoch 20 ===
+  epoch 20: 8 subject records
+
+=== Checkpoint epoch 25 ===
+  epoch 25: 8 subject records
+
+=== Checkpoint epoch 30 ===
+  epoch 30: 8 subject records
+
+Saved 48 records to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\failure_analysis_results\failure_analysis_B.json
+
+######################################################################
+# Failure analysis: condition E (objective=random_projection)
+######################################################################
+
+=== Checkpoint epoch 5 ===
+  epoch 5: 8 subject records
+
+=== Checkpoint epoch 10 ===
+  epoch 10: 8 subject records
+
+=== Checkpoint epoch 15 ===
+  epoch 15: 8 subject records
+
+=== Checkpoint epoch 20 ===
+  epoch 20: 8 subject records
+
+=== Checkpoint epoch 25 ===
+  epoch 25: 8 subject records
+
+=== Checkpoint epoch 30 ===
+  epoch 30: 8 subject records
+
+Saved 48 records to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\failure_analysis_results\failure_analysis_E.json
+
+======================================================================
+FAILURE-MECHANISM ANALYSIS: ALL CONDITIONS COMPLETE
+======================================================================

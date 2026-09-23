@@ -1,0 +1,47 @@
+{
+  "multivariate_evidence": {
+    "coefficients": {
+      "image_boundary_dist": -0.029290102961328775,
+      "latent_boundary_dist": 0.3179888173442503,
+      "density_rho": -0.08085603541101202,
+      "feature_norm": -0.18782824462346911
+    },
+    "r2": 0.15607471990351673
+  },
+  "multivariate_error": {
+    "coefficients": {
+      "image_boundary_dist": -16.945135682353413,
+      "latent_boundary_dist": 0.7353058898754085,
+      "density_rho": 0.7961608383992009,
+      "feature_norm": -0.701231575310461
+    }
+  },
+  "four_group_breakdown": {
+    "correct_dense": {
+      "n": 30000,
+      "mean_evidence": 19.16954301363627,
+      "mean_rho": 0.06984327368037935
+    },
+    "correct_sparse": {
+      "n": 29915,
+      "mean_evidence": 20.43560783696896,
+      "mean_rho": 0.38872658828688395
+    },
+    "incorrect_dense": {
+      "n": 0,
+      "mean_evidence": NaN,
+      "mean_rho": NaN
+    },
+    "incorrect_sparse": {
+      "n": 85,
+      "mean_evidence": 6.31574587541468,
+      "mean_rho": 2.660016902612519
+    }
+  },
+  "exceptions": {
+    "sparse_but_correct": 5918,
+    "dense_but_incorrect": 0,
+    "near_boundary_high_evidence": 49,
+    "far_boundary_low_evidence": 580
+  }
+}

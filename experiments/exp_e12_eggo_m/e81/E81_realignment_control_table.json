@@ -1,0 +1,1252 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "D_intact": 0.9397774934768677,
+    "D_unrealigned": 0.48056671023368835,
+    "S_unrealigned": 0.4592107832431793,
+    "D_realigned": 0.9366264343261719,
+    "S_realigned": 0.0031510591506958008,
+    "equivariance_error": 0.0003168185648974031,
+    "baseline_scale": 0.01028754934668541
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "D_intact": 0.9270479083061218,
+    "D_unrealigned": 0.5580378174781799,
+    "S_unrealigned": 0.3690100908279419,
+    "D_realigned": 0.9145445823669434,
+    "S_realigned": 0.012503325939178467,
+    "equivariance_error": 0.0008825685363262892,
+    "baseline_scale": 0.01128305122256279
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "D_intact": 0.943503737449646,
+    "D_unrealigned": 0.5818527936935425,
+    "S_unrealigned": 0.3616509437561035,
+    "D_realigned": 0.9397208094596863,
+    "S_realigned": 0.003782927989959717,
+    "equivariance_error": 0.0005233628326095641,
+    "baseline_scale": 0.00955401360988617
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "D_intact": 0.9510692358016968,
+    "D_unrealigned": 0.4743637144565582,
+    "S_unrealigned": 0.47670552134513855,
+    "D_realigned": 0.9317594766616821,
+    "S_realigned": 0.01930975914001465,
+    "equivariance_error": 0.00037815861287526786,
+    "baseline_scale": 0.005646527279168367
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "D_intact": 0.9180092811584473,
+    "D_unrealigned": 0.5691347122192383,
+    "S_unrealigned": 0.348874568939209,
+    "D_realigned": 0.9127564430236816,
+    "S_realigned": 0.005252838134765625,
+    "equivariance_error": 0.0004188829625491053,
+    "baseline_scale": 0.008703124709427357
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "D_intact": 0.8734793066978455,
+    "D_unrealigned": 0.5609756112098694,
+    "S_unrealigned": 0.3125036954879761,
+    "D_realigned": 0.8717479705810547,
+    "S_realigned": 0.0017313361167907715,
+    "equivariance_error": 0.0012050662189722061,
+    "baseline_scale": 0.015634845942258835
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "D_intact": 0.9653569459915161,
+    "D_unrealigned": 0.588381290435791,
+    "S_unrealigned": 0.3769756555557251,
+    "D_realigned": 0.9340101480484009,
+    "S_realigned": 0.031346797943115234,
+    "equivariance_error": 0.0018486978951841593,
+    "baseline_scale": 0.01519485842436552
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "D_intact": 0.9505599737167358,
+    "D_unrealigned": 0.528893768787384,
+    "S_unrealigned": 0.4216662049293518,
+    "D_realigned": 0.9323059916496277,
+    "S_realigned": 0.018253982067108154,
+    "equivariance_error": 0.0005088922916911542,
+    "baseline_scale": 0.006991364527493715
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "D_intact": 0.9515911340713501,
+    "D_unrealigned": 0.5330473780632019,
+    "S_unrealigned": 0.4185437560081482,
+    "D_realigned": 0.958471417427063,
+    "S_realigned": -0.006880283355712891,
+    "equivariance_error": 0.0007536292541772127,
+    "baseline_scale": 0.009333808906376362
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "D_intact": 0.9538599252700806,
+    "D_unrealigned": 0.6051957011222839,
+    "S_unrealigned": 0.34866422414779663,
+    "D_realigned": 0.9423570036888123,
+    "S_realigned": 0.01150292158126831,
+    "equivariance_error": 0.000898118712939322,
+    "baseline_scale": 0.014311297796666622
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "D_intact": 0.948175311088562,
+    "D_unrealigned": 0.5825785398483276,
+    "S_unrealigned": 0.3655967712402344,
+    "D_realigned": 0.9073017835617065,
+    "S_realigned": 0.04087352752685547,
+    "equivariance_error": 0.0022843193728476763,
+    "baseline_scale": 0.016411149874329567
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "D_intact": 0.9570469856262207,
+    "D_unrealigned": 0.6337262988090515,
+    "S_unrealigned": 0.3233206868171692,
+    "D_realigned": 0.945573091506958,
+    "S_realigned": 0.011473894119262695,
+    "equivariance_error": 0.0015383611898869276,
+    "baseline_scale": 0.01713097281754017
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "D_intact": 0.7689393758773804,
+    "D_unrealigned": 0.2993420958518982,
+    "S_unrealigned": 0.4695972800254822,
+    "D_realigned": 0.7537593841552734,
+    "S_realigned": 0.015179991722106934,
+    "equivariance_error": 0.0006119927857071161,
+    "baseline_scale": 0.0098580252379179
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "D_intact": 0.7380281686782837,
+    "D_unrealigned": 0.18590998649597168,
+    "S_unrealigned": 0.552118182182312,
+    "D_realigned": 0.7025440335273743,
+    "S_realigned": 0.035484135150909424,
+    "equivariance_error": 0.00024309770378749818,
+    "baseline_scale": 0.002572891768068075
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "D_intact": 0.9309026598930359,
+    "D_unrealigned": 0.45975008606910706,
+    "S_unrealigned": 0.47115257382392883,
+    "D_realigned": 0.9160127639770508,
+    "S_realigned": 0.014889895915985107,
+    "equivariance_error": 0.0004615056386683136,
+    "baseline_scale": 0.0073766810819506645
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "D_intact": 0.9715971946716309,
+    "D_unrealigned": 0.5036524534225464,
+    "S_unrealigned": 0.4679447412490845,
+    "D_realigned": 0.8988850712776184,
+    "S_realigned": 0.07271212339401245,
+    "equivariance_error": 0.0010397350415587425,
+    "baseline_scale": 0.0060599991120398045
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "D_intact": 0.9689009785652161,
+    "D_unrealigned": 0.5673801898956299,
+    "S_unrealigned": 0.4015207886695862,
+    "D_realigned": 0.9514621496200562,
+    "S_realigned": 0.017438828945159912,
+    "equivariance_error": 0.0009109750972129405,
+    "baseline_scale": 0.011865343898534775
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "D_intact": 0.937960684299469,
+    "D_unrealigned": 0.6173721551895142,
+    "S_unrealigned": 0.32058852910995483,
+    "D_realigned": 0.9211946129798889,
+    "S_realigned": 0.016766071319580078,
+    "equivariance_error": 0.0014572773361578584,
+    "baseline_scale": 0.020486624911427498
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "D_intact": 0.9562342166900635,
+    "D_unrealigned": 0.607038676738739,
+    "S_unrealigned": 0.34919553995132446,
+    "D_realigned": 0.9496402740478516,
+    "S_realigned": 0.006593942642211914,
+    "equivariance_error": 0.0006228996790014207,
+    "baseline_scale": 0.007836930453777313
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "D_intact": 0.934304416179657,
+    "D_unrealigned": 0.40247294306755066,
+    "S_unrealigned": 0.5318314731121063,
+    "D_realigned": 0.8958268761634827,
+    "S_realigned": 0.038477540016174316,
+    "equivariance_error": 0.002630280563607812,
+    "baseline_scale": 0.017394758760929108
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "D_intact": 0.921284019947052,
+    "D_unrealigned": 0.49141404032707214,
+    "S_unrealigned": 0.42986997961997986,
+    "D_realigned": 0.8772525191307068,
+    "S_realigned": 0.044031500816345215,
+    "equivariance_error": 0.0015074365073814988,
+    "baseline_scale": 0.010175065137445927
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "D_intact": 0.8334988355636597,
+    "D_unrealigned": 0.29755327105522156,
+    "S_unrealigned": 0.5359455645084381,
+    "D_realigned": 0.6274664402008057,
+    "S_realigned": 0.206032395362854,
+    "equivariance_error": 0.0027495729736983776,
+    "baseline_scale": 0.008536766283214092
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "D_intact": 0.8978555202484131,
+    "D_unrealigned": 0.4096955358982086,
+    "S_unrealigned": 0.48815998435020447,
+    "D_realigned": 0.8412651419639587,
+    "S_realigned": 0.056590378284454346,
+    "equivariance_error": 0.0010942155495285988,
+    "baseline_scale": 0.008405053056776524
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "D_intact": 0.9175694584846497,
+    "D_unrealigned": 0.4805602431297302,
+    "S_unrealigned": 0.43700921535491943,
+    "D_realigned": 0.8954358696937561,
+    "S_realigned": 0.022133588790893555,
+    "equivariance_error": 0.000854317273478955,
+    "baseline_scale": 0.00879702903330326
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "D_intact": 0.9453299641609192,
+    "D_unrealigned": 0.5146337747573853,
+    "S_unrealigned": 0.43069618940353394,
+    "D_realigned": 0.9353736639022827,
+    "S_realigned": 0.009956300258636475,
+    "equivariance_error": 0.0006831689970567822,
+    "baseline_scale": 0.012935496866703033
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "D_intact": 0.9345794320106506,
+    "D_unrealigned": 0.4327390491962433,
+    "S_unrealigned": 0.5018403828144073,
+    "D_realigned": 0.898703396320343,
+    "S_realigned": 0.03587603569030762,
+    "equivariance_error": 0.0006270321318879724,
+    "baseline_scale": 0.00621385220438242
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "D_intact": 0.9068155288696289,
+    "D_unrealigned": 0.614311933517456,
+    "S_unrealigned": 0.29250359535217285,
+    "D_realigned": 0.9001834988594055,
+    "S_realigned": 0.006632030010223389,
+    "equivariance_error": 0.0015906291082501411,
+    "baseline_scale": 0.01759631186723709
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "D_intact": 0.6080760359764099,
+    "D_unrealigned": 0.08133970946073532,
+    "S_unrealigned": 0.5267363265156746,
+    "D_realigned": 0.5885167717933655,
+    "S_realigned": 0.019559264183044434,
+    "equivariance_error": 0.00010565963748376817,
+    "baseline_scale": 0.0011130679631605744
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "D_intact": 0.9276511669158936,
+    "D_unrealigned": 0.25560975074768066,
+    "S_unrealigned": 0.6720414161682129,
+    "D_realigned": 0.9014633893966675,
+    "S_realigned": 0.026187777519226074,
+    "equivariance_error": 0.00024297092750202864,
+    "baseline_scale": 0.0032149420585483313
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "D_intact": 0.9657196402549744,
+    "D_unrealigned": 0.5998911261558533,
+    "S_unrealigned": 0.3658285140991211,
+    "D_realigned": 0.9330430030822754,
+    "S_realigned": 0.032676637172698975,
+    "equivariance_error": 0.0016144023975357413,
+    "baseline_scale": 0.012684165500104427
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "D_intact": 0.7522216439247131,
+    "D_unrealigned": 0.2605263292789459,
+    "S_unrealigned": 0.4916953146457672,
+    "D_realigned": 0.7489473819732666,
+    "S_realigned": 0.003274261951446533,
+    "equivariance_error": 0.000826091505587101,
+    "baseline_scale": 0.009283291175961494
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "D_intact": 0.9442122578620911,
+    "D_unrealigned": 0.536154568195343,
+    "S_unrealigned": 0.40805768966674805,
+    "D_realigned": 0.9298987984657288,
+    "S_realigned": 0.014313459396362305,
+    "equivariance_error": 0.0007964093238115311,
+    "baseline_scale": 0.00995260663330555
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "D_intact": 0.8645133972167969,
+    "D_unrealigned": 0.27965202927589417,
+    "S_unrealigned": 0.5848613679409027,
+    "D_realigned": 0.8487163186073303,
+    "S_realigned": 0.015797078609466553,
+    "equivariance_error": 0.0008714051800779998,
+    "baseline_scale": 0.012320657260715961
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "D_intact": 0.9714285731315613,
+    "D_unrealigned": 0.5507956147193909,
+    "S_unrealigned": 0.4206329584121704,
+    "D_realigned": 0.9557614922523499,
+    "S_realigned": 0.015667080879211426,
+    "equivariance_error": 0.0006342223496176302,
+    "baseline_scale": 0.010216687805950642
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "D_intact": 0.9596282243728638,
+    "D_unrealigned": 0.4872487187385559,
+    "S_unrealigned": 0.47237950563430786,
+    "D_realigned": 0.8970897197723389,
+    "S_realigned": 0.0625385046005249,
+    "equivariance_error": 0.0011029902379959822,
+    "baseline_scale": 0.007383439224213362
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "D_intact": 0.9543459415435791,
+    "D_unrealigned": 0.4577968418598175,
+    "S_unrealigned": 0.4965490996837616,
+    "D_realigned": 0.8841201663017273,
+    "S_realigned": 0.0702257752418518,
+    "equivariance_error": 0.001080554910004139,
+    "baseline_scale": 0.005452417302876711
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "D_intact": 0.9577637910842896,
+    "D_unrealigned": 0.5010772347450256,
+    "S_unrealigned": 0.4566865563392639,
+    "D_realigned": 0.9396737217903137,
+    "S_realigned": 0.01809006929397583,
+    "equivariance_error": 0.0008493769564665854,
+    "baseline_scale": 0.013000701554119587
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "D_intact": 0.9428877830505371,
+    "D_unrealigned": 0.6116504669189453,
+    "S_unrealigned": 0.3312373161315918,
+    "D_realigned": 0.9256674647331238,
+    "S_realigned": 0.01722031831741333,
+    "equivariance_error": 0.0008610571385361254,
+    "baseline_scale": 0.011116262525320053
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "D_intact": 0.8887022137641907,
+    "D_unrealigned": 0.46103471517562866,
+    "S_unrealigned": 0.427667498588562,
+    "D_realigned": 0.8417376279830933,
+    "S_realigned": 0.04696458578109741,
+    "equivariance_error": 0.0013454870786517859,
+    "baseline_scale": 0.009819996543228626
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "D_intact": 0.8816705346107483,
+    "D_unrealigned": 0.48409485816955566,
+    "S_unrealigned": 0.3975756764411926,
+    "D_realigned": 0.8716020584106445,
+    "S_realigned": 0.01006847620010376,
+    "equivariance_error": 0.0004760601441375911,
+    "baseline_scale": 0.00729014677926898
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "D_intact": 0.9420677423477173,
+    "D_unrealigned": 0.4407079517841339,
+    "S_unrealigned": 0.5013597905635834,
+    "D_realigned": 0.9274336099624634,
+    "S_realigned": 0.014634132385253906,
+    "equivariance_error": 0.00033739511854946613,
+    "baseline_scale": 0.005055852234363556
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "D_intact": 0.915985107421875,
+    "D_unrealigned": 0.37992075085639954,
+    "S_unrealigned": 0.5360643565654755,
+    "D_realigned": 0.8507265448570251,
+    "S_realigned": 0.06525856256484985,
+    "equivariance_error": 0.0016025692457333207,
+    "baseline_scale": 0.010288639925420284
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "D_intact": 0.9547839164733887,
+    "D_unrealigned": 0.5636070966720581,
+    "S_unrealigned": 0.39117681980133057,
+    "D_realigned": 0.9495850205421448,
+    "S_realigned": 0.0051988959312438965,
+    "equivariance_error": 0.0007241746061481535,
+    "baseline_scale": 0.01358810905367136
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "D_intact": 0.9723191261291504,
+    "D_unrealigned": 0.5812601447105408,
+    "S_unrealigned": 0.3910589814186096,
+    "D_realigned": 0.9679144620895386,
+    "S_realigned": 0.004404664039611816,
+    "equivariance_error": 0.0004877106985077262,
+    "baseline_scale": 0.014405032619833946
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "D_intact": 0.9550624489784241,
+    "D_unrealigned": 0.561687707901001,
+    "S_unrealigned": 0.3933747410774231,
+    "D_realigned": 0.9357694387435913,
+    "S_realigned": 0.019293010234832764,
+    "equivariance_error": 0.0006638299091719091,
+    "baseline_scale": 0.009390907362103462
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "D_intact": 0.9477911591529846,
+    "D_unrealigned": 0.26284584403038025,
+    "S_unrealigned": 0.6849453151226044,
+    "D_realigned": 0.926877498626709,
+    "S_realigned": 0.020913660526275635,
+    "equivariance_error": 0.0001386960211675614,
+    "baseline_scale": 0.002998677548021078
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "D_intact": 0.9486451745033264,
+    "D_unrealigned": 0.5407955050468445,
+    "S_unrealigned": 0.40784966945648193,
+    "D_realigned": 0.9433962106704712,
+    "S_realigned": 0.005248963832855225,
+    "equivariance_error": 0.0008565193857066333,
+    "baseline_scale": 0.013899542391300201
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "D_intact": 0.9597945213317871,
+    "D_unrealigned": 0.6284869313240051,
+    "S_unrealigned": 0.331307590007782,
+    "D_realigned": 0.948053240776062,
+    "S_realigned": 0.011741280555725098,
+    "equivariance_error": 0.0012940755113959312,
+    "baseline_scale": 0.015180031768977642
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "D_intact": 0.8920093774795532,
+    "D_unrealigned": 0.35640254616737366,
+    "S_unrealigned": 0.5356068313121796,
+    "D_realigned": 0.8719491958618164,
+    "S_realigned": 0.020060181617736816,
+    "equivariance_error": 0.0004932060837745667,
+    "baseline_scale": 0.007942138239741325
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "D_intact": 0.9677015542984009,
+    "D_unrealigned": 0.5485386252403259,
+    "S_unrealigned": 0.41916292905807495,
+    "D_realigned": 0.9198851585388184,
+    "S_realigned": 0.04781639575958252,
+    "equivariance_error": 0.0017730992985889316,
+    "baseline_scale": 0.015086069703102112
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "D_intact": 0.9531654715538025,
+    "D_unrealigned": 0.5125148892402649,
+    "S_unrealigned": 0.4406505823135376,
+    "D_realigned": 0.9392133355140686,
+    "S_realigned": 0.013952136039733887,
+    "equivariance_error": 0.0004992519970983267,
+    "baseline_scale": 0.008318953216075897
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "D_intact": 0.974064290523529,
+    "D_unrealigned": 0.5469325184822083,
+    "S_unrealigned": 0.4271317720413208,
+    "D_realigned": 0.9604294300079346,
+    "S_realigned": 0.013634860515594482,
+    "equivariance_error": 0.0006893037934787571,
+    "baseline_scale": 0.011783371679484844
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "D_intact": 0.9556425213813782,
+    "D_unrealigned": 0.5716890692710876,
+    "S_unrealigned": 0.3839534521102905,
+    "D_realigned": 0.9131525158882141,
+    "S_realigned": 0.04249000549316406,
+    "equivariance_error": 0.002354036783799529,
+    "baseline_scale": 0.016948150470852852
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "D_intact": 0.9377162456512451,
+    "D_unrealigned": 0.2781304121017456,
+    "S_unrealigned": 0.6595858335494995,
+    "D_realigned": 0.9232544898986816,
+    "S_realigned": 0.014461755752563477,
+    "equivariance_error": 0.00027571580721996725,
+    "baseline_scale": 0.004837918560951948
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "D_intact": 0.9260419011116028,
+    "D_unrealigned": 0.4094528555870056,
+    "S_unrealigned": 0.5165890455245972,
+    "D_realigned": 0.8600051403045654,
+    "S_realigned": 0.06603676080703735,
+    "equivariance_error": 0.002119216602295637,
+    "baseline_scale": 0.011039132252335548
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "D_intact": 0.765482485294342,
+    "D_unrealigned": 0.42888104915618896,
+    "S_unrealigned": 0.3366014361381531,
+    "D_realigned": 0.7675426602363586,
+    "S_realigned": -0.0020601749420166016,
+    "equivariance_error": 0.0007153840851970017,
+    "baseline_scale": 0.01153341680765152
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "D_intact": 0.8845818638801575,
+    "D_unrealigned": 0.4062226116657257,
+    "S_unrealigned": 0.47835925221443176,
+    "D_realigned": 0.864592432975769,
+    "S_realigned": 0.019989430904388428,
+    "equivariance_error": 0.0008016787469387054,
+    "baseline_scale": 0.011406414210796356
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "D_intact": 0.9157209992408752,
+    "D_unrealigned": 0.5394296646118164,
+    "S_unrealigned": 0.37629133462905884,
+    "D_realigned": 0.8765333890914917,
+    "S_realigned": 0.039187610149383545,
+    "equivariance_error": 0.002465656027197838,
+    "baseline_scale": 0.013056823052465916
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "D_intact": 0.8956229090690613,
+    "D_unrealigned": 0.5444998741149902,
+    "S_unrealigned": 0.35112303495407104,
+    "D_realigned": 0.8955106139183044,
+    "S_realigned": 0.00011229515075683594,
+    "equivariance_error": 0.001030567567795515,
+    "baseline_scale": 0.013193155638873577
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "D_intact": 0.6948574781417847,
+    "D_unrealigned": 0.30829817056655884,
+    "S_unrealigned": 0.38655930757522583,
+    "D_realigned": 0.6548523306846619,
+    "S_realigned": 0.0400051474571228,
+    "equivariance_error": 0.0013107003178447485,
+    "baseline_scale": 0.012141192331910133
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "D_intact": 0.9625360369682312,
+    "D_unrealigned": 0.4470268785953522,
+    "S_unrealigned": 0.515509158372879,
+    "D_realigned": 0.9628735184669495,
+    "S_realigned": -0.0003374814987182617,
+    "equivariance_error": 0.0003641156363300979,
+    "baseline_scale": 0.014012495055794716
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "D_intact": 0.8799999952316284,
+    "D_unrealigned": 0.4346895217895508,
+    "S_unrealigned": 0.44531047344207764,
+    "D_realigned": 0.8501070737838745,
+    "S_realigned": 0.029892921447753906,
+    "equivariance_error": 0.0009371473570354283,
+    "baseline_scale": 0.008334149606525898
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "D_intact": 0.9279346466064453,
+    "D_unrealigned": 0.5147413611412048,
+    "S_unrealigned": 0.4131932854652405,
+    "D_realigned": 0.9045058488845825,
+    "S_realigned": 0.023428797721862793,
+    "equivariance_error": 0.0009310644236393273,
+    "baseline_scale": 0.011292938143014908
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "D_intact": 0.9517857432365417,
+    "D_unrealigned": 0.4232619106769562,
+    "S_unrealigned": 0.5285238325595856,
+    "D_realigned": 0.9444687366485596,
+    "S_realigned": 0.007317006587982178,
+    "equivariance_error": 0.000245904375333339,
+    "baseline_scale": 0.005160532426089048
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "D_intact": 0.9161894917488098,
+    "D_unrealigned": 0.5529453158378601,
+    "S_unrealigned": 0.3632441759109497,
+    "D_realigned": 0.9042776823043823,
+    "S_realigned": 0.01191180944442749,
+    "equivariance_error": 0.0009594958391971886,
+    "baseline_scale": 0.010741998441517353
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "D_intact": 0.9171836376190186,
+    "D_unrealigned": 0.4558377265930176,
+    "S_unrealigned": 0.461345911026001,
+    "D_realigned": 0.879092812538147,
+    "S_realigned": 0.03809082508087158,
+    "equivariance_error": 0.0015099362935870886,
+    "baseline_scale": 0.01413534115999937
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "D_intact": 0.9328315258026123,
+    "D_unrealigned": 0.44430655241012573,
+    "S_unrealigned": 0.4885249733924866,
+    "D_realigned": 0.8532423377037048,
+    "S_realigned": 0.07958918809890747,
+    "equivariance_error": 0.001201431266963482,
+    "baseline_scale": 0.007368855178356171
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "D_intact": 0.965151846408844,
+    "D_unrealigned": 0.5305297374725342,
+    "S_unrealigned": 0.4346221089363098,
+    "D_realigned": 0.949049711227417,
+    "S_realigned": 0.016102135181427002,
+    "equivariance_error": 0.0006528936792165041,
+    "baseline_scale": 0.009378759190440178
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "D_intact": 0.9357923269271851,
+    "D_unrealigned": 0.4901330769062042,
+    "S_unrealigned": 0.44565925002098083,
+    "D_realigned": 0.927489697933197,
+    "S_realigned": 0.008302628993988037,
+    "equivariance_error": 0.0005363238742575049,
+    "baseline_scale": 0.00858031865209341
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "D_intact": 0.9611148238182068,
+    "D_unrealigned": 0.558374285697937,
+    "S_unrealigned": 0.4027405381202698,
+    "D_realigned": 0.95550537109375,
+    "S_realigned": 0.005609452724456787,
+    "equivariance_error": 0.0008216331480070949,
+    "baseline_scale": 0.01307553518563509
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "D_intact": 0.9655172228813171,
+    "D_unrealigned": 0.5579567551612854,
+    "S_unrealigned": 0.40756046772003174,
+    "D_realigned": 0.8988967537879944,
+    "S_realigned": 0.06662046909332275,
+    "equivariance_error": 0.002552284160628915,
+    "baseline_scale": 0.013361954130232334
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "D_intact": 0.9442152380943298,
+    "D_unrealigned": 0.5288585424423218,
+    "S_unrealigned": 0.41535669565200806,
+    "D_realigned": 0.9315876960754395,
+    "S_realigned": 0.01262754201889038,
+    "equivariance_error": 0.0010318669956177473,
+    "baseline_scale": 0.01049663033336401
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "D_intact": 0.9436888098716736,
+    "D_unrealigned": 0.5679075121879578,
+    "S_unrealigned": 0.3757812976837158,
+    "D_realigned": 0.9315207600593567,
+    "S_realigned": 0.012168049812316895,
+    "equivariance_error": 0.0008964526932686567,
+    "baseline_scale": 0.014258312992751598
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "D_intact": 0.6955380439758301,
+    "D_unrealigned": 0.19290779531002045,
+    "S_unrealigned": 0.5026302486658096,
+    "D_realigned": 0.6070922017097473,
+    "S_realigned": 0.08844584226608276,
+    "equivariance_error": 0.00025110377464443445,
+    "baseline_scale": 0.0019027747912332416
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "D_intact": 0.6289507150650024,
+    "D_unrealigned": 0.4126289486885071,
+    "S_unrealigned": 0.21632176637649536,
+    "D_realigned": 0.6251953840255737,
+    "S_realigned": 0.003755331039428711,
+    "equivariance_error": 0.0008713557035662234,
+    "baseline_scale": 0.006953928153961897
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "D_intact": 0.9256420731544495,
+    "D_unrealigned": 0.5242822766304016,
+    "S_unrealigned": 0.40135979652404785,
+    "D_realigned": 0.9200429320335388,
+    "S_realigned": 0.0055991411209106445,
+    "equivariance_error": 0.0008394611650146544,
+    "baseline_scale": 0.013936210423707962
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "D_intact": 0.9684831500053406,
+    "D_unrealigned": 0.563826322555542,
+    "S_unrealigned": 0.4046568274497986,
+    "D_realigned": 0.886712372303009,
+    "S_realigned": 0.08177077770233154,
+    "equivariance_error": 0.0024218119215220213,
+    "baseline_scale": 0.012577149085700512
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "D_intact": 0.7050815224647522,
+    "D_unrealigned": 0.3594590127468109,
+    "S_unrealigned": 0.3456225097179413,
+    "D_realigned": 0.6759002804756165,
+    "S_realigned": 0.029181241989135742,
+    "equivariance_error": 0.0011129180202260613,
+    "baseline_scale": 0.010947812348604202
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "D_intact": 0.8652555346488953,
+    "D_unrealigned": 0.4938461482524872,
+    "S_unrealigned": 0.3714093863964081,
+    "D_realigned": 0.8502563834190369,
+    "S_realigned": 0.014999151229858398,
+    "equivariance_error": 0.0006592915742658079,
+    "baseline_scale": 0.008431240916252136
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "D_intact": 0.7911589741706848,
+    "D_unrealigned": 0.3996437191963196,
+    "S_unrealigned": 0.39151525497436523,
+    "D_realigned": 0.7274346947669983,
+    "S_realigned": 0.06372427940368652,
+    "equivariance_error": 0.0009814435616135597,
+    "baseline_scale": 0.007703358773142099
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "D_intact": 0.9463496208190918,
+    "D_unrealigned": 0.5658443570137024,
+    "S_unrealigned": 0.3805052638053894,
+    "D_realigned": 0.9422000050544739,
+    "S_realigned": 0.00414961576461792,
+    "equivariance_error": 0.00046132097486406565,
+    "baseline_scale": 0.0139561602845788
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "D_intact": 0.9405075907707214,
+    "D_unrealigned": 0.5575292706489563,
+    "S_unrealigned": 0.38297832012176514,
+    "D_realigned": 0.9261202812194824,
+    "S_realigned": 0.014387309551239014,
+    "equivariance_error": 0.0006088889786042273,
+    "baseline_scale": 0.00939199049025774
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "D_intact": 0.9411552548408508,
+    "D_unrealigned": 0.5658376216888428,
+    "S_unrealigned": 0.37531763315200806,
+    "D_realigned": 0.9155083894729614,
+    "S_realigned": 0.025646865367889404,
+    "equivariance_error": 0.000809621880762279,
+    "baseline_scale": 0.009624338708817959
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "D_intact": 0.8502115607261658,
+    "D_unrealigned": 0.36472946405410767,
+    "S_unrealigned": 0.4854820966720581,
+    "D_realigned": 0.8319495916366577,
+    "S_realigned": 0.018261969089508057,
+    "equivariance_error": 0.0005611906526610255,
+    "baseline_scale": 0.008337774313986301
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "D_intact": 0.8916469216346741,
+    "D_unrealigned": 0.6001399755477905,
+    "S_unrealigned": 0.29150694608688354,
+    "D_realigned": 0.861301600933075,
+    "S_realigned": 0.03034532070159912,
+    "equivariance_error": 0.0017463603289797902,
+    "baseline_scale": 0.011159103363752365
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "D_intact": 0.9333806037902832,
+    "D_unrealigned": 0.5760470032691956,
+    "S_unrealigned": 0.35733360052108765,
+    "D_realigned": 0.8699485659599304,
+    "S_realigned": 0.06343203783035278,
+    "equivariance_error": 0.0011127549223601818,
+    "baseline_scale": 0.005541056860238314
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "D_intact": 0.9571607112884521,
+    "D_unrealigned": 0.5920351147651672,
+    "S_unrealigned": 0.3651255965232849,
+    "D_realigned": 0.955471932888031,
+    "S_realigned": 0.0016887784004211426,
+    "equivariance_error": 0.0005307466490194201,
+    "baseline_scale": 0.010706929489970207
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "D_intact": 0.9192824959754944,
+    "D_unrealigned": 0.32724902033805847,
+    "S_unrealigned": 0.5920334756374359,
+    "D_realigned": 0.816166877746582,
+    "S_realigned": 0.10311561822891235,
+    "equivariance_error": 0.0010289541678503156,
+    "baseline_scale": 0.005091926082968712
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "D_intact": 0.6777629852294922,
+    "D_unrealigned": 0.25610947608947754,
+    "S_unrealigned": 0.42165350914001465,
+    "D_realigned": 0.6679700016975403,
+    "S_realigned": 0.009792983531951904,
+    "equivariance_error": 0.0006047412753105164,
+    "baseline_scale": 0.008022811263799667
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "D_intact": 0.9523809552192688,
+    "D_unrealigned": 0.45919540524482727,
+    "S_unrealigned": 0.49318554997444153,
+    "D_realigned": 0.9385057687759399,
+    "S_realigned": 0.013875186443328857,
+    "equivariance_error": 0.0005378571222536266,
+    "baseline_scale": 0.007905700244009495
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "D_intact": 0.8276299238204956,
+    "D_unrealigned": 0.31088826060295105,
+    "S_unrealigned": 0.5167416632175446,
+    "D_realigned": 0.68767911195755,
+    "S_realigned": 0.13995081186294556,
+    "equivariance_error": 0.0007834590505808592,
+    "baseline_scale": 0.0043406859040260315
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "D_intact": 0.9605198502540588,
+    "D_unrealigned": 0.6676528453826904,
+    "S_unrealigned": 0.2928670048713684,
+    "D_realigned": 0.9235700368881226,
+    "S_realigned": 0.03694981336593628,
+    "equivariance_error": 0.0018096338026225567,
+    "baseline_scale": 0.012146556749939919
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "D_intact": 0.747826099395752,
+    "D_unrealigned": 0.17558886110782623,
+    "S_unrealigned": 0.5722372382879257,
+    "D_realigned": 0.6895074844360352,
+    "S_realigned": 0.0583186149597168,
+    "equivariance_error": 0.00025548430858179927,
+    "baseline_scale": 0.001715023652650416
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "D_intact": 0.9638637900352478,
+    "D_unrealigned": 0.3871203660964966,
+    "S_unrealigned": 0.5767434239387512,
+    "D_realigned": 0.8935235738754272,
+    "S_realigned": 0.07034021615982056,
+    "equivariance_error": 0.0008510316256433725,
+    "baseline_scale": 0.007185422815382481
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "D_intact": 0.8281689882278442,
+    "D_unrealigned": 0.13927575945854187,
+    "S_unrealigned": 0.6888932287693024,
+    "D_realigned": 0.8133704662322998,
+    "S_realigned": 0.014798521995544434,
+    "equivariance_error": 5.7509099860908464e-05,
+    "baseline_scale": 0.0010718709090724587
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "D_intact": 0.9473228454589844,
+    "D_unrealigned": 0.49553635716438293,
+    "S_unrealigned": 0.45178648829460144,
+    "D_realigned": 0.9310697913169861,
+    "S_realigned": 0.01625305414199829,
+    "equivariance_error": 0.0011195651022717357,
+    "baseline_scale": 0.01368475891649723
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "D_intact": 0.9222643375396729,
+    "D_unrealigned": 0.47210532426834106,
+    "S_unrealigned": 0.4501590132713318,
+    "D_realigned": 0.8988733291625977,
+    "S_realigned": 0.023391008377075195,
+    "equivariance_error": 0.0014882627874612808,
+    "baseline_scale": 0.01554236188530922
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "D_intact": 0.7944191098213196,
+    "D_unrealigned": 0.2303539365530014,
+    "S_unrealigned": 0.5640651732683182,
+    "D_realigned": 0.7324535250663757,
+    "S_realigned": 0.06196558475494385,
+    "equivariance_error": 0.001179711427539587,
+    "baseline_scale": 0.008672383613884449
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "D_intact": 0.9521899223327637,
+    "D_unrealigned": 0.5546334981918335,
+    "S_unrealigned": 0.3975564241409302,
+    "D_realigned": 0.9011064767837524,
+    "S_realigned": 0.05108344554901123,
+    "equivariance_error": 0.0007538956124335527,
+    "baseline_scale": 0.005842207465320826
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "D_intact": 0.9693273305892944,
+    "D_unrealigned": 0.6356297135353088,
+    "S_unrealigned": 0.3336976170539856,
+    "D_realigned": 0.9610692262649536,
+    "S_realigned": 0.00825810432434082,
+    "equivariance_error": 0.0009459134889766574,
+    "baseline_scale": 0.015964414924383163
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "D_intact": 0.9425531625747681,
+    "D_unrealigned": 0.4783904552459717,
+    "S_unrealigned": 0.4641627073287964,
+    "D_realigned": 0.937779426574707,
+    "S_realigned": 0.004773736000061035,
+    "equivariance_error": 0.001508432673290372,
+    "baseline_scale": 0.012039710767567158
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "D_intact": 0.8954653739929199,
+    "D_unrealigned": 0.2111055552959442,
+    "S_unrealigned": 0.6843598186969757,
+    "D_realigned": 0.8824412226676941,
+    "S_realigned": 0.01302415132522583,
+    "equivariance_error": 0.0006052008247934282,
+    "baseline_scale": 0.006216786336153746
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "D_intact": 0.827091634273529,
+    "D_unrealigned": 0.41244056820869446,
+    "S_unrealigned": 0.4146510660648346,
+    "D_realigned": 0.8240887522697449,
+    "S_realigned": 0.0030028820037841797,
+    "equivariance_error": 0.000653607479762286,
+    "baseline_scale": 0.011237435974180698
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "D_intact": 0.9207100868225098,
+    "D_unrealigned": 0.4647487699985504,
+    "S_unrealigned": 0.45596131682395935,
+    "D_realigned": 0.9132901430130005,
+    "S_realigned": 0.007419943809509277,
+    "equivariance_error": 0.0009635310270823538,
+    "baseline_scale": 0.011198928579688072
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "D_intact": 0.6579111814498901,
+    "D_unrealigned": 0.12386457622051239,
+    "S_unrealigned": 0.5340466052293777,
+    "D_realigned": 0.5350949764251709,
+    "S_realigned": 0.12281620502471924,
+    "equivariance_error": 0.0015783571870997548,
+    "baseline_scale": 0.004960679914802313
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "D_intact": 0.9563988447189331,
+    "D_unrealigned": 0.4829511344432831,
+    "S_unrealigned": 0.47344771027565,
+    "D_realigned": 0.9507477283477783,
+    "S_realigned": 0.005651116371154785,
+    "equivariance_error": 0.00042674661381170154,
+    "baseline_scale": 0.009900618344545364
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "D_intact": 0.8670046925544739,
+    "D_unrealigned": 0.501369833946228,
+    "S_unrealigned": 0.36563485860824585,
+    "D_realigned": 0.8704500794410706,
+    "S_realigned": -0.0034453868865966797,
+    "equivariance_error": 0.0007410284597426653,
+    "baseline_scale": 0.009411877021193504
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "D_intact": 0.9333572387695312,
+    "D_unrealigned": 0.6534243822097778,
+    "S_unrealigned": 0.2799328565597534,
+    "D_realigned": 0.9228833317756653,
+    "S_realigned": 0.010473906993865967,
+    "equivariance_error": 0.0008993941592052579,
+    "baseline_scale": 0.01598934829235077
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "D_intact": 0.8073005080223083,
+    "D_unrealigned": 0.3709401786327362,
+    "S_unrealigned": 0.43636032938957214,
+    "D_realigned": 0.800000011920929,
+    "S_realigned": 0.0073004961013793945,
+    "equivariance_error": 0.0003224948886781931,
+    "baseline_scale": 0.005540251266211271
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "D_intact": 0.801574170589447,
+    "D_unrealigned": 0.46277916431427,
+    "S_unrealigned": 0.338795006275177,
+    "D_realigned": 0.798180341720581,
+    "S_realigned": 0.003393828868865967,
+    "equivariance_error": 0.0008435534546151757,
+    "baseline_scale": 0.008178210817277431
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "D_intact": 0.9470362663269043,
+    "D_unrealigned": 0.5184165239334106,
+    "S_unrealigned": 0.42861974239349365,
+    "D_realigned": 0.8986804485321045,
+    "S_realigned": 0.048355817794799805,
+    "equivariance_error": 0.002378643024712801,
+    "baseline_scale": 0.018491217866539955
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "D_intact": 0.9330337047576904,
+    "D_unrealigned": 0.3801801800727844,
+    "S_unrealigned": 0.552853524684906,
+    "D_realigned": 0.9279279112815857,
+    "S_realigned": 0.005105793476104736,
+    "equivariance_error": 0.00030765324481762946,
+    "baseline_scale": 0.0055532814003527164
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "D_intact": 0.9115913510322571,
+    "D_unrealigned": 0.13089005649089813,
+    "S_unrealigned": 0.780701294541359,
+    "D_realigned": 0.6623036861419678,
+    "S_realigned": 0.2492876648902893,
+    "equivariance_error": 0.0010398828890174627,
+    "baseline_scale": 0.003786993445828557
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "D_intact": 0.9173768162727356,
+    "D_unrealigned": 0.4871252775192261,
+    "S_unrealigned": 0.4302515387535095,
+    "D_realigned": 0.9025998115539551,
+    "S_realigned": 0.014777004718780518,
+    "equivariance_error": 0.001028811209835112,
+    "baseline_scale": 0.015799501910805702
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "D_intact": 0.9407222867012024,
+    "D_unrealigned": 0.6176247000694275,
+    "S_unrealigned": 0.3230975866317749,
+    "D_realigned": 0.9042795896530151,
+    "S_realigned": 0.036442697048187256,
+    "equivariance_error": 0.0018066535703837872,
+    "baseline_scale": 0.014024610631167889
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "D_intact": 0.9510894417762756,
+    "D_unrealigned": 0.5927152037620544,
+    "S_unrealigned": 0.3583742380142212,
+    "D_realigned": 0.9506321549415588,
+    "S_realigned": 0.0004572868347167969,
+    "equivariance_error": 0.0006679365178570151,
+    "baseline_scale": 0.01042985450476408
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "D_intact": 0.8947024345397949,
+    "D_unrealigned": 0.3184466063976288,
+    "S_unrealigned": 0.5762558281421661,
+    "D_realigned": 0.8919093608856201,
+    "S_realigned": 0.0027930736541748047,
+    "equivariance_error": 0.0001328707003267482,
+    "baseline_scale": 0.004126624669879675
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "D_intact": 0.8270809054374695,
+    "D_unrealigned": 0.6082724928855896,
+    "S_unrealigned": 0.21880841255187988,
+    "D_realigned": 0.7834550142288208,
+    "S_realigned": 0.04362589120864868,
+    "equivariance_error": 0.0017403843812644482,
+    "baseline_scale": 0.008034349419176579
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "D_intact": 0.925474226474762,
+    "D_unrealigned": 0.47253498435020447,
+    "S_unrealigned": 0.4529392421245575,
+    "D_realigned": 0.9181166887283325,
+    "S_realigned": 0.007357537746429443,
+    "equivariance_error": 0.000717146263923496,
+    "baseline_scale": 0.012668236158788204
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "D_intact": 0.9462969303131104,
+    "D_unrealigned": 0.593549907207489,
+    "S_unrealigned": 0.35274702310562134,
+    "D_realigned": 0.9365467429161072,
+    "S_realigned": 0.009750187397003174,
+    "equivariance_error": 0.0008273864514194429,
+    "baseline_scale": 0.01386283989995718
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "D_intact": 0.7883173823356628,
+    "D_unrealigned": 0.3241271376609802,
+    "S_unrealigned": 0.4641902446746826,
+    "D_realigned": 0.7899947762489319,
+    "S_realigned": -0.001677393913269043,
+    "equivariance_error": 0.0007330266525968909,
+    "baseline_scale": 0.010244214907288551
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "D_intact": 0.9660477638244629,
+    "D_unrealigned": 0.4860599637031555,
+    "S_unrealigned": 0.4799878001213074,
+    "D_realigned": 0.9558127522468567,
+    "S_realigned": 0.010235011577606201,
+    "equivariance_error": 0.00033462920691818,
+    "baseline_scale": 0.007566976826637983
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "D_intact": 0.8497409224510193,
+    "D_unrealigned": 0.5252717137336731,
+    "S_unrealigned": 0.3244692087173462,
+    "D_realigned": 0.864945650100708,
+    "S_realigned": -0.01520472764968872,
+    "equivariance_error": 0.0018447285983711481,
+    "baseline_scale": 0.013942045159637928
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "D_intact": 0.9137930870056152,
+    "D_unrealigned": 0.20238931477069855,
+    "S_unrealigned": 0.7114037722349167,
+    "D_realigned": 0.8699929714202881,
+    "S_realigned": 0.04380011558532715,
+    "equivariance_error": 0.0005184190231375396,
+    "baseline_scale": 0.004962947219610214
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "D_intact": 0.934256911277771,
+    "D_unrealigned": 0.595801830291748,
+    "S_unrealigned": 0.33845508098602295,
+    "D_realigned": 0.9167683720588684,
+    "S_realigned": 0.017488539218902588,
+    "equivariance_error": 0.000852946424856782,
+    "baseline_scale": 0.01359484437853098
+  }
+]

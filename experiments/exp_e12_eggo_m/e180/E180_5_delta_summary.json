@@ -1,0 +1,28 @@
+{
+ "question": "Stage 5: whole-volume Dice benefit of restoring one tile's enc3 activation from the same degraded operating point Gamma was measured from",
+ "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e131\\runs\\E131_v5control_seed0\\checkpoints\\best.pth",
+ "checkpoint_dice_verified": 0.8929357248544694,
+ "n_subjects": 10,
+ "families": {
+  "T1_rank": 2,
+  "T4_spectral": 3.0,
+  "T5_smooth": 1.5
+ },
+ "n_records": 192,
+ "delta_distribution": {
+  "mean": 0.09259472659323364,
+  "std": 0.17025296951602772,
+  "median": 0.030961434046427372,
+  "max": 0.8108792615433534,
+  "min": -0.005084653695424435,
+  "frac_positive": 0.9583333333333334,
+  "frac_near_zero": 0.0
+ },
+ "degradation_cost_context": {
+  "dice_deg_mean": 0.8270235870214592,
+  "dice_deg_std": 0.2213262422115985,
+  "checkpoint_intact_dice_reference": 0.8929357248544694,
+  "note": "This is the FIRST stage where GT enters -- dice_deg vs the checkpoint's known intact Dice is the first real cost check of T_s (Stage 2 only measured prediction-vs-prediction displacement, not GT cost)."
+ },
+ "note": "GT used ONLY to score Delta. Gamma (Stage 3-4) never used GT."
+}

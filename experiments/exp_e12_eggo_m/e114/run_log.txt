@@ -1,0 +1,50 @@
+Device: cuda
+Loaded canonical checkpoint: val_dice=0.9101624600589275
+[Sanity check] split reconstruction (both args = intact bottleneck) vs real forward(): max abs diff = 0.000000e+00
+[Sanity check] PASS.
+
+Validation subjects: 125
+  labeled 25/125
+  labeled 50/125
+  labeled 75/125
+  labeled 100/125
+  labeled 125/125
+
+Saved per-subject table (125 subjects).
+
+======================================================================
+=== BOTH-INTERVENED (reproduces E113's exact construction) ===
+======================================================================
+Mean Delta_shuffle: 0.1448  std: 0.1119
+Mean Delta_spatial: 0.3839  std: 0.1185
+Spearman(Delta_shuffle, N_b) = -0.3547 (p=4.9278e-05)
+Spearman(Delta_spatial, N_b) = +0.2063 (p=2.1004e-02)
+Raw difference (channel - spatial): -0.5610
+Partial Spearman(Delta_shuffle, N_b | size) = -0.2584 (p=3.6225e-03)
+Partial Spearman(Delta_spatial, N_b | size) = +0.3502 (p=6.2471e-05)
+Bootstrap (n=1000): fraction favoring channel over spatial: 0.0000
+Bootstrap 95% CI of (rho_channel - rho_spatial): [-0.7445, -0.3584]
+
+======================================================================
+=== DECODE-ONLY (gate receives INTACT bottleneck -- confound removed) ===
+======================================================================
+Mean Delta_shuffle: 0.0239  std: 0.0579
+Mean Delta_spatial: 0.0266  std: 0.0501
+Spearman(Delta_shuffle, N_b) = -0.0680 (p=4.5097e-01)
+Spearman(Delta_spatial, N_b) = +0.0285 (p=7.5196e-01)
+Raw difference (channel - spatial): -0.0966
+Partial Spearman(Delta_shuffle, N_b | size) = +0.0615 (p=4.9566e-01)
+Partial Spearman(Delta_spatial, N_b | size) = +0.1549 (p=8.4628e-02)
+Bootstrap (n=1000): fraction favoring channel over spatial: 0.0060
+Bootstrap 95% CI of (rho_channel - rho_spatial): [-0.1747, -0.0263]
+
+======================================================================
+=== COMPARISON: does the sign-reversal survive decode-only intervention? ===
+======================================================================
+BOTH-INTERVENED direction: channel<spatial (bootstrap frac channel-wins=0.0000)
+DECODE-ONLY direction:     channel<spatial (bootstrap frac channel-wins=0.0060)
+
+=== FINAL VERDICT: CONFOUND_RULED_OUT_EFFECT_REAL_IN_DECODE_PATH ===
+(Convenience label only -- inspect the actual rho/bootstrap numbers above directly.)
+
+Saved E114_summary.json

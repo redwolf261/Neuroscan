@@ -1,0 +1,1 @@
+epoch,train_loss,val_dice,val_fp_voxels,val_fn_voxels,val_mean_pred_prob,grad_norm_dice,grad_norm_ce,grad_cos_theta,epoch_time_sec

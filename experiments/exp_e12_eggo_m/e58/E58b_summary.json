@@ -1,0 +1,34 @@
+{
+  "n_subjects": 125,
+  "n_skipped_empty_mask": 0,
+  "mean_dice_intact": 0.8957643356323243,
+  "mean_drop_lesion_octant": 0.028359174728393555,
+  "mean_drop_far_octant": 0.02152409362792969,
+  "paired_ttest": {
+    "t": 1.1066983795327885,
+    "p": 0.27056670227131546
+  },
+  "wilcoxon": {
+    "p": 0.3447010441556114
+  },
+  "lesion_octant_stats": {
+    "rho": 0.12577572964669737,
+    "perm_p": 0.175,
+    "ci_95": [
+      -0.04900985559056524,
+      0.3084216876877806
+    ]
+  },
+  "far_octant_stats": {
+    "rho": -0.08903781309150086,
+    "perm_p": 0.314,
+    "ci_95": [
+      -0.2762105594775231,
+      0.09907270638905827
+    ]
+  },
+  "e48_reference_rho": -0.454,
+  "stage1_fixed_octant_A_rho": -0.1856,
+  "stage1_fixed_octant_B_rho": -0.0814,
+  "decision": "not_supported"
+}

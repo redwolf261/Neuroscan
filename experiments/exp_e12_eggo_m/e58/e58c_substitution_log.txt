@@ -1,0 +1,49 @@
+Device: cuda
+Loaded D4-only checkpoint: best_val_dice=0.9095618277788162
+Validation set size: 125
+
+[Sanity check 1] split forward (own bottleneck) vs real forward: max abs diff = 0.000000e+00
+[Sanity check 1] PASS.
+
+Precomputing bottleneck/skip caches for all subjects (one clean forward pass each)...
+  cached 25/125
+  cached 50/125
+  cached 75/125
+  cached 100/125
+  cached 125/125
+Cached 125 subjects.
+
+[Sanity check 2] self-substitution (cached own bottleneck) vs real forward: max abs diff = 0.000000e+00
+[Sanity check 2] PASS.
+
+Saved 125 subject records.
+
+=== E58c Bottleneck Substitution Audit: n=125 subjects ===
+Mean dice_intact = 0.8958
+Mean drop (zero)        = 0.2554  (reference: E48 full-ablation drop = 0.3205)
+Mean drop (donor_size)  = 0.2700
+Mean drop (donor_rand)  = 0.3098
+
+--- Paired comparisons (drop, lower = better preserved) ---
+  zero vs donor_size: mean_diff=-0.0146 (donor_size drop is larger) | paired-t p=0.5596, Wilcoxon p=0.6265
+  zero vs donor_rand: mean_diff=-0.0545 (donor_rand drop is larger) | paired-t p=0.0263, Wilcoxon p=0.0606
+  donor_size vs donor_rand: mean_diff=-0.0399 (donor_rand drop is larger) | paired-t p=0.1334, Wilcoxon p=0.1263
+
+--- Spearman(native_size, drop) per condition ---
+  zero: rho=-0.3122 (perm p=0.0010) 95% CI=[-0.4708, -0.1284]
+  donor_size: rho=-0.0005 (perm p=0.9960) 95% CI=[-0.1939, +0.1826]
+  donor_rand: rho=-0.1433 (perm p=0.1060) 95% CI=[-0.3196, +0.0595]
+  Reference (E48 full ablation): rho = -0.454
+
+donor_size significantly better preserved than zero: False
+donor_rand significantly better preserved than zero: False
+donor_size significantly WORSE than zero: False
+donor_rand significantly WORSE than zero: True
+donor_size vs donor_rand significantly different: False
+
+=== DECISION: actively_misleading_supported ===
+NOTE per pre-declared instruction: this decision characterizes a causal phenomenon.
+It is NOT itself a novelty claim -- a separate literature-novelty search is required
+before any mechanism is designed around whichever branch this result supports.
+
+Saved E58c_summary.json

@@ -1,0 +1,33 @@
+Device: cuda
+Loaded 125 subjects from E121's per-subject table.
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+
+Extracting pre-pooling activations + computing separability for 125 subjects...
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+Total subjects with valid separability scores: 125
+
+=== Raw per-stage separability S_stage (mean |AUC-0.5|*2 over channels) ===
+  S_N_1: mean=0.5884 std=0.0355 (n=125)
+  S_N_2: mean=0.3447 std=0.0258 (n=125)
+  S_N_3: mean=0.4983 std=0.0442 (n=125)
+
+  Visible pattern check (s1~=s3, both differ from s2): s1=0.5884, s2=0.3447, s3=0.4983 -> YES
+
+=== Pooled cross-stage regression: does S_stage explain N beyond stage+size? ===
+Complete-case subjects (all 3 stages valid): 125
+Pooled n=375 observations (125 subjects x 3 stages)
+Model P1 (N ~ stage + size):     R^2=0.6386
+Model P2 (N ~ stage + size + S): R^2=0.6400, S coefficient=-0.2435
+Delta R^2 from adding S: +0.0014
+Within-subject-permutation test on S's coefficient: p=0.0000
+
+=== DECISION ===
+CASE_B_KILL_REDUNDANT_WITH_STAGE_SIZE
+Raw S_stage shows the visible pattern, but this is redundant with stage identity + size once controlled (Delta R^2=0.0014, perm p=0.0000). KILL as non-differentiating.
+
+Saved E123_summary.json, E123_per_subject_table.json

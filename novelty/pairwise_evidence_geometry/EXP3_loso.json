@@ -1,0 +1,20 @@
+{
+  "HARDNEG|F1 mu_C (absolute)": 0.37418203450327187,
+  "HARDNEG|F2 sigma_C": 0.8066627007733492,
+  "HARDNEG|F3 IQR_C": 0.8215348007138608,
+  "HARDNEG|F4 dQ50 (local median contrast)": 0.8893515764425937,
+  "HARDNEG|F5 dmu (local mean contrast)": 0.8709101725163593,
+  "HARDNEG|F6 [mu, sigma, dQ50]": 0.9524092801903629,
+  "HARDNEG|F7 [mu, sigma, dQ50, IQR]": 0.9613325401546698,
+  "verdict": "STRONG",
+  "best_single": 0.8893515764425937,
+  "best_single_name": "F4 dQ50 (local median contrast)",
+  "best_combo": 0.9613325401546698,
+  "ADJ|F1 mu_C (absolute)": 0.8792385484830458,
+  "ADJ|F2 sigma_C": 0.735871505056514,
+  "ADJ|F3 IQR_C": 0.735871505056514,
+  "ADJ|F4 dQ50 (local median contrast)": 0.9339678762641285,
+  "ADJ|F5 dmu (local mean contrast)": 0.926829268292683,
+  "ADJ|F6 [mu, sigma, dQ50]": 0.9464604402141582,
+  "ADJ|F7 [mu, sigma, dQ50, IQR]": 0.9470553242117787
+}

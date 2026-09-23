@@ -1,0 +1,41 @@
+[Confound check] mm per resized-voxel: {'x': 3.75, 'y': 3.75, 'z': 2.421875}
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 subject records.
+
+  K[tensor_dim0_+3] = 0.0530 (std 0.0684)
+  K[tensor_dim0_-3] = 0.0478 (std 0.0756)
+  K[tensor_dim1_+3] = 0.0402 (std 0.0576)
+  K[tensor_dim1_-3] = 0.0470 (std 0.0668)
+  K[tensor_dim2_+3] = 0.0339 (std 0.0556)
+  K[tensor_dim2_-3] = 0.0483 (std 0.0655)
+  K[dim0_matched] = 0.0439 (std 0.0718)
+  K[dim1_matched] = 0.0380 (std 0.0533)
+  K[dim2_matched] = 0.0339 (std 0.0556)
+
+=== (1) Original E82-style axis comparison, EQUAL VOXEL magnitude (3), UNEQUAL physical mm ===
+  dim0 (voxel=3): 0.0530   dim1 (voxel=3): 0.0402   dim2 (voxel=3): 0.0339
+  dim0 vs dim2 (voxel-matched, mm-mismatched): paired t p=1.8235e-03
+
+=== (2) PHYSICAL-DISTANCE-MATCHED comparison (dim0/dim1 voxel=2 [7.50mm] vs dim2 voxel=3 [7.27mm]) ===
+  dim0 (voxel=2, 7.50mm): 0.0439   dim1 (voxel=2, 7.50mm): 0.0380   dim2 (voxel=3, 7.27mm): 0.0339
+  dim0 vs dim2 (physical-distance-matched): paired t p=1.4221e-01, Wilcoxon p=1.3508e-01
+  Effect size, voxel-matched comparison: 0.0191
+  Effect size, physical-matched comparison: 0.0100
+
+=== READING ===
+AMBIGUOUS: the physical-matched comparison is not clearly significant either way -- report as inconclusive, not as a confirmed finding in either direction.
+
+=== (3) Reflection symmetry K(+delta) vs K(-delta) ===
+  dim0: K(+3)=0.0530, K(-3)=0.0478, paired t p=3.7189e-01 (symmetric)
+  dim1: K(+3)=0.0402, K(-3)=0.0470, paired t p=2.8786e-01 (symmetric)
+  dim2: K(+3)=0.0339, K(-3)=0.0483, paired t p=4.0585e-02 (asymmetric)
+
+Saved E83_correspondence_kernel_summary.json

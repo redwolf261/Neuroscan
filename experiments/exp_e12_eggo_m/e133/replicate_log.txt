@@ -1,0 +1,87 @@
+=== REPLICATION 1/2: v14 ===
+failing subjects for THIS checkpoint: 8
+frozen checkpoint: epoch 38, mean dice 0.8942
+
+one forward pass per subject; sampling voxels for probe fitting...
+  25
+  50
+  75
+  100
+
+106 good (probe TRAIN) / 7 failing (probe TEST, unseen)
+
+the frozen model's OWN dice on these centred patches:
+   group       ET       TC       WT
+    good   0.8688   0.8944   0.9193
+    FAIL   0.0116   0.0080   0.8553
+
+=== dec1: 32 channels, 2,114,791 training voxels ===
+  ET: probe dice  good=0.8594  FAILING=0.0113
+  TC: probe dice  good=0.8865  FAILING=0.0056
+  WT: probe dice  good=0.8675  FAILING=0.8159
+
+=== dec2: 64 channels, 1,932,837 training voxels ===
+  ET: probe dice  good=0.7934  FAILING=0.0097
+  TC: probe dice  good=0.8592  FAILING=0.0062
+  WT: probe dice  good=0.7422  FAILING=0.6105
+
+=== dec3: 128 channels, 1,213,553 training voxels ===
+  ET: probe dice  good=0.8527  FAILING=0.3566
+  TC: probe dice  good=0.8924  FAILING=0.2683
+  WT: probe dice  good=0.9053  FAILING=0.8219
+
+======================================================================
+VERDICT
+                 model head   dec1 probe   recovery
+  ET                 0.0116       0.0113    -0.0003
+  TC                 0.0080       0.0056    -0.0025
+  WT                 0.8553       0.8159    -0.0395
+
+H1_REPRESENTATION_FAILURE
+dec1 does NOT encode the ET/TC distinction on the failing subjects -- an identical-capacity probe cannot recover it either, so no readout could. The fix must change what the network LEARNS (loss weighting, sampling, synthetic data).
+
+Saved E133_summary_v14.json
+=== REPLICATION 2/2: E130 baseline ===
+failing subjects for THIS checkpoint: 8
+frozen checkpoint: epoch 2, mean dice 0.8631
+
+one forward pass per subject; sampling voxels for probe fitting...
+  25
+  50
+  75
+  100
+
+106 good (probe TRAIN) / 7 failing (probe TEST, unseen)
+
+the frozen model's OWN dice on these centred patches:
+   group       ET       TC       WT
+    good   0.8201   0.8415   0.8961
+    FAIL   0.0816   0.1463   0.7641
+
+=== dec1: 32 channels, 2,114,791 training voxels ===
+  ET: probe dice  good=0.8213  FAILING=0.0799
+  TC: probe dice  good=0.8431  FAILING=0.1615
+  WT: probe dice  good=0.8555  FAILING=0.7565
+
+=== dec2: 64 channels, 1,927,982 training voxels ===
+  ET: probe dice  good=0.6841  FAILING=0.0222
+  TC: probe dice  good=0.8018  FAILING=0.1461
+  WT: probe dice  good=0.8024  FAILING=0.7148
+
+=== dec3: 128 channels, 1,212,927 training voxels ===
+  ET: probe dice  good=0.7298  FAILING=0.3180
+  TC: probe dice  good=0.8261  FAILING=0.1656
+  WT: probe dice  good=0.8598  FAILING=0.7524
+
+======================================================================
+VERDICT
+                 model head   dec1 probe   recovery
+  ET                 0.0816       0.0799    -0.0016
+  TC                 0.1463       0.1615    +0.0152
+  WT                 0.7641       0.7565    -0.0076
+
+H1_REPRESENTATION_FAILURE
+dec1 does NOT encode the ET/TC distinction on the failing subjects -- an identical-capacity probe cannot recover it either, so no readout could. The fix must change what the network LEARNS (loss weighting, sampling, synthetic data).
+
+Saved E133_summary_E130base.json
+=== REPLICATION COMPLETE ===

@@ -1,0 +1,5 @@
+  4/15 subj, 24 rows (51s)
+  8/15 subj, 57 rows (94s)
+  12/15 subj, 72 rows (116s)
+
+wrote ORDERING_features.csv (102 rows) in 157s

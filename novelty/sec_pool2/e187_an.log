@@ -1,0 +1,52 @@
+rows=438  pops={'L': 74, 'S': 145, 'H': 219}  subjects=107
+delta = 0.1155  (measured from E2, not tuned)
+
+================================================================================
+COHERENCE STATISTICS BY POPULATION (median over components)
+================================================================================
+stat                       L             S             H         L-H
+p_med                 3.5473        5.6199        2.1550      1.3923
+S_med                 1.0000        1.0000        1.0000      0.0000
+Cobs_med              1.2857        1.2857        1.2857      0.0000
+Cnull_med             1.2857        1.2857        1.2857      0.0000
+dC_med                0.2323        0.2133        0.2444     -0.0121
+frac_dC_pos           1.0000        0.8581        1.0000      0.0000
+
+================================================================================
+GATE -- L vs H (decisive), subject-LOSO AUC + permutation null
+================================================================================
+  n_L=74  n_H=219
+
+  predictor                     LOSO AUC    perm p
+  dC_med (THE CLAIM)              0.6847     0.000
+  dC_mean                         0.6796     0.000
+  frac_dC_pos                     0.4388     0.030
+  p_med (winner magnitude)        0.8548     0.000
+  S_med (support magnitude)       0.2614     0.305
+  Cobs_med (raw coherence)        0.2683     0.275
+  p + S (magnitude only)          0.8548     0.000
+  p + S + dC (full)               0.8534     0.000
+
+================================================================================
+K3 -- INCREMENT: does organization add over magnitude?
+================================================================================
+  magnitude only (p,S)      AUC = 0.8548
+  magnitude + surplus       AUC = 0.8534
+  increment from dC             = -0.0014
+  partial corr(dC, label | p,S) = -0.1159  (p=4.75e-02)
+
+================================================================================
+REPORTED (not the gate): L vs S -- confounded with detection itself
+================================================================================
+  dC_med                          0.1718
+  p_med                           0.7884
+  S_med                           0.1396
+
+================================================================================
+PREREGISTERED VERDICT
+================================================================================
+  K1 dC ~ zero everywhere      : passed   (medians L=+0.2323 S=+0.2133 H=+0.2444)
+  K2 dC does not separate L/H  : passed   (AUC=0.6847, p=0.000)
+  K3 dC redundant w/ magnitude : FIRED   (increment -0.0014, partial p=4.75e-02)
+
+  ==> KILL

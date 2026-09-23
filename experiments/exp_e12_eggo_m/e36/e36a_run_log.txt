@@ -1,0 +1,33 @@
+Validation set size: 125
+  fixed batch subject 0: BraTS-GLI-01041-000
+  fixed batch subject 1: BraTS-GLI-01161-000
+  fixed batch subject 2: BraTS-GLI-01189-000
+  fixed batch subject 3: BraTS-GLI-01336-000
+  fixed batch subject 4: BraTS-GLI-00250-000
+  fixed batch subject 5: BraTS-GLI-00501-000
+  fixed batch subject 6: BraTS-GLI-01093-000
+  fixed batch subject 7: BraTS-GLI-01168-000
+Fixed diagnostic batch shape: images=(8, 1, 64, 64, 64) masks=(8, 1, 64, 64, 64)
+[D4only] epoch=1: |g_main|=2.4616 |g_D2|=0.4239 |g_D4|=2.0650  cos(main,D4)=0.3145 cos(main,D2)=0.0964 cos(D4,D2)=0.1676
+[D4only] epoch=5: |g_main|=1.3476 |g_D2|=0.2207 |g_D4|=0.6304  cos(main,D4)=0.4608 cos(main,D2)=0.3566 cos(D4,D2)=0.3781
+[D4only] epoch=10: |g_main|=1.5383 |g_D2|=0.1742 |g_D4|=1.9657  cos(main,D4)=0.9057 cos(main,D2)=0.6887 cos(D4,D2)=0.7175
+[D4only] epoch=15: |g_main|=0.2975 |g_D2|=0.1452 |g_D4|=0.3098  cos(main,D4)=0.5088 cos(main,D2)=0.1468 cos(D4,D2)=-0.2555
+[D4only] epoch=20: |g_main|=0.4660 |g_D2|=0.2296 |g_D4|=0.4999  cos(main,D4)=0.7303 cos(main,D2)=0.6703 cos(D4,D2)=0.4096
+[D4only] epoch=25: |g_main|=0.2986 |g_D2|=0.2433 |g_D4|=0.5621  cos(main,D4)=0.6269 cos(main,D2)=0.6324 cos(D4,D2)=0.3499
+[D4only] epoch=30: |g_main|=0.2096 |g_D2|=0.2346 |g_D4|=0.5075  cos(main,D4)=0.1742 cos(main,D2)=-0.0542 cos(D4,D2)=0.4079
+[D2only] epoch=1: |g_main|=4.6133 |g_D2|=3.4647 |g_D4|=0.6135  cos(main,D4)=0.2200 cos(main,D2)=-0.1841 cos(D4,D2)=0.6904
+[D2only] epoch=5: |g_main|=4.1381 |g_D2|=3.3029 |g_D4|=0.2496  cos(main,D4)=0.2611 cos(main,D2)=0.4368 cos(D4,D2)=0.6141
+[D2only] epoch=10: |g_main|=1.1396 |g_D2|=0.9734 |g_D4|=0.2629  cos(main,D4)=0.2392 cos(main,D2)=0.4784 cos(D4,D2)=-0.1723
+[D2only] epoch=15: |g_main|=0.5753 |g_D2|=0.7082 |g_D4|=0.2222  cos(main,D4)=0.2686 cos(main,D2)=0.6735 cos(D4,D2)=0.1380
+[D2only] epoch=20: |g_main|=0.3585 |g_D2|=0.3416 |g_D4|=0.2088  cos(main,D4)=0.3080 cos(main,D2)=0.5690 cos(D4,D2)=0.5044
+[D2only] epoch=25: |g_main|=0.4674 |g_D2|=0.5934 |g_D4|=0.2542  cos(main,D4)=0.1321 cos(main,D2)=0.7966 cos(D4,D2)=0.2892
+[D2only] epoch=30: |g_main|=0.3971 |g_D2|=0.3103 |g_D4|=0.2618  cos(main,D4)=-0.2350 cos(main,D2)=0.3982 cos(D4,D2)=0.2477
+[Both] epoch=1: |g_main|=6.0093 |g_D2|=1.3115 |g_D4|=3.4519  cos(main,D4)=-0.1363 cos(main,D2)=0.2829 cos(D4,D2)=0.4455
+[Both] epoch=5: |g_main|=3.7253 |g_D2|=3.8333 |g_D4|=3.2347  cos(main,D4)=0.6154 cos(main,D2)=0.6205 cos(D4,D2)=0.9910
+[Both] epoch=10: |g_main|=0.8328 |g_D2|=1.0620 |g_D4|=1.0037  cos(main,D4)=0.8223 cos(main,D2)=0.8224 cos(D4,D2)=0.9715
+[Both] epoch=15: |g_main|=0.4184 |g_D2|=0.4020 |g_D4|=0.3713  cos(main,D4)=0.3604 cos(main,D2)=0.5097 cos(D4,D2)=0.6092
+[Both] epoch=20: |g_main|=0.3102 |g_D2|=0.4616 |g_D4|=0.2856  cos(main,D4)=0.4981 cos(main,D2)=0.6592 cos(D4,D2)=0.5034
+[Both] epoch=25: |g_main|=0.2401 |g_D2|=0.2553 |g_D4|=0.2691  cos(main,D4)=0.5670 cos(main,D2)=0.6748 cos(D4,D2)=0.7994
+[Both] epoch=30: |g_main|=0.2447 |g_D2|=0.3440 |g_D4|=0.3085  cos(main,D4)=0.5634 cos(main,D2)=0.5911 cos(D4,D2)=0.8583
+
+Saved 21 (condition, epoch) records to E36_gradient_measurements.json

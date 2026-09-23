@@ -1,0 +1,1002 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "N_b": 0.10422587394714355,
+    "dice_original": 0.9299004077911377,
+    "dice_perturbed": 0.9139097332954407,
+    "fragility": 0.01599067449569702
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "N_b": 0.3451806902885437,
+    "dice_original": 0.9085723161697388,
+    "dice_perturbed": 0.9034869074821472,
+    "fragility": 0.005085408687591553
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "N_b": 0.321139395236969,
+    "dice_original": 0.9120258092880249,
+    "dice_perturbed": 0.9108657240867615,
+    "fragility": 0.0011600852012634277
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "N_b": 0.341431200504303,
+    "dice_original": 0.95652174949646,
+    "dice_perturbed": 0.9452877044677734,
+    "fragility": 0.011234045028686523
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "N_b": 0.12404417991638184,
+    "dice_original": 0.9171448945999146,
+    "dice_perturbed": 0.9122123718261719,
+    "fragility": 0.004932522773742676
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "N_b": 0.32568496465682983,
+    "dice_original": 0.9207834005355835,
+    "dice_perturbed": 0.9285439848899841,
+    "fragility": -0.007760584354400635
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "N_b": 0.10319912433624268,
+    "dice_original": 0.9567188024520874,
+    "dice_perturbed": 0.959342360496521,
+    "fragility": -0.0026235580444335938
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "N_b": 0.5252918899059296,
+    "dice_original": 0.9082748889923096,
+    "dice_perturbed": 0.8998035192489624,
+    "fragility": 0.008471369743347168
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "N_b": 0.31200188398361206,
+    "dice_original": 0.9572682976722717,
+    "dice_perturbed": 0.937608003616333,
+    "fragility": 0.01966029405593872
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "N_b": 0.15381509065628052,
+    "dice_original": 0.9423850178718567,
+    "dice_perturbed": 0.9326573610305786,
+    "fragility": 0.009727656841278076
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "N_b": 0.1466793417930603,
+    "dice_original": 0.9273618459701538,
+    "dice_perturbed": 0.9290279746055603,
+    "fragility": -0.0016661286354064941
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "N_b": 0.21125119924545288,
+    "dice_original": 0.9366840720176697,
+    "dice_perturbed": 0.9335799217224121,
+    "fragility": 0.0031041502952575684
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "N_b": 0.21876811981201172,
+    "dice_original": 0.7387081384658813,
+    "dice_perturbed": 0.7672896981239319,
+    "fragility": -0.028581559658050537
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "N_b": 0.569023534655571,
+    "dice_original": 0.6805555820465088,
+    "dice_perturbed": 0.7730941772460938,
+    "fragility": -0.09253859519958496
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "N_b": 0.4077543020248413,
+    "dice_original": 0.9285292625427246,
+    "dice_perturbed": 0.9183555245399475,
+    "fragility": 0.0101737380027771
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "N_b": 0.6175595819950104,
+    "dice_original": 0.9646522402763367,
+    "dice_perturbed": 0.9494278430938721,
+    "fragility": 0.0152243971824646
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "N_b": 0.30774861574172974,
+    "dice_original": 0.9586238861083984,
+    "dice_perturbed": 0.9535995125770569,
+    "fragility": 0.005024373531341553
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "N_b": 0.05951815843582153,
+    "dice_original": 0.9363111257553101,
+    "dice_perturbed": 0.9320151805877686,
+    "fragility": 0.004295945167541504
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "N_b": 0.3078410029411316,
+    "dice_original": 0.9221678972244263,
+    "dice_perturbed": 0.9371269345283508,
+    "fragility": -0.01495903730392456
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "N_b": 0.3740886449813843,
+    "dice_original": 0.9093064665794373,
+    "dice_perturbed": 0.901246964931488,
+    "fragility": 0.008059501647949219
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "N_b": 0.2672809958457947,
+    "dice_original": 0.8679696917533875,
+    "dice_perturbed": 0.8512299656867981,
+    "fragility": 0.016739726066589355
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "N_b": 0.5279592573642731,
+    "dice_original": 0.8408617377281189,
+    "dice_perturbed": 0.8366101980209351,
+    "fragility": 0.004251539707183838
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "N_b": 0.23353368043899536,
+    "dice_original": 0.897993803024292,
+    "dice_perturbed": 0.8941372632980347,
+    "fragility": 0.0038565397262573242
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "N_b": 0.12122583389282227,
+    "dice_original": 0.9055582880973816,
+    "dice_perturbed": 0.9098480939865112,
+    "fragility": -0.004289805889129639
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "N_b": 0.14374232292175293,
+    "dice_original": 0.9397988319396973,
+    "dice_perturbed": 0.938582181930542,
+    "fragility": 0.0012166500091552734
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "N_b": 0.3271137475967407,
+    "dice_original": 0.9370899200439453,
+    "dice_perturbed": 0.9178707003593445,
+    "fragility": 0.01921921968460083
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "N_b": 0.27389419078826904,
+    "dice_original": 0.8902460932731628,
+    "dice_perturbed": 0.8787932395935059,
+    "fragility": 0.011452853679656982
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "N_b": 0.5520500019192696,
+    "dice_original": 0.6872246861457825,
+    "dice_perturbed": 0.6602687239646912,
+    "fragility": 0.02695596218109131
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "N_b": 0.7286686897277832,
+    "dice_original": 0.9236947894096375,
+    "dice_perturbed": 0.8918660283088684,
+    "fragility": 0.03182876110076904
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "N_b": 0.46122443675994873,
+    "dice_original": 0.9555974006652832,
+    "dice_perturbed": 0.9531915187835693,
+    "fragility": 0.002405881881713867
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "N_b": 0.16794246435165405,
+    "dice_original": 0.7729870080947876,
+    "dice_perturbed": 0.7770605683326721,
+    "fragility": -0.0040735602378845215
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "N_b": 0.3684488534927368,
+    "dice_original": 0.9444847702980042,
+    "dice_perturbed": 0.9397547245025635,
+    "fragility": 0.004730045795440674
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "N_b": 0.24922269582748413,
+    "dice_original": 0.8011289834976196,
+    "dice_perturbed": 0.816359281539917,
+    "fragility": -0.015230298042297363
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "N_b": 0.45127636194229126,
+    "dice_original": 0.9698553681373596,
+    "dice_perturbed": 0.963309109210968,
+    "fragility": 0.0065462589263916016
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "N_b": 0.5627018213272095,
+    "dice_original": 0.9575471878051758,
+    "dice_perturbed": 0.9489971399307251,
+    "fragility": 0.008550047874450684
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "N_b": 0.6343006491661072,
+    "dice_original": 0.9643835425376892,
+    "dice_perturbed": 0.9606156349182129,
+    "fragility": 0.0037679076194763184
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "N_b": 0.0430985689163208,
+    "dice_original": 0.9592311382293701,
+    "dice_perturbed": 0.9470971822738647,
+    "fragility": 0.012133955955505371
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "N_b": 0.363497793674469,
+    "dice_original": 0.9385544061660767,
+    "dice_perturbed": 0.9319051504135132,
+    "fragility": 0.0066492557525634766
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "N_b": 0.4421892464160919,
+    "dice_original": 0.8853451609611511,
+    "dice_perturbed": 0.8624173998832703,
+    "fragility": 0.02292776107788086
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "N_b": 0.4909358024597168,
+    "dice_original": 0.8718984127044678,
+    "dice_perturbed": 0.8578723669052124,
+    "fragility": 0.014026045799255371
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "N_b": 0.5528550446033478,
+    "dice_original": 0.9489380717277527,
+    "dice_perturbed": 0.9388863444328308,
+    "fragility": 0.010051727294921875
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "N_b": 0.34974974393844604,
+    "dice_original": 0.9102563858032227,
+    "dice_perturbed": 0.903628945350647,
+    "fragility": 0.006627440452575684
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "N_b": 0.1078561544418335,
+    "dice_original": 0.9486296772956848,
+    "dice_perturbed": 0.9485368132591248,
+    "fragility": 9.28640365600586e-05
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "N_b": 0.47000694274902344,
+    "dice_original": 0.9703962802886963,
+    "dice_perturbed": 0.9631421566009521,
+    "fragility": 0.007254123687744141
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "N_b": 0.307589054107666,
+    "dice_original": 0.9676246047019958,
+    "dice_perturbed": 0.9594375491142273,
+    "fragility": 0.008187055587768555
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "N_b": 0.3385356664657593,
+    "dice_original": 0.9321175217628479,
+    "dice_perturbed": 0.9290060997009277,
+    "fragility": 0.003111422061920166
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "N_b": 0.136216938495636,
+    "dice_original": 0.941100001335144,
+    "dice_perturbed": 0.9400461316108704,
+    "fragility": 0.0010538697242736816
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "N_b": 0.18759602308273315,
+    "dice_original": 0.9513750672340393,
+    "dice_perturbed": 0.9433330297470093,
+    "fragility": 0.00804203748703003
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "N_b": 0.28306490182876587,
+    "dice_original": 0.8669773936271667,
+    "dice_perturbed": 0.8623978495597839,
+    "fragility": 0.0045795440673828125
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "N_b": 0.14729446172714233,
+    "dice_original": 0.9580898880958557,
+    "dice_perturbed": 0.9569690227508545,
+    "fragility": 0.0011208653450012207
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "N_b": 0.37944895029067993,
+    "dice_original": 0.9519903659820557,
+    "dice_perturbed": 0.9412607550621033,
+    "fragility": 0.010729610919952393
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "N_b": 0.27256906032562256,
+    "dice_original": 0.9572464823722839,
+    "dice_perturbed": 0.9526708126068115,
+    "fragility": 0.004575669765472412
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "N_b": 0.272976279258728,
+    "dice_original": 0.9450337290763855,
+    "dice_perturbed": 0.9317626953125,
+    "fragility": 0.013271033763885498
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "N_b": 0.45856767892837524,
+    "dice_original": 0.9156069159507751,
+    "dice_perturbed": 0.909808337688446,
+    "fragility": 0.0057985782623291016
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "N_b": 0.5492144525051117,
+    "dice_original": 0.9335402250289917,
+    "dice_perturbed": 0.9255744218826294,
+    "fragility": 0.007965803146362305
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "N_b": 0.32089799642562866,
+    "dice_original": 0.8319222927093506,
+    "dice_perturbed": 0.8421178460121155,
+    "fragility": -0.010195553302764893
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "N_b": 0.25843411684036255,
+    "dice_original": 0.8836688995361328,
+    "dice_perturbed": 0.8471596837043762,
+    "fragility": 0.03650921583175659
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "N_b": 0.31362026929855347,
+    "dice_original": 0.9211457967758179,
+    "dice_perturbed": 0.9247549772262573,
+    "fragility": -0.003609180450439453
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "N_b": 0.24982810020446777,
+    "dice_original": 0.860690712928772,
+    "dice_perturbed": 0.8347718715667725,
+    "fragility": 0.02591884136199951
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "N_b": -0.001693427562713623,
+    "dice_original": 0.689440131187439,
+    "dice_perturbed": 0.6889874935150146,
+    "fragility": 0.0004526376724243164
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "N_b": 0.06543076038360596,
+    "dice_original": 0.966494083404541,
+    "dice_perturbed": 0.9605659246444702,
+    "fragility": 0.005928158760070801
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "N_b": 0.3007487654685974,
+    "dice_original": 0.8398791551589966,
+    "dice_perturbed": 0.8671731948852539,
+    "fragility": -0.027294039726257324
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "N_b": 0.1940709948539734,
+    "dice_original": 0.926220178604126,
+    "dice_perturbed": 0.9103651642799377,
+    "fragility": 0.015855014324188232
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "N_b": 0.08762556314468384,
+    "dice_original": 0.9439171552658081,
+    "dice_perturbed": 0.9342501163482666,
+    "fragility": 0.009667038917541504
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "N_b": 0.43927139043807983,
+    "dice_original": 0.9028012156486511,
+    "dice_perturbed": 0.8980817198753357,
+    "fragility": 0.00471949577331543
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "N_b": 0.32801294326782227,
+    "dice_original": 0.8755267262458801,
+    "dice_perturbed": 0.8928794264793396,
+    "fragility": -0.017352700233459473
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "N_b": 0.46701326966285706,
+    "dice_original": 0.9536423683166504,
+    "dice_perturbed": 0.9487665891647339,
+    "fragility": 0.004875779151916504
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "N_b": 0.3642072081565857,
+    "dice_original": 0.9529558420181274,
+    "dice_perturbed": 0.9576654434204102,
+    "fragility": -0.004709601402282715
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "N_b": 0.2275141477584839,
+    "dice_original": 0.9207289218902588,
+    "dice_perturbed": 0.9099843502044678,
+    "fragility": 0.010744571685791016
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "N_b": 0.05873525142669678,
+    "dice_original": 0.9517152309417725,
+    "dice_perturbed": 0.9365119934082031,
+    "fragility": 0.015203237533569336
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "N_b": 0.48034366965293884,
+    "dice_original": 0.9540005326271057,
+    "dice_perturbed": 0.9494584798812866,
+    "fragility": 0.004542052745819092
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "N_b": 0.31814777851104736,
+    "dice_original": 0.9305703043937683,
+    "dice_perturbed": 0.9223267436027527,
+    "fragility": 0.008243560791015625
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "N_b": 0.34794366359710693,
+    "dice_original": 0.9587669372558594,
+    "dice_perturbed": 0.9497119188308716,
+    "fragility": 0.009055018424987793
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "N_b": 0.535283163189888,
+    "dice_original": 0.7735849022865295,
+    "dice_perturbed": 0.757709264755249,
+    "fragility": 0.015875637531280518
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "N_b": 0.2484259307384491,
+    "dice_original": 0.5483630895614624,
+    "dice_perturbed": 0.58553546667099,
+    "fragility": -0.03717237710952759
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "N_b": 0.050741612911224365,
+    "dice_original": 0.9117266535758972,
+    "dice_perturbed": 0.8976057171821594,
+    "fragility": 0.014120936393737793
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "N_b": 0.43380141258239746,
+    "dice_original": 0.9640424251556396,
+    "dice_perturbed": 0.9561036229133606,
+    "fragility": 0.007938802242279053
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "N_b": 0.1743839979171753,
+    "dice_original": 0.733837366104126,
+    "dice_perturbed": 0.7614346146583557,
+    "fragility": -0.027597248554229736
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "N_b": 0.3140462040901184,
+    "dice_original": 0.884819507598877,
+    "dice_perturbed": 0.8565552830696106,
+    "fragility": 0.028264224529266357
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "N_b": 0.20400726795196533,
+    "dice_original": 0.8180809617042542,
+    "dice_perturbed": 0.8547008633613586,
+    "fragility": -0.03661990165710449
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "N_b": 0.07725298404693604,
+    "dice_original": 0.9438148736953735,
+    "dice_perturbed": 0.9375954866409302,
+    "fragility": 0.006219387054443359
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "N_b": 0.43926048278808594,
+    "dice_original": 0.9265925288200378,
+    "dice_perturbed": 0.9179741740226746,
+    "fragility": 0.008618354797363281
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "N_b": 0.30921584367752075,
+    "dice_original": 0.9539588689804077,
+    "dice_perturbed": 0.9546555876731873,
+    "fragility": -0.000696718692779541
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "N_b": 0.10584133863449097,
+    "dice_original": 0.8390381932258606,
+    "dice_perturbed": 0.846343457698822,
+    "fragility": -0.007305264472961426
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "N_b": 0.32706332206726074,
+    "dice_original": 0.9116203188896179,
+    "dice_perturbed": 0.9186742901802063,
+    "fragility": -0.007053971290588379
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "N_b": 0.5701857805252075,
+    "dice_original": 0.9206234216690063,
+    "dice_perturbed": 0.9139672517776489,
+    "fragility": 0.006656169891357422
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "N_b": 0.49009114503860474,
+    "dice_original": 0.9697749018669128,
+    "dice_perturbed": 0.9647696614265442,
+    "fragility": 0.005005240440368652
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "N_b": 0.6649463325738907,
+    "dice_original": 0.8976377844810486,
+    "dice_perturbed": 0.8839285969734192,
+    "fragility": 0.013709187507629395
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "N_b": 0.04438990354537964,
+    "dice_original": 0.6980814337730408,
+    "dice_perturbed": 0.7279829382896423,
+    "fragility": -0.029901504516601562
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "N_b": 0.5660399198532104,
+    "dice_original": 0.9604327082633972,
+    "dice_perturbed": 0.9535207152366638,
+    "fragility": 0.0069119930267333984
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "N_b": 0.4331340193748474,
+    "dice_original": 0.8700128793716431,
+    "dice_perturbed": 0.8558729887008667,
+    "fragility": 0.014139890670776367
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "N_b": 0.36193305253982544,
+    "dice_original": 0.9574753046035767,
+    "dice_perturbed": 0.9479241371154785,
+    "fragility": 0.009551167488098145
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "N_b": 0.4858230799436569,
+    "dice_original": 0.6558441519737244,
+    "dice_perturbed": 0.5982404947280884,
+    "fragility": 0.057603657245635986
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "N_b": 0.6751991510391235,
+    "dice_original": 0.8876937627792358,
+    "dice_perturbed": 0.8778054714202881,
+    "fragility": 0.009888291358947754
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "N_b": 0.6669115796685219,
+    "dice_original": 0.7407407164573669,
+    "dice_perturbed": 0.7461773753166199,
+    "fragility": -0.00543665885925293
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "N_b": 0.12296634912490845,
+    "dice_original": 0.9310919642448425,
+    "dice_perturbed": 0.9158138632774353,
+    "fragility": 0.015278100967407227
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "N_b": 0.2998659610748291,
+    "dice_original": 0.9023836255073547,
+    "dice_perturbed": 0.8990444540977478,
+    "fragility": 0.0033391714096069336
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "N_b": 0.4217899739742279,
+    "dice_original": 0.8805277347564697,
+    "dice_perturbed": 0.8644338250160217,
+    "fragility": 0.016093909740447998
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "N_b": 0.6102218329906464,
+    "dice_original": 0.9389992952346802,
+    "dice_perturbed": 0.9382119178771973,
+    "fragility": 0.0007873773574829102
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "N_b": 0.18357592821121216,
+    "dice_original": 0.9677477478981018,
+    "dice_perturbed": 0.9615591764450073,
+    "fragility": 0.006188571453094482
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "N_b": 0.12093007564544678,
+    "dice_original": 0.9541351795196533,
+    "dice_perturbed": 0.9535226821899414,
+    "fragility": 0.0006124973297119141
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "N_b": 0.24424058198928833,
+    "dice_original": 0.9016786813735962,
+    "dice_perturbed": 0.8931764960289001,
+    "fragility": 0.008502185344696045
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "N_b": 0.12650549411773682,
+    "dice_original": 0.8147105574607849,
+    "dice_perturbed": 0.7801488637924194,
+    "fragility": 0.03456169366836548
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "N_b": 0.2567206621170044,
+    "dice_original": 0.892210841178894,
+    "dice_perturbed": 0.8701273798942566,
+    "fragility": 0.02208346128463745
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "N_b": 0.5821599513292313,
+    "dice_original": 0.7496653199195862,
+    "dice_perturbed": 0.7960911989212036,
+    "fragility": -0.04642587900161743
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "N_b": 0.08830559253692627,
+    "dice_original": 0.9543703198432922,
+    "dice_perturbed": 0.9390652775764465,
+    "fragility": 0.015305042266845703
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "N_b": 0.2457171082496643,
+    "dice_original": 0.836342453956604,
+    "dice_perturbed": 0.829286515712738,
+    "fragility": 0.007055938243865967
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "N_b": 0.3371696472167969,
+    "dice_original": 0.9311164021492004,
+    "dice_perturbed": 0.9284671545028687,
+    "fragility": 0.002649247646331787
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "N_b": 0.33000344038009644,
+    "dice_original": 0.7334558963775635,
+    "dice_perturbed": 0.8147258758544922,
+    "fragility": -0.08126997947692871
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "N_b": 0.21751803159713745,
+    "dice_original": 0.7594773769378662,
+    "dice_perturbed": 0.7932800650596619,
+    "fragility": -0.033802688121795654
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "N_b": 0.25600743293762207,
+    "dice_original": 0.9393247961997986,
+    "dice_perturbed": 0.9401747584342957,
+    "fragility": -0.0008499622344970703
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "N_b": 0.25095486640930176,
+    "dice_original": 0.8942267298698425,
+    "dice_perturbed": 0.8803630471229553,
+    "fragility": 0.013863682746887207
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "N_b": 0.7926241233944893,
+    "dice_original": 0.9272918701171875,
+    "dice_perturbed": 0.9272918701171875,
+    "fragility": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "N_b": 0.37170177698135376,
+    "dice_original": 0.9168225526809692,
+    "dice_perturbed": 0.9153465628623962,
+    "fragility": 0.001475989818572998
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "N_b": 0.3374035358428955,
+    "dice_original": 0.9454407691955566,
+    "dice_perturbed": 0.9396207332611084,
+    "fragility": 0.005820035934448242
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "N_b": 0.35925155878067017,
+    "dice_original": 0.9464995265007019,
+    "dice_perturbed": 0.9521942138671875,
+    "fragility": -0.005694687366485596
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "N_b": -0.13214129209518433,
+    "dice_original": 0.709900975227356,
+    "dice_perturbed": 0.6773585081100464,
+    "fragility": 0.03254246711730957
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "N_b": 0.44179221987724304,
+    "dice_original": 0.918140172958374,
+    "dice_perturbed": 0.901453971862793,
+    "fragility": 0.016686201095581055
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "N_b": 0.39462804794311523,
+    "dice_original": 0.9302953481674194,
+    "dice_perturbed": 0.9121061563491821,
+    "fragility": 0.018189191818237305
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "N_b": 0.09709739685058594,
+    "dice_original": 0.9385514855384827,
+    "dice_perturbed": 0.9346544146537781,
+    "fragility": 0.00389707088470459
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "N_b": 0.30039355158805847,
+    "dice_original": 0.7933679819107056,
+    "dice_perturbed": 0.8056939244270325,
+    "fragility": -0.012325942516326904
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "N_b": 0.10411930084228516,
+    "dice_original": 0.9684768319129944,
+    "dice_perturbed": 0.9506561756134033,
+    "fragility": 0.017820656299591064
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "N_b": 0.37886935472488403,
+    "dice_original": 0.8559793829917908,
+    "dice_perturbed": 0.8584474921226501,
+    "fragility": -0.002468109130859375
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "N_b": 0.5708436369895935,
+    "dice_original": 0.8667621612548828,
+    "dice_perturbed": 0.8472701907157898,
+    "fragility": 0.019491970539093018
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "N_b": 0.24749428033828735,
+    "dice_original": 0.9140014052391052,
+    "dice_perturbed": 0.9056164026260376,
+    "fragility": 0.008385002613067627
+  }
+]

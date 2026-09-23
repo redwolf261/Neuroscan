@@ -1,0 +1,39 @@
+==========================================================================================
+POPULATION: L   (n=58, crossings=14/58 = 24.1%)
+==========================================================================================
+
+1. MAGNITUDE: Delta_E^cross vs Delta_E^noncross
+   cross    (n=14): median=+25.5042  mean=+19.7740
+   noncross (n=44): median=+4.7312  mean=+6.6929
+   Mann-Whitney p = 2.338e-03
+
+2. subject-grouped AUC(Delta_E -> crossing)
+   AUC = 0.7468   (0.5 = chance)
+
+3. partial correlation(Delta_E, crossing | reactivity)
+   raw corr     r=+0.4838  p=1.193e-04
+   partial | reactivity   r=+0.3522  p=6.697e-03   SURVIVES
+
+==========================================================================================
+POPULATION: H   (n=74, crossings=7/74 = 9.5%)
+==========================================================================================
+
+1. MAGNITUDE: Delta_E^cross vs Delta_E^noncross
+   cross    (n=7): median=+23.7690  mean=+19.7905
+   noncross (n=67): median=-0.4960  mean=-0.4231
+   Mann-Whitney p = 1.045e-07
+
+2. subject-grouped AUC(Delta_E -> crossing)
+   AUC = 0.9787   (0.5 = chance)
+
+3. partial correlation(Delta_E, crossing | reactivity)
+   raw corr     r=+0.7501  p=1.452e-14
+   partial | reactivity   r=+0.0796  p=5.004e-01   DOES NOT SURVIVE
+
+==========================================================================================
+VERDICT
+==========================================================================================
+  L: magnitude-separated=True  AUC=0.747 (>0.65=True)  survives reactivity control=True
+  H: AUC=0.979 (>0.65=True)  survives reactivity control=False
+
+  ==> PASS -- Delta_E predicts crossing specifically for L, survives reactivity control, and does not generalise to H. Architecture design is now licensed.

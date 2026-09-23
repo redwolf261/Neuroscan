@@ -1,0 +1,23 @@
+{
+  "n_subjects": 125,
+  "n_partitions_sampled": 6,
+  "mean_gamma_overall": -0.022244309728344284,
+  "size_dependence": {
+    "rho": -0.28718279569892474,
+    "parametric_p": 0.0011653433111819393,
+    "permutation_p": 0.001
+  },
+  "small_lesion": {
+    "n": 62,
+    "mean_gamma": -0.006145716304340026,
+    "t": -0.6316806938331457,
+    "p": 0.5299557858952514
+  },
+  "large_lesion": {
+    "n": 63,
+    "mean_gamma": -0.038087369923396085,
+    "t": -10.028344057769738,
+    "p": 1.3374331454106367e-14
+  },
+  "verdict": "DBC_KILLED_PHENOMENON_DOES_NOT_REPRODUCE"
+}

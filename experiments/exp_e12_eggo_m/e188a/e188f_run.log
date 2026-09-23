@@ -1,0 +1,56 @@
+Device: cuda
+[Sanity] checkpoint identity PASS (best_mean_dice=0.8929357248544694).
+[Check] ||P@P - P||_max = 7.451e-08 (projector idempotent)
+[Check] W singular values: [5.1343, 1.8665, 1.1756]  top-dir energy=0.8442
+  [BraTS-GLI-01041-000] eps= 4.0 nat=0.8774 | full=+0.0001 par=+0.0001 perp=+0.0000 | parR=-0.0018 perpR=+0.0000 rev=-0.0501 | E_par=0.661 leak=2.26e-06
+  [BraTS-GLI-01041-000] eps= 8.0 nat=0.8774 | full=-0.0105 par=-0.0106 perp=+0.0000 | parR=-0.0161 perpR=+0.0000 rev=-0.4980 | E_par=0.661 leak=4.53e-06
+  [BraTS-GLI-01041-000] eps=12.0 nat=0.8774 | full=-0.0237 par=-0.0237 perp=+0.0000 | parR=-0.0340 perpR=+0.0000 rev=-0.8106 | E_par=0.661 leak=6.68e-06
+  [BraTS-GLI-01041-000] eps=14.0 nat=0.8774 | full=-0.0312 par=-0.0312 perp=+0.0000 | parR=-0.0439 perpR=+0.0000 rev=-0.8494 | E_par=0.661 leak=7.63e-06
+[1/10] BraTS-GLI-01041-000 done
+  [BraTS-GLI-01161-000] eps= 4.0 nat=0.9589 | full=+0.0151 par=+0.0151 perp=-0.0000 | parR=+0.0183 perpR=+0.0000 rev=-0.0468 | E_par=0.454 leak=2.09e-06
+  [BraTS-GLI-01161-000] eps= 8.0 nat=0.9589 | full=+0.0205 par=+0.0205 perp=-0.0000 | parR=+0.0219 perpR=+0.0000 rev=-0.3585 | E_par=0.454 leak=4.17e-06
+  [BraTS-GLI-01161-000] eps=12.0 nat=0.9589 | full=+0.0219 par=+0.0219 perp=+0.0000 | parR=+0.0176 perpR=-0.0000 rev=-0.7483 | E_par=0.454 leak=6.20e-06
+  [BraTS-GLI-01161-000] eps=14.0 nat=0.9589 | full=+0.0212 par=+0.0212 perp=+0.0000 | parR=+0.0129 perpR=+0.0000 rev=-0.8355 | E_par=0.454 leak=6.91e-06
+[2/10] BraTS-GLI-01161-000 done
+  [BraTS-GLI-01189-000] eps= 4.0 nat=0.8364 | full=+0.0126 par=+0.0126 perp=+0.0000 | parR=+0.0152 perpR=+0.0000 rev=-0.0495 | E_par=0.558 leak=2.15e-06
+  [BraTS-GLI-01189-000] eps= 8.0 nat=0.8364 | full=+0.0195 par=+0.0195 perp=+0.0000 | parR=+0.0227 perpR=+0.0000 rev=-0.4323 | E_par=0.558 leak=4.29e-06
+  [BraTS-GLI-01189-000] eps=12.0 nat=0.8364 | full=+0.0239 par=+0.0239 perp=+0.0000 | parR=+0.0267 perpR=+0.0000 rev=-0.7534 | E_par=0.558 leak=6.20e-06
+  [BraTS-GLI-01189-000] eps=14.0 nat=0.8364 | full=+0.0254 par=+0.0254 perp=+0.0000 | parR=+0.0275 perpR=+0.0000 rev=-0.8103 | E_par=0.558 leak=7.39e-06
+[3/10] BraTS-GLI-01189-000 done
+  [BraTS-GLI-01336-000] eps= 4.0 nat=0.9404 | full=+0.0151 par=+0.0151 perp=+0.0000 | parR=+0.0168 perpR=+0.0000 rev=-0.0393 | E_par=0.645 leak=1.91e-06
+  [BraTS-GLI-01336-000] eps= 8.0 nat=0.9404 | full=+0.0193 par=+0.0193 perp=+0.0000 | parR=+0.0196 perpR=+0.0000 rev=-0.3850 | E_par=0.645 leak=3.81e-06
+  [BraTS-GLI-01336-000] eps=12.0 nat=0.9404 | full=+0.0192 par=+0.0192 perp=+0.0000 | parR=+0.0175 perpR=+0.0000 rev=-0.5174 | E_par=0.645 leak=5.72e-06
+  [BraTS-GLI-01336-000] eps=14.0 nat=0.9404 | full=+0.0182 par=+0.0182 perp=+0.0000 | parR=+0.0155 perpR=+0.0000 rev=-0.6092 | E_par=0.645 leak=7.15e-06
+[4/10] BraTS-GLI-01336-000 done
+  [BraTS-GLI-00250-000] eps= 4.0 nat=0.9603 | full=+0.0058 par=+0.0058 perp=-0.0000 | parR=+0.0066 perpR=-0.0000 rev=-0.0172 | E_par=0.660 leak=1.85e-06
+  [BraTS-GLI-00250-000] eps= 8.0 nat=0.9603 | full=+0.0076 par=+0.0076 perp=+0.0000 | parR=+0.0076 perpR=-0.0000 rev=-0.2867 | E_par=0.660 leak=3.70e-06
+  [BraTS-GLI-00250-000] eps=12.0 nat=0.9603 | full=+0.0068 par=+0.0068 perp=-0.0000 | parR=+0.0044 perpR=+0.0000 rev=-0.3499 | E_par=0.660 leak=5.25e-06
+  [BraTS-GLI-00250-000] eps=14.0 nat=0.9603 | full=+0.0053 par=+0.0053 perp=-0.0000 | parR=-0.0000 perpR=-0.0000 rev=-0.3831 | E_par=0.660 leak=5.72e-06
+[5/10] BraTS-GLI-00250-000 done
+  [BraTS-GLI-00501-000] eps= 4.0 nat=0.8391 | full=+0.0333 par=+0.0333 perp=-0.0001 | parR=+0.0403 perpR=-0.0001 rev=-0.1469 | E_par=0.559 leak=2.03e-06
+  [BraTS-GLI-00501-000] eps= 8.0 nat=0.8391 | full=+0.0466 par=+0.0466 perp=-0.0001 | parR=+0.0351 perpR=-0.0000 rev=-0.3883 | E_par=0.559 leak=4.05e-06
+  [BraTS-GLI-00501-000] eps=12.0 nat=0.8391 | full=+0.0213 par=+0.0213 perp=-0.0001 | parR=-0.0791 perpR=-0.0000 rev=-0.6118 | E_par=0.559 leak=6.44e-06
+  [BraTS-GLI-00501-000] eps=14.0 nat=0.8391 | full=-0.0150 par=-0.0151 perp=-0.0001 | parR=-0.1516 perpR=-0.0000 rev=-0.7008 | E_par=0.559 leak=6.68e-06
+[6/10] BraTS-GLI-00501-000 done
+  [BraTS-GLI-01093-000] eps= 4.0 nat=0.9709 | full=+0.0002 par=+0.0002 perp=+0.0000 | parR=-0.0009 perpR=+0.0000 rev=-0.0435 | E_par=0.558 leak=1.97e-06
+  [BraTS-GLI-01093-000] eps= 8.0 nat=0.9709 | full=-0.0032 par=-0.0032 perp=-0.0000 | parR=-0.0131 perpR=+0.0000 rev=-0.3300 | E_par=0.558 leak=3.93e-06
+  [BraTS-GLI-01093-000] eps=12.0 nat=0.9709 | full=-0.0254 par=-0.0254 perp=-0.0000 | parR=-0.0770 perpR=+0.0000 rev=-0.4507 | E_par=0.558 leak=5.84e-06
+  [BraTS-GLI-01093-000] eps=14.0 nat=0.9709 | full=-0.0524 par=-0.0524 perp=-0.0000 | parR=-0.0978 perpR=-0.0000 rev=-0.5581 | E_par=0.558 leak=6.68e-06
+[7/10] BraTS-GLI-01093-000 done
+  [BraTS-GLI-01168-000] eps= 4.0 nat=0.9634 | full=+0.0041 par=+0.0041 perp=+0.0000 | parR=+0.0040 perpR=+0.0000 rev=-0.0237 | E_par=0.513 leak=2.15e-06
+  [BraTS-GLI-01168-000] eps= 8.0 nat=0.9634 | full=+0.0034 par=+0.0034 perp=+0.0000 | parR=+0.0020 perpR=+0.0000 rev=-0.3676 | E_par=0.513 leak=4.29e-06
+  [BraTS-GLI-01168-000] eps=12.0 nat=0.9634 | full=+0.0017 par=+0.0017 perp=+0.0000 | parR=-0.0007 perpR=+0.0000 rev=-0.7534 | E_par=0.513 leak=5.96e-06
+  [BraTS-GLI-01168-000] eps=14.0 nat=0.9634 | full=+0.0008 par=+0.0008 perp=+0.0000 | parR=-0.0022 perpR=+0.0000 rev=-0.8179 | E_par=0.513 leak=7.39e-06
+[8/10] BraTS-GLI-01168-000 done
+  [BraTS-GLI-00506-000] eps= 4.0 nat=0.9560 | full=+0.0100 par=+0.0100 perp=+0.0000 | parR=+0.0116 perpR=+0.0000 rev=-0.0279 | E_par=0.575 leak=2.26e-06
+  [BraTS-GLI-00506-000] eps= 8.0 nat=0.9560 | full=+0.0132 par=+0.0132 perp=-0.0000 | parR=+0.0142 perpR=+0.0000 rev=-0.3134 | E_par=0.575 leak=4.53e-06
+  [BraTS-GLI-00506-000] eps=12.0 nat=0.9560 | full=+0.0146 par=+0.0146 perp=+0.0000 | parR=+0.0146 perpR=+0.0000 rev=-0.5455 | E_par=0.575 leak=6.20e-06
+  [BraTS-GLI-00506-000] eps=14.0 nat=0.9560 | full=+0.0147 par=+0.0147 perp=-0.0000 | parR=+0.0144 perpR=-0.0000 rev=-0.6951 | E_par=0.575 leak=7.15e-06
+[9/10] BraTS-GLI-00506-000 done
+  [BraTS-GLI-01065-000] eps= 4.0 nat=0.9573 | full=-0.0024 par=-0.0024 perp=+0.0000 | parR=-0.0033 perpR=-0.0000 rev=-0.0159 | E_par=0.631 leak=2.03e-06
+  [BraTS-GLI-01065-000] eps= 8.0 nat=0.9573 | full=-0.0056 par=-0.0056 perp=+0.0000 | parR=-0.0075 perpR=+0.0000 rev=-0.3660 | E_par=0.631 leak=4.07e-06
+  [BraTS-GLI-01065-000] eps=12.0 nat=0.9573 | full=-0.0090 par=-0.0090 perp=+0.0000 | parR=-0.0117 perpR=+0.0000 rev=-0.5824 | E_par=0.631 leak=5.96e-06
+  [BraTS-GLI-01065-000] eps=14.0 nat=0.9573 | full=-0.0106 par=-0.0106 perp=+0.0000 | parR=-0.0154 perpR=+0.0000 rev=-0.6863 | E_par=0.631 leak=6.68e-06
+[10/10] BraTS-GLI-01065-000 done
+
+Saved E188F_raw.json (10 subjects)

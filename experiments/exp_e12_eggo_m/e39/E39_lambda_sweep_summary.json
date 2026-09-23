@@ -1,0 +1,26 @@
+{
+  "A_lambda0": {
+    "lambda_ds3": 0.0,
+    "best_val_dice": 0.9080583415925503
+  },
+  "lambda_0.125": {
+    "lambda_ds3": 0.125,
+    "best_val_dice": 0.9086410403251648
+  },
+  "lambda_0.25": {
+    "lambda_ds3": 0.25,
+    "best_val_dice": 0.9108635745942593
+  },
+  "lambda_0.5": {
+    "lambda_ds3": 0.5,
+    "best_val_dice": 0.9103230088949203
+  },
+  "lambda_1.0": {
+    "lambda_ds3": 1.0,
+    "best_val_dice": 0.9104446619749069
+  },
+  "lambda_2.0": {
+    "lambda_ds3": 2.0,
+    "best_val_dice": 0.9086411409080029
+  }
+}

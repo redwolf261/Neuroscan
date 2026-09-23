@@ -1,0 +1,24 @@
+{
+  "n_subjects": 125,
+  "mm_per_voxel": {
+    "x": 3.75,
+    "y": 3.75,
+    "z": 2.421875
+  },
+  "K_means": {
+    "tensor_dim0_+3": 0.05299996686609186,
+    "tensor_dim0_-3": 0.0478148192450501,
+    "tensor_dim1_+3": 0.040228741254425895,
+    "tensor_dim1_-3": 0.046955872430500444,
+    "tensor_dim2_+3": 0.03390904220319415,
+    "tensor_dim2_-3": 0.04825859071097557,
+    "dim0_matched": 0.04386565913419095,
+    "dim1_matched": 0.03798192988992554,
+    "dim2_matched": 0.03390904220319415
+  },
+  "voxel_matched_effect_size": 0.01909092466289771,
+  "physical_matched_effect_size": 0.009956616930996802,
+  "physical_matched_ttest_p": 0.14221102027730778,
+  "physical_matched_wilcoxon_p": 0.135077908241863,
+  "confound_reading": "AMBIGUOUS: the physical-matched comparison is not clearly significant either way -- report as inconclusive, not as a confirmed finding in either direction."
+}

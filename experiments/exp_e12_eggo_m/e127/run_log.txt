@@ -1,0 +1,46 @@
+Device: cuda
+[Unit test] residual_summaries PASS (identical->S1=0,S3=1; disjoint->S3=1/C; unanimous->S3=1; peaked S2=0.922 < flat S2=1.000).
+Loaded E124 table (125 subjects) for the effective-rank control.
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00 PASS.
+
+Extracting label-blind residual summaries for 125 subjects...
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+Total subjects: 125
+
+N_b: mean=0.2717 std=0.1733 (cross-check vs established ~0.27 range)
+  S1 magnitude              : mean=0.3029 std=0.0260
+  S2 spatial-concentration  : mean=0.9018 std=0.0031
+  S3 channel-agreement      : mean=0.3705 std=0.0094
+  E126 effective rank       : mean=0.1912 std=0.0083
+
+=== Marginal correlations with N_b (context only, NOT sufficient for survival) ===
+  Spearman(S1, N_b) = +0.4523 (p=1.1908e-07)
+  Spearman(S2, N_b) = +0.4342 (p=4.2083e-07)
+  Spearman(S3, N_b) = +0.6266 (p=5.4529e-15)
+  Spearman(effective_rank, N_b) = +0.6827 (p=1.8077e-18)
+
+=== Collinearity of each summary with E126's effective rank ===
+  Spearman(S1, effective_rank) = +0.8526 (p=1.8026e-36)
+  Spearman(S2, effective_rank) = +0.7601 (p=8.8893e-25)
+  Spearman(S3, effective_rank) = +0.8398 (p=2.0163e-34)
+
+=== DECISIVE TEST: incremental over Model A (N_b ~ size + dice_error + effective_rank) ===
+  Model A baseline R^2 = 0.7853
+  Survival bar: Delta R^2 > 0.01 AND perm p < 0.05
+
+  S1 magnitude alone      : Delta R^2 = +0.0013, perm p = 0.3710, coef(s) = [0.6028]
+  S2 spatial-conc alone   : Delta R^2 = +0.0168, perm p = 0.0040, coef(s) = [-10.3077]
+  S3 channel-agree alone  : Delta R^2 = +0.0000, perm p = 0.8500, coef(s) = [0.228]
+  all three jointly       : Delta R^2 = +0.0260, perm p = 0.0000, coef(s) = [  1.7253 -13.671    0.8112]
+
+=== DECISION ===
+SURVIVES_INCREMENTAL_BAR
+Survives for: ['S2_alone', 'all_three']. These summaries add predictive information about N_b BEYOND E126's effective rank plus size and Dice error. This is evidence for a transition property distinct from effective rank. It is NOT yet 'complementary information' -- at this stage it is only label-blind discarded-residual structure. Next step is a prior-art audit, NOT architecture implementation.
+
+Saved E127_summary.json, E127_per_subject_table.json

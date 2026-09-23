@@ -1,0 +1,489 @@
+{
+  "sparse_but_correct": [
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 20.190359115600586,
+      "rho": 0.5503551027525815,
+      "abs_latent_bd": 0.8731994817896919,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 6.675464630126953,
+      "rho": 2.9080817662637353,
+      "abs_latent_bd": 0.9414853512464496,
+      "correct": true,
+      "ground_truth_tumor": true
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 24.219200134277344,
+      "rho": 0.7582508898468407,
+      "abs_latent_bd": 1.8876883244525606,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 5.791618347167969,
+      "rho": 3.391008447056828,
+      "abs_latent_bd": 1.2311705227855103,
+      "correct": true,
+      "ground_truth_tumor": true
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 20.165925979614258,
+      "rho": 0.6509095123370855,
+      "abs_latent_bd": 0.9641746121237126,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.66627311706543,
+      "rho": 0.527839654886548,
+      "abs_latent_bd": 0.648709510367791,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 23.56891441345215,
+      "rho": 0.5242061888479755,
+      "abs_latent_bd": 1.9442126627131204,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 22.052288055419922,
+      "rho": 0.7877980996777927,
+      "abs_latent_bd": 2.361257124602244,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 19.408554077148438,
+      "rho": 0.5487945861595114,
+      "abs_latent_bd": 2.2875302622133202,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 22.091384887695312,
+      "rho": 0.6456857300892026,
+      "abs_latent_bd": 1.4371457295244046,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 22.74182891845703,
+      "rho": 0.6367609093067719,
+      "abs_latent_bd": 1.5741079422514668,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 22.257080078125,
+      "rho": 0.7187350663394684,
+      "abs_latent_bd": 1.989437681758238,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 21.055614471435547,
+      "rho": 0.8042751047832241,
+      "abs_latent_bd": 2.354382135510191,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 19.85373878479004,
+      "rho": 0.6655510666430919,
+      "abs_latent_bd": 2.298899598509723,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 21.23427963256836,
+      "rho": 1.2322626835750103,
+      "abs_latent_bd": 1.325189124438955,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 21.488506317138672,
+      "rho": 0.9198689091448493,
+      "abs_latent_bd": 2.2844232469381436,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 20.67755889892578,
+      "rho": 0.5103114986453375,
+      "abs_latent_bd": 0.6056261506815668,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.402698516845703,
+      "rho": 0.5133029360521137,
+      "abs_latent_bd": 0.5940351017662949,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.459001541137695,
+      "rho": 0.49753878723518097,
+      "abs_latent_bd": 2.2176186599762673,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.464384078979492,
+      "rho": 0.5314801536377856,
+      "abs_latent_bd": 0.8561045165458085,
+      "correct": true,
+      "ground_truth_tumor": false
+    }
+  ],
+  "dense_but_incorrect": [],
+  "near_boundary_high_evidence": [
+    {
+      "subject_id": "BraTS-GLI-01161-000",
+      "evidence": 23.056570053100586,
+      "rho": 1.8183397789916296,
+      "abs_latent_bd": 0.46493314205194747,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01336-000",
+      "evidence": 23.967424392700195,
+      "rho": 2.336670049938351,
+      "abs_latent_bd": 0.04104525289638827,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00250-000",
+      "evidence": 25.989097595214844,
+      "rho": 2.1089329283794824,
+      "abs_latent_bd": 0.23643737561729705,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00250-000",
+      "evidence": 27.191545486450195,
+      "rho": 2.778871412952611,
+      "abs_latent_bd": 0.1970851118659911,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00250-000",
+      "evidence": 24.659250259399414,
+      "rho": 2.412150083499039,
+      "abs_latent_bd": 0.020519263394841922,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "evidence": 23.473472595214844,
+      "rho": 1.9954255630336242,
+      "abs_latent_bd": 0.33779740114666496,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "evidence": 22.252704620361328,
+      "rho": 0.8964042460679036,
+      "abs_latent_bd": 0.02344883856747858,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "evidence": 22.826763153076172,
+      "rho": 1.1845055107211695,
+      "abs_latent_bd": 0.09844376573183782,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "evidence": 22.427743911743164,
+      "rho": 0.8704353727155902,
+      "abs_latent_bd": 0.11060744433595462,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01093-000",
+      "evidence": 22.714717864990234,
+      "rho": 1.952780466629568,
+      "abs_latent_bd": 0.041607325471614116,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01093-000",
+      "evidence": 22.932462692260742,
+      "rho": 1.2850514286076666,
+      "abs_latent_bd": 0.19280420688221464,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01168-000",
+      "evidence": 23.815370559692383,
+      "rho": 0.8200345608319815,
+      "abs_latent_bd": 0.413084805385996,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01168-000",
+      "evidence": 22.97779083251953,
+      "rho": 0.9328391801625614,
+      "abs_latent_bd": 0.2117680942405556,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01168-000",
+      "evidence": 24.613645553588867,
+      "rho": 2.598957909937432,
+      "abs_latent_bd": 0.293616835627515,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01065-000",
+      "evidence": 22.394311904907227,
+      "rho": 1.2369573975343524,
+      "abs_latent_bd": 0.21355299684827253,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01065-000",
+      "evidence": 22.910236358642578,
+      "rho": 2.2792218784091047,
+      "abs_latent_bd": 0.17839835258834047,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01444-000",
+      "evidence": 24.746952056884766,
+      "rho": 2.749963996657647,
+      "abs_latent_bd": 0.42480484401273516,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01326-000",
+      "evidence": 23.315847396850586,
+      "rho": 0.819536295792471,
+      "abs_latent_bd": 0.2083092311751649,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01326-000",
+      "evidence": 22.561878204345703,
+      "rho": 0.7369807354370502,
+      "abs_latent_bd": 0.23362680579639275,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-00764-000",
+      "evidence": 23.21590805053711,
+      "rho": 1.2807256509021994,
+      "abs_latent_bd": 0.4513246841394788,
+      "correct": true,
+      "ground_truth_tumor": false
+    }
+  ],
+  "far_boundary_low_evidence": [
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.43448257446289,
+      "rho": 0.16245591728251904,
+      "abs_latent_bd": 2.1520889248512165,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.459001541137695,
+      "rho": 0.49753878723518097,
+      "abs_latent_bd": 2.2176186599762673,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.462797164916992,
+      "rho": 0.5308637426775287,
+      "abs_latent_bd": 2.524858256556658,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.54006576538086,
+      "rho": 0.22052277424223346,
+      "abs_latent_bd": 2.1511223345101205,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 17.976259231567383,
+      "rho": 0.6292647956354961,
+      "abs_latent_bd": 2.1623550025887113,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.35643768310547,
+      "rho": 0.37256958088947645,
+      "abs_latent_bd": 2.2219466400109202,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.111412048339844,
+      "rho": 0.34221029131308633,
+      "abs_latent_bd": 2.530348529582201,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.456546783447266,
+      "rho": 0.30484029496728043,
+      "abs_latent_bd": 2.1630344063002163,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.601041793823242,
+      "rho": 0.5034188645629671,
+      "abs_latent_bd": 2.2162582090168916,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.398250579833984,
+      "rho": 0.35921986895038904,
+      "abs_latent_bd": 2.2790537942380618,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 16.895362854003906,
+      "rho": 0.5105957046413513,
+      "abs_latent_bd": 2.397866027718917,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 17.860788345336914,
+      "rho": 0.3212880735031974,
+      "abs_latent_bd": 2.354264352788626,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 17.968542098999023,
+      "rho": 0.896990836087916,
+      "abs_latent_bd": 2.3810878029720985,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.611324310302734,
+      "rho": 0.18569666562596593,
+      "abs_latent_bd": 2.1488767097093424,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.501480102539062,
+      "rho": 0.17066166551760914,
+      "abs_latent_bd": 2.1605667962219353,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.528108596801758,
+      "rho": 0.3902656640252266,
+      "abs_latent_bd": 2.247882003978747,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 17.011022567749023,
+      "rho": 0.5917495073447883,
+      "abs_latent_bd": 2.3325604560884234,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.682096481323242,
+      "rho": 0.26102511807240136,
+      "abs_latent_bd": 2.1452665357051997,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 17.41810417175293,
+      "rho": 0.8051415383490819,
+      "abs_latent_bd": 2.169709688923805,
+      "correct": true,
+      "ground_truth_tumor": false
+    },
+    {
+      "subject_id": "BraTS-GLI-01041-000",
+      "evidence": 18.444608688354492,
+      "rho": 0.3013831473381702,
+      "abs_latent_bd": 2.4921748631390583,
+      "correct": true,
+      "ground_truth_tumor": false
+    }
+  ]
+}

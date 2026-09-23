@@ -1,0 +1,2377 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "lesion_octant": [
+      0,
+      0,
+      0
+    ],
+    "far_octant": [
+      1,
+      1,
+      1
+    ],
+    "dice_intact": 0.9198209047317505,
+    "dice_lesion_oct": 0.8358407020568848,
+    "drop_lesion_oct": 0.08398020267486572,
+    "dice_far_oct": 0.9202927947044373,
+    "drop_far_oct": -0.0004718899726867676
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.9040719866752625,
+    "dice_lesion_oct": 0.8637992739677429,
+    "drop_lesion_oct": 0.04027271270751953,
+    "dice_far_oct": 0.9051763415336609,
+    "drop_far_oct": -0.0011043548583984375
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.8764529824256897,
+    "dice_lesion_oct": 0.858405590057373,
+    "drop_lesion_oct": 0.01804739236831665,
+    "dice_far_oct": 0.8370323181152344,
+    "drop_far_oct": 0.03942066431045532
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9548022747039795,
+    "dice_lesion_oct": 0.9332846999168396,
+    "drop_lesion_oct": 0.021517574787139893,
+    "dice_far_oct": 0.9166101813316345,
+    "drop_far_oct": 0.03819209337234497
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.925293505191803,
+    "dice_lesion_oct": 0.9081632494926453,
+    "drop_lesion_oct": 0.017130255699157715,
+    "dice_far_oct": 0.925320029258728,
+    "drop_far_oct": -2.6524066925048828e-05
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9133588075637817,
+    "dice_lesion_oct": 0.9040206074714661,
+    "drop_lesion_oct": 0.009338200092315674,
+    "dice_far_oct": 0.8812592029571533,
+    "drop_far_oct": 0.03209960460662842
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9587125182151794,
+    "dice_lesion_oct": 0.9201255440711975,
+    "drop_lesion_oct": 0.038586974143981934,
+    "dice_far_oct": 0.9589436054229736,
+    "drop_far_oct": -0.00023108720779418945
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9098250269889832,
+    "dice_lesion_oct": 0.911630392074585,
+    "drop_lesion_oct": -0.0018053650856018066,
+    "dice_far_oct": 0.8498241901397705,
+    "drop_far_oct": 0.060000836849212646
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9527438879013062,
+    "dice_lesion_oct": 0.9553264379501343,
+    "drop_lesion_oct": -0.002582550048828125,
+    "dice_far_oct": 0.9421519041061401,
+    "drop_far_oct": 0.010591983795166016
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9421087503433228,
+    "dice_lesion_oct": 0.9396184086799622,
+    "drop_lesion_oct": 0.0024903416633605957,
+    "dice_far_oct": 0.9430393576622009,
+    "drop_far_oct": -0.0009306073188781738
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9276329874992371,
+    "dice_lesion_oct": 0.9094727635383606,
+    "drop_lesion_oct": 0.018160223960876465,
+    "dice_far_oct": 0.9159672856330872,
+    "drop_far_oct": 0.011665701866149902
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9374700784683228,
+    "dice_lesion_oct": 0.9245050549507141,
+    "drop_lesion_oct": 0.012965023517608643,
+    "dice_far_oct": 0.933743953704834,
+    "drop_far_oct": 0.0037261247634887695
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.7196969985961914,
+    "dice_lesion_oct": 0.6965712904930115,
+    "drop_lesion_oct": 0.02312570810317993,
+    "dice_far_oct": 0.7200201749801636,
+    "drop_far_oct": -0.00032317638397216797
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.7230769395828247,
+    "dice_lesion_oct": 0.37882351875305176,
+    "drop_lesion_oct": 0.34425342082977295,
+    "dice_far_oct": 0.7230769395828247,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.931506872177124,
+    "dice_lesion_oct": 0.9307737350463867,
+    "drop_lesion_oct": 0.0007331371307373047,
+    "dice_far_oct": 0.920772135257721,
+    "drop_far_oct": 0.010734736919403076
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.957360029220581,
+    "dice_lesion_oct": 0.9577671885490417,
+    "drop_lesion_oct": -0.00040715932846069336,
+    "dice_far_oct": 0.8977746963500977,
+    "drop_far_oct": 0.0595853328704834
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9546754956245422,
+    "dice_lesion_oct": 0.9486322402954102,
+    "drop_lesion_oct": 0.00604325532913208,
+    "dice_far_oct": 0.9486757516860962,
+    "drop_far_oct": 0.005999743938446045
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9333733320236206,
+    "dice_lesion_oct": 0.9338462948799133,
+    "drop_lesion_oct": -0.0004729628562927246,
+    "dice_far_oct": 0.9325548410415649,
+    "drop_far_oct": 0.0008184909820556641
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9121756553649902,
+    "dice_lesion_oct": 0.9132602214813232,
+    "drop_lesion_oct": -0.0010845661163330078,
+    "dice_far_oct": 0.9116650223731995,
+    "drop_far_oct": 0.0005106329917907715
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9309354424476624,
+    "dice_lesion_oct": 0.9073141813278198,
+    "drop_lesion_oct": 0.02362126111984253,
+    "dice_far_oct": 0.9306541681289673,
+    "drop_far_oct": 0.00028127431869506836
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.8907057046890259,
+    "dice_lesion_oct": 0.8190513253211975,
+    "drop_lesion_oct": 0.07165437936782837,
+    "dice_far_oct": 0.8910380601882935,
+    "drop_far_oct": -0.0003323554992675781
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.8436619639396667,
+    "dice_lesion_oct": 0.8606832027435303,
+    "drop_lesion_oct": -0.017021238803863525,
+    "dice_far_oct": 0.7316030263900757,
+    "drop_far_oct": 0.11205893754959106
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9034660458564758,
+    "dice_lesion_oct": 0.915529727935791,
+    "drop_lesion_oct": -0.012063682079315186,
+    "dice_far_oct": 0.9034660458564758,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.920135498046875,
+    "dice_lesion_oct": 0.9108374118804932,
+    "drop_lesion_oct": 0.009298086166381836,
+    "dice_far_oct": 0.920135498046875,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.93727707862854,
+    "dice_lesion_oct": 0.9243063926696777,
+    "drop_lesion_oct": 0.012970685958862305,
+    "dice_far_oct": 0.9376114010810852,
+    "drop_far_oct": -0.000334322452545166
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9407265782356262,
+    "dice_lesion_oct": 0.8837380409240723,
+    "drop_lesion_oct": 0.056988537311553955,
+    "dice_far_oct": 0.9407265782356262,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.8822957873344421,
+    "dice_lesion_oct": 0.8802829384803772,
+    "drop_lesion_oct": 0.0020128488540649414,
+    "dice_far_oct": 0.8813619017601013,
+    "drop_far_oct": 0.0009338855743408203
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.7586206793785095,
+    "dice_lesion_oct": 0.7813765406608582,
+    "drop_lesion_oct": -0.022755861282348633,
+    "dice_far_oct": 0.6376811861991882,
+    "drop_far_oct": 0.12093949317932129
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9056243896484375,
+    "dice_lesion_oct": 0.6732673048973083,
+    "drop_lesion_oct": 0.23235708475112915,
+    "dice_far_oct": 0.7021433711051941,
+    "drop_far_oct": 0.2034810185432434
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9574551582336426,
+    "dice_lesion_oct": 0.9461588263511658,
+    "drop_lesion_oct": 0.011296331882476807,
+    "dice_far_oct": 0.914707362651825,
+    "drop_far_oct": 0.04274779558181763
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.7872617840766907,
+    "dice_lesion_oct": 0.7951621413230896,
+    "drop_lesion_oct": -0.007900357246398926,
+    "dice_far_oct": 0.7761266827583313,
+    "drop_far_oct": 0.011135101318359375
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9529163837432861,
+    "dice_lesion_oct": 0.9310783743858337,
+    "drop_lesion_oct": 0.021838009357452393,
+    "dice_far_oct": 0.9237316846847534,
+    "drop_far_oct": 0.029184699058532715
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.7284345030784607,
+    "dice_lesion_oct": 0.6875481605529785,
+    "drop_lesion_oct": 0.04088634252548218,
+    "dice_far_oct": 0.7281219363212585,
+    "drop_far_oct": 0.00031256675720214844
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9712352156639099,
+    "dice_lesion_oct": 0.8723565936088562,
+    "drop_lesion_oct": 0.09887862205505371,
+    "dice_far_oct": 0.9710806608200073,
+    "drop_far_oct": 0.0001545548439025879
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9654581546783447,
+    "dice_lesion_oct": 0.9624999761581421,
+    "drop_lesion_oct": 0.0029581785202026367,
+    "dice_far_oct": 0.8553363680839539,
+    "drop_far_oct": 0.11012178659439087
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9577965140342712,
+    "dice_lesion_oct": 0.9541041254997253,
+    "drop_lesion_oct": 0.0036923885345458984,
+    "dice_far_oct": 0.9577965140342712,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9562926292419434,
+    "dice_lesion_oct": 0.9537109732627869,
+    "drop_lesion_oct": 0.002581655979156494,
+    "dice_far_oct": 0.9562926292419434,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9493786096572876,
+    "dice_lesion_oct": 0.9289515018463135,
+    "drop_lesion_oct": 0.02042710781097412,
+    "dice_far_oct": 0.8539877533912659,
+    "drop_far_oct": 0.09539085626602173
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.8781376481056213,
+    "dice_lesion_oct": 0.7878446578979492,
+    "drop_lesion_oct": 0.09029299020767212,
+    "dice_far_oct": 0.8781376481056213,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.887633740901947,
+    "dice_lesion_oct": 0.8762279152870178,
+    "drop_lesion_oct": 0.0114058256149292,
+    "dice_far_oct": 0.7261673212051392,
+    "drop_far_oct": 0.16146641969680786
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.9428197145462036,
+    "dice_lesion_oct": 0.9442022442817688,
+    "drop_lesion_oct": -0.0013825297355651855,
+    "dice_far_oct": 0.7534007430076599,
+    "drop_far_oct": 0.1894189715385437
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9181459546089172,
+    "dice_lesion_oct": 0.9129892587661743,
+    "drop_lesion_oct": 0.00515669584274292,
+    "dice_far_oct": 0.8797543048858643,
+    "drop_far_oct": 0.03839164972305298
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9337387681007385,
+    "dice_lesion_oct": 0.9281429648399353,
+    "drop_lesion_oct": 0.005595803260803223,
+    "dice_far_oct": 0.9351207613945007,
+    "drop_far_oct": -0.001381993293762207
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.9683319926261902,
+    "dice_lesion_oct": 0.9540960192680359,
+    "drop_lesion_oct": 0.014235973358154297,
+    "dice_far_oct": 0.8483573794364929,
+    "drop_far_oct": 0.11997461318969727
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9522608518600464,
+    "dice_lesion_oct": 0.9358784556388855,
+    "drop_lesion_oct": 0.01638239622116089,
+    "dice_far_oct": 0.9350787401199341,
+    "drop_far_oct": 0.017182111740112305
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9171842932701111,
+    "dice_lesion_oct": 0.9151832461357117,
+    "drop_lesion_oct": 0.002001047134399414,
+    "dice_far_oct": 0.9162358045578003,
+    "drop_far_oct": 0.000948488712310791
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.9320891499519348,
+    "dice_lesion_oct": 0.89570552110672,
+    "drop_lesion_oct": 0.036383628845214844,
+    "dice_far_oct": 0.9316239356994629,
+    "drop_far_oct": 0.00046521425247192383
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9417531490325928,
+    "dice_lesion_oct": 0.9408923983573914,
+    "drop_lesion_oct": 0.000860750675201416,
+    "dice_far_oct": 0.9400709271430969,
+    "drop_far_oct": 0.0016822218894958496
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.8771012425422668,
+    "dice_lesion_oct": 0.8732286691665649,
+    "drop_lesion_oct": 0.0038725733757019043,
+    "dice_far_oct": 0.8419921398162842,
+    "drop_far_oct": 0.035109102725982666
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9578973650932312,
+    "dice_lesion_oct": 0.925652027130127,
+    "drop_lesion_oct": 0.03224533796310425,
+    "dice_far_oct": 0.9577780365943909,
+    "drop_far_oct": 0.00011932849884033203
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9315534234046936,
+    "dice_lesion_oct": 0.9133700728416443,
+    "drop_lesion_oct": 0.018183350563049316,
+    "dice_far_oct": 0.8192874193191528,
+    "drop_far_oct": 0.11226600408554077
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9556724429130554,
+    "dice_lesion_oct": 0.951482892036438,
+    "drop_lesion_oct": 0.004189550876617432,
+    "dice_far_oct": 0.9432172179222107,
+    "drop_far_oct": 0.012455224990844727
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9374062418937683,
+    "dice_lesion_oct": 0.8782699704170227,
+    "drop_lesion_oct": 0.059136271476745605,
+    "dice_far_oct": 0.9374062418937683,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9047340750694275,
+    "dice_lesion_oct": 0.8958696722984314,
+    "drop_lesion_oct": 0.008864402770996094,
+    "dice_far_oct": 0.8823195099830627,
+    "drop_far_oct": 0.022414565086364746
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9314444661140442,
+    "dice_lesion_oct": 0.9119414687156677,
+    "drop_lesion_oct": 0.019502997398376465,
+    "dice_far_oct": 0.8874427676200867,
+    "drop_far_oct": 0.04400169849395752
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.805728018283844,
+    "dice_lesion_oct": 0.8145654201507568,
+    "drop_lesion_oct": -0.008837401866912842,
+    "dice_far_oct": 0.7436257600784302,
+    "drop_far_oct": 0.06210225820541382
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.873289167881012,
+    "dice_lesion_oct": 0.8477904796600342,
+    "drop_lesion_oct": 0.025498688220977783,
+    "dice_far_oct": 0.8735378384590149,
+    "drop_far_oct": -0.0002486705780029297
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.92689049243927,
+    "dice_lesion_oct": 0.8944578170776367,
+    "drop_lesion_oct": 0.0324326753616333,
+    "dice_far_oct": 0.9265997409820557,
+    "drop_far_oct": 0.00029075145721435547
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.7111040353775024,
+    "dice_lesion_oct": 0.5603168606758118,
+    "drop_lesion_oct": 0.15078717470169067,
+    "dice_far_oct": 0.6942251324653625,
+    "drop_far_oct": 0.016878902912139893
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.6998928189277649,
+    "dice_lesion_oct": 0.6869267821311951,
+    "drop_lesion_oct": 0.012966036796569824,
+    "dice_far_oct": 0.6993306279182434,
+    "drop_far_oct": 0.0005621910095214844
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9683771133422852,
+    "dice_lesion_oct": 0.9682326912879944,
+    "drop_lesion_oct": 0.00014442205429077148,
+    "dice_far_oct": 0.9680882692337036,
+    "drop_far_oct": 0.00028884410858154297
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.8821409940719604,
+    "dice_lesion_oct": 0.8187751173973083,
+    "drop_lesion_oct": 0.0633658766746521,
+    "dice_far_oct": 0.8808423280715942,
+    "drop_far_oct": 0.001298666000366211
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9248878955841064,
+    "dice_lesion_oct": 0.9272624254226685,
+    "drop_lesion_oct": -0.0023745298385620117,
+    "dice_far_oct": 0.9247151017189026,
+    "drop_far_oct": 0.00017279386520385742
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9595524668693542,
+    "dice_lesion_oct": 0.9575757384300232,
+    "drop_lesion_oct": 0.0019767284393310547,
+    "dice_far_oct": 0.9586206674575806,
+    "drop_far_oct": 0.0009317994117736816
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.899691104888916,
+    "dice_lesion_oct": 0.7844492197036743,
+    "drop_lesion_oct": 0.1152418851852417,
+    "dice_far_oct": 0.9004230499267578,
+    "drop_far_oct": -0.0007319450378417969
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.877322256565094,
+    "dice_lesion_oct": 0.7309907674789429,
+    "drop_lesion_oct": 0.14633148908615112,
+    "dice_far_oct": 0.8771876096725464,
+    "drop_far_oct": 0.00013464689254760742
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9458784461021423,
+    "dice_lesion_oct": 0.936730146408081,
+    "drop_lesion_oct": 0.00914829969406128,
+    "dice_far_oct": 0.9456160068511963,
+    "drop_far_oct": 0.0002624392509460449
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.948381781578064,
+    "dice_lesion_oct": 0.9432638883590698,
+    "drop_lesion_oct": 0.005117893218994141,
+    "dice_far_oct": 0.948381781578064,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9291234016418457,
+    "dice_lesion_oct": 0.9324324131011963,
+    "drop_lesion_oct": -0.003309011459350586,
+    "dice_far_oct": 0.9291234016418457,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9605161547660828,
+    "dice_lesion_oct": 0.9599471092224121,
+    "drop_lesion_oct": 0.0005690455436706543,
+    "dice_far_oct": 0.9603819847106934,
+    "drop_far_oct": 0.0001341700553894043
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9564507603645325,
+    "dice_lesion_oct": 0.9593676328659058,
+    "drop_lesion_oct": -0.002916872501373291,
+    "dice_far_oct": 0.9195342063903809,
+    "drop_far_oct": 0.03691655397415161
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9513629078865051,
+    "dice_lesion_oct": 0.9436278939247131,
+    "drop_lesion_oct": 0.007735013961791992,
+    "dice_far_oct": 0.8997472524642944,
+    "drop_far_oct": 0.05161565542221069
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9513677954673767,
+    "dice_lesion_oct": 0.9402590990066528,
+    "drop_lesion_oct": 0.011108696460723877,
+    "dice_far_oct": 0.925086259841919,
+    "drop_far_oct": 0.026281535625457764
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.7442872524261475,
+    "dice_lesion_oct": 0.6029757261276245,
+    "drop_lesion_oct": 0.14131152629852295,
+    "dice_far_oct": 0.7442872524261475,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.5954093933105469,
+    "dice_lesion_oct": 0.5714285969734192,
+    "drop_lesion_oct": 0.023980796337127686,
+    "dice_far_oct": 0.579826295375824,
+    "drop_far_oct": 0.0155830979347229
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.8928200006484985,
+    "dice_lesion_oct": 0.8995776176452637,
+    "drop_lesion_oct": -0.006757616996765137,
+    "dice_far_oct": 0.891312837600708,
+    "drop_far_oct": 0.0015071630477905273
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9709657430648804,
+    "dice_lesion_oct": 0.9643579721450806,
+    "drop_lesion_oct": 0.006607770919799805,
+    "dice_far_oct": 0.9242181777954102,
+    "drop_far_oct": 0.046747565269470215
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.725454568862915,
+    "dice_lesion_oct": 0.6521314382553101,
+    "drop_lesion_oct": 0.07332313060760498,
+    "dice_far_oct": 0.7255644798278809,
+    "drop_far_oct": -0.00010991096496582031
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.8625420928001404,
+    "dice_lesion_oct": 0.8755980730056763,
+    "drop_lesion_oct": -0.013055980205535889,
+    "dice_far_oct": 0.8625420928001404,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.8068244457244873,
+    "dice_lesion_oct": 0.797226071357727,
+    "drop_lesion_oct": 0.009598374366760254,
+    "dice_far_oct": 0.8068244457244873,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9487729072570801,
+    "dice_lesion_oct": 0.920783519744873,
+    "drop_lesion_oct": 0.02798938751220703,
+    "dice_far_oct": 0.9490354657173157,
+    "drop_far_oct": -0.0002625584602355957
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9130017161369324,
+    "dice_lesion_oct": 0.8069084882736206,
+    "drop_lesion_oct": 0.10609322786331177,
+    "dice_far_oct": 0.912826418876648,
+    "drop_far_oct": 0.00017529726028442383
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.953264594078064,
+    "dice_lesion_oct": 0.9464749693870544,
+    "drop_lesion_oct": 0.0067896246910095215,
+    "dice_far_oct": 0.9514663219451904,
+    "drop_far_oct": 0.0017982721328735352
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.7594481110572815,
+    "dice_lesion_oct": 0.8207762837409973,
+    "drop_lesion_oct": -0.06132817268371582,
+    "dice_far_oct": 0.7594481110572815,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9029034376144409,
+    "dice_lesion_oct": 0.8791695237159729,
+    "drop_lesion_oct": 0.023733913898468018,
+    "dice_far_oct": 0.9024423360824585,
+    "drop_far_oct": 0.0004611015319824219
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.904893159866333,
+    "dice_lesion_oct": 0.840666651725769,
+    "drop_lesion_oct": 0.06422650814056396,
+    "dice_far_oct": 0.8457326889038086,
+    "drop_far_oct": 0.059160470962524414
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9617142081260681,
+    "dice_lesion_oct": 0.9591902494430542,
+    "drop_lesion_oct": 0.002523958683013916,
+    "dice_far_oct": 0.8743733167648315,
+    "drop_far_oct": 0.08734089136123657
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.8827956914901733,
+    "dice_lesion_oct": 0.8826501965522766,
+    "drop_lesion_oct": 0.00014549493789672852,
+    "dice_far_oct": 0.8485788106918335,
+    "drop_far_oct": 0.034216880798339844
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.8248113989830017,
+    "dice_lesion_oct": 0.8250630497932434,
+    "drop_lesion_oct": -0.0002516508102416992,
+    "dice_far_oct": 0.8265221118927002,
+    "drop_far_oct": -0.0017107129096984863
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9608168005943298,
+    "dice_lesion_oct": 0.9590771794319153,
+    "drop_lesion_oct": 0.0017396211624145508,
+    "dice_far_oct": 0.8846544623374939,
+    "drop_far_oct": 0.07616233825683594
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.858793318271637,
+    "dice_lesion_oct": 0.8370565176010132,
+    "drop_lesion_oct": 0.02173680067062378,
+    "dice_far_oct": 0.8436318039894104,
+    "drop_far_oct": 0.015161514282226562
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9446175694465637,
+    "dice_lesion_oct": 0.922133207321167,
+    "drop_lesion_oct": 0.02248436212539673,
+    "dice_far_oct": 0.9447441101074219,
+    "drop_far_oct": -0.0001265406608581543
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.7089108824729919,
+    "dice_lesion_oct": 0.4224422574043274,
+    "drop_lesion_oct": 0.28646862506866455,
+    "dice_far_oct": 0.7089108824729919,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9156467318534851,
+    "dice_lesion_oct": 0.9104774594306946,
+    "drop_lesion_oct": 0.005169272422790527,
+    "dice_far_oct": 0.8433881998062134,
+    "drop_far_oct": 0.07225853204727173
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.7492446899414062,
+    "dice_lesion_oct": 0.7530120611190796,
+    "drop_lesion_oct": -0.00376737117767334,
+    "dice_far_oct": 0.7492446899414062,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9367198944091797,
+    "dice_lesion_oct": 0.8923843502998352,
+    "drop_lesion_oct": 0.04433554410934448,
+    "dice_far_oct": 0.9367198944091797,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.8802273869514465,
+    "dice_lesion_oct": 0.8826122879981995,
+    "drop_lesion_oct": -0.0023849010467529297,
+    "dice_far_oct": 0.8802597522735596,
+    "drop_far_oct": -3.236532211303711e-05
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.8641342520713806,
+    "dice_lesion_oct": 0.7518736124038696,
+    "drop_lesion_oct": 0.11226063966751099,
+    "dice_far_oct": 0.8641342520713806,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.917553186416626,
+    "dice_lesion_oct": 0.9114865064620972,
+    "drop_lesion_oct": 0.006066679954528809,
+    "dice_far_oct": 0.917553186416626,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.9601126909255981,
+    "dice_lesion_oct": 0.9391177296638489,
+    "drop_lesion_oct": 0.020994961261749268,
+    "dice_far_oct": 0.9010825753211975,
+    "drop_far_oct": 0.059030115604400635
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9528403282165527,
+    "dice_lesion_oct": 0.9434313178062439,
+    "drop_lesion_oct": 0.009409010410308838,
+    "dice_far_oct": 0.9528403282165527,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9269230961799622,
+    "dice_lesion_oct": 0.9317953586578369,
+    "drop_lesion_oct": -0.004872262477874756,
+    "dice_far_oct": 0.9269230961799622,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "lesion_octant": [
+      0,
+      0,
+      0
+    ],
+    "far_octant": [
+      1,
+      1,
+      1
+    ],
+    "dice_intact": 0.8591772317886353,
+    "dice_lesion_oct": 0.7397516965866089,
+    "drop_lesion_oct": 0.11942553520202637,
+    "dice_far_oct": 0.8580453991889954,
+    "drop_far_oct": 0.0011318325996398926
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.8882047533988953,
+    "dice_lesion_oct": 0.8861985206604004,
+    "drop_lesion_oct": 0.002006232738494873,
+    "dice_far_oct": 0.8882047533988953,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.7423580884933472,
+    "dice_lesion_oct": 0.7133182883262634,
+    "drop_lesion_oct": 0.02903980016708374,
+    "dice_far_oct": 0.7423580884933472,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.9478998184204102,
+    "dice_lesion_oct": 0.9421149492263794,
+    "drop_lesion_oct": 0.005784869194030762,
+    "dice_far_oct": 0.9476661682128906,
+    "drop_far_oct": 0.00023365020751953125
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.8539415597915649,
+    "dice_lesion_oct": 0.826407790184021,
+    "drop_lesion_oct": 0.027533769607543945,
+    "dice_far_oct": 0.836662769317627,
+    "drop_far_oct": 0.01727879047393799
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "lesion_octant": [
+      0,
+      0,
+      1
+    ],
+    "far_octant": [
+      1,
+      1,
+      0
+    ],
+    "dice_intact": 0.9163210391998291,
+    "dice_lesion_oct": 0.7734909653663635,
+    "drop_lesion_oct": 0.14283007383346558,
+    "dice_far_oct": 0.8977031707763672,
+    "drop_far_oct": 0.018617868423461914
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.7506702542304993,
+    "dice_lesion_oct": 0.6376470327377319,
+    "drop_lesion_oct": 0.11302322149276733,
+    "dice_far_oct": 0.7506702542304993,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.7571032047271729,
+    "dice_lesion_oct": 0.7315823435783386,
+    "drop_lesion_oct": 0.02552086114883423,
+    "dice_far_oct": 0.7571032047271729,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9490735530853271,
+    "dice_lesion_oct": 0.9487810134887695,
+    "drop_lesion_oct": 0.0002925395965576172,
+    "dice_far_oct": 0.9490735530853271,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.926086962223053,
+    "dice_lesion_oct": 0.9208570122718811,
+    "drop_lesion_oct": 0.005229949951171875,
+    "dice_far_oct": 0.926086962223053,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.9141631126403809,
+    "dice_lesion_oct": 0.9108079671859741,
+    "drop_lesion_oct": 0.0033551454544067383,
+    "dice_far_oct": 0.8129770755767822,
+    "drop_far_oct": 0.10118603706359863
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.8865006566047668,
+    "dice_lesion_oct": 0.8902326822280884,
+    "drop_lesion_oct": -0.003732025623321533,
+    "dice_far_oct": 0.8659688830375671,
+    "drop_far_oct": 0.020531773567199707
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.945014238357544,
+    "dice_lesion_oct": 0.9448128938674927,
+    "drop_lesion_oct": 0.00020134449005126953,
+    "dice_far_oct": 0.945014238357544,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.953152596950531,
+    "dice_lesion_oct": 0.9478532075881958,
+    "drop_lesion_oct": 0.005299389362335205,
+    "dice_far_oct": 0.9363241791725159,
+    "drop_far_oct": 0.016828417778015137
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "lesion_octant": [
+      0,
+      1,
+      0
+    ],
+    "far_octant": [
+      1,
+      0,
+      1
+    ],
+    "dice_intact": 0.9295212626457214,
+    "dice_lesion_oct": 0.9182561039924622,
+    "drop_lesion_oct": 0.011265158653259277,
+    "dice_far_oct": 0.9288090467453003,
+    "drop_far_oct": 0.0007122159004211426
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9094375371932983,
+    "dice_lesion_oct": 0.9189189076423645,
+    "drop_lesion_oct": -0.009481370449066162,
+    "dice_far_oct": 0.9094375371932983,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "lesion_octant": [
+      1,
+      1,
+      0
+    ],
+    "far_octant": [
+      0,
+      0,
+      1
+    ],
+    "dice_intact": 0.9382550120353699,
+    "dice_lesion_oct": 0.9361850023269653,
+    "drop_lesion_oct": 0.002070009708404541,
+    "dice_far_oct": 0.9379402995109558,
+    "drop_far_oct": 0.0003147125244140625
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9352433085441589,
+    "dice_lesion_oct": 0.9214950799942017,
+    "drop_lesion_oct": 0.013748228549957275,
+    "dice_far_oct": 0.9352433085441589,
+    "drop_far_oct": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.8235607743263245,
+    "dice_lesion_oct": 0.8049518465995789,
+    "drop_lesion_oct": 0.018608927726745605,
+    "dice_far_oct": 0.8118759989738464,
+    "drop_far_oct": 0.011684775352478027
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "lesion_octant": [
+      0,
+      1,
+      1
+    ],
+    "far_octant": [
+      1,
+      0,
+      0
+    ],
+    "dice_intact": 0.9673373103141785,
+    "dice_lesion_oct": 0.9675392508506775,
+    "drop_lesion_oct": -0.00020194053649902344,
+    "dice_far_oct": 0.9593158960342407,
+    "drop_far_oct": 0.008021414279937744
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.8512542247772217,
+    "dice_lesion_oct": 0.8371777534484863,
+    "drop_lesion_oct": 0.014076471328735352,
+    "dice_far_oct": 0.8506713509559631,
+    "drop_far_oct": 0.0005828738212585449
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "lesion_octant": [
+      1,
+      1,
+      1
+    ],
+    "far_octant": [
+      0,
+      0,
+      0
+    ],
+    "dice_intact": 0.8550135493278503,
+    "dice_lesion_oct": 0.8623087406158447,
+    "drop_lesion_oct": -0.007295191287994385,
+    "dice_far_oct": 0.8407720327377319,
+    "drop_far_oct": 0.014241516590118408
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "lesion_octant": [
+      1,
+      0,
+      1
+    ],
+    "far_octant": [
+      0,
+      1,
+      0
+    ],
+    "dice_intact": 0.9111030697822571,
+    "dice_lesion_oct": 0.8833038806915283,
+    "drop_lesion_oct": 0.02779918909072876,
+    "dice_far_oct": 0.8470562100410461,
+    "drop_far_oct": 0.06404685974121094
+  }
+]

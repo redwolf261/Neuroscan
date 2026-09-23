@@ -1,0 +1,59 @@
+{
+  "alphas": {
+    "0.95": {
+      "intervention_alone_cost_mean": 0.00034343671798706056,
+      "intervention_alone_cost_std": 0.003598223430589479,
+      "safety_bar_ok": true,
+      "N_b_mean": 0.26300988721847535,
+      "N_b_std": 0.17053037474559588,
+      "shift_from_intact_mean": -0.008705426335334778,
+      "paired_ttest_p": 2.3354017773607207e-27,
+      "wilcoxon_p": 3.3924522658839685e-19
+    },
+    "0.85": {
+      "intervention_alone_cost_mean": 0.0024230523109436035,
+      "intervention_alone_cost_std": 0.011172406380400488,
+      "safety_bar_ok": true,
+      "N_b_mean": 0.24411830866336823,
+      "N_b_std": 0.16393298193487107,
+      "shift_from_intact_mean": -0.027597004890441895,
+      "paired_ttest_p": 8.458804670558253e-29,
+      "wilcoxon_p": 1.9374443322343652e-19
+    },
+    "0.7": {
+      "intervention_alone_cost_mean": 0.007905467510223389,
+      "intervention_alone_cost_std": 0.030189448031919953,
+      "safety_bar_ok": true,
+      "N_b_mean": 0.2135341144800186,
+      "N_b_std": 0.15147898087927023,
+      "shift_from_intact_mean": -0.058181199073791504,
+      "paired_ttest_p": 6.779161365937327e-26,
+      "wilcoxon_p": 3.7930733929784123e-19
+    },
+    "0.5": {
+      "intervention_alone_cost_mean": 0.023719754338264464,
+      "intervention_alone_cost_std": 0.07531542562273233,
+      "safety_bar_ok": false,
+      "N_b_mean": 0.16769917619228364,
+      "N_b_std": 0.14047268045126424,
+      "shift_from_intact_mean": -0.10401613736152648,
+      "paired_ttest_p": 5.524501756336092e-21,
+      "wilcoxon_p": 9.212110458920665e-19
+    }
+  },
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "N_b_intact_mean": 0.2717153135538101,
+  "n_b_sequence_alpha1_to_gentlest_to_strongest": [
+    0.2717153135538101,
+    0.26300988721847535,
+    0.24411830866336823,
+    0.2135341144800186,
+    0.16769917619228364
+  ],
+  "monotonic_decreasing": true,
+  "safety_bar_ok_at_gentlest": true,
+  "decision": "DOSE_RESPONSE_CONFIRMED",
+  "detail": "N_b decreases monotonically as effective rank is pushed lower via graded blending, with the gentlest setting staying within the safety bar. This is genuine dose-response causal evidence -- stronger than E125 Part 2's single confounded point. GREEN for a full prior-art audit -- still NOT architecture implementation."
+}

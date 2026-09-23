@@ -1,0 +1,7 @@
+raw-logit extraction on 15 tail subjects (AMP OFF, fp32, no clamp)
+  4/15 subj, 24 rows (17s)
+  8/15 subj, 57 rows (38s)
+  12/15 subj, 93 rows (57s)
+wrote EXP2_raw_regions.csv (123 rows)
+wrote EXP2_raw_volume.csv (45 rows)
+total 77s

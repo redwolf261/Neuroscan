@@ -1,0 +1,31 @@
+Device: cuda
+Loaded D4-only checkpoint: best_val_dice=0.9095618277788162
+Validation set size: 125
+
+[Stage 0] Sanity check (octant_slice=None vs real forward): max abs diff = 0.000000e+00
+[Stage 0] PASS -- manual trunk verified bit-for-bit identical to real forward().
+
+  processed 25/125 subjects
+  processed 50/125 subjects
+  processed 75/125 subjects
+  processed 100/125 subjects
+  processed 125/125 subjects
+
+Saved 125 subject records.
+
+=== E58 Octant Ablation Audit: n=125 subjects ===
+Mean dice_intact = 0.8958
+Mean dice_octA   = 0.8763 (mean drop=0.0195)
+Mean dice_octB   = 0.8797 (mean drop=0.0161)
+
+Reference: E48 full-bottleneck-ablation mean drop = 0.3205, rho = -0.454
+
+Octant A: Spearman(native_size, drop_octA) = -0.1856 (parametric p=3.8204e-02, permutation p=0.0310) 95% CI=[-0.3522, +0.0040]
+Octant B: Spearman(native_size, drop_octB) = -0.0814 (parametric p=3.6692e-01, permutation p=0.3770) 95% CI=[-0.2501, +0.1073]
+
+Octant A 95% CI overlaps E48 reference rho (-0.454): False
+Octant B 95% CI overlaps E48 reference rho (-0.454): False
+
+=== DECISION: GLOBAL/DISTRIBUTED supported (neither fixed octant alone reproduces the full-ablation signature) ===
+
+Saved E58_octant_summary.json

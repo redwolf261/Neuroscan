@@ -1,0 +1,33 @@
+Device: cuda
+Loaded canonical checkpoint: val_dice=0.9101624600589275
+[Sanity check] checkpoint identity PASS.
+
+Validation subjects: 125
+  labeled 25/125
+  labeled 50/125
+  labeled 75/125
+  labeled 100/125
+  labeled 125/125
+
+Saved per-subject table (125 subjects).
+
+Mean N_b: 0.2717  std: 0.1733
+Mean Delta_shuffle (channel): 0.1448  std: 0.1119
+Mean Delta_spatial: 0.3839  std: 0.1185
+(Both operators use REAL, structured activation values, unlike the rejected synthetic-noise control -- means need not match exactly, but both should be substantial, non-trivial disruptions.)
+
+Spearman(Delta_shuffle, N_b) = -0.3547 (p=4.9278e-05)
+Spearman(Delta_spatial, N_b) = +0.2063 (p=2.1004e-02)
+Raw difference (channel - spatial): -0.5610
+
+Partial Spearman(Delta_shuffle, N_b | size) = -0.2584 (p=3.6225e-03)
+Partial Spearman(Delta_spatial, N_b | size) = +0.3502 (p=6.2471e-05)
+Partial difference (channel - spatial): -0.6086
+
+Bootstrap (n=1000): fraction of resamples where channel-shuffle's correlation with N_b exceeds spatial-shuffle's: 0.0000
+Bootstrap 95% CI of (rho_channel - rho_spatial): [-0.7445, -0.3584]
+
+=== FINAL VERDICT: PASSIVE_CORRELATE_ONLY_GENUINE_NULL ===
+(Convenience label only -- inspect the actual rho/CI numbers above directly, per this project's own established convention of not trusting an auto-classifier's label without checking the underlying numbers.)
+
+Saved E113_summary.json

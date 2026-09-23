@@ -1,0 +1,6 @@
+  4/15 subj | surv 24 caus 128 (45s)
+  8/15 subj | surv 57 caus 304 (83s)
+  12/15 subj | surv 72 caus 384 (102s)
+wrote SURVIVAL_decoder.csv (102 rows)
+wrote CAUSAL_patching.csv (544 rows)
+total 141s

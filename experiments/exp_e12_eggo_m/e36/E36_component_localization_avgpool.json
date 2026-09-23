@@ -1,0 +1,6970 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 1,
+    "native_size": 90684,
+    "size_64": 2566,
+    "n_d4_voxels_touched": 95,
+    "total_contribution_mass": 40.09375,
+    "contribution_weighted_abs_error": 8.08407211303711,
+    "mean_abs_error_per_unit_mass": 0.20162923430801832
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 4,
+    "native_size": 5,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.004882801789790392,
+    "mean_abs_error_per_unit_mass": 0.3124993145465851
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 5,
+    "native_size": 560,
+    "size_64": 17,
+    "n_d4_voxels_touched": 3,
+    "total_contribution_mass": 0.265625,
+    "contribution_weighted_abs_error": 0.029540056362748146,
+    "mean_abs_error_per_unit_mass": 0.11120962395387538
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 7,
+    "native_size": 35,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 8,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 9,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 11,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 12,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 13,
+    "native_size": 2,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0012207023100927472,
+    "mean_abs_error_per_unit_mass": 0.07812494784593582
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 14,
+    "native_size": 51,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.008264890871942043,
+    "mean_abs_error_per_unit_mass": 0.5289530158042908
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 16,
+    "native_size": 26,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0014648415381088853,
+    "mean_abs_error_per_unit_mass": 0.04687492921948433
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 17,
+    "native_size": 11,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 18,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 19,
+    "native_size": 10,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00048826599959284067,
+    "mean_abs_error_per_unit_mass": 0.031249023973941803
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 20,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 22,
+    "native_size": 67,
+    "size_64": 4,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.0026854700408875942,
+    "mean_abs_error_per_unit_mass": 0.04296752065420151
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_component_id": 1,
+    "native_size": 109939,
+    "size_64": 3132,
+    "n_d4_voxels_touched": 110,
+    "total_contribution_mass": 48.9375,
+    "contribution_weighted_abs_error": 9.455196380615234,
+    "mean_abs_error_per_unit_mass": 0.193209632298651
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_component_id": 1,
+    "native_size": 114711,
+    "size_64": 3263,
+    "n_d4_voxels_touched": 101,
+    "total_contribution_mass": 50.984375,
+    "contribution_weighted_abs_error": 11.306737899780273,
+    "mean_abs_error_per_unit_mass": 0.22176868697086655
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_component_id": 1,
+    "native_size": 50003,
+    "size_64": 1420,
+    "n_d4_voxels_touched": 57,
+    "total_contribution_mass": 22.1875,
+    "contribution_weighted_abs_error": 4.3159027099609375,
+    "mean_abs_error_per_unit_mass": 0.1945195587588028
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_component_id": 2,
+    "native_size": 5,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.004638548009097576,
+    "mean_abs_error_per_unit_mass": 0.2968670725822449
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_component_id": 1,
+    "native_size": 102947,
+    "size_64": 2912,
+    "n_d4_voxels_touched": 119,
+    "total_contribution_mass": 45.5,
+    "contribution_weighted_abs_error": 9.818321228027344,
+    "mean_abs_error_per_unit_mass": 0.2157872797368647
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_component_id": 2,
+    "native_size": 373,
+    "size_64": 9,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.140625,
+    "contribution_weighted_abs_error": 0.014648379758000374,
+    "mean_abs_error_per_unit_mass": 0.10416625605689155
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_component_id": 3,
+    "native_size": 694,
+    "size_64": 24,
+    "n_d4_voxels_touched": 5,
+    "total_contribution_mass": 0.375,
+    "contribution_weighted_abs_error": 0.048339731991291046,
+    "mean_abs_error_per_unit_mass": 0.12890595197677612
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_component_id": 1,
+    "native_size": 194150,
+    "size_64": 5501,
+    "n_d4_voxels_touched": 160,
+    "total_contribution_mass": 85.953125,
+    "contribution_weighted_abs_error": 12.860963821411133,
+    "mean_abs_error_per_unit_mass": 0.14962764671338166
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_component_id": 1,
+    "native_size": 158406,
+    "size_64": 4506,
+    "n_d4_voxels_touched": 143,
+    "total_contribution_mass": 70.40625,
+    "contribution_weighted_abs_error": 11.617609024047852,
+    "mean_abs_error_per_unit_mass": 0.16500820628918386
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_component_id": 1,
+    "native_size": 64403,
+    "size_64": 1833,
+    "n_d4_voxels_touched": 66,
+    "total_contribution_mass": 28.640625,
+    "contribution_weighted_abs_error": 5.221755027770996,
+    "mean_abs_error_per_unit_mass": 0.18231987003673963
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_component_id": 2,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_component_id": 1,
+    "native_size": 88284,
+    "size_64": 2511,
+    "n_d4_voxels_touched": 82,
+    "total_contribution_mass": 39.234375,
+    "contribution_weighted_abs_error": 7.598236083984375,
+    "mean_abs_error_per_unit_mass": 0.19366272774790919
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_component_id": 1,
+    "native_size": 157476,
+    "size_64": 4455,
+    "n_d4_voxels_touched": 152,
+    "total_contribution_mass": 69.609375,
+    "contribution_weighted_abs_error": 13.352832794189453,
+    "mean_abs_error_per_unit_mass": 0.19182520736882716
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 1,
+    "native_size": 168102,
+    "size_64": 4724,
+    "n_d4_voxels_touched": 161,
+    "total_contribution_mass": 73.8125,
+    "contribution_weighted_abs_error": 13.044961929321289,
+    "mean_abs_error_per_unit_mass": 0.17673106762840018
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 2,
+    "native_size": 19,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 4,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 6,
+    "native_size": 45,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024410936748608947,
+    "mean_abs_error_per_unit_mass": 0.015622999519109726
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 7,
+    "native_size": 9,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_component_id": 1,
+    "native_size": 215379,
+    "size_64": 6080,
+    "n_d4_voxels_touched": 194,
+    "total_contribution_mass": 95.0,
+    "contribution_weighted_abs_error": 14.144525527954102,
+    "mean_abs_error_per_unit_mass": 0.14888974239951686
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_component_id": 2,
+    "native_size": 390,
+    "size_64": 9,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.140625,
+    "contribution_weighted_abs_error": 0.024117322638630867,
+    "mean_abs_error_per_unit_mass": 0.1715009609858195
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_component_id": 1,
+    "native_size": 87415,
+    "size_64": 2484,
+    "n_d4_voxels_touched": 128,
+    "total_contribution_mass": 38.8125,
+    "contribution_weighted_abs_error": 11.996305465698242,
+    "mean_abs_error_per_unit_mass": 0.30908355467177434
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_component_id": 2,
+    "native_size": 837,
+    "size_64": 24,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.375,
+    "contribution_weighted_abs_error": 0.05761674791574478,
+    "mean_abs_error_per_unit_mass": 0.15364466110865274
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 1,
+    "native_size": 21661,
+    "size_64": 627,
+    "n_d4_voxels_touched": 39,
+    "total_contribution_mass": 9.796875,
+    "contribution_weighted_abs_error": 2.525247812271118,
+    "mean_abs_error_per_unit_mass": 0.25776054224139006
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 2,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 5,
+    "native_size": 1424,
+    "size_64": 34,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.53125,
+    "contribution_weighted_abs_error": 0.09863214939832687,
+    "mean_abs_error_per_unit_mass": 0.18566051651449764
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 1,
+    "native_size": 40542,
+    "size_64": 1148,
+    "n_d4_voxels_touched": 48,
+    "total_contribution_mass": 17.9375,
+    "contribution_weighted_abs_error": 4.3857831954956055,
+    "mean_abs_error_per_unit_mass": 0.2445035927802428
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 2,
+    "native_size": 1461,
+    "size_64": 36,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.5625,
+    "contribution_weighted_abs_error": 0.10448743402957916,
+    "mean_abs_error_per_unit_mass": 0.1857554382748074
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 4,
+    "native_size": 8,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024413260689470917,
+    "mean_abs_error_per_unit_mass": 0.015624486841261387
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 5,
+    "native_size": 17231,
+    "size_64": 479,
+    "n_d4_voxels_touched": 24,
+    "total_contribution_mass": 7.484375,
+    "contribution_weighted_abs_error": 2.722562074661255,
+    "mean_abs_error_per_unit_mass": 0.3637661227104808
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 7,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_component_id": 1,
+    "native_size": 46623,
+    "size_64": 1323,
+    "n_d4_voxels_touched": 48,
+    "total_contribution_mass": 20.671875,
+    "contribution_weighted_abs_error": 5.367527961730957,
+    "mean_abs_error_per_unit_mass": 0.25965365801268425
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_component_id": 1,
+    "native_size": 117869,
+    "size_64": 3301,
+    "n_d4_voxels_touched": 117,
+    "total_contribution_mass": 51.578125,
+    "contribution_weighted_abs_error": 8.76244068145752,
+    "mean_abs_error_per_unit_mass": 0.16988676268199976
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_component_id": 1,
+    "native_size": 225524,
+    "size_64": 6373,
+    "n_d4_voxels_touched": 214,
+    "total_contribution_mass": 99.578125,
+    "contribution_weighted_abs_error": 17.507469177246094,
+    "mean_abs_error_per_unit_mass": 0.17581641728287306
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_component_id": 2,
+    "native_size": 11,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.006591796875,
+    "mean_abs_error_per_unit_mass": 0.421875
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_component_id": 1,
+    "native_size": 92462,
+    "size_64": 2624,
+    "n_d4_voxels_touched": 87,
+    "total_contribution_mass": 41.0,
+    "contribution_weighted_abs_error": 5.778059959411621,
+    "mean_abs_error_per_unit_mass": 0.14092829169296636
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_component_id": 3,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 1,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 2,
+    "native_size": 40,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 4,
+    "native_size": 119645,
+    "size_64": 3369,
+    "n_d4_voxels_touched": 132,
+    "total_contribution_mass": 52.640625,
+    "contribution_weighted_abs_error": 12.191173553466797,
+    "mean_abs_error_per_unit_mass": 0.23159249255621103
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 5,
+    "native_size": 55,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0035812901332974434,
+    "mean_abs_error_per_unit_mass": 0.22920256853103638
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 6,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 8,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 9,
+    "native_size": 39,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0058571938425302505,
+    "mean_abs_error_per_unit_mass": 0.18743020296096802
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 10,
+    "native_size": 41,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 11,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0035812901332974434,
+    "mean_abs_error_per_unit_mass": 0.22920256853103638
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 12,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 14,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 15,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 18,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024413829669356346,
+    "mean_abs_error_per_unit_mass": 0.015624850988388062
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 20,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 22,
+    "native_size": 11,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 23,
+    "native_size": 81,
+    "size_64": 4,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.005818618927150965,
+    "mean_abs_error_per_unit_mass": 0.09309790283441544
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 24,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 25,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 26,
+    "native_size": 40,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0007323172176256776,
+    "mean_abs_error_per_unit_mass": 0.046868301928043365
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 27,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 28,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 29,
+    "native_size": 11,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 30,
+    "native_size": 31,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0014646344352513552,
+    "mean_abs_error_per_unit_mass": 0.046868301928043365
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 31,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 32,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 33,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_component_id": 1,
+    "native_size": 88316,
+    "size_64": 2468,
+    "n_d4_voxels_touched": 95,
+    "total_contribution_mass": 38.5625,
+    "contribution_weighted_abs_error": 8.842095375061035,
+    "mean_abs_error_per_unit_mass": 0.22929258671146932
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 1,
+    "native_size": 20929,
+    "size_64": 572,
+    "n_d4_voxels_touched": 34,
+    "total_contribution_mass": 8.9375,
+    "contribution_weighted_abs_error": 2.1747355461120605,
+    "mean_abs_error_per_unit_mass": 0.24332705411044034
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 2,
+    "native_size": 524,
+    "size_64": 11,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.171875,
+    "contribution_weighted_abs_error": 0.02954077161848545,
+    "mean_abs_error_per_unit_mass": 0.17187358032573352
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 3,
+    "native_size": 35318,
+    "size_64": 1036,
+    "n_d4_voxels_touched": 51,
+    "total_contribution_mass": 16.1875,
+    "contribution_weighted_abs_error": 3.6102023124694824,
+    "mean_abs_error_per_unit_mass": 0.22302408107919583
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 5,
+    "native_size": 38,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.001953051658347249,
+    "mean_abs_error_per_unit_mass": 0.06249765306711197
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 6,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 1,
+    "native_size": 2623,
+    "size_64": 96,
+    "n_d4_voxels_touched": 11,
+    "total_contribution_mass": 1.5,
+    "contribution_weighted_abs_error": 0.5302618145942688,
+    "mean_abs_error_per_unit_mass": 0.3535078763961792
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 2,
+    "native_size": 1254,
+    "size_64": 43,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.671875,
+    "contribution_weighted_abs_error": 0.23609134554862976,
+    "mean_abs_error_per_unit_mass": 0.35139177011889083
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 3,
+    "native_size": 55293,
+    "size_64": 1570,
+    "n_d4_voxels_touched": 64,
+    "total_contribution_mass": 24.53125,
+    "contribution_weighted_abs_error": 5.170413494110107,
+    "mean_abs_error_per_unit_mass": 0.21076844816754578
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 4,
+    "native_size": 2129,
+    "size_64": 70,
+    "n_d4_voxels_touched": 7,
+    "total_contribution_mass": 1.09375,
+    "contribution_weighted_abs_error": 0.28432556986808777,
+    "mean_abs_error_per_unit_mass": 0.25995480673653737
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 5,
+    "native_size": 278,
+    "size_64": 10,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.15625,
+    "contribution_weighted_abs_error": 0.014159101992845535,
+    "mean_abs_error_per_unit_mass": 0.09061825275421143
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 1,
+    "native_size": 774,
+    "size_64": 25,
+    "n_d4_voxels_touched": 3,
+    "total_contribution_mass": 0.390625,
+    "contribution_weighted_abs_error": 0.058837227523326874,
+    "mean_abs_error_per_unit_mass": 0.1506233024597168
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 2,
+    "native_size": 7,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024413982464466244,
+    "mean_abs_error_per_unit_mass": 0.015624948777258396
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 3,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 4,
+    "native_size": 72640,
+    "size_64": 2054,
+    "n_d4_voxels_touched": 76,
+    "total_contribution_mass": 32.09375,
+    "contribution_weighted_abs_error": 7.244890213012695,
+    "mean_abs_error_per_unit_mass": 0.2257414672019535
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_component_id": 1,
+    "native_size": 122261,
+    "size_64": 3470,
+    "n_d4_voxels_touched": 109,
+    "total_contribution_mass": 54.21875,
+    "contribution_weighted_abs_error": 10.544281959533691,
+    "mean_abs_error_per_unit_mass": 0.19447667014701908
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 1,
+    "native_size": 43564,
+    "size_64": 1234,
+    "n_d4_voxels_touched": 54,
+    "total_contribution_mass": 19.28125,
+    "contribution_weighted_abs_error": 4.748971939086914,
+    "mean_abs_error_per_unit_mass": 0.24630000332379456
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 1,
+    "native_size": 184615,
+    "size_64": 5276,
+    "n_d4_voxels_touched": 163,
+    "total_contribution_mass": 82.4375,
+    "contribution_weighted_abs_error": 17.593395233154297,
+    "mean_abs_error_per_unit_mass": 0.2134149535484979
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 3,
+    "native_size": 48,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0166015625,
+    "mean_abs_error_per_unit_mass": 0.53125
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 10,
+    "native_size": 13,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 11,
+    "native_size": 14,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 16,
+    "native_size": 8,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.004638670012354851,
+    "mean_abs_error_per_unit_mass": 0.29687488079071045
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 18,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 20,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 21,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 1,
+    "native_size": 7095,
+    "size_64": 196,
+    "n_d4_voxels_touched": 18,
+    "total_contribution_mass": 3.0625,
+    "contribution_weighted_abs_error": 1.016911268234253,
+    "mean_abs_error_per_unit_mass": 0.33205265901526626
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 2,
+    "native_size": 1845,
+    "size_64": 47,
+    "n_d4_voxels_touched": 9,
+    "total_contribution_mass": 0.734375,
+    "contribution_weighted_abs_error": 0.09984679520130157,
+    "mean_abs_error_per_unit_mass": 0.13596159346560213
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 3,
+    "native_size": 268,
+    "size_64": 4,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.0039016802329570055,
+    "mean_abs_error_per_unit_mass": 0.06242688372731209
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 4,
+    "native_size": 9,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 5,
+    "native_size": 776,
+    "size_64": 19,
+    "n_d4_voxels_touched": 6,
+    "total_contribution_mass": 0.296875,
+    "contribution_weighted_abs_error": 0.024167854338884354,
+    "mean_abs_error_per_unit_mass": 0.0814075093520315
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_component_id": 1,
+    "native_size": 16636,
+    "size_64": 473,
+    "n_d4_voxels_touched": 21,
+    "total_contribution_mass": 7.390625,
+    "contribution_weighted_abs_error": 2.3974056243896484,
+    "mean_abs_error_per_unit_mass": 0.32438469336350423
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_component_id": 1,
+    "native_size": 135030,
+    "size_64": 3809,
+    "n_d4_voxels_touched": 118,
+    "total_contribution_mass": 59.515625,
+    "contribution_weighted_abs_error": 9.307409286499023,
+    "mean_abs_error_per_unit_mass": 0.15638597908530782
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 1,
+    "native_size": 16,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0009764711139723659,
+    "mean_abs_error_per_unit_mass": 0.031247075647115707
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 2,
+    "native_size": 7402,
+    "size_64": 194,
+    "n_d4_voxels_touched": 21,
+    "total_contribution_mass": 3.03125,
+    "contribution_weighted_abs_error": 0.6801726818084717,
+    "mean_abs_error_per_unit_mass": 0.22438686410176387
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 3,
+    "native_size": 51038,
+    "size_64": 1445,
+    "n_d4_voxels_touched": 78,
+    "total_contribution_mass": 22.578125,
+    "contribution_weighted_abs_error": 6.714118480682373,
+    "mean_abs_error_per_unit_mass": 0.29737272163575906
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 4,
+    "native_size": 19,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 5,
+    "native_size": 717,
+    "size_64": 18,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.28125,
+    "contribution_weighted_abs_error": 0.03748038783669472,
+    "mean_abs_error_per_unit_mass": 0.13326360119713676
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 6,
+    "native_size": 6,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024412608763668686,
+    "mean_abs_error_per_unit_mass": 0.01562406960874796
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 8,
+    "native_size": 16,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.006347564980387688,
+    "mean_abs_error_per_unit_mass": 0.406244158744812
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 11,
+    "native_size": 331,
+    "size_64": 12,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.1875,
+    "contribution_weighted_abs_error": 0.025388864800333977,
+    "mean_abs_error_per_unit_mass": 0.13540727893511453
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 13,
+    "native_size": 17692,
+    "size_64": 507,
+    "n_d4_voxels_touched": 34,
+    "total_contribution_mass": 7.921875,
+    "contribution_weighted_abs_error": 2.176410675048828,
+    "mean_abs_error_per_unit_mass": 0.2747342863966962
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 15,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 16,
+    "native_size": 567,
+    "size_64": 15,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.234375,
+    "contribution_weighted_abs_error": 0.05957004055380821,
+    "mean_abs_error_per_unit_mass": 0.254165506362915
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_component_id": 1,
+    "native_size": 99834,
+    "size_64": 2827,
+    "n_d4_voxels_touched": 95,
+    "total_contribution_mass": 44.171875,
+    "contribution_weighted_abs_error": 8.142860412597656,
+    "mean_abs_error_per_unit_mass": 0.18434491206446763
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 1,
+    "native_size": 13146,
+    "size_64": 378,
+    "n_d4_voxels_touched": 31,
+    "total_contribution_mass": 5.90625,
+    "contribution_weighted_abs_error": 1.7000701427459717,
+    "mean_abs_error_per_unit_mass": 0.2878425638511698
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 2,
+    "native_size": 74631,
+    "size_64": 2126,
+    "n_d4_voxels_touched": 92,
+    "total_contribution_mass": 33.21875,
+    "contribution_weighted_abs_error": 9.707260131835938,
+    "mean_abs_error_per_unit_mass": 0.29222231817380057
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_component_id": 1,
+    "native_size": 103063,
+    "size_64": 2895,
+    "n_d4_voxels_touched": 95,
+    "total_contribution_mass": 45.234375,
+    "contribution_weighted_abs_error": 7.463281631469727,
+    "mean_abs_error_per_unit_mass": 0.16499137285459844
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_component_id": 2,
+    "native_size": 17,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0007324013276956975,
+    "mean_abs_error_per_unit_mass": 0.04687368497252464
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_component_id": 3,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_component_id": 1,
+    "native_size": 61602,
+    "size_64": 1749,
+    "n_d4_voxels_touched": 66,
+    "total_contribution_mass": 27.328125,
+    "contribution_weighted_abs_error": 6.92360258102417,
+    "mean_abs_error_per_unit_mass": 0.25335080913982094
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_component_id": 1,
+    "native_size": 38741,
+    "size_64": 1091,
+    "n_d4_voxels_touched": 47,
+    "total_contribution_mass": 17.046875,
+    "contribution_weighted_abs_error": 4.653294563293457,
+    "mean_abs_error_per_unit_mass": 0.272970533502091
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_component_id": 1,
+    "native_size": 111382,
+    "size_64": 3172,
+    "n_d4_voxels_touched": 105,
+    "total_contribution_mass": 49.5625,
+    "contribution_weighted_abs_error": 10.2962646484375,
+    "mean_abs_error_per_unit_mass": 0.20774304460907944
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 1,
+    "native_size": 110341,
+    "size_64": 3123,
+    "n_d4_voxels_touched": 98,
+    "total_contribution_mass": 48.796875,
+    "contribution_weighted_abs_error": 7.737758636474609,
+    "mean_abs_error_per_unit_mass": 0.15857078217559237
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 6,
+    "native_size": 46,
+    "size_64": 3,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.046875,
+    "contribution_weighted_abs_error": 0.00683481153100729,
+    "mean_abs_error_per_unit_mass": 0.14580931266148886
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 10,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 12,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 14,
+    "native_size": 17,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 1,
+    "native_size": 3065,
+    "size_64": 93,
+    "n_d4_voxels_touched": 10,
+    "total_contribution_mass": 1.453125,
+    "contribution_weighted_abs_error": 0.3154282569885254,
+    "mean_abs_error_per_unit_mass": 0.21706890803511425
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 3,
+    "native_size": 86297,
+    "size_64": 2421,
+    "n_d4_voxels_touched": 97,
+    "total_contribution_mass": 37.828125,
+    "contribution_weighted_abs_error": 9.489324569702148,
+    "mean_abs_error_per_unit_mass": 0.2508536854444186
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 8,
+    "native_size": 12,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0009765588329173625,
+    "mean_abs_error_per_unit_mass": 0.0624997653067112
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 10,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 16,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 18,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 20,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 23,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 24,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 25,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 26,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 27,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 28,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 29,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 31,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 32,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 33,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 35,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 36,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 37,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 38,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 39,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 40,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 41,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 42,
+    "native_size": 2,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0012207021936774254,
+    "mean_abs_error_per_unit_mass": 0.07812494039535522
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 43,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 44,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 45,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 46,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 47,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 48,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 49,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 50,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 51,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 52,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 53,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 54,
+    "native_size": 1,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.004394437186419964,
+    "mean_abs_error_per_unit_mass": 0.2812439799308777
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 55,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.002927883993834257,
+    "mean_abs_error_per_unit_mass": 0.18738457560539246
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 56,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 57,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 58,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 59,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 60,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 61,
+    "native_size": 13,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024413791834376752,
+    "mean_abs_error_per_unit_mass": 0.015624826774001122
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 62,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 63,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 64,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 65,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 66,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 67,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 68,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.006835813634097576,
+    "mean_abs_error_per_unit_mass": 0.4374920725822449
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 69,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 70,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 71,
+    "native_size": 8,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 72,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 73,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 74,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 75,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 76,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 77,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 78,
+    "native_size": 1,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0009765595896169543,
+    "mean_abs_error_per_unit_mass": 0.06249981373548508
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 79,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 80,
+    "native_size": 8,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 81,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 82,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 83,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 1,
+    "native_size": 54547,
+    "size_64": 1518,
+    "n_d4_voxels_touched": 74,
+    "total_contribution_mass": 23.71875,
+    "contribution_weighted_abs_error": 5.846302032470703,
+    "mean_abs_error_per_unit_mass": 0.24648440716609024
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 2,
+    "native_size": 561,
+    "size_64": 15,
+    "n_d4_voxels_touched": 4,
+    "total_contribution_mass": 0.234375,
+    "contribution_weighted_abs_error": 0.13699980080127716,
+    "mean_abs_error_per_unit_mass": 0.5845324834187825
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 3,
+    "native_size": 17,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.002684885635972023,
+    "mean_abs_error_per_unit_mass": 0.17183268070220947
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 7,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 9,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 10,
+    "native_size": 9,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.002685546875,
+    "mean_abs_error_per_unit_mass": 0.171875
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 11,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 12,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 14,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_component_id": 1,
+    "native_size": 38714,
+    "size_64": 1066,
+    "n_d4_voxels_touched": 55,
+    "total_contribution_mass": 16.65625,
+    "contribution_weighted_abs_error": 4.494199752807617,
+    "mean_abs_error_per_unit_mass": 0.2698206230578682
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_component_id": 1,
+    "native_size": 71715,
+    "size_64": 2029,
+    "n_d4_voxels_touched": 86,
+    "total_contribution_mass": 31.703125,
+    "contribution_weighted_abs_error": 6.843324661254883,
+    "mean_abs_error_per_unit_mass": 0.215856470340223
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 1,
+    "native_size": 140993,
+    "size_64": 3987,
+    "n_d4_voxels_touched": 137,
+    "total_contribution_mass": 62.296875,
+    "contribution_weighted_abs_error": 11.447035789489746,
+    "mean_abs_error_per_unit_mass": 0.18374975934972254
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024413998471572995,
+    "mean_abs_error_per_unit_mass": 0.015624959021806717
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024414013023488224,
+    "mean_abs_error_per_unit_mass": 0.015624968335032463
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_component_id": 1,
+    "native_size": 149786,
+    "size_64": 4245,
+    "n_d4_voxels_touched": 129,
+    "total_contribution_mass": 66.328125,
+    "contribution_weighted_abs_error": 8.968487739562988,
+    "mean_abs_error_per_unit_mass": 0.13521394943039605
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_component_id": 1,
+    "native_size": 97042,
+    "size_64": 2765,
+    "n_d4_voxels_touched": 102,
+    "total_contribution_mass": 43.203125,
+    "contribution_weighted_abs_error": 8.456228256225586,
+    "mean_abs_error_per_unit_mass": 0.19573186560522152
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_component_id": 2,
+    "native_size": 21,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0002441078977426514,
+    "mean_abs_error_per_unit_mass": 0.01562290545552969
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_component_id": 1,
+    "native_size": 17539,
+    "size_64": 479,
+    "n_d4_voxels_touched": 25,
+    "total_contribution_mass": 7.484375,
+    "contribution_weighted_abs_error": 2.665304660797119,
+    "mean_abs_error_per_unit_mass": 0.3561158628204919
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_component_id": 1,
+    "native_size": 136499,
+    "size_64": 3896,
+    "n_d4_voxels_touched": 135,
+    "total_contribution_mass": 60.875,
+    "contribution_weighted_abs_error": 11.146798133850098,
+    "mean_abs_error_per_unit_mass": 0.18310962026858477
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 1,
+    "native_size": 175355,
+    "size_64": 4975,
+    "n_d4_voxels_touched": 156,
+    "total_contribution_mass": 77.734375,
+    "contribution_weighted_abs_error": 10.75790786743164,
+    "mean_abs_error_per_unit_mass": 0.13839318663630654
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 2,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 1,
+    "native_size": 50284,
+    "size_64": 1416,
+    "n_d4_voxels_touched": 65,
+    "total_contribution_mass": 22.125,
+    "contribution_weighted_abs_error": 5.404178619384766,
+    "mean_abs_error_per_unit_mass": 0.24425666076315325
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 2,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_component_id": 1,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_component_id": 2,
+    "native_size": 140455,
+    "size_64": 4002,
+    "n_d4_voxels_touched": 133,
+    "total_contribution_mass": 62.53125,
+    "contribution_weighted_abs_error": 10.930309295654297,
+    "mean_abs_error_per_unit_mass": 0.17479754995549102
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_component_id": 1,
+    "native_size": 74456,
+    "size_64": 2121,
+    "n_d4_voxels_touched": 79,
+    "total_contribution_mass": 33.140625,
+    "contribution_weighted_abs_error": 6.804086685180664,
+    "mean_abs_error_per_unit_mass": 0.20530954637037366
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_component_id": 1,
+    "native_size": 113357,
+    "size_64": 3205,
+    "n_d4_voxels_touched": 106,
+    "total_contribution_mass": 50.078125,
+    "contribution_weighted_abs_error": 8.193428039550781,
+    "mean_abs_error_per_unit_mass": 0.16361291561037442
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 1,
+    "native_size": 161090,
+    "size_64": 4517,
+    "n_d4_voxels_touched": 152,
+    "total_contribution_mass": 70.578125,
+    "contribution_weighted_abs_error": 12.095614433288574,
+    "mean_abs_error_per_unit_mass": 0.1713790842883482
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 2,
+    "native_size": 8,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0018459619022905827,
+    "mean_abs_error_per_unit_mass": 0.11814156174659729
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 4,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0018459619022905827,
+    "mean_abs_error_per_unit_mass": 0.11814156174659729
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 6,
+    "native_size": 119,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.000976287352386862,
+    "mean_abs_error_per_unit_mass": 0.031241195276379585
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 7,
+    "native_size": 12,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 9,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_component_id": 1,
+    "native_size": 28729,
+    "size_64": 817,
+    "n_d4_voxels_touched": 42,
+    "total_contribution_mass": 12.765625,
+    "contribution_weighted_abs_error": 3.53010892868042,
+    "mean_abs_error_per_unit_mass": 0.27653240077790314
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_component_id": 2,
+    "native_size": 1872,
+    "size_64": 49,
+    "n_d4_voxels_touched": 8,
+    "total_contribution_mass": 0.765625,
+    "contribution_weighted_abs_error": 0.2204349935054779,
+    "mean_abs_error_per_unit_mass": 0.28791509355817524
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 1,
+    "native_size": 70428,
+    "size_64": 1988,
+    "n_d4_voxels_touched": 71,
+    "total_contribution_mass": 31.0625,
+    "contribution_weighted_abs_error": 6.603686809539795,
+    "mean_abs_error_per_unit_mass": 0.2125935391401141
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_component_id": 1,
+    "native_size": 105140,
+    "size_64": 2965,
+    "n_d4_voxels_touched": 97,
+    "total_contribution_mass": 46.328125,
+    "contribution_weighted_abs_error": 6.731938362121582,
+    "mean_abs_error_per_unit_mass": 0.14530996801881324
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_component_id": 2,
+    "native_size": 53128,
+    "size_64": 1543,
+    "n_d4_voxels_touched": 79,
+    "total_contribution_mass": 24.109375,
+    "contribution_weighted_abs_error": 10.503092765808105,
+    "mean_abs_error_per_unit_mass": 0.4356435107010491
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_component_id": 3,
+    "native_size": 565,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_component_id": 1,
+    "native_size": 76329,
+    "size_64": 2145,
+    "n_d4_voxels_touched": 86,
+    "total_contribution_mass": 33.515625,
+    "contribution_weighted_abs_error": 7.8877787590026855,
+    "mean_abs_error_per_unit_mass": 0.23534631262292396
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_component_id": 1,
+    "native_size": 113856,
+    "size_64": 3241,
+    "n_d4_voxels_touched": 118,
+    "total_contribution_mass": 50.640625,
+    "contribution_weighted_abs_error": 9.66484260559082,
+    "mean_abs_error_per_unit_mass": 0.19085156641709736
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 1,
+    "native_size": 129311,
+    "size_64": 3707,
+    "n_d4_voxels_touched": 123,
+    "total_contribution_mass": 57.921875,
+    "contribution_weighted_abs_error": 14.937837600708008,
+    "mean_abs_error_per_unit_mass": 0.25789630602786956
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 2,
+    "native_size": 67,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0012639770284295082,
+    "mean_abs_error_per_unit_mass": 0.08089452981948853
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0004880433261860162,
+    "mean_abs_error_per_unit_mass": 0.031234772875905037
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 7,
+    "native_size": 120,
+    "size_64": 4,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.024901848286390305,
+    "mean_abs_error_per_unit_mass": 0.3984295725822449
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 8,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 9,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 1,
+    "native_size": 158673,
+    "size_64": 4463,
+    "n_d4_voxels_touched": 182,
+    "total_contribution_mass": 69.734375,
+    "contribution_weighted_abs_error": 23.957141876220703,
+    "mean_abs_error_per_unit_mass": 0.3435485279135391
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 2,
+    "native_size": 7222,
+    "size_64": 212,
+    "n_d4_voxels_touched": 18,
+    "total_contribution_mass": 3.3125,
+    "contribution_weighted_abs_error": 1.0097615718841553,
+    "mean_abs_error_per_unit_mass": 0.3048336820782356
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 4,
+    "native_size": 1099,
+    "size_64": 26,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.40625,
+    "contribution_weighted_abs_error": 0.08447259664535522,
+    "mean_abs_error_per_unit_mass": 0.20793254558856672
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_component_id": 1,
+    "native_size": 117119,
+    "size_64": 3315,
+    "n_d4_voxels_touched": 113,
+    "total_contribution_mass": 51.796875,
+    "contribution_weighted_abs_error": 9.412282943725586,
+    "mean_abs_error_per_unit_mass": 0.18171526648519984
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_component_id": 2,
+    "native_size": 11,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 1,
+    "native_size": 73131,
+    "size_64": 2066,
+    "n_d4_voxels_touched": 93,
+    "total_contribution_mass": 32.28125,
+    "contribution_weighted_abs_error": 6.933771133422852,
+    "mean_abs_error_per_unit_mass": 0.21479252301019483
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 3,
+    "native_size": 8,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 4,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_component_id": 1,
+    "native_size": 90377,
+    "size_64": 2571,
+    "n_d4_voxels_touched": 99,
+    "total_contribution_mass": 40.171875,
+    "contribution_weighted_abs_error": 9.525956153869629,
+    "mean_abs_error_per_unit_mass": 0.2371299859384116
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 1,
+    "native_size": 9,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 2,
+    "native_size": 39615,
+    "size_64": 1119,
+    "n_d4_voxels_touched": 48,
+    "total_contribution_mass": 17.484375,
+    "contribution_weighted_abs_error": 3.3051705360412598,
+    "mean_abs_error_per_unit_mass": 0.18903566962166277
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 4,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 1,
+    "native_size": 100867,
+    "size_64": 2863,
+    "n_d4_voxels_touched": 104,
+    "total_contribution_mass": 44.734375,
+    "contribution_weighted_abs_error": 9.565337181091309,
+    "mean_abs_error_per_unit_mass": 0.21382521117353956
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 1,
+    "native_size": 119558,
+    "size_64": 3415,
+    "n_d4_voxels_touched": 124,
+    "total_contribution_mass": 53.359375,
+    "contribution_weighted_abs_error": 8.592000007629395,
+    "mean_abs_error_per_unit_mass": 0.16102137642409406
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 2,
+    "native_size": 27,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 4,
+    "native_size": 104,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0009765417198650539,
+    "mean_abs_error_per_unit_mass": 0.031249335035681725
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 5,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 1,
+    "native_size": 65299,
+    "size_64": 1822,
+    "n_d4_voxels_touched": 66,
+    "total_contribution_mass": 28.46875,
+    "contribution_weighted_abs_error": 6.1370439529418945,
+    "mean_abs_error_per_unit_mass": 0.2155712475237548
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 5,
+    "native_size": 17,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 1,
+    "native_size": 86814,
+    "size_64": 2459,
+    "n_d4_voxels_touched": 81,
+    "total_contribution_mass": 38.421875,
+    "contribution_weighted_abs_error": 6.415633201599121,
+    "mean_abs_error_per_unit_mass": 0.16697865998468636
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 1,
+    "native_size": 73286,
+    "size_64": 2067,
+    "n_d4_voxels_touched": 87,
+    "total_contribution_mass": 32.296875,
+    "contribution_weighted_abs_error": 7.008821487426758,
+    "mean_abs_error_per_unit_mass": 0.21701237309884494
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 2,
+    "native_size": 1943,
+    "size_64": 54,
+    "n_d4_voxels_touched": 6,
+    "total_contribution_mass": 0.84375,
+    "contribution_weighted_abs_error": 0.28265440464019775,
+    "mean_abs_error_per_unit_mass": 0.33499781290690106
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 1,
+    "native_size": 131596,
+    "size_64": 3737,
+    "n_d4_voxels_touched": 122,
+    "total_contribution_mass": 58.390625,
+    "contribution_weighted_abs_error": 9.374716758728027,
+    "mean_abs_error_per_unit_mass": 0.1605517453996772
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_component_id": 1,
+    "native_size": 122552,
+    "size_64": 3504,
+    "n_d4_voxels_touched": 115,
+    "total_contribution_mass": 54.75,
+    "contribution_weighted_abs_error": 9.750991821289062,
+    "mean_abs_error_per_unit_mass": 0.1781003072381564
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_component_id": 1,
+    "native_size": 95372,
+    "size_64": 2718,
+    "n_d4_voxels_touched": 100,
+    "total_contribution_mass": 42.46875,
+    "contribution_weighted_abs_error": 8.360824584960938,
+    "mean_abs_error_per_unit_mass": 0.1968700417356512
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_component_id": 1,
+    "native_size": 132714,
+    "size_64": 3744,
+    "n_d4_voxels_touched": 133,
+    "total_contribution_mass": 58.5,
+    "contribution_weighted_abs_error": 11.341829299926758,
+    "mean_abs_error_per_unit_mass": 0.19387742393037194
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 1,
+    "native_size": 17077,
+    "size_64": 489,
+    "n_d4_voxels_touched": 28,
+    "total_contribution_mass": 7.640625,
+    "contribution_weighted_abs_error": 1.8628590106964111,
+    "mean_abs_error_per_unit_mass": 0.24380976827110493
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_component_id": 1,
+    "native_size": 66156,
+    "size_64": 1886,
+    "n_d4_voxels_touched": 79,
+    "total_contribution_mass": 29.46875,
+    "contribution_weighted_abs_error": 16.02838134765625,
+    "mean_abs_error_per_unit_mass": 0.543911137990456
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_component_id": 2,
+    "native_size": 13,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 1,
+    "native_size": 129177,
+    "size_64": 3680,
+    "n_d4_voxels_touched": 137,
+    "total_contribution_mass": 57.5,
+    "contribution_weighted_abs_error": 12.84642219543457,
+    "mean_abs_error_per_unit_mass": 0.2234160381814708
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_component_id": 1,
+    "native_size": 114031,
+    "size_64": 3231,
+    "n_d4_voxels_touched": 102,
+    "total_contribution_mass": 50.484375,
+    "contribution_weighted_abs_error": 8.475659370422363,
+    "mean_abs_error_per_unit_mass": 0.1678867841866392
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_component_id": 1,
+    "native_size": 140709,
+    "size_64": 3923,
+    "n_d4_voxels_touched": 166,
+    "total_contribution_mass": 61.296875,
+    "contribution_weighted_abs_error": 17.655765533447266,
+    "mean_abs_error_per_unit_mass": 0.28803696001545376
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_component_id": 1,
+    "native_size": 59334,
+    "size_64": 1692,
+    "n_d4_voxels_touched": 83,
+    "total_contribution_mass": 26.4375,
+    "contribution_weighted_abs_error": 8.081542015075684,
+    "mean_abs_error_per_unit_mass": 0.30568480435274453
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_component_id": 1,
+    "native_size": 74543,
+    "size_64": 2127,
+    "n_d4_voxels_touched": 79,
+    "total_contribution_mass": 33.234375,
+    "contribution_weighted_abs_error": 6.977608680725098,
+    "mean_abs_error_per_unit_mass": 0.2099515540979813
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_component_id": 1,
+    "native_size": 148740,
+    "size_64": 4223,
+    "n_d4_voxels_touched": 136,
+    "total_contribution_mass": 65.984375,
+    "contribution_weighted_abs_error": 11.032646179199219,
+    "mean_abs_error_per_unit_mass": 0.16720088928930854
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_component_id": 1,
+    "native_size": 83041,
+    "size_64": 2361,
+    "n_d4_voxels_touched": 85,
+    "total_contribution_mass": 36.890625,
+    "contribution_weighted_abs_error": 7.764365196228027,
+    "mean_abs_error_per_unit_mass": 0.21046987401888764
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_component_id": 2,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 1,
+    "native_size": 102451,
+    "size_64": 2902,
+    "n_d4_voxels_touched": 93,
+    "total_contribution_mass": 45.34375,
+    "contribution_weighted_abs_error": 7.1268205642700195,
+    "mean_abs_error_per_unit_mass": 0.15717316199630643
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 2,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 3,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_component_id": 1,
+    "native_size": 71097,
+    "size_64": 2009,
+    "n_d4_voxels_touched": 72,
+    "total_contribution_mass": 31.390625,
+    "contribution_weighted_abs_error": 7.042930603027344,
+    "mean_abs_error_per_unit_mass": 0.22436414066388752
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 1,
+    "native_size": 138021,
+    "size_64": 3916,
+    "n_d4_voxels_touched": 140,
+    "total_contribution_mass": 61.1875,
+    "contribution_weighted_abs_error": 11.645587921142578,
+    "mean_abs_error_per_unit_mass": 0.19032625815963355
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 4,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.004638671875,
+    "mean_abs_error_per_unit_mass": 0.296875
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 7,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 8,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 9,
+    "native_size": 2,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0053710052743554115,
+    "mean_abs_error_per_unit_mass": 0.34374433755874634
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 11,
+    "native_size": 14,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_component_id": 1,
+    "native_size": 48698,
+    "size_64": 1396,
+    "n_d4_voxels_touched": 56,
+    "total_contribution_mass": 21.8125,
+    "contribution_weighted_abs_error": 4.945910453796387,
+    "mean_abs_error_per_unit_mass": 0.22674661106229854
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_component_id": 1,
+    "native_size": 109201,
+    "size_64": 3087,
+    "n_d4_voxels_touched": 96,
+    "total_contribution_mass": 48.234375,
+    "contribution_weighted_abs_error": 8.030158996582031,
+    "mean_abs_error_per_unit_mass": 0.1664820783224004
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 1,
+    "native_size": 31106,
+    "size_64": 864,
+    "n_d4_voxels_touched": 44,
+    "total_contribution_mass": 13.5,
+    "contribution_weighted_abs_error": 3.6255908012390137,
+    "mean_abs_error_per_unit_mass": 0.2685622815732603
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_component_id": 1,
+    "native_size": 38502,
+    "size_64": 1086,
+    "n_d4_voxels_touched": 62,
+    "total_contribution_mass": 16.96875,
+    "contribution_weighted_abs_error": 5.9895548820495605,
+    "mean_abs_error_per_unit_mass": 0.352975609991871
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_component_id": 1,
+    "native_size": 62146,
+    "size_64": 1760,
+    "n_d4_voxels_touched": 70,
+    "total_contribution_mass": 27.5,
+    "contribution_weighted_abs_error": 5.087547302246094,
+    "mean_abs_error_per_unit_mass": 0.18500172008167615
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 1,
+    "native_size": 42,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024414053768850863,
+    "mean_abs_error_per_unit_mass": 0.015624994412064552
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 2,
+    "native_size": 30226,
+    "size_64": 840,
+    "n_d4_voxels_touched": 41,
+    "total_contribution_mass": 13.125,
+    "contribution_weighted_abs_error": 3.241048812866211,
+    "mean_abs_error_per_unit_mass": 0.24693705240885416
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 9,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 10,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 11,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 14,
+    "native_size": 2,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0007324215257540345,
+    "mean_abs_error_per_unit_mass": 0.04687497764825821
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 15,
+    "native_size": 27,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 18,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_component_id": 1,
+    "native_size": 146677,
+    "size_64": 4105,
+    "n_d4_voxels_touched": 139,
+    "total_contribution_mass": 64.140625,
+    "contribution_weighted_abs_error": 12.759227752685547,
+    "mean_abs_error_per_unit_mass": 0.1989258407239647
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 1,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 2,
+    "native_size": 7509,
+    "size_64": 211,
+    "n_d4_voxels_touched": 16,
+    "total_contribution_mass": 3.296875,
+    "contribution_weighted_abs_error": 1.1543205976486206,
+    "mean_abs_error_per_unit_mass": 0.35012567890763846
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_component_id": 1,
+    "native_size": 51320,
+    "size_64": 1454,
+    "n_d4_voxels_touched": 61,
+    "total_contribution_mass": 22.71875,
+    "contribution_weighted_abs_error": 4.744284629821777,
+    "mean_abs_error_per_unit_mass": 0.20882683377482375
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_component_id": 1,
+    "native_size": 7282,
+    "size_64": 203,
+    "n_d4_voxels_touched": 16,
+    "total_contribution_mass": 3.171875,
+    "contribution_weighted_abs_error": 1.1091114282608032,
+    "mean_abs_error_per_unit_mass": 0.34967059807237144
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.003173828125,
+    "mean_abs_error_per_unit_mass": 0.203125
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_component_id": 1,
+    "native_size": 121324,
+    "size_64": 3449,
+    "n_d4_voxels_touched": 131,
+    "total_contribution_mass": 53.890625,
+    "contribution_weighted_abs_error": 10.523693084716797,
+    "mean_abs_error_per_unit_mass": 0.19527873511796898
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_component_id": 1,
+    "native_size": 128899,
+    "size_64": 3663,
+    "n_d4_voxels_touched": 154,
+    "total_contribution_mass": 57.234375,
+    "contribution_weighted_abs_error": 12.484742164611816,
+    "mean_abs_error_per_unit_mass": 0.2181336332337309
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_component_id": 1,
+    "native_size": 70109,
+    "size_64": 2000,
+    "n_d4_voxels_touched": 96,
+    "total_contribution_mass": 31.25,
+    "contribution_weighted_abs_error": 9.787886619567871,
+    "mean_abs_error_per_unit_mass": 0.3132123718261719
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_component_id": 1,
+    "native_size": 51782,
+    "size_64": 1471,
+    "n_d4_voxels_touched": 54,
+    "total_contribution_mass": 22.984375,
+    "contribution_weighted_abs_error": 4.702252388000488,
+    "mean_abs_error_per_unit_mass": 0.20458474019852566
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_component_id": 1,
+    "native_size": 196777,
+    "size_64": 5587,
+    "n_d4_voxels_touched": 168,
+    "total_contribution_mass": 87.296875,
+    "contribution_weighted_abs_error": 14.990120887756348,
+    "mean_abs_error_per_unit_mass": 0.1717142897469852
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_component_id": 1,
+    "native_size": 95466,
+    "size_64": 2691,
+    "n_d4_voxels_touched": 91,
+    "total_contribution_mass": 42.046875,
+    "contribution_weighted_abs_error": 8.41209602355957,
+    "mean_abs_error_per_unit_mass": 0.20006471404972595
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 1,
+    "native_size": 36218,
+    "size_64": 1018,
+    "n_d4_voxels_touched": 50,
+    "total_contribution_mass": 15.90625,
+    "contribution_weighted_abs_error": 3.7444136142730713,
+    "mean_abs_error_per_unit_mass": 0.23540517810754083
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 1,
+    "native_size": 89256,
+    "size_64": 2562,
+    "n_d4_voxels_touched": 106,
+    "total_contribution_mass": 40.03125,
+    "contribution_weighted_abs_error": 8.685983657836914,
+    "mean_abs_error_per_unit_mass": 0.216980075761734
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_component_id": 1,
+    "native_size": 102,
+    "size_64": 4,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.037109375,
+    "mean_abs_error_per_unit_mass": 0.59375
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_component_id": 2,
+    "native_size": 82727,
+    "size_64": 2334,
+    "n_d4_voxels_touched": 88,
+    "total_contribution_mass": 36.46875,
+    "contribution_weighted_abs_error": 8.903496742248535,
+    "mean_abs_error_per_unit_mass": 0.24414044194683215
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_component_id": 3,
+    "native_size": 461,
+    "size_64": 13,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.203125,
+    "contribution_weighted_abs_error": 0.14257743954658508,
+    "mean_abs_error_per_unit_mass": 0.7019197023831881
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 1,
+    "native_size": 161,
+    "size_64": 4,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.0019529401324689388,
+    "mean_abs_error_per_unit_mass": 0.03124704211950302
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 4,
+    "native_size": 52,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.002197190187871456,
+    "mean_abs_error_per_unit_mass": 0.1406201720237732
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 5,
+    "native_size": 29718,
+    "size_64": 858,
+    "n_d4_voxels_touched": 47,
+    "total_contribution_mass": 13.40625,
+    "contribution_weighted_abs_error": 3.2936995029449463,
+    "mean_abs_error_per_unit_mass": 0.24568387900754843
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 6,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 9,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 13,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 14,
+    "native_size": 29,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 15,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 16,
+    "native_size": 50,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 18,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 19,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 20,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 23,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024410468176938593,
+    "mean_abs_error_per_unit_mass": 0.0156226996332407
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 24,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 25,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 26,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 27,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 28,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 29,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 31,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 32,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 33,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 35,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_component_id": 1,
+    "native_size": 87535,
+    "size_64": 2467,
+    "n_d4_voxels_touched": 91,
+    "total_contribution_mass": 38.546875,
+    "contribution_weighted_abs_error": 7.370697021484375,
+    "mean_abs_error_per_unit_mass": 0.19121386679164978
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 1,
+    "native_size": 93712,
+    "size_64": 2638,
+    "n_d4_voxels_touched": 108,
+    "total_contribution_mass": 41.21875,
+    "contribution_weighted_abs_error": 7.066041946411133,
+    "mean_abs_error_per_unit_mass": 0.17142785616766965
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 3,
+    "native_size": 8,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 7,
+    "native_size": 97,
+    "size_64": 3,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.046875,
+    "contribution_weighted_abs_error": 0.006591767072677612,
+    "mean_abs_error_per_unit_mass": 0.1406243642171224
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 8,
+    "native_size": 9,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 9,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 11,
+    "native_size": 1672,
+    "size_64": 46,
+    "n_d4_voxels_touched": 10,
+    "total_contribution_mass": 0.71875,
+    "contribution_weighted_abs_error": 0.12645410001277924,
+    "mean_abs_error_per_unit_mass": 0.1759361391482146
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 13,
+    "native_size": 74,
+    "size_64": 2,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.00048825464909896255,
+    "mean_abs_error_per_unit_mass": 0.015624148771166801
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 15,
+    "native_size": 130,
+    "size_64": 4,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.0024413084611296654,
+    "mean_abs_error_per_unit_mass": 0.039060935378074646
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 17,
+    "native_size": 44,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0004882767971139401,
+    "mean_abs_error_per_unit_mass": 0.031249715015292168
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 18,
+    "native_size": 30,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0004882767971139401,
+    "mean_abs_error_per_unit_mass": 0.031249715015292168
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 19,
+    "native_size": 17,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024397880770266056,
+    "mean_abs_error_per_unit_mass": 0.015614643692970276
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 20,
+    "native_size": 11,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 1,
+    "native_size": 21,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 2,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 3,
+    "native_size": 202292,
+    "size_64": 5712,
+    "n_d4_voxels_touched": 167,
+    "total_contribution_mass": 89.25,
+    "contribution_weighted_abs_error": 13.346059799194336,
+    "mean_abs_error_per_unit_mass": 0.1495356840245864
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 9,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 11,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0002441353426547721,
+    "mean_abs_error_per_unit_mass": 0.015624661929905415
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 15,
+    "native_size": 3,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.0014645042829215527,
+    "mean_abs_error_per_unit_mass": 0.09372827410697937
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 16,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 18,
+    "native_size": 8,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 20,
+    "native_size": 22,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.003417966654524207,
+    "mean_abs_error_per_unit_mass": 0.21874986588954926
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 21,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 23,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 24,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 25,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 26,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 27,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 28,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 29,
+    "native_size": 15,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 31,
+    "native_size": 9,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 32,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 33,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 35,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 36,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 37,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 38,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 39,
+    "native_size": 1,
+    "size_64": 1,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.015625,
+    "contribution_weighted_abs_error": 0.00024409843899775296,
+    "mean_abs_error_per_unit_mass": 0.01562230009585619
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_component_id": 1,
+    "native_size": 45528,
+    "size_64": 1303,
+    "n_d4_voxels_touched": 58,
+    "total_contribution_mass": 20.359375,
+    "contribution_weighted_abs_error": 8.518877029418945,
+    "mean_abs_error_per_unit_mass": 0.41842527235825977
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 1,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 2,
+    "native_size": 6,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 3,
+    "native_size": 99715,
+    "size_64": 2831,
+    "n_d4_voxels_touched": 119,
+    "total_contribution_mass": 44.234375,
+    "contribution_weighted_abs_error": 12.690155029296875,
+    "mean_abs_error_per_unit_mass": 0.28688446551571883
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 6,
+    "native_size": 10,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 7,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 9,
+    "native_size": 7,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 12,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 13,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 18,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 20,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 21,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 23,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 24,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 25,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 26,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 27,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 28,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 29,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 31,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 32,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 33,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 35,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_component_id": 1,
+    "native_size": 153071,
+    "size_64": 4334,
+    "n_d4_voxels_touched": 158,
+    "total_contribution_mass": 67.71875,
+    "contribution_weighted_abs_error": 14.152088165283203,
+    "mean_abs_error_per_unit_mass": 0.20898330470192086
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_component_id": 1,
+    "native_size": 31883,
+    "size_64": 893,
+    "n_d4_voxels_touched": 39,
+    "total_contribution_mass": 13.953125,
+    "contribution_weighted_abs_error": 3.452094078063965,
+    "mean_abs_error_per_unit_mass": 0.24740651847266937
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_component_id": 2,
+    "native_size": 6990,
+    "size_64": 197,
+    "n_d4_voxels_touched": 15,
+    "total_contribution_mass": 3.078125,
+    "contribution_weighted_abs_error": 1.3891338109970093,
+    "mean_abs_error_per_unit_mass": 0.45129220255740404
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_component_id": 3,
+    "native_size": 138,
+    "size_64": 4,
+    "n_d4_voxels_touched": 3,
+    "total_contribution_mass": 0.0625,
+    "contribution_weighted_abs_error": 0.002685386221855879,
+    "mean_abs_error_per_unit_mass": 0.04296617954969406
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_component_id": 1,
+    "native_size": 16748,
+    "size_64": 474,
+    "n_d4_voxels_touched": 27,
+    "total_contribution_mass": 7.40625,
+    "contribution_weighted_abs_error": 2.215092182159424,
+    "mean_abs_error_per_unit_mass": 0.2990841764940994
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_component_id": 1,
+    "native_size": 140257,
+    "size_64": 3975,
+    "n_d4_voxels_touched": 144,
+    "total_contribution_mass": 62.109375,
+    "contribution_weighted_abs_error": 14.766448020935059,
+    "mean_abs_error_per_unit_mass": 0.23774910021128146
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 1,
+    "native_size": 137141,
+    "size_64": 3905,
+    "n_d4_voxels_touched": 122,
+    "total_contribution_mass": 61.015625,
+    "contribution_weighted_abs_error": 11.008809089660645,
+    "mean_abs_error_per_unit_mass": 0.180426064465629
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 7,
+    "native_size": 147,
+    "size_64": 2,
+    "n_d4_voxels_touched": 1,
+    "total_contribution_mass": 0.03125,
+    "contribution_weighted_abs_error": 0.0009765561553649604,
+    "mean_abs_error_per_unit_mass": 0.031249796971678734
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_component_id": 1,
+    "native_size": 119314,
+    "size_64": 3397,
+    "n_d4_voxels_touched": 113,
+    "total_contribution_mass": 53.078125,
+    "contribution_weighted_abs_error": 8.817745208740234,
+    "mean_abs_error_per_unit_mass": 0.16612766951998087
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_component_id": 1,
+    "native_size": 25776,
+    "size_64": 729,
+    "n_d4_voxels_touched": 36,
+    "total_contribution_mass": 11.390625,
+    "contribution_weighted_abs_error": 2.322704553604126,
+    "mean_abs_error_per_unit_mass": 0.20391370566620584
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 1,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 3,
+    "native_size": 47,
+    "size_64": 3,
+    "n_d4_voxels_touched": 2,
+    "total_contribution_mass": 0.046875,
+    "contribution_weighted_abs_error": 0.0012206875253468752,
+    "mean_abs_error_per_unit_mass": 0.02604133387406667
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 4,
+    "native_size": 12,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 6,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 7,
+    "native_size": 49781,
+    "size_64": 1410,
+    "n_d4_voxels_touched": 57,
+    "total_contribution_mass": 22.03125,
+    "contribution_weighted_abs_error": 4.275317192077637,
+    "mean_abs_error_per_unit_mass": 0.1940569505623892
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 12,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_component_id": 1,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_component_id": 3,
+    "native_size": 98993,
+    "size_64": 2782,
+    "n_d4_voxels_touched": 110,
+    "total_contribution_mass": 43.46875,
+    "contribution_weighted_abs_error": 9.797538757324219,
+    "mean_abs_error_per_unit_mass": 0.22539269607072251
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 1,
+    "native_size": 149588,
+    "size_64": 4276,
+    "n_d4_voxels_touched": 152,
+    "total_contribution_mass": 66.8125,
+    "contribution_weighted_abs_error": 11.272956848144531,
+    "mean_abs_error_per_unit_mass": 0.16872526620235032
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 6,
+    "native_size": 8,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 1,
+    "native_size": 67761,
+    "size_64": 1930,
+    "n_d4_voxels_touched": 81,
+    "total_contribution_mass": 30.15625,
+    "contribution_weighted_abs_error": 6.593418598175049,
+    "mean_abs_error_per_unit_mass": 0.2186418602503643
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 2,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 5,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_component_id": 1,
+    "native_size": 66727,
+    "size_64": 1857,
+    "n_d4_voxels_touched": 70,
+    "total_contribution_mass": 29.015625,
+    "contribution_weighted_abs_error": 6.571065425872803,
+    "mean_abs_error_per_unit_mass": 0.22646644440272448
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 1,
+    "native_size": 139229,
+    "size_64": 3945,
+    "n_d4_voxels_touched": 119,
+    "total_contribution_mass": 61.640625,
+    "contribution_weighted_abs_error": 11.58083438873291,
+    "mean_abs_error_per_unit_mass": 0.18787665421518537
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 11,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 12,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 14,
+    "native_size": 4,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 15,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_component_id": 1,
+    "native_size": 2638,
+    "size_64": 73,
+    "n_d4_voxels_touched": 6,
+    "total_contribution_mass": 1.140625,
+    "contribution_weighted_abs_error": 0.3258909285068512,
+    "mean_abs_error_per_unit_mass": 0.2857125948553216
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_component_id": 2,
+    "native_size": 23168,
+    "size_64": 641,
+    "n_d4_voxels_touched": 37,
+    "total_contribution_mass": 10.015625,
+    "contribution_weighted_abs_error": 3.3177928924560547,
+    "mean_abs_error_per_unit_mass": 0.33126169285052653
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_component_id": 3,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 1,
+    "native_size": 147740,
+    "size_64": 4203,
+    "n_d4_voxels_touched": 127,
+    "total_contribution_mass": 65.671875,
+    "contribution_weighted_abs_error": 9.81605052947998,
+    "mean_abs_error_per_unit_mass": 0.14947114772465353
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 3,
+    "native_size": 18,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 4,
+    "native_size": 5,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 8,
+    "native_size": 3,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 18,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 20,
+    "native_size": 2,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "n_d4_voxels_touched": 0,
+    "total_contribution_mass": 0.0,
+    "contribution_weighted_abs_error": null
+  }
+]

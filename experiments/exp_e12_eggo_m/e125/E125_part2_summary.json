@@ -1,0 +1,16 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "N_b_intact_mean": 0.2717153135538101,
+  "N_b_intact_std": 0.17333434846073537,
+  "N_b_meanreplaced_mean": -0.0027547820210456846,
+  "N_b_meanreplaced_std": 0.12644578322914923,
+  "dice_drop_from_meanreplacement_alone": 0.159579339325428,
+  "paired_diff_mean": -0.2744700955748558,
+  "paired_ttest_p": 1.196621670654215e-30,
+  "wilcoxon_p": 4.574293330270895e-22,
+  "predicted_direction_observed": true,
+  "decision": "CAUSAL_EVIDENCE_CONFIRMED",
+  "detail": "Forcing effective rank -> 1 SIGNIFICANTLY REDUCES N_b, in the predicted direction -- causal evidence that pre-pooling window effective rank drives bottleneck necessity, not just correlates with it via a third factor. GREEN for further investigation -- prior-art audit next, still NOT architecture implementation."
+}

@@ -1,0 +1,22 @@
+{
+  "n_subjects": 125,
+  "mean_dice_intact": 0.8957643356323243,
+  "mean_drop": {
+    "zero": 0.25537983179092405,
+    "mean_bottleneck": 0.2118982858620584,
+    "donor_size": 0.2699935874594375,
+    "donor_rand": 0.30984590463340284
+  },
+  "mean_bottleneck_spearman": {
+    "rho": 0.18111827956989246,
+    "perm_p": 0.054,
+    "ci_95": [
+      0.0005102576591155476,
+      0.36457744563355404
+    ]
+  },
+  "mean_vs_zero_p": 0.07073928968267537,
+  "mean_vs_donor_rand_p": 3.72989306379423e-06,
+  "verdict": "OOD_CONFOUND_SUPPORTED",
+  "interpretation": "Mean ablation (a generic, non-informative, in-distribution-aggregate signal) does comparatively little damage, similar to zero -- donor substitution's EXTRA damage appears specific to injecting a SPECIFIC, structured, wrong signal, consistent with the out-of-distribution ablation confound already documented in the interpretability literature (Li & Janson 2024). The 'compatibility phenomenon' framing should be treated with skepticism -- this looks more like a known measurement artifact than a new causal finding."
+}

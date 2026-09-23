@@ -1,0 +1,9 @@
+deployability gate on 15 tail subjects; k = [-2.0, -4.0, -6.0, -8.0, -10.0, -12.0, -16.0]
+  3/15 subj, 237 cand rows (6s)
+  6/15 subj, 1001 cand rows (13s)
+  9/15 subj, 1963 cand rows (20s)
+  12/15 subj, 3289 cand rows (27s)
+  15/15 subj, 3579 cand rows (35s)
+wrote EXP4_candidates.csv (3579 rows)
+wrote EXP4_targets.csv (80 rows)
+total 35s

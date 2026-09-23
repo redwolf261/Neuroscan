@@ -1,0 +1,46 @@
+SKIPPING baseline: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\baseline_results.json), loading existing result
+
+######################################################################
+# CONFIG: freeze_bn
+######################################################################
+  WARNING: only [1, 5, 10, 15, 20, 25] available (expected [1, 5, 10, 15, 20, 25, 30]), proceeding with what exists
+  [Part1]  1-> 5: cos=+0.8415
+  [Part1]  5->10: cos=+0.9283
+  [Part1] 10->15: cos=+0.9885
+  [Part1] 15->20: cos=+0.9812
+  [Part1] 20->25: cos=+0.9973
+  [Part4]  1-> 5: rotation_closeness=+0.4682 residual=1.1421
+  [Part4]  5->10: rotation_closeness=+0.9303 residual=0.4871
+  [Part4] 10->15: rotation_closeness=+0.9071 residual=0.6103
+  [Part4] 15->20: rotation_closeness=+0.8544 residual=0.6087
+  [Part4] 20->25: rotation_closeness=+0.9792 residual=0.2618
+  [Part5] Principal angles / subspace overlap (top-5 PCA components)...
+    epoch  1 vs epoch 1: max principal angle=0.0 deg, mean subspace overlap (cos)=+1.0000
+    epoch  5 vs epoch 1: max principal angle=87.7 deg, mean subspace overlap (cos)=+0.5152
+    epoch 10 vs epoch 1: max principal angle=83.6 deg, mean subspace overlap (cos)=+0.5705
+    epoch 15 vs epoch 1: max principal angle=83.9 deg, mean subspace overlap (cos)=+0.5482
+    epoch 20 vs epoch 1: max principal angle=84.5 deg, mean subspace overlap (cos)=+0.4741
+    epoch 25 vs epoch 1: max principal angle=85.6 deg, mean subspace overlap (cos)=+0.4802
+  [Part2/3] Selecting fixed stratified anchor set...
+  [Part2/3] epoch  1: 14812 nonzero gradients / 40000 anchors
+  [Part2/3] epoch  5: 28055 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 10: 22539 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 15: 19275 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 20: 9919 nonzero gradients / 40000 anchors
+  [Part2/3] epoch 25: 12093 nonzero gradients / 40000 anchors
+  [Part2]  1-> 5: n=12416 mean_cos=+0.1375
+  [Part2]  5->10: n=19061 mean_cos=+0.5351
+  [Part2] 10->15: n=16461 mean_cos=+0.6450
+  [Part2] 15->20: n=7488 mean_cos=+0.6367
+  [Part2] 20->25: n=6997 mean_cos=+0.7032
+  [Part3] vs epoch 1: e1=+1.000, e5=+0.137, e10=+0.141, e15=+0.152, e20=+0.131, e25=+0.137
+  [Rotation summary] 1->5: 0.15845632553100586, 5->10: 0.07165282964706421, 10->30: None
+SKIPPING freeze_encoder: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\freeze_encoder_results.json), loading existing result
+SKIPPING freeze_decoder: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\freeze_decoder_results.json), loading existing result
+SKIPPING freeze_seg_head: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\freeze_seg_head_results.json), loading existing result
+SKIPPING lambda_zero: already measured (found C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results\lambda_zero_results.json), loading existing result
+
+======================================================================
+Measured 6/6 configs: ['baseline', 'freeze_bn', 'freeze_encoder', 'freeze_decoder', 'freeze_seg_head', 'lambda_zero']
+======================================================================
+Results saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e18_measurement_results

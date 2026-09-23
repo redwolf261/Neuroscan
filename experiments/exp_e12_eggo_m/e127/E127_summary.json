@@ -1,0 +1,85 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "delta_r2_bar": 0.01,
+  "model_A_r2_size_dice_effrank": 0.7852790013798248,
+  "marginal_correlations_with_N_b": {
+    "S1": {
+      "rho": 0.45227035330261134,
+      "p": 1.1908120522438567e-07
+    },
+    "S2": {
+      "rho": 0.4342242703533025,
+      "p": 4.208299615049258e-07
+    },
+    "S3": {
+      "rho": 0.6265956368527594,
+      "p": 5.452867078614195e-15
+    },
+    "effective_rank": {
+      "rho": 0.6827096774193547,
+      "p": 1.807735147685246e-18
+    }
+  },
+  "collinearity_with_E126_effective_rank": {
+    "S1": {
+      "rho": 0.8525960061443931,
+      "p": 1.802599332090224e-36
+    },
+    "S2": {
+      "rho": 0.7600614439324116,
+      "p": 8.889262880607618e-25
+    },
+    "S3": {
+      "rho": 0.8397742529473693,
+      "p": 2.0163108432621336e-34
+    }
+  },
+  "incremental_tests": {
+    "S1_alone": {
+      "delta_r2": 0.0012558751060356421,
+      "perm_p": 0.371,
+      "coefficients": [
+        0.6027606870048952
+      ],
+      "r2_base": 0.7852790013798248,
+      "r2_full": 0.7865348764858604
+    },
+    "S2_alone": {
+      "delta_r2": 0.016758111649654017,
+      "perm_p": 0.004,
+      "coefficients": [
+        -10.307652882089071
+      ],
+      "r2_base": 0.7852790013798248,
+      "r2_full": 0.8020371130294788
+    },
+    "S3_alone": {
+      "delta_r2": 4.887500719830129e-05,
+      "perm_p": 0.85,
+      "coefficients": [
+        0.2279983545286151
+      ],
+      "r2_base": 0.7852790013798248,
+      "r2_full": 0.7853278763870231
+    },
+    "all_three": {
+      "delta_r2": 0.02599490907030244,
+      "perm_p": 0.0,
+      "coefficients": [
+        1.7253404652204836,
+        -13.67099614546487,
+        0.8111543840969361
+      ],
+      "r2_base": 0.7852790013798248,
+      "r2_full": 0.8112739104501272
+    }
+  },
+  "survivors": [
+    "S2_alone",
+    "all_three"
+  ],
+  "decision": "SURVIVES_INCREMENTAL_BAR",
+  "detail": "Survives for: ['S2_alone', 'all_three']. These summaries add predictive information about N_b BEYOND E126's effective rank plus size and Dice error. This is evidence for a transition property distinct from effective rank. It is NOT yet 'complementary information' -- at this stage it is only label-blind discarded-residual structure. Next step is a prior-art audit, NOT architecture implementation."
+}

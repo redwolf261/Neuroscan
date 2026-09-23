@@ -1,0 +1,12 @@
+{
+ "E181_D_gamma.json": {"sha256_16": "4b945265d534b785", "bytes": 1397245},
+ "E181_D_delta.json": {"sha256_16": "3c1c8bc7f88d203f", "bytes": 1660394},
+ "n_records": 3472,
+ "n_subjects": 125,
+ "configs": {"T6": [0.35, 0.5], "T7": [0.7, 1.3]},
+ "note": "FROZEN 2026-09-18 before Test A/B/C statistical analysis. Do NOT regenerate or modify the transforms, severity budgets, tile selection, or inclusion criteria after seeing inferential results. sha256_16 truncated per e169/e180 FROZEN convention.",
+ "retained_fields_per_record": ["sid", "window_id", "transform", "severity",
+   "uniform_magnitude", "gamma_dice (gamma file)",
+   "dice_deg, dice_cf_i, delta_i_global (delta file)",
+   "t6_diag: {requested_budget, achieved_shape_distance, converged, eff_rank_orig, eff_rank_new, rel_eff_rank_error, energy_orig, energy_new, rel_energy_error, UV_preserved_pass, UV_reconstruction_max_diff} (T6 records only)"]
+}

@@ -1,0 +1,63 @@
+{
+  "stage_stats": {
+    "N_1": {
+      "vs_native_size": {
+        "rho": -0.44822734254992314,
+        "perm_p": 0.0
+      },
+      "vs_dice_error": {
+        "rho": -0.22632872503840243,
+        "perm_p": 0.009
+      },
+      "small_large_strat": {
+        "small_mean": 0.7007232576253868,
+        "large_mean": 0.6035666566702628,
+        "diff": 0.09715660095512402,
+        "perm_p": 0.001
+      }
+    },
+    "N_2": {
+      "vs_native_size": {
+        "rho": -0.03624577572964669,
+        "perm_p": 0.697
+      },
+      "vs_dice_error": {
+        "rho": -0.27900460829493084,
+        "perm_p": 0.003
+      },
+      "small_large_strat": {
+        "small_mean": 0.6102600026107023,
+        "large_mean": 0.6184799668769683,
+        "diff": -0.008219964266265922,
+        "perm_p": 0.635
+      }
+    },
+    "N_3": {
+      "vs_native_size": {
+        "rho": -0.3832749615975422,
+        "perm_p": 0.0
+      },
+      "vs_dice_error": {
+        "rho": 0.01199385560675883,
+        "perm_p": 0.901
+      },
+      "small_large_strat": {
+        "small_mean": 0.3244732649080337,
+        "large_mean": 0.21810642750032486,
+        "diff": 0.10636683740770883,
+        "perm_p": 0.0
+      }
+    }
+  },
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "median_native_size": 90377.0,
+  "N1_mean": 0.6525335835516453,
+  "N1_std": 0.1480023053501478,
+  "N2_mean": 0.6143371048867703,
+  "N2_std": 0.08791107912582755,
+  "N3_mean": 0.2717153135538101,
+  "N3_std": 0.17333434846073537,
+  "note": "DIAGNOSTIC ONLY, no architecture change. Raw magnitude of N_1/N_2 is expected to be inflated relative to N_3 due to more downstream computation depending on earlier ablations -- see module docstring. The small-vs-large stratification (not raw magnitude) is the test that actually answers whether pool3/16->8 is UNIQUELY small-lesion-relevant among the three stages."
+}

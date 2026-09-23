@@ -1,0 +1,11 @@
+{
+  "run_name": "E137_v16_seed0",
+  "best_mean_dice": 0.883896811803182,
+  "epochs": 50,
+  "patch": [
+    128,
+    128,
+    128
+  ],
+  "seed": 0
+}

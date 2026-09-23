@@ -1,0 +1,18 @@
+{
+  "ADJ": {
+    "X1  L (logit only)": 0.8572664359861591,
+    "X2  L + local contrast": 0.8555363321799307,
+    "X2b L + contrast + scale": 0.8572664359861591,
+    "X3  L + contrast + trajectory": 0.9420415224913494,
+    "X3b full (all of the above)": 0.9290657439446367,
+    "TRAJ only": 0.9273356401384083
+  },
+  "HARDNEG": {
+    "X1  L (logit only)": 0.6894463667820069,
+    "X2  L + local contrast": 0.6816608996539792,
+    "X2b L + contrast + scale": 0.7024221453287197,
+    "X3  L + contrast + trajectory": 0.9974048442906575,
+    "X3b full (all of the above)": 0.9974048442906575,
+    "TRAJ only": 0.9896193771626297
+  }
+}

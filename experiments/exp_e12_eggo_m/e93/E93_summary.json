@@ -1,0 +1,22 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_small_cells": 1430,
+  "n_large_cells": 2259,
+  "mean_winner_match_small": 0.1883,
+  "mean_winner_match_large": 0.1880,
+  "p_winner_match": 0.094828,
+  "mean_margin_small": 0.3295,
+  "mean_margin_large": 0.3386,
+  "p_margin": 0.045910,
+  "rank_recovery": {
+    "1": {"small_mean": 0.5975, "large_mean": 0.7442},
+    "2": {"small_mean": 0.6151, "large_mean": 0.7495},
+    "3": {"small_mean": 0.6154, "large_mean": 0.7526},
+    "4": {"small_mean": 0.6052, "large_mean": 0.7498}
+  },
+  "small_gain_k1_to_k4": 0.0077,
+  "large_gain_k1_to_k4": 0.0056,
+  "mechanism_A_supported": false,
+  "mechanism_B_supported": true,
+  "mechanism_C_supported": false
+}

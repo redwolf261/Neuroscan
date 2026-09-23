@@ -1,0 +1,1421 @@
+{
+ "step_d_records": [
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 127,
+   "candidate_zyx": [
+    27,
+    11,
+    17
+   ],
+   "a_val_before": -1.52587890625e-05,
+   "a_val_after": -0.0004945509135723114,
+   "dist_j": 5.4432939577964135e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 61,
+   "candidate_zyx": [
+    14,
+    10,
+    2
+   ],
+   "a_val_before": -2.193450927734375e-05,
+   "a_val_after": 0.0011163240997120738,
+   "dist_j": 6.63197261019377e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 18,
+   "candidate_zyx": [
+    27,
+    25,
+    11
+   ],
+   "a_val_before": -2.288818359375e-05,
+   "a_val_after": 0.00017192168161273003,
+   "dist_j": 8.190822882170323e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 1.5631940186722204e-12,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 105,
+   "candidate_zyx": [
+    24,
+    30,
+    17
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": 0.0014163870364427567,
+   "dist_j": 1.0253896107315086e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 9.473903425812318e-15,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 105,
+   "candidate_zyx": [
+    7,
+    10,
+    10
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": 0.0014770645648241043,
+   "dist_j": 1.0253896107315086e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 5.7870579439622816e-09,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 79,
+   "candidate_zyx": [
+    31,
+    30,
+    22
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": -0.0017138570547103882,
+   "dist_j": 1.0816642316058278e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 11,
+   "candidate_zyx": [
+    19,
+    1,
+    31
+   ],
+   "a_val_before": 3.814697265625e-05,
+   "a_val_after": -0.002676539123058319,
+   "dist_j": 1.212804090755526e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 118,
+   "candidate_zyx": [
+    24,
+    27,
+    30
+   ],
+   "a_val_before": -4.57763671875e-05,
+   "a_val_after": -0.000600399449467659,
+   "dist_j": 1.4615102372772526e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0002432895707897842,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 111,
+   "candidate_zyx": [
+    6,
+    22,
+    13
+   ],
+   "a_val_before": 1.52587890625e-05,
+   "a_val_after": 0.004127128049731255,
+   "dist_j": 4.77110597785213e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 8,
+   "candidate_zyx": [
+    16,
+    26,
+    14
+   ],
+   "a_val_before": 1.71661376953125e-05,
+   "a_val_after": -0.0017636162228882313,
+   "dist_j": 5.3335161283030175e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 1.4776446732867043e-10,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 54,
+   "candidate_zyx": [
+    18,
+    24,
+    16
+   ],
+   "a_val_before": 1.52587890625e-05,
+   "a_val_after": 0.00017008185386657715,
+   "dist_j": 5.392123057390563e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 75,
+   "candidate_zyx": [
+    22,
+    18,
+    31
+   ],
+   "a_val_before": 2.288818359375e-05,
+   "a_val_after": -0.00044033490121364594,
+   "dist_j": 8.371216608793475e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 119,
+   "candidate_zyx": [
+    13,
+    29,
+    20
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": -0.0005808621644973755,
+   "dist_j": 1.210012942465255e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 5,
+   "candidate_zyx": [
+    20,
+    28,
+    24
+   ],
+   "a_val_before": -3.814697265625e-05,
+   "a_val_after": 0.0007381034083664417,
+   "dist_j": 1.3033367395109963e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 29,
+   "candidate_zyx": [
+    7,
+    30,
+    27
+   ],
+   "a_val_before": 4.57763671875e-05,
+   "a_val_after": -0.0013351161032915115,
+   "dist_j": 1.39070089062443e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 1.2316074538259308e-13,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 58,
+   "candidate_zyx": [
+    18,
+    25,
+    16
+   ],
+   "a_val_before": -4.57763671875e-05,
+   "a_val_after": 0.0003323061391711235,
+   "dist_j": 1.4671323697257321e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 1.4776446732867043e-10,
+   "epsilon_subject": 0.0004919761558994651,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 58,
+   "candidate_zyx": [
+    14,
+    25,
+    31
+   ],
+   "a_val_before": 7.62939453125e-06,
+   "a_val_after": 9.903963655233383e-05,
+   "dist_j": 2.4452206162095536e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 92,
+   "candidate_zyx": [
+    26,
+    25,
+    18
+   ],
+   "a_val_before": 7.62939453125e-06,
+   "a_val_after": -0.0007335059344768524,
+   "dist_j": 2.484541482772329e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 73,
+   "candidate_zyx": [
+    19,
+    3,
+    21
+   ],
+   "a_val_before": -1.52587890625e-05,
+   "a_val_after": 0.00033271871507167816,
+   "dist_j": 5.965970103716245e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 118,
+   "candidate_zyx": [
+    13,
+    13,
+    21
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": -0.00035584159195423126,
+   "dist_j": 9.74340127868345e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 1.458981047954e-12,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 81,
+   "candidate_zyx": [
+    18,
+    15,
+    19
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": 0.00043087080121040344,
+   "dist_j": 1.1139583875774406e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 4.1277797152572404e-11,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 71,
+   "candidate_zyx": [
+    5,
+    5,
+    28
+   ],
+   "a_val_before": -4.57763671875e-05,
+   "a_val_after": 0.0002384781837463379,
+   "dist_j": 1.5676114344387315e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 5.305385579641719e-13,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 36,
+   "candidate_zyx": [
+    21,
+    9,
+    27
+   ],
+   "a_val_before": 4.57763671875e-05,
+   "a_val_after": -0.0006722277030348778,
+   "dist_j": 1.5848905604798347e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 4.913166318232243e-09,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 25,
+   "candidate_zyx": [
+    22,
+    13,
+    15
+   ],
+   "a_val_before": 6.103515625e-05,
+   "a_val_after": 0.0014099609106779099,
+   "dist_j": 1.956043706741184e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 4.989325316273607e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 72,
+   "candidate_zyx": [
+    3,
+    8,
+    23
+   ],
+   "a_val_before": 1.9073486328125e-05,
+   "a_val_after": 0.00044483551755547523,
+   "dist_j": 7.112087132554734e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 60,
+   "candidate_zyx": [
+    8,
+    24,
+    14
+   ],
+   "a_val_before": -4.57763671875e-05,
+   "a_val_after": 0.00018507428467273712,
+   "dist_j": 1.6593279724474996e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 15,
+   "candidate_zyx": [
+    19,
+    27,
+    27
+   ],
+   "a_val_before": -5.340576171875e-05,
+   "a_val_after": -0.002149637322872877,
+   "dist_j": 1.6799915101728402e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 31,
+   "candidate_zyx": [
+    26,
+    29,
+    17
+   ],
+   "a_val_before": 6.103515625e-05,
+   "a_val_after": -0.0016856901347637177,
+   "dist_j": 1.8797871234710328e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 5.779081098215844e-13,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 55,
+   "candidate_zyx": [
+    7,
+    16,
+    12
+   ],
+   "a_val_before": 6.103515625e-05,
+   "a_val_after": 0.0012734495103359222,
+   "dist_j": 1.9180897652404383e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 55,
+   "candidate_zyx": [
+    15,
+    21,
+    9
+   ],
+   "a_val_before": 6.103515625e-05,
+   "a_val_after": 0.0014397762715816498,
+   "dist_j": 1.9180897652404383e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 105,
+   "candidate_zyx": [
+    25,
+    0,
+    29
+   ],
+   "a_val_before": -6.103515625e-05,
+   "a_val_after": 0.0009270329028367996,
+   "dist_j": 2.050779221463017e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 4.1306216259917594e-12,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 23,
+   "candidate_zyx": [
+    7,
+    26,
+    21
+   ],
+   "a_val_before": -6.103515625e-05,
+   "a_val_after": -0.0007301140576601028,
+   "dist_j": 2.069529364234768e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.331365875666961e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 8,
+   "candidate_zyx": [
+    23,
+    11,
+    12
+   ],
+   "a_val_before": 1.621246337890625e-05,
+   "a_val_after": -0.0031917435117065907,
+   "dist_j": 5.037209575675661e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 3.0633107162003625e-09,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 71,
+   "candidate_zyx": [
+    29,
+    26,
+    24
+   ],
+   "a_val_before": 1.52587890625e-05,
+   "a_val_after": 0.0008708462119102478,
+   "dist_j": 5.225371296546655e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 57,
+   "candidate_zyx": [
+    31,
+    7,
+    15
+   ],
+   "a_val_before": 1.52587890625e-05,
+   "a_val_after": -0.0012098364531993866,
+   "dist_j": 5.522661012946628e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 4.736951458796275e-14,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 75,
+   "candidate_zyx": [
+    3,
+    28,
+    30
+   ],
+   "a_val_before": 2.288818359375e-05,
+   "a_val_after": 0.0006188396364450455,
+   "dist_j": 8.371216608793475e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 48,
+   "candidate_zyx": [
+    24,
+    8,
+    4
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": -0.004861045628786087,
+   "dist_j": 9.74145223153755e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 71,
+   "candidate_zyx": [
+    5,
+    7,
+    7
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": 0.0003725886344909668,
+   "dist_j": 1.045074259309331e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 4,
+   "candidate_zyx": [
+    23,
+    17,
+    26
+   ],
+   "a_val_before": -3.4809112548828125e-05,
+   "a_val_after": 0.006438011769205332,
+   "dist_j": 1.0661623491614591e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 124,
+   "candidate_zyx": [
+    17,
+    8,
+    0
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": -0.0003830939531326294,
+   "dist_j": 1.0715290954976808e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 0.00019103534577880055,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 73,
+   "candidate_zyx": [
+    10,
+    30,
+    21
+   ],
+   "a_val_before": -1.1444091796875e-05,
+   "a_val_after": 0.0008677300065755844,
+   "dist_j": 4.474477918847697e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 89,
+   "candidate_zyx": [
+    21,
+    28,
+    6
+   ],
+   "a_val_before": -1.52587890625e-05,
+   "a_val_after": 0.0004188884049654007,
+   "dist_j": 4.90868978886283e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 28,
+   "candidate_zyx": [
+    3,
+    17,
+    10
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": -0.0009341835975646973,
+   "dist_j": 9.991546903620474e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 1.4684550233776128e-12,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 98,
+   "candidate_zyx": [
+    12,
+    23,
+    1
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": 0.0008500898256897926,
+   "dist_j": 1.0320844012312591e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 123,
+   "candidate_zyx": [
+    6,
+    12,
+    26
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": -0.0003479090519249439,
+   "dist_j": 1.0758483767858706e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 49,
+   "candidate_zyx": [
+    22,
+    27,
+    17
+   ],
+   "a_val_before": -3.814697265625e-05,
+   "a_val_after": 5.702115595340729e-05,
+   "dist_j": 1.183720087283291e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 8.778234250605976e-10,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 27,
+   "candidate_zyx": [
+    31,
+    28,
+    19
+   ],
+   "a_val_before": -4.57763671875e-05,
+   "a_val_after": 0.002327974885702133,
+   "dist_j": 1.3958880117570516e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 30,
+   "candidate_zyx": [
+    3,
+    30,
+    10
+   ],
+   "a_val_before": 4.57763671875e-05,
+   "a_val_after": -0.004121581092476845,
+   "dist_j": 1.688104930508416e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.897032578010112e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 113,
+   "candidate_zyx": [
+    27,
+    26,
+    14
+   ],
+   "a_val_before": 3.814697265625e-06,
+   "a_val_after": 0.0013906611129641533,
+   "dist_j": 1.320384512837336e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 20,
+   "candidate_zyx": [
+    11,
+    29,
+    22
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": 0.0009582974016666412,
+   "dist_j": 9.034379218064714e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 65,
+   "candidate_zyx": [
+    22,
+    27,
+    9
+   ],
+   "a_val_before": -3.814697265625e-05,
+   "a_val_after": 0.0010315421968698502,
+   "dist_j": 1.2768010492436588e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 6.631731974552149e-14,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 33,
+   "candidate_zyx": [
+    22,
+    20,
+    26
+   ],
+   "a_val_before": -9.5367431640625e-05,
+   "a_val_after": -0.002173831220716238,
+   "dist_j": 2.34216422541067e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 3.22112697842894e-13,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 8,
+   "candidate_zyx": [
+    29,
+    21,
+    22
+   ],
+   "a_val_before": -7.724761962890625e-05,
+   "a_val_after": -0.0060605150647461414,
+   "dist_j": 2.400082303211093e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 1.0421293683690255e-13,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 21,
+   "candidate_zyx": [
+    15,
+    15,
+    7
+   ],
+   "a_val_before": 6.866455078125e-05,
+   "a_val_after": 0.00031077489256858826,
+   "dist_j": 2.5632027245592326e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 45,
+   "candidate_zyx": [
+    20,
+    9,
+    3
+   ],
+   "a_val_before": -7.62939453125e-05,
+   "a_val_after": 0.0009006969630718231,
+   "dist_j": 2.702429992496036e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 65,
+   "candidate_zyx": [
+    17,
+    22,
+    11
+   ],
+   "a_val_before": -8.392333984375e-05,
+   "a_val_after": -0.0008071940392255783,
+   "dist_j": 2.8089623810956255e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 6.4297259086743e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 45,
+   "candidate_zyx": [
+    12,
+    19,
+    8
+   ],
+   "a_val_before": -1.52587890625e-05,
+   "a_val_after": -0.00038500502705574036,
+   "dist_j": 5.404860075941542e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 50,
+   "candidate_zyx": [
+    7,
+    5,
+    7
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": 0.003272857517004013,
+   "dist_j": 8.769933629082516e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 7.427540353599493e-12,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 72,
+   "candidate_zyx": [
+    17,
+    2,
+    13
+   ],
+   "a_val_before": 2.6702880859375e-05,
+   "a_val_after": -0.0001221722923219204,
+   "dist_j": 9.956922440323979e-06,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 28,
+   "candidate_zyx": [
+    3,
+    11,
+    22
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": -0.000652611255645752,
+   "dist_j": 9.991546903620474e-06,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 17,
+   "candidate_zyx": [
+    15,
+    24,
+    28
+   ],
+   "a_val_before": -3.0517578125e-05,
+   "a_val_after": -0.0008313823491334915,
+   "dist_j": 1.02831436379347e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 57,
+   "candidate_zyx": [
+    29,
+    15,
+    6
+   ],
+   "a_val_before": 3.0517578125e-05,
+   "a_val_after": 0.000257197767496109,
+   "dist_j": 1.1045322025893256e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 0.0,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 101,
+   "candidate_zyx": [
+    17,
+    7,
+    16
+   ],
+   "a_val_before": -4.1961669921875e-05,
+   "a_val_after": 0.0025794617831707,
+   "dist_j": 1.291112585022347e-05,
+   "boundary_crossed": true,
+   "output_distance_from_Z0": 1.61056348921447e-13,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": true
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 97,
+   "candidate_zyx": [
+    23,
+    22,
+    28
+   ],
+   "a_val_before": -6.103515625e-05,
+   "a_val_after": -0.00024099089205265045,
+   "dist_j": 1.5955249182297848e-05,
+   "boundary_crossed": false,
+   "output_distance_from_Z0": 6.915949475432004e-13,
+   "epsilon_subject": 9.289265290135518e-05,
+   "passed": false
+  }
+ ],
+ "gamma_records_passing_only": [
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 61,
+   "candidate_zyx": [
+    14,
+    10,
+    2
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.11184426148732507
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 18,
+   "candidate_zyx": [
+    27,
+    25,
+    11
+   ],
+   "output_distance_from_Z0": 1.5631940186722204e-12,
+   "gamma_candidate": 0.111826499303182
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 79,
+   "candidate_zyx": [
+    31,
+    30,
+    22
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.11182945966720581
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_channel": 11,
+   "candidate_zyx": [
+    19,
+    1,
+    31
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.11182820796966553
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 8,
+   "candidate_zyx": [
+    16,
+    26,
+    14
+   ],
+   "output_distance_from_Z0": 1.4776446732867043e-10,
+   "gamma_candidate": 0.0560935537020365
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 75,
+   "candidate_zyx": [
+    22,
+    18,
+    31
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.05609750747680664
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 5,
+   "candidate_zyx": [
+    20,
+    28,
+    24
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.05571790536244714
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 29,
+   "candidate_zyx": [
+    7,
+    30,
+    27
+   ],
+   "output_distance_from_Z0": 1.2316074538259308e-13,
+   "gamma_candidate": 0.056098779042561886
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_channel": 58,
+   "candidate_zyx": [
+    18,
+    25,
+    16
+   ],
+   "output_distance_from_Z0": 1.4776446732867043e-10,
+   "gamma_candidate": 0.05608663956324256
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 92,
+   "candidate_zyx": [
+    26,
+    25,
+    18
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.021221399307250977
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 73,
+   "candidate_zyx": [
+    19,
+    3,
+    21
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.021207888921101925
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 81,
+   "candidate_zyx": [
+    18,
+    15,
+    19
+   ],
+   "output_distance_from_Z0": 4.1277797152572404e-11,
+   "gamma_candidate": 0.02122851212819421
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 71,
+   "candidate_zyx": [
+    5,
+    5,
+    28
+   ],
+   "output_distance_from_Z0": 5.305385579641719e-13,
+   "gamma_candidate": 0.021242201328277588
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_channel": 36,
+   "candidate_zyx": [
+    21,
+    9,
+    27
+   ],
+   "output_distance_from_Z0": 4.913166318232243e-09,
+   "gamma_candidate": 0.021204491456349728
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 60,
+   "candidate_zyx": [
+    8,
+    24,
+    14
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.013647496700286865
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 31,
+   "candidate_zyx": [
+    26,
+    29,
+    17
+   ],
+   "output_distance_from_Z0": 5.779081098215844e-13,
+   "gamma_candidate": 0.013645748297373417
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_channel": 105,
+   "candidate_zyx": [
+    25,
+    0,
+    29
+   ],
+   "output_distance_from_Z0": 4.1306216259917594e-12,
+   "gamma_candidate": 0.013630231221516964
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 8,
+   "candidate_zyx": [
+    23,
+    11,
+    12
+   ],
+   "output_distance_from_Z0": 3.0633107162003625e-09,
+   "gamma_candidate": 0.061739106973012325
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 57,
+   "candidate_zyx": [
+    31,
+    7,
+    15
+   ],
+   "output_distance_from_Z0": 4.736951458796275e-14,
+   "gamma_candidate": 0.061720649401346805
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 48,
+   "candidate_zyx": [
+    24,
+    8,
+    4
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.061715225378672245
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 71,
+   "candidate_zyx": [
+    5,
+    7,
+    7
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.059509436289469364
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 4,
+   "candidate_zyx": [
+    23,
+    17,
+    26
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.05961074431737268
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_channel": 124,
+   "candidate_zyx": [
+    17,
+    8,
+    0
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.05952564875284827
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 73,
+   "candidate_zyx": [
+    10,
+    30,
+    21
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.013430456320444706
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 89,
+   "candidate_zyx": [
+    21,
+    28,
+    6
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.013421277205149296
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 28,
+   "candidate_zyx": [
+    3,
+    17,
+    10
+   ],
+   "output_distance_from_Z0": 1.4684550233776128e-12,
+   "gamma_candidate": 0.01343039671579993
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 123,
+   "candidate_zyx": [
+    6,
+    12,
+    26
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.013430356979370117
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 49,
+   "candidate_zyx": [
+    22,
+    27,
+    17
+   ],
+   "output_distance_from_Z0": 8.778234250605976e-10,
+   "gamma_candidate": 0.013432681560516357
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 27,
+   "candidate_zyx": [
+    31,
+    28,
+    19
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.013433794180552128
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_channel": 30,
+   "candidate_zyx": [
+    3,
+    30,
+    10
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.013431568940480587
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 65,
+   "candidate_zyx": [
+    22,
+    27,
+    9
+   ],
+   "output_distance_from_Z0": 6.631731974552149e-14,
+   "gamma_candidate": 0.016417860984802246
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_channel": 45,
+   "candidate_zyx": [
+    20,
+    9,
+    3
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.01640397310256958
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 50,
+   "candidate_zyx": [
+    7,
+    5,
+    7
+   ],
+   "output_distance_from_Z0": 7.427540353599493e-12,
+   "gamma_candidate": 0.017811139424641964
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 72,
+   "candidate_zyx": [
+    17,
+    2,
+    13
+   ],
+   "output_distance_from_Z0": 0.0,
+   "gamma_candidate": 0.017807304859161377
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_channel": 101,
+   "candidate_zyx": [
+    17,
+    7,
+    16
+   ],
+   "output_distance_from_Z0": 1.61056348921447e-13,
+   "gamma_candidate": 0.017584900061289432
+  }
+ ],
+ "n_total_candidates": 64,
+ "n_passed_step_d": 35,
+ "K_CANDIDATES": 8,
+ "ETA": 0.05,
+ "NOISE_FLOOR": 1e-06,
+ "note": "NO ground truth / Dice used anywhere. Gamma computed ONLY for candidates that passed Step D's hard gate. If n_passed_step_d==0, this is KILL per the prereg's decision table -- reported as such."
+}

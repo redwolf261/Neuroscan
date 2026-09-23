@@ -1,0 +1,180 @@
+{
+ "A_full_125": {
+  "T1_rank": {
+   "r2_M0_subject_FE_only": 0.9600205523419889,
+   "r2_M1_plus_uncertainty": 0.9628941217601732,
+   "r2_M2_plus_competitors": 0.968168766456117,
+   "r2_M3_plus_gamma": 0.9692816384905912,
+   "delta_R2_gamma_over_full_M2": 0.0011128720344741883,
+   "gamma_over_uncertainty_alone": {
+    "r2_base": 0.9628941217601732,
+    "r2_full": 0.9654983271600225,
+    "observed_delta_r2": 0.002604205399849291,
+    "null_mean": 0.00015616082209976123,
+    "null_std": 0.00021124687600996512,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "gamma_over_full_competitors": {
+    "r2_base": 0.968168766456117,
+    "r2_full": 0.9692816384905912,
+    "observed_delta_r2": 0.0011128720344741883,
+    "null_mean": 0.00011313758878572166,
+    "null_std": 0.00014933434493033198,
+    "permutation_p": 0.001,
+    "n_perm": 1000
+   },
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "PREREGISTERED_VERDICT": "SURVIVES",
+   "decision_rule": "KILL if gamma-over-uncertainty-alone perm p>0.05; WEAK if that survives but gamma-over-full-M2 does not; else SURVIVES"
+  },
+  "T4_spectral": {
+   "r2_M0_subject_FE_only": 0.9468515445365021,
+   "r2_M1_plus_uncertainty": 0.9505205847737587,
+   "r2_M2_plus_competitors": 0.9553369397321332,
+   "r2_M3_plus_gamma": 0.95961744548636,
+   "delta_R2_gamma_over_full_M2": 0.004280505754226782,
+   "gamma_over_uncertainty_alone": {
+    "r2_base": 0.9505205847737587,
+    "r2_full": 0.956907574100897,
+    "observed_delta_r2": 0.006386989327138326,
+    "null_mean": 0.00026597462777704686,
+    "null_std": 0.00036676397751388796,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "gamma_over_full_competitors": {
+    "r2_base": 0.9553369397321332,
+    "r2_full": 0.95961744548636,
+    "observed_delta_r2": 0.004280505754226782,
+    "null_mean": 0.00019185094027567563,
+    "null_std": 0.00026277286823516745,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "PREREGISTERED_VERDICT": "SURVIVES",
+   "decision_rule": "KILL if gamma-over-uncertainty-alone perm p>0.05; WEAK if that survives but gamma-over-full-M2 does not; else SURVIVES"
+  },
+  "T5_smooth": {
+   "r2_M0_subject_FE_only": 0.9481006242171113,
+   "r2_M1_plus_uncertainty": 0.9529583715710764,
+   "r2_M2_plus_competitors": 0.9579228370425706,
+   "r2_M3_plus_gamma": 0.967417016605072,
+   "delta_R2_gamma_over_full_M2": 0.009494179562501315,
+   "gamma_over_uncertainty_alone": {
+    "r2_base": 0.9529583715710764,
+    "r2_full": 0.9655517403015942,
+    "observed_delta_r2": 0.012593368730517751,
+    "null_mean": 0.0010802291480884391,
+    "null_std": 0.0013810403027405232,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "gamma_over_full_competitors": {
+    "r2_base": 0.9579228370425706,
+    "r2_full": 0.967417016605072,
+    "observed_delta_r2": 0.009494179562501315,
+    "null_mean": 0.0009718045322000124,
+    "null_std": 0.0012422400916413197,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "PREREGISTERED_VERDICT": "SURVIVES",
+   "decision_rule": "KILL if gamma-over-uncertainty-alone perm p>0.05; WEAK if that survives but gamma-over-full-M2 does not; else SURVIVES"
+  }
+ },
+ "B_E167_110": {
+  "T1_rank": {
+   "r2_M0_subject_FE_only": 0.9602622872373325,
+   "r2_M1_plus_uncertainty": 0.9628207356727779,
+   "r2_M2_plus_competitors": 0.9677861586803534,
+   "r2_M3_plus_gamma": 0.9699320036377523,
+   "delta_R2_gamma_over_full_M2": 0.0021458449573988903,
+   "gamma_over_uncertainty_alone": {
+    "r2_base": 0.9628207356727779,
+    "r2_full": 0.9669049767084723,
+    "observed_delta_r2": 0.00408424103569438,
+    "null_mean": 0.00026385620228370967,
+    "null_std": 0.0003649997639415986,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "gamma_over_full_competitors": {
+    "r2_base": 0.9677861586803534,
+    "r2_full": 0.9699320036377523,
+    "observed_delta_r2": 0.0021458449573988903,
+    "null_mean": 0.00018475061938676873,
+    "null_std": 0.00025326130427617426,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 772,
+   "n_subjects": 110,
+   "PREREGISTERED_VERDICT": "SURVIVES",
+   "decision_rule": "KILL if gamma-over-uncertainty-alone perm p>0.05; WEAK if that survives but gamma-over-full-M2 does not; else SURVIVES"
+  },
+  "T4_spectral": {
+   "r2_M0_subject_FE_only": 0.9463913745873638,
+   "r2_M1_plus_uncertainty": 0.9497168598993044,
+   "r2_M2_plus_competitors": 0.9544438226464115,
+   "r2_M3_plus_gamma": 0.9589394736053598,
+   "delta_R2_gamma_over_full_M2": 0.004495650958948327,
+   "gamma_over_uncertainty_alone": {
+    "r2_base": 0.9497168598993044,
+    "r2_full": 0.9561634093912967,
+    "observed_delta_r2": 0.006446549491992304,
+    "null_mean": 0.00033767445408288885,
+    "null_std": 0.00044968536386853027,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "gamma_over_full_competitors": {
+    "r2_base": 0.9544438226464115,
+    "r2_full": 0.9589394736053598,
+    "observed_delta_r2": 0.004495650958948327,
+    "null_mean": 0.00024289359235956208,
+    "null_std": 0.0003251610349665605,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 772,
+   "n_subjects": 110,
+   "PREREGISTERED_VERDICT": "SURVIVES",
+   "decision_rule": "KILL if gamma-over-uncertainty-alone perm p>0.05; WEAK if that survives but gamma-over-full-M2 does not; else SURVIVES"
+  },
+  "T5_smooth": {
+   "r2_M0_subject_FE_only": 0.9470697369186988,
+   "r2_M1_plus_uncertainty": 0.9519149607484155,
+   "r2_M2_plus_competitors": 0.9569419643983107,
+   "r2_M3_plus_gamma": 0.9840151558213359,
+   "delta_R2_gamma_over_full_M2": 0.027073191423025222,
+   "gamma_over_uncertainty_alone": {
+    "r2_base": 0.9519149607484155,
+    "r2_full": 0.9835888580990786,
+    "observed_delta_r2": 0.03167389735066306,
+    "null_mean": 0.003161008102303837,
+    "null_std": 0.004526810988282865,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "gamma_over_full_competitors": {
+    "r2_base": 0.9569419643983107,
+    "r2_full": 0.9840151558213359,
+    "observed_delta_r2": 0.027073191423025222,
+    "null_mean": 0.0028124623888820745,
+    "null_std": 0.004063660868062794,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 772,
+   "n_subjects": 110,
+   "PREREGISTERED_VERDICT": "SURVIVES",
+   "decision_rule": "KILL if gamma-over-uncertainty-alone perm p>0.05; WEAK if that survives but gamma-over-full-M2 does not; else SURVIVES"
+  }
+ }
+}

@@ -1,0 +1,43 @@
+=== Unit tests: window_order_stats ===
+  [PASS] shape correctness
+  [PASS] ascending order statistics
+  Decisive-winner window: R1=0.9990, Z=2.6458 (expect both HIGH)
+  [PASS] decisive-winner window -> high R1, high Z
+  Near-tied (not exact) window: R1=0.0055, Z=1.7406 (expect R1 LOW; Z NOT necessarily low -- see note above)
+  [PASS] near-tied window -> low R1
+  Exactly-tied window: R1=0.000000, Z=0.000000 (expect both ~0)
+  [PASS] exactly-tied window -> R1~0, Z~0
+  [PASS] window-independence (no leakage)
+=== All unit tests passed ===
+
+Loaded checkpoint: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e46\runs\AttnGate_seed0\checkpoints\best.pth
+best_val_dice=0.9101624600589275 (must match E48-E116's 0.9101624600589275)
+Validation set size: 125
+  extracted 25 subjects
+  extracted 50 subjects
+  extracted 75 subjects
+  extracted 100 subjects
+  extracted 125 subjects
+
+Total subjects: 125
+
+=== PART 1: order-statistic reliability vs E92's Delta_pool ===
+Part 1 subjects with usable E92 Delta_pool + lesion windows: 32
+  [small] n=16: Spearman(R1, Delta_pool)=0.0647 (p=0.8118), Spearman(Z, Delta_pool)=0.0206 (p=0.9397)
+  [large] n=16: Spearman(R1, Delta_pool)=0.5412 (p=0.0304), Spearman(Z, Delta_pool)=0.4324 (p=0.0944)
+
+=== PART 2: sorted-window (order-statistic) probe vs E116's real_pool3/soft_pool3 ===
+Probe-train: 93, Probe-test: 32 (IDENTICAL split rule to E90/E91/E92/E116)
+  sorted_window_1024: held-out mean decodability_dice = 0.5546, train-set mean decodability_dice = 0.6417
+  Overfitting gap (train - held-out): +0.0870 (acceptable)
+  Held-out stratified: small=0.5067, large=0.6026
+  E116 comparison: real_pool3 small=0.5975/large=0.7442, soft_pool3 small=0.6122/large=0.7241
+
+  Permutation test vs E116 real_pool3: small_gain=-0.0908 (p=0.2980), large_gain=-0.1416 (p=0.0020)
+
+=== E117 Combined Decision ===
+DECISION: FAIL_NO_MEANINGFUL_SUPPORT
+Part 1 pass=False, Part 2 pass=False. At least one pre-declared check did not pass. Per this project's own zero-cost-kill precedent (E60/E116), do not proceed to designing or training OSGRP without first understanding why the order-statistic-reliability hypothesis failed to show the predicted effect.
+(Convenience label only -- inspect the actual mean/rho/p-value numbers above directly, per this project's own established convention.)
+
+Saved E117_summary.json

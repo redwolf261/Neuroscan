@@ -1,0 +1,1002 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "dice_intact_enc3_intact_bottleneck": 0.9344537854194641,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.81661057472229,
+    "N_b_intact_enc3": 0.12499314546585083,
+    "N_b_meanreplaced_enc3": 0.08662480115890503
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "dice_intact_enc3_intact_bottleneck": 0.9027494192123413,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7071399688720703,
+    "N_b_intact_enc3": 0.317859947681427,
+    "N_b_meanreplaced_enc3": -0.07443457841873169
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "dice_intact_enc3_intact_bottleneck": 0.9057566523551941,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7004662156105042,
+    "N_b_intact_enc3": 0.2767738699913025,
+    "N_b_meanreplaced_enc3": -0.07623279094696045
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "dice_intact_enc3_intact_bottleneck": 0.95652174949646,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8521462678909302,
+    "N_b_intact_enc3": 0.19995105266571045,
+    "N_b_meanreplaced_enc3": 0.023400068283081055
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "dice_intact_enc3_intact_bottleneck": 0.9270814657211304,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.854286789894104,
+    "N_b_intact_enc3": 0.08639520406723022,
+    "N_b_meanreplaced_enc3": 0.012800276279449463
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "dice_intact_enc3_intact_bottleneck": 0.9089515209197998,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6307284235954285,
+    "N_b_intact_enc3": 0.30521827936172485,
+    "N_b_meanreplaced_enc3": -0.01826256513595581
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "dice_intact_enc3_intact_bottleneck": 0.9491449594497681,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8672696352005005,
+    "N_b_intact_enc3": 0.10219067335128784,
+    "N_b_meanreplaced_enc3": 0.05034714937210083
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "dice_intact_enc3_intact_bottleneck": 0.9178234338760376,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8543689250946045,
+    "N_b_intact_enc3": 0.4587021768093109,
+    "N_b_meanreplaced_enc3": 0.1461922526359558
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "dice_intact_enc3_intact_bottleneck": 0.955834150314331,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9407179355621338,
+    "N_b_intact_enc3": 0.2695850729942322,
+    "N_b_meanreplaced_enc3": 0.0671113133430481
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "dice_intact_enc3_intact_bottleneck": 0.9380024075508118,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9032562375068665,
+    "N_b_intact_enc3": 0.12743330001831055,
+    "N_b_meanreplaced_enc3": 0.033968985080718994
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "dice_intact_enc3_intact_bottleneck": 0.9155176281929016,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8088056445121765,
+    "N_b_intact_enc3": 0.129014790058136,
+    "N_b_meanreplaced_enc3": 0.046774864196777344
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "dice_intact_enc3_intact_bottleneck": 0.9385358095169067,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8135592937469482,
+    "N_b_intact_enc3": 0.14424312114715576,
+    "N_b_meanreplaced_enc3": 0.019167661666870117
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "dice_intact_enc3_intact_bottleneck": 0.7499391436576843,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.3275284767150879,
+    "N_b_intact_enc3": 0.21345144510269165,
+    "N_b_meanreplaced_enc3": -0.26370495557785034
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "dice_intact_enc3_intact_bottleneck": 0.6945010423660278,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.2884097099304199,
+    "N_b_intact_enc3": 0.532466933131218,
+    "N_b_meanreplaced_enc3": -0.1547321379184723
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "dice_intact_enc3_intact_bottleneck": 0.9330199956893921,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9165620803833008,
+    "N_b_intact_enc3": 0.25604480504989624,
+    "N_b_meanreplaced_enc3": 0.046771883964538574
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "dice_intact_enc3_intact_bottleneck": 0.958832323551178,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8101045489311218,
+    "N_b_intact_enc3": 0.5974377691745758,
+    "N_b_meanreplaced_enc3": 0.27731966972351074
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "dice_intact_enc3_intact_bottleneck": 0.9432753920555115,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9070026874542236,
+    "N_b_intact_enc3": 0.22745579481124878,
+    "N_b_meanreplaced_enc3": 0.026702284812927246
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "dice_intact_enc3_intact_bottleneck": 0.93472820520401,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9184294939041138,
+    "N_b_intact_enc3": 0.0557590126991272,
+    "N_b_meanreplaced_enc3": 0.020600736141204834
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "dice_intact_enc3_intact_bottleneck": 0.9079582095146179,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7891187071800232,
+    "N_b_intact_enc3": 0.24592411518096924,
+    "N_b_meanreplaced_enc3": 0.007569551467895508
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "dice_intact_enc3_intact_bottleneck": 0.9058703184127808,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8550186157226562,
+    "N_b_intact_enc3": 0.3489036560058594,
+    "N_b_meanreplaced_enc3": 0.11281871795654297
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "dice_intact_enc3_intact_bottleneck": 0.8594487905502319,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6584014892578125,
+    "N_b_intact_enc3": 0.25756174325942993,
+    "N_b_meanreplaced_enc3": -0.08071953058242798
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "dice_intact_enc3_intact_bottleneck": 0.8444599509239197,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6583124399185181,
+    "N_b_intact_enc3": 0.5079469680786133,
+    "N_b_meanreplaced_enc3": 0.05247098207473755
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "dice_intact_enc3_intact_bottleneck": 0.904979944229126,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6835156679153442,
+    "N_b_intact_enc3": 0.13971537351608276,
+    "N_b_meanreplaced_enc3": -0.01931297779083252
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "dice_intact_enc3_intact_bottleneck": 0.91259765625,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8321964740753174,
+    "N_b_intact_enc3": 0.06916087865829468,
+    "N_b_meanreplaced_enc3": 0.03707325458526611
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "dice_intact_enc3_intact_bottleneck": 0.9350340962409973,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8606702089309692,
+    "N_b_intact_enc3": 0.07637631893157959,
+    "N_b_meanreplaced_enc3": 0.014072000980377197
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "dice_intact_enc3_intact_bottleneck": 0.9380733966827393,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9094790816307068,
+    "N_b_intact_enc3": 0.2606445550918579,
+    "N_b_meanreplaced_enc3": 0.09438186883926392
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "dice_intact_enc3_intact_bottleneck": 0.8936892151832581,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8017343878746033,
+    "N_b_intact_enc3": 0.2011306881904602,
+    "N_b_meanreplaced_enc3": 0.00724482536315918
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "dice_intact_enc3_intact_bottleneck": 0.6460176706314087,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.20408163964748383,
+    "N_b_intact_enc3": 0.5176843404769897,
+    "N_b_meanreplaced_enc3": -0.2118995636701584
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "dice_intact_enc3_intact_bottleneck": 0.9181636571884155,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9023569226264954,
+    "N_b_intact_enc3": 0.7136232107877731,
+    "N_b_meanreplaced_enc3": 0.10127192735671997
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "dice_intact_enc3_intact_bottleneck": 0.9524440169334412,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9065589904785156,
+    "N_b_intact_enc3": 0.45393550395965576,
+    "N_b_meanreplaced_enc3": 0.20421582460403442
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "dice_intact_enc3_intact_bottleneck": 0.7811925411224365,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.47303488850593567,
+    "N_b_intact_enc3": 0.07781970500946045,
+    "N_b_meanreplaced_enc3": -0.2905450165271759
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "dice_intact_enc3_intact_bottleneck": 0.9391928315162659,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8594657182693481,
+    "N_b_intact_enc3": 0.3518640398979187,
+    "N_b_meanreplaced_enc3": 0.09805530309677124
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "dice_intact_enc3_intact_bottleneck": 0.7839999794960022,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.4169014096260071,
+    "N_b_intact_enc3": 0.06446331739425659,
+    "N_b_meanreplaced_enc3": -0.20803308486938477
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "dice_intact_enc3_intact_bottleneck": 0.9609764218330383,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9265658855438232,
+    "N_b_intact_enc3": 0.423846960067749,
+    "N_b_meanreplaced_enc3": 0.13028937578201294
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "dice_intact_enc3_intact_bottleneck": 0.9499267935752869,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9173024296760559,
+    "N_b_intact_enc3": 0.5559443235397339,
+    "N_b_meanreplaced_enc3": 0.19800817966461182
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "dice_intact_enc3_intact_bottleneck": 0.9571879506111145,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.899073600769043,
+    "N_b_intact_enc3": 0.6249124705791473,
+    "N_b_meanreplaced_enc3": 0.29388630390167236
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "dice_intact_enc3_intact_bottleneck": 0.9508448243141174,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9231783747673035,
+    "N_b_intact_enc3": 0.03823596239089966,
+    "N_b_meanreplaced_enc3": 0.034214913845062256
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "dice_intact_enc3_intact_bottleneck": 0.9448076486587524,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.854905903339386,
+    "N_b_intact_enc3": 0.31138157844543457,
+    "N_b_meanreplaced_enc3": 0.041014015674591064
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "dice_intact_enc3_intact_bottleneck": 0.8959549069404602,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7869933843612671,
+    "N_b_intact_enc3": 0.3048245906829834,
+    "N_b_meanreplaced_enc3": -0.005986273288726807
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "dice_intact_enc3_intact_bottleneck": 0.8732153177261353,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7218543291091919,
+    "N_b_intact_enc3": 0.4038170576095581,
+    "N_b_meanreplaced_enc3": -0.030749857425689697
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "dice_intact_enc3_intact_bottleneck": 0.9491375684738159,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9144737124443054,
+    "N_b_intact_enc3": 0.47836628556251526,
+    "N_b_meanreplaced_enc3": 0.019098758697509766
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "dice_intact_enc3_intact_bottleneck": 0.9218026995658875,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7592978477478027,
+    "N_b_intact_enc3": 0.34121501445770264,
+    "N_b_meanreplaced_enc3": -0.016400396823883057
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "dice_intact_enc3_intact_bottleneck": 0.940954327583313,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8457865118980408,
+    "N_b_intact_enc3": 0.09744948148727417,
+    "N_b_meanreplaced_enc3": 0.042449891567230225
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "dice_intact_enc3_intact_bottleneck": 0.971651554107666,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8629620671272278,
+    "N_b_intact_enc3": 0.4564257264137268,
+    "N_b_meanreplaced_enc3": 0.11699634790420532
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "dice_intact_enc3_intact_bottleneck": 0.9595541954040527,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8924689292907715,
+    "N_b_intact_enc3": 0.2851453423500061,
+    "N_b_meanreplaced_enc3": 0.05082780122756958
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "dice_intact_enc3_intact_bottleneck": 0.9259999990463257,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.3895253539085388,
+    "N_b_intact_enc3": 0.2267335057258606,
+    "N_b_meanreplaced_enc3": -0.21884673833847046
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "dice_intact_enc3_intact_bottleneck": 0.9383764266967773,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.894351601600647,
+    "N_b_intact_enc3": 0.06948250532150269,
+    "N_b_meanreplaced_enc3": 0.03603941202163696
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "dice_intact_enc3_intact_bottleneck": 0.9429949522018433,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9101732969284058,
+    "N_b_intact_enc3": 0.18318438529968262,
+    "N_b_meanreplaced_enc3": 0.0600811243057251
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "dice_intact_enc3_intact_bottleneck": 0.8801711797714233,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.500261664390564,
+    "N_b_intact_enc3": 0.1915113925933838,
+    "N_b_meanreplaced_enc3": -0.11625367403030396
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "dice_intact_enc3_intact_bottleneck": 0.9482563138008118,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.868522584438324,
+    "N_b_intact_enc3": 0.06370687484741211,
+    "N_b_meanreplaced_enc3": 0.05749785900115967
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "dice_intact_enc3_intact_bottleneck": 0.9480985403060913,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7934114933013916,
+    "N_b_intact_enc3": 0.31891608238220215,
+    "N_b_meanreplaced_enc3": -0.028064310550689697
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "dice_intact_enc3_intact_bottleneck": 0.9515271186828613,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9021685123443604,
+    "N_b_intact_enc3": 0.19198119640350342,
+    "N_b_meanreplaced_enc3": 0.0015453696250915527
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "dice_intact_enc3_intact_bottleneck": 0.9465133547782898,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.872631311416626,
+    "N_b_intact_enc3": 0.17711180448532104,
+    "N_b_meanreplaced_enc3": 0.021207332611083984
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "dice_intact_enc3_intact_bottleneck": 0.9138230085372925,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7204142212867737,
+    "N_b_intact_enc3": 0.41796618700027466,
+    "N_b_meanreplaced_enc3": -0.056273579597473145
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "dice_intact_enc3_intact_bottleneck": 0.9248466491699219,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7584320902824402,
+    "N_b_intact_enc3": 0.5085180997848511,
+    "N_b_meanreplaced_enc3": 0.16283774375915527
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "dice_intact_enc3_intact_bottleneck": 0.8321730494499207,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6863437294960022,
+    "N_b_intact_enc3": 0.30652815103530884,
+    "N_b_meanreplaced_enc3": 0.03375709056854248
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "dice_intact_enc3_intact_bottleneck": 0.8762409090995789,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5091031789779663,
+    "N_b_intact_enc3": 0.17498070001602173,
+    "N_b_meanreplaced_enc3": -0.10026735067367554
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "dice_intact_enc3_intact_bottleneck": 0.920261025428772,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8365989923477173,
+    "N_b_intact_enc3": 0.2201971411705017,
+    "N_b_meanreplaced_enc3": 0.0016667842864990234
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "dice_intact_enc3_intact_bottleneck": 0.8660427927970886,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.25011515617370605,
+    "N_b_intact_enc3": 0.23225659132003784,
+    "N_b_meanreplaced_enc3": -0.310221791267395
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "dice_intact_enc3_intact_bottleneck": 0.6947850584983826,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6463292837142944,
+    "N_b_intact_enc3": -0.0212671160697937,
+    "N_b_meanreplaced_enc3": 0.005055069923400879
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "dice_intact_enc3_intact_bottleneck": 0.9642750024795532,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9204742908477783,
+    "N_b_intact_enc3": 0.04587066173553467,
+    "N_b_meanreplaced_enc3": 0.01410132646560669
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "dice_intact_enc3_intact_bottleneck": 0.8373231887817383,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7316080331802368,
+    "N_b_intact_enc3": 0.27658528089523315,
+    "N_b_meanreplaced_enc3": -0.026298463344573975
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "dice_intact_enc3_intact_bottleneck": 0.9178907871246338,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9093549251556396,
+    "N_b_intact_enc3": 0.1726984977722168,
+    "N_b_meanreplaced_enc3": 0.020557403564453125
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "dice_intact_enc3_intact_bottleneck": 0.9424306750297546,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8695223927497864,
+    "N_b_intact_enc3": 0.04596710205078125,
+    "N_b_meanreplaced_enc3": 0.002886056900024414
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "dice_intact_enc3_intact_bottleneck": 0.9039264917373657,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8246313333511353,
+    "N_b_intact_enc3": 0.39855432510375977,
+    "N_b_meanreplaced_enc3": 0.05496746301651001
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "dice_intact_enc3_intact_bottleneck": 0.8649429678916931,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7380738258361816,
+    "N_b_intact_enc3": 0.3102969527244568,
+    "N_b_meanreplaced_enc3": 0.034177303314208984
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "dice_intact_enc3_intact_bottleneck": 0.9470524191856384,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7942029237747192,
+    "N_b_intact_enc3": 0.44962894916534424,
+    "N_b_meanreplaced_enc3": 0.016541659832000732
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "dice_intact_enc3_intact_bottleneck": 0.9426044225692749,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9004122614860535,
+    "N_b_intact_enc3": 0.3513070344924927,
+    "N_b_meanreplaced_enc3": 0.05600351095199585
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "dice_intact_enc3_intact_bottleneck": 0.9348952174186707,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8092643022537231,
+    "N_b_intact_enc3": 0.17558622360229492,
+    "N_b_meanreplaced_enc3": -0.0002822279930114746
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "dice_intact_enc3_intact_bottleneck": 0.9546093940734863,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8975903391838074,
+    "N_b_intact_enc3": 0.06029587984085083,
+    "N_b_meanreplaced_enc3": 0.06465834379196167
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "dice_intact_enc3_intact_bottleneck": 0.9574585556983948,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9363449811935425,
+    "N_b_intact_enc3": 0.4124768376350403,
+    "N_b_meanreplaced_enc3": 0.07946866750717163
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "dice_intact_enc3_intact_bottleneck": 0.9401260614395142,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9097195267677307,
+    "N_b_intact_enc3": 0.2168351411819458,
+    "N_b_meanreplaced_enc3": 0.08126282691955566
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "dice_intact_enc3_intact_bottleneck": 0.9538621306419373,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.891603946685791,
+    "N_b_intact_enc3": 0.3334997296333313,
+    "N_b_meanreplaced_enc3": 0.0790259838104248
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "dice_intact_enc3_intact_bottleneck": 0.7765830159187317,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5246913433074951,
+    "N_b_intact_enc3": 0.4623090624809265,
+    "N_b_meanreplaced_enc3": -0.19655215740203857
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "dice_intact_enc3_intact_bottleneck": 0.5513153076171875,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.3256840109825134,
+    "N_b_intact_enc3": 0.21619752049446106,
+    "N_b_meanreplaced_enc3": -0.13452574610710144
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "dice_intact_enc3_intact_bottleneck": 0.9022634029388428,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8348096609115601,
+    "N_b_intact_enc3": 0.05243837833404541,
+    "N_b_meanreplaced_enc3": 0.0547371506690979
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "dice_intact_enc3_intact_bottleneck": 0.958254873752594,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9180915355682373,
+    "N_b_intact_enc3": 0.41863566637039185,
+    "N_b_meanreplaced_enc3": 0.1480424404144287
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "dice_intact_enc3_intact_bottleneck": 0.7357950210571289,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.4221707284450531,
+    "N_b_intact_enc3": 0.12460696697235107,
+    "N_b_meanreplaced_enc3": -0.13270315527915955
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "dice_intact_enc3_intact_bottleneck": 0.8805298209190369,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.821658194065094,
+    "N_b_intact_enc3": 0.2093801498413086,
+    "N_b_meanreplaced_enc3": -0.02384573221206665
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "dice_intact_enc3_intact_bottleneck": 0.8079251646995544,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6237244606018066,
+    "N_b_intact_enc3": 0.17647433280944824,
+    "N_b_meanreplaced_enc3": -0.054343342781066895
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "dice_intact_enc3_intact_bottleneck": 0.9488896727561951,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9015113115310669,
+    "N_b_intact_enc3": 0.05872923135757446,
+    "N_b_meanreplaced_enc3": 0.05730605125427246
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "dice_intact_enc3_intact_bottleneck": 0.917416512966156,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9256553649902344,
+    "N_b_intact_enc3": 0.4302676022052765,
+    "N_b_meanreplaced_enc3": 0.1767764687538147
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "dice_intact_enc3_intact_bottleneck": 0.9431173801422119,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8605532646179199,
+    "N_b_intact_enc3": 0.2852058410644531,
+    "N_b_meanreplaced_enc3": 0.05414474010467529
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "dice_intact_enc3_intact_bottleneck": 0.8315232396125793,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5559440851211548,
+    "N_b_intact_enc3": 0.08385968208312988,
+    "N_b_meanreplaced_enc3": -0.09348845481872559
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "dice_intact_enc3_intact_bottleneck": 0.9057061672210693,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7465914487838745,
+    "N_b_intact_enc3": 0.272821843624115,
+    "N_b_meanreplaced_enc3": -0.00603485107421875
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "dice_intact_enc3_intact_bottleneck": 0.9017341136932373,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6740740537643433,
+    "N_b_intact_enc3": 0.5379432141780853,
+    "N_b_meanreplaced_enc3": 0.02631610631942749
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "dice_intact_enc3_intact_bottleneck": 0.9582340717315674,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8731132745742798,
+    "N_b_intact_enc3": 0.43157583475112915,
+    "N_b_meanreplaced_enc3": 0.06750857830047607
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "dice_intact_enc3_intact_bottleneck": 0.9005586504936218,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5700404644012451,
+    "N_b_intact_enc3": 0.5239098966121674,
+    "N_b_meanreplaced_enc3": -0.11491698026657104
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "dice_intact_enc3_intact_bottleneck": 0.690097987651825,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6654298305511475,
+    "N_b_intact_enc3": -0.07522088289260864,
+    "N_b_meanreplaced_enc3": -0.1085008978843689
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "dice_intact_enc3_intact_bottleneck": 0.9509859085083008,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9001826047897339,
+    "N_b_intact_enc3": 0.5615134537220001,
+    "N_b_meanreplaced_enc3": 0.16422629356384277
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "dice_intact_enc3_intact_bottleneck": 0.8670076727867126,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.3326810300350189,
+    "N_b_intact_enc3": 0.2649315595626831,
+    "N_b_meanreplaced_enc3": -0.32390645146369934
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "dice_intact_enc3_intact_bottleneck": 0.9479740858078003,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8835509419441223,
+    "N_b_intact_enc3": 0.3235592842102051,
+    "N_b_meanreplaced_enc3": 0.046864092350006104
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "dice_intact_enc3_intact_bottleneck": 0.6380165219306946,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.11320754885673523,
+    "N_b_intact_enc3": 0.4514275938272476,
+    "N_b_meanreplaced_enc3": -0.3894854485988617
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "dice_intact_enc3_intact_bottleneck": 0.8838226199150085,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6367945075035095,
+    "N_b_intact_enc3": 0.6738337874412537,
+    "N_b_meanreplaced_enc3": 0.36290115118026733
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "dice_intact_enc3_intact_bottleneck": 0.7339449524879456,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.0,
+    "N_b_intact_enc3": 0.5698873400688171,
+    "N_b_meanreplaced_enc3": -0.36906853318214417
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "dice_intact_enc3_intact_bottleneck": 0.9308297634124756,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7509810924530029,
+    "N_b_intact_enc3": 0.0938253402709961,
+    "N_b_meanreplaced_enc3": 0.009159088134765625
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "dice_intact_enc3_intact_bottleneck": 0.8857743740081787,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6199451088905334,
+    "N_b_intact_enc3": 0.2635798454284668,
+    "N_b_meanreplaced_enc3": -0.1667376160621643
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "dice_intact_enc3_intact_bottleneck": 0.8802160024642944,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7446478605270386,
+    "N_b_intact_enc3": 0.40276241302490234,
+    "N_b_meanreplaced_enc3": 0.040211021900177
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "dice_intact_enc3_intact_bottleneck": 0.9153794646263123,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5961538553237915,
+    "N_b_intact_enc3": 0.5518956184387207,
+    "N_b_meanreplaced_enc3": 0.11626675724983215
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "dice_intact_enc3_intact_bottleneck": 0.9618700742721558,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9106358885765076,
+    "N_b_intact_enc3": 0.1544877290725708,
+    "N_b_meanreplaced_enc3": 0.029073238372802734
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "dice_intact_enc3_intact_bottleneck": 0.9552779197692871,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9069949388504028,
+    "N_b_intact_enc3": 0.11287009716033936,
+    "N_b_meanreplaced_enc3": 0.03467506170272827
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "dice_intact_enc3_intact_bottleneck": 0.9254449009895325,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5178701877593994,
+    "N_b_intact_enc3": 0.16402792930603027,
+    "N_b_meanreplaced_enc3": -0.19420409202575684
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "dice_intact_enc3_intact_bottleneck": 0.8285664319992065,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5284944772720337,
+    "N_b_intact_enc3": 0.12039673328399658,
+    "N_b_meanreplaced_enc3": -0.07012408971786499
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "dice_intact_enc3_intact_bottleneck": 0.8916131258010864,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9058568477630615,
+    "N_b_intact_enc3": 0.2012873888015747,
+    "N_b_meanreplaced_enc3": 0.029695212841033936
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "dice_intact_enc3_intact_bottleneck": 0.7762619256973267,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.23068782687187195,
+    "N_b_intact_enc3": 0.5539858937263489,
+    "N_b_meanreplaced_enc3": -0.0963798463344574
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "dice_intact_enc3_intact_bottleneck": 0.9409164190292358,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8557866215705872,
+    "N_b_intact_enc3": 0.058209359645843506,
+    "N_b_meanreplaced_enc3": 0.016653358936309814
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "dice_intact_enc3_intact_bottleneck": 0.8283567428588867,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8031066060066223,
+    "N_b_intact_enc3": 0.20681554079055786,
+    "N_b_meanreplaced_enc3": 0.08618128299713135
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "dice_intact_enc3_intact_bottleneck": 0.9260525107383728,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6585283279418945,
+    "N_b_intact_enc3": 0.21203607320785522,
+    "N_b_meanreplaced_enc3": -0.006538212299346924
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "dice_intact_enc3_intact_bottleneck": 0.7246376872062683,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.10906515270471573,
+    "N_b_intact_enc3": 0.22112983465194702,
+    "N_b_meanreplaced_enc3": -0.2638329789042473
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "dice_intact_enc3_intact_bottleneck": 0.7518000602722168,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.5585810542106628,
+    "N_b_intact_enc3": 0.20777440071105957,
+    "N_b_meanreplaced_enc3": -0.008749604225158691
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "dice_intact_enc3_intact_bottleneck": 0.9303476810455322,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8997954726219177,
+    "N_b_intact_enc3": 0.24552083015441895,
+    "N_b_meanreplaced_enc3": 0.027857840061187744
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "dice_intact_enc3_intact_bottleneck": 0.885273277759552,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.894197940826416,
+    "N_b_intact_enc3": 0.05552119016647339,
+    "N_b_meanreplaced_enc3": 0.05849999189376831
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "dice_intact_enc3_intact_bottleneck": 0.9001051783561707,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.0,
+    "N_b_intact_enc3": 0.7465932369232178,
+    "N_b_meanreplaced_enc3": -0.2925495505332947
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "dice_intact_enc3_intact_bottleneck": 0.9153589606285095,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6848123669624329,
+    "N_b_intact_enc3": 0.23976343870162964,
+    "N_b_meanreplaced_enc3": -0.1261255145072937
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "dice_intact_enc3_intact_bottleneck": 0.9496186971664429,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9271436333656311,
+    "N_b_intact_enc3": 0.26791536808013916,
+    "N_b_meanreplaced_enc3": 0.04938864707946777
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "dice_intact_enc3_intact_bottleneck": 0.9367928504943848,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8726567625999451,
+    "N_b_intact_enc3": 0.3436851501464844,
+    "N_b_meanreplaced_enc3": 0.06512218713760376
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "dice_intact_enc3_intact_bottleneck": 0.7190569639205933,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.49246230721473694,
+    "N_b_intact_enc3": -0.10422194004058838,
+    "N_b_meanreplaced_enc3": -0.18883851170539856
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "dice_intact_enc3_intact_bottleneck": 0.9195327758789062,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.9397590160369873,
+    "N_b_intact_enc3": 0.37493181228637695,
+    "N_b_meanreplaced_enc3": 0.09483921527862549
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "dice_intact_enc3_intact_bottleneck": 0.9343770742416382,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.7938642501831055,
+    "N_b_intact_enc3": 0.1859363317489624,
+    "N_b_meanreplaced_enc3": -0.0013069510459899902
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "dice_intact_enc3_intact_bottleneck": 0.9354915022850037,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8724849224090576,
+    "N_b_intact_enc3": 0.07895833253860474,
+    "N_b_meanreplaced_enc3": 0.05782580375671387
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "dice_intact_enc3_intact_bottleneck": 0.7930864095687866,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6607482433319092,
+    "N_b_intact_enc3": 0.2142024040222168,
+    "N_b_meanreplaced_enc3": 0.036627352237701416
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "dice_intact_enc3_intact_bottleneck": 0.9705498814582825,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8885672688484192,
+    "N_b_intact_enc3": 0.09119051694869995,
+    "N_b_meanreplaced_enc3": 0.046009182929992676
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "dice_intact_enc3_intact_bottleneck": 0.86085444688797,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.6734201908111572,
+    "N_b_intact_enc3": 0.35135209560394287,
+    "N_b_meanreplaced_enc3": 0.06356513500213623
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "dice_intact_enc3_intact_bottleneck": 0.8719772696495056,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.618409276008606,
+    "N_b_intact_enc3": 0.547450840473175,
+    "N_b_meanreplaced_enc3": -0.14823496341705322
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "dice_intact_enc3_intact_bottleneck": 0.9142119288444519,
+    "dice_meanrepl_enc3_intact_bottleneck": 0.8491190671920776,
+    "N_b_intact_enc3": 0.20153731107711792,
+    "N_b_meanreplaced_enc3": 0.0566142201423645
+  }
+]

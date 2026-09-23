@@ -1,0 +1,95 @@
+{
+ "candidates": [
+  0.6,
+  0.8,
+  1.1,
+  1.45
+ ],
+ "per_candidate": {
+  "0.6": {
+   "dY_mean": 0.023495886723200476,
+   "dY_std": 0.026284107428281054,
+   "magnitude_mean": 0.3461052384227514,
+   "magnitude_std": 0.008527462802689744,
+   "rel_rank_error_max": 7.683231063277643e-05,
+   "n_nan_inf": 0,
+   "n_catastrophic": 0
+  },
+  "0.8": {
+   "dY_mean": 0.008487176895141602,
+   "dY_std": 0.006752131003239127,
+   "magnitude_mean": 0.17304857596755027,
+   "magnitude_std": 0.0042640467740382906,
+   "rel_rank_error_max": 5.6892419906210006e-05,
+   "n_nan_inf": 0,
+   "n_catastrophic": 0
+  },
+  "1.1": {
+   "dY_mean": 0.0036554793516794803,
+   "dY_std": 0.002700796376910821,
+   "magnitude_mean": 0.08653842331841588,
+   "magnitude_std": 0.0021290708922970733,
+   "rel_rank_error_max": 7.152859452963852e-05,
+   "n_nan_inf": 0,
+   "n_catastrophic": 0
+  },
+  "1.45": {
+   "dY_mean": 0.013117108742396045,
+   "dY_std": 0.008055685462008237,
+   "magnitude_mean": 0.3893956422805786,
+   "magnitude_std": 0.009592464822260517,
+   "rel_rank_error_max": 4.33623646497614e-05,
+   "n_nan_inf": 0,
+   "n_catastrophic": 0
+  }
+ },
+ "pairwise_magnitude_separability": [
+  {
+   "c1": 0.6,
+   "c2": 0.8,
+   "magnitude_diff": 0.17305666245520115,
+   "pooled_std": 0.009534134294336511,
+   "separable": true
+  },
+  {
+   "c1": 0.6,
+   "c2": 1.1,
+   "magnitude_diff": 0.25956681510433555,
+   "pooled_std": 0.008789230041117589,
+   "separable": true
+  },
+  {
+   "c1": 0.6,
+   "c2": 1.45,
+   "magnitude_diff": 0.043290403857827175,
+   "pooled_std": 0.012834835535275188,
+   "separable": true
+  },
+  {
+   "c1": 0.8,
+   "c2": 1.1,
+   "magnitude_diff": 0.08651015264913439,
+   "pooled_std": 0.004766029558827034,
+   "separable": true
+  },
+  {
+   "c1": 0.8,
+   "c2": 1.45,
+   "magnitude_diff": 0.21634706631302833,
+   "pooled_std": 0.010497498571445095,
+   "separable": true
+  },
+  {
+   "c1": 1.1,
+   "c2": 1.45,
+   "magnitude_diff": 0.3028572189621627,
+   "pooled_std": 0.009825900682926332,
+   "separable": true
+  }
+ ],
+ "all_pairs_separable": true,
+ "all_rank_invariant": true,
+ "no_nan_or_catastrophic": true,
+ "CALIBRATION_GATE_PASS": true,
+ "note": "Gamma/Delta NOT computed in this script, per the no-peeking rule. Rank-invariance threshold corrected to <1e-4 after investigation (GPU SVD precision floor, documented in PHASE_E182 prereg)."
+}

@@ -1,0 +1,22 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_train_labels": 200,
+  "n_val_labels": 125,
+  "n_train_mean": 0.25433818630874155,
+  "n_train_std": 0.16688000018238738,
+  "n_val_mean": 0.2717103977203369,
+  "n_val_std": 0.1733309919381274,
+  "spearman_rho": 0.6328181763727533,
+  "parametric_p": 2.4301750174087297e-15,
+  "permutation_p": 0.0,
+  "partial_rho_controlling_size": 0.7907649769585252,
+  "partial_p": 5.45616255398498e-28,
+  "step4_verdict": "REPLICATES",
+  "channel_sensitivity_vs_magnitude_rho": -0.05409561684596016,
+  "channel_sensitivity_vs_magnitude_p": 0.3887285509322468,
+  "channel_sensitivity_vs_variance_rho": 0.05255207141222247,
+  "channel_sensitivity_vs_variance_p": 0.40242564258768887,
+  "top10pct_sensitivity_fraction": 0.23652507364749908,
+  "mechanism_reading_CONVENIENCE_LABEL_ONLY": "NEITHER_CLEAN_UNEXPLAINED"
+}

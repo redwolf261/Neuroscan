@@ -1,0 +1,50 @@
+rows=592  components=74  alphas=[0.1, 0.25, 0.5, 1.0]
+
+==========================================================================================
+CROSSING RATE by condition x alpha
+==========================================================================================
+condition          0.1      0.25       0.5       1.0
+prototype         0.0%      4.1%     13.5%     36.5%
+random            0.0%      0.0%      0.0%      0.0%
+
+Fisher exact test, prototype vs random, per alpha:
+  alpha=0.1: prototype 0/74 vs random 0/74   p=1.000
+  alpha=0.25: prototype 3/74 vs random 0/74   p=0.245
+  alpha=0.5: prototype 10/74 vs random 0/74   p=0.001
+  alpha=1.0: prototype 27/74 vs random 0/74   p=0.000
+
+==========================================================================================
+OVERALL (any alpha, per component): does EITHER condition cross at all?
+==========================================================================================
+  prototype: 27/74 components cross at SOME alpha (36.5%)
+  random:    0/74 components cross at SOME alpha (0.0%)
+  (E195 reference for comparison: 14/58 = 24.1% with real donor splicing)
+  Fisher exact (any-alpha crossing, prototype vs random): p=0.000
+
+==========================================================================================
+MAGNITUDE: z shift (region) by condition, at alpha=0.25 and 1.0
+==========================================================================================
+  alpha=0.25
+    prototype    median dz =  +0.6533  mean =  +2.2428
+    random       median dz =  +0.0916  mean =  +0.0063
+    Mann-Whitney prototype vs random: p=1.117e-04
+  alpha=1.0
+    prototype    median dz =  +8.2866  mean = +12.0010
+    random       median dz =  +0.0505  mean =  -0.3547
+    Mann-Whitney prototype vs random: p=1.955e-17
+
+==========================================================================================
+PAIRED: prototype crossing vs random crossing, SAME component, SAME alpha
+==========================================================================================
+  alpha=0.1: prototype-only=0  random-only=0  both=0  neither=74  McNemar-style p=nan
+  alpha=0.25: prototype-only=3  random-only=0  both=0  neither=71  McNemar-style p=0.250
+  alpha=0.5: prototype-only=10  random-only=0  both=0  neither=64  McNemar-style p=0.002
+  alpha=1.0: prototype-only=27  random-only=0  both=0  neither=47  McNemar-style p=0.000
+
+==========================================================================================
+VERDICT
+==========================================================================================
+  best alpha for prototype = 1.0: prototype=36.5% vs random=0.0%   p=0.000
+  overall any-alpha: prototype=36.5% vs random=0.0%   p=0.000
+
+  ==> PASS -- endogenous prototype hypothesis reproduces E195's phenomenon at a comparable rate, beating the random control. Bridge from forensic to differentiable mechanism holds.

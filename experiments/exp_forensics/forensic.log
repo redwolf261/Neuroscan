@@ -1,0 +1,9 @@
+forensic decomposition: 125 subjects, regions=('ET', 'TC', 'WT')
+  20/125 (111s, ~581s left)
+  40/125 (231s, ~491s left)
+  60/125 (336s, ~364s left)
+  80/125 (450s, ~253s left)
+  100/125 (568s, ~142s left)
+  120/125 (701s, ~29s left)
+
+wrote FORENSIC_per_subject.csv (125 rows) in 732s

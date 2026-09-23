@@ -1,0 +1,420 @@
+{
+  "config": "freeze_decoder",
+  "epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "part1_centroid_stability": {
+    "consecutive": [
+      {
+        "epoch_t": 1,
+        "epoch_t1": 5,
+        "cos_direction": 0.9391880035400391
+      },
+      {
+        "epoch_t": 5,
+        "epoch_t1": 10,
+        "cos_direction": 0.9787042140960693
+      },
+      {
+        "epoch_t": 10,
+        "epoch_t1": 15,
+        "cos_direction": 0.996452271938324
+      },
+      {
+        "epoch_t": 15,
+        "epoch_t1": 20,
+        "cos_direction": 0.9969326257705688
+      },
+      {
+        "epoch_t": 20,
+        "epoch_t1": 25,
+        "cos_direction": 0.9937852621078491
+      },
+      {
+        "epoch_t": 25,
+        "epoch_t1": 30,
+        "cos_direction": 0.9994710087776184
+      }
+    ],
+    "vs_first": [
+      {
+        "epoch": 1,
+        "cos_vs_first": 0.9999999403953552
+      },
+      {
+        "epoch": 5,
+        "cos_vs_first": 0.9391880035400391
+      },
+      {
+        "epoch": 10,
+        "cos_vs_first": 0.9378225803375244
+      },
+      {
+        "epoch": 15,
+        "cos_vs_first": 0.9232628345489502
+      },
+      {
+        "epoch": 20,
+        "cos_vs_first": 0.9207248091697693
+      },
+      {
+        "epoch": 25,
+        "cos_vs_first": 0.9255751371383667
+      },
+      {
+        "epoch": 30,
+        "cos_vs_first": 0.9264256954193115
+      }
+    ]
+  },
+  "part4_procrustes": [
+    {
+      "epoch_t": 1,
+      "epoch_t1": 5,
+      "rotation_closeness_to_identity": 0.715933620929718,
+      "residual_fraction_after_best_rotation": 0.8768967986106873
+    },
+    {
+      "epoch_t": 5,
+      "epoch_t1": 10,
+      "rotation_closeness_to_identity": 0.9757431149482727,
+      "residual_fraction_after_best_rotation": 0.6039801836013794
+    },
+    {
+      "epoch_t": 10,
+      "epoch_t1": 15,
+      "rotation_closeness_to_identity": 0.9963007569313049,
+      "residual_fraction_after_best_rotation": 0.34543293714523315
+    },
+    {
+      "epoch_t": 15,
+      "epoch_t1": 20,
+      "rotation_closeness_to_identity": 0.9966520071029663,
+      "residual_fraction_after_best_rotation": 0.31318268179893494
+    },
+    {
+      "epoch_t": 20,
+      "epoch_t1": 25,
+      "rotation_closeness_to_identity": 0.9969245791435242,
+      "residual_fraction_after_best_rotation": 0.3014616072177887
+    },
+    {
+      "epoch_t": 25,
+      "epoch_t1": 30,
+      "rotation_closeness_to_identity": 0.9991388320922852,
+      "residual_fraction_after_best_rotation": 0.21239246428012848
+    }
+  ],
+  "part5_principal_angles": {
+    "per_epoch_variance": [
+      {
+        "epoch": 1,
+        "explained_variance_ratio_top5": [
+          0.33199915289878845,
+          0.10065484791994095,
+          0.052504654973745346,
+          0.045666325837373734,
+          0.03958568722009659
+        ]
+      },
+      {
+        "epoch": 5,
+        "explained_variance_ratio_top5": [
+          0.28919970989227295,
+          0.099575936794281,
+          0.062145330011844635,
+          0.04593116044998169,
+          0.04319142550230026
+        ]
+      },
+      {
+        "epoch": 10,
+        "explained_variance_ratio_top5": [
+          0.32076457142829895,
+          0.11556617170572281,
+          0.05434895306825638,
+          0.04283040761947632,
+          0.03943771868944168
+        ]
+      },
+      {
+        "epoch": 15,
+        "explained_variance_ratio_top5": [
+          0.3291268050670624,
+          0.10531221330165863,
+          0.05128668248653412,
+          0.04573644697666168,
+          0.041675638407468796
+        ]
+      },
+      {
+        "epoch": 20,
+        "explained_variance_ratio_top5": [
+          0.3263077735900879,
+          0.12066782265901566,
+          0.05153534933924675,
+          0.042061612010002136,
+          0.040863774716854095
+        ]
+      },
+      {
+        "epoch": 25,
+        "explained_variance_ratio_top5": [
+          0.32542142271995544,
+          0.12622451782226562,
+          0.05140819028019905,
+          0.043324634432792664,
+          0.04240311309695244
+        ]
+      },
+      {
+        "epoch": 30,
+        "explained_variance_ratio_top5": [
+          0.33227768540382385,
+          0.12821289896965027,
+          0.05025393143296242,
+          0.04316295310854912,
+          0.04056901857256889
+        ]
+      }
+    ],
+    "vs_first_epoch": [
+      {
+        "epoch": 1,
+        "principal_angles_deg": [
+          1.4137527614366263e-05,
+          7.0759533628006466e-06,
+          4.065771918249084e-06,
+          1.7218320635947748e-06,
+          1.4596128039556788e-06
+        ],
+        "max_principal_angle_deg": 1.4137527614366263e-05,
+        "mean_subspace_overlap_cos": 1.0
+      },
+      {
+        "epoch": 5,
+        "principal_angles_deg": [
+          81.84952545166016,
+          67.02415466308594,
+          46.8167839050293,
+          30.24226188659668,
+          14.589262962341309
+        ],
+        "max_principal_angle_deg": 81.84952545166016,
+        "mean_subspace_overlap_cos": 0.6096218824386597
+      },
+      {
+        "epoch": 10,
+        "principal_angles_deg": [
+          88.56072998046875,
+          65.58558654785156,
+          51.802433013916016,
+          41.522857666015625,
+          15.55991268157959
+        ],
+        "max_principal_angle_deg": 88.56072998046875,
+        "mean_subspace_overlap_cos": 0.5537735223770142
+      },
+      {
+        "epoch": 15,
+        "principal_angles_deg": [
+          87.99181365966797,
+          73.44861602783203,
+          48.154903411865234,
+          34.0083122253418,
+          18.182357788085938
+        ],
+        "max_principal_angle_deg": 87.99181365966797,
+        "mean_subspace_overlap_cos": 0.5532122254371643
+      },
+      {
+        "epoch": 20,
+        "principal_angles_deg": [
+          87.97782897949219,
+          68.93732452392578,
+          47.824275970458984,
+          34.6390495300293,
+          19.0598201751709
+        ],
+        "max_principal_angle_deg": 87.97782897949219,
+        "mean_subspace_overlap_cos": 0.5668018460273743
+      },
+      {
+        "epoch": 25,
+        "principal_angles_deg": [
+          86.03250885009766,
+          66.66764068603516,
+          48.500728607177734,
+          37.16550827026367,
+          18.463186264038086
+        ],
+        "max_principal_angle_deg": 86.03250885009766,
+        "mean_subspace_overlap_cos": 0.574657142162323
+      },
+      {
+        "epoch": 30,
+        "principal_angles_deg": [
+          80.7793197631836,
+          70.83016967773438,
+          49.602928161621094,
+          40.57599639892578,
+          16.826587677001953
+        ],
+        "max_principal_angle_deg": 80.7793197631836,
+        "mean_subspace_overlap_cos": 0.5706833600997925
+      }
+    ]
+  },
+  "part2_gradient_stability": [
+    {
+      "epoch_t": 1,
+      "epoch_t1": 5,
+      "n": 14970,
+      "mean_cos": 0.2621760368347168,
+      "std_cos": 0.22206167876720428
+    },
+    {
+      "epoch_t": 5,
+      "epoch_t1": 10,
+      "n": 32722,
+      "mean_cos": 0.6650718450546265,
+      "std_cos": 0.16872772574424744
+    },
+    {
+      "epoch_t": 10,
+      "epoch_t1": 15,
+      "n": 33324,
+      "mean_cos": 0.8350717425346375,
+      "std_cos": 0.10136798024177551
+    },
+    {
+      "epoch_t": 15,
+      "epoch_t1": 20,
+      "n": 30985,
+      "mean_cos": 0.8033871054649353,
+      "std_cos": 0.11262626945972443
+    },
+    {
+      "epoch_t": 20,
+      "epoch_t1": 25,
+      "n": 26722,
+      "mean_cos": 0.766196072101593,
+      "std_cos": 0.1383497267961502
+    },
+    {
+      "epoch_t": 25,
+      "epoch_t1": 30,
+      "n": 24461,
+      "mean_cos": 0.7766005396842957,
+      "std_cos": 0.1576237976551056
+    }
+  ],
+  "part3_gradient_transport": {
+    "vs_first_epoch": [
+      {
+        "epoch": 1,
+        "n": 15242,
+        "mean_cos_vs_first": 1.0
+      },
+      {
+        "epoch": 5,
+        "n": 14970,
+        "mean_cos_vs_first": 0.2621760368347168
+      },
+      {
+        "epoch": 10,
+        "n": 14998,
+        "mean_cos_vs_first": 0.2358136773109436
+      },
+      {
+        "epoch": 15,
+        "n": 14996,
+        "mean_cos_vs_first": 0.2219042330980301
+      },
+      {
+        "epoch": 20,
+        "n": 14773,
+        "mean_cos_vs_first": 0.2257920801639557
+      },
+      {
+        "epoch": 25,
+        "n": 14216,
+        "mean_cos_vs_first": 0.2235574871301651
+      },
+      {
+        "epoch": 30,
+        "n": 13899,
+        "mean_cos_vs_first": 0.2185239940881729
+      }
+    ]
+  },
+  "performance_margin_metrics": [
+    {
+      "epoch": 1,
+      "val_dice": 0.10051162587478757,
+      "val_hd95": 36.76534225780904,
+      "val_ece": 0.4261439438130747,
+      "train_margin_loss": 0.015824213614092864,
+      "active_hinge_pct": 0.018813903664302592
+    },
+    {
+      "epoch": 5,
+      "val_dice": 0.45204963348805904,
+      "val_hd95": 11.215326731713095,
+      "val_ece": 0.22688927569962108,
+      "train_margin_loss": 0.08117917316126907,
+      "active_hinge_pct": 0.06253432307437483
+    },
+    {
+      "epoch": 10,
+      "val_dice": 0.6857118662446737,
+      "val_hd95": 6.460488606606711,
+      "val_ece": 0.15828987690794205,
+      "train_margin_loss": 0.19797100338107304,
+      "active_hinge_pct": 0.10091877313670146
+    },
+    {
+      "epoch": 15,
+      "val_dice": 0.7844818718731403,
+      "val_hd95": 3.471867757689925,
+      "val_ece": 0.13071818256056209,
+      "train_margin_loss": 0.04408153041134267,
+      "active_hinge_pct": 0.12949514665742645
+    },
+    {
+      "epoch": 20,
+      "val_dice": 0.7978500835597515,
+      "val_hd95": 3.175374647355704,
+      "val_ece": 0.11344113261807805,
+      "train_margin_loss": 0.09204600335277141,
+      "active_hinge_pct": 0.059232842789598145
+    },
+    {
+      "epoch": 25,
+      "val_dice": 0.8297996856272221,
+      "val_hd95": 2.142643046376398,
+      "val_ece": 0.1107003195056459,
+      "train_margin_loss": 0.10117571335946414,
+      "active_hinge_pct": 0.08755416962174943
+    },
+    {
+      "epoch": 30,
+      "val_dice": 0.8432176969945431,
+      "val_hd95": 2.2765795774729423,
+      "val_ece": 0.10878629447147252,
+      "train_margin_loss": 0.07576016552667035,
+      "active_hinge_pct": 0.07534844267139479
+    }
+  ],
+  "rotation_magnitude_summary": {
+    "epoch1_to_5": 0.06081199645996094,
+    "epoch5_to_10": 0.021295785903930664,
+    "epoch10_to_30": 0.024523138999938965
+  }
+}

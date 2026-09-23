@@ -1,0 +1,1252 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_size": 91481,
+    "hausdorff_dist": 25.65151067676132,
+    "hausdorff_normalized": 0.5692931646561611,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 16.886371612548828,
+    "S_mean_lesion": 13.867636680603027,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_size": 109939,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.05904199953097462,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 18.613534927368164,
+    "S_mean_lesion": 12.48419189453125,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_size": 114711,
+    "hausdorff_dist": 3.7416573867739413,
+    "hausdorff_normalized": 0.07700678408077546,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 12.842107772827148,
+    "S_mean_lesion": 11.793601036071777,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_size": 50014,
+    "hausdorff_dist": 2.449489742783178,
+    "hausdorff_normalized": 0.06648317477290097,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 11.07429313659668,
+    "S_mean_lesion": 15.661286354064941,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_size": 104014,
+    "hausdorff_dist": 9.899494936611665,
+    "hausdorff_normalized": 0.2104985438604795,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.78276252746582,
+    "S_mean_lesion": 14.803580284118652,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_size": 194150,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.054611930333349636,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 6.9058027267456055,
+    "S_mean_lesion": 11.265044212341309,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_size": 158406,
+    "hausdorff_dist": 2.449489742783178,
+    "hausdorff_normalized": 0.04527082489582726,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.377832412719727,
+    "S_mean_lesion": 15.353671073913574,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_size": 64411,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.05578254323922539,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 10.674070358276367,
+    "S_mean_lesion": 13.109707832336426,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_size": 88284,
+    "hausdorff_dist": 1.7320508075688772,
+    "hausdorff_normalized": 0.03889853843750969,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.6934170722961426,
+    "S_mean_lesion": 15.924099922180176,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_size": 157478,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.05555390815752368,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.807877779006958,
+    "S_mean_lesion": 16.32906150817871,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_size": 168187,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.05434885999005138,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 24.58065414428711,
+    "S_mean_lesion": 15.020495414733887,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_size": 215769,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.037281093763643726,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 6.819217681884766,
+    "S_mean_lesion": 12.884511947631836,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_size": 88252,
+    "hausdorff_dist": 8.306623862918075,
+    "hausdorff_normalized": 0.18657338177856353,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.739131927490234,
+    "S_mean_lesion": 12.036372184753418,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_size": 23091,
+    "hausdorff_dist": 22.11334438749598,
+    "hausdorff_normalized": 0.7765572891354945,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 20.35529136657715,
+    "S_mean_lesion": 10.111557960510254,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_size": 59246,
+    "hausdorff_dist": 4.58257569495584,
+    "hausdorff_normalized": 0.11755017810596805,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 5.112793922424316,
+    "S_mean_lesion": 15.061112403869629,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_size": 46623,
+    "hausdorff_dist": 4.242640687119285,
+    "hausdorff_normalized": 0.11787892557763499,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.2990291118621826,
+    "S_mean_lesion": 14.500656127929688,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_size": 117869,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.04079091561239036,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 12.965560913085938,
+    "S_mean_lesion": 16.025663375854492,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_size": 225535,
+    "hausdorff_dist": 6.164414002968976,
+    "hausdorff_normalized": 0.10127147648328513,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.587928771972656,
+    "S_mean_lesion": 17.059431076049805,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_size": 92469,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.06254792838227297,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 7.899158477783203,
+    "S_mean_lesion": 14.807525634765625,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_size": 120053,
+    "hausdorff_dist": 4.69041575982343,
+    "hausdorff_normalized": 0.09507952262892232,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.5128095149993896,
+    "S_mean_lesion": 14.05952262878418,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_size": 88316,
+    "hausdorff_dist": 8.54400374531753,
+    "hausdorff_normalized": 0.1918587556322601,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.4440512657165527,
+    "S_mean_lesion": 11.483072280883789,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_size": 56813,
+    "hausdorff_dist": 5.385164807134504,
+    "hausdorff_normalized": 0.1400822407466731,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.78424835205078,
+    "S_mean_lesion": 12.930222511291504,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_size": 61579,
+    "hausdorff_dist": 5.916079783099616,
+    "hausdorff_normalized": 0.14981540311065636,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.301162719726562,
+    "S_mean_lesion": 13.186136245727539,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_size": 73437,
+    "hausdorff_dist": 11.445523142259598,
+    "hausdorff_normalized": 0.27331533224305204,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 16.97274398803711,
+    "S_mean_lesion": 14.26856517791748,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_size": 122261,
+    "hausdorff_dist": 1.7320508075688772,
+    "hausdorff_normalized": 0.03489779368056758,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 22.438913345336914,
+    "S_mean_lesion": 16.369863510131836,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_size": 43568,
+    "hausdorff_dist": 1.7320508075688772,
+    "hausdorff_normalized": 0.04922337718026639,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 5.695149898529053,
+    "S_mean_lesion": 17.761865615844727,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_size": 184720,
+    "hausdorff_dist": 5.0990195135927845,
+    "hausdorff_normalized": 0.08953277109592947,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.228744506835938,
+    "S_mean_lesion": 12.536693572998047,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_size": 9993,
+    "hausdorff_dist": 14.035668847618199,
+    "hausdorff_normalized": 0.6516300902204173,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 14.576494216918945,
+    "S_mean_lesion": 8.469005584716797,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_size": 16636,
+    "hausdorff_dist": 1.4142135623730951,
+    "hausdorff_normalized": 0.05539858562181165,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.2173523902893066,
+    "S_mean_lesion": 18.29555892944336,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_size": 135030,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.07027943236832379,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 10.46904468536377,
+    "S_mean_lesion": 14.489392280578613,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_size": 77815,
+    "hausdorff_dist": 13.564659966250536,
+    "hausdorff_normalized": 0.3177272477160654,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.344526290893555,
+    "S_mean_lesion": 11.96237850189209,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_size": 99834,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.06097036946701542,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.122713088989258,
+    "S_mean_lesion": 17.024269104003906,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_size": 87782,
+    "hausdorff_dist": 4.898979485566356,
+    "hausdorff_normalized": 0.11023101014589066,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.421018123626709,
+    "S_mean_lesion": 10.902424812316895,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_size": 103083,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.0476894861705727,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 14.693563461303711,
+    "S_mean_lesion": 16.415218353271484,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_size": 61602,
+    "hausdorff_dist": 2.449489742783178,
+    "hausdorff_normalized": 0.06202174913924418,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 26.113107681274414,
+    "S_mean_lesion": 17.950756072998047,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_size": 38741,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.059107107537026304,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 26.345989227294922,
+    "S_mean_lesion": 18.77437973022461,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_size": 111382,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.05878591926012461,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.132676601409912,
+    "S_mean_lesion": 17.04558753967285,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_size": 110422,
+    "hausdorff_dist": 7.874007874011811,
+    "hausdorff_normalized": 0.1641259675623097,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.347701072692871,
+    "S_mean_lesion": 14.226469039916992,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_size": 89516,
+    "hausdorff_dist": 15.165750888103101,
+    "hausdorff_normalized": 0.3390239288081773,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 19.739055633544922,
+    "S_mean_lesion": 11.027560234069824,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_size": 55153,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.08307626093857433,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.819462776184082,
+    "S_mean_lesion": 13.72645378112793,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_size": 38714,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.0836095011171594,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.2899837493896484,
+    "S_mean_lesion": 17.574237823486328,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_size": 71716,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.07611343171684225,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 13.209714889526367,
+    "S_mean_lesion": 14.791585922241211,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_size": 140999,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.06075676580047976,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 19.343551635742188,
+    "S_mean_lesion": 15.257469177246094,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_size": 149786,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.05648903713043795,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 6.646902084350586,
+    "S_mean_lesion": 15.930859565734863,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_size": 97063,
+    "hausdorff_dist": 1.4142135623730951,
+    "hausdorff_normalized": 0.030772568820753618,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 9.909204483032227,
+    "S_mean_lesion": 17.538930892944336,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_size": 17539,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.11546569181136415,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.269599437713623,
+    "S_mean_lesion": 13.957036972045898,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_size": 136499,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.05493323330359462,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 35.04439926147461,
+    "S_mean_lesion": 15.972633361816406,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_size": 175363,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.0644157913120313,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.749974012374878,
+    "S_mean_lesion": 15.868023872375488,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_size": 50296,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.08566869917301571,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.033885955810547,
+    "S_mean_lesion": 10.907958984375,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_size": 140459,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.04301650643235195,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 11.168257713317871,
+    "S_mean_lesion": 16.117446899414062,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_size": 74456,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.07131069636109233,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 11.709145545959473,
+    "S_mean_lesion": 11.524893760681152,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_size": 113358,
+    "hausdorff_dist": 3.7416573867739413,
+    "hausdorff_normalized": 0.07731194818715344,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.908336639404297,
+    "S_mean_lesion": 15.830726623535156,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_size": 161243,
+    "hausdorff_dist": 3.4641016151377544,
+    "hausdorff_normalized": 0.06364490732616046,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.20305061340332,
+    "S_mean_lesion": 13.619183540344238,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_size": 30602,
+    "hausdorff_dist": 5.916079783099616,
+    "hausdorff_normalized": 0.1891402990447642,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.11909294128418,
+    "S_mean_lesion": 14.429606437683105,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_size": 70433,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.05414515433866568,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 11.844343185424805,
+    "S_mean_lesion": 12.869258880615234,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_size": 158833,
+    "hausdorff_dist": 6.164414002968976,
+    "hausdorff_normalized": 0.11382689188995998,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.32622528076172,
+    "S_mean_lesion": 13.95842456817627,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_size": 76330,
+    "hausdorff_dist": 4.123105625617661,
+    "hausdorff_normalized": 0.09719845528125809,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.0357792377471924,
+    "S_mean_lesion": 11.834954261779785,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_size": 113856,
+    "hausdorff_dist": 4.58257569495584,
+    "hausdorff_normalized": 0.09454915773015395,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 15.690375328063965,
+    "S_mean_lesion": 13.173666000366211,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_size": 129521,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.06250094662758082,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 13.451828956604004,
+    "S_mean_lesion": 10.86595630645752,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_size": 166996,
+    "hausdorff_dist": 21.470910553583888,
+    "hausdorff_normalized": 0.38989568772747424,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 19.59287452697754,
+    "S_mean_lesion": 16.982242584228516,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_size": 117131,
+    "hausdorff_dist": 1.4142135623730951,
+    "hausdorff_normalized": 0.028903983807847082,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 14.793022155761719,
+    "S_mean_lesion": 16.456209182739258,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_size": 73145,
+    "hausdorff_dist": 6.708203932499369,
+    "hausdorff_normalized": 0.16040258578423644,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.652076721191406,
+    "S_mean_lesion": 14.097968101501465,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_size": 90377,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.08034379830428696,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.7813563346862793,
+    "S_mean_lesion": 17.665613174438477,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_size": 39628,
+    "hausdorff_dist": 3.7416573867739413,
+    "hausdorff_normalized": 0.10974800144934609,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.143999099731445,
+    "S_mean_lesion": 16.410945892333984,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_size": 100873,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.04296402961817545,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 19.517715454101562,
+    "S_mean_lesion": 12.500587463378906,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_size": 119693,
+    "hausdorff_dist": 4.123105625617661,
+    "hausdorff_normalized": 0.08366327629601918,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.056839942932129,
+    "S_mean_lesion": 13.241877555847168,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_size": 65321,
+    "hausdorff_dist": 4.242640687119285,
+    "hausdorff_normalized": 0.10534614153332761,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.439605712890625,
+    "S_mean_lesion": 14.488386154174805,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_size": 86818,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.04516757006170613,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 17.560697555541992,
+    "S_mean_lesion": 16.859468460083008,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_size": 75231,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.08540947538959576,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.5998973846435547,
+    "S_mean_lesion": 13.24609375,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_size": 131601,
+    "hausdorff_dist": 3.7416573867739413,
+    "hausdorff_normalized": 0.07356043343034918,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.3909263610839844,
+    "S_mean_lesion": 14.962053298950195,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_size": 122552,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.056942716763828186,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 16.003517150878906,
+    "S_mean_lesion": 15.95910930633545,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_size": 95372,
+    "hausdorff_dist": 10.04987562112089,
+    "hausdorff_normalized": 0.21996506634710472,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 5.686275959014893,
+    "S_mean_lesion": 15.706753730773926,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_size": 132715,
+    "hausdorff_dist": 1.4142135623730951,
+    "hausdorff_normalized": 0.02772521901362887,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.3930792808532715,
+    "S_mean_lesion": 14.640379905700684,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_size": 17082,
+    "hausdorff_dist": 5.385164807134504,
+    "hausdorff_normalized": 0.20909937894812802,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.047821044921875,
+    "S_mean_lesion": 10.923559188842773,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_size": 66169,
+    "hausdorff_dist": 6.164414002968976,
+    "hausdorff_normalized": 0.1524077074847281,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.007749557495117,
+    "S_mean_lesion": 13.02455997467041,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_size": 129183,
+    "hausdorff_dist": 3.7416573867739413,
+    "hausdorff_normalized": 0.07401655835786204,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 11.530776977539062,
+    "S_mean_lesion": 13.442394256591797,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_size": 114032,
+    "hausdorff_dist": 1.4142135623730951,
+    "hausdorff_normalized": 0.02916348419398839,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 12.15913200378418,
+    "S_mean_lesion": 19.986101150512695,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_size": 140710,
+    "hausdorff_dist": 10.63014581273465,
+    "hausdorff_normalized": 0.2043764693661369,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 16.752700805664062,
+    "S_mean_lesion": 10.985156059265137,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_size": 59335,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.05732992084301946,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.7667088508605957,
+    "S_mean_lesion": 13.375378608703613,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_size": 74546,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.07513781148493477,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 15.926346778869629,
+    "S_mean_lesion": 13.739714622497559,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_size": 148743,
+    "hausdorff_dist": 4.58257569495584,
+    "hausdorff_normalized": 0.08648964748127279,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.557746410369873,
+    "S_mean_lesion": 15.262580871582031,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_size": 83044,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.08264227161600478,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 5.518102645874023,
+    "S_mean_lesion": 16.932981491088867,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_size": 102466,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.077051022422106,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.8148741722106934,
+    "S_mean_lesion": 15.230109214782715,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_size": 71098,
+    "hausdorff_dist": 6.782329983125268,
+    "hausdorff_normalized": 0.16371674846527035,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.844831466674805,
+    "S_mean_lesion": 13.822571754455566,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_size": 138051,
+    "hausdorff_dist": 8.12403840463596,
+    "hausdorff_normalized": 0.15719019054766512,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 16.079355239868164,
+    "S_mean_lesion": 13.05020523071289,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_size": 48705,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.061229466357872527,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 13.162378311157227,
+    "S_mean_lesion": 12.601303100585938,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_size": 109201,
+    "hausdorff_dist": 3.1622776601683795,
+    "hausdorff_normalized": 0.06615933314952344,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.110626220703125,
+    "S_mean_lesion": 14.371709823608398,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_size": 31109,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.07109782329289245,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.713487148284912,
+    "S_mean_lesion": 10.803685188293457,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_size": 38502,
+    "hausdorff_dist": 10.099504938362077,
+    "hausdorff_normalized": 0.2990925828250058,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.8326950073242188,
+    "S_mean_lesion": 11.644198417663574,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_size": 62146,
+    "hausdorff_dist": 5.0,
+    "hausdorff_normalized": 0.12623087708134226,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.862107753753662,
+    "S_mean_lesion": 15.37042236328125,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_size": 30323,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.09070284809864713,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.682044982910156,
+    "S_mean_lesion": 11.908313751220703,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_size": 146677,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.042399850083878136,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 11.12981128692627,
+    "S_mean_lesion": 15.558696746826172,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_size": 7513,
+    "hausdorff_dist": 5.0990195135927845,
+    "hausdorff_normalized": 0.2603447687193192,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.06892466545105,
+    "S_mean_lesion": 10.597658157348633,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_size": 51320,
+    "hausdorff_dist": 16.881943016134134,
+    "hausdorff_normalized": 0.4542834016343003,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.918436050415039,
+    "S_mean_lesion": 10.96285629272461,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_size": 7285,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.10317000570547571,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 18.3074893951416,
+    "S_mean_lesion": 10.202433586120605,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_size": 121324,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.04516854350302501,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 25.520217895507812,
+    "S_mean_lesion": 12.792028427124023,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_size": 128899,
+    "hausdorff_dist": 4.58257569495584,
+    "hausdorff_normalized": 0.09071792807741581,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.603158950805664,
+    "S_mean_lesion": 11.752700805664062,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_size": 70109,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.0685941468339103,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 14.11948299407959,
+    "S_mean_lesion": 12.868607521057129,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_size": 51782,
+    "hausdorff_dist": 3.7416573867739413,
+    "hausdorff_normalized": 0.10038551839797362,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.012310981750488,
+    "S_mean_lesion": 12.44711685180664,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_size": 196777,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.051577838209927104,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.383836030960083,
+    "S_mean_lesion": 16.274030685424805,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_size": 95466,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.0489255162915292,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 6.831477165222168,
+    "S_mean_lesion": 16.56361961364746,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_size": 36221,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.06758207318247293,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.760782241821289,
+    "S_mean_lesion": 13.433032989501953,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_size": 89260,
+    "hausdorff_dist": 7.211102550927978,
+    "hausdorff_normalized": 0.16135510164568287,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.0297884941101074,
+    "S_mean_lesion": 11.348082542419434,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_size": 83290,
+    "hausdorff_dist": 3.3166247903554,
+    "hausdorff_normalized": 0.07594491702380084,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 7.635213851928711,
+    "S_mean_lesion": 15.66805362701416,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_size": 30073,
+    "hausdorff_dist": 8.306623862918075,
+    "hausdorff_normalized": 0.2671154120084837,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 16.923152923583984,
+    "S_mean_lesion": 10.579959869384766,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_size": 87535,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.0450439091491816,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.6712746620178223,
+    "S_mean_lesion": 15.078831672668457,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_size": 95815,
+    "hausdorff_dist": 8.602325267042627,
+    "hausdorff_normalized": 0.18799141453681537,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 10.343963623046875,
+    "S_mean_lesion": 15.835474967956543,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_size": 202427,
+    "hausdorff_dist": 4.123105625617661,
+    "hausdorff_normalized": 0.0702212097373702,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 15.310149192810059,
+    "S_mean_lesion": 12.282114028930664,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_size": 45528,
+    "hausdorff_dist": 6.708203932499369,
+    "hausdorff_normalized": 0.18786536495768033,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.88641357421875,
+    "S_mean_lesion": 10.102788925170898,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_size": 99795,
+    "hausdorff_dist": 8.602325267042627,
+    "hausdorff_normalized": 0.18545829223747598,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 5.340700149536133,
+    "S_mean_lesion": 14.22448444366455,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_size": 153071,
+    "hausdorff_dist": 3.0,
+    "hausdorff_normalized": 0.056082014685261146,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 18.020048141479492,
+    "S_mean_lesion": 14.90757942199707,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_size": 39011,
+    "hausdorff_dist": 4.242640687119285,
+    "hausdorff_normalized": 0.12509517107856014,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.674677848815918,
+    "S_mean_lesion": 16.106948852539062,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_size": 16748,
+    "hausdorff_dist": 1.0,
+    "hausdorff_normalized": 0.039085199432175935,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 5.568818092346191,
+    "S_mean_lesion": 11.256457328796387,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_size": 140258,
+    "hausdorff_dist": 2.8284271247461903,
+    "hausdorff_normalized": 0.05443803467198852,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.654822826385498,
+    "S_mean_lesion": 9.1201171875,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_size": 137297,
+    "hausdorff_dist": 2.0,
+    "hausdorff_normalized": 0.038768259574566304,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.384052276611328,
+    "S_mean_lesion": 15.80803108215332,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_size": 119315,
+    "hausdorff_dist": 4.358898943540674,
+    "hausdorff_normalized": 0.0885411400843444,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.8705968856811523,
+    "S_mean_lesion": 18.026546478271484,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_size": 25776,
+    "hausdorff_dist": 7.0710678118654755,
+    "hausdorff_normalized": 0.23937556319487688,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.7452898025512695,
+    "S_mean_lesion": 9.682857513427734,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_size": 49858,
+    "hausdorff_dist": 3.605551275463989,
+    "hausdorff_normalized": 0.09796254214130366,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.618666648864746,
+    "S_mean_lesion": 17.728931427001953,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_size": 98996,
+    "hausdorff_dist": 2.23606797749979,
+    "hausdorff_normalized": 0.048336935190672836,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.2276368141174316,
+    "S_mean_lesion": 13.463997840881348,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_size": 149604,
+    "hausdorff_dist": 4.0,
+    "hausdorff_normalized": 0.07534924666560912,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 7.843264579772949,
+    "S_mean_lesion": 14.583209991455078,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_size": 67771,
+    "hausdorff_dist": 14.798648586948742,
+    "hausdorff_normalized": 0.3629728003983317,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 4.070723533630371,
+    "S_mean_lesion": 11.734272956848145,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_size": 66727,
+    "hausdorff_dist": 1.0,
+    "hausdorff_normalized": 0.024654684881179504,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 2.9844985008239746,
+    "S_mean_lesion": 16.415590286254883,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_size": 139254,
+    "hausdorff_dist": 5.0,
+    "hausdorff_normalized": 0.09646448194942284,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 7.775444984436035,
+    "S_mean_lesion": 12.21967601776123,
+    "argmax_is_high_confidence": false
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_size": 25809,
+    "hausdorff_dist": 25.495097567963924,
+    "hausdorff_normalized": 0.8627128584175339,
+    "argmax_direction": "gt_to_pred",
+    "S_at_argmax": 17.587055206298828,
+    "S_mean_lesion": 16.354360580444336,
+    "argmax_is_high_confidence": true
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_size": 147785,
+    "hausdorff_dist": 3.3166247903554,
+    "hausdorff_normalized": 0.06273157849960065,
+    "argmax_direction": "pred_to_gt",
+    "S_at_argmax": 3.1383299827575684,
+    "S_mean_lesion": 13.561380386352539,
+    "argmax_is_high_confidence": false
+  }
+]

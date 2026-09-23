@@ -1,0 +1,39 @@
+{
+  "tag": "E130_baseline_seed0_ep32",
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e130\\runs\\E130_baseline_seed0\\checkpoints\\best.pth",
+  "epoch": 32,
+  "n_subjects": 125,
+  "per_region": {
+    "ET": {
+      "dice_mean": 0.819037604033947,
+      "dice_std": 0.24875017105756053,
+      "dice_median": 0.9128910303115845,
+      "hd95_mean": 3.9121508208231175,
+      "hd95_std": 6.838810131807486,
+      "n_hd95_defined": 122
+    },
+    "TC": {
+      "dice_mean": 0.8443225049376488,
+      "dice_std": 0.26303042493998247,
+      "dice_median": 0.9482314586639404,
+      "hd95_mean": 4.776075032500002,
+      "hd95_std": 7.605949904346379,
+      "n_hd95_defined": 123
+    },
+    "WT": {
+      "dice_mean": 0.9130479595661163,
+      "dice_std": 0.09400936033197262,
+      "dice_median": 0.9453940987586975,
+      "hd95_mean": 7.029724565034208,
+      "hd95_std": 11.79228851874696,
+      "n_hd95_defined": 125
+    }
+  },
+  "mean_dice": 0.8588026895125708,
+  "n_empty_gt": {
+    "ET": 0,
+    "TC": 0,
+    "WT": 0
+  },
+  "note": "Evaluated the epoch-32 checkpoint saved BEFORE the epoch-39 training collapse. Training-time val used only 25 subjects; this uses all 125."
+}

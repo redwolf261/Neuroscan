@@ -1,0 +1,2810 @@
+[
+  {
+    "epoch": 5,
+    "category": "TN",
+    "voxel_idx": 383523,
+    "g_norm_full_model": 0.051956083166989735,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.03232294486001217,
+        "delta_z_norm": 0.010853108949959278,
+        "cos_with_w_hat": -0.615370512008667
+      },
+      "decoder": {
+        "g_masked_norm": 0.033024623185494,
+        "delta_z_norm": 0.010836800560355186,
+        "cos_with_w_hat": -0.6144312620162964
+      },
+      "encoder": {
+        "g_masked_norm": 0.04010995938057388,
+        "delta_z_norm": 0.014663226902484894,
+        "cos_with_w_hat": -0.5588495135307312
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.051956083166989735,
+        "delta_z_norm": 0.024754012003540993,
+        "cos_with_w_hat": -0.5910530090332031
+      },
+      "all": {
+        "g_masked_norm": 0.051956083166989735,
+        "delta_z_norm": 0.024754012003540993,
+        "cos_with_w_hat": -0.5910530090332031
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "TN",
+    "voxel_idx": 346005,
+    "g_norm_full_model": 0.04768189239210279,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.027745532563454082,
+        "delta_z_norm": 0.0027606221847236156,
+        "cos_with_w_hat": -0.5610319972038269
+      },
+      "decoder": {
+        "g_masked_norm": 0.028322540168578422,
+        "delta_z_norm": 0.0030066485051065683,
+        "cos_with_w_hat": -0.5699679255485535
+      },
+      "encoder": {
+        "g_masked_norm": 0.03835878752634566,
+        "delta_z_norm": 0.012623188085854053,
+        "cos_with_w_hat": -0.5682991147041321
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.04768189239210279,
+        "delta_z_norm": 0.015150108374655247,
+        "cos_with_w_hat": -0.5696414709091187
+      },
+      "all": {
+        "g_masked_norm": 0.04768189239210279,
+        "delta_z_norm": 0.015150108374655247,
+        "cos_with_w_hat": -0.5696414709091187
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "TN",
+    "voxel_idx": 354328,
+    "g_norm_full_model": 0.0821735137100955,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.049804223399151436,
+        "delta_z_norm": 0.007874839939177036,
+        "cos_with_w_hat": -0.5760882496833801
+      },
+      "decoder": {
+        "g_masked_norm": 0.05054879216280208,
+        "delta_z_norm": 0.008242167532444,
+        "cos_with_w_hat": -0.5721868872642517
+      },
+      "encoder": {
+        "g_masked_norm": 0.0647866187290639,
+        "delta_z_norm": 0.017631031572818756,
+        "cos_with_w_hat": -0.571232795715332
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.0821735137100955,
+        "delta_z_norm": 0.026025453582406044,
+        "cos_with_w_hat": -0.5721990466117859
+      },
+      "all": {
+        "g_masked_norm": 0.0821735137100955,
+        "delta_z_norm": 0.026025453582406044,
+        "cos_with_w_hat": -0.5721990466117859
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "TP",
+    "voxel_idx": 169770,
+    "g_norm_full_model": 5.948268000635704,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.623647017818556,
+        "delta_z_norm": 1.349878191947937,
+        "cos_with_w_hat": 0.2979288697242737
+      },
+      "decoder": {
+        "g_masked_norm": 3.6585398877809285,
+        "delta_z_norm": 1.3857606649398804,
+        "cos_with_w_hat": 0.2963954508304596
+      },
+      "encoder": {
+        "g_masked_norm": 4.6900936128080195,
+        "delta_z_norm": 2.935025691986084,
+        "cos_with_w_hat": 0.22133448719978333
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 5.948268000635704,
+        "delta_z_norm": 4.189668655395508,
+        "cos_with_w_hat": 0.24815773963928223
+      },
+      "all": {
+        "g_masked_norm": 5.948268000635704,
+        "delta_z_norm": 4.189668655395508,
+        "cos_with_w_hat": 0.24815773963928223
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "TP",
+    "voxel_idx": 166055,
+    "g_norm_full_model": 8.147891376413208,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 4.057447361275581,
+        "delta_z_norm": 1.7046695947647095,
+        "cos_with_w_hat": 0.35301411151885986
+      },
+      "decoder": {
+        "g_masked_norm": 4.136246506841717,
+        "delta_z_norm": 1.7645362615585327,
+        "cos_with_w_hat": 0.35116344690322876
+      },
+      "encoder": {
+        "g_masked_norm": 7.019942928291397,
+        "delta_z_norm": 4.239399433135986,
+        "cos_with_w_hat": 0.25887438654899597
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 8.147891376413208,
+        "delta_z_norm": 6.239450931549072,
+        "cos_with_w_hat": 0.2853119969367981
+      },
+      "all": {
+        "g_masked_norm": 8.147891376413208,
+        "delta_z_norm": 6.239450931549072,
+        "cos_with_w_hat": 0.2853119969367981
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "TP",
+    "voxel_idx": 127843,
+    "g_norm_full_model": 0.3738214639847815,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.20768848837360027,
+        "delta_z_norm": 0.051189206540584564,
+        "cos_with_w_hat": 0.27138811349868774
+      },
+      "decoder": {
+        "g_masked_norm": 0.2094368245748754,
+        "delta_z_norm": 0.05264190584421158,
+        "cos_with_w_hat": 0.27043670415878296
+      },
+      "encoder": {
+        "g_masked_norm": 0.3096428643578246,
+        "delta_z_norm": 0.25628677010536194,
+        "cos_with_w_hat": 0.2416466772556305
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.3738214639847815,
+        "delta_z_norm": 0.30535393953323364,
+        "cos_with_w_hat": 0.2491205930709839
+      },
+      "all": {
+        "g_masked_norm": 0.3738214639847815,
+        "delta_z_norm": 0.30535393953323364,
+        "cos_with_w_hat": 0.2491205930709839
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "FP",
+    "voxel_idx": 119959,
+    "g_norm_full_model": 9.343938899372912,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 4.891911495025424,
+        "delta_z_norm": 1.0940386056900024,
+        "cos_with_w_hat": -0.22795599699020386
+      },
+      "decoder": {
+        "g_masked_norm": 4.962687470389522,
+        "delta_z_norm": 1.1242567300796509,
+        "cos_with_w_hat": -0.22711655497550964
+      },
+      "encoder": {
+        "g_masked_norm": 7.917128723625321,
+        "delta_z_norm": 3.975480794906616,
+        "cos_with_w_hat": -0.39049971103668213
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 9.343938899372912,
+        "delta_z_norm": 4.688394546508789,
+        "cos_with_w_hat": -0.3134003281593323
+      },
+      "all": {
+        "g_masked_norm": 9.343938899372912,
+        "delta_z_norm": 4.688394546508789,
+        "cos_with_w_hat": -0.3134003281593323
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "FP",
+    "voxel_idx": 123993,
+    "g_norm_full_model": 17.128294208253934,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 12.083300036728408,
+        "delta_z_norm": 1.8236796855926514,
+        "cos_with_w_hat": -0.2618732750415802
+      },
+      "decoder": {
+        "g_masked_norm": 12.191438360569219,
+        "delta_z_norm": 1.836469054222107,
+        "cos_with_w_hat": -0.26173144578933716
+      },
+      "encoder": {
+        "g_masked_norm": 12.031096923595394,
+        "delta_z_norm": 6.094740390777588,
+        "cos_with_w_hat": -0.4991723895072937
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 17.128294208253934,
+        "delta_z_norm": 6.128962993621826,
+        "cos_with_w_hat": -0.3512684404850006
+      },
+      "all": {
+        "g_masked_norm": 17.128294208253934,
+        "delta_z_norm": 6.128962993621826,
+        "cos_with_w_hat": -0.3512684404850006
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "FP",
+    "voxel_idx": 366418,
+    "g_norm_full_model": 5.800154468458126,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 4.353621835357515,
+        "delta_z_norm": 0.4129272699356079,
+        "cos_with_w_hat": -0.22002705931663513
+      },
+      "decoder": {
+        "g_masked_norm": 4.416484609008667,
+        "delta_z_norm": 0.4123326539993286,
+        "cos_with_w_hat": -0.21751242876052856
+      },
+      "encoder": {
+        "g_masked_norm": 3.759847810266304,
+        "delta_z_norm": 0.41322246193885803,
+        "cos_with_w_hat": -0.2401663362979889
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 5.800154468458126,
+        "delta_z_norm": 0.7821797728538513,
+        "cos_with_w_hat": -0.2278660535812378
+      },
+      "all": {
+        "g_masked_norm": 5.800154468458126,
+        "delta_z_norm": 0.7821797728538513,
+        "cos_with_w_hat": -0.2278660535812378
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "FN",
+    "voxel_idx": 346654,
+    "g_norm_full_model": 18.558646439560476,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 10.719856326928628,
+        "delta_z_norm": 2.9193451404571533,
+        "cos_with_w_hat": 0.5960650444030762
+      },
+      "decoder": {
+        "g_masked_norm": 10.844418480111948,
+        "delta_z_norm": 2.958782196044922,
+        "cos_with_w_hat": 0.59366375207901
+      },
+      "encoder": {
+        "g_masked_norm": 15.060609067923423,
+        "delta_z_norm": 4.181661605834961,
+        "cos_with_w_hat": 0.5056444406509399
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 18.558646439560476,
+        "delta_z_norm": 5.072722911834717,
+        "cos_with_w_hat": 0.4626191258430481
+      },
+      "all": {
+        "g_masked_norm": 18.558646439560476,
+        "delta_z_norm": 5.072722911834717,
+        "cos_with_w_hat": 0.4626191258430481
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "FN",
+    "voxel_idx": 354967,
+    "g_norm_full_model": 26.728450519136466,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 15.921512853735997,
+        "delta_z_norm": 2.654616355895996,
+        "cos_with_w_hat": 0.4864581227302551
+      },
+      "decoder": {
+        "g_masked_norm": 16.22463390841482,
+        "delta_z_norm": 2.73069429397583,
+        "cos_with_w_hat": 0.4821630120277405
+      },
+      "encoder": {
+        "g_masked_norm": 21.240793810303852,
+        "delta_z_norm": 5.57966423034668,
+        "cos_with_w_hat": 0.34785130620002747
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 26.728450519136466,
+        "delta_z_norm": 7.934536933898926,
+        "cos_with_w_hat": 0.31940531730651855
+      },
+      "all": {
+        "g_masked_norm": 26.728450519136466,
+        "delta_z_norm": 7.934536933898926,
+        "cos_with_w_hat": 0.31940531730651855
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "category": "FN",
+    "voxel_idx": 355097,
+    "g_norm_full_model": 20.383793207323983,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 12.531622352561806,
+        "delta_z_norm": 2.795038938522339,
+        "cos_with_w_hat": 0.4847535192966461
+      },
+      "decoder": {
+        "g_masked_norm": 12.789931599993484,
+        "delta_z_norm": 2.869100570678711,
+        "cos_with_w_hat": 0.47918224334716797
+      },
+      "encoder": {
+        "g_masked_norm": 15.871883164465252,
+        "delta_z_norm": 4.4774065017700195,
+        "cos_with_w_hat": 0.3739628791809082
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 20.383793207323983,
+        "delta_z_norm": 6.9100494384765625,
+        "cos_with_w_hat": 0.32164812088012695
+      },
+      "all": {
+        "g_masked_norm": 20.383793207323983,
+        "delta_z_norm": 6.9100494384765625,
+        "cos_with_w_hat": 0.32164812088012695
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "TN",
+    "voxel_idx": 162523,
+    "g_norm_full_model": 0.42978577078583186,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.20820975180508583,
+        "delta_z_norm": 0.0846942886710167,
+        "cos_with_w_hat": -0.625740110874176
+      },
+      "decoder": {
+        "g_masked_norm": 0.21354966812919132,
+        "delta_z_norm": 0.08690495043992996,
+        "cos_with_w_hat": -0.6272150278091431
+      },
+      "encoder": {
+        "g_masked_norm": 0.3729776776321659,
+        "delta_z_norm": 0.23062542080879211,
+        "cos_with_w_hat": -0.6309955716133118
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.42978577078583186,
+        "delta_z_norm": 0.3182651996612549,
+        "cos_with_w_hat": -0.6343644857406616
+      },
+      "all": {
+        "g_masked_norm": 0.42978577078583186,
+        "delta_z_norm": 0.3182651996612549,
+        "cos_with_w_hat": -0.6343644857406616
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "TN",
+    "voxel_idx": 186911,
+    "g_norm_full_model": 0.01648427155813757,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.007746229559737451,
+        "delta_z_norm": 0.0014411043375730515,
+        "cos_with_w_hat": -0.6407148838043213
+      },
+      "decoder": {
+        "g_masked_norm": 0.008024059357178781,
+        "delta_z_norm": 0.0015715495683252811,
+        "cos_with_w_hat": -0.6428073644638062
+      },
+      "encoder": {
+        "g_masked_norm": 0.014399502777349459,
+        "delta_z_norm": 0.005956023000180721,
+        "cos_with_w_hat": -0.640020489692688
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.01648427155813757,
+        "delta_z_norm": 0.007371057756245136,
+        "cos_with_w_hat": -0.6432405710220337
+      },
+      "all": {
+        "g_masked_norm": 0.01648427155813757,
+        "delta_z_norm": 0.007371057756245136,
+        "cos_with_w_hat": -0.6432405710220337
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "TN",
+    "voxel_idx": 166109,
+    "g_norm_full_model": 0.8623603914944884,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.3809545604543464,
+        "delta_z_norm": 0.07532194256782532,
+        "cos_with_w_hat": -0.6465716361999512
+      },
+      "decoder": {
+        "g_masked_norm": 0.40257921695454246,
+        "delta_z_norm": 0.09003809839487076,
+        "cos_with_w_hat": -0.6464941501617432
+      },
+      "encoder": {
+        "g_masked_norm": 0.7626240350885846,
+        "delta_z_norm": 0.45513275265693665,
+        "cos_with_w_hat": -0.6240251660346985
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.8623603914944884,
+        "delta_z_norm": 0.542109489440918,
+        "cos_with_w_hat": -0.629061222076416
+      },
+      "all": {
+        "g_masked_norm": 0.8623603914944884,
+        "delta_z_norm": 0.542109489440918,
+        "cos_with_w_hat": -0.629061222076416
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "TP",
+    "voxel_idx": 337621,
+    "g_norm_full_model": 17.87854503421933,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 8.13071019289865,
+        "delta_z_norm": 1.0414894819259644,
+        "cos_with_w_hat": 0.36019062995910645
+      },
+      "decoder": {
+        "g_masked_norm": 8.372215798916963,
+        "delta_z_norm": 1.093117594718933,
+        "cos_with_w_hat": 0.35831546783447266
+      },
+      "encoder": {
+        "g_masked_norm": 15.797100213551024,
+        "delta_z_norm": 7.934449195861816,
+        "cos_with_w_hat": 0.3209857642650604
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 17.87854503421933,
+        "delta_z_norm": 8.790688514709473,
+        "cos_with_w_hat": 0.3082188367843628
+      },
+      "all": {
+        "g_masked_norm": 17.87854503421933,
+        "delta_z_norm": 8.790688514709473,
+        "cos_with_w_hat": 0.3082188367843628
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "TP",
+    "voxel_idx": 349846,
+    "g_norm_full_model": 21.779304804800216,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 5.597085161785434,
+        "delta_z_norm": 1.3595101833343506,
+        "cos_with_w_hat": 0.3080887198448181
+      },
+      "decoder": {
+        "g_masked_norm": 6.029702128841376,
+        "delta_z_norm": 1.6849181652069092,
+        "cos_with_w_hat": 0.3070427477359772
+      },
+      "encoder": {
+        "g_masked_norm": 20.927991065026752,
+        "delta_z_norm": 8.531003952026367,
+        "cos_with_w_hat": 0.28214624524116516
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 21.779304804800216,
+        "delta_z_norm": 9.111711502075195,
+        "cos_with_w_hat": 0.2876296639442444
+      },
+      "all": {
+        "g_masked_norm": 21.779304804800216,
+        "delta_z_norm": 9.111711502075195,
+        "cos_with_w_hat": 0.2876296639442444
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "TP",
+    "voxel_idx": 361445,
+    "g_norm_full_model": 0.26411176359170613,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.11319574253421409,
+        "delta_z_norm": 0.0344623327255249,
+        "cos_with_w_hat": 0.39212536811828613
+      },
+      "decoder": {
+        "g_masked_norm": 0.11559067184510967,
+        "delta_z_norm": 0.03496575728058815,
+        "cos_with_w_hat": 0.39122486114501953
+      },
+      "encoder": {
+        "g_masked_norm": 0.23747383066333316,
+        "delta_z_norm": 0.1694168895483017,
+        "cos_with_w_hat": 0.2538900375366211
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.26411176359170613,
+        "delta_z_norm": 0.19841036200523376,
+        "cos_with_w_hat": 0.28507912158966064
+      },
+      "all": {
+        "g_masked_norm": 0.26411176359170613,
+        "delta_z_norm": 0.19841036200523376,
+        "cos_with_w_hat": 0.28507912158966064
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "FP",
+    "voxel_idx": 374045,
+    "g_norm_full_model": 12.8489685809265,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 5.331665318896045,
+        "delta_z_norm": 1.2211430072784424,
+        "cos_with_w_hat": -0.37681660056114197
+      },
+      "decoder": {
+        "g_masked_norm": 5.454549541633387,
+        "delta_z_norm": 1.2516531944274902,
+        "cos_with_w_hat": -0.3753224313259125
+      },
+      "encoder": {
+        "g_masked_norm": 11.63373899017437,
+        "delta_z_norm": 8.005681991577148,
+        "cos_with_w_hat": -0.6594790816307068
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 12.8489685809265,
+        "delta_z_norm": 8.087482452392578,
+        "cos_with_w_hat": -0.6604369878768921
+      },
+      "all": {
+        "g_masked_norm": 12.8489685809265,
+        "delta_z_norm": 8.087482452392578,
+        "cos_with_w_hat": -0.6604369878768921
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "FP",
+    "voxel_idx": 378848,
+    "g_norm_full_model": 6.2336525053483465,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 1.9207314436471141,
+        "delta_z_norm": 0.6350036859512329,
+        "cos_with_w_hat": -0.6254192590713501
+      },
+      "decoder": {
+        "g_masked_norm": 2.0739659305171716,
+        "delta_z_norm": 0.7674166560173035,
+        "cos_with_w_hat": -0.6328343152999878
+      },
+      "encoder": {
+        "g_masked_norm": 5.878527781382831,
+        "delta_z_norm": 4.836638450622559,
+        "cos_with_w_hat": -0.6453748941421509
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 6.2336525053483465,
+        "delta_z_norm": 5.169920921325684,
+        "cos_with_w_hat": -0.6516114473342896
+      },
+      "all": {
+        "g_masked_norm": 6.2336525053483465,
+        "delta_z_norm": 5.169920921325684,
+        "cos_with_w_hat": -0.6516114473342896
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "FP",
+    "voxel_idx": 337833,
+    "g_norm_full_model": 8.784380209514548,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.2799748164551397,
+        "delta_z_norm": 0.8663510084152222,
+        "cos_with_w_hat": -0.3120727837085724
+      },
+      "decoder": {
+        "g_masked_norm": 3.4439835580983007,
+        "delta_z_norm": 0.9418026804924011,
+        "cos_with_w_hat": -0.31028783321380615
+      },
+      "encoder": {
+        "g_masked_norm": 8.08110839655424,
+        "delta_z_norm": 7.21785306930542,
+        "cos_with_w_hat": -0.6316210031509399
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 8.784380209514548,
+        "delta_z_norm": 7.380668640136719,
+        "cos_with_w_hat": -0.6333271265029907
+      },
+      "all": {
+        "g_masked_norm": 8.784380209514548,
+        "delta_z_norm": 7.380668640136719,
+        "cos_with_w_hat": -0.6333271265029907
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "FN",
+    "voxel_idx": 182234,
+    "g_norm_full_model": 22.76097111479704,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 12.257003482442128,
+        "delta_z_norm": 3.56644606590271,
+        "cos_with_w_hat": 0.6201491355895996
+      },
+      "decoder": {
+        "g_masked_norm": 12.501713864020845,
+        "delta_z_norm": 3.6644651889801025,
+        "cos_with_w_hat": 0.6158708930015564
+      },
+      "encoder": {
+        "g_masked_norm": 19.020224934284403,
+        "delta_z_norm": 7.307616710662842,
+        "cos_with_w_hat": 0.4710630178451538
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 22.76097111479704,
+        "delta_z_norm": 8.994813919067383,
+        "cos_with_w_hat": 0.4429447650909424
+      },
+      "all": {
+        "g_masked_norm": 22.76097111479704,
+        "delta_z_norm": 8.994813919067383,
+        "cos_with_w_hat": 0.4429447650909424
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "FN",
+    "voxel_idx": 174432,
+    "g_norm_full_model": 25.740903276227414,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 11.132930926144796,
+        "delta_z_norm": 2.8243305683135986,
+        "cos_with_w_hat": 0.6556289196014404
+      },
+      "decoder": {
+        "g_masked_norm": 11.728535049960689,
+        "delta_z_norm": 2.9381957054138184,
+        "cos_with_w_hat": 0.6492318511009216
+      },
+      "encoder": {
+        "g_masked_norm": 22.913654598468984,
+        "delta_z_norm": 5.93048095703125,
+        "cos_with_w_hat": 0.47000595927238464
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 25.740903276227414,
+        "delta_z_norm": 7.384393215179443,
+        "cos_with_w_hat": 0.42300334572792053
+      },
+      "all": {
+        "g_masked_norm": 25.740903276227414,
+        "delta_z_norm": 7.384393215179443,
+        "cos_with_w_hat": 0.42300334572792053
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "category": "FN",
+    "voxel_idx": 162204,
+    "g_norm_full_model": 32.92095236186089,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 17.20251649224069,
+        "delta_z_norm": 3.3475234508514404,
+        "cos_with_w_hat": 0.5738491415977478
+      },
+      "decoder": {
+        "g_masked_norm": 17.88782863156038,
+        "delta_z_norm": 3.5699548721313477,
+        "cos_with_w_hat": 0.563157320022583
+      },
+      "encoder": {
+        "g_masked_norm": 27.637197601418322,
+        "delta_z_norm": 8.43124008178711,
+        "cos_with_w_hat": 0.4094459116458893
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 32.92095236186089,
+        "delta_z_norm": 10.083871841430664,
+        "cos_with_w_hat": 0.38261860609054565
+      },
+      "all": {
+        "g_masked_norm": 32.92095236186089,
+        "delta_z_norm": 10.083871841430664,
+        "cos_with_w_hat": 0.38261860609054565
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "TN",
+    "voxel_idx": 396079,
+    "g_norm_full_model": 1.3135460125267286,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.6058568477688392,
+        "delta_z_norm": 0.14288932085037231,
+        "cos_with_w_hat": -0.503273069858551
+      },
+      "decoder": {
+        "g_masked_norm": 0.6153990544684463,
+        "delta_z_norm": 0.14449645578861237,
+        "cos_with_w_hat": -0.503736138343811
+      },
+      "encoder": {
+        "g_masked_norm": 1.1604684962480503,
+        "delta_z_norm": 0.41458407044410706,
+        "cos_with_w_hat": -0.5495986938476562
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 1.3135460125267286,
+        "delta_z_norm": 0.5488276481628418,
+        "cos_with_w_hat": -0.5613476037979126
+      },
+      "all": {
+        "g_masked_norm": 1.3135460125267286,
+        "delta_z_norm": 0.5488276481628418,
+        "cos_with_w_hat": -0.5613476037979126
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "TN",
+    "voxel_idx": 391725,
+    "g_norm_full_model": 0.8235092684490353,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.4891230530143064,
+        "delta_z_norm": 0.10405237227678299,
+        "cos_with_w_hat": -0.533151388168335
+      },
+      "decoder": {
+        "g_masked_norm": 0.4973010966215413,
+        "delta_z_norm": 0.10520835965871811,
+        "cos_with_w_hat": -0.5334582328796387
+      },
+      "encoder": {
+        "g_masked_norm": 0.6563986094748204,
+        "delta_z_norm": 0.23232100903987885,
+        "cos_with_w_hat": -0.4909815490245819
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.8235092684490353,
+        "delta_z_norm": 0.33018621802330017,
+        "cos_with_w_hat": -0.5180342197418213
+      },
+      "all": {
+        "g_masked_norm": 0.8235092684490353,
+        "delta_z_norm": 0.33018621802330017,
+        "cos_with_w_hat": -0.5180342197418213
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "TN",
+    "voxel_idx": 79467,
+    "g_norm_full_model": 0.544022334387558,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.18412163757669434,
+        "delta_z_norm": 0.028187347576022148,
+        "cos_with_w_hat": -0.6649693846702576
+      },
+      "decoder": {
+        "g_masked_norm": 0.19351088677562472,
+        "delta_z_norm": 0.035905033349990845,
+        "cos_with_w_hat": -0.660602867603302
+      },
+      "encoder": {
+        "g_masked_norm": 0.5084425601892502,
+        "delta_z_norm": 0.48244762420654297,
+        "cos_with_w_hat": -0.6642583608627319
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.544022334387558,
+        "delta_z_norm": 0.5160598158836365,
+        "cos_with_w_hat": -0.6652976870536804
+      },
+      "all": {
+        "g_masked_norm": 0.544022334387558,
+        "delta_z_norm": 0.5160598158836365,
+        "cos_with_w_hat": -0.6652976870536804
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "TP",
+    "voxel_idx": 108334,
+    "g_norm_full_model": 0.04358604095832623,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.023883894691028976,
+        "delta_z_norm": 0.004495817702263594,
+        "cos_with_w_hat": 0.3902455270290375
+      },
+      "decoder": {
+        "g_masked_norm": 0.02440581701644106,
+        "delta_z_norm": 0.004744814243167639,
+        "cos_with_w_hat": 0.38874655961990356
+      },
+      "encoder": {
+        "g_masked_norm": 0.03611231178117634,
+        "delta_z_norm": 0.010987824760377407,
+        "cos_with_w_hat": 0.36478036642074585
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.04358604095832623,
+        "delta_z_norm": 0.015258237719535828,
+        "cos_with_w_hat": 0.3743055462837219
+      },
+      "all": {
+        "g_masked_norm": 0.04358604095832623,
+        "delta_z_norm": 0.015258237719535828,
+        "cos_with_w_hat": 0.3743055462837219
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "TP",
+    "voxel_idx": 91626,
+    "g_norm_full_model": 0.498898980416962,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.22397688556624018,
+        "delta_z_norm": 0.07142911851406097,
+        "cos_with_w_hat": 0.4526963531970978
+      },
+      "decoder": {
+        "g_masked_norm": 0.2294221039709502,
+        "delta_z_norm": 0.07412606477737427,
+        "cos_with_w_hat": 0.4539768397808075
+      },
+      "encoder": {
+        "g_masked_norm": 0.443018838053899,
+        "delta_z_norm": 0.24996887147426605,
+        "cos_with_w_hat": 0.4173123836517334
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.498898980416962,
+        "delta_z_norm": 0.3128104507923126,
+        "cos_with_w_hat": 0.43540316820144653
+      },
+      "all": {
+        "g_masked_norm": 0.498898980416962,
+        "delta_z_norm": 0.3128104507923126,
+        "cos_with_w_hat": 0.43540316820144653
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "TP",
+    "voxel_idx": 107367,
+    "g_norm_full_model": 0.361981758622789,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.22184963234222388,
+        "delta_z_norm": 0.03369811177253723,
+        "cos_with_w_hat": 0.3525257110595703
+      },
+      "decoder": {
+        "g_masked_norm": 0.223736503597034,
+        "delta_z_norm": 0.03418238088488579,
+        "cos_with_w_hat": 0.351629376411438
+      },
+      "encoder": {
+        "g_masked_norm": 0.2845571480982712,
+        "delta_z_norm": 0.08416912704706192,
+        "cos_with_w_hat": 0.3186052143573761
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.361981758622789,
+        "delta_z_norm": 0.11757275462150574,
+        "cos_with_w_hat": 0.3300246596336365
+      },
+      "all": {
+        "g_masked_norm": 0.361981758622789,
+        "delta_z_norm": 0.11757275462150574,
+        "cos_with_w_hat": 0.3300246596336365
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "FP",
+    "voxel_idx": 124254,
+    "g_norm_full_model": 11.164165642301883,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.4751962047887557,
+        "delta_z_norm": 0.49035999178886414,
+        "cos_with_w_hat": -0.536363959312439
+      },
+      "decoder": {
+        "g_masked_norm": 3.654188050448544,
+        "delta_z_norm": 0.5136657953262329,
+        "cos_with_w_hat": -0.5358999967575073
+      },
+      "encoder": {
+        "g_masked_norm": 10.549194480182498,
+        "delta_z_norm": 1.7533529996871948,
+        "cos_with_w_hat": -0.6471409797668457
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 11.164165642301883,
+        "delta_z_norm": 2.219125747680664,
+        "cos_with_w_hat": -0.6434264779090881
+      },
+      "all": {
+        "g_masked_norm": 11.164165642301883,
+        "delta_z_norm": 2.219125747680664,
+        "cos_with_w_hat": -0.6434264779090881
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "FP",
+    "voxel_idx": 355055,
+    "g_norm_full_model": 3.4906286755721,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 1.8105834108318961,
+        "delta_z_norm": 0.358704149723053,
+        "cos_with_w_hat": -0.32834917306900024
+      },
+      "decoder": {
+        "g_masked_norm": 1.8372280634699785,
+        "delta_z_norm": 0.36503493785858154,
+        "cos_with_w_hat": -0.3278425931930542
+      },
+      "encoder": {
+        "g_masked_norm": 2.9680097023973127,
+        "delta_z_norm": 1.6864314079284668,
+        "cos_with_w_hat": -0.5089605450630188
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 3.4906286755721,
+        "delta_z_norm": 1.9729262590408325,
+        "cos_with_w_hat": -0.49217796325683594
+      },
+      "all": {
+        "g_masked_norm": 3.4906286755721,
+        "delta_z_norm": 1.9729262590408325,
+        "cos_with_w_hat": -0.49217796325683594
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "FP",
+    "voxel_idx": 383514,
+    "g_norm_full_model": 5.837167320808006,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.8138788844438256,
+        "delta_z_norm": 1.109312891960144,
+        "cos_with_w_hat": -0.3562144637107849
+      },
+      "decoder": {
+        "g_masked_norm": 3.854413892349952,
+        "delta_z_norm": 1.1253982782363892,
+        "cos_with_w_hat": -0.35578489303588867
+      },
+      "encoder": {
+        "g_masked_norm": 4.383607632711738,
+        "delta_z_norm": 1.32157301902771,
+        "cos_with_w_hat": -0.33057457208633423
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 5.837167320808006,
+        "delta_z_norm": 2.2922208309173584,
+        "cos_with_w_hat": -0.3399232029914856
+      },
+      "all": {
+        "g_masked_norm": 5.837167320808006,
+        "delta_z_norm": 2.2922208309173584,
+        "cos_with_w_hat": -0.3399232029914856
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "FN",
+    "voxel_idx": 120500,
+    "g_norm_full_model": 47.70573582689084,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 12.884681418477523,
+        "delta_z_norm": 1.9239450693130493,
+        "cos_with_w_hat": 0.6914700269699097
+      },
+      "decoder": {
+        "g_masked_norm": 13.592095064888015,
+        "delta_z_norm": 2.020435094833374,
+        "cos_with_w_hat": 0.6850873231887817
+      },
+      "encoder": {
+        "g_masked_norm": 45.728461405695064,
+        "delta_z_norm": 14.260204315185547,
+        "cos_with_w_hat": 0.35975345969200134
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 47.70573582689084,
+        "delta_z_norm": 14.174882888793945,
+        "cos_with_w_hat": 0.3698290288448334
+      },
+      "all": {
+        "g_masked_norm": 47.70573582689084,
+        "delta_z_norm": 14.174882888793945,
+        "cos_with_w_hat": 0.3698290288448334
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "FN",
+    "voxel_idx": 112678,
+    "g_norm_full_model": 32.503410087114624,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 21.248584978590607,
+        "delta_z_norm": 2.718310832977295,
+        "cos_with_w_hat": 0.5433821678161621
+      },
+      "decoder": {
+        "g_masked_norm": 21.504895561931363,
+        "delta_z_norm": 2.8050923347473145,
+        "cos_with_w_hat": 0.5398909449577332
+      },
+      "encoder": {
+        "g_masked_norm": 24.37234363292889,
+        "delta_z_norm": 4.962340831756592,
+        "cos_with_w_hat": 0.43739616870880127
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 32.503410087114624,
+        "delta_z_norm": 6.404290199279785,
+        "cos_with_w_hat": 0.4232960343360901
+      },
+      "all": {
+        "g_masked_norm": 32.503410087114624,
+        "delta_z_norm": 6.404290199279785,
+        "cos_with_w_hat": 0.4232960343360901
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "category": "FN",
+    "voxel_idx": 103338,
+    "g_norm_full_model": 50.709333603362445,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 25.832254794157407,
+        "delta_z_norm": 3.1745870113372803,
+        "cos_with_w_hat": 0.4695248603820801
+      },
+      "decoder": {
+        "g_masked_norm": 26.305575459887844,
+        "delta_z_norm": 3.341540575027466,
+        "cos_with_w_hat": 0.46287333965301514
+      },
+      "encoder": {
+        "g_masked_norm": 43.35266098201183,
+        "delta_z_norm": 11.419893264770508,
+        "cos_with_w_hat": 0.3646528124809265
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 50.709333603362445,
+        "delta_z_norm": 13.151876449584961,
+        "cos_with_w_hat": 0.34437063336372375
+      },
+      "all": {
+        "g_masked_norm": 50.709333603362445,
+        "delta_z_norm": 13.151876449584961,
+        "cos_with_w_hat": 0.34437063336372375
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "TN",
+    "voxel_idx": 395246,
+    "g_norm_full_model": 3.4005724978037564,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.9595494864426595,
+        "delta_z_norm": 0.2535244822502136,
+        "cos_with_w_hat": -0.6708329319953918
+      },
+      "decoder": {
+        "g_masked_norm": 1.0835121799985448,
+        "delta_z_norm": 0.30245617032051086,
+        "cos_with_w_hat": -0.6645126342773438
+      },
+      "encoder": {
+        "g_masked_norm": 3.2233359534206296,
+        "delta_z_norm": 1.511974811553955,
+        "cos_with_w_hat": -0.608686089515686
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 3.4005724978037564,
+        "delta_z_norm": 1.7887277603149414,
+        "cos_with_w_hat": -0.6200924515724182
+      },
+      "all": {
+        "g_masked_norm": 3.4005724978037564,
+        "delta_z_norm": 1.7887277603149414,
+        "cos_with_w_hat": -0.6200924515724182
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "TN",
+    "voxel_idx": 403228,
+    "g_norm_full_model": 2.840461895351292,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.5082792994069815,
+        "delta_z_norm": 0.10588667541742325,
+        "cos_with_w_hat": -0.6744656562805176
+      },
+      "decoder": {
+        "g_masked_norm": 0.6365891151773484,
+        "delta_z_norm": 0.19643816351890564,
+        "cos_with_w_hat": -0.6533994674682617
+      },
+      "encoder": {
+        "g_masked_norm": 2.7682084598852694,
+        "delta_z_norm": 2.9301211833953857,
+        "cos_with_w_hat": -0.6329852342605591
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 2.840461895351292,
+        "delta_z_norm": 3.0182790756225586,
+        "cos_with_w_hat": -0.6344423294067383
+      },
+      "all": {
+        "g_masked_norm": 2.840461895351292,
+        "delta_z_norm": 3.0182790756225586,
+        "cos_with_w_hat": -0.6344423294067383
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "TN",
+    "voxel_idx": 354279,
+    "g_norm_full_model": 0.7926884571331878,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.3184948965219722,
+        "delta_z_norm": 0.08822491765022278,
+        "cos_with_w_hat": -0.6690473556518555
+      },
+      "decoder": {
+        "g_masked_norm": 0.364474178962961,
+        "delta_z_norm": 0.10446767508983612,
+        "cos_with_w_hat": -0.6693843603134155
+      },
+      "encoder": {
+        "g_masked_norm": 0.7039272426476113,
+        "delta_z_norm": 0.2369447648525238,
+        "cos_with_w_hat": -0.6566764116287231
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.7926884571331878,
+        "delta_z_norm": 0.3374095559120178,
+        "cos_with_w_hat": -0.661639392375946
+      },
+      "all": {
+        "g_masked_norm": 0.7926884571331878,
+        "delta_z_norm": 0.3374095559120178,
+        "cos_with_w_hat": -0.661639392375946
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "TP",
+    "voxel_idx": 354081,
+    "g_norm_full_model": 0.2211581740290678,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.10812641688589501,
+        "delta_z_norm": 0.03881701081991196,
+        "cos_with_w_hat": 0.34037286043167114
+      },
+      "decoder": {
+        "g_masked_norm": 0.11136290400480145,
+        "delta_z_norm": 0.0404774509370327,
+        "cos_with_w_hat": 0.33883869647979736
+      },
+      "encoder": {
+        "g_masked_norm": 0.1910739164603291,
+        "delta_z_norm": 0.09190085530281067,
+        "cos_with_w_hat": 0.33245956897735596
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.2211581740290678,
+        "delta_z_norm": 0.1329847127199173,
+        "cos_with_w_hat": 0.3382853865623474
+      },
+      "all": {
+        "g_masked_norm": 0.2211581740290678,
+        "delta_z_norm": 0.1329847127199173,
+        "cos_with_w_hat": 0.3382853865623474
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "TP",
+    "voxel_idx": 377898,
+    "g_norm_full_model": 0.259522658831511,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.08073074223986496,
+        "delta_z_norm": 0.025625217705965042,
+        "cos_with_w_hat": 0.35764777660369873
+      },
+      "decoder": {
+        "g_masked_norm": 0.08436435404491133,
+        "delta_z_norm": 0.025972796604037285,
+        "cos_with_w_hat": 0.35699158906936646
+      },
+      "encoder": {
+        "g_masked_norm": 0.24542751722975503,
+        "delta_z_norm": 0.12990020215511322,
+        "cos_with_w_hat": 0.2955845296382904
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.259522658831511,
+        "delta_z_norm": 0.15610811114311218,
+        "cos_with_w_hat": 0.307219922542572
+      },
+      "all": {
+        "g_masked_norm": 0.259522658831511,
+        "delta_z_norm": 0.15610811114311218,
+        "cos_with_w_hat": 0.307219922542572
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "TP",
+    "voxel_idx": 357677,
+    "g_norm_full_model": 0.4327693088842577,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.16736203778917466,
+        "delta_z_norm": 0.04504010081291199,
+        "cos_with_w_hat": 0.43988949060440063
+      },
+      "decoder": {
+        "g_masked_norm": 0.17357893161646526,
+        "delta_z_norm": 0.04750881716609001,
+        "cos_with_w_hat": 0.439003050327301
+      },
+      "encoder": {
+        "g_masked_norm": 0.3964336378399852,
+        "delta_z_norm": 0.23380053043365479,
+        "cos_with_w_hat": 0.37269127368927
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.4327693088842577,
+        "delta_z_norm": 0.2778851091861725,
+        "cos_with_w_hat": 0.38845890760421753
+      },
+      "all": {
+        "g_masked_norm": 0.4327693088842577,
+        "delta_z_norm": 0.2778851091861725,
+        "cos_with_w_hat": 0.38845890760421753
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "FP",
+    "voxel_idx": 362605,
+    "g_norm_full_model": 6.450591216505577,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.409281062651656,
+        "delta_z_norm": 0.6042636036872864,
+        "cos_with_w_hat": -0.43391504883766174
+      },
+      "decoder": {
+        "g_masked_norm": 3.6374653723227883,
+        "delta_z_norm": 0.6401650905609131,
+        "cos_with_w_hat": -0.42947515845298767
+      },
+      "encoder": {
+        "g_masked_norm": 5.327191821927529,
+        "delta_z_norm": 1.3011311292648315,
+        "cos_with_w_hat": -0.5041738748550415
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 6.450591216505577,
+        "delta_z_norm": 1.8515955209732056,
+        "cos_with_w_hat": -0.4700510799884796
+      },
+      "all": {
+        "g_masked_norm": 6.450591216505577,
+        "delta_z_norm": 1.8515955209732056,
+        "cos_with_w_hat": -0.4700510799884796
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "FP",
+    "voxel_idx": 399721,
+    "g_norm_full_model": 11.447709515275239,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 2.8144998782303077,
+        "delta_z_norm": 0.34967976808547974,
+        "cos_with_w_hat": -0.4191579222679138
+      },
+      "decoder": {
+        "g_masked_norm": 3.4039863886422554,
+        "delta_z_norm": 0.5878258347511292,
+        "cos_with_w_hat": -0.39961275458335876
+      },
+      "encoder": {
+        "g_masked_norm": 10.929909872092336,
+        "delta_z_norm": 6.44058084487915,
+        "cos_with_w_hat": -0.6861228346824646
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 11.447709515275239,
+        "delta_z_norm": 6.454742908477783,
+        "cos_with_w_hat": -0.6895599365234375
+      },
+      "all": {
+        "g_masked_norm": 11.447709515275239,
+        "delta_z_norm": 6.454742908477783,
+        "cos_with_w_hat": -0.6895599365234375
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "FP",
+    "voxel_idx": 174559,
+    "g_norm_full_model": 10.751835168709496,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 6.345132829870722,
+        "delta_z_norm": 3.202880620956421,
+        "cos_with_w_hat": -0.4081897735595703
+      },
+      "decoder": {
+        "g_masked_norm": 6.517598403484185,
+        "delta_z_norm": 3.373286247253418,
+        "cos_with_w_hat": -0.40074053406715393
+      },
+      "encoder": {
+        "g_masked_norm": 8.55119117702316,
+        "delta_z_norm": 4.374074935913086,
+        "cos_with_w_hat": -0.29537826776504517
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 10.751835168709496,
+        "delta_z_norm": 7.0751729011535645,
+        "cos_with_w_hat": -0.3493207097053528
+      },
+      "all": {
+        "g_masked_norm": 10.751835168709496,
+        "delta_z_norm": 7.0751729011535645,
+        "cos_with_w_hat": -0.3493207097053528
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "FN",
+    "voxel_idx": 382184,
+    "g_norm_full_model": 32.72533165156926,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 11.700036620208598,
+        "delta_z_norm": 3.0213520526885986,
+        "cos_with_w_hat": 0.41491180658340454
+      },
+      "decoder": {
+        "g_masked_norm": 17.0036502808506,
+        "delta_z_norm": 5.8024001121521,
+        "cos_with_w_hat": 0.337293416261673
+      },
+      "encoder": {
+        "g_masked_norm": 27.961101709906394,
+        "delta_z_norm": 9.233766555786133,
+        "cos_with_w_hat": 0.3651990294456482
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 32.72533165156926,
+        "delta_z_norm": 11.338827133178711,
+        "cos_with_w_hat": 0.3523623049259186
+      },
+      "all": {
+        "g_masked_norm": 32.72533165156926,
+        "delta_z_norm": 11.338827133178711,
+        "cos_with_w_hat": 0.3523623049259186
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "FN",
+    "voxel_idx": 378143,
+    "g_norm_full_model": 25.86447362355051,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 9.316011387876314,
+        "delta_z_norm": 1.6140135526657104,
+        "cos_with_w_hat": 0.4650375545024872
+      },
+      "decoder": {
+        "g_masked_norm": 10.483443248012378,
+        "delta_z_norm": 1.9155349731445312,
+        "cos_with_w_hat": 0.4477819502353668
+      },
+      "encoder": {
+        "g_masked_norm": 23.644627581948583,
+        "delta_z_norm": 11.696311950683594,
+        "cos_with_w_hat": 0.3237367272377014
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 25.86447362355051,
+        "delta_z_norm": 12.76240062713623,
+        "cos_with_w_hat": 0.31212836503982544
+      },
+      "all": {
+        "g_masked_norm": 25.86447362355051,
+        "delta_z_norm": 12.76240062713623,
+        "cos_with_w_hat": 0.31212836503982544
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "category": "FN",
+    "voxel_idx": 337964,
+    "g_norm_full_model": 19.109594042424302,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 7.52267260558836,
+        "delta_z_norm": 2.3683359622955322,
+        "cos_with_w_hat": 0.594710111618042
+      },
+      "decoder": {
+        "g_masked_norm": 7.754422870499192,
+        "delta_z_norm": 2.4747228622436523,
+        "cos_with_w_hat": 0.5877833366394043
+      },
+      "encoder": {
+        "g_masked_norm": 17.465552107269254,
+        "delta_z_norm": 5.328821182250977,
+        "cos_with_w_hat": 0.49475914239883423
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 19.109594042424302,
+        "delta_z_norm": 6.50747537612915,
+        "cos_with_w_hat": 0.46941474080085754
+      },
+      "all": {
+        "g_masked_norm": 19.109594042424302,
+        "delta_z_norm": 6.50747537612915,
+        "cos_with_w_hat": 0.46941474080085754
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "TN",
+    "voxel_idx": 406750,
+    "g_norm_full_model": 15.237777210997173,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 2.1779824380427204,
+        "delta_z_norm": 0.6988186836242676,
+        "cos_with_w_hat": -0.4242326021194458
+      },
+      "decoder": {
+        "g_masked_norm": 2.6938413648281325,
+        "delta_z_norm": 1.0259406566619873,
+        "cos_with_w_hat": -0.5234777927398682
+      },
+      "encoder": {
+        "g_masked_norm": 14.997768935182517,
+        "delta_z_norm": 5.762078762054443,
+        "cos_with_w_hat": -0.6306771039962769
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 15.237777210997173,
+        "delta_z_norm": 5.744808197021484,
+        "cos_with_w_hat": -0.6348952651023865
+      },
+      "all": {
+        "g_masked_norm": 15.237777210997173,
+        "delta_z_norm": 5.744808197021484,
+        "cos_with_w_hat": -0.6348952651023865
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "TN",
+    "voxel_idx": 424114,
+    "g_norm_full_model": 3.7839265816152974,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.7903649154231523,
+        "delta_z_norm": 0.2528832256793976,
+        "cos_with_w_hat": -0.5776609182357788
+      },
+      "decoder": {
+        "g_masked_norm": 0.983803415491752,
+        "delta_z_norm": 0.3408190608024597,
+        "cos_with_w_hat": -0.6112213134765625
+      },
+      "encoder": {
+        "g_masked_norm": 3.653796821762479,
+        "delta_z_norm": 4.55826997756958,
+        "cos_with_w_hat": -0.6815580129623413
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 3.7839265816152974,
+        "delta_z_norm": 4.756977081298828,
+        "cos_with_w_hat": -0.6816307306289673
+      },
+      "all": {
+        "g_masked_norm": 3.7839265816152974,
+        "delta_z_norm": 4.756977081298828,
+        "cos_with_w_hat": -0.6816307306289673
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "TN",
+    "voxel_idx": 96142,
+    "g_norm_full_model": 0.0842631307161748,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.021430597660975628,
+        "delta_z_norm": 0.003929730039089918,
+        "cos_with_w_hat": -0.7419106960296631
+      },
+      "decoder": {
+        "g_masked_norm": 0.025331909180691413,
+        "delta_z_norm": 0.007766094524413347,
+        "cos_with_w_hat": -0.7242968082427979
+      },
+      "encoder": {
+        "g_masked_norm": 0.08036522615753883,
+        "delta_z_norm": 0.15139445662498474,
+        "cos_with_w_hat": -0.7000160217285156
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.0842631307161748,
+        "delta_z_norm": 0.15958251059055328,
+        "cos_with_w_hat": -0.7014696598052979
+      },
+      "all": {
+        "g_masked_norm": 0.0842631307161748,
+        "delta_z_norm": 0.15958251059055328,
+        "cos_with_w_hat": -0.7014696598052979
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "TP",
+    "voxel_idx": 100824,
+    "g_norm_full_model": 0.14190013642160465,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.07535175358889652,
+        "delta_z_norm": 0.026827208697795868,
+        "cos_with_w_hat": 0.36686083674430847
+      },
+      "decoder": {
+        "g_masked_norm": 0.07915532050713792,
+        "delta_z_norm": 0.031045328825712204,
+        "cos_with_w_hat": 0.361983060836792
+      },
+      "encoder": {
+        "g_masked_norm": 0.11777132058307863,
+        "delta_z_norm": 0.060516517609357834,
+        "cos_with_w_hat": 0.2713392376899719
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.14190013642160465,
+        "delta_z_norm": 0.08929096162319183,
+        "cos_with_w_hat": 0.30330801010131836
+      },
+      "all": {
+        "g_masked_norm": 0.14190013642160465,
+        "delta_z_norm": 0.08929096162319183,
+        "cos_with_w_hat": 0.30330801010131836
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "TP",
+    "voxel_idx": 108372,
+    "g_norm_full_model": 0.0900348858483646,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.042074637158769225,
+        "delta_z_norm": 0.012465273030102253,
+        "cos_with_w_hat": 0.359323114156723
+      },
+      "decoder": {
+        "g_masked_norm": 0.04443685038040009,
+        "delta_z_norm": 0.013243896886706352,
+        "cos_with_w_hat": 0.3567121624946594
+      },
+      "encoder": {
+        "g_masked_norm": 0.07830483380991227,
+        "delta_z_norm": 0.05045181140303612,
+        "cos_with_w_hat": 0.2930384874343872
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.0900348858483646,
+        "delta_z_norm": 0.06349925696849823,
+        "cos_with_w_hat": 0.30931660532951355
+      },
+      "all": {
+        "g_masked_norm": 0.0900348858483646,
+        "delta_z_norm": 0.06349925696849823,
+        "cos_with_w_hat": 0.30931660532951355
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "TP",
+    "voxel_idx": 394852,
+    "g_norm_full_model": 0.8424369558491455,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.32741920104502875,
+        "delta_z_norm": 0.12861701846122742,
+        "cos_with_w_hat": 0.2880750000476837
+      },
+      "decoder": {
+        "g_masked_norm": 0.3490776699227503,
+        "delta_z_norm": 0.1457306444644928,
+        "cos_with_w_hat": 0.28646883368492126
+      },
+      "encoder": {
+        "g_masked_norm": 0.766710378788287,
+        "delta_z_norm": 0.7740604281425476,
+        "cos_with_w_hat": 0.27700117230415344
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.8424369558491455,
+        "delta_z_norm": 0.9209545850753784,
+        "cos_with_w_hat": 0.27799588441848755
+      },
+      "all": {
+        "g_masked_norm": 0.8424369558491455,
+        "delta_z_norm": 0.9209545850753784,
+        "cos_with_w_hat": 0.27799588441848755
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "FP",
+    "voxel_idx": 92504,
+    "g_norm_full_model": 3.680732267788774,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 2.0323049786450516,
+        "delta_z_norm": 0.6762378811836243,
+        "cos_with_w_hat": -0.35801970958709717
+      },
+      "decoder": {
+        "g_masked_norm": 2.0991909505326856,
+        "delta_z_norm": 0.7488695383071899,
+        "cos_with_w_hat": -0.3498342037200928
+      },
+      "encoder": {
+        "g_masked_norm": 3.0234396604435774,
+        "delta_z_norm": 1.0988177061080933,
+        "cos_with_w_hat": -0.32242152094841003
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 3.680732267788774,
+        "delta_z_norm": 1.7784944772720337,
+        "cos_with_w_hat": -0.33353108167648315
+      },
+      "all": {
+        "g_masked_norm": 3.680732267788774,
+        "delta_z_norm": 1.7784944772720337,
+        "cos_with_w_hat": -0.33353108167648315
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "FP",
+    "voxel_idx": 422946,
+    "g_norm_full_model": 8.925729325015466,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 1.7823440096071963,
+        "delta_z_norm": 0.596216082572937,
+        "cos_with_w_hat": -0.49037930369377136
+      },
+      "decoder": {
+        "g_masked_norm": 2.0918192832226037,
+        "delta_z_norm": 0.7495996952056885,
+        "cos_with_w_hat": -0.5324093103408813
+      },
+      "encoder": {
+        "g_masked_norm": 8.677150227452508,
+        "delta_z_norm": 7.319070816040039,
+        "cos_with_w_hat": -0.6804665923118591
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 8.925729325015466,
+        "delta_z_norm": 7.384218215942383,
+        "cos_with_w_hat": -0.6805993318557739
+      },
+      "all": {
+        "g_masked_norm": 8.925729325015466,
+        "delta_z_norm": 7.384218215942383,
+        "cos_with_w_hat": -0.6805993318557739
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "FP",
+    "voxel_idx": 436074,
+    "g_norm_full_model": 5.877397367515742,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 2.4751900273566667,
+        "delta_z_norm": 0.793010413646698,
+        "cos_with_w_hat": -0.41605979204177856
+      },
+      "decoder": {
+        "g_masked_norm": 2.5641795193657213,
+        "delta_z_norm": 0.8634498119354248,
+        "cos_with_w_hat": -0.412672221660614
+      },
+      "encoder": {
+        "g_masked_norm": 5.28855208995301,
+        "delta_z_norm": 3.591782331466675,
+        "cos_with_w_hat": -0.619552493095398
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 5.877397367515742,
+        "delta_z_norm": 4.145781517028809,
+        "cos_with_w_hat": -0.6054508090019226
+      },
+      "all": {
+        "g_masked_norm": 5.877397367515742,
+        "delta_z_norm": 4.145781517028809,
+        "cos_with_w_hat": -0.6054508090019226
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "FN",
+    "voxel_idx": 427565,
+    "g_norm_full_model": 65.42823707412677,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 22.59395103378343,
+        "delta_z_norm": 6.896982669830322,
+        "cos_with_w_hat": 0.3073183000087738
+      },
+      "decoder": {
+        "g_masked_norm": 24.60301050664874,
+        "delta_z_norm": 8.22603988647461,
+        "cos_with_w_hat": 0.3010571599006653
+      },
+      "encoder": {
+        "g_masked_norm": 60.62628209479671,
+        "delta_z_norm": 1.6273618936538696,
+        "cos_with_w_hat": 0.4333127737045288
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 65.42823707412677,
+        "delta_z_norm": 8.713773727416992,
+        "cos_with_w_hat": 0.269364595413208
+      },
+      "all": {
+        "g_masked_norm": 65.42823707412677,
+        "delta_z_norm": 8.713773727416992,
+        "cos_with_w_hat": 0.269364595413208
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "FN",
+    "voxel_idx": 112594,
+    "g_norm_full_model": 7.04490129298005,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.776266377698858,
+        "delta_z_norm": 1.1885390281677246,
+        "cos_with_w_hat": 0.6527134776115417
+      },
+      "decoder": {
+        "g_masked_norm": 3.9081030637092344,
+        "delta_z_norm": 1.256983995437622,
+        "cos_with_w_hat": 0.654085636138916
+      },
+      "encoder": {
+        "g_masked_norm": 5.8615155609499565,
+        "delta_z_norm": 2.7312018871307373,
+        "cos_with_w_hat": 0.6328338980674744
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 7.04490129298005,
+        "delta_z_norm": 3.618283271789551,
+        "cos_with_w_hat": 0.6095237135887146
+      },
+      "all": {
+        "g_masked_norm": 7.04490129298005,
+        "delta_z_norm": 3.618283271789551,
+        "cos_with_w_hat": 0.6095237135887146
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "category": "FN",
+    "voxel_idx": 399287,
+    "g_norm_full_model": 17.22988124621888,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 11.114257682952465,
+        "delta_z_norm": 1.6701315641403198,
+        "cos_with_w_hat": 0.5156534910202026
+      },
+      "decoder": {
+        "g_masked_norm": 11.248355428517,
+        "delta_z_norm": 1.6715161800384521,
+        "cos_with_w_hat": 0.5109249353408813
+      },
+      "encoder": {
+        "g_masked_norm": 13.051563427902316,
+        "delta_z_norm": 6.239792823791504,
+        "cos_with_w_hat": 0.38867729902267456
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 17.22988124621888,
+        "delta_z_norm": 6.228220462799072,
+        "cos_with_w_hat": 0.3493962287902832
+      },
+      "all": {
+        "g_masked_norm": 17.22988124621888,
+        "delta_z_norm": 6.228220462799072,
+        "cos_with_w_hat": 0.3493962287902832
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "TN",
+    "voxel_idx": 338473,
+    "g_norm_full_model": 1.3886353916167868,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.5679106241337508,
+        "delta_z_norm": 0.10529635846614838,
+        "cos_with_w_hat": -0.5393968820571899
+      },
+      "decoder": {
+        "g_masked_norm": 0.6084543262889213,
+        "delta_z_norm": 0.13107062876224518,
+        "cos_with_w_hat": -0.5379557609558105
+      },
+      "encoder": {
+        "g_masked_norm": 1.2482353879260921,
+        "delta_z_norm": 0.7479720711708069,
+        "cos_with_w_hat": -0.5649174451828003
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 1.3886353916167868,
+        "delta_z_norm": 0.8625229001045227,
+        "cos_with_w_hat": -0.5757170915603638
+      },
+      "all": {
+        "g_masked_norm": 1.3886353916167868,
+        "delta_z_norm": 0.8625229001045227,
+        "cos_with_w_hat": -0.5757170915603638
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "TN",
+    "voxel_idx": 100949,
+    "g_norm_full_model": 2.261389401220516,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.8934517664850965,
+        "delta_z_norm": 0.2620652914047241,
+        "cos_with_w_hat": -0.5413703918457031
+      },
+      "decoder": {
+        "g_masked_norm": 1.0301914297452497,
+        "delta_z_norm": 0.36677291989326477,
+        "cos_with_w_hat": -0.5363399982452393
+      },
+      "encoder": {
+        "g_masked_norm": 2.0131039819224243,
+        "delta_z_norm": 0.6224238872528076,
+        "cos_with_w_hat": -0.5707049369812012
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 2.261389401220516,
+        "delta_z_norm": 0.9841392040252686,
+        "cos_with_w_hat": -0.5938776731491089
+      },
+      "all": {
+        "g_masked_norm": 2.261389401220516,
+        "delta_z_norm": 0.9841392040252686,
+        "cos_with_w_hat": -0.5938776731491089
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "TN",
+    "voxel_idx": 343078,
+    "g_norm_full_model": 2.1531646038485244,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.6975544293017266,
+        "delta_z_norm": 0.15352317690849304,
+        "cos_with_w_hat": -0.5896313786506653
+      },
+      "decoder": {
+        "g_masked_norm": 0.7271369732234462,
+        "delta_z_norm": 0.17052793502807617,
+        "cos_with_w_hat": -0.5907816886901855
+      },
+      "encoder": {
+        "g_masked_norm": 2.0266695915806348,
+        "delta_z_norm": 2.469679355621338,
+        "cos_with_w_hat": -0.6626313924789429
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 2.1531646038485244,
+        "delta_z_norm": 2.5985076427459717,
+        "cos_with_w_hat": -0.6645185947418213
+      },
+      "all": {
+        "g_masked_norm": 2.1531646038485244,
+        "delta_z_norm": 2.5985076427459717,
+        "cos_with_w_hat": -0.6645185947418213
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "TP",
+    "voxel_idx": 362391,
+    "g_norm_full_model": 0.23351381930132467,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.13864455817108048,
+        "delta_z_norm": 0.012426314875483513,
+        "cos_with_w_hat": 0.41970494389533997
+      },
+      "decoder": {
+        "g_masked_norm": 0.14236465656006247,
+        "delta_z_norm": 0.01328163594007492,
+        "cos_with_w_hat": 0.4138352870941162
+      },
+      "encoder": {
+        "g_masked_norm": 0.18509729432713803,
+        "delta_z_norm": 0.05217020958662033,
+        "cos_with_w_hat": 0.35519418120384216
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.23351381930132467,
+        "delta_z_norm": 0.06526537984609604,
+        "cos_with_w_hat": 0.3705177307128906
+      },
+      "all": {
+        "g_masked_norm": 0.23351381930132467,
+        "delta_z_norm": 0.06526537984609604,
+        "cos_with_w_hat": 0.3705177307128906
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "TP",
+    "voxel_idx": 329747,
+    "g_norm_full_model": 0.19912555793663753,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.07805664298915063,
+        "delta_z_norm": 0.010525893419981003,
+        "cos_with_w_hat": 0.45183226466178894
+      },
+      "decoder": {
+        "g_masked_norm": 0.08087439599202016,
+        "delta_z_norm": 0.012526034377515316,
+        "cos_with_w_hat": 0.44372665882110596
+      },
+      "encoder": {
+        "g_masked_norm": 0.18196241341690075,
+        "delta_z_norm": 0.1154872253537178,
+        "cos_with_w_hat": 0.3734795153141022
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.19912555793663753,
+        "delta_z_norm": 0.12724481523036957,
+        "cos_with_w_hat": 0.3817494511604309
+      },
+      "all": {
+        "g_masked_norm": 0.19912555793663753,
+        "delta_z_norm": 0.12724481523036957,
+        "cos_with_w_hat": 0.3817494511604309
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "TP",
+    "voxel_idx": 88281,
+    "g_norm_full_model": 0.5208851927778326,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 0.219726848428262,
+        "delta_z_norm": 0.039955925196409225,
+        "cos_with_w_hat": 0.28876984119415283
+      },
+      "decoder": {
+        "g_masked_norm": 0.225289759832688,
+        "delta_z_norm": 0.04267679899930954,
+        "cos_with_w_hat": 0.29050493240356445
+      },
+      "encoder": {
+        "g_masked_norm": 0.46964444867338695,
+        "delta_z_norm": 0.28356513381004333,
+        "cos_with_w_hat": 0.3361682593822479
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 0.5208851927778326,
+        "delta_z_norm": 0.3244113326072693,
+        "cos_with_w_hat": 0.3314964473247528
+      },
+      "all": {
+        "g_masked_norm": 0.5208851927778326,
+        "delta_z_norm": 0.3244113326072693,
+        "cos_with_w_hat": 0.3314964473247528
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "FP",
+    "voxel_idx": 371678,
+    "g_norm_full_model": 5.1156313332594125,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 2.8486445615177627,
+        "delta_z_norm": 0.25768429040908813,
+        "cos_with_w_hat": -0.45597729086875916
+      },
+      "decoder": {
+        "g_masked_norm": 2.92263596565542,
+        "delta_z_norm": 0.26870983839035034,
+        "cos_with_w_hat": -0.4532509446144104
+      },
+      "encoder": {
+        "g_masked_norm": 4.198557246255299,
+        "delta_z_norm": 1.8837815523147583,
+        "cos_with_w_hat": -0.6798388361930847
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 5.1156313332594125,
+        "delta_z_norm": 1.9144660234451294,
+        "cos_with_w_hat": -0.6657137870788574
+      },
+      "all": {
+        "g_masked_norm": 5.1156313332594125,
+        "delta_z_norm": 1.9144660234451294,
+        "cos_with_w_hat": -0.6657137870788574
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "FP",
+    "voxel_idx": 343005,
+    "g_norm_full_model": 3.384880210855651,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 1.3097217655089195,
+        "delta_z_norm": 0.1845884919166565,
+        "cos_with_w_hat": -0.5455825328826904
+      },
+      "decoder": {
+        "g_masked_norm": 1.5621799517295702,
+        "delta_z_norm": 0.36869803071022034,
+        "cos_with_w_hat": -0.5430068969726562
+      },
+      "encoder": {
+        "g_masked_norm": 3.002833302109259,
+        "delta_z_norm": 1.8889492750167847,
+        "cos_with_w_hat": -0.6292476058006287
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 3.384880210855651,
+        "delta_z_norm": 2.1748416423797607,
+        "cos_with_w_hat": -0.6356679201126099
+      },
+      "all": {
+        "g_masked_norm": 3.384880210855651,
+        "delta_z_norm": 2.1748416423797607,
+        "cos_with_w_hat": -0.6356679201126099
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "FP",
+    "voxel_idx": 363292,
+    "g_norm_full_model": 9.002269822593775,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 3.865352199690051,
+        "delta_z_norm": 0.4461870789527893,
+        "cos_with_w_hat": -0.46434736251831055
+      },
+      "decoder": {
+        "g_masked_norm": 4.074472340483711,
+        "delta_z_norm": 0.5062161684036255,
+        "cos_with_w_hat": -0.45456600189208984
+      },
+      "encoder": {
+        "g_masked_norm": 8.027424064132637,
+        "delta_z_norm": 1.6548922061920166,
+        "cos_with_w_hat": -0.4115365743637085
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 9.002269822593775,
+        "delta_z_norm": 1.9272304773330688,
+        "cos_with_w_hat": -0.4050748348236084
+      },
+      "all": {
+        "g_masked_norm": 9.002269822593775,
+        "delta_z_norm": 1.9272304773330688,
+        "cos_with_w_hat": -0.4050748348236084
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "FN",
+    "voxel_idx": 84121,
+    "g_norm_full_model": 34.60211256038905,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 17.384484624536316,
+        "delta_z_norm": 2.6495707035064697,
+        "cos_with_w_hat": 0.4832459092140198
+      },
+      "decoder": {
+        "g_masked_norm": 18.048222150870036,
+        "delta_z_norm": 2.7675650119781494,
+        "cos_with_w_hat": 0.4791083335876465
+      },
+      "encoder": {
+        "g_masked_norm": 29.52232834372449,
+        "delta_z_norm": 6.877202033996582,
+        "cos_with_w_hat": 0.3598167300224304
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 34.60211256038905,
+        "delta_z_norm": 8.472500801086426,
+        "cos_with_w_hat": 0.3523726463317871
+      },
+      "all": {
+        "g_masked_norm": 34.60211256038905,
+        "delta_z_norm": 8.472500801086426,
+        "cos_with_w_hat": 0.3523726463317871
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "FN",
+    "voxel_idx": 347217,
+    "g_norm_full_model": 39.30890425155501,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 16.743621811849074,
+        "delta_z_norm": 3.8504269123077393,
+        "cos_with_w_hat": 0.41127580404281616
+      },
+      "decoder": {
+        "g_masked_norm": 17.478796883003795,
+        "delta_z_norm": 4.039200782775879,
+        "cos_with_w_hat": 0.4068771004676819
+      },
+      "encoder": {
+        "g_masked_norm": 35.20911264119868,
+        "delta_z_norm": 7.524465560913086,
+        "cos_with_w_hat": 0.2921595871448517
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 39.30890425155501,
+        "delta_z_norm": 8.74414348602295,
+        "cos_with_w_hat": 0.2546248137950897
+      },
+      "all": {
+        "g_masked_norm": 39.30890425155501,
+        "delta_z_norm": 8.74414348602295,
+        "cos_with_w_hat": 0.2546248137950897
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "category": "FN",
+    "voxel_idx": 117742,
+    "g_norm_full_model": 35.46687455070104,
+    "pathways": {
+      "dec1_only": {
+        "g_masked_norm": 21.739278512033813,
+        "delta_z_norm": 4.290524005889893,
+        "cos_with_w_hat": 0.48326510190963745
+      },
+      "decoder": {
+        "g_masked_norm": 22.346876043797682,
+        "delta_z_norm": 4.575347900390625,
+        "cos_with_w_hat": 0.47305193543434143
+      },
+      "encoder": {
+        "g_masked_norm": 27.54117501992801,
+        "delta_z_norm": 7.46693229675293,
+        "cos_with_w_hat": 0.32523685693740845
+      },
+      "encoder_and_decoder": {
+        "g_masked_norm": 35.46687455070104,
+        "delta_z_norm": 10.958093643188477,
+        "cos_with_w_hat": 0.3176409602165222
+      },
+      "all": {
+        "g_masked_norm": 35.46687455070104,
+        "delta_z_norm": 10.958093643188477,
+        "cos_with_w_hat": 0.3176409602165222
+      },
+      "seg_head_only_NULL_CONTROL": {
+        "g_masked_norm": 0.0,
+        "delta_z_norm": 0.0,
+        "cos_with_w_hat": null,
+        "note": "zero gradient in this parameter group (expected for the null control)"
+      }
+    }
+  }
+]

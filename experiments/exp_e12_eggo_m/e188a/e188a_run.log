@@ -1,0 +1,56 @@
+Device: cuda
+[Sanity] checkpoint identity PASS (best_mean_dice=0.8929357248544694).
+[Data] 10 subjects, eps=[4.0, 8.0, 12.0, 14.0], N_random=32 per (subject,eps)
+[Ref] E172 oracle on this checkpoint: a4=+0.0106 a8=+0.0139(peak) a14=+0.0035
+  [BraTS-GLI-01041-000] eps= 4.0  native=0.8774  E15=0.8775 (d=+0.0001)  rand_mean=0.8738 rand_max=0.8751  E15_pct=100.0  R=-0.0023
+  [BraTS-GLI-01041-000] eps= 8.0  native=0.8774  E15=0.8669 (d=-0.0105)  rand_mean=0.8613 rand_max=0.8623  E15_pct=100.0  R=-0.0151
+  [BraTS-GLI-01041-000] eps=12.0  native=0.8774  E15=0.8537 (d=-0.0237)  rand_mean=0.7614 rand_max=0.7652  E15_pct=100.0  R=-0.1122
+  [BraTS-GLI-01041-000] eps=14.0  native=0.8774  E15=0.8463 (d=-0.0312)  rand_mean=0.6439 rand_max=0.6462  E15_pct=100.0  R=-0.2312
+[1/10] BraTS-GLI-01041-000 done
+  [BraTS-GLI-01161-000] eps= 4.0  native=0.9589  E15=0.9740 (d=+0.0151)  rand_mean=0.9577 rand_max=0.9579  E15_pct=100.0  R=-0.0010
+  [BraTS-GLI-01161-000] eps= 8.0  native=0.9589  E15=0.9794 (d=+0.0205)  rand_mean=0.9517 rand_max=0.9520  E15_pct=100.0  R=-0.0069
+  [BraTS-GLI-01161-000] eps=12.0  native=0.9589  E15=0.9808 (d=+0.0219)  rand_mean=0.8915 rand_max=0.8927  E15_pct=100.0  R=-0.0662
+  [BraTS-GLI-01161-000] eps=14.0  native=0.9589  E15=0.9802 (d=+0.0212)  rand_mean=0.8125 rand_max=0.8135  E15_pct=100.0  R=-0.1454
+[2/10] BraTS-GLI-01161-000 done
+  [BraTS-GLI-01189-000] eps= 4.0  native=0.8364  E15=0.8490 (d=+0.0126)  rand_mean=0.8351 rand_max=0.8354  E15_pct=100.0  R=-0.0010
+  [BraTS-GLI-01189-000] eps= 8.0  native=0.8364  E15=0.8560 (d=+0.0195)  rand_mean=0.8289 rand_max=0.8295  E15_pct=100.0  R=-0.0069
+  [BraTS-GLI-01189-000] eps=12.0  native=0.8364  E15=0.8604 (d=+0.0239)  rand_mean=0.7668 rand_max=0.7679  E15_pct=100.0  R=-0.0685
+  [BraTS-GLI-01189-000] eps=14.0  native=0.8364  E15=0.8619 (d=+0.0254)  rand_mean=0.6895 rand_max=0.6907  E15_pct=100.0  R=-0.1458
+[3/10] BraTS-GLI-01189-000 done
+  [BraTS-GLI-01336-000] eps= 4.0  native=0.9404  E15=0.9555 (d=+0.0151)  rand_mean=0.9389 rand_max=0.9402  E15_pct=100.0  R=-0.0002
+  [BraTS-GLI-01336-000] eps= 8.0  native=0.9404  E15=0.9597 (d=+0.0193)  rand_mean=0.9308 rand_max=0.9318  E15_pct=100.0  R=-0.0086
+  [BraTS-GLI-01336-000] eps=12.0  native=0.9404  E15=0.9596 (d=+0.0192)  rand_mean=0.7672 rand_max=0.7710  E15_pct=100.0  R=-0.1694
+  [BraTS-GLI-01336-000] eps=14.0  native=0.9404  E15=0.9586 (d=+0.0182)  rand_mean=0.5757 rand_max=0.5782  E15_pct=100.0  R=-0.3622
+[4/10] BraTS-GLI-01336-000 done
+  [BraTS-GLI-00250-000] eps= 4.0  native=0.9603  E15=0.9661 (d=+0.0058)  rand_mean=0.9596 rand_max=0.9599  E15_pct=100.0  R=-0.0003
+  [BraTS-GLI-00250-000] eps= 8.0  native=0.9603  E15=0.9678 (d=+0.0076)  rand_mean=0.9557 rand_max=0.9565  E15_pct=100.0  R=-0.0038
+  [BraTS-GLI-00250-000] eps=12.0  native=0.9603  E15=0.9671 (d=+0.0068)  rand_mean=0.8347 rand_max=0.8368  E15_pct=100.0  R=-0.1234
+  [BraTS-GLI-00250-000] eps=14.0  native=0.9603  E15=0.9656 (d=+0.0053)  rand_mean=0.6723 rand_max=0.6740  E15_pct=100.0  R=-0.2863
+[5/10] BraTS-GLI-00250-000 done
+  [BraTS-GLI-00501-000] eps= 4.0  native=0.8391  E15=0.8724 (d=+0.0333)  rand_mean=0.8367 rand_max=0.8377  E15_pct=100.0  R=-0.0014
+  [BraTS-GLI-00501-000] eps= 8.0  native=0.8391  E15=0.8857 (d=+0.0466)  rand_mean=0.8260 rand_max=0.8274  E15_pct=100.0  R=-0.0116
+  [BraTS-GLI-00501-000] eps=12.0  native=0.8391  E15=0.8604 (d=+0.0213)  rand_mean=0.6727 rand_max=0.6757  E15_pct=100.0  R=-0.1634
+  [BraTS-GLI-00501-000] eps=14.0  native=0.8391  E15=0.8241 (d=-0.0150)  rand_mean=0.5082 rand_max=0.5103  E15_pct=100.0  R=-0.3287
+[6/10] BraTS-GLI-00501-000 done
+  [BraTS-GLI-01093-000] eps= 4.0  native=0.9709  E15=0.9711 (d=+0.0002)  rand_mean=0.9700 rand_max=0.9703  E15_pct=100.0  R=-0.0006
+  [BraTS-GLI-01093-000] eps= 8.0  native=0.9709  E15=0.9677 (d=-0.0032)  rand_mean=0.9645 rand_max=0.9650  E15_pct=100.0  R=-0.0059
+  [BraTS-GLI-01093-000] eps=12.0  native=0.9709  E15=0.9455 (d=-0.0254)  rand_mean=0.8989 rand_max=0.8998  E15_pct=100.0  R=-0.0711
+  [BraTS-GLI-01093-000] eps=14.0  native=0.9709  E15=0.9185 (d=-0.0524)  rand_mean=0.8072 rand_max=0.8092  E15_pct=100.0  R=-0.1616
+[7/10] BraTS-GLI-01093-000 done
+  [BraTS-GLI-01168-000] eps= 4.0  native=0.9634  E15=0.9675 (d=+0.0041)  rand_mean=0.9624 rand_max=0.9627  E15_pct=100.0  R=-0.0007
+  [BraTS-GLI-01168-000] eps= 8.0  native=0.9634  E15=0.9668 (d=+0.0034)  rand_mean=0.9548 rand_max=0.9554  E15_pct=100.0  R=-0.0080
+  [BraTS-GLI-01168-000] eps=12.0  native=0.9634  E15=0.9651 (d=+0.0017)  rand_mean=0.8484 rand_max=0.8499  E15_pct=100.0  R=-0.1135
+  [BraTS-GLI-01168-000] eps=14.0  native=0.9634  E15=0.9641 (d=+0.0008)  rand_mean=0.7265 rand_max=0.7278  E15_pct=100.0  R=-0.2356
+[8/10] BraTS-GLI-01168-000 done
+  [BraTS-GLI-00506-000] eps= 4.0  native=0.9560  E15=0.9660 (d=+0.0100)  rand_mean=0.9550 rand_max=0.9553  E15_pct=100.0  R=-0.0007
+  [BraTS-GLI-00506-000] eps= 8.0  native=0.9560  E15=0.9692 (d=+0.0132)  rand_mean=0.9500 rand_max=0.9507  E15_pct=100.0  R=-0.0053
+  [BraTS-GLI-00506-000] eps=12.0  native=0.9560  E15=0.9706 (d=+0.0146)  rand_mean=0.8778 rand_max=0.8798  E15_pct=100.0  R=-0.0762
+  [BraTS-GLI-00506-000] eps=14.0  native=0.9560  E15=0.9707 (d=+0.0147)  rand_mean=0.7738 rand_max=0.7762  E15_pct=100.0  R=-0.1798
+[9/10] BraTS-GLI-00506-000 done
+  [BraTS-GLI-01065-000] eps= 4.0  native=0.9573  E15=0.9549 (d=-0.0024)  rand_mean=0.9564 rand_max=0.9567  E15_pct=  0.0  R=-0.0006
+  [BraTS-GLI-01065-000] eps= 8.0  native=0.9573  E15=0.9517 (d=-0.0056)  rand_mean=0.9517 rand_max=0.9522  E15_pct= 50.0  R=-0.0051
+  [BraTS-GLI-01065-000] eps=12.0  native=0.9573  E15=0.9483 (d=-0.0090)  rand_mean=0.8910 rand_max=0.8919  E15_pct=100.0  R=-0.0654
+  [BraTS-GLI-01065-000] eps=14.0  native=0.9573  E15=0.9467 (d=-0.0106)  rand_mean=0.8028 rand_max=0.8040  E15_pct=100.0  R=-0.1533
+[10/10] BraTS-GLI-01065-000 done
+
+Saved E188A_raw.json (10 subjects)

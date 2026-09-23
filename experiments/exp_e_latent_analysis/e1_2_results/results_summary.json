@@ -1,0 +1,60 @@
+{
+  "pearson_r": -0.24941845685401823,
+  "pearson_p": 0.0,
+  "spearman_rho": -0.43373906803278445,
+  "spearman_p": 0.0,
+  "polynomial_r2": {
+    "1": 0.06220956661943988,
+    "2": 0.4577986321994779,
+    "3": 0.5694872807117591,
+    "4": 0.5715525761810887
+  },
+  "featnorm_correct_vs_incorrect": {
+    "mean_correct": 7.458986640165517,
+    "mean_incorrect": 13.019788096932803,
+    "t": -9.312181315583691,
+    "p": 1.3878868981746762e-14
+  },
+  "cohens_d_evidence": 3.08520172911092,
+  "cohens_d_featnorm": -1.2872364788346877,
+  "boundary_controlled": {
+    "n": 1110,
+    "pearson_r": 0.18840561925031563,
+    "pearson_p": 2.5043493213992387e-10,
+    "spearman_rho": -0.15369799095360073,
+    "spearman_p": 2.667562433852585e-07
+  },
+  "class_split": {
+    "Tumor (GT positive)": {
+      "n": 614,
+      "pearson_r": 0.9073295519040047,
+      "pearson_p": 1.75700249505226e-232
+    },
+    "Background (GT negative)": {
+      "n": 59386,
+      "pearson_r": -0.6797547304020934,
+      "pearson_p": 0.0
+    }
+  },
+  "multiple_regression": {
+    "r2_boundary_only": 0.04251408755022568,
+    "r2_featnorm_only": 0.06220956661943988,
+    "r2_both": 0.08551777977755859,
+    "incremental_r2_featnorm_given_boundary": 0.04300369222733291
+  },
+  "partial_correlation_featnorm_given_boundary": {
+    "r": -0.21192718820412265,
+    "p": 0.0
+  },
+  "permutation_importance": {
+    "boundary_distance": {
+      "mean": 0.7246330790782544,
+      "std": 0.020532105647778943
+    },
+    "feature_norm": {
+      "mean": 1.1443074719168735,
+      "std": 0.012161388028853689
+    }
+  },
+  "rf_r2_in_sample": 0.7659100388776777
+}

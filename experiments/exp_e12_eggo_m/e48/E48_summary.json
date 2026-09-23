@@ -1,0 +1,11 @@
+{
+  "n_subjects": 125,
+  "mean_dice_intact": 0.8914526472091675,
+  "mean_drop": 0.32045564776659013,
+  "sd_drop": 0.17407205496548106,
+  "spearman_rho": -0.4541136712749615,
+  "parametric_p": 1.0424103817906612e-07,
+  "permutation_p": 0.0,
+  "n_permutations": 1000,
+  "decision": "NULL"
+}

@@ -1,0 +1,11 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_subjects": 63,
+  "mean_agreement_fn": -0.4312606351015663,
+  "mean_agreement_tp": -0.06652377645889673,
+  "agreement_diff": -0.3647368586426696,
+  "agreement_diff_p": 0.0,
+  "size_confound_rho": -0.04473886328725038,
+  "size_confound_p": 0.7277146247657857,
+  "decision": "SIGNATURE_EXISTS"
+}

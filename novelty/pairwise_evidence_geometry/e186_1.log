@@ -1,0 +1,11 @@
+E186.1 causal gate on 125 subjects
+  15/125 subj, 540 rows (96s)
+  30/125 subj, 990 rows (179s)
+  45/125 subj, 1490 rows (268s)
+  60/125 subj, 2060 rows (368s)
+  90/125 subj, 2990 rows (537s)
+  105/125 subj, 3380 rows (607s)
+  120/125 subj, 3890 rows (699s)
+
+wrote E186_1_causal.csv (4000 rows)  pops={'L': 580, 'H': 2210, 'S': 1210}
+total 721s

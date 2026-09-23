@@ -1,0 +1,56 @@
+{
+ "A_full_125": {
+  "test1_delta_monotonicity": {
+   "frac_tiles_monotonic_allow1violation": 0.7638248847926268,
+   "n_tiles": 868,
+   "subject_aware_trend_beta": 0.13558575353018396,
+   "trend_p": 5.01519559215069e-09
+  },
+  "test2_gamma_monotonicity": {
+   "frac_tiles_monotonic_decreasing_allow1violation": 0.7188940092165899,
+   "n_tiles": 868,
+   "subject_aware_trend_beta": -0.0341619470278318,
+   "trend_p": 0.00022386591161405178,
+   "expected_sign": "negative (Gamma should fall as alpha/restoration increases)"
+  },
+  "test3_coupling": {
+   "beta_d_dice_on_d_gamma": -0.2824568747831987,
+   "se": 0.065576485351197,
+   "p_from_FE": 3.328056834361881e-05,
+   "permutation_p": 0.0,
+   "n_perm": 1000,
+   "n_observations": 3472,
+   "n_subjects": 125,
+   "expected_sign": "negative (d_Gamma down should predict d_Dice up)",
+   "expected_sign_correct": true
+  },
+  "PREREGISTERED_VERDICT": "STRONGEST_graded_dose_dependent_coupling"
+ },
+ "B_E167_110": {
+  "test1_delta_monotonicity": {
+   "frac_tiles_monotonic_allow1violation": 0.7474093264248705,
+   "n_tiles": 772,
+   "subject_aware_trend_beta": 0.12241504607571022,
+   "trend_p": 1.0246668573632434e-06
+  },
+  "test2_gamma_monotonicity": {
+   "frac_tiles_monotonic_decreasing_allow1violation": 0.7072538860103627,
+   "n_tiles": 772,
+   "subject_aware_trend_beta": -0.037014896417477336,
+   "trend_p": 4.256279958703146e-06,
+   "expected_sign": "negative (Gamma should fall as alpha/restoration increases)"
+  },
+  "test3_coupling": {
+   "beta_d_dice_on_d_gamma": -0.4195329822768554,
+   "se": 0.1394511007527801,
+   "p_from_FE": 0.003261436667663764,
+   "permutation_p": 0.0,
+   "n_perm": 1000,
+   "n_observations": 3088,
+   "n_subjects": 110,
+   "expected_sign": "negative (d_Gamma down should predict d_Dice up)",
+   "expected_sign_correct": true
+  },
+  "PREREGISTERED_VERDICT": "STRONGEST_graded_dose_dependent_coupling"
+ }
+}

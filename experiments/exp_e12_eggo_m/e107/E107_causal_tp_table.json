@@ -1,0 +1,380 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "n_region": 338,
+    "delta_ig_logit": -16.56352424621582,
+    "delta_ig_fn_logit_paired": -10.534481048583984
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "n_region": 413,
+    "delta_ig_logit": -24.65157127380371,
+    "delta_ig_fn_logit_paired": -9.84366226196289
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "n_region": 620,
+    "delta_ig_logit": -19.97994613647461,
+    "delta_ig_fn_logit_paired": -11.230612754821777
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "n_region": 385,
+    "delta_ig_logit": -22.037508010864258,
+    "delta_ig_fn_logit_paired": -5.504249095916748
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "n_region": 85,
+    "delta_ig_logit": -24.91051483154297,
+    "delta_ig_fn_logit_paired": -5.138980388641357
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "n_region": 397,
+    "delta_ig_logit": -15.322381019592285,
+    "delta_ig_fn_logit_paired": -8.522318840026855
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "n_region": 320,
+    "delta_ig_logit": -24.23337173461914,
+    "delta_ig_fn_logit_paired": -12.316123962402344
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "n_region": 546,
+    "delta_ig_logit": -24.646278381347656,
+    "delta_ig_fn_logit_paired": -10.191303253173828
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "n_region": 302,
+    "delta_ig_logit": -23.50546646118164,
+    "delta_ig_fn_logit_paired": -7.371695041656494
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "n_region": 395,
+    "delta_ig_logit": -18.116687774658203,
+    "delta_ig_fn_logit_paired": -8.59036922454834
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "n_region": 467,
+    "delta_ig_logit": -18.833223342895508,
+    "delta_ig_fn_logit_paired": -7.466479778289795
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "n_region": 307,
+    "delta_ig_logit": -12.960220336914062,
+    "delta_ig_fn_logit_paired": -11.781717300415039
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "n_region": 36,
+    "delta_ig_logit": -24.386056900024414,
+    "delta_ig_fn_logit_paired": -6.532940864562988
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "n_region": 115,
+    "delta_ig_logit": -18.446632385253906,
+    "delta_ig_fn_logit_paired": -11.507213592529297
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "n_region": 372,
+    "delta_ig_logit": -23.30767822265625,
+    "delta_ig_fn_logit_paired": -4.68405294418335
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "n_region": 453,
+    "delta_ig_logit": -26.148929595947266,
+    "delta_ig_fn_logit_paired": -6.507392406463623
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "n_region": 406,
+    "delta_ig_logit": -14.491938591003418,
+    "delta_ig_fn_logit_paired": -10.787985801696777
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "n_region": 266,
+    "delta_ig_logit": -21.840131759643555,
+    "delta_ig_fn_logit_paired": -11.56995964050293
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "n_region": 556,
+    "delta_ig_logit": -25.04794692993164,
+    "delta_ig_fn_logit_paired": -8.93147087097168
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "n_region": 382,
+    "delta_ig_logit": -17.696651458740234,
+    "delta_ig_fn_logit_paired": -10.790628433227539
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "n_region": 268,
+    "delta_ig_logit": -14.710558891296387,
+    "delta_ig_fn_logit_paired": -10.151810646057129
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "n_region": 473,
+    "delta_ig_logit": -12.706048965454102,
+    "delta_ig_fn_logit_paired": -10.925163269042969
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "n_region": 116,
+    "delta_ig_logit": -21.197826385498047,
+    "delta_ig_fn_logit_paired": -8.843632698059082
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "n_region": 308,
+    "delta_ig_logit": -23.575895309448242,
+    "delta_ig_fn_logit_paired": -7.235005855560303
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "n_region": 496,
+    "delta_ig_logit": -25.990013122558594,
+    "delta_ig_fn_logit_paired": -10.18539810180664
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "n_region": 198,
+    "delta_ig_logit": -24.380483627319336,
+    "delta_ig_fn_logit_paired": -9.377738952636719
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "n_region": 452,
+    "delta_ig_logit": -23.9512996673584,
+    "delta_ig_fn_logit_paired": -10.988607406616211
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "n_region": 496,
+    "delta_ig_logit": -25.95069122314453,
+    "delta_ig_fn_logit_paired": -7.948279857635498
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "n_region": 385,
+    "delta_ig_logit": -8.505159378051758,
+    "delta_ig_fn_logit_paired": -7.80110502243042
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "n_region": 609,
+    "delta_ig_logit": -5.832613945007324,
+    "delta_ig_fn_logit_paired": -9.432701110839844
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "n_region": 276,
+    "delta_ig_logit": -8.652764320373535,
+    "delta_ig_fn_logit_paired": -7.312658309936523
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "n_region": 434,
+    "delta_ig_logit": -23.43268585205078,
+    "delta_ig_fn_logit_paired": -10.712772369384766
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "n_region": 573,
+    "delta_ig_logit": -17.43450927734375,
+    "delta_ig_fn_logit_paired": -10.569967269897461
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "n_region": 519,
+    "delta_ig_logit": -25.775348663330078,
+    "delta_ig_fn_logit_paired": -9.812676429748535
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "n_region": 81,
+    "delta_ig_logit": -24.11530303955078,
+    "delta_ig_fn_logit_paired": -5.737236499786377
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "n_region": 186,
+    "delta_ig_logit": -23.266054153442383,
+    "delta_ig_fn_logit_paired": -3.4293079376220703
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "n_region": 416,
+    "delta_ig_logit": -25.866405487060547,
+    "delta_ig_fn_logit_paired": -8.688685417175293
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "n_region": 367,
+    "delta_ig_logit": -16.158666610717773,
+    "delta_ig_fn_logit_paired": -8.695049285888672
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "n_region": 574,
+    "delta_ig_logit": -14.514991760253906,
+    "delta_ig_fn_logit_paired": -10.592891693115234
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "n_region": 373,
+    "delta_ig_logit": -18.16841697692871,
+    "delta_ig_fn_logit_paired": -6.444228649139404
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "n_region": 312,
+    "delta_ig_logit": -25.08124542236328,
+    "delta_ig_fn_logit_paired": -8.628923416137695
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "n_region": 202,
+    "delta_ig_logit": -25.668773651123047,
+    "delta_ig_fn_logit_paired": -7.783288478851318
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "n_region": 255,
+    "delta_ig_logit": -15.872944831848145,
+    "delta_ig_fn_logit_paired": -6.635318279266357
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "n_region": 422,
+    "delta_ig_logit": -20.342132568359375,
+    "delta_ig_fn_logit_paired": -12.33564567565918
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "n_region": 170,
+    "delta_ig_logit": -24.754554748535156,
+    "delta_ig_fn_logit_paired": -8.340314865112305
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "n_region": 48,
+    "delta_ig_logit": -24.7684326171875,
+    "delta_ig_fn_logit_paired": -11.204568862915039
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "n_region": 354,
+    "delta_ig_logit": -25.28255844116211,
+    "delta_ig_fn_logit_paired": -10.270942687988281
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "n_region": 30,
+    "delta_ig_logit": -20.628591537475586,
+    "delta_ig_fn_logit_paired": -6.056943416595459
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "n_region": 448,
+    "delta_ig_logit": -24.621044158935547,
+    "delta_ig_fn_logit_paired": -8.673429489135742
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "n_region": 341,
+    "delta_ig_logit": -25.38547134399414,
+    "delta_ig_fn_logit_paired": -10.176897048950195
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "n_region": 240,
+    "delta_ig_logit": -25.03877067565918,
+    "delta_ig_fn_logit_paired": -11.332635879516602
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "n_region": 590,
+    "delta_ig_logit": -25.982654571533203,
+    "delta_ig_fn_logit_paired": -6.447800159454346
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "n_region": 573,
+    "delta_ig_logit": -6.957361221313477,
+    "delta_ig_fn_logit_paired": -9.323043823242188
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "n_region": 142,
+    "delta_ig_logit": -22.398216247558594,
+    "delta_ig_fn_logit_paired": -7.966292858123779
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "n_region": 585,
+    "delta_ig_logit": -12.320651054382324,
+    "delta_ig_fn_logit_paired": -9.560372352600098
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "n_region": 200,
+    "delta_ig_logit": -24.192049026489258,
+    "delta_ig_fn_logit_paired": -4.9344000816345215
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "n_region": 265,
+    "delta_ig_logit": -17.645174026489258,
+    "delta_ig_fn_logit_paired": -10.253131866455078
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "n_region": 107,
+    "delta_ig_logit": -25.38844108581543,
+    "delta_ig_fn_logit_paired": -8.166902542114258
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "n_region": 183,
+    "delta_ig_logit": -23.904951095581055,
+    "delta_ig_fn_logit_paired": -4.957210540771484
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "n_region": 354,
+    "delta_ig_logit": -15.378765106201172,
+    "delta_ig_fn_logit_paired": -8.048316955566406
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "n_region": 402,
+    "delta_ig_logit": -26.646881103515625,
+    "delta_ig_fn_logit_paired": -9.185951232910156
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "n_region": 466,
+    "delta_ig_logit": -8.548665046691895,
+    "delta_ig_fn_logit_paired": -8.812602996826172
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "n_region": 153,
+    "delta_ig_logit": -25.45090675354004,
+    "delta_ig_fn_logit_paired": -7.597509860992432
+  }
+]

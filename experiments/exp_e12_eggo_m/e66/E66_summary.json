@@ -1,0 +1,174 @@
+{
+  "checkpoint_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "n_batches_averaged": 4,
+  "loss_names": [
+    "focal_tversky",
+    "evidential"
+  ],
+  "block_names": [
+    "encoder",
+    "bottleneck",
+    "decoder",
+    "heads"
+  ],
+  "summary_per_checkpoint": {
+    "1": {
+      "encoder": {
+        "focal_tversky__evidential": 0.2600805452093482
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.12931443168781698
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.21434381790459156
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    },
+    "5": {
+      "encoder": {
+        "focal_tversky__evidential": 0.89464171230793
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.9149120301008224
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.5970255061984062
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    },
+    "10": {
+      "encoder": {
+        "focal_tversky__evidential": 0.9772594720125198
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.9632807821035385
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.48174458742141724
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    },
+    "15": {
+      "encoder": {
+        "focal_tversky__evidential": 0.9098806083202362
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.8488471806049347
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.4389529302716255
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    },
+    "20": {
+      "encoder": {
+        "focal_tversky__evidential": 0.9535303264856339
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.9409431219100952
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.49177639931440353
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    },
+    "25": {
+      "encoder": {
+        "focal_tversky__evidential": 0.9556839913129807
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.9571462720632553
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.35075628012418747
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    },
+    "30": {
+      "encoder": {
+        "focal_tversky__evidential": 0.9630190432071686
+      },
+      "bottleneck": {
+        "focal_tversky__evidential": 0.9358058273792267
+      },
+      "decoder": {
+        "focal_tversky__evidential": 0.6639138460159302
+      },
+      "heads": {
+        "focal_tversky__evidential": 0.0
+      }
+    }
+  },
+  "cross_checkpoint_stats": {
+    "encoder": {
+      "focal_tversky__evidential": {
+        "mean": 0.8448708141222596,
+        "std": 0.24031386765262389,
+        "min": 0.2600805452093482,
+        "max": 0.9772594720125198
+      }
+    },
+    "bottleneck": {
+      "focal_tversky__evidential": {
+        "mean": 0.8128928065499557,
+        "std": 0.28130058479033204,
+        "min": 0.12931443168781698,
+        "max": 0.9632807821035385
+      }
+    },
+    "decoder": {
+      "focal_tversky__evidential": {
+        "mean": 0.46264476675008026,
+        "std": 0.1386231161518094,
+        "min": 0.21434381790459156,
+        "max": 0.6639138460159302
+      }
+    },
+    "heads": {
+      "focal_tversky__evidential": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "between_block_range": {
+    "focal_tversky__evidential": 0.38222604737217936
+  },
+  "sign_flips": {
+    "focal_tversky__evidential": {
+      "flips": false,
+      "block_means": {
+        "encoder": 0.8448708141222596,
+        "bottleneck": 0.8128928065499557,
+        "decoder": 0.46264476675008026
+      }
+    }
+  },
+  "thresholds": {
+    "meaningful_range": 0.15,
+    "stability_std": 0.15
+  },
+  "outcome": "B_MAGNITUDE_ONLY_LIKELY_KILL"
+}

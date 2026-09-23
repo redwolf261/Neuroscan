@@ -1,0 +1,60 @@
+Device: cuda
+Loaded E46/v5 checkpoint: best_val_dice=0.9101624600589275
+Validation set size: 125
+
+[Sanity check 1] split forward (own bottleneck) vs real forward: max abs diff = 0.000000e+00
+[Sanity check 1] PASS.
+
+Precomputing bottleneck/skip caches for all subjects...
+  cached 25/125
+  cached 50/125
+  cached 75/125
+  cached 100/125
+  cached 125/125
+Cached 125 subjects.
+
+[Sanity check 2] self-substitution vs real forward: max abs diff = 0.000000e+00
+[Sanity check 2] PASS.
+
+Saved 125 subject records.
+
+=== E58d Bottleneck Substitution Audit (E48/E46 checkpoint): n=125 subjects ===
+Mean dice_intact = 0.8922
+Mean drop (zero)        = 0.2717  (E48's own original full-ablation drop = 0.3205)
+Mean drop (donor_size)  = 0.5484
+Mean drop (donor_rand)  = 0.5730
+
+--- Paired comparisons (drop, lower = better preserved) ---
+  zero vs donor_size: mean_diff=-0.2766 (donor_size drop is larger) | paired-t p=0.0000, Wilcoxon p=0.0000
+  zero vs donor_rand: mean_diff=-0.3013 (donor_rand drop is larger) | paired-t p=0.0000, Wilcoxon p=0.0000
+  donor_size vs donor_rand: mean_diff=-0.0246 (donor_rand drop is larger) | paired-t p=0.5293, Wilcoxon p=0.5752
+
+--- Spearman(native_size, drop) per condition ---
+  zero: rho=-0.3834 (perm p=0.0000) 95% CI=[-0.5435, -0.1963]
+  donor_size: rho=-0.2147 (perm p=0.0150) 95% CI=[-0.3833, -0.0546]
+  donor_rand: rho=-0.0163 (perm p=0.8690) 95% CI=[-0.1882, +0.1619]
+  Reference (E48's own original full ablation, SAME checkpoint): rho = -0.454
+
+donor_size significantly WORSE than zero: True (p=0.0000)
+donor_rand significantly WORSE than zero: True (p=0.0000)
+
+=== CHECKPOINT-ARTIFACT CONTROL: Stage 2's finding ('random donor significantly worse than zero') REPRODUCES on E48's own checkpoint: True ===
+The 'wrong context is actively misleading' effect is NOT a checkpoint-specific artifact --
+it holds on both a plain v3/D4-only model AND E46/E48's own v5/attention-gate model.
+Traceback (most recent call last):
+  File "C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e58\run_e58d_substitution_e48_checkpoint.py", line 330, in <module>
+    main()
+  File "C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e58\run_e58d_substitution_e48_checkpoint.py", line 325, in main
+    json.dump(summary, f, indent=2)
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\Rivan\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

@@ -1,0 +1,65 @@
+[
+  {
+    "epoch": 1,
+    "val_dice": 0.4637660250067711,
+    "val_ece": 0.3793581262762018,
+    "independent_latent_boundary_auc": 0.9955762527508608,
+    "live_boundary_head_accuracy": 0.97455,
+    "mean_boundary_margin": 34.289947509765625,
+    "mean_evidence": 1.6134820347309113
+  },
+  {
+    "epoch": 5,
+    "val_dice": 0.7462446913123131,
+    "val_ece": 0.15186909830313197,
+    "independent_latent_boundary_auc": 0.993697917811682,
+    "live_boundary_head_accuracy": 0.9948,
+    "mean_boundary_margin": 19.002714157104492,
+    "mean_evidence": 4.735354842925072
+  },
+  {
+    "epoch": 10,
+    "val_dice": 0.8614100843667984,
+    "val_ece": 0.10382660124428182,
+    "independent_latent_boundary_auc": 0.9986677461562056,
+    "live_boundary_head_accuracy": 0.998025,
+    "mean_boundary_margin": 31.94896697998047,
+    "mean_evidence": 7.66443974545002
+  },
+  {
+    "epoch": 15,
+    "val_dice": 0.898529127240181,
+    "val_ece": 0.08000627636411081,
+    "independent_latent_boundary_auc": 0.9995324066980145,
+    "live_boundary_head_accuracy": 0.997975,
+    "mean_boundary_margin": 30.14491081237793,
+    "mean_evidence": 10.43506401412487
+  },
+  {
+    "epoch": 20,
+    "val_dice": 0.895966324210167,
+    "val_ece": 0.06657689157091225,
+    "independent_latent_boundary_auc": 0.9993204979206106,
+    "live_boundary_head_accuracy": 0.998,
+    "mean_boundary_margin": 29.347930908203125,
+    "mean_evidence": 12.88597455778718
+  },
+  {
+    "epoch": 25,
+    "val_dice": 0.9121214181184769,
+    "val_ece": 0.05769134039364866,
+    "independent_latent_boundary_auc": 0.9996379753973138,
+    "live_boundary_head_accuracy": 0.99835,
+    "mean_boundary_margin": 29.603515625,
+    "mean_evidence": 15.18948065840602
+  },
+  {
+    "epoch": 30,
+    "val_dice": 0.9147487729787827,
+    "val_ece": 0.05133649240069652,
+    "independent_latent_boundary_auc": 0.999654422295404,
+    "live_boundary_head_accuracy": 0.998375,
+    "mean_boundary_margin": 31.16786003112793,
+    "mean_evidence": 17.288214394766094
+  }
+]

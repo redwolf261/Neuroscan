@@ -1,0 +1,23 @@
+checkpoint: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e130\runs\E130_baseline_seed0\checkpoints\best.pth
+  epoch=32 best_mean_dice=0.8926 arch=v5_4in3out task=brats2023gli_4mod_3region
+evaluating 125 validation subjects (full volumes, sliding window)
+
+  25/125  (73s, 292s left)
+  50/125  (155s, 232s left)
+  75/125  (237s, 158s left)
+  100/125  (320s, 80s left)
+  125/125  (404s, 0s left)
+
+==================================================================
+FULL VALIDATION -- E130_baseline_seed0_ep32  (n=125)
+==================================================================
+region   Dice mean     std   median  HD95 mean     std  n_hd95
+    ET      0.8190  0.2488   0.9129      3.912   6.839     122
+    TC      0.8443  0.2630   0.9482      4.776   7.606     123
+    WT      0.9130  0.0940   0.9454      7.030  11.792     125
+
+  MEAN Dice across regions: 0.8588
+
+  subjects with EMPTY ground-truth region: ET=0, TC=0, WT=0
+
+Saved E130_full_eval_E130_baseline_seed0_ep32.json + per-subject table

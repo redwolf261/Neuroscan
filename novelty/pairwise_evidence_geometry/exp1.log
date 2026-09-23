@@ -1,0 +1,6 @@
+tail subjects: 15
+  4/15 subj, 24 rows (14s)
+  8/15 subj, 57 rows (33s)
+  12/15 subj, 90 rows (56s)
+
+wrote EXP1_pairwise.csv (120 rows) in 76s

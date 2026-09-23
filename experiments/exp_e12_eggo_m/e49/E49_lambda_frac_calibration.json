@@ -1,0 +1,11 @@
+{
+  "L_seg_init": 0.9779173135757446,
+  "L_frac_init": 0.18944770097732544,
+  "lambda_frac_value_matched": 5.161938141929679,
+  "grad_norm_L_seg": 0.2769031071028499,
+  "grad_norm_L_frac_unweighted": 1.3643693056112483,
+  "gradient_ratio_at_value_matched_lambda": 25.434131209285837,
+  "target_ratio": 0.1,
+  "final_lambda_frac": 0.020295319307172124,
+  "seed": 0
+}

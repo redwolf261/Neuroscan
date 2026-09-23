@@ -1,0 +1,39 @@
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 subject records.
+
+=== (1) Local angular coherence cos(theta) by class (higher = smoother/more locally aligned) ===
+  background (n=1223547): mean cos(theta) = 0.9545
+  boundary (n=22444): mean cos(theta) = 0.8773
+  interior (n=4009): mean cos(theta) = 0.9366
+
+=== (2) LOCAL DIRECTION SMOOTHING ===
+=== S_smooth (pure smoothing effect, NO translation): mean = 0.0265 (95% CI [0.0235, 0.0296]) ===
+  t-test p=3.4520e-35, Wilcoxon p=1.1911e-21, sign-flip permutation p=0.0000
+
+=== S_u_after_smooth (translate the ALREADY-SMOOTHED direction): mean = 0.1899 (95% CI [0.1746, 0.2064]) ===
+  t-test p=1.9445e-47, Wilcoxon p=2.9644e-22, sign-flip permutation p=0.0000
+
+  Reference: E78's S_u (translate RAW direction) = 0.2134
+  If smoothing recovers robustness: S_u_after_smooth should be << 0.2134
+  Recovery fraction: 11.0% of S_u's damage removed by pre-smoothing direction
+
+=== (3) LOCAL DIRECTION PERMUTATION (magnitude untouched, direction scrambled within 2x2x2 cells) ===
+=== S_dir_local_perm: mean = 0.0372 (95% CI [0.0339, 0.0409]) ===
+  t-test p=5.1461e-43, Wilcoxon p=3.2649e-22, sign-flip permutation p=0.0000
+
+  Reference: E78's S_u (translate RAW direction) = 0.2134
+  Ratio (local-perm / translate): 0.174
+
+=== DECISIVE COMPARISON: Hypothesis A (local noise) vs B (absolute coordinate) ===
+B (absolute coordinate): local permutation is much LESS damaging than translation -- direction is bound to ABSOLUTE spatial address, not just locally noisy. Preserving rough position (permutation) is far safer than losing it (translation).
+Smoothing does NOT meaningfully recover translation-robustness (argues against a simple local-smoothing intervention, consistent with hypothesis B)
+
+Saved E79_directional_audit_summary.json

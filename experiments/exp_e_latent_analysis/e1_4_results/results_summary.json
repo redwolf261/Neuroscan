@@ -1,0 +1,41 @@
+{
+  "density_summary": {
+    "k": 20,
+    "rho_min": 0.019517208747032402,
+    "rho_max": 9.869719050387525,
+    "rho_mean": 0.23250259226225958
+  },
+  "rho_vs_evidence": {
+    "pearson_r": -0.2135574004605366,
+    "pearson_p": 0.0,
+    "spearman_rho": 0.3692597445270964,
+    "spearman_p": 0.0
+  },
+  "rho_polynomial_r2": {
+    "1": 0.04560676329146207,
+    "2": 0.0481299577039882,
+    "3": 0.1945189673006723,
+    "4": 0.31072457338979165
+  },
+  "density_correct_vs_incorrect": {
+    "mean_rho_correct": 0.22905873485794062,
+    "mean_rho_incorrect": 2.660016902612519,
+    "t": -20.873766215866667,
+    "p": 5.319572472128086e-35,
+    "cohens_d": -3.0053736216953437
+  },
+  "rho_vs_latent_boundary": {
+    "pearson_r": -0.0067832971726649975,
+    "pearson_p": 0.09660380183426324
+  },
+  "partial_correlation_density_given_latent_boundary": {
+    "r": -0.22224844607560273,
+    "p": 0.0
+  },
+  "multiple_regression": {
+    "r2_image_boundary_only": 0.04251408755022568,
+    "r2_image_plus_latent_boundary": 0.0971658926910337,
+    "r2_all_three": 0.13978160432125908,
+    "incremental_r2_from_density": 0.04261571163022537
+  }
+}

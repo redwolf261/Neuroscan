@@ -1,0 +1,8 @@
+tracing 15 tail subjects, stages=['enc1', 'enc2', 'enc3', 'bottleneck', 'dec3', 'dec2', 'dec1']
+  3/15 subjects, 4 comps (8s)
+  6/15 subjects, 21 comps (28s)
+  9/15 subjects, 24 comps (35s)
+  12/15 subjects, 28 comps (41s)
+  15/15 subjects, 40 comps (58s)
+
+wrote TRACE_missed_components.csv (40 components) in 58s

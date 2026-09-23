@@ -1,0 +1,41 @@
+{
+  "n_subjects": 125,
+  "base_offset": 3,
+  "arm1_encoder_only": {
+    "mean": 0.21343054032325745,
+    "ci_lo": 0.1989472236633301,
+    "ci_hi": 0.22926267468333245,
+    "ttest_p": 7.739239283235759e-55,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "arm2_decoder_only": {
+    "mean": 0.2615219533443451,
+    "ci_lo": 0.2470492840230465,
+    "ci_hi": 0.2773619674831629,
+    "ttest_p": 2.2792478803630046e-63,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "arm3_coherent": {
+    "mean": 0.43859729820489884,
+    "ci_lo": 0.4221232542976737,
+    "ci_hi": 0.4569334449455142,
+    "ttest_p": 1.7546718130533153e-83,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "recovery_fraction": -1.0549884638843556,
+  "arm1_vs_arm3_ttest_p": 3.290422710603555e-62,
+  "arm1_vs_arm3_wilcoxon_p": 2.9643799464905646e-22,
+  "sweep_means": {
+    "0": 0.21343054032325745,
+    "1": 0.28036927378177645,
+    "2": 0.36752964186668396,
+    "3": 0.43859729820489884,
+    "4": 0.5007145721316337,
+    "5": 0.5750752785690129
+  },
+  "troughs_at_zero_mismatch": false,
+  "reading": "(i) ENCODER REPRESENTATION property: coherent joint shift does NOT meaningfully recover the damage -- enc1's direction is corrupted by translation independent of what the decoder side is doing. The intervention should target enc1's own positional binding, not the encoder-decoder correspondence."
+}

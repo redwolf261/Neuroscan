@@ -1,0 +1,55 @@
+{
+  "stages": {
+    "N_1": {
+      "output_resolution": 32,
+      "cell_width_64grid": 2.0,
+      "q_mean": 8.34717796576872,
+      "q_std": 1.6892859313621649,
+      "modelA_rho_size": -0.44822734254992314,
+      "modelA_perm_p": 0.0,
+      "modelB_rho_q": -0.4454009216589861,
+      "modelB_perm_p": 0.0,
+      "modelC_partial_rho_q_given_size": -0.18396313364055297,
+      "modelC_perm_p": 0.047,
+      "q_survives_size_control": true
+    },
+    "N_2": {
+      "output_resolution": 16,
+      "cell_width_64grid": 4.0,
+      "q_mean": 4.17358898288436,
+      "q_std": 0.8446429656810824,
+      "modelA_rho_size": -0.03624577572964669,
+      "modelA_perm_p": 0.697,
+      "modelB_rho_q": -0.029284178187403993,
+      "modelB_perm_p": 0.74,
+      "modelC_partial_rho_q_given_size": 0.23005837173579105,
+      "modelC_perm_p": 0.012,
+      "q_survives_size_control": false
+    },
+    "N_3": {
+      "output_resolution": 8,
+      "cell_width_64grid": 8.0,
+      "q_mean": 2.08679449144218,
+      "q_std": 0.4223214828405412,
+      "modelA_rho_size": -0.3832749615975422,
+      "modelA_perm_p": 0.0,
+      "modelB_rho_q": -0.38210138248847925,
+      "modelB_perm_p": 0.0,
+      "modelC_partial_rho_q_given_size": 0.05513364055299538,
+      "modelC_perm_p": 0.526,
+      "q_survives_size_control": false
+    }
+  },
+  "n_subjects": 125,
+  "PER_STAGE_MODELS_ARE_STRUCTURALLY_FLAWED_SEE_COMMENT": "q_k is a constant rescaling of d_s within one stage -- Model A/B/C per stage cannot test the cross-stage hypothesis. Use the pooled_cross_stage_test fields below as the real evidence.",
+  "pooled_cross_stage_test": {
+    "n_observations": 375,
+    "model_p1_r2_stage_and_size_only": 0.6385591669526974,
+    "model_p2_r2_with_q": 0.6390959782510885,
+    "delta_r2_from_q": 0.0005368112983911155,
+    "q_coefficient": 0.009375263867216514,
+    "within_subject_permutation_p": 0.0
+  },
+  "decision": "CASE_A_KILL_Q_DOES_NOT_EXPLAIN_PATTERN",
+  "detail": "Pooled cross-stage regression: adding q_k on top of stage-identity + size does not significantly improve fit (perm p=0.0000, Delta R^2=+0.0005). Relative lesion scale does NOT explain the N1~=N3>>N2 pattern beyond what stage identity and absolute size already capture. KILL this hypothesis."
+}

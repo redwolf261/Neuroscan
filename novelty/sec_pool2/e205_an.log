@@ -1,0 +1,53 @@
+==========================================================================================
+LOCUS: E3
+==========================================================================================
+n = {'L': 74, 'S': 146, 'H': 220}
+  K_L: median=0.6275  mean=0.7407
+  K_S: median=0.3641  mean=0.4362
+  K_H: median=0.3935  mean=0.4493
+
+  G1: K_L vs K_S (Mann-Whitney)
+    p = 5.590e-07   PASS
+  (secondary) K_L vs K_H: p = 2.331e-06
+
+  G2: does K survive controlling for boundary_dist (E179 confound)?
+    raw corr(K,label)             r=+0.3263  p=7.466e-07
+    partial corr | boundary_dist  r=+0.3250  p=8.330e-07   PASS
+
+  G3: does K survive controlling for h_mag_sq (magnitude confound)?
+    partial corr | h_mag_sq       r=+0.1137  p=9.237e-02   FAIL (magnitude confound)
+
+  G4: subject-preserving permutation null (200 iters)
+    observed median diff = +0.2634   perm p = 0.0000   PASS
+
+  E3 VERDICT: G1=True G2=True G3=False G4=True  ==> FAIL -- KILL at this locus
+
+==========================================================================================
+LOCUS: bottleneck
+==========================================================================================
+n = {'L': 74, 'S': 146, 'H': 220}
+  K_L: median=0.6339  mean=0.6874
+  K_S: median=0.2970  mean=0.3380
+  K_H: median=0.2215  mean=0.2982
+
+  G1: K_L vs K_S (Mann-Whitney)
+    p = 9.818e-16   PASS
+  (secondary) K_L vs K_H: p = 4.572e-20
+
+  G2: does K survive controlling for boundary_dist (E179 confound)?
+    raw corr(K,label)             r=+0.5564  p=2.804e-19
+    partial corr | boundary_dist  r=+0.5522  p=5.859e-19   PASS
+
+  G3: does K survive controlling for h_mag_sq (magnitude confound)?
+    partial corr | h_mag_sq       r=+0.4040  p=4.784e-10   PASS
+
+  G4: subject-preserving permutation null (200 iters)
+    observed median diff = +0.3369   perm p = 0.0000   PASS
+
+  bottleneck VERDICT: G1=True G2=True G3=True G4=True  ==> PASS -- proceed toward h' = h(1+alpha*K)
+
+==========================================================================================
+OVERALL
+==========================================================================================
+Both loci must PASS for the candidate to survive. If E3 fails but
+bottleneck passes (or vice versa), report as split result, not PASS.

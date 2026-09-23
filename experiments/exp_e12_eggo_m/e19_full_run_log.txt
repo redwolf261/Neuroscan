@@ -1,0 +1,104 @@
+Analyzing epoch 1...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=1.0654e-01 G_margin=4.7047e-01 rho=4.4159 R_margin=0.3654 |dtheta|=2.010035e-02
+    enc2         G_seg=2.8836e-02 G_margin=1.7036e-01 rho=5.9078 R_margin=0.1323 |dtheta|=4.238460e-02
+    enc3         G_seg=2.3235e-03 G_margin=1.8749e-02 rho=8.0693 R_margin=0.0146 |dtheta|=8.702265e-02
+    bottleneck   G_seg=1.4135e-03 G_margin=1.0732e-02 rho=7.5925 R_margin=0.0083 |dtheta|=1.643823e-01
+    upconv3      G_seg=7.3985e-04 G_margin=5.4704e-03 rho=7.3940 R_margin=0.0042 |dtheta|=5.704369e-02
+    dec3         G_seg=2.8127e-03 G_margin=2.2808e-02 rho=8.1091 R_margin=0.0177 |dtheta|=9.905793e-02
+    upconv2      G_seg=1.7873e-03 G_margin=8.5126e-03 rho=4.7628 R_margin=0.0066 |dtheta|=1.791595e-02
+    dec2         G_seg=2.3094e-02 G_margin=9.2550e-02 rho=4.0076 R_margin=0.0719 |dtheta|=7.398125e-02
+    upconv1      G_seg=8.1664e-03 G_margin=4.0510e-02 rho=4.9605 R_margin=0.0315 |dtheta|=1.489626e-02
+    dec1         G_seg=9.4099e-02 G_margin=4.4752e-01 rho=4.7558 R_margin=0.3475 |dtheta|=3.238164e-02
+    seg_head     G_seg=4.6198e-02 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=2.998907e-03
+Analyzing epoch 5...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=7.7810e-01 G_margin=1.1543e-01 rho=0.1483 R_margin=0.3237 |dtheta|=1.975269e-02
+    enc2         G_seg=2.0169e-01 G_margin=3.3016e-02 rho=0.1637 R_margin=0.0926 |dtheta|=4.627446e-02
+    enc3         G_seg=3.3767e-02 G_margin=5.7298e-03 rho=0.1697 R_margin=0.0161 |dtheta|=7.123345e-02
+    bottleneck   G_seg=2.2826e-02 G_margin=3.8759e-03 rho=0.1698 R_margin=0.0109 |dtheta|=1.681094e-01
+    upconv3      G_seg=1.0511e-02 G_margin=1.6961e-03 rho=0.1614 R_margin=0.0048 |dtheta|=5.556505e-02
+    dec3         G_seg=4.0424e-02 G_margin=5.9199e-03 rho=0.1464 R_margin=0.0166 |dtheta|=1.423774e-01
+    upconv2      G_seg=3.4747e-02 G_margin=3.7542e-03 rho=0.1080 R_margin=0.0105 |dtheta|=4.409795e-02
+    dec2         G_seg=1.5426e-01 G_margin=3.0912e-02 rho=0.2004 R_margin=0.0867 |dtheta|=9.564585e-02
+    upconv1      G_seg=9.1916e-02 G_margin=1.6066e-02 rho=0.1748 R_margin=0.0451 |dtheta|=1.490084e-02
+    dec1         G_seg=5.2526e-01 G_margin=1.4014e-01 rho=0.2668 R_margin=0.3931 |dtheta|=3.320910e-02
+    seg_head     G_seg=1.1233e-01 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=9.515128e-04
+Analyzing epoch 10...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=2.7680e-01 G_margin=4.6236e-02 rho=0.1670 R_margin=0.2672 |dtheta|=7.872310e-03
+    enc2         G_seg=6.3793e-02 G_margin=8.9219e-03 rho=0.1399 R_margin=0.0516 |dtheta|=1.804165e-02
+    enc3         G_seg=1.3062e-02 G_margin=1.4693e-03 rho=0.1125 R_margin=0.0085 |dtheta|=4.064557e-02
+    bottleneck   G_seg=6.0989e-03 G_margin=6.5012e-04 rho=0.1066 R_margin=0.0038 |dtheta|=5.552799e-02
+    upconv3      G_seg=1.9606e-03 G_margin=2.5905e-04 rho=0.1321 R_margin=0.0015 |dtheta|=1.384809e-02
+    dec3         G_seg=7.8454e-03 G_margin=1.1495e-03 rho=0.1465 R_margin=0.0066 |dtheta|=4.195394e-02
+    upconv2      G_seg=1.0058e-02 G_margin=1.4419e-03 rho=0.1434 R_margin=0.0083 |dtheta|=1.205949e-02
+    dec2         G_seg=3.5917e-02 G_margin=9.9646e-03 rho=0.2774 R_margin=0.0576 |dtheta|=2.316266e-02
+    upconv1      G_seg=1.9229e-02 G_margin=9.7948e-03 rho=0.5094 R_margin=0.0566 |dtheta|=5.625859e-03
+    dec1         G_seg=1.1566e-01 G_margin=9.3159e-02 rho=0.8054 R_margin=0.5383 |dtheta|=1.188644e-02
+    seg_head     G_seg=2.2057e-02 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=2.463163e-04
+Analyzing epoch 15...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=2.1730e-01 G_margin=2.8857e-02 rho=0.1328 R_margin=0.3149 |dtheta|=6.539122e-03
+    enc2         G_seg=4.8023e-02 G_margin=5.9693e-03 rho=0.1243 R_margin=0.0651 |dtheta|=1.837806e-02
+    enc3         G_seg=9.1836e-03 G_margin=1.1278e-03 rho=0.1228 R_margin=0.0123 |dtheta|=3.056254e-02
+    bottleneck   G_seg=3.6549e-03 G_margin=5.0301e-04 rho=0.1376 R_margin=0.0055 |dtheta|=5.116414e-02
+    upconv3      G_seg=1.2408e-03 G_margin=1.8640e-04 rho=0.1502 R_margin=0.0020 |dtheta|=1.881094e-02
+    dec3         G_seg=6.3887e-03 G_margin=8.7873e-04 rho=0.1375 R_margin=0.0096 |dtheta|=5.115330e-02
+    upconv2      G_seg=5.2714e-03 G_margin=9.1279e-04 rho=0.1732 R_margin=0.0100 |dtheta|=1.184835e-02
+    dec2         G_seg=2.4470e-02 G_margin=6.4272e-03 rho=0.2627 R_margin=0.0701 |dtheta|=2.566265e-02
+    upconv1      G_seg=1.3871e-02 G_margin=5.8834e-03 rho=0.4242 R_margin=0.0642 |dtheta|=5.370788e-03
+    dec1         G_seg=7.3313e-02 G_margin=4.0881e-02 rho=0.5576 R_margin=0.4462 |dtheta|=1.106279e-02
+    seg_head     G_seg=1.4067e-02 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=1.517382e-04
+Analyzing epoch 20...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=3.5427e-01 G_margin=2.7456e-02 rho=0.0775 R_margin=0.3081 |dtheta|=7.039913e-03
+    enc2         G_seg=1.2350e-01 G_margin=7.4546e-03 rho=0.0604 R_margin=0.0837 |dtheta|=1.727249e-02
+    enc3         G_seg=3.5074e-02 G_margin=1.7768e-03 rho=0.0507 R_margin=0.0199 |dtheta|=3.602527e-02
+    bottleneck   G_seg=1.6476e-02 G_margin=8.5115e-04 rho=0.0517 R_margin=0.0096 |dtheta|=6.895103e-02
+    upconv3      G_seg=5.6597e-03 G_margin=2.4668e-04 rho=0.0436 R_margin=0.0028 |dtheta|=2.357532e-02
+    dec3         G_seg=1.8977e-02 G_margin=9.7290e-04 rho=0.0513 R_margin=0.0109 |dtheta|=5.327384e-02
+    upconv2      G_seg=1.4818e-02 G_margin=1.0630e-03 rho=0.0717 R_margin=0.0119 |dtheta|=1.297563e-02
+    dec2         G_seg=5.4035e-02 G_margin=6.9746e-03 rho=0.1291 R_margin=0.0783 |dtheta|=2.674371e-02
+    upconv1      G_seg=2.5290e-02 G_margin=5.8506e-03 rho=0.2313 R_margin=0.0657 |dtheta|=4.523156e-03
+    dec1         G_seg=1.2546e-01 G_margin=3.6456e-02 rho=0.2906 R_margin=0.4092 |dtheta|=9.250187e-03
+    seg_head     G_seg=2.9446e-02 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=8.458310e-05
+Analyzing epoch 25...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=2.3852e-01 G_margin=1.4718e-02 rho=0.0617 R_margin=0.3031 |dtheta|=4.853998e-03
+    enc2         G_seg=8.5185e-02 G_margin=5.4970e-03 rho=0.0645 R_margin=0.1132 |dtheta|=1.366115e-02
+    enc3         G_seg=2.4285e-02 G_margin=1.4406e-03 rho=0.0593 R_margin=0.0297 |dtheta|=3.470799e-02
+    bottleneck   G_seg=1.1357e-02 G_margin=6.9687e-04 rho=0.0614 R_margin=0.0143 |dtheta|=6.199071e-02
+    upconv3      G_seg=3.6314e-03 G_margin=2.4523e-04 rho=0.0675 R_margin=0.0050 |dtheta|=1.680199e-02
+    dec3         G_seg=1.2335e-02 G_margin=8.8477e-04 rho=0.0717 R_margin=0.0182 |dtheta|=3.852455e-02
+    upconv2      G_seg=7.0754e-03 G_margin=5.7642e-04 rho=0.0815 R_margin=0.0119 |dtheta|=7.274335e-03
+    dec2         G_seg=3.7884e-02 G_margin=4.6245e-03 rho=0.1221 R_margin=0.0952 |dtheta|=1.687125e-02
+    upconv1      G_seg=1.6283e-02 G_margin=2.5218e-03 rho=0.1549 R_margin=0.0519 |dtheta|=3.444773e-03
+    dec1         G_seg=9.5646e-02 G_margin=1.7359e-02 rho=0.1815 R_margin=0.3574 |dtheta|=7.418861e-03
+    seg_head     G_seg=1.9748e-02 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=5.928393e-05
+Analyzing epoch 30...
+  [effective updates] matched 64/64 in-scope params to optimizer state (4 evidential_head/boundary_head params intentionally excluded, 68 total named params)
+  8 batches
+    enc1         G_seg=1.5236e-01 G_margin=1.2090e-02 rho=0.0794 R_margin=0.2741 |dtheta|=3.345920e-03
+    enc2         G_seg=4.9210e-02 G_margin=3.8325e-03 rho=0.0779 R_margin=0.0869 |dtheta|=8.534163e-03
+    enc3         G_seg=1.2890e-02 G_margin=5.7344e-04 rho=0.0445 R_margin=0.0130 |dtheta|=1.604987e-02
+    bottleneck   G_seg=6.3950e-03 G_margin=2.7127e-04 rho=0.0424 R_margin=0.0061 |dtheta|=3.155129e-02
+    upconv3      G_seg=1.9720e-03 G_margin=9.9065e-05 rho=0.0502 R_margin=0.0022 |dtheta|=9.189904e-03
+    dec3         G_seg=6.5364e-03 G_margin=4.3275e-04 rho=0.0662 R_margin=0.0098 |dtheta|=2.215598e-02
+    upconv2      G_seg=5.0152e-03 G_margin=4.6298e-04 rho=0.0923 R_margin=0.0105 |dtheta|=4.446314e-03
+    dec2         G_seg=2.3876e-02 G_margin=3.9991e-03 rho=0.1675 R_margin=0.0907 |dtheta|=1.092955e-02
+    upconv1      G_seg=1.2704e-02 G_margin=3.3310e-03 rho=0.2622 R_margin=0.0755 |dtheta|=2.164196e-03
+    dec1         G_seg=7.0489e-02 G_margin=1.9019e-02 rho=0.2698 R_margin=0.4312 |dtheta|=5.131986e-03
+    seg_head     G_seg=1.4323e-02 G_margin=0.0000e+00 rho=0.0000 R_margin=0.0000 |dtheta|=4.102854e-05
+
+======================================================================
+SUMMARY: epoch x block -> G_seg, G_margin, rho, R_margin, |delta_theta|
+======================================================================
+
+All outputs saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e19_layerwise_gradient_results

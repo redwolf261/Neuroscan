@@ -1,0 +1,38 @@
+Device: cuda
+Loaded D4-only checkpoint: best_val_dice=0.9095618277788162
+Validation set size: 125
+
+[Sanity check] split forward vs real forward: max abs diff = 0.000000e+00
+[Sanity check] PASS.
+
+Precomputing bottleneck/skip caches for all subjects...
+  cached 25/125
+  cached 50/125
+  cached 75/125
+  cached 100/125
+  cached 125/125
+Cached 125 subjects. Mean bottleneck computed, shape=(1, 256, 8, 8, 8).
+
+Saved 125 subject records.
+
+=== E58e OOD-Confound Test: n=125 subjects (plain v3 checkpoint) ===
+Mean dice_intact = 0.8958
+Mean drop (zero)        = 0.2554
+Mean drop (mean_bottleneck) = 0.2119
+Mean drop (donor_size, from Stage 2)  = 0.2700
+Mean drop (donor_rand, from Stage 2)  = 0.3098
+
+--- Paired comparisons (drop, lower = better preserved) ---
+  zero vs mean_bottleneck: mean_diff=+0.0435 (mean_bottleneck drop is smaller) | paired-t p=0.0707, Wilcoxon p=0.1306
+  mean_bottleneck vs donor_rand: mean_diff=-0.0979 (donor_rand drop is larger) | paired-t p=0.0000, Wilcoxon p=0.0000
+  mean_bottleneck vs donor_size: mean_diff=-0.0581 (donor_size drop is larger) | paired-t p=0.0022, Wilcoxon p=0.0020
+
+mean_bottleneck: Spearman(native_size, drop) = +0.1811 (perm p=0.0540) 95% CI=[+0.0005, +0.3646]
+
+Mean-bottleneck damage is closer to ZERO than to donor_rand: True
+Mean-bottleneck significantly LESS damaging than donor_rand: True
+
+=== VERDICT: OOD_CONFOUND_SUPPORTED ===
+Mean ablation (a generic, non-informative, in-distribution-aggregate signal) does comparatively little damage, similar to zero -- donor substitution's EXTRA damage appears specific to injecting a SPECIFIC, structured, wrong signal, consistent with the out-of-distribution ablation confound already documented in the interpretability literature (Li & Janson 2024). The 'compatibility phenomenon' framing should be treated with skepticism -- this looks more like a known measurement artifact than a new causal finding.
+
+Saved E58e_summary.json

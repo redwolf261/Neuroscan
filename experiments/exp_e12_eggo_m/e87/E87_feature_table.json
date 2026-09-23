@@ -1,0 +1,1127 @@
+[
+  {
+    "native_size": 91481,
+    "surface_to_volume": 0.2549053901903127,
+    "n_components": 18,
+    "max_component_frac": 0.9913096708606158,
+    "pred_entropy": 0.019757144153118134,
+    "subject_id": "BraTS-GLI-01041-000",
+    "N_b_target": 0.12499314546585083
+  },
+  {
+    "native_size": 109939,
+    "surface_to_volume": 0.2204040422416067,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.023927723988890648,
+    "subject_id": "BraTS-GLI-01161-000",
+    "N_b_target": 0.317859947681427
+  },
+  {
+    "native_size": 114711,
+    "surface_to_volume": 0.19135915474540366,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.027826542034745216,
+    "subject_id": "BraTS-GLI-01189-000",
+    "N_b_target": 0.2767738699913025
+  },
+  {
+    "native_size": 50014,
+    "surface_to_volume": 0.2695645219338585,
+    "n_components": 2,
+    "max_component_frac": 0.9998800335905946,
+    "pred_entropy": 0.029321903362870216,
+    "subject_id": "BraTS-GLI-01336-000",
+    "N_b_target": 0.19995105266571045
+  },
+  {
+    "native_size": 104014,
+    "surface_to_volume": 0.31128501932432173,
+    "n_components": 2,
+    "max_component_frac": 0.9933278212548311,
+    "pred_entropy": 0.026700662449002266,
+    "subject_id": "BraTS-GLI-00250-000",
+    "N_b_target": 0.08624798059463501
+  },
+  {
+    "native_size": 194150,
+    "surface_to_volume": 0.15612670615503477,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.03186706453561783,
+    "subject_id": "BraTS-GLI-00501-000",
+    "N_b_target": 0.3052612543106079
+  },
+  {
+    "native_size": 158406,
+    "surface_to_volume": 0.19889398128858754,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02742472104728222,
+    "subject_id": "BraTS-GLI-01093-000",
+    "N_b_target": 0.10219067335128784
+  },
+  {
+    "native_size": 64411,
+    "surface_to_volume": 0.21426464423778546,
+    "n_components": 3,
+    "max_component_frac": 0.9998757976122091,
+    "pred_entropy": 0.023179588839411736,
+    "subject_id": "BraTS-GLI-01168-000",
+    "N_b_target": 0.4587021768093109
+  },
+  {
+    "native_size": 88284,
+    "surface_to_volume": 0.18827873680395088,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.01477921474725008,
+    "subject_id": "BraTS-GLI-00506-000",
+    "N_b_target": 0.2694862484931946
+  },
+  {
+    "native_size": 157478,
+    "surface_to_volume": 0.24962851953923723,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.019869007170200348,
+    "subject_id": "BraTS-GLI-01065-000",
+    "N_b_target": 0.12743330001831055
+  },
+  {
+    "native_size": 168187,
+    "surface_to_volume": 0.23993531010125635,
+    "n_components": 4,
+    "max_component_frac": 0.9995659593190912,
+    "pred_entropy": 0.02432171069085598,
+    "subject_id": "BraTS-GLI-01444-000",
+    "N_b_target": 0.129014790058136
+  },
+  {
+    "native_size": 215769,
+    "surface_to_volume": 0.1886693639957547,
+    "n_components": 2,
+    "max_component_frac": 0.9981925114358411,
+    "pred_entropy": 0.02114737778902054,
+    "subject_id": "BraTS-GLI-01326-000",
+    "N_b_target": 0.14424312114715576
+  },
+  {
+    "native_size": 88252,
+    "surface_to_volume": 0.36517019444318544,
+    "n_components": 2,
+    "max_component_frac": 0.9905157956760187,
+    "pred_entropy": 0.040627267211675644,
+    "subject_id": "BraTS-GLI-00764-000",
+    "N_b_target": 0.21345144510269165
+  },
+  {
+    "native_size": 23091,
+    "surface_to_volume": 0.3987267766662336,
+    "n_components": 3,
+    "max_component_frac": 0.9382876445368326,
+    "pred_entropy": 0.05337747186422348,
+    "subject_id": "BraTS-GLI-00731-001",
+    "N_b_target": 0.532466933131218
+  },
+  {
+    "native_size": 59246,
+    "surface_to_volume": 0.33367653512473416,
+    "n_components": 5,
+    "max_component_frac": 0.6842993619822435,
+    "pred_entropy": 0.01899177022278309,
+    "subject_id": "BraTS-GLI-01258-000",
+    "N_b_target": 0.25604480504989624
+  },
+  {
+    "native_size": 46623,
+    "surface_to_volume": 0.21352122343049568,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02262156270444393,
+    "subject_id": "BraTS-GLI-01025-000",
+    "N_b_target": 0.5970479547977448
+  },
+  {
+    "native_size": 117869,
+    "surface_to_volume": 0.2021566315146476,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.020109253004193306,
+    "subject_id": "BraTS-GLI-00811-000",
+    "N_b_target": 0.22737038135528564
+  },
+  {
+    "native_size": 225535,
+    "surface_to_volume": 0.24440995854301992,
+    "n_components": 2,
+    "max_component_frac": 0.999951227082271,
+    "pred_entropy": 0.01441564317792654,
+    "subject_id": "BraTS-GLI-00103-000",
+    "N_b_target": 0.0557590126991272
+  },
+  {
+    "native_size": 92469,
+    "surface_to_volume": 0.19198866647200682,
+    "n_components": 3,
+    "max_component_frac": 0.9999242989542442,
+    "pred_entropy": 0.03661670535802841,
+    "subject_id": "BraTS-GLI-01103-000",
+    "N_b_target": 0.24602866172790527
+  },
+  {
+    "native_size": 120053,
+    "surface_to_volume": 0.2714384480187917,
+    "n_components": 27,
+    "max_component_frac": 0.9972845326647397,
+    "pred_entropy": 0.02857999876141548,
+    "subject_id": "BraTS-GLI-00514-001",
+    "N_b_target": 0.3488527536392212
+  },
+  {
+    "native_size": 88316,
+    "surface_to_volume": 0.2649463290909914,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.04297129809856415,
+    "subject_id": "BraTS-GLI-00611-001",
+    "N_b_target": 0.25756174325942993
+  },
+  {
+    "native_size": 56813,
+    "surface_to_volume": 0.3549187685916956,
+    "n_components": 4,
+    "max_component_frac": 0.6217062996145248,
+    "pred_entropy": 0.03494202718138695,
+    "subject_id": "BraTS-GLI-01369-000",
+    "N_b_target": 0.5079469680786133
+  },
+  {
+    "native_size": 61579,
+    "surface_to_volume": 0.35427662027639295,
+    "n_components": 6,
+    "max_component_frac": 0.897919745367739,
+    "pred_entropy": 0.030034411698579788,
+    "subject_id": "BraTS-GLI-01354-000",
+    "N_b_target": 0.14013046026229858
+  },
+  {
+    "native_size": 73437,
+    "surface_to_volume": 0.28308618271443553,
+    "n_components": 5,
+    "max_component_frac": 0.9892969484047551,
+    "pred_entropy": 0.023561779409646988,
+    "subject_id": "BraTS-GLI-01227-000",
+    "N_b_target": 0.06916087865829468
+  },
+  {
+    "native_size": 122261,
+    "surface_to_volume": 0.22129706120512674,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.023941440507769585,
+    "subject_id": "BraTS-GLI-01078-000",
+    "N_b_target": 0.07637631893157959
+  },
+  {
+    "native_size": 43568,
+    "surface_to_volume": 0.26374862284245315,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.0131541658192873,
+    "subject_id": "BraTS-GLI-00241-000",
+    "N_b_target": 0.2606445550918579
+  },
+  {
+    "native_size": 184720,
+    "surface_to_volume": 0.2219467301862278,
+    "n_components": 5,
+    "max_component_frac": 0.9999404504114335,
+    "pred_entropy": 0.013367986306548119,
+    "subject_id": "BraTS-GLI-00146-000",
+    "N_b_target": 0.2011306881904602
+  },
+  {
+    "native_size": 9993,
+    "surface_to_volume": 0.5572901030721505,
+    "n_components": 5,
+    "max_component_frac": 0.709996997898529,
+    "pred_entropy": 0.060917001217603683,
+    "subject_id": "BraTS-GLI-01349-000",
+    "N_b_target": 0.5176843404769897
+  },
+  {
+    "native_size": 16636,
+    "surface_to_volume": 0.32567924981966817,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.018849043175578117,
+    "subject_id": "BraTS-GLI-00044-000",
+    "N_b_target": 0.7136232107877731
+  },
+  {
+    "native_size": 135030,
+    "surface_to_volume": 0.16378582537213954,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02288581244647503,
+    "subject_id": "BraTS-GLI-01315-000",
+    "N_b_target": 0.45390093326568604
+  },
+  {
+    "native_size": 77815,
+    "surface_to_volume": 0.4517637987534537,
+    "n_components": 14,
+    "max_component_frac": 0.6559146694082117,
+    "pred_entropy": 0.03669135645031929,
+    "subject_id": "BraTS-GLI-00286-000",
+    "N_b_target": 0.07769143581390381
+  },
+  {
+    "native_size": 99834,
+    "surface_to_volume": 0.21710038664182543,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.026355983689427376,
+    "subject_id": "BraTS-GLI-00491-000",
+    "N_b_target": 0.3518640398979187
+  },
+  {
+    "native_size": 87782,
+    "surface_to_volume": 0.3648925747875419,
+    "n_components": 4,
+    "max_component_frac": 0.8501856872707388,
+    "pred_entropy": 0.04415716975927353,
+    "subject_id": "BraTS-GLI-00367-000",
+    "N_b_target": 0.06446331739425659
+  },
+  {
+    "native_size": 103083,
+    "surface_to_volume": 0.18618006848849955,
+    "n_components": 3,
+    "max_component_frac": 0.9998059815876527,
+    "pred_entropy": 0.01654612459242344,
+    "subject_id": "BraTS-GLI-00525-001",
+    "N_b_target": 0.423846960067749
+  },
+  {
+    "native_size": 61602,
+    "surface_to_volume": 0.2278335118989643,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02667948044836521,
+    "subject_id": "BraTS-GLI-00500-001",
+    "N_b_target": 0.5559443235397339
+  },
+  {
+    "native_size": 38741,
+    "surface_to_volume": 0.23979763041738728,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.018159393221139908,
+    "subject_id": "BraTS-GLI-00708-001",
+    "N_b_target": 0.6249651908874512
+  },
+  {
+    "native_size": 111382,
+    "surface_to_volume": 0.22720906430123358,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.016797445714473724,
+    "subject_id": "BraTS-GLI-01384-000",
+    "N_b_target": 0.03823596239089966
+  },
+  {
+    "native_size": 110422,
+    "surface_to_volume": 0.2263317092608357,
+    "n_components": 10,
+    "max_component_frac": 0.9993117313578815,
+    "pred_entropy": 0.015118064358830452,
+    "subject_id": "BraTS-GLI-00768-001",
+    "N_b_target": 0.31138157844543457
+  },
+  {
+    "native_size": 89516,
+    "surface_to_volume": 0.3676884579293087,
+    "n_components": 28,
+    "max_component_frac": 0.9646543634657492,
+    "pred_entropy": 0.03018302284181118,
+    "subject_id": "BraTS-GLI-01450-000",
+    "N_b_target": 0.3048245906829834
+  },
+  {
+    "native_size": 55153,
+    "surface_to_volume": 0.34313636610882453,
+    "n_components": 7,
+    "max_component_frac": 0.9895019309919678,
+    "pred_entropy": 0.0121035510674119,
+    "subject_id": "BraTS-GLI-00628-000",
+    "N_b_target": 0.4038170576095581
+  },
+  {
+    "native_size": 38714,
+    "surface_to_volume": 0.2949837268171721,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.013917568139731884,
+    "subject_id": "BraTS-GLI-00066-000",
+    "N_b_target": 0.47847089171409607
+  },
+  {
+    "native_size": 71716,
+    "surface_to_volume": 0.2582129510848346,
+    "n_components": 2,
+    "max_component_frac": 0.9999860561102125,
+    "pred_entropy": 0.028760913759469986,
+    "subject_id": "BraTS-GLI-00016-001",
+    "N_b_target": 0.34147757291793823
+  },
+  {
+    "native_size": 140999,
+    "surface_to_volume": 0.2425194504925567,
+    "n_components": 6,
+    "max_component_frac": 0.999964538755594,
+    "pred_entropy": 0.027327870950102806,
+    "subject_id": "BraTS-GLI-01362-000",
+    "N_b_target": 0.09744948148727417
+  },
+  {
+    "native_size": 149786,
+    "surface_to_volume": 0.15514801116259197,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.010683462023735046,
+    "subject_id": "BraTS-GLI-00604-000",
+    "N_b_target": 0.4563925266265869
+  },
+  {
+    "native_size": 97063,
+    "surface_to_volume": 0.2043209049792403,
+    "n_components": 2,
+    "max_component_frac": 0.9997836456734286,
+    "pred_entropy": 0.022364823147654533,
+    "subject_id": "BraTS-GLI-00491-001",
+    "N_b_target": 0.2851453423500061
+  },
+  {
+    "native_size": 17539,
+    "surface_to_volume": 0.3265864644506528,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02462787553668022,
+    "subject_id": "BraTS-GLI-00222-000",
+    "N_b_target": 0.2267335057258606
+  },
+  {
+    "native_size": 136499,
+    "surface_to_volume": 0.24188455593081268,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02317257784307003,
+    "subject_id": "BraTS-GLI-01062-000",
+    "N_b_target": 0.06948250532150269
+  },
+  {
+    "native_size": 175363,
+    "surface_to_volume": 0.18970934575708673,
+    "n_components": 2,
+    "max_component_frac": 0.9999828926284335,
+    "pred_entropy": 0.01465815119445324,
+    "subject_id": "BraTS-GLI-00266-000",
+    "N_b_target": 0.1832892894744873
+  },
+  {
+    "native_size": 50296,
+    "surface_to_volume": 0.3267854302529028,
+    "n_components": 3,
+    "max_component_frac": 0.9997812947351679,
+    "pred_entropy": 0.03870253637433052,
+    "subject_id": "BraTS-GLI-01090-000",
+    "N_b_target": 0.1915113925933838
+  },
+  {
+    "native_size": 140459,
+    "surface_to_volume": 0.2026214055347112,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.020741770043969154,
+    "subject_id": "BraTS-GLI-01374-000",
+    "N_b_target": 0.06370687484741211
+  },
+  {
+    "native_size": 74456,
+    "surface_to_volume": 0.1941817986461803,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.027276983484625816,
+    "subject_id": "BraTS-GLI-01176-000",
+    "N_b_target": 0.31891608238220215
+  },
+  {
+    "native_size": 113358,
+    "surface_to_volume": 0.17959032445879428,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02032850682735443,
+    "subject_id": "BraTS-GLI-00436-000",
+    "N_b_target": 0.19198119640350342
+  },
+  {
+    "native_size": 161243,
+    "surface_to_volume": 0.21308832011312118,
+    "n_components": 2,
+    "max_component_frac": 0.9992619834659489,
+    "pred_entropy": 0.013975996524095535,
+    "subject_id": "BraTS-GLI-01019-000",
+    "N_b_target": 0.17701196670532227
+  },
+  {
+    "native_size": 30602,
+    "surface_to_volume": 0.354682700477093,
+    "n_components": 2,
+    "max_component_frac": 0.9387948500098032,
+    "pred_entropy": 0.032216593623161316,
+    "subject_id": "BraTS-GLI-00377-000",
+    "N_b_target": 0.41796618700027466
+  },
+  {
+    "native_size": 70433,
+    "surface_to_volume": 0.2570669998438232,
+    "n_components": 3,
+    "max_component_frac": 0.9999574063294194,
+    "pred_entropy": 0.042248718440532684,
+    "subject_id": "BraTS-GLI-01314-000",
+    "N_b_target": 0.5085180997848511
+  },
+  {
+    "native_size": 158833,
+    "surface_to_volume": 0.2880635636171325,
+    "n_components": 3,
+    "max_component_frac": 0.6619531205731807,
+    "pred_entropy": 0.03849085420370102,
+    "subject_id": "BraTS-GLI-00559-000",
+    "N_b_target": 0.30652815103530884
+  },
+  {
+    "native_size": 76330,
+    "surface_to_volume": 0.30871217083715446,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.029161695390939713,
+    "subject_id": "BraTS-GLI-01114-000",
+    "N_b_target": 0.17498070001602173
+  },
+  {
+    "native_size": 113856,
+    "surface_to_volume": 0.22661958965711074,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.024876676499843597,
+    "subject_id": "BraTS-GLI-00338-000",
+    "N_b_target": 0.22010767459869385
+  },
+  {
+    "native_size": 129521,
+    "surface_to_volume": 0.25321762494112926,
+    "n_components": 6,
+    "max_component_frac": 0.9984712903699015,
+    "pred_entropy": 0.038550008088350296,
+    "subject_id": "BraTS-GLI-01293-000",
+    "N_b_target": 0.23225659132003784
+  },
+  {
+    "native_size": 166996,
+    "surface_to_volume": 0.32529521665189587,
+    "n_components": 4,
+    "max_component_frac": 0.9501664710531988,
+    "pred_entropy": 0.010908451862633228,
+    "subject_id": "BraTS-GLI-00242-000",
+    "N_b_target": -0.0212671160697937
+  },
+  {
+    "native_size": 117131,
+    "surface_to_volume": 0.21118235138434743,
+    "n_components": 3,
+    "max_component_frac": 0.999897550605732,
+    "pred_entropy": 0.02026784047484398,
+    "subject_id": "BraTS-GLI-00186-000",
+    "N_b_target": 0.04587066173553467
+  },
+  {
+    "native_size": 73145,
+    "surface_to_volume": 0.29189965137740104,
+    "n_components": 3,
+    "max_component_frac": 0.9999179711531889,
+    "pred_entropy": 0.035898663103580475,
+    "subject_id": "BraTS-GLI-01028-000",
+    "N_b_target": 0.27658528089523315
+  },
+  {
+    "native_size": 90377,
+    "surface_to_volume": 0.2533941157595406,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.013429914601147175,
+    "subject_id": "BraTS-GLI-00511-000",
+    "N_b_target": 0.1726984977722168
+  },
+  {
+    "native_size": 39628,
+    "surface_to_volume": 0.24851115372968607,
+    "n_components": 3,
+    "max_component_frac": 0.9997476531745231,
+    "pred_entropy": 0.014136845245957375,
+    "subject_id": "BraTS-GLI-01001-000",
+    "N_b_target": 0.04596710205078125
+  },
+  {
+    "native_size": 100873,
+    "surface_to_volume": 0.2661366272441585,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.01589687541127205,
+    "subject_id": "BraTS-GLI-01427-000",
+    "N_b_target": 0.39855432510375977
+  },
+  {
+    "native_size": 119693,
+    "surface_to_volume": 0.25009816781265404,
+    "n_components": 5,
+    "max_component_frac": 0.998872114492911,
+    "pred_entropy": 0.037261806428432465,
+    "subject_id": "BraTS-GLI-00683-000",
+    "N_b_target": 0.3102969527244568
+  },
+  {
+    "native_size": 65321,
+    "surface_to_volume": 0.21648474456912783,
+    "n_components": 3,
+    "max_component_frac": 0.9997091287641034,
+    "pred_entropy": 0.024339640513062477,
+    "subject_id": "BraTS-GLI-01319-000",
+    "N_b_target": 0.44962894916534424
+  },
+  {
+    "native_size": 86818,
+    "surface_to_volume": 0.19297841461448087,
+    "n_components": 4,
+    "max_component_frac": 0.9999654449538115,
+    "pred_entropy": 0.02462354674935341,
+    "subject_id": "BraTS-GLI-01323-000",
+    "N_b_target": 0.3513070344924927
+  },
+  {
+    "native_size": 75231,
+    "surface_to_volume": 0.3013784211295875,
+    "n_components": 4,
+    "max_component_frac": 0.9741462960747564,
+    "pred_entropy": 0.01747419498860836,
+    "subject_id": "BraTS-GLI-01402-000",
+    "N_b_target": 0.17558622360229492
+  },
+  {
+    "native_size": 131601,
+    "surface_to_volume": 0.20543156966892348,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.014971217140555382,
+    "subject_id": "BraTS-GLI-00249-000",
+    "N_b_target": 0.06029587984085083
+  },
+  {
+    "native_size": 122552,
+    "surface_to_volume": 0.22308081467458712,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.011258997954428196,
+    "subject_id": "BraTS-GLI-00032-001",
+    "N_b_target": 0.4124768376350403
+  },
+  {
+    "native_size": 95372,
+    "surface_to_volume": 0.26829677473472296,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.014934944920241833,
+    "subject_id": "BraTS-GLI-01074-000",
+    "N_b_target": 0.2168351411819458
+  },
+  {
+    "native_size": 132715,
+    "surface_to_volume": 0.23533134913159778,
+    "n_components": 2,
+    "max_component_frac": 0.9999924650567005,
+    "pred_entropy": 0.015911268070340157,
+    "subject_id": "BraTS-GLI-00616-000",
+    "N_b_target": 0.3334997296333313
+  },
+  {
+    "native_size": 17082,
+    "surface_to_volume": 0.3459196815361199,
+    "n_components": 3,
+    "max_component_frac": 0.9998243765367053,
+    "pred_entropy": 0.03659706562757492,
+    "subject_id": "BraTS-GLI-01530-000",
+    "N_b_target": 0.4623090624809265
+  },
+  {
+    "native_size": 66169,
+    "surface_to_volume": 0.3270262509634421,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.03367015719413757,
+    "subject_id": "BraTS-GLI-00098-000",
+    "N_b_target": 0.21613773703575134
+  },
+  {
+    "native_size": 129183,
+    "surface_to_volume": 0.27567094741568166,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.023330632597208023,
+    "subject_id": "BraTS-GLI-01195-000",
+    "N_b_target": 0.05255436897277832
+  },
+  {
+    "native_size": 114032,
+    "surface_to_volume": 0.1783008278377999,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02109338529407978,
+    "subject_id": "BraTS-GLI-00682-001",
+    "N_b_target": 0.41863566637039185
+  },
+  {
+    "native_size": 140710,
+    "surface_to_volume": 0.4404235661999858,
+    "n_components": 2,
+    "max_component_frac": 0.999992893184564,
+    "pred_entropy": 0.0387364998459816,
+    "subject_id": "BraTS-GLI-01075-000",
+    "N_b_target": 0.12460696697235107
+  },
+  {
+    "native_size": 59335,
+    "surface_to_volume": 0.38759585404904356,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.014488937333226204,
+    "subject_id": "BraTS-GLI-00299-000",
+    "N_b_target": 0.2093801498413086
+  },
+  {
+    "native_size": 74546,
+    "surface_to_volume": 0.26477611139430685,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.04159073159098625,
+    "subject_id": "BraTS-GLI-00016-000",
+    "N_b_target": 0.17680227756500244
+  },
+  {
+    "native_size": 148743,
+    "surface_to_volume": 0.2415038018595833,
+    "n_components": 2,
+    "max_component_frac": 0.9999865539890953,
+    "pred_entropy": 0.01965448632836342,
+    "subject_id": "BraTS-GLI-00404-000",
+    "N_b_target": 0.05885273218154907
+  },
+  {
+    "native_size": 83044,
+    "surface_to_volume": 0.23272000385337893,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.013781020417809486,
+    "subject_id": "BraTS-GLI-00723-000",
+    "N_b_target": 0.4302676022052765
+  },
+  {
+    "native_size": 102466,
+    "surface_to_volume": 0.2007690355825347,
+    "n_components": 4,
+    "max_component_frac": 0.9998633693127477,
+    "pred_entropy": 0.020630115643143654,
+    "subject_id": "BraTS-GLI-00498-001",
+    "N_b_target": 0.2852058410644531
+  },
+  {
+    "native_size": 71098,
+    "surface_to_volume": 0.23514022897971815,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.04119846969842911,
+    "subject_id": "BraTS-GLI-00193-000",
+    "N_b_target": 0.08356714248657227
+  },
+  {
+    "native_size": 138051,
+    "surface_to_volume": 0.23094363677191762,
+    "n_components": 2,
+    "max_component_frac": 0.9999855126004158,
+    "pred_entropy": 0.03518073260784149,
+    "subject_id": "BraTS-GLI-01139-000",
+    "N_b_target": 0.272821843624115
+  },
+  {
+    "native_size": 48705,
+    "surface_to_volume": 0.2686787804126886,
+    "n_components": 2,
+    "max_component_frac": 0.9998562775895699,
+    "pred_entropy": 0.023790637031197548,
+    "subject_id": "BraTS-GLI-00020-001",
+    "N_b_target": 0.5379432141780853
+  },
+  {
+    "native_size": 109201,
+    "surface_to_volume": 0.17040136995082464,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.013822951354086399,
+    "subject_id": "BraTS-GLI-00768-000",
+    "N_b_target": 0.4315282702445984
+  },
+  {
+    "native_size": 31109,
+    "surface_to_volume": 0.3752933234755216,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.027157487347722054,
+    "subject_id": "BraTS-GLI-01452-000",
+    "N_b_target": 0.5239098966121674
+  },
+  {
+    "native_size": 38502,
+    "surface_to_volume": 0.368630201028518,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.026535363867878914,
+    "subject_id": "BraTS-GLI-01130-000",
+    "N_b_target": -0.07522088289260864
+  },
+  {
+    "native_size": 62146,
+    "surface_to_volume": 0.23665239918900655,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.023761145770549774,
+    "subject_id": "BraTS-GLI-00680-001",
+    "N_b_target": 0.5615134537220001
+  },
+  {
+    "native_size": 30323,
+    "surface_to_volume": 0.35210896019523136,
+    "n_components": 5,
+    "max_component_frac": 0.9981861952972991,
+    "pred_entropy": 0.034124698489904404,
+    "subject_id": "BraTS-GLI-01516-000",
+    "N_b_target": 0.2649315595626831
+  },
+  {
+    "native_size": 146677,
+    "surface_to_volume": 0.18066227152177916,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.01985188201069832,
+    "subject_id": "BraTS-GLI-00818-000",
+    "N_b_target": 0.3235592842102051
+  },
+  {
+    "native_size": 7513,
+    "surface_to_volume": 0.6599228004791694,
+    "n_components": 3,
+    "max_component_frac": 0.9997337947557567,
+    "pred_entropy": 0.023556776344776154,
+    "subject_id": "BraTS-GLI-01255-000",
+    "N_b_target": 0.45133689045906067
+  },
+  {
+    "native_size": 51320,
+    "surface_to_volume": 0.22320732657833203,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.02245871163904667,
+    "subject_id": "BraTS-GLI-00228-000",
+    "N_b_target": 0.6738337874412537
+  },
+  {
+    "native_size": 7285,
+    "surface_to_volume": 0.467124227865477,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.06353458017110825,
+    "subject_id": "BraTS-GLI-01273-000",
+    "N_b_target": 0.5698873400688171
+  },
+  {
+    "native_size": 121324,
+    "surface_to_volume": 0.2678035673073753,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.021034155040979385,
+    "subject_id": "BraTS-GLI-00840-000",
+    "N_b_target": 0.09369820356369019
+  },
+  {
+    "native_size": 128899,
+    "surface_to_volume": 0.3303749447241639,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.032529301941394806,
+    "subject_id": "BraTS-GLI-00619-000",
+    "N_b_target": 0.2635798454284668
+  },
+  {
+    "native_size": 70109,
+    "surface_to_volume": 0.39354433810209816,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.027338307350873947,
+    "subject_id": "BraTS-GLI-01380-000",
+    "N_b_target": 0.40270209312438965
+  },
+  {
+    "native_size": 51782,
+    "surface_to_volume": 0.27285543238963345,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.025008773431181908,
+    "subject_id": "BraTS-GLI-00582-000",
+    "N_b_target": 0.5518956184387207
+  },
+  {
+    "native_size": 196777,
+    "surface_to_volume": 0.17454783841607505,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.015561075881123543,
+    "subject_id": "BraTS-GLI-01155-000",
+    "N_b_target": 0.1544877290725708
+  },
+  {
+    "native_size": 95466,
+    "surface_to_volume": 0.20368508159973184,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.013972380198538303,
+    "subject_id": "BraTS-GLI-01046-000",
+    "N_b_target": 0.1127275824546814
+  },
+  {
+    "native_size": 36221,
+    "surface_to_volume": 0.36429143314651724,
+    "n_components": 2,
+    "max_component_frac": 0.9999723917064687,
+    "pred_entropy": 0.023983662948012352,
+    "subject_id": "BraTS-GLI-00313-000",
+    "N_b_target": 0.16402792930603027
+  },
+  {
+    "native_size": 89260,
+    "surface_to_volume": 0.3772014340129957,
+    "n_components": 2,
+    "max_component_frac": 0.9999887967734707,
+    "pred_entropy": 0.023979930207133293,
+    "subject_id": "BraTS-GLI-00021-000",
+    "N_b_target": 0.12039673328399658
+  },
+  {
+    "native_size": 83290,
+    "surface_to_volume": 0.2678352743426582,
+    "n_components": 3,
+    "max_component_frac": 0.9932404850522272,
+    "pred_entropy": 0.014136232435703278,
+    "subject_id": "BraTS-GLI-00565-000",
+    "N_b_target": 0.2012873888015747
+  },
+  {
+    "native_size": 30073,
+    "surface_to_volume": 0.42606324610115387,
+    "n_components": 21,
+    "max_component_frac": 0.9942140790742526,
+    "pred_entropy": 0.047136664390563965,
+    "subject_id": "BraTS-GLI-01482-000",
+    "N_b_target": 0.5539320707321167
+  },
+  {
+    "native_size": 87535,
+    "surface_to_volume": 0.27580967612954815,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.023987770080566406,
+    "subject_id": "BraTS-GLI-00347-000",
+    "N_b_target": 0.058209359645843506
+  },
+  {
+    "native_size": 95815,
+    "surface_to_volume": 0.2736836612221468,
+    "n_components": 14,
+    "max_component_frac": 0.9781766946720242,
+    "pred_entropy": 0.017398767173290253,
+    "subject_id": "BraTS-GLI-01253-000",
+    "N_b_target": 0.20672303438186646
+  },
+  {
+    "native_size": 202427,
+    "surface_to_volume": 0.18941149155004025,
+    "n_components": 13,
+    "max_component_frac": 0.9995208149110544,
+    "pred_entropy": 0.022263577207922935,
+    "subject_id": "BraTS-GLI-01513-000",
+    "N_b_target": 0.21203607320785522
+  },
+  {
+    "native_size": 45528,
+    "surface_to_volume": 0.3912756984712704,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.05074454843997955,
+    "subject_id": "BraTS-GLI-00496-000",
+    "N_b_target": 0.22099393606185913
+  },
+  {
+    "native_size": 99795,
+    "surface_to_volume": 0.30529585650583696,
+    "n_components": 29,
+    "max_component_frac": 0.999298562052207,
+    "pred_entropy": 0.036728423088788986,
+    "subject_id": "BraTS-GLI-01104-000",
+    "N_b_target": 0.20777440071105957
+  },
+  {
+    "native_size": 153071,
+    "surface_to_volume": 0.2382358513369613,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.01937723346054554,
+    "subject_id": "BraTS-GLI-00445-000",
+    "N_b_target": 0.24552083015441895
+  },
+  {
+    "native_size": 39011,
+    "surface_to_volume": 0.31485991130706725,
+    "n_components": 3,
+    "max_component_frac": 0.8172823049909,
+    "pred_entropy": 0.016199365258216858,
+    "subject_id": "BraTS-GLI-01068-000",
+    "N_b_target": 0.05552119016647339
+  },
+  {
+    "native_size": 16748,
+    "surface_to_volume": 0.38213518032003824,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.020478544756770134,
+    "subject_id": "BraTS-GLI-00140-000",
+    "N_b_target": 0.7466210126876831
+  },
+  {
+    "native_size": 140258,
+    "surface_to_volume": 0.2816381240285759,
+    "n_components": 2,
+    "max_component_frac": 0.9999928702819091,
+    "pred_entropy": 0.03902512043714523,
+    "subject_id": "BraTS-GLI-01169-000",
+    "N_b_target": 0.23976343870162964
+  },
+  {
+    "native_size": 137297,
+    "surface_to_volume": 0.19264077146623743,
+    "n_components": 3,
+    "max_component_frac": 0.9989074779492633,
+    "pred_entropy": 0.013504859060049057,
+    "subject_id": "BraTS-GLI-01421-000",
+    "N_b_target": 0.26797914505004883
+  },
+  {
+    "native_size": 119315,
+    "surface_to_volume": 0.19626199555797677,
+    "n_components": 2,
+    "max_component_frac": 0.999991618824121,
+    "pred_entropy": 0.027131225913763046,
+    "subject_id": "BraTS-GLI-00096-000",
+    "N_b_target": 0.3437458276748657
+  },
+  {
+    "native_size": 25776,
+    "surface_to_volume": 0.36611576660459344,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.01068608183413744,
+    "subject_id": "BraTS-GLI-00425-000",
+    "N_b_target": -0.10422194004058838
+  },
+  {
+    "native_size": 49858,
+    "surface_to_volume": 0.2625857435115729,
+    "n_components": 11,
+    "max_component_frac": 0.9984957278671427,
+    "pred_entropy": 0.006220564246177673,
+    "subject_id": "BraTS-GLI-01536-000",
+    "N_b_target": 0.37493181228637695
+  },
+  {
+    "native_size": 98996,
+    "surface_to_volume": 0.29324417148167603,
+    "n_components": 3,
+    "max_component_frac": 0.9999696957452826,
+    "pred_entropy": 0.009236064739525318,
+    "subject_id": "BraTS-GLI-00574-000",
+    "N_b_target": 0.1859363317489624
+  },
+  {
+    "native_size": 149604,
+    "surface_to_volume": 0.2378947086976284,
+    "n_components": 2,
+    "max_component_frac": 0.9999465254939708,
+    "pred_entropy": 0.0257329773157835,
+    "subject_id": "BraTS-GLI-00130-000",
+    "N_b_target": 0.07895833253860474
+  },
+  {
+    "native_size": 67771,
+    "surface_to_volume": 0.28484159891398975,
+    "n_components": 4,
+    "max_component_frac": 0.9999114665564918,
+    "pred_entropy": 0.03907459229230881,
+    "subject_id": "BraTS-GLI-01342-000",
+    "N_b_target": 0.21408623456954956
+  },
+  {
+    "native_size": 66727,
+    "surface_to_volume": 0.24553778830158707,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.015522481873631477,
+    "subject_id": "BraTS-GLI-01393-000",
+    "N_b_target": 0.09119051694869995
+  },
+  {
+    "native_size": 139254,
+    "surface_to_volume": 0.17805592658020594,
+    "n_components": 3,
+    "max_component_frac": 0.9999640943886711,
+    "pred_entropy": 0.028280645608901978,
+    "subject_id": "BraTS-GLI-01428-000",
+    "N_b_target": 0.3513070344924927
+  },
+  {
+    "native_size": 25809,
+    "surface_to_volume": 0.4175287690340579,
+    "n_components": 3,
+    "max_component_frac": 0.8976713549536983,
+    "pred_entropy": 0.01901199482381344,
+    "subject_id": "BraTS-GLI-01159-000",
+    "N_b_target": 0.547450840473175
+  },
+  {
+    "native_size": 147785,
+    "surface_to_volume": 0.1671955881855398,
+    "n_components": 1,
+    "max_component_frac": 1.0,
+    "pred_entropy": 0.016839222982525826,
+    "subject_id": "BraTS-GLI-01424-000",
+    "N_b_target": 0.20153731107711792
+  }
+]

@@ -1,0 +1,35 @@
+Loaded checkpoint: C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e46\runs\AttnGate_seed0\checkpoints\best.pth
+best_val_dice=0.9101624600589275 (must match E48-E92's 0.9101624600589275)
+[Sanity check] soft_pool3d_2x2x2 output shape correct: True
+[Sanity check] dominant-vector window output (expect close to [10,10,10,10] in one cell): [10.0, 10.0, 10.0, 10.0]
+
+Validation set size: 125
+  extracted 25 subjects
+  extracted 50 subjects
+  extracted 75 subjects
+  extracted 100 subjects
+  extracted 125 subjects
+
+Total subjects: 125
+Probe-train: 93, Probe-test: 32 (IDENTICAL split rule to E90/E91/E92)
+
+=== Training probe for stage: real_pool3 (128ch @ 8^3) ===
+  real_pool3: mean decodability_dice = 0.6709
+
+=== Training probe for stage: soft_pool3 (128ch @ 8^3) ===
+  soft_pool3: mean decodability_dice = 0.6682
+
+Cross-check real_pool3 vs E92's pool3_output: E116=0.6709, E92=0.6709, diff=0.0000 (should be small -- identical construction)
+
+=== E116 Adaptive-Pooling Diagnostic ===
+  real_pool3  : small=0.5975, large=0.7442
+  soft_pool3  : small=0.6122, large=0.7241
+
+Small-lesion gain (soft_pool3 - real_pool3): +0.0147, permutation p=0.8160
+Large-lesion gain (soft_pool3 - real_pool3): -0.0200, permutation p=0.4860
+
+=== DECISION: FAIL_NO_MEANINGFUL_GAIN ===
+No meaningful, size-specific small-lesion decodability gain from replacing MaxPool3d with a simple magnitude-weighted soft pooling alternative at this exact site. Per this project's own zero-cost-kill precedent (E60), this specific alternative should be killed here -- do not proceed to a trainable/causally-conditioned version without first understanding WHY this simplest alternative failed to help.
+(Convenience label only -- inspect the actual mean/p-value numbers above directly, per this project's own established convention.)
+
+Saved E116_summary.json

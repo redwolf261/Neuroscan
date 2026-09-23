@@ -1,0 +1,15 @@
+Full training set: 1126 subjects
+  processed 100/1126 subjects
+  processed 200/1126 subjects
+  processed 300/1126 subjects
+  processed 400/1126 subjects
+  processed 500/1126 subjects
+  processed 600/1126 subjects
+  processed 700/1126 subjects
+  processed 800/1126 subjects
+  processed 900/1126 subjects
+  processed 1000/1126 subjects
+  processed 1100/1126 subjects
+
+Total native-space GT components (training set): 8722
+Saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e34\E34_alpha_c_train_table.json

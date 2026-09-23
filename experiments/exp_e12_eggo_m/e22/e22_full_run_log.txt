@@ -1,0 +1,1023 @@
+Using 20 fixed validation subjects (same set as E15)
+
+=== Checkpoint epoch 5 ===
+
+  --- Subject 0 (BraTS-GLI-01041-000) ---
+  ||g_seg||=4.0178e-01 ||g_margin||=2.1343e-01 ||g_total||=4.1169e-01
+  cos(g_seg,g_margin)=+0.4440 cos(g_seg,g_total)=+0.9989 cos(g_margin,g_total)=+0.4851
+  Baseline: Dice=0.7565 L_seg=0.2084 L_margin=0.0181 geometry=12.9309
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.1415 dL_seg=+0.3741 dL_margin=-0.0152 dGeom=+9.5136
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.7167 dL_seg=+0.4847 dL_margin=-0.0177 dGeom=+23.8009
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7277 dL_seg=+0.5938 dL_margin=-0.0181 dGeom=+63.5053
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7307 dL_seg=+0.7208 dL_margin=-0.0181 dGeom=+225.9829
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0438 dL_seg=+0.3281 dL_margin=-0.0136 dGeom=+13.5356
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.7127 dL_seg=+0.4717 dL_margin=-0.0165 dGeom=+34.5744
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7167 dL_seg=+0.5006 dL_margin=-0.0181 dGeom=+84.5107
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.7273 dL_seg=+0.5539 dL_margin=-0.0181 dGeom=+296.0030
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.1416 dL_seg=+0.3803 dL_margin=-0.0153 dGeom=+9.7899
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.7167 dL_seg=+0.4852 dL_margin=-0.0177 dGeom=+24.4860
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7276 dL_seg=+0.5889 dL_margin=-0.0181 dGeom=+64.7298
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7306 dL_seg=+0.7134 dL_margin=-0.0181 dGeom=+231.1525
+  D_useful   push=1.00 (activation-space)  dDice=+0.0233 dL_seg=-0.0358 dL_margin=-0.0117
+  D_useful   push=2.00 (activation-space)  dDice=+0.0441 dL_seg=-0.0593 dL_margin=-0.0159
+  D_useful   push=4.00 (activation-space)  dDice=+0.0650 dL_seg=-0.0872 dL_margin=-0.0179
+  D_useful   push=14.00 (activation-space)  dDice=+0.1319 dL_seg=-0.1379 dL_margin=-0.0181
+
+  --- Subject 1 (BraTS-GLI-01161-000) ---
+  ||g_seg||=6.5753e-01 ||g_margin||=2.6361e-01 ||g_total||=6.7184e-01
+  cos(g_seg,g_margin)=+0.5286 cos(g_seg,g_total)=+0.9994 cos(g_margin,g_total)=+0.5566
+  Baseline: Dice=0.6469 L_seg=0.2430 L_margin=0.0249 geometry=13.6861
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.5617 dL_seg=+0.3173 dL_margin=-0.0243 dGeom=+15.8531
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.5950 dL_seg=+0.4677 dL_margin=-0.0249 dGeom=+41.5284
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6061 dL_seg=+0.6378 dL_margin=-0.0249 dGeom=+124.8476
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.6101 dL_seg=+0.9059 dL_margin=-0.0249 dGeom=+445.1748
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.2342 dL_seg=+0.3156 dL_margin=-0.0238 dGeom=+18.6084
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.5837 dL_seg=+0.3942 dL_margin=-0.0249 dGeom=+50.8655
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.5928 dL_seg=+0.4346 dL_margin=-0.0249 dGeom=+165.3931
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.6061 dL_seg=+0.4804 dL_margin=-0.0249 dGeom=+685.9995
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.5621 dL_seg=+0.3202 dL_margin=-0.0243 dGeom=+16.0761
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.5948 dL_seg=+0.4667 dL_margin=-0.0249 dGeom=+42.1638
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.6061 dL_seg=+0.6342 dL_margin=-0.0249 dGeom=+127.3005
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.6100 dL_seg=+0.8991 dL_margin=-0.0249 dGeom=+457.5526
+  D_useful   push=1.00 (activation-space)  dDice=+0.0207 dL_seg=-0.0257 dL_margin=-0.0142
+  D_useful   push=2.00 (activation-space)  dDice=+0.0383 dL_seg=-0.0450 dL_margin=-0.0206
+  D_useful   push=4.00 (activation-space)  dDice=+0.0689 dL_seg=-0.0725 dL_margin=-0.0243
+  D_useful   push=14.00 (activation-space)  dDice=+0.1556 dL_seg=-0.1344 dL_margin=-0.0249
+
+  --- Subject 2 (BraTS-GLI-01189-000) ---
+  ||g_seg||=6.1945e-01 ||g_margin||=1.3549e-01 ||g_total||=6.2795e-01
+  cos(g_seg,g_margin)=+0.6207 cos(g_seg,g_total)=+0.9999 cos(g_margin,g_total)=+0.6339
+  Baseline: Dice=0.6010 L_seg=0.2713 L_margin=0.0168 geometry=11.4926
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.5294 dL_seg=+0.2921 dL_margin=-0.0162 dGeom=+14.3054
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.5530 dL_seg=+0.4263 dL_margin=-0.0168 dGeom=+37.3608
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.5608 dL_seg=+0.5749 dL_margin=-0.0168 dGeom=+114.4625
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.5640 dL_seg=+0.7675 dL_margin=-0.0168 dGeom=+430.3956
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.1338 dL_seg=+0.2959 dL_margin=-0.0155 dGeom=+17.8109
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.5493 dL_seg=+0.3851 dL_margin=-0.0167 dGeom=+45.7608
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.5517 dL_seg=+0.4140 dL_margin=-0.0168 dGeom=+133.3786
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.5613 dL_seg=+0.4550 dL_margin=-0.0168 dGeom=+530.9503
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.5305 dL_seg=+0.2937 dL_margin=-0.0162 dGeom=+14.4214
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.5529 dL_seg=+0.4257 dL_margin=-0.0168 dGeom=+37.7099
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.5608 dL_seg=+0.5730 dL_margin=-0.0168 dGeom=+115.8701
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.5639 dL_seg=+0.7623 dL_margin=-0.0168 dGeom=+437.4031
+  D_useful   push=1.00 (activation-space)  dDice=+0.0240 dL_seg=-0.0284 dL_margin=-0.0108
+  D_useful   push=2.00 (activation-space)  dDice=+0.0402 dL_seg=-0.0496 dL_margin=-0.0147
+  D_useful   push=4.00 (activation-space)  dDice=+0.0685 dL_seg=-0.0789 dL_margin=-0.0165
+  D_useful   push=14.00 (activation-space)  dDice=+0.1548 dL_seg=-0.1425 dL_margin=-0.0168
+
+  --- Subject 3 (BraTS-GLI-01336-000) ---
+  ||g_seg||=3.6983e-01 ||g_margin||=3.5929e-02 ||g_total||=3.7142e-01
+  cos(g_seg,g_margin)=+0.4389 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=+0.4467
+  Baseline: Dice=0.8843 L_seg=0.1729 L_margin=0.0038 geometry=17.5167
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.8477 dL_seg=+0.4480 dL_margin=-0.0034 dGeom=+12.4407
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.8585 dL_seg=+0.5203 dL_margin=-0.0038 dGeom=+31.3398
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8651 dL_seg=+0.6137 dL_margin=-0.0038 dGeom=+87.1747
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8682 dL_seg=+0.8292 dL_margin=-0.0038 dGeom=+311.9804
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0196 dL_seg=+0.3453 dL_margin=-0.0037 dGeom=+14.6049
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.8499 dL_seg=+0.4854 dL_margin=-0.0038 dGeom=+44.9251
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8574 dL_seg=+0.5332 dL_margin=-0.0038 dGeom=+170.3636
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8659 dL_seg=+0.5751 dL_margin=-0.0038 dGeom=+800.5410
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.8478 dL_seg=+0.4485 dL_margin=-0.0034 dGeom=+12.4800
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.8585 dL_seg=+0.5203 dL_margin=-0.0038 dGeom=+31.4407
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8651 dL_seg=+0.6123 dL_margin=-0.0038 dGeom=+87.5337
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8682 dL_seg=+0.8262 dL_margin=-0.0038 dGeom=+314.1516
+  D_useful   push=1.00 (activation-space)  dDice=+0.0186 dL_seg=-0.0398 dL_margin=-0.0025
+  D_useful   push=2.00 (activation-space)  dDice=+0.0341 dL_seg=-0.0639 dL_margin=-0.0034
+  D_useful   push=4.00 (activation-space)  dDice=+0.0517 dL_seg=-0.0888 dL_margin=-0.0038
+  D_useful   push=14.00 (activation-space)  dDice=+0.0880 dL_seg=-0.1247 dL_margin=-0.0038
+
+  --- Subject 4 (BraTS-GLI-00250-000) ---
+  ||g_seg||=3.0822e-01 ||g_margin||=9.1134e-02 ||g_total||=3.1155e-01
+  cos(g_seg,g_margin)=+0.3537 cos(g_seg,g_total)=+0.9996 cos(g_margin,g_total)=+0.3792
+  Baseline: Dice=0.8810 L_seg=0.1492 L_margin=0.0190 geometry=18.1080
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0256 dL_seg=+0.3511 dL_margin=-0.0175 dGeom=+15.2379
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.8293 dL_seg=+0.5496 dL_margin=-0.0189 dGeom=+36.4821
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8459 dL_seg=+0.7387 dL_margin=-0.0190 dGeom=+96.0994
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8520 dL_seg=+1.0617 dL_margin=-0.0190 dGeom=+313.0457
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0119 dL_seg=+0.4008 dL_margin=-0.0184 dGeom=+14.4948
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.8240 dL_seg=+0.5158 dL_margin=-0.0189 dGeom=+39.6492
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8312 dL_seg=+0.5447 dL_margin=-0.0190 dGeom=+129.2800
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8440 dL_seg=+0.5899 dL_margin=-0.0190 dGeom=+616.3358
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0248 dL_seg=+0.3613 dL_margin=-0.0175 dGeom=+15.3382
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.8294 dL_seg=+0.5507 dL_margin=-0.0189 dGeom=+36.7001
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8458 dL_seg=+0.7387 dL_margin=-0.0190 dGeom=+96.5953
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8519 dL_seg=+1.0630 dL_margin=-0.0190 dGeom=+316.8117
+  D_useful   push=1.00 (activation-space)  dDice=+0.0104 dL_seg=-0.0244 dL_margin=-0.0113
+  D_useful   push=2.00 (activation-space)  dDice=+0.0190 dL_seg=-0.0399 dL_margin=-0.0161
+  D_useful   push=4.00 (activation-space)  dDice=+0.0295 dL_seg=-0.0582 dL_margin=-0.0185
+  D_useful   push=14.00 (activation-space)  dDice=+0.0600 dL_seg=-0.0923 dL_margin=-0.0190
+
+  --- Subject 5 (BraTS-GLI-00501-000) ---
+  ||g_seg||=8.1389e-01 ||g_margin||=5.3727e-01 ||g_total||=8.4313e-01
+  cos(g_seg,g_margin)=+0.5209 cos(g_seg,g_total)=+0.9985 cos(g_margin,g_total)=+0.5665
+  Baseline: Dice=0.5963 L_seg=0.2625 L_margin=0.0287 geometry=12.9557
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.4686 dL_seg=+0.2720 dL_margin=-0.0286 dGeom=+17.0751
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.5085 dL_seg=+0.4147 dL_margin=-0.0287 dGeom=+44.5219
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.5267 dL_seg=+0.5762 dL_margin=-0.0287 dGeom=+134.9713
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.5356 dL_seg=+0.7961 dL_margin=-0.0287 dGeom=+487.8385
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.5104 dL_seg=+0.3382 dL_margin=-0.0269 dGeom=+16.1035
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.5183 dL_seg=+0.3768 dL_margin=-0.0285 dGeom=+42.0910
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.5086 dL_seg=+0.4008 dL_margin=-0.0287 dGeom=+118.4807
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.5276 dL_seg=+0.4627 dL_margin=-0.0287 dGeom=+451.9792
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.4700 dL_seg=+0.2800 dL_margin=-0.0286 dGeom=+17.2287
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.5081 dL_seg=+0.4132 dL_margin=-0.0287 dGeom=+45.0329
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.5266 dL_seg=+0.5715 dL_margin=-0.0287 dGeom=+137.3131
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.5353 dL_seg=+0.7898 dL_margin=-0.0287 dGeom=+503.3181
+  D_useful   push=1.00 (activation-space)  dDice=+0.0162 dL_seg=-0.0206 dL_margin=-0.0167
+  D_useful   push=2.00 (activation-space)  dDice=+0.0348 dL_seg=-0.0373 dL_margin=-0.0239
+  D_useful   push=4.00 (activation-space)  dDice=+0.0665 dL_seg=-0.0630 dL_margin=-0.0280
+  D_useful   push=14.00 (activation-space)  dDice=+0.1615 dL_seg=-0.1304 dL_margin=-0.0287
+
+  --- Subject 6 (BraTS-GLI-01093-000) ---
+  ||g_seg||=5.2844e-01 ||g_margin||=2.4067e-01 ||g_total||=5.3798e-01
+  cos(g_seg,g_margin)=+0.3770 cos(g_seg,g_total)=+0.9991 cos(g_margin,g_total)=+0.4150
+  Baseline: Dice=0.8246 L_seg=0.1612 L_margin=0.0139 geometry=16.9724
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.1031 dL_seg=+0.3466 dL_margin=-0.0134 dGeom=+16.1031
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.7529 dL_seg=+0.5134 dL_margin=-0.0139 dGeom=+38.9202
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7734 dL_seg=+0.6745 dL_margin=-0.0139 dGeom=+105.7092
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7803 dL_seg=+0.8481 dL_margin=-0.0139 dGeom=+350.3446
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.7426 dL_seg=+0.4548 dL_margin=-0.0127 dGeom=+10.7871
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.7533 dL_seg=+0.5029 dL_margin=-0.0134 dGeom=+30.6093
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7531 dL_seg=+0.5253 dL_margin=-0.0139 dGeom=+81.8615
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.7726 dL_seg=+0.5776 dL_margin=-0.0139 dGeom=+293.1285
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.1858 dL_seg=+0.3620 dL_margin=-0.0135 dGeom=+16.0260
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.7532 dL_seg=+0.5126 dL_margin=-0.0139 dGeom=+38.8294
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7733 dL_seg=+0.6719 dL_margin=-0.0139 dGeom=+105.7521
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7802 dL_seg=+0.8439 dL_margin=-0.0139 dGeom=+354.3788
+  D_useful   push=1.00 (activation-space)  dDice=+0.0148 dL_seg=-0.0209 dL_margin=-0.0086
+  D_useful   push=2.00 (activation-space)  dDice=+0.0272 dL_seg=-0.0355 dL_margin=-0.0118
+  D_useful   push=4.00 (activation-space)  dDice=+0.0445 dL_seg=-0.0548 dL_margin=-0.0133
+  D_useful   push=14.00 (activation-space)  dDice=+0.0945 dL_seg=-0.0963 dL_margin=-0.0139
+
+  --- Subject 7 (BraTS-GLI-01168-000) ---
+  ||g_seg||=4.2781e-01 ||g_margin||=2.8484e-02 ||g_total||=4.2954e-01
+  cos(g_seg,g_margin)=+0.6060 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=+0.6102
+  Baseline: Dice=0.8708 L_seg=0.1688 L_margin=0.0022 geometry=19.6950
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.8265 dL_seg=+0.4610 dL_margin=-0.0021 dGeom=+18.8051
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.8405 dL_seg=+0.5690 dL_margin=-0.0022 dGeom=+50.5017
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8448 dL_seg=+0.7509 dL_margin=-0.0022 dGeom=+167.4442
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8475 dL_seg=+1.0131 dL_margin=-0.0022 dGeom=+668.6580
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.8072 dL_seg=+0.4228 dL_margin=-0.0019 dGeom=+19.3463
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.8318 dL_seg=+0.5170 dL_margin=-0.0022 dGeom=+56.1800
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8413 dL_seg=+0.6166 dL_margin=-0.0022 dGeom=+196.9791
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8469 dL_seg=+0.7928 dL_margin=-0.0022 dGeom=+861.0210
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.8265 dL_seg=+0.4612 dL_margin=-0.0021 dGeom=+18.8364
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.8404 dL_seg=+0.5689 dL_margin=-0.0022 dGeom=+50.6088
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8448 dL_seg=+0.7511 dL_margin=-0.0022 dGeom=+167.9742
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8475 dL_seg=+1.0135 dL_margin=-0.0022 dGeom=+671.6440
+  D_useful   push=1.00 (activation-space)  dDice=+0.0083 dL_seg=-0.0304 dL_margin=-0.0014
+  D_useful   push=2.00 (activation-space)  dDice=+0.0158 dL_seg=-0.0499 dL_margin=-0.0019
+  D_useful   push=4.00 (activation-space)  dDice=+0.0294 dL_seg=-0.0719 dL_margin=-0.0022
+  D_useful   push=14.00 (activation-space)  dDice=+0.0668 dL_seg=-0.1095 dL_margin=-0.0022
+
+=== Checkpoint epoch 10 ===
+
+  --- Subject 0 (BraTS-GLI-01041-000) ---
+  ||g_seg||=9.3545e-02 ||g_margin||=7.3987e-02 ||g_total||=9.6169e-02
+  cos(g_seg,g_margin)=+0.3201 cos(g_seg,g_total)=+0.9973 cos(g_margin,g_total)=+0.3883
+  Baseline: Dice=0.9043 L_seg=0.0822 L_margin=0.0022 geometry=22.6281
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0156 dL_seg=+0.0159 dL_margin=+0.0009 dGeom=+3.9533
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0390 dL_seg=+0.1081 dL_margin=-0.0002 dGeom=+12.5749
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.1372 dL_seg=+0.4171 dL_margin=-0.0015 dGeom=+35.9683
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8638 dL_seg=+0.6060 dL_margin=-0.0022 dGeom=+93.8868
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0131 dL_seg=+0.0878 dL_margin=-0.0007 dGeom=+12.7648
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0361 dL_seg=+0.2162 dL_margin=-0.0015 dGeom=+36.6799
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1039 dL_seg=+0.4359 dL_margin=-0.0022 dGeom=+91.5230
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.5145 dL_seg=+0.5744 dL_margin=-0.0022 dGeom=+223.4858
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0166 dL_seg=+0.0209 dL_margin=+0.0007 dGeom=+4.6774
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0354 dL_seg=+0.1390 dL_margin=-0.0005 dGeom=+14.8298
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.1340 dL_seg=+0.4455 dL_margin=-0.0018 dGeom=+41.3773
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8629 dL_seg=+0.6013 dL_margin=-0.0022 dGeom=+105.1789
+  D_useful   push=1.00 (activation-space)  dDice=+0.0067 dL_seg=-0.0084 dL_margin=-0.0010
+  D_useful   push=2.00 (activation-space)  dDice=+0.0132 dL_seg=-0.0145 dL_margin=-0.0016
+  D_useful   push=4.00 (activation-space)  dDice=+0.0248 dL_seg=-0.0236 dL_margin=-0.0021
+  D_useful   push=14.00 (activation-space)  dDice=+0.0595 dL_seg=-0.0467 dL_margin=-0.0022
+
+  --- Subject 1 (BraTS-GLI-01161-000) ---
+  ||g_seg||=1.2972e-01 ||g_margin||=1.1859e-01 ||g_total||=1.3253e-01
+  cos(g_seg,g_margin)=+0.1937 cos(g_seg,g_total)=+0.9961 cos(g_margin,g_total)=+0.2791
+  Baseline: Dice=0.8675 L_seg=0.0930 L_margin=0.0047 geometry=23.7705
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0054 dL_seg=+0.0211 dL_margin=-0.0035 dGeom=+11.1591
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1737 dL_seg=+0.1759 dL_margin=-0.0046 dGeom=+26.5182
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6515 dL_seg=+0.5194 dL_margin=-0.0047 dGeom=+68.3176
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8180 dL_seg=+0.7016 dL_margin=-0.0047 dGeom=+203.8905
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0320 dL_seg=+0.0678 dL_margin=-0.0034 dGeom=+19.4348
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0857 dL_seg=+0.1313 dL_margin=-0.0040 dGeom=+52.6731
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.2769 dL_seg=+0.2231 dL_margin=-0.0047 dGeom=+140.4754
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8510 dL_seg=+0.5620 dL_margin=-0.0047 dGeom=+418.6337
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0091 dL_seg=+0.0243 dL_margin=-0.0037 dGeom=+12.2108
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1597 dL_seg=+0.1991 dL_margin=-0.0046 dGeom=+29.4722
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7061 dL_seg=+0.5259 dL_margin=-0.0047 dGeom=+76.3807
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8180 dL_seg=+0.6857 dL_margin=-0.0047 dGeom=+228.5680
+  D_useful   push=1.00 (activation-space)  dDice=+0.0139 dL_seg=-0.0087 dL_margin=-0.0025
+  D_useful   push=2.00 (activation-space)  dDice=+0.0228 dL_seg=-0.0156 dL_margin=-0.0038
+  D_useful   push=4.00 (activation-space)  dDice=+0.0367 dL_seg=-0.0259 dL_margin=-0.0046
+  D_useful   push=14.00 (activation-space)  dDice=+0.0731 dL_seg=-0.0513 dL_margin=-0.0047
+
+  --- Subject 2 (BraTS-GLI-01189-000) ---
+  ||g_seg||=1.1844e-01 ||g_margin||=6.7969e-02 ||g_total||=1.2078e-01
+  cos(g_seg,g_margin)=+0.3192 cos(g_seg,g_total)=+0.9986 cos(g_margin,g_total)=+0.3693
+  Baseline: Dice=0.8889 L_seg=0.0873 L_margin=0.0029 geometry=21.9908
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0150 dL_seg=+0.0187 dL_margin=-0.0020 dGeom=+7.8394
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0767 dL_seg=+0.0903 dL_margin=-0.0028 dGeom=+20.0468
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.4066 dL_seg=+0.3739 dL_margin=-0.0029 dGeom=+55.5742
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7821 dL_seg=+0.6058 dL_margin=-0.0029 dGeom=+184.7790
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0085 dL_seg=+0.0760 dL_margin=-0.0018 dGeom=+14.6649
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0247 dL_seg=+0.1735 dL_margin=-0.0021 dGeom=+42.1369
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0740 dL_seg=+0.2518 dL_margin=-0.0029 dGeom=+114.8110
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.5037 dL_seg=+0.3809 dL_margin=-0.0029 dGeom=+362.4465
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0148 dL_seg=+0.0215 dL_margin=-0.0021 dGeom=+8.3816
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0731 dL_seg=+0.1078 dL_margin=-0.0028 dGeom=+21.7956
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.3894 dL_seg=+0.3855 dL_margin=-0.0029 dGeom=+60.5950
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8065 dL_seg=+0.6091 dL_margin=-0.0029 dGeom=+201.5061
+  D_useful   push=1.00 (activation-space)  dDice=+0.0045 dL_seg=-0.0073 dL_margin=-0.0014
+  D_useful   push=2.00 (activation-space)  dDice=+0.0102 dL_seg=-0.0128 dL_margin=-0.0022
+  D_useful   push=4.00 (activation-space)  dDice=+0.0170 dL_seg=-0.0210 dL_margin=-0.0028
+  D_useful   push=14.00 (activation-space)  dDice=+0.0389 dL_seg=-0.0419 dL_margin=-0.0029
+
+  --- Subject 3 (BraTS-GLI-01336-000) ---
+  ||g_seg||=1.3705e-01 ||g_margin||=4.7607e-03 ||g_total||=1.3718e-01
+  cos(g_seg,g_margin)=+0.2769 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=+0.2801
+  Baseline: Dice=0.9468 L_seg=0.0710 L_margin=0.0004 geometry=25.7508
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0676 dL_seg=+0.0201 dL_margin=-0.0002 dGeom=-4.0882
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1893 dL_seg=+0.0633 dL_margin=-0.0001 dGeom=-2.5371
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6013 dL_seg=+0.2612 dL_margin=-0.0003 dGeom=+9.0319
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9468 dL_seg=+0.4725 dL_margin=-0.0004 dGeom=+43.3196
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0087 dL_seg=+0.0306 dL_margin=-0.0003 dGeom=+5.1323
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0317 dL_seg=+0.1031 dL_margin=-0.0003 dGeom=+20.3917
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1297 dL_seg=+0.1982 dL_margin=-0.0004 dGeom=+78.7397
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.5390 dL_seg=+0.4089 dL_margin=-0.0004 dGeom=+356.1883
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0676 dL_seg=+0.0202 dL_margin=-0.0002 dGeom=-4.0707
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1893 dL_seg=+0.0635 dL_margin=-0.0001 dGeom=-2.4755
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.6023 dL_seg=+0.2618 dL_margin=-0.0003 dGeom=+9.2023
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9468 dL_seg=+0.4725 dL_margin=-0.0004 dGeom=+43.7608
+  D_useful   push=1.00 (activation-space)  dDice=+0.0064 dL_seg=-0.0085 dL_margin=-0.0002
+  D_useful   push=2.00 (activation-space)  dDice=+0.0097 dL_seg=-0.0142 dL_margin=-0.0003
+  D_useful   push=4.00 (activation-space)  dDice=+0.0165 dL_seg=-0.0219 dL_margin=-0.0004
+  D_useful   push=14.00 (activation-space)  dDice=+0.0386 dL_seg=-0.0402 dL_margin=-0.0004
+
+  --- Subject 4 (BraTS-GLI-00250-000) ---
+  ||g_seg||=6.6036e-02 ||g_margin||=3.9000e-02 ||g_total||=6.7191e-02
+  cos(g_seg,g_margin)=+0.2691 cos(g_seg,g_total)=+0.9984 cos(g_margin,g_total)=+0.3225
+  Baseline: Dice=0.9148 L_seg=0.0783 L_margin=0.0012 geometry=24.6984
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0235 dL_seg=+0.0262 dL_margin=-0.0009 dGeom=+7.8147
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0988 dL_seg=+0.1260 dL_margin=-0.0011 dGeom=+19.8670
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.2814 dL_seg=+0.3601 dL_margin=-0.0012 dGeom=+54.8718
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7746 dL_seg=+0.5772 dL_margin=-0.0012 dGeom=+193.2098
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0078 dL_seg=+0.0526 dL_margin=-0.0009 dGeom=+9.6282
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0347 dL_seg=+0.1086 dL_margin=-0.0011 dGeom=+32.1653
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.3937 dL_seg=+0.2734 dL_margin=-0.0012 dGeom=+103.5845
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9148 dL_seg=+0.6112 dL_margin=-0.0012 dGeom=+444.6849
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0217 dL_seg=+0.0290 dL_margin=-0.0009 dGeom=+8.1133
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0945 dL_seg=+0.1422 dL_margin=-0.0012 dGeom=+21.0087
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.2746 dL_seg=+0.3646 dL_margin=-0.0012 dGeom=+58.4439
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7627 dL_seg=+0.5731 dL_margin=-0.0012 dGeom=+206.4720
+  D_useful   push=1.00 (activation-space)  dDice=+0.0040 dL_seg=-0.0069 dL_margin=-0.0006
+  D_useful   push=2.00 (activation-space)  dDice=+0.0083 dL_seg=-0.0121 dL_margin=-0.0009
+  D_useful   push=4.00 (activation-space)  dDice=+0.0170 dL_seg=-0.0198 dL_margin=-0.0011
+  D_useful   push=14.00 (activation-space)  dDice=+0.0406 dL_seg=-0.0400 dL_margin=-0.0012
+
+  --- Subject 5 (BraTS-GLI-00501-000) ---
+  ||g_seg||=3.1572e-01 ||g_margin||=5.3841e-01 ||g_total||=3.2504e-01
+  cos(g_seg,g_margin)=+0.0905 cos(g_seg,g_total)=+0.9863 cos(g_margin,g_total)=+0.2536
+  Baseline: Dice=0.8938 L_seg=0.0847 L_margin=0.0051 geometry=23.0332
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0150 dL_seg=+0.0120 dL_margin=-0.0047 dGeom=+9.6148
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1968 dL_seg=+0.1804 dL_margin=-0.0051 dGeom=+21.7588
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6935 dL_seg=+0.5312 dL_margin=-0.0051 dGeom=+54.1404
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8142 dL_seg=+0.7498 dL_margin=-0.0051 dGeom=+159.1543
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0175 dL_seg=+0.0646 dL_margin=-0.0028 dGeom=+11.6803
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0399 dL_seg=+0.1675 dL_margin=-0.0037 dGeom=+34.0759
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0955 dL_seg=+0.3715 dL_margin=-0.0050 dGeom=+90.9976
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.7832 dL_seg=+0.5058 dL_margin=-0.0051 dGeom=+254.0848
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0188 dL_seg=+0.0187 dL_margin=-0.0048 dGeom=+10.2239
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1913 dL_seg=+0.2230 dL_margin=-0.0051 dGeom=+24.1169
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7885 dL_seg=+0.5519 dL_margin=-0.0051 dGeom=+61.5398
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8146 dL_seg=+0.7173 dL_margin=-0.0051 dGeom=+186.3544
+  D_useful   push=1.00 (activation-space)  dDice=+0.0083 dL_seg=-0.0073 dL_margin=-0.0027
+  D_useful   push=2.00 (activation-space)  dDice=+0.0159 dL_seg=-0.0133 dL_margin=-0.0041
+  D_useful   push=4.00 (activation-space)  dDice=+0.0294 dL_seg=-0.0227 dL_margin=-0.0049
+  D_useful   push=14.00 (activation-space)  dDice=+0.0631 dL_seg=-0.0469 dL_margin=-0.0051
+
+  --- Subject 6 (BraTS-GLI-01093-000) ---
+  ||g_seg||=1.7038e-01 ||g_margin||=1.4146e-01 ||g_total||=1.7299e-01
+  cos(g_seg,g_margin)=+0.1444 cos(g_seg,g_total)=+0.9967 cos(g_margin,g_total)=+0.2240
+  Baseline: Dice=0.9317 L_seg=0.0717 L_margin=0.0018 geometry=24.3553
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0256 dL_seg=+0.0284 dL_margin=-0.0014 dGeom=+9.2064
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1257 dL_seg=+0.1743 dL_margin=-0.0018 dGeom=+21.0130
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7444 dL_seg=+0.5700 dL_margin=-0.0018 dGeom=+52.0526
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8773 dL_seg=+0.7830 dL_margin=-0.0018 dGeom=+157.1256
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0160 dL_seg=+0.0802 dL_margin=-0.0013 dGeom=+12.7232
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0401 dL_seg=+0.1266 dL_margin=-0.0014 dGeom=+36.6151
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1296 dL_seg=+0.1607 dL_margin=-0.0017 dGeom=+94.6503
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8088 dL_seg=+0.5211 dL_margin=-0.0018 dGeom=+249.4178
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0225 dL_seg=+0.0325 dL_margin=-0.0014 dGeom=+9.6118
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1214 dL_seg=+0.2067 dL_margin=-0.0018 dGeom=+22.4889
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7736 dL_seg=+0.5797 dL_margin=-0.0018 dGeom=+56.2235
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8773 dL_seg=+0.7692 dL_margin=-0.0018 dGeom=+169.1362
+  D_useful   push=1.00 (activation-space)  dDice=+0.0059 dL_seg=-0.0064 dL_margin=-0.0010
+  D_useful   push=2.00 (activation-space)  dDice=+0.0116 dL_seg=-0.0114 dL_margin=-0.0014
+  D_useful   push=4.00 (activation-space)  dDice=+0.0227 dL_seg=-0.0191 dL_margin=-0.0017
+  D_useful   push=14.00 (activation-space)  dDice=+0.0454 dL_seg=-0.0389 dL_margin=-0.0018
+
+  --- Subject 7 (BraTS-GLI-01168-000) ---
+  ||g_seg||=1.2992e-01 ||g_margin||=1.1808e-02 ||g_total||=1.2999e-01
+  cos(g_seg,g_margin)=+0.0591 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=+0.0682
+  Baseline: Dice=0.8946 L_seg=0.0849 L_margin=0.0007 geometry=24.9428
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0287 dL_seg=-0.0115 dL_margin=+0.0002 dGeom=-1.3818
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0008 dL_seg=-0.0051 dL_margin=+0.0002 dGeom=-0.7699
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.1225 dL_seg=+0.0359 dL_margin=-0.0004 dGeom=+5.8336
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.6733 dL_seg=+0.3250 dL_margin=-0.0007 dGeom=+28.5060
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0058 dL_seg=+0.0254 dL_margin=-0.0005 dGeom=+25.2403
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0184 dL_seg=+0.1002 dL_margin=-0.0006 dGeom=+76.7274
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1486 dL_seg=+0.2481 dL_margin=-0.0007 dGeom=+243.4675
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.4289 dL_seg=+0.4081 dL_margin=-0.0007 dGeom=+841.8768
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0287 dL_seg=-0.0114 dL_margin=+0.0002 dGeom=-1.2776
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0008 dL_seg=-0.0051 dL_margin=+0.0001 dGeom=-0.4554
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.1236 dL_seg=+0.0362 dL_margin=-0.0004 dGeom=+6.8955
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.6761 dL_seg=+0.3264 dL_margin=-0.0007 dGeom=+31.5525
+  D_useful   push=1.00 (activation-space)  dDice=+0.0067 dL_seg=-0.0085 dL_margin=-0.0004
+  D_useful   push=2.00 (activation-space)  dDice=+0.0116 dL_seg=-0.0147 dL_margin=-0.0005
+  D_useful   push=4.00 (activation-space)  dDice=+0.0222 dL_seg=-0.0235 dL_margin=-0.0006
+  D_useful   push=14.00 (activation-space)  dDice=+0.0526 dL_seg=-0.0461 dL_margin=-0.0007
+
+=== Checkpoint epoch 15 ===
+
+  --- Subject 0 (BraTS-GLI-01041-000) ---
+  ||g_seg||=4.4040e-02 ||g_margin||=2.6588e-02 ||g_total||=4.4279e-02
+  cos(g_seg,g_margin)=+0.0605 cos(g_seg,g_total)=+0.9982 cos(g_margin,g_total)=+0.1202
+  Baseline: Dice=0.9115 L_seg=0.0623 L_margin=0.0032 geometry=21.9840
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0009 dL_seg=+0.0036 dL_margin=+0.0023 dGeom=-2.3425
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0220 dL_seg=+0.0298 dL_margin=+0.0061 dGeom=-3.4878
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.0905 dL_seg=+0.2912 dL_margin=+0.0111 dGeom=-2.1229
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8867 dL_seg=+0.7353 dL_margin=+0.0016 dGeom=+8.4889
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0383 dL_seg=+0.0316 dL_margin=-0.0014 dGeom=+0.6715
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0808 dL_seg=+0.1417 dL_margin=-0.0025 dGeom=+10.4209
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.3392 dL_seg=+0.5060 dL_margin=-0.0031 dGeom=+34.4987
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8575 dL_seg=+0.9816 dL_margin=-0.0032 dGeom=+102.8294
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0004 dL_seg=+0.0050 dL_margin=+0.0020 dGeom=-2.6256
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0252 dL_seg=+0.0381 dL_margin=+0.0056 dGeom=-3.6453
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.0967 dL_seg=+0.3703 dL_margin=+0.0114 dGeom=-1.0275
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8890 dL_seg=+0.9134 dL_margin=+0.0014 dGeom=+12.4927
+  D_useful   push=1.00 (activation-space)  dDice=+0.0106 dL_seg=-0.0059 dL_margin=-0.0016
+  D_useful   push=2.00 (activation-space)  dDice=+0.0166 dL_seg=-0.0107 dL_margin=-0.0025
+  D_useful   push=4.00 (activation-space)  dDice=+0.0283 dL_seg=-0.0178 dL_margin=-0.0031
+  D_useful   push=14.00 (activation-space)  dDice=+0.0551 dL_seg=-0.0354 dL_margin=-0.0032
+
+  --- Subject 1 (BraTS-GLI-01161-000) ---
+  ||g_seg||=6.2021e-02 ||g_margin||=4.5661e-02 ||g_total||=6.1825e-02
+  cos(g_seg,g_margin)=-0.0798 cos(g_seg,g_total)=+0.9973 cos(g_margin,g_total)=-0.0062
+  Baseline: Dice=0.9023 L_seg=0.0638 L_margin=0.0008 geometry=28.9597
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0239 dL_seg=+0.0329 dL_margin=+0.0014 dGeom=-2.0214
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.8091 dL_seg=+0.4498 dL_margin=+0.0042 dGeom=-2.2581
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8476 dL_seg=+0.6779 dL_margin=+0.0047 dGeom=+1.9727
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8600 dL_seg=+1.0844 dL_margin=+0.0004 dGeom=+19.4905
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0109 dL_seg=+0.0370 dL_margin=-0.0003 dGeom=+1.2794
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0358 dL_seg=+0.2363 dL_margin=-0.0005 dGeom=+12.6009
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7976 dL_seg=+0.6843 dL_margin=-0.0007 dGeom=+47.2737
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8666 dL_seg=+0.9506 dL_margin=-0.0008 dGeom=+170.2062
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0243 dL_seg=+0.0367 dL_margin=+0.0013 dGeom=-2.3798
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.8118 dL_seg=+0.4662 dL_margin=+0.0038 dGeom=-2.7260
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8484 dL_seg=+0.7885 dL_margin=+0.0043 dGeom=+1.9061
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8607 dL_seg=+1.1258 dL_margin=+0.0004 dGeom=+21.0291
+  D_useful   push=1.00 (activation-space)  dDice=+0.0092 dL_seg=-0.0047 dL_margin=-0.0003
+  D_useful   push=2.00 (activation-space)  dDice=+0.0150 dL_seg=-0.0086 dL_margin=-0.0005
+  D_useful   push=4.00 (activation-space)  dDice=+0.0242 dL_seg=-0.0149 dL_margin=-0.0007
+  D_useful   push=14.00 (activation-space)  dDice=+0.0514 dL_seg=-0.0323 dL_margin=-0.0008
+
+  --- Subject 2 (BraTS-GLI-01189-000) ---
+  ||g_seg||=1.0271e-01 ||g_margin||=2.8337e-02 ||g_total||=1.0307e-01
+  cos(g_seg,g_margin)=+0.1139 cos(g_seg,g_total)=+0.9996 cos(g_margin,g_total)=+0.1410
+  Baseline: Dice=0.8893 L_seg=0.0697 L_margin=0.0018 geometry=24.6719
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0487 dL_seg=+0.0495 dL_margin=-0.0005 dGeom=+3.9862
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1904 dL_seg=+0.4713 dL_margin=-0.0010 dGeom=+9.6339
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8429 dL_seg=+1.0561 dL_margin=-0.0015 dGeom=+27.2896
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8490 dL_seg=+1.5127 dL_margin=-0.0018 dGeom=+86.6462
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0156 dL_seg=+0.0292 dL_margin=-0.0009 dGeom=+1.9671
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0350 dL_seg=+0.1754 dL_margin=-0.0013 dGeom=+14.4339
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1170 dL_seg=+0.4303 dL_margin=-0.0017 dGeom=+50.9770
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.5915 dL_seg=+0.8630 dL_margin=-0.0018 dGeom=+194.0294
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0475 dL_seg=+0.0519 dL_margin=-0.0005 dGeom=+3.8299
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1869 dL_seg=+0.4948 dL_margin=-0.0010 dGeom=+9.4286
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8429 dL_seg=+1.0669 dL_margin=-0.0014 dGeom=+27.0647
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8490 dL_seg=+1.5219 dL_margin=-0.0018 dGeom=+85.9700
+  D_useful   push=1.00 (activation-space)  dDice=+0.0061 dL_seg=-0.0045 dL_margin=-0.0008
+  D_useful   push=2.00 (activation-space)  dDice=+0.0100 dL_seg=-0.0083 dL_margin=-0.0013
+  D_useful   push=4.00 (activation-space)  dDice=+0.0180 dL_seg=-0.0143 dL_margin=-0.0017
+  D_useful   push=14.00 (activation-space)  dDice=+0.0371 dL_seg=-0.0307 dL_margin=-0.0018
+
+  --- Subject 3 (BraTS-GLI-01336-000) ---
+  ||g_seg||=7.9629e-02 ||g_margin||=1.1270e-02 ||g_total||=7.9805e-02
+  cos(g_seg,g_margin)=+0.1488 cos(g_seg,g_total)=+0.9999 cos(g_margin,g_total)=+0.1626
+  Baseline: Dice=0.9496 L_seg=0.0499 L_margin=0.0002 geometry=27.2246
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0919 dL_seg=+0.0270 dL_margin=-0.0000 dGeom=-6.7932
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.3600 dL_seg=+0.1433 dL_margin=-0.0000 dGeom=-9.9344
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.9315 dL_seg=+0.4767 dL_margin=-0.0002 dGeom=-4.8858
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9496 dL_seg=+0.4879 dL_margin=-0.0002 dGeom=+45.4898
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0143 dL_seg=+0.0054 dL_margin=-0.0002 dGeom=-0.8720
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0576 dL_seg=+0.0207 dL_margin=-0.0001 dGeom=+3.2846
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.2644 dL_seg=+0.1090 dL_margin=-0.0001 dGeom=+25.6286
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9370 dL_seg=+0.4792 dL_margin=-0.0002 dGeom=+143.1145
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0924 dL_seg=+0.0271 dL_margin=-0.0000 dGeom=-6.7875
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.3621 dL_seg=+0.1445 dL_margin=-0.0000 dGeom=-9.8824
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.9356 dL_seg=+0.4776 dL_margin=-0.0002 dGeom=-4.7698
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9496 dL_seg=+0.4879 dL_margin=-0.0002 dGeom=+45.8928
+  D_useful   push=1.00 (activation-space)  dDice=+0.0050 dL_seg=-0.0045 dL_margin=-0.0001
+  D_useful   push=2.00 (activation-space)  dDice=+0.0125 dL_seg=-0.0080 dL_margin=-0.0002
+  D_useful   push=4.00 (activation-space)  dDice=+0.0188 dL_seg=-0.0132 dL_margin=-0.0002
+  D_useful   push=14.00 (activation-space)  dDice=+0.0362 dL_seg=-0.0267 dL_margin=-0.0002
+
+  --- Subject 4 (BraTS-GLI-00250-000) ---
+  ||g_seg||=3.9446e-02 ||g_margin||=1.9775e-02 ||g_total||=4.0060e-02
+  cos(g_seg,g_margin)=+0.2880 cos(g_seg,g_total)=+0.9989 cos(g_margin,g_total)=+0.3329
+  Baseline: Dice=0.9192 L_seg=0.0591 L_margin=0.0006 geometry=25.5628
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0067 dL_seg=-0.0003 dL_margin=+0.0002 dGeom=+0.6312
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0511 dL_seg=+0.0290 dL_margin=-0.0000 dGeom=+3.1086
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6334 dL_seg=+0.3602 dL_margin=+0.0004 dGeom=+17.8397
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8008 dL_seg=+0.6618 dL_margin=-0.0003 dGeom=+88.6050
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0115 dL_seg=+0.0081 dL_margin=+0.0001 dGeom=-1.4355
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0824 dL_seg=+0.0333 dL_margin=-0.0005 dGeom=+5.2601
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7811 dL_seg=+0.3920 dL_margin=-0.0006 dGeom=+36.2139
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9192 dL_seg=+0.4948 dL_margin=-0.0006 dGeom=+211.1071
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0070 dL_seg=-0.0002 dL_margin=+0.0002 dGeom=+0.4141
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0510 dL_seg=+0.0302 dL_margin=+0.0001 dGeom=+3.0698
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.6424 dL_seg=+0.3714 dL_margin=+0.0004 dGeom=+19.3465
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8027 dL_seg=+0.6899 dL_margin=-0.0004 dGeom=+99.2092
+  D_useful   push=1.00 (activation-space)  dDice=+0.0047 dL_seg=-0.0042 dL_margin=-0.0003
+  D_useful   push=2.00 (activation-space)  dDice=+0.0081 dL_seg=-0.0078 dL_margin=-0.0005
+  D_useful   push=4.00 (activation-space)  dDice=+0.0175 dL_seg=-0.0136 dL_margin=-0.0006
+  D_useful   push=14.00 (activation-space)  dDice=+0.0413 dL_seg=-0.0300 dL_margin=-0.0006
+
+  --- Subject 5 (BraTS-GLI-00501-000) ---
+  ||g_seg||=3.9241e-01 ||g_margin||=1.9373e-01 ||g_total||=3.9466e-01
+  cos(g_seg,g_margin)=+0.0922 cos(g_seg,g_total)=+0.9988 cos(g_margin,g_total)=+0.1408
+  Baseline: Dice=0.8363 L_seg=0.0909 L_margin=0.0026 geometry=25.4393
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0783 dL_seg=-0.0215 dL_margin=-0.0019 dGeom=+5.9476
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0165 dL_seg=+0.0901 dL_margin=-0.0025 dGeom=+14.7577
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7387 dL_seg=+0.7266 dL_margin=-0.0026 dGeom=+40.7891
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7607 dL_seg=+1.2222 dL_margin=-0.0026 dGeom=+123.1007
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0441 dL_seg=+0.0730 dL_margin=-0.0015 dGeom=+2.7897
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0816 dL_seg=+0.3530 dL_margin=-0.0021 dGeom=+16.6586
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7357 dL_seg=+0.5965 dL_margin=-0.0025 dGeom=+55.4937
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.7474 dL_seg=+0.7781 dL_margin=-0.0026 dGeom=+182.8592
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0783 dL_seg=-0.0201 dL_margin=-0.0018 dGeom=+5.6421
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0077 dL_seg=+0.1159 dL_margin=-0.0025 dGeom=+14.3642
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7401 dL_seg=+0.7819 dL_margin=-0.0026 dGeom=+40.3713
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7609 dL_seg=+1.2384 dL_margin=-0.0026 dGeom=+122.4525
+  D_useful   push=1.00 (activation-space)  dDice=+0.0086 dL_seg=-0.0056 dL_margin=-0.0013
+  D_useful   push=2.00 (activation-space)  dDice=+0.0160 dL_seg=-0.0106 dL_margin=-0.0020
+  D_useful   push=4.00 (activation-space)  dDice=+0.0284 dL_seg=-0.0191 dL_margin=-0.0025
+  D_useful   push=14.00 (activation-space)  dDice=+0.0766 dL_seg=-0.0455 dL_margin=-0.0026
+
+  --- Subject 6 (BraTS-GLI-01093-000) ---
+  ||g_seg||=1.3476e-01 ||g_margin||=9.4240e-02 ||g_total||=1.3498e-01
+  cos(g_seg,g_margin)=-0.0112 cos(g_seg,g_total)=+0.9976 cos(g_margin,g_total)=+0.0586
+  Baseline: Dice=0.9457 L_seg=0.0517 L_margin=0.0017 geometry=24.7078
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0400 dL_seg=+0.0201 dL_margin=-0.0010 dGeom=+5.5002
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1504 dL_seg=+0.1133 dL_margin=-0.0015 dGeom=+12.1490
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7734 dL_seg=+0.7227 dL_margin=-0.0017 dGeom=+29.0852
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8913 dL_seg=+1.3301 dL_margin=-0.0017 dGeom=+79.5397
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0369 dL_seg=+0.0264 dL_margin=-0.0012 dGeom=+5.0536
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0980 dL_seg=+0.0765 dL_margin=-0.0017 dGeom=+21.0572
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.6038 dL_seg=+0.3527 dL_margin=-0.0017 dGeom=+67.3253
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9452 dL_seg=+0.5982 dL_margin=-0.0017 dGeom=+260.1424
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0380 dL_seg=+0.0212 dL_margin=-0.0010 dGeom=+5.2970
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1440 dL_seg=+0.1273 dL_margin=-0.0015 dGeom=+12.2130
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8712 dL_seg=+0.8454 dL_margin=-0.0017 dGeom=+30.1146
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8913 dL_seg=+1.3677 dL_margin=-0.0017 dGeom=+82.5737
+  D_useful   push=1.00 (activation-space)  dDice=+0.0063 dL_seg=-0.0040 dL_margin=-0.0009
+  D_useful   push=2.00 (activation-space)  dDice=+0.0096 dL_seg=-0.0074 dL_margin=-0.0014
+  D_useful   push=4.00 (activation-space)  dDice=+0.0163 dL_seg=-0.0127 dL_margin=-0.0017
+  D_useful   push=14.00 (activation-space)  dDice=+0.0349 dL_seg=-0.0274 dL_margin=-0.0017
+
+  --- Subject 7 (BraTS-GLI-01168-000) ---
+  ||g_seg||=1.1929e-01 ||g_margin||=1.7225e-02 ||g_total||=1.1927e-01
+  cos(g_seg,g_margin)=-0.0181 cos(g_seg,g_total)=+0.9999 cos(g_margin,g_total)=-0.0037
+  Baseline: Dice=0.8985 L_seg=0.0642 L_margin=0.0005 geometry=29.5493
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0228 dL_seg=+0.0056 dL_margin=-0.0000 dGeom=+3.9470
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1851 dL_seg=+0.2320 dL_margin=-0.0002 dGeom=+9.8091
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8561 dL_seg=+0.5561 dL_margin=+0.0001 dGeom=+35.7838
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8669 dL_seg=+0.7446 dL_margin=-0.0005 dGeom=+154.9393
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0110 dL_seg=+0.0040 dL_margin=+0.0003 dGeom=-3.4488
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0225 dL_seg=+0.0093 dL_margin=+0.0002 dGeom=-2.8905
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1318 dL_seg=+0.0641 dL_margin=-0.0002 dGeom=+0.7904
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8543 dL_seg=+0.4483 dL_margin=-0.0005 dGeom=+20.5522
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0233 dL_seg=+0.0053 dL_margin=-0.0001 dGeom=+3.7970
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1820 dL_seg=+0.2284 dL_margin=-0.0002 dGeom=+9.6149
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8560 dL_seg=+0.5549 dL_margin=+0.0001 dGeom=+35.4817
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8669 dL_seg=+0.7432 dL_margin=-0.0005 dGeom=+153.9386
+  D_useful   push=1.00 (activation-space)  dDice=+0.0048 dL_seg=-0.0043 dL_margin=-0.0002
+  D_useful   push=2.00 (activation-space)  dDice=+0.0107 dL_seg=-0.0079 dL_margin=-0.0003
+  D_useful   push=4.00 (activation-space)  dDice=+0.0196 dL_seg=-0.0138 dL_margin=-0.0004
+  D_useful   push=14.00 (activation-space)  dDice=+0.0464 dL_seg=-0.0312 dL_margin=-0.0005
+
+=== Checkpoint epoch 20 ===
+
+  --- Subject 0 (BraTS-GLI-01041-000) ---
+  ||g_seg||=8.3977e-02 ||g_margin||=1.7046e-02 ||g_total||=8.3955e-02
+  cos(g_seg,g_margin)=-0.0223 cos(g_seg,g_total)=+0.9998 cos(g_margin,g_total)=-0.0020
+  Baseline: Dice=0.9189 L_seg=0.0521 L_margin=0.0014 geometry=24.9931
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0434 dL_seg=+0.0127 dL_margin=-0.0010 dGeom=-4.6459
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1884 dL_seg=+0.0710 dL_margin=-0.0013 dGeom=-8.0698
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7059 dL_seg=+0.3467 dL_margin=-0.0014 dGeom=-11.3204
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9189 dL_seg=+0.4925 dL_margin=-0.0014 dGeom=-2.5929
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0028 dL_seg=+0.0141 dL_margin=-0.0006 dGeom=+0.4270
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0012 dL_seg=+0.1957 dL_margin=-0.0010 dGeom=+8.3639
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8561 dL_seg=+0.4870 dL_margin=-0.0013 dGeom=+33.0768
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8726 dL_seg=+0.5451 dL_margin=-0.0014 dGeom=+105.2802
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0442 dL_seg=+0.0130 dL_margin=-0.0010 dGeom=-4.6642
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1918 dL_seg=+0.0724 dL_margin=-0.0013 dGeom=-8.1069
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7202 dL_seg=+0.3542 dL_margin=-0.0014 dGeom=-11.3365
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9189 dL_seg=+0.4925 dL_margin=-0.0014 dGeom=-2.3847
+  D_useful   push=1.00 (activation-space)  dDice=+0.0079 dL_seg=-0.0044 dL_margin=-0.0005
+  D_useful   push=2.00 (activation-space)  dDice=+0.0142 dL_seg=-0.0081 dL_margin=-0.0009
+  D_useful   push=4.00 (activation-space)  dDice=+0.0225 dL_seg=-0.0138 dL_margin=-0.0013
+  D_useful   push=14.00 (activation-space)  dDice=+0.0487 dL_seg=-0.0291 dL_margin=-0.0014
+
+  --- Subject 1 (BraTS-GLI-01161-000) ---
+  ||g_seg||=6.4431e-02 ||g_margin||=8.1732e-02 ||g_total||=6.4254e-02
+  cos(g_seg,g_margin)=-0.0850 cos(g_seg,g_total)=+0.9919 cos(g_margin,g_total)=+0.0420
+  Baseline: Dice=0.8956 L_seg=0.0593 L_margin=0.0018 geometry=27.7683
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0063 dL_seg=+0.0045 dL_margin=+0.0005 dGeom=+2.5497
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0426 dL_seg=+0.0773 dL_margin=+0.0006 dGeom=+7.6786
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6998 dL_seg=+0.5023 dL_margin=+0.0004 dGeom=+24.6368
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8416 dL_seg=+0.8981 dL_margin=-0.0015 dGeom=+77.2290
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0056 dL_seg=+0.2972 dL_margin=-0.0016 dGeom=+14.2211
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.8094 dL_seg=+0.5097 dL_margin=-0.0018 dGeom=+41.0674
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8271 dL_seg=+0.5414 dL_margin=-0.0018 dGeom=+112.4205
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8429 dL_seg=+0.5983 dL_margin=-0.0018 dGeom=+348.0656
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0062 dL_seg=+0.0093 dL_margin=-0.0000 dGeom=+2.9410
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0420 dL_seg=+0.1712 dL_margin=-0.0003 dGeom=+9.1333
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8257 dL_seg=+0.5677 dL_margin=-0.0006 dGeom=+28.6677
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8443 dL_seg=+0.7968 dL_margin=-0.0017 dGeom=+87.2186
+  D_useful   push=1.00 (activation-space)  dDice=+0.0087 dL_seg=-0.0047 dL_margin=-0.0007
+  D_useful   push=2.00 (activation-space)  dDice=+0.0151 dL_seg=-0.0088 dL_margin=-0.0012
+  D_useful   push=4.00 (activation-space)  dDice=+0.0291 dL_seg=-0.0154 dL_margin=-0.0017
+  D_useful   push=14.00 (activation-space)  dDice=+0.0594 dL_seg=-0.0325 dL_margin=-0.0018
+
+  --- Subject 2 (BraTS-GLI-01189-000) ---
+  ||g_seg||=8.6357e-02 ||g_margin||=2.7307e-02 ||g_total||=8.7055e-02
+  cos(g_seg,g_margin)=+0.2407 cos(g_seg,g_total)=+0.9995 cos(g_margin,g_total)=+0.2701
+  Baseline: Dice=0.8754 L_seg=0.0672 L_margin=0.0017 geometry=24.3787
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0487 dL_seg=+0.0208 dL_margin=-0.0012 dGeom=+4.3989
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1405 dL_seg=+0.0940 dL_margin=-0.0014 dGeom=+9.9521
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7082 dL_seg=+0.4742 dL_margin=-0.0015 dGeom=+26.2082
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8300 dL_seg=+0.7863 dL_margin=-0.0016 dGeom=+76.2463
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0002 dL_seg=+0.0618 dL_margin=-0.0013 dGeom=+8.1918
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.7802 dL_seg=+0.4771 dL_margin=-0.0016 dGeom=+25.8322
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7988 dL_seg=+0.5164 dL_margin=-0.0017 dGeom=+72.8165
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8169 dL_seg=+0.5613 dL_margin=-0.0017 dGeom=+228.1926
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0486 dL_seg=+0.0210 dL_margin=-0.0012 dGeom=+4.5032
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1407 dL_seg=+0.1019 dL_margin=-0.0014 dGeom=+10.2180
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8003 dL_seg=+0.4991 dL_margin=-0.0015 dGeom=+26.9495
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8302 dL_seg=+0.8017 dL_margin=-0.0016 dGeom=+79.4085
+  D_useful   push=1.00 (activation-space)  dDice=+0.0051 dL_seg=-0.0039 dL_margin=-0.0007
+  D_useful   push=2.00 (activation-space)  dDice=+0.0100 dL_seg=-0.0072 dL_margin=-0.0011
+  D_useful   push=4.00 (activation-space)  dDice=+0.0160 dL_seg=-0.0127 dL_margin=-0.0015
+  D_useful   push=14.00 (activation-space)  dDice=+0.0401 dL_seg=-0.0289 dL_margin=-0.0017
+
+  --- Subject 3 (BraTS-GLI-01336-000) ---
+  ||g_seg||=1.0218e-01 ||g_margin||=1.2118e-02 ||g_total||=1.0227e-01
+  cos(g_seg,g_margin)=+0.0745 cos(g_seg,g_total)=+0.9999 cos(g_margin,g_total)=+0.0863
+  Baseline: Dice=0.9518 L_seg=0.0417 L_margin=0.0001 geometry=28.0405
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.1360 dL_seg=+0.0426 dL_margin=-0.0001 dGeom=-8.4908
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.5611 dL_seg=+0.2502 dL_margin=-0.0001 dGeom=-13.2974
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.9518 dL_seg=+0.4914 dL_margin=-0.0001 dGeom=-7.2676
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9518 dL_seg=+0.4905 dL_margin=-0.0001 dGeom=+54.2785
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0019 dL_seg=+0.0004 dL_margin=+0.0001 dGeom=-1.2200
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0029 dL_seg=+0.0021 dL_margin=+0.0001 dGeom=-1.0949
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0086 dL_seg=+0.0251 dL_margin=+0.0000 dGeom=+1.1635
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.0415 dL_seg=+0.3367 dL_margin=-0.0000 dGeom=+9.5379
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.1360 dL_seg=+0.0426 dL_margin=-0.0001 dGeom=-8.4971
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.5611 dL_seg=+0.2503 dL_margin=-0.0001 dGeom=-13.2976
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.9518 dL_seg=+0.4914 dL_margin=-0.0001 dGeom=-7.2514
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9518 dL_seg=+0.4905 dL_margin=-0.0001 dGeom=+54.5493
+  D_useful   push=1.00 (activation-space)  dDice=+0.0056 dL_seg=-0.0034 dL_margin=-0.0000
+  D_useful   push=2.00 (activation-space)  dDice=+0.0094 dL_seg=-0.0063 dL_margin=-0.0001
+  D_useful   push=4.00 (activation-space)  dDice=+0.0188 dL_seg=-0.0108 dL_margin=-0.0001
+  D_useful   push=14.00 (activation-space)  dDice=+0.0345 dL_seg=-0.0223 dL_margin=-0.0001
+
+  --- Subject 4 (BraTS-GLI-00250-000) ---
+  ||g_seg||=5.9011e-02 ||g_margin||=2.0278e-02 ||g_total||=5.9249e-02
+  cos(g_seg,g_margin)=+0.1008 cos(g_seg,g_total)=+0.9994 cos(g_margin,g_total)=+0.1347
+  Baseline: Dice=0.9147 L_seg=0.0539 L_margin=0.0007 geometry=26.1628
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0232 dL_seg=+0.0062 dL_margin=-0.0005 dGeom=-4.1250
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.3093 dL_seg=+0.1303 dL_margin=-0.0006 dGeom=-7.0729
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8716 dL_seg=+0.4636 dL_margin=-0.0007 dGeom=-1.4273
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9147 dL_seg=+0.5003 dL_margin=-0.0007 dGeom=+70.2812
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0018 dL_seg=+0.0266 dL_margin=-0.0006 dGeom=+2.4805
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0010 dL_seg=+0.4184 dL_margin=-0.0006 dGeom=+9.1784
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8515 dL_seg=+0.5541 dL_margin=-0.0007 dGeom=+35.7992
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8590 dL_seg=+0.6466 dL_margin=-0.0007 dGeom=+139.8428
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0224 dL_seg=+0.0062 dL_margin=-0.0005 dGeom=-3.9371
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.3065 dL_seg=+0.1282 dL_margin=-0.0006 dGeom=-6.6379
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8645 dL_seg=+0.4602 dL_margin=-0.0007 dGeom=-0.6260
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9147 dL_seg=+0.5003 dL_margin=-0.0007 dGeom=+71.7989
+  D_useful   push=1.00 (activation-space)  dDice=+0.0029 dL_seg=-0.0035 dL_margin=-0.0003
+  D_useful   push=2.00 (activation-space)  dDice=+0.0071 dL_seg=-0.0065 dL_margin=-0.0005
+  D_useful   push=4.00 (activation-space)  dDice=+0.0144 dL_seg=-0.0114 dL_margin=-0.0007
+  D_useful   push=14.00 (activation-space)  dDice=+0.0391 dL_seg=-0.0263 dL_margin=-0.0007
+
+  --- Subject 5 (BraTS-GLI-00501-000) ---
+  ||g_seg||=1.5659e-01 ||g_margin||=2.0702e-01 ||g_total||=1.6085e-01
+  cos(g_seg,g_margin)=+0.1422 cos(g_seg,g_total)=+0.9919 cos(g_margin,g_total)=+0.2672
+  Baseline: Dice=0.8881 L_seg=0.0643 L_margin=0.0025 geometry=24.4568
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0360 dL_seg=-0.0013 dL_margin=-0.0025 dGeom=+9.0310
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.6118 dL_seg=+0.3557 dL_margin=-0.0025 dGeom=+21.6343
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.7925 dL_seg=+0.6792 dL_margin=-0.0025 dGeom=+58.6566
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8110 dL_seg=+1.2450 dL_margin=-0.0025 dGeom=+182.9637
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0009 dL_seg=+0.2164 dL_margin=-0.0016 dGeom=+9.4912
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.7496 dL_seg=+0.4753 dL_margin=-0.0018 dGeom=+30.1229
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7799 dL_seg=+0.5066 dL_margin=-0.0025 dGeom=+80.9086
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.7792 dL_seg=+0.5407 dL_margin=-0.0025 dGeom=+230.2262
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0366 dL_seg=+0.0149 dL_margin=-0.0025 dGeom=+8.5244
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.7417 dL_seg=+0.4329 dL_margin=-0.0025 dGeom=+21.8695
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7926 dL_seg=+0.8639 dL_margin=-0.0025 dGeom=+61.1091
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8113 dL_seg=+1.3360 dL_margin=-0.0025 dGeom=+194.2178
+  D_useful   push=1.00 (activation-space)  dDice=+0.0072 dL_seg=-0.0044 dL_margin=-0.0013
+  D_useful   push=2.00 (activation-space)  dDice=+0.0145 dL_seg=-0.0082 dL_margin=-0.0020
+  D_useful   push=4.00 (activation-space)  dDice=+0.0226 dL_seg=-0.0146 dL_margin=-0.0025
+  D_useful   push=14.00 (activation-space)  dDice=+0.0536 dL_seg=-0.0331 dL_margin=-0.0025
+
+  --- Subject 6 (BraTS-GLI-01093-000) ---
+  ||g_seg||=7.4128e-02 ||g_margin||=7.5213e-02 ||g_total||=7.3597e-02
+  cos(g_seg,g_margin)=-0.1208 cos(g_seg,g_total)=+0.9948 cos(g_margin,g_total)=-0.0195
+  Baseline: Dice=0.9634 L_seg=0.0401 L_margin=0.0019 geometry=24.9546
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0909 dL_seg=+0.0365 dL_margin=-0.0017 dGeom=+7.4854
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1838 dL_seg=+0.2412 dL_margin=-0.0019 dGeom=+16.0588
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8921 dL_seg=+0.6643 dL_margin=-0.0019 dGeom=+37.7728
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9085 dL_seg=+1.3693 dL_margin=-0.0019 dGeom=+102.1256
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0106 dL_seg=+0.0840 dL_margin=-0.0015 dGeom=+5.1321
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.8398 dL_seg=+0.4896 dL_margin=-0.0018 dGeom=+20.5677
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8886 dL_seg=+0.5589 dL_margin=-0.0019 dGeom=+59.7489
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9027 dL_seg=+0.5815 dL_margin=-0.0019 dGeom=+168.8423
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0902 dL_seg=+0.0435 dL_margin=-0.0018 dGeom=+7.3212
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.3377 dL_seg=+0.3955 dL_margin=-0.0019 dGeom=+16.0060
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8925 dL_seg=+0.8415 dL_margin=-0.0019 dGeom=+38.8768
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9085 dL_seg=+1.4345 dL_margin=-0.0019 dGeom=+112.1352
+  D_useful   push=1.00 (activation-space)  dDice=+0.0050 dL_seg=-0.0033 dL_margin=-0.0009
+  D_useful   push=2.00 (activation-space)  dDice=+0.0096 dL_seg=-0.0060 dL_margin=-0.0015
+  D_useful   push=4.00 (activation-space)  dDice=+0.0152 dL_seg=-0.0103 dL_margin=-0.0019
+  D_useful   push=14.00 (activation-space)  dDice=+0.0269 dL_seg=-0.0213 dL_margin=-0.0019
+
+  --- Subject 7 (BraTS-GLI-01168-000) ---
+  ||g_seg||=1.1838e-01 ||g_margin||=7.2976e-03 ||g_total||=1.1831e-01
+  cos(g_seg,g_margin)=-0.1014 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=-0.0953
+  Baseline: Dice=0.9096 L_seg=0.0536 L_margin=0.0003 geometry=28.7259
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0282 dL_seg=-0.0085 dL_margin=+0.0006 dGeom=-2.0655
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=+0.0015 dL_seg=+0.0003 dL_margin=+0.0003 dGeom=-3.7384
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.1371 dL_seg=+0.0542 dL_margin=+0.0008 dGeom=-8.0210
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7298 dL_seg=+0.3637 dL_margin=+0.0003 dGeom=-7.8487
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0074 dL_seg=+0.0274 dL_margin=-0.0002 dGeom=+4.1668
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0138 dL_seg=+0.3770 dL_margin=-0.0002 dGeom=+14.0227
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8578 dL_seg=+0.5030 dL_margin=-0.0003 dGeom=+46.6138
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8751 dL_seg=+0.5600 dL_margin=-0.0003 dGeom=+174.0052
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0282 dL_seg=-0.0085 dL_margin=+0.0006 dGeom=-2.0478
+  C_total    eps=0.50 ||delta||=0.5000  dDice=+0.0015 dL_seg=+0.0003 dL_margin=+0.0003 dGeom=-3.7045
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.1375 dL_seg=+0.0542 dL_margin=+0.0008 dGeom=-7.9401
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7281 dL_seg=+0.3622 dL_margin=+0.0003 dGeom=-7.5249
+  D_useful   push=1.00 (activation-space)  dDice=+0.0059 dL_seg=-0.0038 dL_margin=-0.0002
+  D_useful   push=2.00 (activation-space)  dDice=+0.0105 dL_seg=-0.0071 dL_margin=-0.0002
+  D_useful   push=4.00 (activation-space)  dDice=+0.0201 dL_seg=-0.0124 dL_margin=-0.0003
+  D_useful   push=14.00 (activation-space)  dDice=+0.0461 dL_seg=-0.0277 dL_margin=-0.0003
+
+=== Checkpoint epoch 25 ===
+
+  --- Subject 0 (BraTS-GLI-01041-000) ---
+  ||g_seg||=5.7608e-02 ||g_margin||=2.0018e-02 ||g_total||=5.7780e-02
+  cos(g_seg,g_margin)=+0.0684 cos(g_seg,g_total)=+0.9994 cos(g_margin,g_total)=+0.1028
+  Baseline: Dice=0.9206 L_seg=0.0471 L_margin=0.0010 geometry=25.3165
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0373 dL_seg=+0.0117 dL_margin=+0.0005 dGeom=-5.6057
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1593 dL_seg=+0.0598 dL_margin=-0.0008 dGeom=-8.2223
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.5017 dL_seg=+0.2348 dL_margin=-0.0010 dGeom=-6.3110
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9183 dL_seg=+0.4928 dL_margin=-0.0010 dGeom=+11.4795
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0074 dL_seg=+0.0056 dL_margin=+0.0043 dGeom=-5.0601
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=+0.0059 dL_seg=+0.2282 dL_margin=+0.0056 dGeom=-4.2569
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8600 dL_seg=+0.5198 dL_margin=-0.0005 dGeom=+4.9274
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8744 dL_seg=+0.6130 dL_margin=-0.0010 dGeom=+37.2264
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0383 dL_seg=+0.0119 dL_margin=+0.0005 dGeom=-5.6965
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1631 dL_seg=+0.0608 dL_margin=-0.0008 dGeom=-8.3409
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.5114 dL_seg=+0.2398 dL_margin=-0.0010 dGeom=-6.4314
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9183 dL_seg=+0.4937 dL_margin=-0.0010 dGeom=+11.3081
+  D_useful   push=1.00 (activation-space)  dDice=+0.0065 dL_seg=-0.0038 dL_margin=-0.0005
+  D_useful   push=2.00 (activation-space)  dDice=+0.0114 dL_seg=-0.0070 dL_margin=-0.0008
+  D_useful   push=4.00 (activation-space)  dDice=+0.0227 dL_seg=-0.0123 dL_margin=-0.0009
+  D_useful   push=14.00 (activation-space)  dDice=+0.0481 dL_seg=-0.0264 dL_margin=-0.0010
+
+  --- Subject 1 (BraTS-GLI-01161-000) ---
+  ||g_seg||=6.6266e-02 ||g_margin||=4.0861e-02 ||g_total||=6.6419e-02
+  cos(g_seg,g_margin)=+0.0064 cos(g_seg,g_total)=+0.9981 cos(g_margin,g_total)=+0.0679
+  Baseline: Dice=0.9125 L_seg=0.0493 L_margin=0.0006 geometry=28.2683
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0129 dL_seg=+0.0084 dL_margin=-0.0002 dGeom=+6.5743
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0892 dL_seg=+0.0579 dL_margin=-0.0005 dGeom=+15.9457
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6751 dL_seg=+0.4812 dL_margin=-0.0005 dGeom=+42.1473
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8668 dL_seg=+0.9492 dL_margin=-0.0006 dGeom=+122.5732
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0053 dL_seg=+0.0132 dL_margin=-0.0004 dGeom=+2.2805
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0162 dL_seg=+0.0876 dL_margin=-0.0005 dGeom=+12.5531
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0492 dL_seg=+0.1652 dL_margin=-0.0006 dGeom=+44.3097
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.3056 dL_seg=+0.1824 dL_margin=-0.0006 dGeom=+137.1696
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0129 dL_seg=+0.0086 dL_margin=-0.0002 dGeom=+6.5621
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0876 dL_seg=+0.0632 dL_margin=-0.0005 dGeom=+15.9642
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8322 dL_seg=+0.5208 dL_margin=-0.0005 dGeom=+42.4930
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8670 dL_seg=+0.9800 dL_margin=-0.0006 dGeom=+124.8944
+  D_useful   push=1.00 (activation-space)  dDice=+0.0062 dL_seg=-0.0035 dL_margin=-0.0003
+  D_useful   push=2.00 (activation-space)  dDice=+0.0113 dL_seg=-0.0064 dL_margin=-0.0004
+  D_useful   push=4.00 (activation-space)  dDice=+0.0192 dL_seg=-0.0113 dL_margin=-0.0005
+  D_useful   push=14.00 (activation-space)  dDice=+0.0414 dL_seg=-0.0248 dL_margin=-0.0006
+
+  --- Subject 2 (BraTS-GLI-01189-000) ---
+  ||g_seg||=1.2491e-01 ||g_margin||=3.7855e-02 ||g_total||=1.2562e-01
+  cos(g_seg,g_margin)=+0.1729 cos(g_seg,g_total)=+0.9996 cos(g_margin,g_total)=+0.2021
+  Baseline: Dice=0.8944 L_seg=0.0564 L_margin=0.0010 geometry=25.3017
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0226 dL_seg=+0.0102 dL_margin=-0.0005 dGeom=+2.7062
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0943 dL_seg=+0.0619 dL_margin=-0.0007 dGeom=+5.9137
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6910 dL_seg=+0.4518 dL_margin=-0.0005 dGeom=+18.3758
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8526 dL_seg=+0.7945 dL_margin=-0.0010 dGeom=+66.0645
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0042 dL_seg=+0.0089 dL_margin=+0.0001 dGeom=-2.9135
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0089 dL_seg=+0.1381 dL_margin=+0.0006 dGeom=+2.8690
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7959 dL_seg=+0.4002 dL_margin=-0.0008 dGeom=+23.2520
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8206 dL_seg=+0.4384 dL_margin=-0.0010 dGeom=+84.7535
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0221 dL_seg=+0.0102 dL_margin=-0.0005 dGeom=+2.5389
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0929 dL_seg=+0.0661 dL_margin=-0.0007 dGeom=+5.7523
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.7456 dL_seg=+0.4702 dL_margin=-0.0004 dGeom=+18.5229
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8527 dL_seg=+0.8167 dL_margin=-0.0010 dGeom=+67.5082
+  D_useful   push=1.00 (activation-space)  dDice=+0.0049 dL_seg=-0.0032 dL_margin=-0.0004
+  D_useful   push=2.00 (activation-space)  dDice=+0.0063 dL_seg=-0.0059 dL_margin=-0.0006
+  D_useful   push=4.00 (activation-space)  dDice=+0.0134 dL_seg=-0.0104 dL_margin=-0.0009
+  D_useful   push=14.00 (activation-space)  dDice=+0.0309 dL_seg=-0.0233 dL_margin=-0.0010
+
+  --- Subject 3 (BraTS-GLI-01336-000) ---
+  ||g_seg||=6.7867e-02 ||g_margin||=5.5357e-03 ||g_total||=6.7943e-02
+  cos(g_seg,g_margin)=+0.1347 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=+0.1427
+  Baseline: Dice=0.9542 L_seg=0.0367 L_margin=0.0001 geometry=27.5801
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0083 dL_seg=+0.0037 dL_margin=+0.0002 dGeom=-3.2212
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0435 dL_seg=+0.0171 dL_margin=+0.0016 dGeom=-1.3328
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.1224 dL_seg=+0.0397 dL_margin=+0.0009 dGeom=+11.5643
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.3463 dL_seg=+0.1411 dL_margin=-0.0001 dGeom=+67.0879
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0012 dL_seg=+0.0013 dL_margin=+0.0002 dGeom=-3.5490
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0106 dL_seg=+0.0040 dL_margin=+0.0003 dGeom=-4.6425
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0318 dL_seg=+0.0156 dL_margin=+0.0002 dGeom=-4.5813
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.0946 dL_seg=+0.1120 dL_margin=+0.0000 dGeom=+0.7763
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0083 dL_seg=+0.0037 dL_margin=+0.0002 dGeom=-3.2399
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0435 dL_seg=+0.0171 dL_margin=+0.0017 dGeom=-1.3484
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.1224 dL_seg=+0.0397 dL_margin=+0.0009 dGeom=+11.5426
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.3459 dL_seg=+0.1410 dL_margin=-0.0001 dGeom=+66.9762
+  D_useful   push=1.00 (activation-space)  dDice=+0.0065 dL_seg=-0.0030 dL_margin=-0.0001
+  D_useful   push=2.00 (activation-space)  dDice=+0.0097 dL_seg=-0.0055 dL_margin=-0.0001
+  D_useful   push=4.00 (activation-space)  dDice=+0.0159 dL_seg=-0.0094 dL_margin=-0.0001
+  D_useful   push=14.00 (activation-space)  dDice=+0.0302 dL_seg=-0.0196 dL_margin=-0.0001
+
+  --- Subject 4 (BraTS-GLI-00250-000) ---
+  ||g_seg||=6.4006e-02 ||g_margin||=1.9653e-02 ||g_total||=6.4618e-02
+  cos(g_seg,g_margin)=+0.2977 cos(g_seg,g_total)=+0.9996 cos(g_margin,g_total)=+0.3253
+  Baseline: Dice=0.9212 L_seg=0.0468 L_margin=0.0004 geometry=25.5924
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0025 dL_seg=+0.0022 dL_margin=+0.0004 dGeom=+1.2890
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0430 dL_seg=+0.0599 dL_margin=+0.0028 dGeom=+5.7060
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8549 dL_seg=+0.4618 dL_margin=+0.0014 dGeom=+23.2945
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8798 dL_seg=+0.6363 dL_margin=-0.0004 dGeom=+96.5337
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0039 dL_seg=+0.0035 dL_margin=+0.0018 dGeom=-4.4697
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0184 dL_seg=+0.0095 dL_margin=+0.0024 dGeom=-3.6524
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0772 dL_seg=+0.0301 dL_margin=-0.0002 dGeom=+5.8839
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.3105 dL_seg=+0.1343 dL_margin=-0.0004 dGeom=+52.4788
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0033 dL_seg=+0.0023 dL_margin=+0.0005 dGeom=+1.1283
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0418 dL_seg=+0.0650 dL_margin=+0.0033 dGeom=+5.5732
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8547 dL_seg=+0.4672 dL_margin=+0.0015 dGeom=+23.3633
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8797 dL_seg=+0.6392 dL_margin=-0.0004 dGeom=+97.3663
+  D_useful   push=1.00 (activation-space)  dDice=+0.0056 dL_seg=-0.0030 dL_margin=-0.0002
+  D_useful   push=2.00 (activation-space)  dDice=+0.0088 dL_seg=-0.0056 dL_margin=-0.0003
+  D_useful   push=4.00 (activation-space)  dDice=+0.0150 dL_seg=-0.0099 dL_margin=-0.0004
+  D_useful   push=14.00 (activation-space)  dDice=+0.0340 dL_seg=-0.0224 dL_margin=-0.0004
+
+  --- Subject 5 (BraTS-GLI-00501-000) ---
+  ||g_seg||=2.2393e-01 ||g_margin||=1.9821e-01 ||g_total||=2.2749e-01
+  cos(g_seg,g_margin)=+0.1369 cos(g_seg,g_total)=+0.9963 cos(g_margin,g_total)=+0.2219
+  Baseline: Dice=0.9103 L_seg=0.0523 L_margin=0.0017 geometry=26.4571
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0256 dL_seg=-0.0056 dL_margin=-0.0013 dGeom=+6.6462
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0258 dL_seg=+0.0746 dL_margin=-0.0017 dGeom=+14.9575
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8101 dL_seg=+0.5341 dL_margin=-0.0017 dGeom=+39.5437
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8363 dL_seg=+0.9433 dL_margin=-0.0017 dGeom=+126.0593
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0148 dL_seg=+0.0902 dL_margin=-0.0011 dGeom=+4.8657
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.7411 dL_seg=+0.4433 dL_margin=-0.0015 dGeom=+23.2816
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.7865 dL_seg=+0.5120 dL_margin=-0.0017 dGeom=+65.3651
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8020 dL_seg=+0.5411 dL_margin=-0.0017 dGeom=+181.4733
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0273 dL_seg=-0.0040 dL_margin=-0.0013 dGeom=+5.7912
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0217 dL_seg=+0.1567 dL_margin=-0.0016 dGeom=+14.0574
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8147 dL_seg=+0.5786 dL_margin=-0.0017 dGeom=+39.9823
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8365 dL_seg=+1.1574 dL_margin=-0.0017 dGeom=+132.0498
+  D_useful   push=1.00 (activation-space)  dDice=+0.0058 dL_seg=-0.0036 dL_margin=-0.0009
+  D_useful   push=2.00 (activation-space)  dDice=+0.0101 dL_seg=-0.0066 dL_margin=-0.0013
+  D_useful   push=4.00 (activation-space)  dDice=+0.0189 dL_seg=-0.0118 dL_margin=-0.0017
+  D_useful   push=14.00 (activation-space)  dDice=+0.0413 dL_seg=-0.0262 dL_margin=-0.0017
+
+  --- Subject 6 (BraTS-GLI-01093-000) ---
+  ||g_seg||=1.2470e-01 ||g_margin||=5.3954e-02 ||g_total||=1.2442e-01
+  cos(g_seg,g_margin)=-0.0737 cos(g_seg,g_total)=+0.9991 cos(g_margin,g_total)=-0.0305
+  Baseline: Dice=0.9497 L_seg=0.0393 L_margin=0.0011 geometry=24.6708
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0324 dL_seg=+0.0115 dL_margin=-0.0006 dGeom=+4.6091
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1178 dL_seg=+0.0624 dL_margin=-0.0009 dGeom=+9.8588
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8442 dL_seg=+0.4599 dL_margin=-0.0011 dGeom=+23.0473
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8946 dL_seg=+0.8386 dL_margin=-0.0011 dGeom=+65.1067
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0355 dL_seg=+0.0125 dL_margin=-0.0008 dGeom=-3.0681
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0925 dL_seg=+0.0356 dL_margin=-0.0011 dGeom=+0.6561
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.4595 dL_seg=+0.2099 dL_margin=-0.0011 dGeom=+17.5963
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9247 dL_seg=+0.5087 dL_margin=-0.0011 dGeom=+77.5219
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0314 dL_seg=+0.0116 dL_margin=-0.0006 dGeom=+4.3723
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1167 dL_seg=+0.0713 dL_margin=-0.0009 dGeom=+9.5381
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8630 dL_seg=+0.4902 dL_margin=-0.0011 dGeom=+22.7920
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8948 dL_seg=+0.8667 dL_margin=-0.0011 dGeom=+66.4219
+  D_useful   push=1.00 (activation-space)  dDice=+0.0041 dL_seg=-0.0029 dL_margin=-0.0006
+  D_useful   push=2.00 (activation-space)  dDice=+0.0075 dL_seg=-0.0054 dL_margin=-0.0009
+  D_useful   push=4.00 (activation-space)  dDice=+0.0124 dL_seg=-0.0095 dL_margin=-0.0011
+  D_useful   push=14.00 (activation-space)  dDice=+0.0286 dL_seg=-0.0207 dL_margin=-0.0011
+
+  --- Subject 7 (BraTS-GLI-01168-000) ---
+  ||g_seg||=1.3098e-01 ||g_margin||=2.7693e-03 ||g_total||=1.3096e-01
+  cos(g_seg,g_margin)=-0.0603 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=-0.0582
+  Baseline: Dice=0.9040 L_seg=0.0508 L_margin=0.0002 geometry=28.3225
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0146 dL_seg=-0.0040 dL_margin=+0.0003 dGeom=-3.9447
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0372 dL_seg=+0.0171 dL_margin=+0.0012 dGeom=-5.6211
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.3417 dL_seg=+0.1599 dL_margin=+0.0021 dGeom=-3.3844
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7593 dL_seg=+0.3937 dL_margin=-0.0001 dGeom=+1.7936
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0000 dL_seg=+0.0041 dL_margin=+0.0000 dGeom=+0.0465
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=+0.0008 dL_seg=+0.0474 dL_margin=+0.0001 dGeom=+2.7020
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=+0.0023 dL_seg=+0.3529 dL_margin=-0.0001 dGeom=+15.4078
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8464 dL_seg=+0.4822 dL_margin=-0.0002 dGeom=+71.0975
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0149 dL_seg=-0.0040 dL_margin=+0.0003 dGeom=-3.9419
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0372 dL_seg=+0.0171 dL_margin=+0.0012 dGeom=-5.6263
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.3422 dL_seg=+0.1604 dL_margin=+0.0021 dGeom=-3.3791
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7593 dL_seg=+0.3940 dL_margin=-0.0001 dGeom=+1.8005
+  D_useful   push=1.00 (activation-space)  dDice=+0.0056 dL_seg=-0.0032 dL_margin=-0.0001
+  D_useful   push=2.00 (activation-space)  dDice=+0.0086 dL_seg=-0.0059 dL_margin=-0.0001
+  D_useful   push=4.00 (activation-space)  dDice=+0.0162 dL_seg=-0.0105 dL_margin=-0.0002
+  D_useful   push=14.00 (activation-space)  dDice=+0.0409 dL_seg=-0.0242 dL_margin=-0.0002
+
+=== Checkpoint epoch 30 ===
+
+  --- Subject 0 (BraTS-GLI-01041-000) ---
+  ||g_seg||=8.2133e-02 ||g_margin||=1.9006e-02 ||g_total||=8.2593e-02
+  cos(g_seg,g_margin)=+0.2310 cos(g_seg,g_total)=+0.9997 cos(g_margin,g_total)=+0.2527
+  Baseline: Dice=0.9285 L_seg=0.0413 L_margin=0.0003 geometry=26.9965
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0470 dL_seg=+0.0140 dL_margin=+0.0005 dGeom=-6.1865
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.2302 dL_seg=+0.0932 dL_margin=-0.0003 dGeom=-9.3412
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.8900 dL_seg=+0.4634 dL_margin=-0.0003 dGeom=-7.1578
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9285 dL_seg=+0.5026 dL_margin=-0.0003 dGeom=+16.2661
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0086 dL_seg=-0.0040 dL_margin=+0.0019 dGeom=-6.3876
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0224 dL_seg=+0.0056 dL_margin=+0.0020 dGeom=-9.1276
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.2350 dL_seg=+0.0991 dL_margin=-0.0002 dGeom=-8.4614
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8507 dL_seg=+0.4433 dL_margin=-0.0003 dGeom=+3.3875
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0477 dL_seg=+0.0142 dL_margin=+0.0005 dGeom=-6.2397
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.2332 dL_seg=+0.0948 dL_margin=-0.0003 dGeom=-9.4314
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.8944 dL_seg=+0.4659 dL_margin=-0.0003 dGeom=-7.3093
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9285 dL_seg=+0.5026 dL_margin=-0.0003 dGeom=+15.9775
+  D_useful   push=1.00 (activation-space)  dDice=+0.0056 dL_seg=-0.0030 dL_margin=-0.0002
+  D_useful   push=2.00 (activation-space)  dDice=+0.0092 dL_seg=-0.0056 dL_margin=-0.0002
+  D_useful   push=4.00 (activation-space)  dDice=+0.0162 dL_seg=-0.0098 dL_margin=-0.0003
+  D_useful   push=14.00 (activation-space)  dDice=+0.0400 dL_seg=-0.0219 dL_margin=-0.0003
+
+  --- Subject 1 (BraTS-GLI-01161-000) ---
+  ||g_seg||=5.3248e-02 ||g_margin||=2.4374e-02 ||g_total||=5.3223e-02
+  cos(g_seg,g_margin)=-0.0334 cos(g_seg,g_total)=+0.9990 cos(g_margin,g_total)=+0.0123
+  Baseline: Dice=0.9166 L_seg=0.0452 L_margin=0.0004 geometry=29.0006
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0093 dL_seg=-0.0015 dL_margin=+0.0001 dGeom=+1.6192
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0100 dL_seg=+0.0079 dL_margin=-0.0000 dGeom=+5.6670
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.0574 dL_seg=+0.0705 dL_margin=-0.0001 dGeom=+17.3377
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8550 dL_seg=+0.5624 dL_margin=-0.0003 dGeom=+44.9682
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0017 dL_seg=-0.0005 dL_margin=+0.0000 dGeom=-2.1569
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0161 dL_seg=+0.0032 dL_margin=-0.0001 dGeom=+0.8436
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0598 dL_seg=+0.0264 dL_margin=-0.0004 dGeom=+15.0362
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.3936 dL_seg=+0.1847 dL_margin=-0.0004 dGeom=+66.7265
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0097 dL_seg=-0.0016 dL_margin=+0.0001 dGeom=+1.4378
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0098 dL_seg=+0.0078 dL_margin=+0.0001 dGeom=+5.4153
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.0566 dL_seg=+0.0699 dL_margin=-0.0001 dGeom=+17.0691
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8559 dL_seg=+0.5630 dL_margin=-0.0004 dGeom=+45.3981
+  D_useful   push=1.00 (activation-space)  dDice=+0.0045 dL_seg=-0.0029 dL_margin=-0.0002
+  D_useful   push=2.00 (activation-space)  dDice=+0.0089 dL_seg=-0.0054 dL_margin=-0.0003
+  D_useful   push=4.00 (activation-space)  dDice=+0.0135 dL_seg=-0.0096 dL_margin=-0.0004
+  D_useful   push=14.00 (activation-space)  dDice=+0.0345 dL_seg=-0.0216 dL_margin=-0.0004
+
+  --- Subject 2 (BraTS-GLI-01189-000) ---
+  ||g_seg||=1.0080e-01 ||g_margin||=2.0439e-02 ||g_total||=1.0085e-01
+  cos(g_seg,g_margin)=+0.0175 cos(g_seg,g_total)=+0.9998 cos(g_margin,g_total)=+0.0377
+  Baseline: Dice=0.8981 L_seg=0.0516 L_margin=0.0008 geometry=25.9422
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0289 dL_seg=+0.0106 dL_margin=-0.0004 dGeom=+3.4170
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0874 dL_seg=+0.0357 dL_margin=-0.0006 dGeom=+7.0492
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.3884 dL_seg=+0.2100 dL_margin=-0.0008 dGeom=+14.2035
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7460 dL_seg=+0.5493 dL_margin=-0.0008 dGeom=+27.4610
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0085 dL_seg=+0.0028 dL_margin=-0.0001 dGeom=-1.0437
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0271 dL_seg=+0.0099 dL_margin=-0.0006 dGeom=+6.5984
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.4093 dL_seg=+0.1775 dL_margin=-0.0008 dGeom=+28.3328
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8854 dL_seg=+0.4856 dL_margin=-0.0008 dGeom=+87.6445
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0288 dL_seg=+0.0106 dL_margin=-0.0004 dGeom=+3.2727
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0864 dL_seg=+0.0355 dL_margin=-0.0006 dGeom=+6.8256
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.3833 dL_seg=+0.2081 dL_margin=-0.0008 dGeom=+13.7759
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7517 dL_seg=+0.5501 dL_margin=-0.0008 dGeom=+26.7841
+  D_useful   push=1.00 (activation-space)  dDice=+0.0040 dL_seg=-0.0028 dL_margin=-0.0003
+  D_useful   push=2.00 (activation-space)  dDice=+0.0078 dL_seg=-0.0053 dL_margin=-0.0006
+  D_useful   push=4.00 (activation-space)  dDice=+0.0136 dL_seg=-0.0095 dL_margin=-0.0008
+  D_useful   push=14.00 (activation-space)  dDice=+0.0345 dL_seg=-0.0223 dL_margin=-0.0008
+
+  --- Subject 3 (BraTS-GLI-01336-000) ---
+  ||g_seg||=8.6947e-02 ||g_margin||=6.2051e-04 ||g_total||=8.6961e-02
+  cos(g_seg,g_margin)=+0.2307 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=+0.2313
+  Baseline: Dice=0.9565 L_seg=0.0329 L_margin=0.0000 geometry=29.5925
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0859 dL_seg=+0.0255 dL_margin=-0.0000 dGeom=-8.2104
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.2734 dL_seg=+0.1036 dL_margin=-0.0000 dGeom=-11.0202
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.6751 dL_seg=+0.3164 dL_margin=-0.0000 dGeom=-5.8216
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.9522 dL_seg=+0.4937 dL_margin=-0.0000 dGeom=+30.9753
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=+0.0056 dL_seg=-0.0015 dL_margin=+0.0001 dGeom=-4.0701
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0017 dL_seg=-0.0008 dL_margin=+0.0001 dGeom=-6.1665
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.0473 dL_seg=+0.0121 dL_margin=+0.0000 dGeom=-7.8658
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.3777 dL_seg=+0.1555 dL_margin=-0.0000 dGeom=-0.8451
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0859 dL_seg=+0.0255 dL_margin=-0.0000 dGeom=-8.2103
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.2734 dL_seg=+0.1036 dL_margin=-0.0000 dGeom=-11.0210
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.6751 dL_seg=+0.3164 dL_margin=-0.0000 dGeom=-5.8263
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.9522 dL_seg=+0.4937 dL_margin=-0.0000 dGeom=+30.9632
+  D_useful   push=1.00 (activation-space)  dDice=+0.0059 dL_seg=-0.0025 dL_margin=-0.0000
+  D_useful   push=2.00 (activation-space)  dDice=+0.0097 dL_seg=-0.0046 dL_margin=-0.0000
+  D_useful   push=4.00 (activation-space)  dDice=+0.0143 dL_seg=-0.0080 dL_margin=-0.0000
+  D_useful   push=14.00 (activation-space)  dDice=+0.0284 dL_seg=-0.0171 dL_margin=-0.0000
+
+  --- Subject 4 (BraTS-GLI-00250-000) ---
+  ||g_seg||=4.7911e-02 ||g_margin||=1.1814e-02 ||g_total||=4.8123e-02
+  cos(g_seg,g_margin)=+0.1675 cos(g_seg,g_total)=+0.9997 cos(g_margin,g_total)=+0.1913
+  Baseline: Dice=0.9240 L_seg=0.0426 L_margin=0.0001 geometry=27.3935
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0085 dL_seg=-0.0021 dL_margin=+0.0003 dGeom=-1.6552
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0087 dL_seg=+0.0040 dL_margin=+0.0004 dGeom=-1.8205
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.2300 dL_seg=+0.0986 dL_margin=+0.0002 dGeom=-1.5217
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.7653 dL_seg=+0.4567 dL_margin=+0.0000 dGeom=+3.5778
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0026 dL_seg=-0.0007 dL_margin=+0.0000 dGeom=-3.5145
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0182 dL_seg=+0.0030 dL_margin=+0.0001 dGeom=-4.3443
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1150 dL_seg=+0.0468 dL_margin=-0.0001 dGeom=-1.1025
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8959 dL_seg=+0.4760 dL_margin=-0.0001 dGeom=+16.2833
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0084 dL_seg=-0.0021 dL_margin=+0.0003 dGeom=-1.7137
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0094 dL_seg=+0.0039 dL_margin=+0.0004 dGeom=-1.9308
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.2281 dL_seg=+0.0976 dL_margin=+0.0002 dGeom=-1.7227
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.7648 dL_seg=+0.4524 dL_margin=-0.0000 dGeom=+3.6825
+  D_useful   push=1.00 (activation-space)  dDice=+0.0047 dL_seg=-0.0025 dL_margin=-0.0001
+  D_useful   push=2.00 (activation-space)  dDice=+0.0078 dL_seg=-0.0047 dL_margin=-0.0001
+  D_useful   push=4.00 (activation-space)  dDice=+0.0142 dL_seg=-0.0084 dL_margin=-0.0001
+  D_useful   push=14.00 (activation-space)  dDice=+0.0312 dL_seg=-0.0195 dL_margin=-0.0001
+
+  --- Subject 5 (BraTS-GLI-00501-000) ---
+  ||g_seg||=2.4690e-01 ||g_margin||=1.3579e-01 ||g_total||=2.4754e-01
+  cos(g_seg,g_margin)=+0.0199 cos(g_seg,g_total)=+0.9985 cos(g_margin,g_total)=+0.0747
+  Baseline: Dice=0.8991 L_seg=0.0536 L_margin=0.0011 geometry=27.0144
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0396 dL_seg=-0.0124 dL_margin=-0.0008 dGeom=+5.0397
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.0032 dL_seg=+0.0132 dL_margin=-0.0010 dGeom=+11.2859
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.5668 dL_seg=+0.3567 dL_margin=-0.0011 dGeom=+27.9613
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8230 dL_seg=+0.8169 dL_margin=-0.0011 dGeom=+74.5215
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0205 dL_seg=+0.0194 dL_margin=-0.0005 dGeom=+1.9416
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0467 dL_seg=+0.0884 dL_margin=-0.0009 dGeom=+16.9404
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1611 dL_seg=+0.2256 dL_margin=-0.0011 dGeom=+57.9799
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.4426 dL_seg=+0.3644 dL_margin=-0.0011 dGeom=+199.8190
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0399 dL_seg=-0.0122 dL_margin=-0.0008 dGeom=+4.5723
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.0013 dL_seg=+0.0182 dL_margin=-0.0010 dGeom=+10.9017
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.6618 dL_seg=+0.4302 dL_margin=-0.0011 dGeom=+28.0268
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8236 dL_seg=+0.8624 dL_margin=-0.0011 dGeom=+77.3787
+  D_useful   push=1.00 (activation-space)  dDice=+0.0040 dL_seg=-0.0033 dL_margin=-0.0006
+  D_useful   push=2.00 (activation-space)  dDice=+0.0080 dL_seg=-0.0062 dL_margin=-0.0009
+  D_useful   push=4.00 (activation-space)  dDice=+0.0168 dL_seg=-0.0112 dL_margin=-0.0011
+  D_useful   push=14.00 (activation-space)  dDice=+0.0447 dL_seg=-0.0268 dL_margin=-0.0011
+
+  --- Subject 6 (BraTS-GLI-01093-000) ---
+  ||g_seg||=1.0560e-01 ||g_margin||=4.6681e-02 ||g_total||=1.0444e-01
+  cos(g_seg,g_margin)=-0.2695 cos(g_seg,g_total)=+0.9991 cos(g_margin,g_total)=-0.2278
+  Baseline: Dice=0.9565 L_seg=0.0341 L_margin=0.0007 geometry=26.3199
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=-0.0532 dL_seg=+0.0173 dL_margin=-0.0004 dGeom=+4.9945
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=-0.1349 dL_seg=+0.0534 dL_margin=-0.0006 dGeom=+10.7328
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.4050 dL_seg=+0.2596 dL_margin=-0.0006 dGeom=+24.3727
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.8526 dL_seg=+0.6943 dL_margin=-0.0007 dGeom=+59.4791
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0440 dL_seg=+0.0137 dL_margin=-0.0004 dGeom=-2.2910
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.1586 dL_seg=+0.0666 dL_margin=-0.0007 dGeom=+4.5545
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.8502 dL_seg=+0.4482 dL_margin=-0.0007 dGeom=+26.0224
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.9561 dL_seg=+0.5328 dL_margin=-0.0007 dGeom=+93.6536
+  C_total    eps=0.25 ||delta||=0.2500  dDice=-0.0528 dL_seg=+0.0173 dL_margin=-0.0003 dGeom=+4.6796
+  C_total    eps=0.50 ||delta||=0.5000  dDice=-0.1338 dL_seg=+0.0535 dL_margin=-0.0005 dGeom=+10.1986
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.4003 dL_seg=+0.2721 dL_margin=-0.0006 dGeom=+23.2440
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.8619 dL_seg=+0.7231 dL_margin=-0.0007 dGeom=+56.9315
+  D_useful   push=1.00 (activation-space)  dDice=+0.0043 dL_seg=-0.0025 dL_margin=-0.0004
+  D_useful   push=2.00 (activation-space)  dDice=+0.0073 dL_seg=-0.0047 dL_margin=-0.0006
+  D_useful   push=4.00 (activation-space)  dDice=+0.0125 dL_seg=-0.0082 dL_margin=-0.0006
+  D_useful   push=14.00 (activation-space)  dDice=+0.0269 dL_seg=-0.0178 dL_margin=-0.0007
+
+  --- Subject 7 (BraTS-GLI-01168-000) ---
+  ||g_seg||=1.1701e-01 ||g_margin||=2.3918e-03 ||g_total||=1.1700e-01
+  cos(g_seg,g_margin)=-0.0338 cos(g_seg,g_total)=+1.0000 cos(g_margin,g_total)=-0.0318
+  Baseline: Dice=0.8976 L_seg=0.0496 L_margin=0.0002 geometry=29.7863
+  A_seg      eps=0.25 ||delta||=0.2500  dDice=+0.0416 dL_seg=-0.0117 dL_margin=+0.0005 dGeom=-1.7482
+  A_seg      eps=0.50 ||delta||=0.5000  dDice=+0.0312 dL_seg=-0.0034 dL_margin=+0.0027 dGeom=-2.1802
+  A_seg      eps=1.00 ||delta||=1.0000  dDice=-0.0684 dL_seg=+0.0558 dL_margin=+0.0026 dGeom=+2.0503
+  A_seg      eps=2.00 ||delta||=2.0000  dDice=-0.5495 dL_seg=+0.2899 dL_margin=+0.0002 dGeom=+30.9593
+  B_margin   eps=0.25 ||delta||=0.2500  dDice=-0.0026 dL_seg=+0.0022 dL_margin=-0.0001 dGeom=+3.9693
+  B_margin   eps=0.50 ||delta||=0.5000  dDice=-0.0163 dL_seg=+0.0073 dL_margin=-0.0000 dGeom=+14.5748
+  B_margin   eps=1.00 ||delta||=1.0000  dDice=-0.1168 dL_seg=+0.0502 dL_margin=-0.0001 dGeom=+46.1411
+  B_margin   eps=2.00 ||delta||=2.0000  dDice=-0.8792 dL_seg=+0.4703 dL_margin=-0.0002 dGeom=+159.8424
+  C_total    eps=0.25 ||delta||=0.2500  dDice=+0.0416 dL_seg=-0.0117 dL_margin=+0.0005 dGeom=-1.7483
+  C_total    eps=0.50 ||delta||=0.5000  dDice=+0.0315 dL_seg=-0.0034 dL_margin=+0.0027 dGeom=-2.1854
+  C_total    eps=1.00 ||delta||=1.0000  dDice=-0.0687 dL_seg=+0.0559 dL_margin=+0.0026 dGeom=+2.0168
+  C_total    eps=2.00 ||delta||=2.0000  dDice=-0.5487 dL_seg=+0.2898 dL_margin=+0.0002 dGeom=+30.8173
+  D_useful   push=1.00 (activation-space)  dDice=+0.0062 dL_seg=-0.0027 dL_margin=-0.0001
+  D_useful   push=2.00 (activation-space)  dDice=+0.0096 dL_seg=-0.0050 dL_margin=-0.0001
+  D_useful   push=4.00 (activation-space)  dDice=+0.0145 dL_seg=-0.0089 dL_margin=-0.0001
+  D_useful   push=14.00 (activation-space)  dDice=+0.0336 dL_seg=-0.0212 dL_margin=-0.0002
+
+Saved 1536 rows to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e22\results.json and results.csv

@@ -1,0 +1,15 @@
+{
+  "n_subjects": 125,
+  "n_b_mean": 0.32045564776659013,
+  "n_b_sd": 0.17407205496548106,
+  "a_b_mean": 0.07869765807690958,
+  "a_b_sd": 0.02798346951603768,
+  "a_b_cv": 0.35558198553169695,
+  "spearman_rho_Nb_Ab": 0.06440552995391703,
+  "parametric_p": 0.475485098432456,
+  "permutation_p": 0.475,
+  "n_permutations": 1000,
+  "spearman_rho_size_Nb_sanity_check": -0.4541136712749615,
+  "spearman_rho_size_Ab": -0.29832258064516126,
+  "decision": "MISMATCH_CONFIRMED"
+}

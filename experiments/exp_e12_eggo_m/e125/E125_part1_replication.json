@@ -1,0 +1,8 @@
+{
+  "n_heldout": 32,
+  "marginal_rho": 0.563782991202346,
+  "marginal_perm_p": 0.0,
+  "partial_rho_controlling_size": 0.876466275659824,
+  "partial_perm_p": 0.0,
+  "verdict": "REPLICATES"
+}

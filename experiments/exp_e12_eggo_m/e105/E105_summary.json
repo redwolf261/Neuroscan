@@ -1,0 +1,14 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_subjects": 125,
+  "frac_high_confidence_argmax": 0.384,
+  "mean_S_argmax": 10.397063165664672,
+  "mean_S_mean_lesion": 14.098100952148437,
+  "h_norm_small_mean": 0.1608497697897486,
+  "h_norm_large_mean": 0.08987638466230713,
+  "h_norm_diff": 0.07097338512744147,
+  "h_norm_diff_p": 0.0,
+  "condition_a_met": false,
+  "condition_b_met": true,
+  "decision": "KILL_HAUSDORFF"
+}

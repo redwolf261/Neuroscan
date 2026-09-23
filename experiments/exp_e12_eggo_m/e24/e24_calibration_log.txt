@@ -1,0 +1,28 @@
+======================================================================
+E24 Part 1: delta_d_w calibration -- FRESH, randomly-initialized model
+======================================================================
+
+Euclidean distance distribution at initialization (for cross-check against E12e's original delta_d=3.6659):
+  mean=9.6044 std=2.8808
+  p5=5.5727
+  p10=6.1958
+  p20=7.3317
+  p30=7.9664
+  p50=9.3216
+
+Projected (w_hat) distance distribution at initialization:
+  mean=1.3300 std=0.8899
+  p5=0.1662
+  p10=0.3007
+  p20=0.5105
+  p30=0.7271
+  p50=1.2094
+
+Calibrated delta_d_w (targeting ~20% active hinge at init, same criterion as E12e's delta_d): 0.2553
+  (i.e. 2*delta_d_w = 0.5105)
+  Verification: 20.04% of pairs violate the hinge at this delta_d_w (target: 10-30%)
+
+Sanity check: mean(proj_dist)/mean(euclid_dist) = 0.1385 (must be <= 1.0 for a valid unit-vector projection)
+  PASSED
+
+Results saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e24\e24_results\delta_d_w_calibration.json

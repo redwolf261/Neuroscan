@@ -1,0 +1,30 @@
+{
+  "n_subjects": 125,
+  "mean_dice_intact": 0.8957643356323243,
+  "octant_A": {
+    "slice": "[0:4,0:4,0:4]",
+    "mean_drop": 0.019488564491271974,
+    "spearman_rho": -0.18563442985532663,
+    "parametric_p": 0.03820427630506226,
+    "permutation_p": 0.031,
+    "bootstrap_95ci": [
+      -0.3522138222605234,
+      0.0040351174474630115
+    ],
+    "overlaps_e48_reference": false
+  },
+  "octant_B": {
+    "slice": "[4:8,4:8,4:8]",
+    "mean_drop": 0.016111577510833742,
+    "spearman_rho": -0.08138373862309829,
+    "parametric_p": 0.36692165292577456,
+    "permutation_p": 0.377,
+    "bootstrap_95ci": [
+      -0.25014700814172586,
+      0.1073261127675453
+    ],
+    "overlaps_e48_reference": false
+  },
+  "e48_reference_rho": -0.454,
+  "decision": "global_distributed_supported"
+}

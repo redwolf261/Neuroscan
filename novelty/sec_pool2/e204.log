@@ -1,0 +1,21 @@
+E190 GATE (fast) -- does the SPA influence map survive validation?
+PASS: sign>=0.95 cos>=0.95 spearman>=0.95 relerr<=0.05 in float32
+
+============================================================================================
+PRECISION: float32   <-- TRAINING PRECISION, THIS IS THE GATE
+============================================================================================
+subject         locus          n      eps    sign     cos   spear   relerr   tie%  cos|tie   cos|no
+BraTS-GLI-01041 E3            96    1e-01   1.000   0.972   0.525    0.194  100.0    0.972      nan
+BraTS-GLI-01041 bottleneck    96    1e-02   1.000   1.000   0.999    0.009    0.0      nan    1.000
+BraTS-GLI-01161 E3            96    1e-01   0.958   0.912   0.408    0.560  100.0    0.912      nan
+BraTS-GLI-01161 bottleneck    96    1e-02   1.000   1.000   1.000    0.002    0.0      nan    1.000
+BraTS-GLI-01189 E3            96    1e-03   0.958   0.906   0.483    0.353  100.0    0.906      nan
+BraTS-GLI-01189 bottleneck    96    1e-02   1.000   1.000   1.000    0.002    0.0      nan    1.000
+
+[float32 done at 32s]
+============================================================================================
+PRECISION: float64   (diagnostic only)
+============================================================================================
+subject         locus          n      eps    sign     cos   spear   relerr   tie%  cos|tie   cos|no
+BraTS-GLI-01041 E3            32    1e-01   1.000   0.973   0.014    0.209  100.0    0.973      nan
+BraTS-GLI-01041 bottleneck    32    1e-04   1.000   1.000   1.000    0.000    0.0      nan    1.000

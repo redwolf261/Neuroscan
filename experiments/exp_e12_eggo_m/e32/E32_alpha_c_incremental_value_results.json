@@ -1,0 +1,60 @@
+{
+  "n_components": 749,
+  "n_censored_alpha_c": 190,
+  "correlations": {
+    "alpha_c_vs_component_dice_64": {
+      "rho": 0.676162842458396,
+      "p": 3.338227883756148e-101
+    },
+    "alpha_c_vs_detected_64": {
+      "r": 0.7765107573303648,
+      "p": 5.439310151049684e-152
+    },
+    "alpha_c_vs_native_size": 0.7857470551129635,
+    "alpha_c_vs_size_64": 0.7547981763272142
+  },
+  "incremental_r2": {
+    "r2_base_size_and_baseline_dice": 0.9415326639734911,
+    "r2_with_alpha_c": 0.9415375836975881,
+    "delta_r2": 4.919724096996703e-06,
+    "spearman_excl_top5_outliers": {
+      "rho": 0.6754573751998281,
+      "p": 2.9621245850709e-100
+    }
+  },
+  "permutation_safeguard_full": {
+    "n_trials": 500,
+    "real_delta_r2": 4.919724096996703e-06,
+    "permuted_delta_r2_mean": 0.00015392492625017362,
+    "fraction_permuted_exceeds_real_delta_r2": 0.862,
+    "real_spearman_rho": 0.676162842458396,
+    "permuted_mean_abs_rho": 0.6348207081720882,
+    "fraction_permuted_exceeds_real_rho": 0.0,
+    "pass": "True"
+  },
+  "subject_clustered_bootstrap_full": {
+    "delta_r2_mean": 4.344773936657792e-05,
+    "delta_r2_ci": [
+      5.525211436985256e-08,
+      0.0002096252388640889
+    ],
+    "spearman_mean": 0.6765804994289488,
+    "spearman_ci": [
+      0.6179043279424972,
+      0.7347914894516235
+    ]
+  },
+  "small_lesion_restricted_native_size_le_150": {
+    "n": 587,
+    "delta_r2": 3.696368137906525e-05,
+    "spearman_rho": 0.25372227129006486,
+    "spearman_p": 4.476534264677126e-10,
+    "subject_clustered_bootstrap_spearman_mean": 0.24994905918898377,
+    "subject_clustered_bootstrap_spearman_ci": [
+      0.14403209016044521,
+      0.34554235397663247
+    ],
+    "permutation_fraction_exceeds": 0.0,
+    "permutation_pass": "True"
+  }
+}

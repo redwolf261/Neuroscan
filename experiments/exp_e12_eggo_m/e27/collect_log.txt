@@ -1,0 +1,48 @@
+Full validation set: 125 subjects
+
+=== Loading best.pth for A/D4/D2/Both ===
+  A: best.pth epoch=23
+  D4: best.pth epoch=28
+  D2: best.pth epoch=28
+  Both: best.pth epoch=28
+  processed 25/125 subjects
+  processed 50/125 subjects
+  processed 75/125 subjects
+  processed 100/125 subjects
+  processed 125/125 subjects
+
+Total GT components collected: 363
+Saved component table to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e27\E27_component_table.json
+
+=== Loading periodic checkpoints for early-trajectory features ===
+  A epoch_1.pth loaded (recorded epoch field=0)
+  A epoch_5.pth loaded (recorded epoch field=4)
+  A epoch_10.pth loaded (recorded epoch field=9)
+  A epoch_15.pth loaded (recorded epoch field=14)
+  A epoch_20.pth loaded (recorded epoch field=19)
+  A epoch_25.pth loaded (recorded epoch field=24)
+  A epoch_30.pth loaded (recorded epoch field=29)
+  D4 epoch_1.pth loaded (recorded epoch field=0)
+  D4 epoch_5.pth loaded (recorded epoch field=4)
+  D4 epoch_10.pth loaded (recorded epoch field=9)
+  D4 epoch_15.pth loaded (recorded epoch field=14)
+  D4 epoch_20.pth loaded (recorded epoch field=19)
+  D4 epoch_25.pth loaded (recorded epoch field=24)
+  D4 epoch_30.pth loaded (recorded epoch field=29)
+  D2 epoch_1.pth loaded (recorded epoch field=0)
+  D2 epoch_5.pth loaded (recorded epoch field=4)
+  D2 epoch_10.pth loaded (recorded epoch field=9)
+  D2 epoch_15.pth loaded (recorded epoch field=14)
+  D2 epoch_20.pth loaded (recorded epoch field=19)
+  D2 epoch_25.pth loaded (recorded epoch field=24)
+  D2 epoch_30.pth loaded (recorded epoch field=29)
+  Both epoch_1.pth loaded (recorded epoch field=0)
+  Both epoch_5.pth loaded (recorded epoch field=4)
+  Both epoch_10.pth loaded (recorded epoch field=9)
+  Both epoch_15.pth loaded (recorded epoch field=14)
+  Both epoch_20.pth loaded (recorded epoch field=19)
+  Both epoch_25.pth loaded (recorded epoch field=24)
+  Both epoch_30.pth loaded (recorded epoch field=29)
+
+Total trajectory records: 10164
+Saved trajectory table to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e27\E27_trajectory_table.json

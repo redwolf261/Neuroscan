@@ -1,0 +1,93 @@
+[
+  {
+    "epoch": 1,
+    "val_dice": 0.5764943145215511,
+    "val_ece": 0.36396384375289015,
+    "mean_evidence": 1.6858318866193294,
+    "mean_confidence": 0.6268633096665144,
+    "latent_boundary_auc": 0.994532797621773,
+    "latent_boundary_r2_evidence": 0.20795886388430562,
+    "density_cohens_d": -1.1503686294939826,
+    "evidence_cohens_d": 0.7170906297418372,
+    "n_incorrect": 699,
+    "n_total": 40000
+  },
+  {
+    "epoch": 3,
+    "val_dice": 0.751965680718422,
+    "val_ece": 0.22979410620683893,
+    "mean_evidence": 2.8419980748057365,
+    "mean_confidence": 0.764905614989996,
+    "latent_boundary_auc": 0.9963184844566344,
+    "latent_boundary_r2_evidence": 0.059277568062712116,
+    "density_cohens_d": -2.2164371106123486,
+    "evidence_cohens_d": 2.9281367417543205,
+    "n_incorrect": 249,
+    "n_total": 40000
+  },
+  {
+    "epoch": 5,
+    "val_dice": 0.877395761013031,
+    "val_ece": 0.1648651046994473,
+    "mean_evidence": 4.336980512613058,
+    "mean_confidence": 0.832416337633878,
+    "latent_boundary_auc": 0.9986560652771599,
+    "latent_boundary_r2_evidence": 0.08635107376253426,
+    "density_cohens_d": -2.3304691325013733,
+    "evidence_cohens_d": 2.4496218990427217,
+    "n_incorrect": 90,
+    "n_total": 40000
+  },
+  {
+    "epoch": 10,
+    "val_dice": 0.8740758508443832,
+    "val_ece": 0.10684447303065096,
+    "mean_evidence": 7.393823154640198,
+    "mean_confidence": 0.8909102644599974,
+    "latent_boundary_auc": 0.9994692087344985,
+    "latent_boundary_r2_evidence": 0.2264292896024046,
+    "density_cohens_d": -2.468811378640509,
+    "evidence_cohens_d": 2.016620111145869,
+    "n_incorrect": 85,
+    "n_total": 40000
+  },
+  {
+    "epoch": 20,
+    "val_dice": 0.9160698741674423,
+    "val_ece": 0.07086383132291307,
+    "mean_evidence": 12.065983316069842,
+    "mean_confidence": 0.9279449306964874,
+    "latent_boundary_auc": 0.9995462088687735,
+    "latent_boundary_r2_evidence": 0.27729839708432624,
+    "density_cohens_d": -2.8588404506044287,
+    "evidence_cohens_d": 2.3252623610267107,
+    "n_incorrect": 57,
+    "n_total": 40000
+  },
+  {
+    "epoch": 35,
+    "val_dice": 0.9186410009860992,
+    "val_ece": 0.05004250751671859,
+    "mean_evidence": 17.79125855240822,
+    "mean_confidence": 0.9485784117549658,
+    "latent_boundary_auc": 0.9995700665132394,
+    "latent_boundary_r2_evidence": 0.1328034527206542,
+    "density_cohens_d": -2.8387420841687208,
+    "evidence_cohens_d": 2.962114837490029,
+    "n_incorrect": 64,
+    "n_total": 40000
+  },
+  {
+    "epoch": 50,
+    "val_dice": 0.9224832564592361,
+    "val_ece": 0.04560468832596606,
+    "mean_evidence": 19.77754606769681,
+    "mean_confidence": 0.9531683727577329,
+    "latent_boundary_auc": 0.999672356852618,
+    "latent_boundary_r2_evidence": 0.2962138519517524,
+    "density_cohens_d": -3.006868214403176,
+    "evidence_cohens_d": 3.2905890827055724,
+    "n_incorrect": 59,
+    "n_total": 40000
+  }
+]

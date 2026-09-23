@@ -1,0 +1,5417 @@
+{
+  "n_subjects": 125,
+  "subject_records": [
+    {
+      "subject_idx": 0,
+      "subject_id": "BraTS-GLI-01041-000",
+      "dice_a": 0.9285992980003357,
+      "dice_ds": 0.9331476092338562,
+      "delta_dice": 0.004548311233520508,
+      "gt_lesion_volume": 2593,
+      "n_gt_components": 12,
+      "mean_component_size": 216.08333333333334,
+      "n_missed_a": 10,
+      "n_missed_ds": 10,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 1,
+      "subject_id": "BraTS-GLI-01161-000",
+      "dice_a": 0.910163938999176,
+      "dice_ds": 0.9039167761802673,
+      "delta_dice": -0.006247162818908691,
+      "gt_lesion_volume": 3132,
+      "n_gt_components": 2,
+      "mean_component_size": 1566.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 2,
+      "subject_id": "BraTS-GLI-01189-000",
+      "dice_a": 0.883336067199707,
+      "dice_ds": 0.8876593112945557,
+      "delta_dice": 0.004323244094848633,
+      "gt_lesion_volume": 3263,
+      "n_gt_components": 1,
+      "mean_component_size": 3263.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 3,
+      "subject_id": "BraTS-GLI-01336-000",
+      "dice_a": 0.9538894891738892,
+      "dice_ds": 0.9570422768592834,
+      "delta_dice": 0.003152787685394287,
+      "gt_lesion_volume": 1421,
+      "n_gt_components": 2,
+      "mean_component_size": 710.5,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 4,
+      "subject_id": "BraTS-GLI-00250-000",
+      "dice_a": 0.9190134406089783,
+      "dice_ds": 0.9187078475952148,
+      "delta_dice": -0.00030559301376342773,
+      "gt_lesion_volume": 2945,
+      "n_gt_components": 12,
+      "mean_component_size": 245.41666666666666,
+      "n_missed_a": 11,
+      "n_missed_ds": 11,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 5,
+      "subject_id": "BraTS-GLI-00501-000",
+      "dice_a": 0.9030476212501526,
+      "dice_ds": 0.9185256958007812,
+      "delta_dice": 0.015478074550628662,
+      "gt_lesion_volume": 5501,
+      "n_gt_components": 1,
+      "mean_component_size": 5501.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 6,
+      "subject_id": "BraTS-GLI-01093-000",
+      "dice_a": 0.9554399251937866,
+      "dice_ds": 0.9630369544029236,
+      "delta_dice": 0.007597029209136963,
+      "gt_lesion_volume": 4506,
+      "n_gt_components": 2,
+      "mean_component_size": 2253.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 7,
+      "subject_id": "BraTS-GLI-01168-000",
+      "dice_a": 0.915496826171875,
+      "dice_ds": 0.9020549654960632,
+      "delta_dice": -0.013441860675811768,
+      "gt_lesion_volume": 1833,
+      "n_gt_components": 1,
+      "mean_component_size": 1833.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 8,
+      "subject_id": "BraTS-GLI-00506-000",
+      "dice_a": 0.9520337581634521,
+      "dice_ds": 0.9514675140380859,
+      "delta_dice": -0.0005662441253662109,
+      "gt_lesion_volume": 2511,
+      "n_gt_components": 1,
+      "mean_component_size": 2511.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 9,
+      "subject_id": "BraTS-GLI-01065-000",
+      "dice_a": 0.9310495257377625,
+      "dice_ds": 0.9367282390594482,
+      "delta_dice": 0.005678713321685791,
+      "gt_lesion_volume": 4455,
+      "n_gt_components": 4,
+      "mean_component_size": 1113.75,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 10,
+      "subject_id": "BraTS-GLI-01444-000",
+      "dice_a": 0.9336723685264587,
+      "dice_ds": 0.9366456866264343,
+      "delta_dice": 0.002973318099975586,
+      "gt_lesion_volume": 4725,
+      "n_gt_components": 4,
+      "mean_component_size": 1181.25,
+      "n_missed_a": 3,
+      "n_missed_ds": 3,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 11,
+      "subject_id": "BraTS-GLI-01326-000",
+      "dice_a": 0.9421893954277039,
+      "dice_ds": 0.9434928894042969,
+      "delta_dice": 0.0013034939765930176,
+      "gt_lesion_volume": 6089,
+      "n_gt_components": 5,
+      "mean_component_size": 1217.8,
+      "n_missed_a": 3,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 12,
+      "subject_id": "BraTS-GLI-00764-000",
+      "dice_a": 0.7612473368644714,
+      "dice_ds": 0.7450697422027588,
+      "delta_dice": -0.016177594661712646,
+      "gt_lesion_volume": 2508,
+      "n_gt_components": 2,
+      "mean_component_size": 1254.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 13,
+      "subject_id": "BraTS-GLI-00731-001",
+      "dice_a": 0.2963917553424835,
+      "dice_ds": 0.7603448033332825,
+      "delta_dice": 0.46395304799079895,
+      "gt_lesion_volume": 661,
+      "n_gt_components": 2,
+      "mean_component_size": 330.5,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 14,
+      "subject_id": "BraTS-GLI-01258-000",
+      "dice_a": 0.9114139676094055,
+      "dice_ds": 0.9205702543258667,
+      "delta_dice": 0.009156286716461182,
+      "gt_lesion_volume": 1664,
+      "n_gt_components": 8,
+      "mean_component_size": 208.0,
+      "n_missed_a": 5,
+      "n_missed_ds": 5,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 15,
+      "subject_id": "BraTS-GLI-01025-000",
+      "dice_a": 0.9548147916793823,
+      "dice_ds": 0.9487831592559814,
+      "delta_dice": -0.006031632423400879,
+      "gt_lesion_volume": 1323,
+      "n_gt_components": 1,
+      "mean_component_size": 1323.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 16,
+      "subject_id": "BraTS-GLI-00811-000",
+      "dice_a": 0.96452397108078,
+      "dice_ds": 0.9692564010620117,
+      "delta_dice": 0.0047324299812316895,
+      "gt_lesion_volume": 3301,
+      "n_gt_components": 1,
+      "mean_component_size": 3301.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 17,
+      "subject_id": "BraTS-GLI-00103-000",
+      "dice_a": 0.9232393503189087,
+      "dice_ds": 0.9289121031761169,
+      "delta_dice": 0.005672752857208252,
+      "gt_lesion_volume": 6374,
+      "n_gt_components": 2,
+      "mean_component_size": 3187.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 18,
+      "subject_id": "BraTS-GLI-01103-000",
+      "dice_a": 0.9411293268203735,
+      "dice_ds": 0.9333600997924805,
+      "delta_dice": -0.007769227027893066,
+      "gt_lesion_volume": 2624,
+      "n_gt_components": 1,
+      "mean_component_size": 2624.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 19,
+      "subject_id": "BraTS-GLI-00514-001",
+      "dice_a": 0.9398857951164246,
+      "dice_ds": 0.936751127243042,
+      "delta_dice": -0.0031346678733825684,
+      "gt_lesion_volume": 3381,
+      "n_gt_components": 10,
+      "mean_component_size": 338.1,
+      "n_missed_a": 7,
+      "n_missed_ds": 8,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 20,
+      "subject_id": "BraTS-GLI-00611-001",
+      "dice_a": 0.8993603587150574,
+      "dice_ds": 0.8806632161140442,
+      "delta_dice": -0.018697142601013184,
+      "gt_lesion_volume": 2468,
+      "n_gt_components": 1,
+      "mean_component_size": 2468.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 21,
+      "subject_id": "BraTS-GLI-01369-000",
+      "dice_a": 0.8203697204589844,
+      "dice_ds": 0.8501026630401611,
+      "delta_dice": 0.029732942581176758,
+      "gt_lesion_volume": 1621,
+      "n_gt_components": 3,
+      "mean_component_size": 540.3333333333334,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 22,
+      "subject_id": "BraTS-GLI-01354-000",
+      "dice_a": 0.8982353210449219,
+      "dice_ds": 0.9088294506072998,
+      "delta_dice": 0.01059412956237793,
+      "gt_lesion_volume": 1789,
+      "n_gt_components": 9,
+      "mean_component_size": 198.77777777777777,
+      "n_missed_a": 6,
+      "n_missed_ds": 6,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 23,
+      "subject_id": "BraTS-GLI-01227-000",
+      "dice_a": 0.9076343178749084,
+      "dice_ds": 0.9121379256248474,
+      "delta_dice": 0.004503607749938965,
+      "gt_lesion_volume": 2080,
+      "n_gt_components": 5,
+      "mean_component_size": 416.0,
+      "n_missed_a": 4,
+      "n_missed_ds": 4,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 24,
+      "subject_id": "BraTS-GLI-01078-000",
+      "dice_a": 0.9410898089408875,
+      "dice_ds": 0.946262001991272,
+      "delta_dice": 0.0051721930503845215,
+      "gt_lesion_volume": 3470,
+      "n_gt_components": 1,
+      "mean_component_size": 3470.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 25,
+      "subject_id": "BraTS-GLI-00241-000",
+      "dice_a": 0.9285171031951904,
+      "dice_ds": 0.9347659349441528,
+      "delta_dice": 0.006248831748962402,
+      "gt_lesion_volume": 1234,
+      "n_gt_components": 1,
+      "mean_component_size": 1234.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 26,
+      "subject_id": "BraTS-GLI-00146-000",
+      "dice_a": 0.8920028805732727,
+      "dice_ds": 0.8574848175048828,
+      "delta_dice": -0.03451806306838989,
+      "gt_lesion_volume": 5279,
+      "n_gt_components": 6,
+      "mean_component_size": 879.8333333333334,
+      "n_missed_a": 3,
+      "n_missed_ds": 4,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 27,
+      "subject_id": "BraTS-GLI-01349-000",
+      "dice_a": 0.29487180709838867,
+      "dice_ds": 0.7672551870346069,
+      "delta_dice": 0.47238337993621826,
+      "gt_lesion_volume": 266,
+      "n_gt_components": 5,
+      "mean_component_size": 53.2,
+      "n_missed_a": 2,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 28,
+      "subject_id": "BraTS-GLI-00044-000",
+      "dice_a": 0.9017341136932373,
+      "dice_ds": 0.8969465494155884,
+      "delta_dice": -0.004787564277648926,
+      "gt_lesion_volume": 473,
+      "n_gt_components": 1,
+      "mean_component_size": 473.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 29,
+      "subject_id": "BraTS-GLI-01315-000",
+      "dice_a": 0.9588064551353455,
+      "dice_ds": 0.9487884640693665,
+      "delta_dice": -0.010017991065979004,
+      "gt_lesion_volume": 3809,
+      "n_gt_components": 1,
+      "mean_component_size": 3809.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 30,
+      "subject_id": "BraTS-GLI-00286-000",
+      "dice_a": 0.8155432939529419,
+      "dice_ds": 0.7882117629051208,
+      "delta_dice": -0.027331531047821045,
+      "gt_lesion_volume": 2195,
+      "n_gt_components": 18,
+      "mean_component_size": 121.94444444444444,
+      "n_missed_a": 12,
+      "n_missed_ds": 14,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 31,
+      "subject_id": "BraTS-GLI-00491-000",
+      "dice_a": 0.9482212066650391,
+      "dice_ds": 0.9486425518989563,
+      "delta_dice": 0.00042134523391723633,
+      "gt_lesion_volume": 2827,
+      "n_gt_components": 1,
+      "mean_component_size": 2827.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 32,
+      "subject_id": "BraTS-GLI-00367-000",
+      "dice_a": 0.8132490515708923,
+      "dice_ds": 0.8104056715965271,
+      "delta_dice": -0.0028433799743652344,
+      "gt_lesion_volume": 2504,
+      "n_gt_components": 8,
+      "mean_component_size": 313.0,
+      "n_missed_a": 2,
+      "n_missed_ds": 3,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 33,
+      "subject_id": "BraTS-GLI-00525-001",
+      "dice_a": 0.9702009558677673,
+      "dice_ds": 0.9700722098350525,
+      "delta_dice": -0.00012874603271484375,
+      "gt_lesion_volume": 2896,
+      "n_gt_components": 2,
+      "mean_component_size": 1448.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 34,
+      "subject_id": "BraTS-GLI-00500-001",
+      "dice_a": 0.9621742963790894,
+      "dice_ds": 0.9590069055557251,
+      "delta_dice": -0.003167390823364258,
+      "gt_lesion_volume": 1749,
+      "n_gt_components": 1,
+      "mean_component_size": 1749.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 35,
+      "subject_id": "BraTS-GLI-00708-001",
+      "dice_a": 0.9550359845161438,
+      "dice_ds": 0.9578713774681091,
+      "delta_dice": 0.002835392951965332,
+      "gt_lesion_volume": 1091,
+      "n_gt_components": 1,
+      "mean_component_size": 1091.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 36,
+      "subject_id": "BraTS-GLI-01384-000",
+      "dice_a": 0.9476876258850098,
+      "dice_ds": 0.9547831416130066,
+      "delta_dice": 0.007095515727996826,
+      "gt_lesion_volume": 3172,
+      "n_gt_components": 1,
+      "mean_component_size": 3172.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 37,
+      "subject_id": "BraTS-GLI-00768-001",
+      "dice_a": 0.917447566986084,
+      "dice_ds": 0.9228699803352356,
+      "delta_dice": 0.005422413349151611,
+      "gt_lesion_volume": 3126,
+      "n_gt_components": 1,
+      "mean_component_size": 3126.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 3
+    },
+    {
+      "subject_idx": 38,
+      "subject_id": "BraTS-GLI-01450-000",
+      "dice_a": 0.8770574927330017,
+      "dice_ds": 0.85686194896698,
+      "delta_dice": -0.02019554376602173,
+      "gt_lesion_volume": 2521,
+      "n_gt_components": 13,
+      "mean_component_size": 193.92307692307693,
+      "n_missed_a": 12,
+      "n_missed_ds": 12,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 39,
+      "subject_id": "BraTS-GLI-00628-000",
+      "dice_a": 0.9098765254020691,
+      "dice_ds": 0.8703917264938354,
+      "delta_dice": -0.03948479890823364,
+      "gt_lesion_volume": 1535,
+      "n_gt_components": 7,
+      "mean_component_size": 219.28571428571428,
+      "n_missed_a": 3,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 40,
+      "subject_id": "BraTS-GLI-00066-000",
+      "dice_a": 0.9365853667259216,
+      "dice_ds": 0.9349845051765442,
+      "delta_dice": -0.0016008615493774414,
+      "gt_lesion_volume": 1066,
+      "n_gt_components": 2,
+      "mean_component_size": 533.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 41,
+      "subject_id": "BraTS-GLI-00016-001",
+      "dice_a": 0.8983256220817566,
+      "dice_ds": 0.9070162773132324,
+      "delta_dice": 0.00869065523147583,
+      "gt_lesion_volume": 2029,
+      "n_gt_components": 1,
+      "mean_component_size": 2029.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 42,
+      "subject_id": "BraTS-GLI-01362-000",
+      "dice_a": 0.9484747648239136,
+      "dice_ds": 0.9466380476951599,
+      "delta_dice": -0.0018367171287536621,
+      "gt_lesion_volume": 3989,
+      "n_gt_components": 6,
+      "mean_component_size": 664.8333333333334,
+      "n_missed_a": 5,
+      "n_missed_ds": 5,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 43,
+      "subject_id": "BraTS-GLI-00604-000",
+      "dice_a": 0.9710618257522583,
+      "dice_ds": 0.9592811465263367,
+      "delta_dice": -0.01178067922592163,
+      "gt_lesion_volume": 4245,
+      "n_gt_components": 1,
+      "mean_component_size": 4245.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 4,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 44,
+      "subject_id": "BraTS-GLI-00491-001",
+      "dice_a": 0.9623733758926392,
+      "dice_ds": 0.9620482921600342,
+      "delta_dice": -0.00032508373260498047,
+      "gt_lesion_volume": 2766,
+      "n_gt_components": 2,
+      "mean_component_size": 1383.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 45,
+      "subject_id": "BraTS-GLI-00222-000",
+      "dice_a": 0.9389865398406982,
+      "dice_ds": 0.9273285865783691,
+      "delta_dice": -0.011657953262329102,
+      "gt_lesion_volume": 479,
+      "n_gt_components": 1,
+      "mean_component_size": 479.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 46,
+      "subject_id": "BraTS-GLI-01062-000",
+      "dice_a": 0.9397343993186951,
+      "dice_ds": 0.9370827078819275,
+      "delta_dice": -0.002651691436767578,
+      "gt_lesion_volume": 3896,
+      "n_gt_components": 2,
+      "mean_component_size": 1948.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 47,
+      "subject_id": "BraTS-GLI-00266-000",
+      "dice_a": 0.9547017812728882,
+      "dice_ds": 0.9461657404899597,
+      "delta_dice": -0.008536040782928467,
+      "gt_lesion_volume": 4975,
+      "n_gt_components": 1,
+      "mean_component_size": 4975.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 48,
+      "subject_id": "BraTS-GLI-01090-000",
+      "dice_a": 0.8870292901992798,
+      "dice_ds": 0.8830053806304932,
+      "delta_dice": -0.004023909568786621,
+      "gt_lesion_volume": 1416,
+      "n_gt_components": 1,
+      "mean_component_size": 1416.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 49,
+      "subject_id": "BraTS-GLI-01374-000",
+      "dice_a": 0.9613054990768433,
+      "dice_ds": 0.9653636813163757,
+      "delta_dice": 0.004058182239532471,
+      "gt_lesion_volume": 4002,
+      "n_gt_components": 1,
+      "mean_component_size": 4002.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 50,
+      "subject_id": "BraTS-GLI-01176-000",
+      "dice_a": 0.9368998408317566,
+      "dice_ds": 0.9318491816520691,
+      "delta_dice": -0.0050506591796875,
+      "gt_lesion_volume": 2121,
+      "n_gt_components": 1,
+      "mean_component_size": 2121.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 51,
+      "subject_id": "BraTS-GLI-00436-000",
+      "dice_a": 0.9654097557067871,
+      "dice_ds": 0.96417635679245,
+      "delta_dice": -0.0012333989143371582,
+      "gt_lesion_volume": 3205,
+      "n_gt_components": 1,
+      "mean_component_size": 3205.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 52,
+      "subject_id": "BraTS-GLI-01019-000",
+      "dice_a": 0.9366018772125244,
+      "dice_ds": 0.9377990365028381,
+      "delta_dice": 0.0011971592903137207,
+      "gt_lesion_volume": 4521,
+      "n_gt_components": 4,
+      "mean_component_size": 1130.25,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 53,
+      "subject_id": "BraTS-GLI-00377-000",
+      "dice_a": 0.9107551574707031,
+      "dice_ds": 0.9207634329795837,
+      "delta_dice": 0.010008275508880615,
+      "gt_lesion_volume": 866,
+      "n_gt_components": 2,
+      "mean_component_size": 433.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 54,
+      "subject_id": "BraTS-GLI-01314-000",
+      "dice_a": 0.8989361524581909,
+      "dice_ds": 0.9430814385414124,
+      "delta_dice": 0.044145286083221436,
+      "gt_lesion_volume": 1988,
+      "n_gt_components": 1,
+      "mean_component_size": 1988.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 55,
+      "subject_id": "BraTS-GLI-00559-000",
+      "dice_a": 0.7404125928878784,
+      "dice_ds": 0.835616409778595,
+      "delta_dice": 0.09520381689071655,
+      "gt_lesion_volume": 4508,
+      "n_gt_components": 2,
+      "mean_component_size": 2254.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 56,
+      "subject_id": "BraTS-GLI-01114-000",
+      "dice_a": 0.878753662109375,
+      "dice_ds": 0.8825929164886475,
+      "delta_dice": 0.003839254379272461,
+      "gt_lesion_volume": 2145,
+      "n_gt_components": 4,
+      "mean_component_size": 536.25,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 57,
+      "subject_id": "BraTS-GLI-00338-000",
+      "dice_a": 0.9260256886482239,
+      "dice_ds": 0.9189274311065674,
+      "delta_dice": -0.007098257541656494,
+      "gt_lesion_volume": 3241,
+      "n_gt_components": 1,
+      "mean_component_size": 3241.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 58,
+      "subject_id": "BraTS-GLI-01293-000",
+      "dice_a": 0.8080703616142273,
+      "dice_ds": 0.8115792274475098,
+      "delta_dice": 0.0035088658332824707,
+      "gt_lesion_volume": 3713,
+      "n_gt_components": 3,
+      "mean_component_size": 1237.6666666666667,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 59,
+      "subject_id": "BraTS-GLI-00242-000",
+      "dice_a": 0.6914010047912598,
+      "dice_ds": 0.68968266248703,
+      "delta_dice": -0.0017183423042297363,
+      "gt_lesion_volume": 4701,
+      "n_gt_components": 3,
+      "mean_component_size": 1567.0,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 8
+    },
+    {
+      "subject_idx": 60,
+      "subject_id": "BraTS-GLI-00186-000",
+      "dice_a": 0.9469090700149536,
+      "dice_ds": 0.9664105772972107,
+      "delta_dice": 0.01950150728225708,
+      "gt_lesion_volume": 3315,
+      "n_gt_components": 1,
+      "mean_component_size": 3315.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 61,
+      "subject_id": "BraTS-GLI-01028-000",
+      "dice_a": 0.8719030022621155,
+      "dice_ds": 0.8706986308097839,
+      "delta_dice": -0.001204371452331543,
+      "gt_lesion_volume": 2066,
+      "n_gt_components": 5,
+      "mean_component_size": 413.2,
+      "n_missed_a": 4,
+      "n_missed_ds": 4,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 62,
+      "subject_id": "BraTS-GLI-00511-000",
+      "dice_a": 0.910578191280365,
+      "dice_ds": 0.9153292775154114,
+      "delta_dice": 0.004751086235046387,
+      "gt_lesion_volume": 2571,
+      "n_gt_components": 1,
+      "mean_component_size": 2571.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 63,
+      "subject_id": "BraTS-GLI-01001-000",
+      "dice_a": 0.9454545378684998,
+      "dice_ds": 0.9519688487052917,
+      "delta_dice": 0.006514310836791992,
+      "gt_lesion_volume": 1119,
+      "n_gt_components": 1,
+      "mean_component_size": 1119.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 5,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 64,
+      "subject_id": "BraTS-GLI-01427-000",
+      "dice_a": 0.904549241065979,
+      "dice_ds": 0.9052490592002869,
+      "delta_dice": 0.0006998181343078613,
+      "gt_lesion_volume": 2863,
+      "n_gt_components": 1,
+      "mean_component_size": 2863.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 65,
+      "subject_id": "BraTS-GLI-00683-000",
+      "dice_a": 0.85161292552948,
+      "dice_ds": 0.9020401835441589,
+      "delta_dice": 0.050427258014678955,
+      "gt_lesion_volume": 3417,
+      "n_gt_components": 4,
+      "mean_component_size": 854.25,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 66,
+      "subject_id": "BraTS-GLI-01319-000",
+      "dice_a": 0.9516441226005554,
+      "dice_ds": 0.9455326199531555,
+      "delta_dice": -0.006111502647399902,
+      "gt_lesion_volume": 1822,
+      "n_gt_components": 2,
+      "mean_component_size": 911.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 67,
+      "subject_id": "BraTS-GLI-01323-000",
+      "dice_a": 0.9614678621292114,
+      "dice_ds": 0.9582299590110779,
+      "delta_dice": -0.003237903118133545,
+      "gt_lesion_volume": 2459,
+      "n_gt_components": 1,
+      "mean_component_size": 2459.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 68,
+      "subject_id": "BraTS-GLI-01402-000",
+      "dice_a": 0.9218292236328125,
+      "dice_ds": 0.909293532371521,
+      "delta_dice": -0.012535691261291504,
+      "gt_lesion_volume": 2121,
+      "n_gt_components": 3,
+      "mean_component_size": 707.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 69,
+      "subject_id": "BraTS-GLI-00249-000",
+      "dice_a": 0.9468562006950378,
+      "dice_ds": 0.946774423122406,
+      "delta_dice": -8.177757263183594e-05,
+      "gt_lesion_volume": 3737,
+      "n_gt_components": 1,
+      "mean_component_size": 3737.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 70,
+      "subject_id": "BraTS-GLI-00032-001",
+      "dice_a": 0.9529640674591064,
+      "dice_ds": 0.9377861618995667,
+      "delta_dice": -0.015177905559539795,
+      "gt_lesion_volume": 3504,
+      "n_gt_components": 1,
+      "mean_component_size": 3504.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 71,
+      "subject_id": "BraTS-GLI-01074-000",
+      "dice_a": 0.9312950372695923,
+      "dice_ds": 0.9277738928794861,
+      "delta_dice": -0.003521144390106201,
+      "gt_lesion_volume": 2718,
+      "n_gt_components": 2,
+      "mean_component_size": 1359.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 72,
+      "subject_id": "BraTS-GLI-00616-000",
+      "dice_a": 0.9476931095123291,
+      "dice_ds": 0.9432269930839539,
+      "delta_dice": -0.004466116428375244,
+      "gt_lesion_volume": 3744,
+      "n_gt_components": 1,
+      "mean_component_size": 3744.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 73,
+      "subject_id": "BraTS-GLI-01530-000",
+      "dice_a": 0.7687804698944092,
+      "dice_ds": 0.7974413633346558,
+      "delta_dice": 0.028660893440246582,
+      "gt_lesion_volume": 489,
+      "n_gt_components": 1,
+      "mean_component_size": 489.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 5,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 74,
+      "subject_id": "BraTS-GLI-00098-000",
+      "dice_a": 0.5609919428825378,
+      "dice_ds": 0.5533162355422974,
+      "delta_dice": -0.0076757073402404785,
+      "gt_lesion_volume": 1886,
+      "n_gt_components": 5,
+      "mean_component_size": 377.2,
+      "n_missed_a": 1,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 4
+    },
+    {
+      "subject_idx": 75,
+      "subject_id": "BraTS-GLI-01195-000",
+      "dice_a": 0.9143238067626953,
+      "dice_ds": 0.9119807481765747,
+      "delta_dice": -0.0023430585861206055,
+      "gt_lesion_volume": 3680,
+      "n_gt_components": 1,
+      "mean_component_size": 3680.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 76,
+      "subject_id": "BraTS-GLI-00682-001",
+      "dice_a": 0.9689151644706726,
+      "dice_ds": 0.9676524996757507,
+      "delta_dice": -0.001262664794921875,
+      "gt_lesion_volume": 3231,
+      "n_gt_components": 1,
+      "mean_component_size": 3231.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 77,
+      "subject_id": "BraTS-GLI-01075-000",
+      "dice_a": 0.7408190965652466,
+      "dice_ds": 0.7519643902778625,
+      "delta_dice": 0.011145293712615967,
+      "gt_lesion_volume": 3923,
+      "n_gt_components": 1,
+      "mean_component_size": 3923.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 78,
+      "subject_id": "BraTS-GLI-00299-000",
+      "dice_a": 0.8572897911071777,
+      "dice_ds": 0.8584615588188171,
+      "delta_dice": 0.0011717677116394043,
+      "gt_lesion_volume": 1692,
+      "n_gt_components": 2,
+      "mean_component_size": 846.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 79,
+      "subject_id": "BraTS-GLI-00016-000",
+      "dice_a": 0.8049120903015137,
+      "dice_ds": 0.8497715592384338,
+      "delta_dice": 0.044859468936920166,
+      "gt_lesion_volume": 2127,
+      "n_gt_components": 4,
+      "mean_component_size": 531.75,
+      "n_missed_a": 3,
+      "n_missed_ds": 3,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 80,
+      "subject_id": "BraTS-GLI-00404-000",
+      "dice_a": 0.9412042498588562,
+      "dice_ds": 0.9449323415756226,
+      "delta_dice": 0.0037280917167663574,
+      "gt_lesion_volume": 4223,
+      "n_gt_components": 2,
+      "mean_component_size": 2111.5,
+      "n_missed_a": 0,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 81,
+      "subject_id": "BraTS-GLI-00723-000",
+      "dice_a": 0.9057857990264893,
+      "dice_ds": 0.9056384563446045,
+      "delta_dice": -0.00014734268188476562,
+      "gt_lesion_volume": 2361,
+      "n_gt_components": 1,
+      "mean_component_size": 2361.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 82,
+      "subject_id": "BraTS-GLI-00498-001",
+      "dice_a": 0.9473499655723572,
+      "dice_ds": 0.9631280899047852,
+      "delta_dice": 0.01577812433242798,
+      "gt_lesion_volume": 2902,
+      "n_gt_components": 1,
+      "mean_component_size": 2902.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 83,
+      "subject_id": "BraTS-GLI-00193-000",
+      "dice_a": 0.8689387440681458,
+      "dice_ds": 0.8681349158287048,
+      "delta_dice": -0.000803828239440918,
+      "gt_lesion_volume": 2009,
+      "n_gt_components": 2,
+      "mean_component_size": 1004.5,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 84,
+      "subject_id": "BraTS-GLI-01139-000",
+      "dice_a": 0.9105005264282227,
+      "dice_ds": 0.9145310521125793,
+      "delta_dice": 0.0040305256843566895,
+      "gt_lesion_volume": 3918,
+      "n_gt_components": 6,
+      "mean_component_size": 653.0,
+      "n_missed_a": 4,
+      "n_missed_ds": 3,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 85,
+      "subject_id": "BraTS-GLI-00020-001",
+      "dice_a": 0.9312477111816406,
+      "dice_ds": 0.9167794585227966,
+      "delta_dice": -0.014468252658843994,
+      "gt_lesion_volume": 1396,
+      "n_gt_components": 1,
+      "mean_component_size": 1396.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 86,
+      "subject_id": "BraTS-GLI-00768-000",
+      "dice_a": 0.9616472721099854,
+      "dice_ds": 0.9522184133529663,
+      "delta_dice": -0.009428858757019043,
+      "gt_lesion_volume": 3087,
+      "n_gt_components": 1,
+      "mean_component_size": 3087.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 87,
+      "subject_id": "BraTS-GLI-01452-000",
+      "dice_a": 0.8596205711364746,
+      "dice_ds": 0.8728448152542114,
+      "delta_dice": 0.013224244117736816,
+      "gt_lesion_volume": 864,
+      "n_gt_components": 3,
+      "mean_component_size": 288.0,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 88,
+      "subject_id": "BraTS-GLI-01130-000",
+      "dice_a": 0.7086669206619263,
+      "dice_ds": 0.752136766910553,
+      "delta_dice": 0.04346984624862671,
+      "gt_lesion_volume": 1086,
+      "n_gt_components": 4,
+      "mean_component_size": 271.5,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 8,
+      "n_fp_components_ds": 6
+    },
+    {
+      "subject_idx": 89,
+      "subject_id": "BraTS-GLI-00680-001",
+      "dice_a": 0.9391541481018066,
+      "dice_ds": 0.9576912522315979,
+      "delta_dice": 0.01853710412979126,
+      "gt_lesion_volume": 1760,
+      "n_gt_components": 1,
+      "mean_component_size": 1760.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 90,
+      "subject_id": "BraTS-GLI-01516-000",
+      "dice_a": 0.8542199730873108,
+      "dice_ds": 0.8778054714202881,
+      "delta_dice": 0.023585498332977295,
+      "gt_lesion_volume": 842,
+      "n_gt_components": 3,
+      "mean_component_size": 280.6666666666667,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 91,
+      "subject_id": "BraTS-GLI-00818-000",
+      "dice_a": 0.9480457305908203,
+      "dice_ds": 0.9532936811447144,
+      "delta_dice": 0.005247950553894043,
+      "gt_lesion_volume": 4105,
+      "n_gt_components": 1,
+      "mean_component_size": 4105.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 92,
+      "subject_id": "BraTS-GLI-01255-000",
+      "dice_a": 0.7036328911781311,
+      "dice_ds": 0.7484143972396851,
+      "delta_dice": 0.044781506061553955,
+      "gt_lesion_volume": 211,
+      "n_gt_components": 2,
+      "mean_component_size": 105.5,
+      "n_missed_a": 0,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 93,
+      "subject_id": "BraTS-GLI-00228-000",
+      "dice_a": 0.9134522080421448,
+      "dice_ds": 0.9009009003639221,
+      "delta_dice": -0.012551307678222656,
+      "gt_lesion_volume": 1454,
+      "n_gt_components": 1,
+      "mean_component_size": 1454.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 7
+    },
+    {
+      "subject_idx": 94,
+      "subject_id": "BraTS-GLI-01273-000",
+      "dice_a": 0.7859237790107727,
+      "dice_ds": 0.7953216433525085,
+      "delta_dice": 0.00939786434173584,
+      "gt_lesion_volume": 204,
+      "n_gt_components": 2,
+      "mean_component_size": 102.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 95,
+      "subject_id": "BraTS-GLI-00840-000",
+      "dice_a": 0.9311893582344055,
+      "dice_ds": 0.9389697909355164,
+      "delta_dice": 0.00778043270111084,
+      "gt_lesion_volume": 3449,
+      "n_gt_components": 2,
+      "mean_component_size": 1724.5,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 96,
+      "subject_id": "BraTS-GLI-00619-000",
+      "dice_a": 0.896248459815979,
+      "dice_ds": 0.9071537256240845,
+      "delta_dice": 0.010905265808105469,
+      "gt_lesion_volume": 3663,
+      "n_gt_components": 4,
+      "mean_component_size": 915.75,
+      "n_missed_a": 3,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 97,
+      "subject_id": "BraTS-GLI-01380-000",
+      "dice_a": 0.8179618120193481,
+      "dice_ds": 0.855818510055542,
+      "delta_dice": 0.03785669803619385,
+      "gt_lesion_volume": 2000,
+      "n_gt_components": 2,
+      "mean_component_size": 1000.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 98,
+      "subject_id": "BraTS-GLI-00582-000",
+      "dice_a": 0.9478924870491028,
+      "dice_ds": 0.9349152445793152,
+      "delta_dice": -0.012977242469787598,
+      "gt_lesion_volume": 1471,
+      "n_gt_components": 1,
+      "mean_component_size": 1471.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 99,
+      "subject_id": "BraTS-GLI-01155-000",
+      "dice_a": 0.9643077254295349,
+      "dice_ds": 0.9638192653656006,
+      "delta_dice": -0.0004884600639343262,
+      "gt_lesion_volume": 5587,
+      "n_gt_components": 1,
+      "mean_component_size": 5587.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 4,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 100,
+      "subject_id": "BraTS-GLI-01046-000",
+      "dice_a": 0.9463538527488708,
+      "dice_ds": 0.9443944692611694,
+      "delta_dice": -0.001959383487701416,
+      "gt_lesion_volume": 2691,
+      "n_gt_components": 1,
+      "mean_component_size": 2691.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 101,
+      "subject_id": "BraTS-GLI-00313-000",
+      "dice_a": 0.9042032957077026,
+      "dice_ds": 0.8889947533607483,
+      "delta_dice": -0.015208542346954346,
+      "gt_lesion_volume": 1018,
+      "n_gt_components": 2,
+      "mean_component_size": 509.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 102,
+      "subject_id": "BraTS-GLI-00021-000",
+      "dice_a": 0.8283098340034485,
+      "dice_ds": 0.845844030380249,
+      "delta_dice": 0.017534196376800537,
+      "gt_lesion_volume": 2562,
+      "n_gt_components": 1,
+      "mean_component_size": 2562.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 103,
+      "subject_id": "BraTS-GLI-00565-000",
+      "dice_a": 0.8832116723060608,
+      "dice_ds": 0.878254234790802,
+      "delta_dice": -0.004957437515258789,
+      "gt_lesion_volume": 2351,
+      "n_gt_components": 3,
+      "mean_component_size": 783.6666666666666,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 104,
+      "subject_id": "BraTS-GLI-01482-000",
+      "dice_a": 0.7215461730957031,
+      "dice_ds": 0.7268993854522705,
+      "delta_dice": 0.005353212356567383,
+      "gt_lesion_volume": 864,
+      "n_gt_components": 9,
+      "mean_component_size": 96.0,
+      "n_missed_a": 8,
+      "n_missed_ds": 8,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 105,
+      "subject_id": "BraTS-GLI-00347-000",
+      "dice_a": 0.9458655714988708,
+      "dice_ds": 0.9536905884742737,
+      "delta_dice": 0.007825016975402832,
+      "gt_lesion_volume": 2467,
+      "n_gt_components": 1,
+      "mean_component_size": 2467.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 106,
+      "subject_id": "BraTS-GLI-01253-000",
+      "dice_a": 0.8332711458206177,
+      "dice_ds": 0.8580883741378784,
+      "delta_dice": 0.024817228317260742,
+      "gt_lesion_volume": 2696,
+      "n_gt_components": 24,
+      "mean_component_size": 112.33333333333333,
+      "n_missed_a": 18,
+      "n_missed_ds": 21,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 5
+    },
+    {
+      "subject_idx": 107,
+      "subject_id": "BraTS-GLI-01513-000",
+      "dice_a": 0.9324153065681458,
+      "dice_ds": 0.9362788200378418,
+      "delta_dice": 0.003863513469696045,
+      "gt_lesion_volume": 5716,
+      "n_gt_components": 9,
+      "mean_component_size": 635.1111111111111,
+      "n_missed_a": 6,
+      "n_missed_ds": 6,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 108,
+      "subject_id": "BraTS-GLI-00496-000",
+      "dice_a": 0.7945685386657715,
+      "dice_ds": 0.6516393423080444,
+      "delta_dice": -0.14292919635772705,
+      "gt_lesion_volume": 1303,
+      "n_gt_components": 1,
+      "mean_component_size": 1303.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 109,
+      "subject_id": "BraTS-GLI-01104-000",
+      "dice_a": 0.748062014579773,
+      "dice_ds": 0.743450939655304,
+      "delta_dice": -0.004611074924468994,
+      "gt_lesion_volume": 2831,
+      "n_gt_components": 3,
+      "mean_component_size": 943.6666666666666,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 4
+    },
+    {
+      "subject_idx": 110,
+      "subject_id": "BraTS-GLI-00445-000",
+      "dice_a": 0.9335100650787354,
+      "dice_ds": 0.9454019665718079,
+      "delta_dice": 0.01189190149307251,
+      "gt_lesion_volume": 4334,
+      "n_gt_components": 1,
+      "mean_component_size": 4334.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 111,
+      "subject_id": "BraTS-GLI-01068-000",
+      "dice_a": 0.852394163608551,
+      "dice_ds": 0.9145815372467041,
+      "delta_dice": 0.062187373638153076,
+      "gt_lesion_volume": 1094,
+      "n_gt_components": 3,
+      "mean_component_size": 364.6666666666667,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 3,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 112,
+      "subject_id": "BraTS-GLI-00140-000",
+      "dice_a": 0.8604118824005127,
+      "dice_ds": 0.9055036306381226,
+      "delta_dice": 0.04509174823760986,
+      "gt_lesion_volume": 474,
+      "n_gt_components": 1,
+      "mean_component_size": 474.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 113,
+      "subject_id": "BraTS-GLI-01169-000",
+      "dice_a": 0.9108381271362305,
+      "dice_ds": 0.9199204444885254,
+      "delta_dice": 0.009082317352294922,
+      "gt_lesion_volume": 3975,
+      "n_gt_components": 2,
+      "mean_component_size": 1987.5,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 114,
+      "subject_id": "BraTS-GLI-01421-000",
+      "dice_a": 0.9372839331626892,
+      "dice_ds": 0.9303573369979858,
+      "delta_dice": -0.006926596164703369,
+      "gt_lesion_volume": 3907,
+      "n_gt_components": 2,
+      "mean_component_size": 1953.5,
+      "n_missed_a": 1,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    },
+    {
+      "subject_idx": 115,
+      "subject_id": "BraTS-GLI-00096-000",
+      "dice_a": 0.9627329111099243,
+      "dice_ds": 0.9640071988105774,
+      "delta_dice": 0.0012742877006530762,
+      "gt_lesion_volume": 3397,
+      "n_gt_components": 1,
+      "mean_component_size": 3397.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 2
+    },
+    {
+      "subject_idx": 116,
+      "subject_id": "BraTS-GLI-00425-000",
+      "dice_a": 0.9259986877441406,
+      "dice_ds": 0.9165596961975098,
+      "delta_dice": -0.00943899154663086,
+      "gt_lesion_volume": 729,
+      "n_gt_components": 2,
+      "mean_component_size": 364.5,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 3
+    },
+    {
+      "subject_idx": 117,
+      "subject_id": "BraTS-GLI-01536-000",
+      "dice_a": 0.8804755806922913,
+      "dice_ds": 0.8883984684944153,
+      "delta_dice": 0.007922887802124023,
+      "gt_lesion_volume": 1413,
+      "n_gt_components": 3,
+      "mean_component_size": 471.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 118,
+      "subject_id": "BraTS-GLI-00574-000",
+      "dice_a": 0.9268713593482971,
+      "dice_ds": 0.9251815676689148,
+      "delta_dice": -0.0016897916793823242,
+      "gt_lesion_volume": 2782,
+      "n_gt_components": 5,
+      "mean_component_size": 556.4,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 1,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 119,
+      "subject_id": "BraTS-GLI-00130-000",
+      "dice_a": 0.938251256942749,
+      "dice_ds": 0.9450860023498535,
+      "delta_dice": 0.006834745407104492,
+      "gt_lesion_volume": 4276,
+      "n_gt_components": 1,
+      "mean_component_size": 4276.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 120,
+      "subject_id": "BraTS-GLI-01342-000",
+      "dice_a": 0.7681365609169006,
+      "dice_ds": 0.8088235259056091,
+      "delta_dice": 0.040686964988708496,
+      "gt_lesion_volume": 1930,
+      "n_gt_components": 3,
+      "mean_component_size": 643.3333333333334,
+      "n_missed_a": 2,
+      "n_missed_ds": 2,
+      "n_fp_components_a": 2,
+      "n_fp_components_ds": 3
+    },
+    {
+      "subject_idx": 121,
+      "subject_id": "BraTS-GLI-01393-000",
+      "dice_a": 0.9612159132957458,
+      "dice_ds": 0.9517635107040405,
+      "delta_dice": -0.009452402591705322,
+      "gt_lesion_volume": 1857,
+      "n_gt_components": 1,
+      "mean_component_size": 1857.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 122,
+      "subject_id": "BraTS-GLI-01428-000",
+      "dice_a": 0.8629106879234314,
+      "dice_ds": 0.8616476058959961,
+      "delta_dice": -0.0012630820274353027,
+      "gt_lesion_volume": 3945,
+      "n_gt_components": 1,
+      "mean_component_size": 3945.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 123,
+      "subject_id": "BraTS-GLI-01159-000",
+      "dice_a": 0.8623452186584473,
+      "dice_ds": 0.8477970361709595,
+      "delta_dice": -0.014548182487487793,
+      "gt_lesion_volume": 714,
+      "n_gt_components": 2,
+      "mean_component_size": 357.0,
+      "n_missed_a": 1,
+      "n_missed_ds": 1,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 0
+    },
+    {
+      "subject_idx": 124,
+      "subject_id": "BraTS-GLI-01424-000",
+      "dice_a": 0.9144410490989685,
+      "dice_ds": 0.893724799156189,
+      "delta_dice": -0.02071624994277954,
+      "gt_lesion_volume": 4203,
+      "n_gt_components": 1,
+      "mean_component_size": 4203.0,
+      "n_missed_a": 0,
+      "n_missed_ds": 0,
+      "n_fp_components_a": 0,
+      "n_fp_components_ds": 1
+    }
+  ],
+  "confusion_transition_matrix": [
+    [
+      32396957,
+      0,
+      9466,
+      0
+    ],
+    [
+      0,
+      295938,
+      0,
+      4562
+    ],
+    [
+      7048,
+      0,
+      21137,
+      0
+    ],
+    [
+      0,
+      8380,
+      0,
+      24512
+    ]
+  ],
+  "all_components_a": [
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2561,
+      "detected": true,
+      "component_dice": 0.9345904537418974
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 14,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.6666666666666666
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3131,
+      "detected": true,
+      "component_dice": 0.9099852434825382
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0006738544474393531
+    },
+    {
+      "gt_size": 3263,
+      "detected": true,
+      "component_dice": 0.8833360913453583
+    },
+    {
+      "gt_size": 1418,
+      "detected": true,
+      "component_dice": 0.9548978153629316
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2899,
+      "detected": true,
+      "component_dice": 0.9264679950625991
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 9,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 22,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 5501,
+      "detected": true,
+      "component_dice": 0.9037607343796269
+    },
+    {
+      "gt_size": 6,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4500,
+      "detected": true,
+      "component_dice": 0.9563051845143763
+    },
+    {
+      "gt_size": 1833,
+      "detected": true,
+      "component_dice": 0.9154968345719791
+    },
+    {
+      "gt_size": 2511,
+      "detected": true,
+      "component_dice": 0.9523992322456813
+    },
+    {
+      "gt_size": 4452,
+      "detected": true,
+      "component_dice": 0.9311360907999563
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0004245383145828911
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4722,
+      "detected": true,
+      "component_dice": 0.9339820855910649
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 6080,
+      "detected": true,
+      "component_dice": 0.9427023477261534
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.8571428571428571
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2484,
+      "detected": true,
+      "component_dice": 0.7653256704980843
+    },
+    {
+      "gt_size": 24,
+      "detected": true,
+      "component_dice": 0.08
+    },
+    {
+      "gt_size": 627,
+      "detected": true,
+      "component_dice": 0.30997304582210244
+    },
+    {
+      "gt_size": 34,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1148,
+      "detected": true,
+      "component_dice": 0.922509225092251
+    },
+    {
+      "gt_size": 27,
+      "detected": true,
+      "component_dice": 0.25806451612903225
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 479,
+      "detected": true,
+      "component_dice": 0.9136276391554703
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1323,
+      "detected": true,
+      "component_dice": 0.9548148148148148
+    },
+    {
+      "gt_size": 3301,
+      "detected": true,
+      "component_dice": 0.9645239539114615
+    },
+    {
+      "gt_size": 6373,
+      "detected": true,
+      "component_dice": 0.9233670236838135
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0002904443799012489
+    },
+    {
+      "gt_size": 2624,
+      "detected": true,
+      "component_dice": 0.9413178449829762
+    },
+    {
+      "gt_size": 3322,
+      "detected": true,
+      "component_dice": 0.9450245700245701
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 49,
+      "detected": true,
+      "component_dice": 0.784
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.6666666666666666
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2468,
+      "detected": true,
+      "component_dice": 0.903598971722365
+    },
+    {
+      "gt_size": 572,
+      "detected": true,
+      "component_dice": 0.8823000898472596
+    },
+    {
+      "gt_size": 11,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1038,
+      "detected": true,
+      "component_dice": 0.7864523536165328
+    },
+    {
+      "gt_size": 10,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 124,
+      "detected": true,
+      "component_dice": 0.3129251700680272
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1570,
+      "detected": true,
+      "component_dice": 0.9468322190385228
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 70,
+      "detected": true,
+      "component_dice": 0.39080459770114945
+    },
+    {
+      "gt_size": 10,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 20,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2054,
+      "detected": true,
+      "component_dice": 0.9171428571428571
+    },
+    {
+      "gt_size": 3470,
+      "detected": true,
+      "component_dice": 0.9410898379970545
+    },
+    {
+      "gt_size": 1234,
+      "detected": true,
+      "component_dice": 0.9285171102661597
+    },
+    {
+      "gt_size": 5266,
+      "detected": true,
+      "component_dice": 0.8923241890805111
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0003374957813027337
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": true,
+      "component_dice": 0.0010121457489878543
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 131,
+      "detected": true,
+      "component_dice": 0.37267080745341613
+    },
+    {
+      "gt_size": 47,
+      "detected": true,
+      "component_dice": 0.08163265306122448
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 19,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 65,
+      "detected": true,
+      "component_dice": 0.35443037974683544
+    },
+    {
+      "gt_size": 473,
+      "detected": true,
+      "component_dice": 0.9017341040462428
+    },
+    {
+      "gt_size": 3809,
+      "detected": true,
+      "component_dice": 0.958806443094798
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 194,
+      "detected": true,
+      "component_dice": 0.4015748031496063
+    },
+    {
+      "gt_size": 1435,
+      "detected": true,
+      "component_dice": 0.8679879072892174
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0025940337224383916
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0025940337224383916
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 18,
+      "detected": true,
+      "component_dice": 0.023106546854942234
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 11,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 504,
+      "detected": true,
+      "component_dice": 0.7657142857142857
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 15,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2827,
+      "detected": true,
+      "component_dice": 0.9482212046495245
+    },
+    {
+      "gt_size": 219,
+      "detected": true,
+      "component_dice": 0.1827050997782705
+    },
+    {
+      "gt_size": 140,
+      "detected": true,
+      "component_dice": 0.44565217391304346
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0009818360333824251
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.00392156862745098
+    },
+    {
+      "gt_size": 10,
+      "detected": true,
+      "component_dice": 0.009775171065493646
+    },
+    {
+      "gt_size": 2125,
+      "detected": true,
+      "component_dice": 0.7705981263511891
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2894,
+      "detected": true,
+      "component_dice": 0.9705372616984402
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1749,
+      "detected": true,
+      "component_dice": 0.9621742785093864
+    },
+    {
+      "gt_size": 1091,
+      "detected": true,
+      "component_dice": 0.9550359712230215
+    },
+    {
+      "gt_size": 3172,
+      "detected": true,
+      "component_dice": 0.9479751251327165
+    },
+    {
+      "gt_size": 3126,
+      "detected": true,
+      "component_dice": 0.9175840523653674
+    },
+    {
+      "gt_size": 71,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 12,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2423,
+      "detected": true,
+      "component_dice": 0.894878706199461
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1510,
+      "detected": true,
+      "component_dice": 0.9101721439749608
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0023710729104919974
+    },
+    {
+      "gt_size": 15,
+      "detected": true,
+      "component_dice": 0.8571428571428571
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 5,
+      "detected": true,
+      "component_dice": 0.0035502958579881655
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1063,
+      "detected": true,
+      "component_dice": 0.9378330373001776
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2029,
+      "detected": true,
+      "component_dice": 0.8983256491142927
+    },
+    {
+      "gt_size": 3983,
+      "detected": true,
+      "component_dice": 0.9492047203694202
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4245,
+      "detected": true,
+      "component_dice": 0.9717421765530126
+    },
+    {
+      "gt_size": 2765,
+      "detected": true,
+      "component_dice": 0.9625474941197757
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 479,
+      "detected": true,
+      "component_dice": 0.9389865563598759
+    },
+    {
+      "gt_size": 3895,
+      "detected": true,
+      "component_dice": 0.9402146142054164
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4975,
+      "detected": true,
+      "component_dice": 0.9547017785201926
+    },
+    {
+      "gt_size": 1416,
+      "detected": true,
+      "component_dice": 0.8870292887029289
+    },
+    {
+      "gt_size": 4002,
+      "detected": true,
+      "component_dice": 0.9614243323442137
+    },
+    {
+      "gt_size": 2121,
+      "detected": true,
+      "component_dice": 0.9368998628257887
+    },
+    {
+      "gt_size": 3205,
+      "detected": true,
+      "component_dice": 0.96571072319202
+    },
+    {
+      "gt_size": 4517,
+      "detected": true,
+      "component_dice": 0.9372818614489687
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.00040494027130998176
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 817,
+      "detected": true,
+      "component_dice": 0.928311057108141
+    },
+    {
+      "gt_size": 49,
+      "detected": true,
+      "component_dice": 0.7032967032967034
+    },
+    {
+      "gt_size": 1988,
+      "detected": true,
+      "component_dice": 0.898936170212766
+    },
+    {
+      "gt_size": 2965,
+      "detected": true,
+      "component_dice": 0.9415492957746479
+    },
+    {
+      "gt_size": 1543,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2140,
+      "detected": true,
+      "component_dice": 0.8788426763110307
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0017536168347216134
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3241,
+      "detected": true,
+      "component_dice": 0.9274948437252102
+    },
+    {
+      "gt_size": 3709,
+      "detected": true,
+      "component_dice": 0.8086979031840539
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4486,
+      "detected": true,
+      "component_dice": 0.712
+    },
+    {
+      "gt_size": 212,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3315,
+      "detected": true,
+      "component_dice": 0.9470468431771895
+    },
+    {
+      "gt_size": 2062,
+      "detected": true,
+      "component_dice": 0.8728232189973615
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2571,
+      "detected": true,
+      "component_dice": 0.9105781743818554
+    },
+    {
+      "gt_size": 1119,
+      "detected": true,
+      "component_dice": 0.9508053983456682
+    },
+    {
+      "gt_size": 2863,
+      "detected": true,
+      "component_dice": 0.9045492142266336
+    },
+    {
+      "gt_size": 3413,
+      "detected": true,
+      "component_dice": 0.8525513585155732
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 1.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1821,
+      "detected": true,
+      "component_dice": 0.9519071310116086
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2459,
+      "detected": true,
+      "component_dice": 0.9614678899082569
+    },
+    {
+      "gt_size": 2067,
+      "detected": true,
+      "component_dice": 0.9300091491308325
+    },
+    {
+      "gt_size": 53,
+      "detected": true,
+      "component_dice": 0.3939393939393939
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3737,
+      "detected": true,
+      "component_dice": 0.9468561915738251
+    },
+    {
+      "gt_size": 3504,
+      "detected": true,
+      "component_dice": 0.9529640968549958
+    },
+    {
+      "gt_size": 2716,
+      "detected": true,
+      "component_dice": 0.9390503189227498
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3744,
+      "detected": true,
+      "component_dice": 0.9476930985734482
+    },
+    {
+      "gt_size": 489,
+      "detected": true,
+      "component_dice": 0.7755905511811023
+    },
+    {
+      "gt_size": 1879,
+      "detected": true,
+      "component_dice": 0.5619946091644205
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.001834862385321101
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.6666666666666666
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0018365472910927456
+    },
+    {
+      "gt_size": 3680,
+      "detected": true,
+      "component_dice": 0.914323784143904
+    },
+    {
+      "gt_size": 3231,
+      "detected": true,
+      "component_dice": 0.9689151383276344
+    },
+    {
+      "gt_size": 3923,
+      "detected": true,
+      "component_dice": 0.7412672009677908
+    },
+    {
+      "gt_size": 1691,
+      "detected": true,
+      "component_dice": 0.8575102880658436
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2124,
+      "detected": true,
+      "component_dice": 0.8060368921185019
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4222,
+      "detected": true,
+      "component_dice": 0.9410792301334278
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.00047080979284369113
+    },
+    {
+      "gt_size": 2361,
+      "detected": true,
+      "component_dice": 0.9057857701329164
+    },
+    {
+      "gt_size": 2902,
+      "detected": true,
+      "component_dice": 0.9473499473499474
+    },
+    {
+      "gt_size": 2008,
+      "detected": true,
+      "component_dice": 0.8691796008869179
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3911,
+      "detected": true,
+      "component_dice": 0.911716621253406
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 1.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1396,
+      "detected": true,
+      "component_dice": 0.9312477264459803
+    },
+    {
+      "gt_size": 3087,
+      "detected": true,
+      "component_dice": 0.9625550660792952
+    },
+    {
+      "gt_size": 861,
+      "detected": true,
+      "component_dice": 0.8776978417266187
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1082,
+      "detected": true,
+      "component_dice": 0.7345612134344529
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0011869436201780415
+    },
+    {
+      "gt_size": 1760,
+      "detected": true,
+      "component_dice": 0.9450851180669961
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 840,
+      "detected": true,
+      "component_dice": 0.8553137003841229
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4105,
+      "detected": true,
+      "component_dice": 0.948045757864633
+    },
+    {
+      "gt_size": 206,
+      "detected": true,
+      "component_dice": 0.7054263565891473
+    },
+    {
+      "gt_size": 5,
+      "detected": true,
+      "component_dice": 0.012658227848101266
+    },
+    {
+      "gt_size": 1454,
+      "detected": true,
+      "component_dice": 0.9140447615958482
+    },
+    {
+      "gt_size": 203,
+      "detected": true,
+      "component_dice": 0.788235294117647
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3448,
+      "detected": true,
+      "component_dice": 0.9313242538394668
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3659,
+      "detected": true,
+      "component_dice": 0.8969880346582313
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1999,
+      "detected": true,
+      "component_dice": 0.8181818181818182
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1471,
+      "detected": true,
+      "component_dice": 0.94789246598075
+    },
+    {
+      "gt_size": 5587,
+      "detected": true,
+      "component_dice": 0.9648179172912441
+    },
+    {
+      "gt_size": 2691,
+      "detected": true,
+      "component_dice": 0.9463538825240952
+    },
+    {
+      "gt_size": 1005,
+      "detected": true,
+      "component_dice": 0.8981800295130349
+    },
+    {
+      "gt_size": 13,
+      "detected": true,
+      "component_dice": 0.023054755043227664
+    },
+    {
+      "gt_size": 2562,
+      "detected": true,
+      "component_dice": 0.8283098054177794
+    },
+    {
+      "gt_size": 2334,
+      "detected": true,
+      "component_dice": 0.8870748299319728
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.002841918294849023
+    },
+    {
+      "gt_size": 13,
+      "detected": true,
+      "component_dice": 0.4642857142857143
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 832,
+      "detected": true,
+      "component_dice": 0.7384615384615385
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 20,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2467,
+      "detected": true,
+      "component_dice": 0.9458655562165378
+    },
+    {
+      "gt_size": 2616,
+      "detected": true,
+      "component_dice": 0.8412066021627774
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0007530120481927711
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": true,
+      "component_dice": 0.002257336343115124
+    },
+    {
+      "gt_size": 3,
+      "detected": true,
+      "component_dice": 0.002257336343115124
+    },
+    {
+      "gt_size": 40,
+      "detected": true,
+      "component_dice": 0.0044526901669758815
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 7,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.003008649868371568
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 5706,
+      "detected": true,
+      "component_dice": 0.9328980776206021
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.00037572797294758596
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0003756574004507889
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1303,
+      "detected": true,
+      "component_dice": 0.7945685501533071
+    },
+    {
+      "gt_size": 2828,
+      "detected": true,
+      "component_dice": 0.7490297542043984
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4334,
+      "detected": true,
+      "component_dice": 0.9335100508062735
+    },
+    {
+      "gt_size": 893,
+      "detected": true,
+      "component_dice": 0.7704989154013016
+    },
+    {
+      "gt_size": 197,
+      "detected": true,
+      "component_dice": 0.23492852703542574
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 474,
+      "detected": true,
+      "component_dice": 0.8604118993135011
+    },
+    {
+      "gt_size": 3973,
+      "detected": true,
+      "component_dice": 0.9110597396276919
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3905,
+      "detected": true,
+      "component_dice": 0.9375154359101012
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3397,
+      "detected": true,
+      "component_dice": 0.9635879218472468
+    },
+    {
+      "gt_size": 728,
+      "detected": true,
+      "component_dice": 0.926509186351706
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.002509410288582183
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.07272727272727272
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.037037037037037035
+    },
+    {
+      "gt_size": 1410,
+      "detected": true,
+      "component_dice": 0.8942675159235669
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0006637902422834385
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.8
+    },
+    {
+      "gt_size": 2773,
+      "detected": true,
+      "component_dice": 0.9265341400172861
+    },
+    {
+      "gt_size": 5,
+      "detected": true,
+      "component_dice": 0.0019887305270135896
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0006637902422834385
+    },
+    {
+      "gt_size": 4276,
+      "detected": true,
+      "component_dice": 0.9382512373320764
+    },
+    {
+      "gt_size": 1928,
+      "detected": true,
+      "component_dice": 0.7721639656816015
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1857,
+      "detected": true,
+      "component_dice": 0.9612159329140462
+    },
+    {
+      "gt_size": 3945,
+      "detected": true,
+      "component_dice": 0.862910674231429
+    },
+    {
+      "gt_size": 73,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 641,
+      "detected": true,
+      "component_dice": 0.9107692307692308
+    },
+    {
+      "gt_size": 4203,
+      "detected": true,
+      "component_dice": 0.9144410304892461
+    }
+  ],
+  "all_components_ds": [
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2561,
+      "detected": true,
+      "component_dice": 0.9396672679895771
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 14,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.4
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3131,
+      "detected": true,
+      "component_dice": 0.9037490436113237
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0005873715124816446
+    },
+    {
+      "gt_size": 3263,
+      "detected": true,
+      "component_dice": 0.8876592890677397
+    },
+    {
+      "gt_size": 1418,
+      "detected": true,
+      "component_dice": 0.9583921015514809
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2899,
+      "detected": true,
+      "component_dice": 0.9262705798138869
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 9,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 22,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 5501,
+      "detected": true,
+      "component_dice": 0.918525703200776
+    },
+    {
+      "gt_size": 6,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4500,
+      "detected": true,
+      "component_dice": 0.963678773742086
+    },
+    {
+      "gt_size": 1833,
+      "detected": true,
+      "component_dice": 0.9020549773151855
+    },
+    {
+      "gt_size": 2511,
+      "detected": true,
+      "component_dice": 0.9516500383729855
+    },
+    {
+      "gt_size": 4452,
+      "detected": true,
+      "component_dice": 0.9368167905553126
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0004258037044922291
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4722,
+      "detected": true,
+      "component_dice": 0.936950623982637
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 6080,
+      "detected": true,
+      "component_dice": 0.9436653578011058
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.8571428571428571
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 1.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.6666666666666666
+    },
+    {
+      "gt_size": 2484,
+      "detected": true,
+      "component_dice": 0.7493952588292211
+    },
+    {
+      "gt_size": 24,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 627,
+      "detected": true,
+      "component_dice": 0.783303730017762
+    },
+    {
+      "gt_size": 34,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1148,
+      "detected": true,
+      "component_dice": 0.9372881355932203
+    },
+    {
+      "gt_size": 27,
+      "detected": true,
+      "component_dice": 0.45714285714285713
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 479,
+      "detected": true,
+      "component_dice": 0.9140625
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1323,
+      "detected": true,
+      "component_dice": 0.9487831456592808
+    },
+    {
+      "gt_size": 3301,
+      "detected": true,
+      "component_dice": 0.9692563986066939
+    },
+    {
+      "gt_size": 6373,
+      "detected": true,
+      "component_dice": 0.9288310115081768
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0002925687536571094
+    },
+    {
+      "gt_size": 2624,
+      "detected": true,
+      "component_dice": 0.9335474804256173
+    },
+    {
+      "gt_size": 3322,
+      "detected": true,
+      "component_dice": 0.9318842798101944
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 49,
+      "detected": true,
+      "component_dice": 0.026993865030674847
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2468,
+      "detected": true,
+      "component_dice": 0.9016975917883933
+    },
+    {
+      "gt_size": 572,
+      "detected": true,
+      "component_dice": 0.8915223336371924
+    },
+    {
+      "gt_size": 11,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1038,
+      "detected": true,
+      "component_dice": 0.8302094818081588
+    },
+    {
+      "gt_size": 10,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 124,
+      "detected": true,
+      "component_dice": 0.7070707070707071
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1570,
+      "detected": true,
+      "component_dice": 0.9481621112158342
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 70,
+      "detected": true,
+      "component_dice": 0.028169014084507043
+    },
+    {
+      "gt_size": 10,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 20,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2054,
+      "detected": true,
+      "component_dice": 0.9185149469623916
+    },
+    {
+      "gt_size": 3470,
+      "detected": true,
+      "component_dice": 0.9462620281273131
+    },
+    {
+      "gt_size": 1234,
+      "detected": true,
+      "component_dice": 0.9347659247889486
+    },
+    {
+      "gt_size": 5266,
+      "detected": true,
+      "component_dice": 0.8579253680246491
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": true,
+      "component_dice": 0.0009344338888023672
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 131,
+      "detected": true,
+      "component_dice": 0.5835294117647059
+    },
+    {
+      "gt_size": 47,
+      "detected": true,
+      "component_dice": 0.8
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 19,
+      "detected": true,
+      "component_dice": 0.7755102040816326
+    },
+    {
+      "gt_size": 65,
+      "detected": true,
+      "component_dice": 0.3565459610027855
+    },
+    {
+      "gt_size": 473,
+      "detected": true,
+      "component_dice": 0.8969465648854962
+    },
+    {
+      "gt_size": 3809,
+      "detected": true,
+      "component_dice": 0.9487884741322855
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 194,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1435,
+      "detected": true,
+      "component_dice": 0.8610511159107271
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.001486988847583643
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 18,
+      "detected": true,
+      "component_dice": 0.8648648648648649
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 11,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 504,
+      "detected": true,
+      "component_dice": 0.7883369330453563
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 15,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2827,
+      "detected": true,
+      "component_dice": 0.9486425730589659
+    },
+    {
+      "gt_size": 219,
+      "detected": true,
+      "component_dice": 0.5852090032154341
+    },
+    {
+      "gt_size": 140,
+      "detected": true,
+      "component_dice": 0.47882136279926335
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 10,
+      "detected": true,
+      "component_dice": 0.47058823529411764
+    },
+    {
+      "gt_size": 2125,
+      "detected": true,
+      "component_dice": 0.8118494795836669
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0012338062924120913
+    },
+    {
+      "gt_size": 2894,
+      "detected": true,
+      "component_dice": 0.9704060564349621
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1749,
+      "detected": true,
+      "component_dice": 0.9590069284064665
+    },
+    {
+      "gt_size": 1091,
+      "detected": true,
+      "component_dice": 0.9578713968957872
+    },
+    {
+      "gt_size": 3172,
+      "detected": true,
+      "component_dice": 0.9547831436481082
+    },
+    {
+      "gt_size": 3126,
+      "detected": true,
+      "component_dice": 0.9267487241068748
+    },
+    {
+      "gt_size": 71,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 12,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2423,
+      "detected": true,
+      "component_dice": 0.8736968724939855
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1510,
+      "detected": true,
+      "component_dice": 0.8638606676342525
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.002065049044914817
+    },
+    {
+      "gt_size": 15,
+      "detected": true,
+      "component_dice": 0.015384615384615385
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0010330578512396695
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0010330578512396695
+    },
+    {
+      "gt_size": 5,
+      "detected": true,
+      "component_dice": 0.004123711340206186
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1063,
+      "detected": true,
+      "component_dice": 0.9366415595923793
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2029,
+      "detected": true,
+      "component_dice": 0.907016266084001
+    },
+    {
+      "gt_size": 3983,
+      "detected": true,
+      "component_dice": 0.9473551319277869
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4245,
+      "detected": true,
+      "component_dice": 0.9597177969959035
+    },
+    {
+      "gt_size": 2765,
+      "detected": true,
+      "component_dice": 0.9622230294224482
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 479,
+      "detected": true,
+      "component_dice": 0.9273285568065507
+    },
+    {
+      "gt_size": 3895,
+      "detected": true,
+      "component_dice": 0.9375642343268242
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4975,
+      "detected": true,
+      "component_dice": 0.9461657629744384
+    },
+    {
+      "gt_size": 1416,
+      "detected": true,
+      "component_dice": 0.8830053667262969
+    },
+    {
+      "gt_size": 4002,
+      "detected": true,
+      "component_dice": 0.9653636813458684
+    },
+    {
+      "gt_size": 2121,
+      "detected": true,
+      "component_dice": 0.9318491594729669
+    },
+    {
+      "gt_size": 3205,
+      "detected": true,
+      "component_dice": 0.9641763625229639
+    },
+    {
+      "gt_size": 4517,
+      "detected": true,
+      "component_dice": 0.9380851063829787
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0004095004095004095
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 817,
+      "detected": true,
+      "component_dice": 0.9345454545454546
+    },
+    {
+      "gt_size": 49,
+      "detected": true,
+      "component_dice": 0.6756756756756757
+    },
+    {
+      "gt_size": 1988,
+      "detected": true,
+      "component_dice": 0.9433128834355828
+    },
+    {
+      "gt_size": 2965,
+      "detected": true,
+      "component_dice": 0.9557278208440999
+    },
+    {
+      "gt_size": 1543,
+      "detected": true,
+      "component_dice": 0.6109677419354839
+    },
+    {
+      "gt_size": 2140,
+      "detected": true,
+      "component_dice": 0.8831404583616973
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0008814455707360071
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3241,
+      "detected": true,
+      "component_dice": 0.9190724088973025
+    },
+    {
+      "gt_size": 3709,
+      "detected": true,
+      "component_dice": 0.8121039699987068
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4486,
+      "detected": true,
+      "component_dice": 0.7123851323549582
+    },
+    {
+      "gt_size": 212,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3315,
+      "detected": true,
+      "component_dice": 0.9664106040066275
+    },
+    {
+      "gt_size": 2062,
+      "detected": true,
+      "component_dice": 0.8716075156576201
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2571,
+      "detected": true,
+      "component_dice": 0.9154981549815498
+    },
+    {
+      "gt_size": 1119,
+      "detected": true,
+      "component_dice": 0.9519688446559931
+    },
+    {
+      "gt_size": 2863,
+      "detected": true,
+      "component_dice": 0.905249035720275
+    },
+    {
+      "gt_size": 3413,
+      "detected": true,
+      "component_dice": 0.9055364404128871
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 1.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1821,
+      "detected": true,
+      "component_dice": 0.9457863660762211
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2459,
+      "detected": true,
+      "component_dice": 0.9582299421009098
+    },
+    {
+      "gt_size": 2067,
+      "detected": true,
+      "component_dice": 0.9158920879619133
+    },
+    {
+      "gt_size": 53,
+      "detected": true,
+      "component_dice": 0.547945205479452
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3737,
+      "detected": true,
+      "component_dice": 0.9470173187940988
+    },
+    {
+      "gt_size": 3504,
+      "detected": true,
+      "component_dice": 0.9377861567465661
+    },
+    {
+      "gt_size": 2716,
+      "detected": true,
+      "component_dice": 0.9328188037186459
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3744,
+      "detected": true,
+      "component_dice": 0.9432269639882097
+    },
+    {
+      "gt_size": 489,
+      "detected": true,
+      "component_dice": 0.8
+    },
+    {
+      "gt_size": 1879,
+      "detected": true,
+      "component_dice": 0.5551050497604129
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.6666666666666666
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.002398081534772182
+    },
+    {
+      "gt_size": 3680,
+      "detected": true,
+      "component_dice": 0.9119807666622145
+    },
+    {
+      "gt_size": 3231,
+      "detected": true,
+      "component_dice": 0.967652495378928
+    },
+    {
+      "gt_size": 3923,
+      "detected": true,
+      "component_dice": 0.7519644180874722
+    },
+    {
+      "gt_size": 1691,
+      "detected": true,
+      "component_dice": 0.8583889173935352
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0009057971014492754
+    },
+    {
+      "gt_size": 2124,
+      "detected": true,
+      "component_dice": 0.8506860371267151
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4222,
+      "detected": true,
+      "component_dice": 0.9450445103857567
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2361,
+      "detected": true,
+      "component_dice": 0.9056384421623717
+    },
+    {
+      "gt_size": 2902,
+      "detected": true,
+      "component_dice": 0.9631281083862117
+    },
+    {
+      "gt_size": 2008,
+      "detected": true,
+      "component_dice": 0.8686192468619247
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3911,
+      "detected": true,
+      "component_dice": 0.9143164114961053
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0005656108597285068
+    },
+    {
+      "gt_size": 3,
+      "detected": true,
+      "component_dice": 0.0016958733747880158
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1396,
+      "detected": true,
+      "component_dice": 0.9167794316644113
+    },
+    {
+      "gt_size": 3087,
+      "detected": true,
+      "component_dice": 0.9529576152771309
+    },
+    {
+      "gt_size": 861,
+      "detected": true,
+      "component_dice": 0.8886450905101481
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1082,
+      "detected": true,
+      "component_dice": 0.7611832611832612
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0011827321111768185
+    },
+    {
+      "gt_size": 1760,
+      "detected": true,
+      "component_dice": 0.9576912300364248
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 840,
+      "detected": true,
+      "component_dice": 0.8789013732833958
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4105,
+      "detected": true,
+      "component_dice": 0.9532937037486352
+    },
+    {
+      "gt_size": 206,
+      "detected": true,
+      "component_dice": 0.7564102564102564
+    },
+    {
+      "gt_size": 5,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1454,
+      "detected": true,
+      "component_dice": 0.9210526315789473
+    },
+    {
+      "gt_size": 203,
+      "detected": true,
+      "component_dice": 0.7976539589442815
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3448,
+      "detected": true,
+      "component_dice": 0.9391012179756405
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3659,
+      "detected": true,
+      "component_dice": 0.9071023120587014
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.0011220196353436186
+    },
+    {
+      "gt_size": 1999,
+      "detected": true,
+      "component_dice": 0.8555392874572962
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0009523809523809524
+    },
+    {
+      "gt_size": 1471,
+      "detected": true,
+      "component_dice": 0.9349152542372882
+    },
+    {
+      "gt_size": 5587,
+      "detected": true,
+      "component_dice": 0.9639894086496028
+    },
+    {
+      "gt_size": 2691,
+      "detected": true,
+      "component_dice": 0.9447344734473447
+    },
+    {
+      "gt_size": 1005,
+      "detected": true,
+      "component_dice": 0.888030888030888
+    },
+    {
+      "gt_size": 13,
+      "detected": true,
+      "component_dice": 0.024074074074074074
+    },
+    {
+      "gt_size": 2562,
+      "detected": true,
+      "component_dice": 0.8459989013001282
+    },
+    {
+      "gt_size": 2334,
+      "detected": true,
+      "component_dice": 0.88
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.00281195079086116
+    },
+    {
+      "gt_size": 13,
+      "detected": true,
+      "component_dice": 0.5909090909090909
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 832,
+      "detected": true,
+      "component_dice": 0.7431770468859342
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 20,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2467,
+      "detected": true,
+      "component_dice": 0.953690596562184
+    },
+    {
+      "gt_size": 2616,
+      "detected": true,
+      "component_dice": 0.8778930566640064
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0008399832003359933
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 40,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 7,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4,
+      "detected": true,
+      "component_dice": 0.16216216216216217
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 5706,
+      "detected": true,
+      "component_dice": 0.9365750528541226
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0003541703559412077
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.000708215297450425
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1303,
+      "detected": true,
+      "component_dice": 0.6516393442622951
+    },
+    {
+      "gt_size": 2828,
+      "detected": true,
+      "component_dice": 0.7489640130861505
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 4334,
+      "detected": true,
+      "component_dice": 0.9454019793172468
+    },
+    {
+      "gt_size": 893,
+      "detected": true,
+      "component_dice": 0.9294429708222812
+    },
+    {
+      "gt_size": 197,
+      "detected": true,
+      "component_dice": 0.8578088578088578
+    },
+    {
+      "gt_size": 4,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 474,
+      "detected": true,
+      "component_dice": 0.9055036344755971
+    },
+    {
+      "gt_size": 3973,
+      "detected": true,
+      "component_dice": 0.9201492537313433
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 3905,
+      "detected": true,
+      "component_dice": 0.9320293398533007
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.2857142857142857
+    },
+    {
+      "gt_size": 3397,
+      "detected": true,
+      "component_dice": 0.9642964296429642
+    },
+    {
+      "gt_size": 728,
+      "detected": true,
+      "component_dice": 0.9176319176319176
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0024183796856106408
+    },
+    {
+      "gt_size": 2,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1410,
+      "detected": true,
+      "component_dice": 0.8892395077311455
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 1.0
+    },
+    {
+      "gt_size": 2,
+      "detected": true,
+      "component_dice": 0.6666666666666666
+    },
+    {
+      "gt_size": 2773,
+      "detected": true,
+      "component_dice": 0.9255247122545701
+    },
+    {
+      "gt_size": 5,
+      "detected": true,
+      "component_dice": 0.5714285714285714
+    },
+    {
+      "gt_size": 1,
+      "detected": true,
+      "component_dice": 0.0006377551020408163
+    },
+    {
+      "gt_size": 4276,
+      "detected": true,
+      "component_dice": 0.9450860240395946
+    },
+    {
+      "gt_size": 1928,
+      "detected": true,
+      "component_dice": 0.8100147275405007
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 1857,
+      "detected": true,
+      "component_dice": 0.9517634854771784
+    },
+    {
+      "gt_size": 3945,
+      "detected": true,
+      "component_dice": 0.861647615293654
+    },
+    {
+      "gt_size": 73,
+      "detected": false,
+      "component_dice": 0.0
+    },
+    {
+      "gt_size": 641,
+      "detected": true,
+      "component_dice": 0.8912280701754386
+    },
+    {
+      "gt_size": 4203,
+      "detected": true,
+      "component_dice": 0.8939306691235748
+    }
+  ],
+  "boundary_error_rate_a": 0.11008350093218862,
+  "boundary_error_rate_ds": 0.10793451091963578
+}

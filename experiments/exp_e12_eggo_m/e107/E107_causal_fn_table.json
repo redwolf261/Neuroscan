@@ -1,0 +1,443 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "n_region": 23,
+    "delta_ig": -0.05845889821648598,
+    "delta_evidence": -0.0005068376194685698,
+    "delta_random": -0.07697993516921997
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "n_region": 54,
+    "delta_ig": -0.09136354178190231,
+    "delta_evidence": 0.00012139460886828601,
+    "delta_random": -0.046472445130348206
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "n_region": 23,
+    "delta_ig": -0.15729600191116333,
+    "delta_evidence": -0.00043398948037065566,
+    "delta_random": -0.00604243203997612
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "n_region": 239,
+    "delta_ig": -0.05256255343556404,
+    "delta_evidence": 3.747712980839424e-06,
+    "delta_random": -0.007119836285710335
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "n_region": 74,
+    "delta_ig": -0.04154808074235916,
+    "delta_evidence": -8.050832548178732e-06,
+    "delta_random": -0.021929284557700157
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "n_region": 24,
+    "delta_ig": -0.15001405775547028,
+    "delta_evidence": -9.853457595454529e-05,
+    "delta_random": -0.06915830820798874
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "n_region": 21,
+    "delta_ig": -0.19946053624153137,
+    "delta_evidence": -0.0007792266551405191,
+    "delta_random": -0.06092429906129837
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "n_region": 88,
+    "delta_ig": -0.12020118534564972,
+    "delta_evidence": -0.00010762758029159158,
+    "delta_random": -0.06203576177358627
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "n_region": 99,
+    "delta_ig": -0.088843435049057,
+    "delta_evidence": -1.3743164345214609e-05,
+    "delta_random": -0.03396347165107727
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "n_region": 41,
+    "delta_ig": -0.12577815353870392,
+    "delta_evidence": -0.00011637023999355733,
+    "delta_random": -0.030803371220827103
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "n_region": 60,
+    "delta_ig": -0.09317898005247116,
+    "delta_evidence": 0.0002957308024633676,
+    "delta_random": -0.030535468831658363
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "n_region": 8,
+    "delta_ig": -0.1879827231168747,
+    "delta_evidence": -0.00015923027240205556,
+    "delta_random": -0.09406924992799759
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "n_region": 30,
+    "delta_ig": -0.0737861916422844,
+    "delta_evidence": -6.464016041718423e-05,
+    "delta_random": -0.039870668202638626
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "n_region": 5,
+    "delta_ig": -0.20084458589553833,
+    "delta_evidence": -0.0005337543552741408,
+    "delta_random": -0.18225230276584625
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "n_region": 166,
+    "delta_ig": -0.049982670694589615,
+    "delta_evidence": 4.134441041969694e-06,
+    "delta_random": -0.02826174721121788
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "n_region": 178,
+    "delta_ig": -0.06068120524287224,
+    "delta_evidence": -1.2630569472094066e-05,
+    "delta_random": -0.024252597242593765
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "n_region": 38,
+    "delta_ig": -0.0972483903169632,
+    "delta_evidence": -0.0004497555491980165,
+    "delta_random": 0.019517388194799423
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "n_region": 14,
+    "delta_ig": -0.11461885273456573,
+    "delta_evidence": -4.1996827349066734e-06,
+    "delta_random": -0.11126372963190079
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "n_region": 78,
+    "delta_ig": -0.07451874017715454,
+    "delta_evidence": -1.2304030860832427e-06,
+    "delta_random": -0.022024109959602356
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "n_region": 10,
+    "delta_ig": -0.046618908643722534,
+    "delta_evidence": -0.0001374183630105108,
+    "delta_random": 0.011174246668815613
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "n_region": 10,
+    "delta_ig": -0.1250201165676117,
+    "delta_evidence": -0.0004447747196536511,
+    "delta_random": -0.08146259188652039
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "n_region": 46,
+    "delta_ig": -0.134579136967659,
+    "delta_evidence": -0.00018614318105392158,
+    "delta_random": -0.07862067222595215
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "n_region": 7,
+    "delta_ig": -0.11169073730707169,
+    "delta_evidence": -0.0003122377092950046,
+    "delta_random": -0.021670661866664886
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "n_region": 49,
+    "delta_ig": -0.07701107859611511,
+    "delta_evidence": -0.0001663656730670482,
+    "delta_random": -0.04330471158027649
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "n_region": 44,
+    "delta_ig": -0.17764869332313538,
+    "delta_evidence": 0.0001731466909404844,
+    "delta_random": -0.09732865542173386
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "n_region": 19,
+    "delta_ig": -0.10790003836154938,
+    "delta_evidence": -0.00021833991922903806,
+    "delta_random": -0.06542034447193146
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "n_region": 56,
+    "delta_ig": -0.15557661652565002,
+    "delta_evidence": -0.00021782558178529143,
+    "delta_random": -0.06187868118286133
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "n_region": 56,
+    "delta_ig": -0.08744723349809647,
+    "delta_evidence": 0.017809756100177765,
+    "delta_random": -0.047022417187690735
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "n_region": 140,
+    "delta_ig": -0.05867757648229599,
+    "delta_evidence": -1.934403189807199e-05,
+    "delta_random": -0.017874322831630707
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "n_region": 40,
+    "delta_ig": -0.09243635833263397,
+    "delta_evidence": -1.5309757145587355e-05,
+    "delta_random": -0.05102546140551567
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "n_region": 10,
+    "delta_ig": -0.23414191603660583,
+    "delta_evidence": -0.0004050731658935547,
+    "delta_random": -0.09269139170646667
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "n_region": 32,
+    "delta_ig": -0.10971417278051376,
+    "delta_evidence": -0.00012922992755193263,
+    "delta_random": -0.0777115449309349
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "n_region": 56,
+    "delta_ig": -0.161493718624115,
+    "delta_evidence": -0.0001412181300111115,
+    "delta_random": -0.040810711681842804
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "n_region": 24,
+    "delta_ig": -0.1183151826262474,
+    "delta_evidence": -6.053753895685077e-05,
+    "delta_random": -0.026239043101668358
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "n_region": 38,
+    "delta_ig": -0.06064834073185921,
+    "delta_evidence": 8.544422598788515e-06,
+    "delta_random": -0.04316287115216255
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "n_region": 288,
+    "delta_ig": -0.02930760383605957,
+    "delta_evidence": 6.104998647060711e-06,
+    "delta_random": -0.013960595242679119
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "n_region": 9,
+    "delta_ig": -0.04670073464512825,
+    "delta_evidence": -2.3300701286643744e-05,
+    "delta_random": -0.12061285227537155
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "n_region": 172,
+    "delta_ig": -0.08039259165525436,
+    "delta_evidence": 0.005775484722107649,
+    "delta_random": -0.012615557760000229
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "n_region": 31,
+    "delta_ig": -0.09621242433786392,
+    "delta_evidence": -3.9333121094387025e-05,
+    "delta_random": 0.052869148552417755
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "n_region": 143,
+    "delta_ig": -0.05432632192969322,
+    "delta_evidence": -6.459906217060052e-06,
+    "delta_random": -0.02062159962952137
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "n_region": 39,
+    "delta_ig": -0.09869268536567688,
+    "delta_evidence": 0.000886127061676234,
+    "delta_random": -0.06397654861211777
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "n_region": 18,
+    "delta_ig": -0.014377497136592865,
+    "delta_evidence": 0.02932131290435791,
+    "delta_random": 0.08481517434120178
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "n_region": 13,
+    "delta_ig": -0.2114308923482895,
+    "delta_evidence": -0.0005391695303842425,
+    "delta_random": -0.048814281821250916
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "n_region": 27,
+    "delta_ig": -0.14588743448257446,
+    "delta_evidence": -0.0006732228212058544,
+    "delta_random": -0.04412628337740898
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "n_region": 44,
+    "delta_ig": -0.09632380306720734,
+    "delta_evidence": -9.208117262460291e-06,
+    "delta_random": -0.03994795307517052
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "n_region": 2,
+    "delta_ig": -0.2371411919593811,
+    "delta_evidence": -0.004275443032383919,
+    "delta_random": -0.13556811213493347
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "n_region": 20,
+    "delta_ig": -0.09951017051935196,
+    "delta_evidence": -0.00045919427066110075,
+    "delta_random": -0.07524538785219193
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "n_region": 22,
+    "delta_ig": -0.08701354265213013,
+    "delta_evidence": -1.789284942788072e-05,
+    "delta_random": -0.009729869663715363
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "n_region": 47,
+    "delta_ig": -0.09742796421051025,
+    "delta_evidence": -0.00019018794409930706,
+    "delta_random": -0.09403406083583832
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "n_region": 42,
+    "delta_ig": -0.11779213696718216,
+    "delta_evidence": 0.024255583062767982,
+    "delta_random": -0.042255107313394547
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "n_region": 12,
+    "delta_ig": -0.15651707351207733,
+    "delta_evidence": -0.00018245023966301233,
+    "delta_random": -0.10097672045230865
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "n_region": 54,
+    "delta_ig": -0.06185034662485123,
+    "delta_evidence": 0.0002209120721090585,
+    "delta_random": -0.04993694648146629
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "n_region": 29,
+    "delta_ig": -0.11939637362957001,
+    "delta_evidence": 0.0010383655317127705,
+    "delta_random": -0.020211076363921165
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "n_region": 67,
+    "delta_ig": -0.0507744699716568,
+    "delta_evidence": -1.3828141163685359e-05,
+    "delta_random": -0.02801729366183281
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "n_region": 43,
+    "delta_ig": -0.145913764834404,
+    "delta_evidence": -0.00036478840047493577,
+    "delta_random": -0.057209551334381104
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "n_region": 134,
+    "delta_ig": -0.04968647658824921,
+    "delta_evidence": -8.063097993726842e-06,
+    "delta_random": -0.038908734917640686
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "n_region": 14,
+    "delta_ig": -0.15847913920879364,
+    "delta_evidence": -0.0001930916914716363,
+    "delta_random": -0.027206627652049065
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "n_region": 12,
+    "delta_ig": -0.09516764432191849,
+    "delta_evidence": -1.2566069926833734e-05,
+    "delta_random": -0.04964720830321312
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "n_region": 3,
+    "delta_ig": -0.0407869778573513,
+    "delta_evidence": -0.0048830751329660416,
+    "delta_random": -0.09975830465555191
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "n_region": 6,
+    "delta_ig": -0.11028836667537689,
+    "delta_evidence": 0.020882032811641693,
+    "delta_random": -0.07485480606555939
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "n_region": 83,
+    "delta_ig": -0.11538426578044891,
+    "delta_evidence": 0.0120087256655097,
+    "delta_random": -0.04710463434457779
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "n_region": 14,
+    "delta_ig": -0.05668044090270996,
+    "delta_evidence": 0.06981924921274185,
+    "delta_random": -0.05105702579021454
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "n_region": 28,
+    "delta_ig": -0.07410761713981628,
+    "delta_evidence": 0.03570850193500519,
+    "delta_random": -0.02507324330508709
+  }
+]

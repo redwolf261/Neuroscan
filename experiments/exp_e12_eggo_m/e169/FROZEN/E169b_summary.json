@@ -1,0 +1,210 @@
+{
+ "question": "Is R*'s predictability mediated by the model's own lesion-extent estimate?",
+ "n_subjects": 125,
+ "n_folds": 5,
+ "n_permutations": 1000,
+ "models": {
+  "A_raw": "no control; all 77 features",
+  "B_gt": "GT volume control; all 77 features (reproduces E169)",
+  "C_predvol": "PREDICTED volume control; pred.* REMOVED from X",
+  "D_both": "GT + predicted volume control; pred.* REMOVED from X"
+ },
+ "design_note": "pred.* features are REMOVED from X in models C and D, not merely residualised -- otherwise the model routes around its own control.",
+ "gt_vs_pred_volume_agreement": {
+  "ET": 0.9385357465488117,
+  "TC": 0.8790561926173946,
+  "WT": 0.9579600614439323
+ },
+ "per_stage": {
+  "enc1": {
+   "C": 32,
+   "A_raw": {
+    "r2_oos": 0.6341044298308554,
+    "spearman_oos": 0.8015026665667729,
+    "permutation_p": 0.0,
+    "null_mean": -0.08796347097831027,
+    "n_features": 77
+   },
+   "B_gt": {
+    "r2_oos": 0.5184294431882148,
+    "spearman_oos": 0.6760675883256527,
+    "permutation_p": 0.0,
+    "null_mean": -0.17243487827161932,
+    "n_features": 77
+   },
+   "C_predvol": {
+    "r2_oos": 0.43912353940302173,
+    "spearman_oos": 0.661984639016897,
+    "permutation_p": 0.0,
+    "null_mean": -0.4944562132077208,
+    "n_features": 65
+   },
+   "D_both": {
+    "r2_oos": 0.39293488095593454,
+    "spearman_oos": 0.6620890937019969,
+    "permutation_p": 0.0,
+    "null_mean": -0.08966787811392622,
+    "n_features": 65
+   },
+   "retained_vs_raw": {
+    "A_raw": 1.0,
+    "B_gt": 0.8175773875708512,
+    "C_predvol": 0.6925098118619926,
+    "D_both": 0.6196690363143311
+   }
+  },
+  "enc2": {
+   "C": 64,
+   "A_raw": {
+    "r2_oos": 0.7341096977992526,
+    "spearman_oos": 0.8925551499484304,
+    "permutation_p": 0.0,
+    "null_mean": -0.0933973247702826,
+    "n_features": 77
+   },
+   "B_gt": {
+    "r2_oos": 0.5815397709201409,
+    "spearman_oos": 0.7552933947772656,
+    "permutation_p": 0.0,
+    "null_mean": -0.1935266017008868,
+    "n_features": 77
+   },
+   "C_predvol": {
+    "r2_oos": 0.5525936890025172,
+    "spearman_oos": 0.7877726574500767,
+    "permutation_p": 0.0,
+    "null_mean": -0.5222368501590177,
+    "n_features": 65
+   },
+   "D_both": {
+    "r2_oos": 0.45138856378320613,
+    "spearman_oos": 0.6819600614439323,
+    "permutation_p": 0.0,
+    "null_mean": -0.10609442096394676,
+    "n_features": 65
+   },
+   "retained_vs_raw": {
+    "A_raw": 1.0,
+    "B_gt": 0.7921701247967534,
+    "C_predvol": 0.7527399388117438,
+    "D_both": 0.6148789004373587
+   }
+  },
+  "enc3": {
+   "C": 128,
+   "A_raw": {
+    "r2_oos": 0.7893110820975422,
+    "spearman_oos": 0.8969874412236373,
+    "permutation_p": 0.0,
+    "null_mean": -0.10268431268668954,
+    "n_features": 77
+   },
+   "B_gt": {
+    "r2_oos": 0.6087982454038003,
+    "spearman_oos": 0.7155145929339476,
+    "permutation_p": 0.0,
+    "null_mean": -0.1703954726472154,
+    "n_features": 77
+   },
+   "C_predvol": {
+    "r2_oos": 0.5462151846380786,
+    "spearman_oos": 0.7657941628264208,
+    "permutation_p": 0.0,
+    "null_mean": -0.4974121243453584,
+    "n_features": 65
+   },
+   "D_both": {
+    "r2_oos": 0.5178335126813921,
+    "spearman_oos": 0.6969585253456221,
+    "permutation_p": 0.0,
+    "null_mean": -0.10284195253148047,
+    "n_features": 65
+   },
+   "retained_vs_raw": {
+    "A_raw": 1.0,
+    "B_gt": 0.7713033038709645,
+    "C_predvol": 0.6920150964896473,
+    "D_both": 0.6560575727700207
+   }
+  },
+  "bottleneck": {
+   "C": 256,
+   "A_raw": {
+    "r2_oos": 0.38800921944174827,
+    "spearman_oos": 0.6455466636925423,
+    "permutation_p": 0.0,
+    "null_mean": -0.09690422098510325,
+    "n_features": 77
+   },
+   "B_gt": {
+    "r2_oos": 0.30707387824661525,
+    "spearman_oos": 0.5524976958525345,
+    "permutation_p": 0.0,
+    "null_mean": -0.1966961716799829,
+    "n_features": 77
+   },
+   "C_predvol": {
+    "r2_oos": 0.1443968725611834,
+    "spearman_oos": 0.499490015360983,
+    "permutation_p": 0.0,
+    "null_mean": -0.5961410607040306,
+    "n_features": 65
+   },
+   "D_both": {
+    "r2_oos": 0.11172278876911046,
+    "spearman_oos": 0.42487864823348687,
+    "permutation_p": 0.001,
+    "null_mean": -0.10713828658026343,
+    "n_features": 65
+   },
+   "retained_vs_raw": {
+    "A_raw": 1.0,
+    "B_gt": 0.7914087162372598,
+    "C_predvol": 0.37214804526793377,
+    "D_both": 0.2879384900437485
+   }
+  },
+  "dec1": {
+   "C": 32,
+   "A_raw": {
+    "r2_oos": 0.35684813191507536,
+    "spearman_oos": 0.5397676799093718,
+    "permutation_p": 0.0,
+    "null_mean": -0.11375075453879721,
+    "n_features": 77
+   },
+   "B_gt": {
+    "r2_oos": 0.3452963618174768,
+    "spearman_oos": 0.22310291858678952,
+    "permutation_p": 0.0,
+    "null_mean": -0.2138176670782872,
+    "n_features": 77
+   },
+   "C_predvol": {
+    "r2_oos": 0.08700302873681431,
+    "spearman_oos": 0.3042089093701996,
+    "permutation_p": 0.0,
+    "null_mean": -0.5083802098022475,
+    "n_features": 65
+   },
+   "D_both": {
+    "r2_oos": 0.004154108892777564,
+    "spearman_oos": 0.2098801843317972,
+    "permutation_p": 0.039,
+    "null_mean": -0.10500314759016471,
+    "n_features": 65
+   },
+   "retained_vs_raw": {
+    "A_raw": 1.0,
+    "B_gt": 0.9676283296325404,
+    "C_predvol": 0.24380967968054199,
+    "D_both": 0.011641111501646255
+   }
+  }
+ },
+ "best_C_r2": 0.5525936890025172,
+ "best_D_r2": 0.5178335126813921,
+ "READING": "BEYOND_SIZE: task-required rank carries information beyond lesion extent",
+ "verdict": "PARK regardless -- this determines what E169 measured; it does not reopen the allocation branch (E71 sign -0.290, E147 inverse/no scarcity, E72/E73 inert).",
+ "wording": "Do NOT say 'R* is a cheap statistic'. The demonstrated saving is: 9-point causal truncation sweep -> 1 intact forward pass + predictor."
+}

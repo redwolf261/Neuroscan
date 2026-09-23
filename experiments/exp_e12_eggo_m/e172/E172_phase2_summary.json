@@ -1,0 +1,288 @@
+{
+ "phase": "2 -- E171 premise test at enc1",
+ "hypothesis": "exists d_enc1(X,Y_hat) producing selective corrective change",
+ "why_not_prejudged_by_phase1": "dec1 readout is rank-1 so only GT supplies the sign; enc1 map is NOT rank-1 (cos to entropy 0.16/0.27)",
+ "n_subjects": 20,
+ "alphas_frac_of_per_voxel_norm": [
+  0.0,
+  0.01,
+  0.03,
+  0.1,
+  0.3,
+  1.0
+ ],
+ "controls": [
+  "output sensitivity",
+  "direction specificity vs random",
+  "correction specificity",
+  "norm matching",
+  "SIGN SYMMETRY (+d and -d)"
+ ],
+ "aggregate": {
+  "jac+": {
+   "a0.01": {
+    "mean_d_dice": -0.0014477492620547593,
+    "frac_improved": 0.5,
+    "mean_repaired": 0.11062124334275722,
+    "mean_broke": 0.0008637825369078201,
+    "mean_dY": 0.0012541938151116483,
+    "mean_flipped": 0.0012569666170747951
+   },
+   "a0.03": {
+    "mean_d_dice": -0.012054007997115448,
+    "frac_improved": 0.25,
+    "mean_repaired": 0.22916704695671797,
+    "mean_broke": 0.00265614970412571,
+    "mean_dY": 0.003516385052353144,
+    "mean_flipped": 0.00350892553688027
+   },
+   "a0.1": {
+    "mean_d_dice": -0.05662986934185029,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.3555800933390856,
+    "mean_broke": 0.007877268793527037,
+    "mean_dY": 0.00930091809714213,
+    "mean_flipped": 0.009269738488364964
+   },
+   "a0.3": {
+    "mean_d_dice": -0.2277967968645195,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.4230212107300758,
+    "mean_broke": 0.030537024326622485,
+    "mean_dY": 0.03241325188428164,
+    "mean_flipped": 0.03218317925930023
+   },
+   "a1.0": {
+    "mean_d_dice": -0.6152463876870267,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.4654418207705021,
+    "mean_broke": 0.26640579253435137,
+    "mean_dY": 0.26733740940690043,
+    "mean_flipped": 0.26738719642162323
+   }
+  },
+  "jac-": {
+   "a0.01": {
+    "mean_d_dice": -0.005787376376489797,
+    "frac_improved": 0.3,
+    "mean_repaired": 0.16041475674137473,
+    "mean_broke": 0.000499805057188496,
+    "mean_dY": 0.0010105511246365495,
+    "mean_flipped": 0.0010072549455799162
+   },
+   "a0.03": {
+    "mean_d_dice": -0.029637435202797248,
+    "frac_improved": 0.2,
+    "mean_repaired": 0.2939920391887426,
+    "mean_broke": 0.0015200731737422756,
+    "mean_dY": 0.002432414056966081,
+    "mean_flipped": 0.002424677275121212
+   },
+   "a0.1": {
+    "mean_d_dice": -0.09611377542217572,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.4093322690576315,
+    "mean_broke": 0.004515515867387876,
+    "mean_dY": 0.005767142679542303,
+    "mean_flipped": 0.005758643336594105
+   },
+   "a0.3": {
+    "mean_d_dice": -0.18943745544723548,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.4442893764004111,
+    "mean_broke": 0.008410383621230722,
+    "mean_dY": 0.009762788936495782,
+    "mean_flipped": 0.009754173294641077
+   },
+   "a1.0": {
+    "mean_d_dice": -0.39654619451612233,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.46328209843486545,
+    "mean_broke": 0.023617566376924515,
+    "mean_dY": 0.025063949450850487,
+    "mean_flipped": 0.024954605801030993
+   }
+  },
+  "conf+": {
+   "a0.01": {
+    "mean_d_dice": -0.005684697628021235,
+    "frac_improved": 0.1,
+    "mean_repaired": 0.0683684527873993,
+    "mean_broke": 0.0007497555416193791,
+    "mean_dY": 0.000913912286341656,
+    "mean_flipped": 0.0009739717133925296
+   },
+   "a0.03": {
+    "mean_d_dice": -0.0251409844805797,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.16075991950929164,
+    "mean_broke": 0.002460714353946969,
+    "mean_dY": 0.0029110293020494283,
+    "mean_flipped": 0.0030080080701736732
+   },
+   "a0.1": {
+    "mean_d_dice": -0.0694237668979137,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.2874992214143276,
+    "mean_broke": 0.007180763653013855,
+    "mean_dY": 0.008124663040507584,
+    "mean_flipped": 0.008189169794786722
+   },
+   "a0.3": {
+    "mean_d_dice": -0.312414249808838,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.41311514750123024,
+    "mean_broke": 0.03038901099935174,
+    "mean_dY": 0.03183949710801244,
+    "mean_flipped": 0.03170321099460125
+   },
+   "a1.0": {
+    "mean_d_dice": -0.7089166847929544,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.5310589209198951,
+    "mean_broke": 0.27415862306952477,
+    "mean_dY": 0.2748117044568062,
+    "mean_flipped": 0.27517243176698686
+   }
+  },
+  "conf-": {
+   "a0.01": {
+    "mean_d_dice": 0.00178072452545166,
+    "frac_improved": 0.75,
+    "mean_repaired": 0.08524229107424616,
+    "mean_broke": 0.0001338397923973389,
+    "mean_dY": 0.0005025274513172917,
+    "mean_flipped": 0.0004433870475622825
+   },
+   "a0.03": {
+    "mean_d_dice": 0.0013930838555097607,
+    "frac_improved": 0.55,
+    "mean_repaired": 0.15166097059845923,
+    "mean_broke": 0.0003591389860957861,
+    "mean_dY": 0.0009940095129422843,
+    "mean_flipped": 0.0008884748036507517
+   },
+   "a0.1": {
+    "mean_d_dice": -0.007458805913726501,
+    "frac_improved": 0.3,
+    "mean_repaired": 0.23280100841075183,
+    "mean_broke": 0.0011344538012053817,
+    "mean_dY": 0.0020606323931133376,
+    "mean_flipped": 0.0019309918599901721
+   },
+   "a0.3": {
+    "mean_d_dice": -0.0315795725832383,
+    "frac_improved": 0.15,
+    "mean_repaired": 0.2805414140224457,
+    "mean_broke": 0.0028443525487091394,
+    "mean_dY": 0.003968744643498212,
+    "mean_flipped": 0.0038095554802566765
+   },
+   "a1.0": {
+    "mean_d_dice": -0.32975040500750763,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.2691351152956486,
+    "mean_broke": 0.04255875712260604,
+    "mean_dY": 0.04356896453537047,
+    "mean_flipped": 0.04337930777110159
+   }
+  },
+  "rand+": {
+   "a0.01": {
+    "mean_d_dice": 0.0002513845761616923,
+    "frac_improved": 0.45,
+    "mean_repaired": 0.008537399780470878,
+    "mean_broke": 2.2691741082780937e-05,
+    "mean_dY": 5.811764740428771e-05,
+    "mean_flipped": 5.801518859698263e-05
+   },
+   "a0.03": {
+    "mean_d_dice": 0.0006049678971369931,
+    "frac_improved": 0.45,
+    "mean_repaired": 0.0248702903278172,
+    "mean_broke": 7.23653705790639e-05,
+    "mean_dY": 0.00017152227992482948,
+    "mean_flipped": 0.00017112891509896144
+   },
+   "a0.1": {
+    "mean_d_dice": 0.0003881153961022732,
+    "frac_improved": 0.5,
+    "mean_repaired": 0.07622643951326609,
+    "mean_broke": 0.00029984769971633793,
+    "mean_dY": 0.0005881677869183477,
+    "mean_flipped": 0.0005862792480911594
+   },
+   "a0.3": {
+    "mean_d_dice": -0.05012598621348539,
+    "frac_improved": 0.1,
+    "mean_repaired": 0.20405277889221907,
+    "mean_broke": 0.002516811015084386,
+    "mean_dY": 0.0032269755000015722,
+    "mean_flipped": 0.003205148514825851
+   },
+   "a1.0": {
+    "mean_d_dice": -0.531681379150056,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.3937507502734661,
+    "mean_broke": 0.0351867594756186,
+    "mean_dY": 0.03666321812197566,
+    "mean_flipped": 0.03632694995030761
+   }
+  },
+  "rand-": {
+   "a0.01": {
+    "mean_d_dice": 0.0002454827229181944,
+    "frac_improved": 0.5,
+    "mean_repaired": 0.008609066205099224,
+    "mean_broke": 2.2603409638577433e-05,
+    "mean_dY": 5.812706363030884e-05,
+    "mean_flipped": 5.8046978347192633e-05
+   },
+   "a0.03": {
+    "mean_d_dice": 0.0006392624229192734,
+    "frac_improved": 0.5,
+    "mean_repaired": 0.02504635602235794,
+    "mean_broke": 7.126433602024917e-05,
+    "mean_dY": 0.00017140033942268927,
+    "mean_flipped": 0.00017007987280521776
+   },
+   "a0.1": {
+    "mean_d_dice": 0.00038071734209854934,
+    "frac_improved": 0.5,
+    "mean_repaired": 0.07636809069663286,
+    "mean_broke": 0.00029815930683980697,
+    "mean_dY": 0.000586638518871041,
+    "mean_flipped": 0.0005840778489073273
+   },
+   "a0.3": {
+    "mean_d_dice": -0.05002787671983242,
+    "frac_improved": 0.1,
+    "mean_repaired": 0.2034656275063753,
+    "mean_broke": 0.0025146725500235336,
+    "mean_dY": 0.0032244737580185757,
+    "mean_flipped": 0.0031998317426769063
+   },
+   "a1.0": {
+    "mean_d_dice": -0.5304488034763685,
+    "frac_improved": 0.0,
+    "mean_repaired": 0.3948975019156933,
+    "mean_broke": 0.03497491348534822,
+    "mean_dY": 0.03645473634824157,
+    "mean_flipped": 0.0361182939261198
+   }
+  }
+ },
+ "test_at_alpha_0.1": {
+  "jac_plus_mean_d_dice": -0.05662986934185029,
+  "jac_minus_mean_d_dice": -0.09611377542217572,
+  "rand_plus_mean_d_dice": 0.0003881153961022732,
+  "sign_asymmetry": 0.03948390608032543,
+  "wilcoxon_bestjac_vs_rand_p": 1.9073486328125e-06
+ },
+ "phase1_reference": {
+  "oracle_dec1_best": 0.01392,
+  "jac_dec1_best": 0.00048
+ },
+ "PREREGISTERED_VERDICT": "H0_KILL_labelfree_steering_route",
+ "hard_stop": "if candidates ~ random or damage correct voxels, KILL the route; do NOT add more direction constructions"
+}

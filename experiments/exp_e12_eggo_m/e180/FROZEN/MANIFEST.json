@@ -1,0 +1,83 @@
+{
+ "files": {
+  "E180_tile_ledger_full.json": {
+   "sha256_16": "816fe447b4fcba9b",
+   "bytes": 233808
+  },
+  "E180_1_sanity_summary_full.json": {
+   "sha256_16": "1c34e7bb62133fd8",
+   "bytes": 1215
+  },
+  "E180_2_severity_calibration.json": {
+   "sha256_16": "2e16e02b0f21f437",
+   "bytes": 3115
+  },
+  "E180_2b_probe_calibration.json": {
+   "sha256_16": "24c6a19fb60ae6ef",
+   "bytes": 3419
+  },
+  "E180_gamma_per_subject_full.json": {
+   "sha256_16": "17b3cea6f74559ed",
+   "bytes": 944811
+  },
+  "E180_3_4_gamma_summary_full.json": {
+   "sha256_16": "76c4fba31a41d86a",
+   "bytes": 978
+  },
+  "E180_delta_per_subject_full.json": {
+   "sha256_16": "93de808df850e75e",
+   "bytes": 516784
+  },
+  "E180_5_delta_summary_full.json": {
+   "sha256_16": "be43035f953309b3",
+   "bytes": 1210
+  },
+  "E180_5_5_pipeline_gate_summary.json": {
+   "sha256_16": "0c6dbab50b1a5fe9",
+   "bytes": 10706
+  },
+  "E180_6_primary_test.json": {
+   "sha256_16": "69fd92077f92d483",
+   "bytes": 118693
+  },
+  "E180_7_competitor_features.json": {
+   "sha256_16": "3c790216d66ac52c",
+   "bytes": 226924
+  },
+  "E180_8_incremental_r2.json": {
+   "sha256_16": "fe61ad71388fb176",
+   "bytes": 6563
+  },
+  "E180_9_boundary_distance.json": {
+   "sha256_16": "76724281c7cd82e1",
+   "bytes": 92115
+  },
+  "E180_9_boundary_control.json": {
+   "sha256_16": "244f25bd0dda1573",
+   "bytes": 3582
+  },
+  "E180_10_dose_response.json": {
+   "sha256_16": "682735541a122b34",
+   "bytes": 685421
+  },
+  "E180_11_coupling_test.json": {
+   "sha256_16": "df02faf8908cdabf",
+   "bytes": 1942
+  }
+ },
+ "HEADLINE": {
+  "T1_rank": "KILLED at Stage 6 primary gate (full-125 p=0.112, E167-110 p=0.102)",
+  "T4_spectral": {
+   "stage6_full125": {
+    "beta": 0.7490816720840331,
+    "p": 2.607960514211527e-10
+   },
+   "stage8_gamma_over_uncertainty_dR2": 0.004280505754226782,
+   "stage9_classification": "D_survives_boundary_control",
+   "stage11_verdict_full125": "STRONGEST_graded_dose_dependent_coupling",
+   "stage11_verdict_E167_110": "STRONGEST_graded_dose_dependent_coupling"
+  },
+  "T5_smooth": "HELD -- stratum-dependent (full-125 p=0.124, E167-110 p<0.0001), not advanced"
+ },
+ "note": "FROZEN 2026-09-17. E180 Stages 0-11 COMPLETE and TERMINATED per explicit user directive. T4_spectral is the sole surviving family: demonstrated graded, bidirectional, counterfactual coupling (Stage 10-11 'STRONGEST' classification in both the full-125 cohort and the predefined E167 110-subject stratum). T1_rank killed at Stage 6. T5_smooth held, stratum-dependent. Novelty audit (PHASE_E180_NOVELTY_AUDIT.md) found the instability-guided-refinement application shape occupied (TRUST, CertainTTA); any future claim rests on Gamma's specific construction. Stage 12 (an algorithm) is explicitly NOT authorized by this result -- next phase is mechanism dissection of WHY spectral reshaping specifically produces this coupling while rank truncation and smoothing do not. Do NOT regenerate these files; read from FROZEN/."
+}

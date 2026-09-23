@@ -1,0 +1,488 @@
+{
+  "enc3": [
+    {
+      "subject_id": "BraTS-GLI-01273-000",
+      "native_size": 7285,
+      "decodability_dice": 0.3008130192756653
+    },
+    {
+      "subject_id": "BraTS-GLI-00140-000",
+      "native_size": 16748,
+      "decodability_dice": 0.7018405199050903
+    },
+    {
+      "subject_id": "BraTS-GLI-00425-000",
+      "native_size": 25776,
+      "decodability_dice": 0.630062997341156
+    },
+    {
+      "subject_id": "BraTS-GLI-00377-000",
+      "native_size": 30602,
+      "decodability_dice": 0.7695879340171814
+    },
+    {
+      "subject_id": "BraTS-GLI-00066-000",
+      "native_size": 38714,
+      "decodability_dice": 0.7630724906921387
+    },
+    {
+      "subject_id": "BraTS-GLI-00241-000",
+      "native_size": 43568,
+      "decodability_dice": 0.8530734777450562
+    },
+    {
+      "subject_id": "BraTS-GLI-01536-000",
+      "native_size": 49858,
+      "decodability_dice": 0.8501259684562683
+    },
+    {
+      "subject_id": "BraTS-GLI-00582-000",
+      "native_size": 51782,
+      "decodability_dice": 0.8231797814369202
+    },
+    {
+      "subject_id": "BraTS-GLI-00299-000",
+      "native_size": 59335,
+      "decodability_dice": 0.7670288681983948
+    },
+    {
+      "subject_id": "BraTS-GLI-01168-000",
+      "native_size": 64411,
+      "decodability_dice": 0.8473609089851379
+    },
+    {
+      "subject_id": "BraTS-GLI-01342-000",
+      "native_size": 67771,
+      "decodability_dice": 0.6959549784660339
+    },
+    {
+      "subject_id": "BraTS-GLI-00016-001",
+      "native_size": 71716,
+      "decodability_dice": 0.8291272521018982
+    },
+    {
+      "subject_id": "BraTS-GLI-00016-000",
+      "native_size": 74546,
+      "decodability_dice": 0.7539528608322144
+    },
+    {
+      "subject_id": "BraTS-GLI-00723-000",
+      "native_size": 83044,
+      "decodability_dice": 0.8277837634086609
+    },
+    {
+      "subject_id": "BraTS-GLI-00367-000",
+      "native_size": 87782,
+      "decodability_dice": 0.5585006475448608
+    },
+    {
+      "subject_id": "BraTS-GLI-00021-000",
+      "native_size": 89260,
+      "decodability_dice": 0.619072437286377
+    },
+    {
+      "subject_id": "BraTS-GLI-01103-000",
+      "native_size": 92469,
+      "decodability_dice": 0.8588553667068481
+    },
+    {
+      "subject_id": "BraTS-GLI-00491-001",
+      "native_size": 97063,
+      "decodability_dice": 0.8866158127784729
+    },
+    {
+      "subject_id": "BraTS-GLI-01427-000",
+      "native_size": 100873,
+      "decodability_dice": 0.8048605918884277
+    },
+    {
+      "subject_id": "BraTS-GLI-00768-000",
+      "native_size": 109201,
+      "decodability_dice": 0.8752925395965576
+    },
+    {
+      "subject_id": "BraTS-GLI-00436-000",
+      "native_size": 113358,
+      "decodability_dice": 0.8967109322547913
+    },
+    {
+      "subject_id": "BraTS-GLI-00186-000",
+      "native_size": 117131,
+      "decodability_dice": 0.9049562811851501
+    },
+    {
+      "subject_id": "BraTS-GLI-00514-001",
+      "native_size": 120053,
+      "decodability_dice": 0.7901617884635925
+    },
+    {
+      "subject_id": "BraTS-GLI-00619-000",
+      "native_size": 128899,
+      "decodability_dice": 0.7101096510887146
+    },
+    {
+      "subject_id": "BraTS-GLI-00616-000",
+      "native_size": 132715,
+      "decodability_dice": 0.8714859485626221
+    },
+    {
+      "subject_id": "BraTS-GLI-01139-000",
+      "native_size": 138051,
+      "decodability_dice": 0.7927795648574829
+    },
+    {
+      "subject_id": "BraTS-GLI-01075-000",
+      "native_size": 140710,
+      "decodability_dice": 0.5779542922973633
+    },
+    {
+      "subject_id": "BraTS-GLI-00404-000",
+      "native_size": 148743,
+      "decodability_dice": 0.8504472970962524
+    },
+    {
+      "subject_id": "BraTS-GLI-01065-000",
+      "native_size": 157478,
+      "decodability_dice": 0.8616312742233276
+    },
+    {
+      "subject_id": "BraTS-GLI-00242-000",
+      "native_size": 166996,
+      "decodability_dice": 0.6257485151290894
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "native_size": 194150,
+      "decodability_dice": 0.724889874458313
+    },
+    {
+      "subject_id": "BraTS-GLI-00103-000",
+      "native_size": 225535,
+      "decodability_dice": 0.8602811694145203
+    }
+  ],
+  "pool3_output": [
+    {
+      "subject_id": "BraTS-GLI-01273-000",
+      "native_size": 7285,
+      "decodability_dice": 0.0
+    },
+    {
+      "subject_id": "BraTS-GLI-00140-000",
+      "native_size": 16748,
+      "decodability_dice": 0.30472853779792786
+    },
+    {
+      "subject_id": "BraTS-GLI-00425-000",
+      "native_size": 25776,
+      "decodability_dice": 0.41818180680274963
+    },
+    {
+      "subject_id": "BraTS-GLI-00377-000",
+      "native_size": 30602,
+      "decodability_dice": 0.6639769673347473
+    },
+    {
+      "subject_id": "BraTS-GLI-00066-000",
+      "native_size": 38714,
+      "decodability_dice": 0.7205256819725037
+    },
+    {
+      "subject_id": "BraTS-GLI-00241-000",
+      "native_size": 43568,
+      "decodability_dice": 0.7366620898246765
+    },
+    {
+      "subject_id": "BraTS-GLI-01536-000",
+      "native_size": 49858,
+      "decodability_dice": 0.7211640477180481
+    },
+    {
+      "subject_id": "BraTS-GLI-00582-000",
+      "native_size": 51782,
+      "decodability_dice": 0.6293964982032776
+    },
+    {
+      "subject_id": "BraTS-GLI-00299-000",
+      "native_size": 59335,
+      "decodability_dice": 0.6741573214530945
+    },
+    {
+      "subject_id": "BraTS-GLI-01168-000",
+      "native_size": 64411,
+      "decodability_dice": 0.7646763920783997
+    },
+    {
+      "subject_id": "BraTS-GLI-01342-000",
+      "native_size": 67771,
+      "decodability_dice": 0.5849148631095886
+    },
+    {
+      "subject_id": "BraTS-GLI-00016-001",
+      "native_size": 71716,
+      "decodability_dice": 0.7918879985809326
+    },
+    {
+      "subject_id": "BraTS-GLI-00016-000",
+      "native_size": 74546,
+      "decodability_dice": 0.7043502330780029
+    },
+    {
+      "subject_id": "BraTS-GLI-00723-000",
+      "native_size": 83044,
+      "decodability_dice": 0.7333333492279053
+    },
+    {
+      "subject_id": "BraTS-GLI-00367-000",
+      "native_size": 87782,
+      "decodability_dice": 0.4681328535079956
+    },
+    {
+      "subject_id": "BraTS-GLI-00021-000",
+      "native_size": 89260,
+      "decodability_dice": 0.6443373560905457
+    },
+    {
+      "subject_id": "BraTS-GLI-01103-000",
+      "native_size": 92469,
+      "decodability_dice": 0.7692577242851257
+    },
+    {
+      "subject_id": "BraTS-GLI-00491-001",
+      "native_size": 97063,
+      "decodability_dice": 0.8011204600334167
+    },
+    {
+      "subject_id": "BraTS-GLI-01427-000",
+      "native_size": 100873,
+      "decodability_dice": 0.7282000780105591
+    },
+    {
+      "subject_id": "BraTS-GLI-00768-000",
+      "native_size": 109201,
+      "decodability_dice": 0.8636856079101562
+    },
+    {
+      "subject_id": "BraTS-GLI-00436-000",
+      "native_size": 113358,
+      "decodability_dice": 0.7481650710105896
+    },
+    {
+      "subject_id": "BraTS-GLI-00186-000",
+      "native_size": 117131,
+      "decodability_dice": 0.8314005136489868
+    },
+    {
+      "subject_id": "BraTS-GLI-00514-001",
+      "native_size": 120053,
+      "decodability_dice": 0.7129650712013245
+    },
+    {
+      "subject_id": "BraTS-GLI-00619-000",
+      "native_size": 128899,
+      "decodability_dice": 0.6170552372932434
+    },
+    {
+      "subject_id": "BraTS-GLI-00616-000",
+      "native_size": 132715,
+      "decodability_dice": 0.7863327860832214
+    },
+    {
+      "subject_id": "BraTS-GLI-01139-000",
+      "native_size": 138051,
+      "decodability_dice": 0.7937992811203003
+    },
+    {
+      "subject_id": "BraTS-GLI-01075-000",
+      "native_size": 140710,
+      "decodability_dice": 0.5635627508163452
+    },
+    {
+      "subject_id": "BraTS-GLI-00404-000",
+      "native_size": 148743,
+      "decodability_dice": 0.8267852663993835
+    },
+    {
+      "subject_id": "BraTS-GLI-01065-000",
+      "native_size": 157478,
+      "decodability_dice": 0.7673124670982361
+    },
+    {
+      "subject_id": "BraTS-GLI-00242-000",
+      "native_size": 166996,
+      "decodability_dice": 0.5893791913986206
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "native_size": 194150,
+      "decodability_dice": 0.7399463653564453
+    },
+    {
+      "subject_id": "BraTS-GLI-00103-000",
+      "native_size": 225535,
+      "decodability_dice": 0.7682002186775208
+    }
+  ],
+  "bottleneck": [
+    {
+      "subject_id": "BraTS-GLI-01273-000",
+      "native_size": 7285,
+      "decodability_dice": 0.05363984778523445
+    },
+    {
+      "subject_id": "BraTS-GLI-00140-000",
+      "native_size": 16748,
+      "decodability_dice": 0.6022727489471436
+    },
+    {
+      "subject_id": "BraTS-GLI-00425-000",
+      "native_size": 25776,
+      "decodability_dice": 0.6479087471961975
+    },
+    {
+      "subject_id": "BraTS-GLI-00377-000",
+      "native_size": 30602,
+      "decodability_dice": 0.6586102843284607
+    },
+    {
+      "subject_id": "BraTS-GLI-00066-000",
+      "native_size": 38714,
+      "decodability_dice": 0.7577011585235596
+    },
+    {
+      "subject_id": "BraTS-GLI-00241-000",
+      "native_size": 43568,
+      "decodability_dice": 0.7567362189292908
+    },
+    {
+      "subject_id": "BraTS-GLI-01536-000",
+      "native_size": 49858,
+      "decodability_dice": 0.7245243787765503
+    },
+    {
+      "subject_id": "BraTS-GLI-00582-000",
+      "native_size": 51782,
+      "decodability_dice": 0.7216793298721313
+    },
+    {
+      "subject_id": "BraTS-GLI-00299-000",
+      "native_size": 59335,
+      "decodability_dice": 0.6875365972518921
+    },
+    {
+      "subject_id": "BraTS-GLI-01168-000",
+      "native_size": 64411,
+      "decodability_dice": 0.8069820404052734
+    },
+    {
+      "subject_id": "BraTS-GLI-01342-000",
+      "native_size": 67771,
+      "decodability_dice": 0.6191287636756897
+    },
+    {
+      "subject_id": "BraTS-GLI-00016-001",
+      "native_size": 71716,
+      "decodability_dice": 0.7637900114059448
+    },
+    {
+      "subject_id": "BraTS-GLI-00016-000",
+      "native_size": 74546,
+      "decodability_dice": 0.7210526466369629
+    },
+    {
+      "subject_id": "BraTS-GLI-00723-000",
+      "native_size": 83044,
+      "decodability_dice": 0.8148148059844971
+    },
+    {
+      "subject_id": "BraTS-GLI-00367-000",
+      "native_size": 87782,
+      "decodability_dice": 0.41237112879753113
+    },
+    {
+      "subject_id": "BraTS-GLI-00021-000",
+      "native_size": 89260,
+      "decodability_dice": 0.6792390942573547
+    },
+    {
+      "subject_id": "BraTS-GLI-01103-000",
+      "native_size": 92469,
+      "decodability_dice": 0.8333002924919128
+    },
+    {
+      "subject_id": "BraTS-GLI-00491-001",
+      "native_size": 97063,
+      "decodability_dice": 0.835993230342865
+    },
+    {
+      "subject_id": "BraTS-GLI-01427-000",
+      "native_size": 100873,
+      "decodability_dice": 0.723064124584198
+    },
+    {
+      "subject_id": "BraTS-GLI-00768-000",
+      "native_size": 109201,
+      "decodability_dice": 0.8336297273635864
+    },
+    {
+      "subject_id": "BraTS-GLI-00436-000",
+      "native_size": 113358,
+      "decodability_dice": 0.8209041357040405
+    },
+    {
+      "subject_id": "BraTS-GLI-00186-000",
+      "native_size": 117131,
+      "decodability_dice": 0.8106483221054077
+    },
+    {
+      "subject_id": "BraTS-GLI-00514-001",
+      "native_size": 120053,
+      "decodability_dice": 0.7314672470092773
+    },
+    {
+      "subject_id": "BraTS-GLI-00619-000",
+      "native_size": 128899,
+      "decodability_dice": 0.6604418754577637
+    },
+    {
+      "subject_id": "BraTS-GLI-00616-000",
+      "native_size": 132715,
+      "decodability_dice": 0.7843239307403564
+    },
+    {
+      "subject_id": "BraTS-GLI-01139-000",
+      "native_size": 138051,
+      "decodability_dice": 0.7606799602508545
+    },
+    {
+      "subject_id": "BraTS-GLI-01075-000",
+      "native_size": 140710,
+      "decodability_dice": 0.5829933881759644
+    },
+    {
+      "subject_id": "BraTS-GLI-00404-000",
+      "native_size": 148743,
+      "decodability_dice": 0.8165261149406433
+    },
+    {
+      "subject_id": "BraTS-GLI-01065-000",
+      "native_size": 157478,
+      "decodability_dice": 0.7850159406661987
+    },
+    {
+      "subject_id": "BraTS-GLI-00242-000",
+      "native_size": 166996,
+      "decodability_dice": 0.5914570093154907
+    },
+    {
+      "subject_id": "BraTS-GLI-00501-000",
+      "native_size": 194150,
+      "decodability_dice": 0.7646250128746033
+    },
+    {
+      "subject_id": "BraTS-GLI-00103-000",
+      "native_size": 225535,
+      "decodability_dice": 0.8103567957878113
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "n_components": 749,
+  "overall_survival": {
+    "64": {
+      "survival_rate": 0.3030707610146863,
+      "mean_size": 445.1161548731642,
+      "median_size": 0.0
+    },
+    "96": {
+      "survival_rate": 0.3925233644859813,
+      "mean_size": 1526.142857142857,
+      "median_size": 0.0
+    },
+    "128": {
+      "survival_rate": 0.5260347129506008,
+      "mean_size": 3661.739652870494,
+      "median_size": 1.0
+    }
+  },
+  "native_size_distribution": {
+    "mean": 15715.627503337784,
+    "median": 2.0,
+    "min": 1,
+    "max": 225524,
+    "p5": 1.0,
+    "p25": 1.0,
+    "p50": 2.0,
+    "p75": 39.0,
+    "p95": 118736.00000000003
+  },
+  "resize_by_native_bin": {
+    "1-10": {
+      "n": 525,
+      "survive_64": 0.05714285714285714,
+      "mean_voxels_64": 0.05714285714285714,
+      "median_voxels_64": 0.0,
+      "survive_96": 0.15428571428571428,
+      "mean_voxels_96": 0.17333333333333334,
+      "median_voxels_96": 0.0,
+      "survive_128": 0.32761904761904764,
+      "mean_voxels_128": 0.4895238095238095,
+      "median_voxels_128": 0.0
+    },
+    "10-50": {
+      "n": 47,
+      "survive_64": 0.44680851063829785,
+      "mean_voxels_64": 0.6595744680851063,
+      "median_voxels_64": 0.0,
+      "survive_96": 0.7872340425531915,
+      "mean_voxels_96": 2.25531914893617,
+      "median_voxels_96": 2.0,
+      "survive_128": 0.9574468085106383,
+      "mean_voxels_128": 5.382978723404255,
+      "median_voxels_128": 4.0
+    },
+    "50-150": {
+      "n": 15,
+      "survive_64": 1.0,
+      "mean_voxels_64": 2.6,
+      "median_voxels_64": 2.0,
+      "survive_96": 1.0,
+      "mean_voxels_96": 10.666666666666666,
+      "median_voxels_96": 11.0,
+      "survive_128": 1.0,
+      "mean_voxels_128": 21.933333333333334,
+      "median_voxels_128": 23.0
+    },
+    "150-500": {
+      "n": 7,
+      "survive_64": 1.0,
+      "mean_voxels_64": 8.714285714285714,
+      "median_voxels_64": 9.0,
+      "survive_96": 1.0,
+      "mean_voxels_96": 30.0,
+      "median_voxels_96": 32.0,
+      "survive_128": 1.0,
+      "mean_voxels_128": 67.14285714285714,
+      "median_voxels_128": 72.0
+    },
+    ">500": {
+      "n": 155,
+      "survive_64": 0.9935483870967742,
+      "mean_voxels_64": 2149.877419354839,
+      "median_voxels_64": 2066.0,
+      "survive_96": 0.9935483870967742,
+      "mean_voxels_96": 7371.058064516129,
+      "median_voxels_96": 7022.0,
+      "survive_128": 1.0,
+      "mean_voxels_128": 17686.025806451613,
+      "median_voxels_128": 17041.0
+    }
+  },
+  "near_vanish_by_bin": {
+    "1-10": {
+      "n": 525,
+      "pct_vanished_64": 0.9428571428571428,
+      "pct_near_vanish_1to3_64": 0.05714285714285714,
+      "pct_vanished_96": 0.8457142857142858,
+      "pct_near_vanish_1to3_96": 0.15428571428571428,
+      "pct_vanished_128": 0.6723809523809524,
+      "pct_near_vanish_1to3_128": 0.30857142857142855
+    },
+    "10-50": {
+      "n": 47,
+      "pct_vanished_64": 0.5531914893617021,
+      "pct_near_vanish_1to3_64": 0.44680851063829785,
+      "pct_vanished_96": 0.2127659574468085,
+      "pct_near_vanish_1to3_96": 0.574468085106383,
+      "pct_vanished_128": 0.0425531914893617,
+      "pct_near_vanish_1to3_128": 0.3404255319148936
+    },
+    "50-150": {
+      "n": 15,
+      "pct_vanished_64": 0.0,
+      "pct_near_vanish_1to3_64": 0.6,
+      "pct_vanished_96": 0.0,
+      "pct_near_vanish_1to3_96": 0.0,
+      "pct_vanished_128": 0.0,
+      "pct_near_vanish_1to3_128": 0.0
+    },
+    "150-500": {
+      "n": 7,
+      "pct_vanished_64": 0.0,
+      "pct_near_vanish_1to3_64": 0.0,
+      "pct_vanished_96": 0.0,
+      "pct_near_vanish_1to3_96": 0.0,
+      "pct_vanished_128": 0.0,
+      "pct_near_vanish_1to3_128": 0.0
+    },
+    ">500": {
+      "n": 155,
+      "pct_vanished_64": 0.0064516129032258064,
+      "pct_near_vanish_1to3_64": 0.0,
+      "pct_vanished_96": 0.0064516129032258064,
+      "pct_near_vanish_1to3_96": 0.0,
+      "pct_vanished_128": 0.0,
+      "pct_near_vanish_1to3_128": 0.0
+    }
+  },
+  "small_lesion_64_to_128_gain": {
+    "n": 572,
+    "mean_voxel_gain": 0.784965034965035,
+    "median_voxel_gain": 0.0,
+    "n_rescued_from_near_vanish": 26,
+    "n_near_vanished_at_64": 572
+  }
+}

@@ -1,0 +1,1290 @@
+[
+  {
+    "epoch": 1,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.9492677450180054,
+      "evidential": 0.5058107376098633
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.027754494920372963,
+          "evidential": 0.024116046726703644
+        },
+        "cosines": {
+          "focal_tversky__evidential": -0.28427010774612427
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.0004298088897485286,
+          "evidential": 0.0007124004769138992
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.07365258038043976
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.02728397212922573,
+          "evidential": 0.11125985532999039
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.2498490810394287
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.0718969851732254,
+          "evidential": 0.3977161645889282
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 1,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.9324278235435486,
+      "evidential": 0.5030617713928223
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.05625450238585472,
+          "evidential": 0.020707981660962105
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.5702528953552246
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.0006137759773992002,
+          "evidential": 0.0002760221832431853
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.01373352762311697
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.03929946944117546,
+          "evidential": 0.09410819411277771
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.12230478972196579
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.09310062974691391,
+          "evidential": 0.3958674967288971
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 1,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.9460003972053528,
+      "evidential": 0.504054844379425
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.028146347030997276,
+          "evidential": 0.02978617325425148
+        },
+        "cosines": {
+          "focal_tversky__evidential": -0.020923081785440445
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.0004162658879067749,
+          "evidential": 0.0005960199050605297
+        },
+        "cosines": {
+          "focal_tversky__evidential": -0.2917461395263672
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.028572028502821922,
+          "evidential": 0.11487779766321182
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.30025026202201843
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.07728945463895798,
+          "evidential": 0.3975796103477478
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 1,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.9165090918540955,
+      "evidential": 0.5017321705818176
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.06377118825912476,
+          "evidential": 0.024406690150499344
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.7752624750137329
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.0008152303635142744,
+          "evidential": 0.000487566867377609
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.7216177582740784
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.05377880856394768,
+          "evidential": 0.09108617156744003
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.1849711388349533
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.11606208235025406,
+          "evidential": 0.39518454670906067
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.16039039194583893,
+      "evidential": 0.18858426809310913
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.5402489304542542,
+          "evidential": 0.017402347177267075
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8191469311714172
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.03747839853167534,
+          "evidential": 0.0011884289560839534
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8704056739807129
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.2862803339958191,
+          "evidential": 0.034798718988895416
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.49757614731788635
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.259713739156723,
+          "evidential": 0.12116094678640366
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.10590990632772446,
+      "evidential": 0.18823952972888947
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.28534257411956787,
+          "evidential": 0.012828674167394638
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8141284584999084
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.012696992605924606,
+          "evidential": 0.0005629034130834043
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8155712485313416
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.11716607213020325,
+          "evidential": 0.034650471061468124
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.6845532655715942
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.19332168996334076,
+          "evidential": 0.1202894002199173
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.17672231793403625,
+      "evidential": 0.1894456297159195
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.4924899637699127,
+          "evidential": 0.017976457253098488
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9658001065254211
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.026507273316383362,
+          "evidential": 0.0011220400920137763
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.979573130607605
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.20875284075737,
+          "evidential": 0.03466331586241722
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.5927225351333618
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.25388699769973755,
+          "evidential": 0.12054517865180969
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.10706271231174469,
+      "evidential": 0.18949967622756958
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.7214593887329102,
+          "evidential": 0.0346204899251461
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9794913530349731
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.048222579061985016,
+          "evidential": 0.002432744950056076
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9940980672836304
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.22738806903362274,
+          "evidential": 0.03697595000267029
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.6132500767707825
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.16176895797252655,
+          "evidential": 0.11931020021438599
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.08039610087871552,
+      "evidential": 0.12125414609909058
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.579696536064148,
+          "evidential": 0.02954343520104885
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9735226631164551
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.02838476188480854,
+          "evidential": 0.001385910320095718
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9609942436218262
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.23026277124881744,
+          "evidential": 0.022016003727912903
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.48953551054000854
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.0523107573390007,
+          "evidential": 0.05608807131648064
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.05000681430101395,
+      "evidential": 0.12089803814888
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.3334629237651825,
+          "evidential": 0.021924713626503944
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9781236052513123
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.012009741738438606,
+          "evidential": 0.0007478499319404364
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9410262107849121
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.13174375891685486,
+          "evidential": 0.021372491493821144
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.4727044403553009
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.030503196641802788,
+          "evidential": 0.05536000430583954
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.09446152299642563,
+      "evidential": 0.12227430939674377
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.36723974347114563,
+          "evidential": 0.018812650814652443
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9700402617454529
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.02601817063987255,
+          "evidential": 0.001301236916333437
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9625732898712158
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.09559019654989243,
+          "evidential": 0.020687608048319817
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.4093419015407562
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.04572148248553276,
+          "evidential": 0.05556688457727432
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.057054340839385986,
+      "evidential": 0.12231338024139404
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.5372304320335388,
+          "evidential": 0.041598230600357056
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9873513579368591
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.020532267168164253,
+          "evidential": 0.001965596806257963
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9885293841362
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.14482825994491577,
+          "evidential": 0.02274968847632408
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.5553964972496033
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.025556491687893867,
+          "evidential": 0.05483541265130043
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.06515994668006897,
+      "evidential": 0.09382443130016327
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.6559224724769592,
+          "evidential": 0.030680101364850998
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9936099052429199
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.03617655485868454,
+          "evidential": 0.0016965713584795594
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9866289496421814
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.31640979647636414,
+          "evidential": 0.020946156233549118
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.7033706903457642
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.03635772317647934,
+          "evidential": 0.035881247371435165
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.039123136550188065,
+      "evidential": 0.09337155520915985
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.11867517232894897,
+          "evidential": 0.008802806958556175
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.7269910573959351
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.008643903769552708,
+          "evidential": 0.0005037674563936889
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8920068740844727
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.06651954352855682,
+          "evidential": 0.015280013903975487
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.27417710423469543
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.012103812769055367,
+          "evidential": 0.03517399728298187
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.08104930818080902,
+      "evidential": 0.09503791481256485
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.3306397497653961,
+          "evidential": 0.016764827072620392
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9708344340324402
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.026803061366081238,
+          "evidential": 0.001277369912713766
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9552600383758545
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.14570486545562744,
+          "evidential": 0.017146442085504532
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.4098359942436218
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.022061040624976158,
+          "evidential": 0.03535394370555878
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.03150557354092598,
+      "evidential": 0.09334509074687958
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.21979200839996338,
+          "evidential": 0.018556322902441025
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9480870366096497
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.0054399557411670685,
+          "evidential": 0.0005086864694021642
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.5614928603172302
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.07031601667404175,
+          "evidential": 0.014921719208359718
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.36842793226242065
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.009666034020483494,
+          "evidential": 0.035106901079416275
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.05439469590783119,
+      "evidential": 0.07806119322776794
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.583642840385437,
+          "evidential": 0.02789127640426159
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9913244247436523
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.043423980474472046,
+          "evidential": 0.0018997287843376398
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9921615719795227
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.21755735576152802,
+          "evidential": 0.016619941219687462
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.695679783821106
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.022891560569405556,
+          "evidential": 0.025925155729055405
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.03431268781423569,
+      "evidential": 0.07778964936733246
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.1608247458934784,
+          "evidential": 0.012989277020096779
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9389950633049011
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.006839920300990343,
+          "evidential": 0.0005155822145752609
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8836650848388672
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.07120556384325027,
+          "evidential": 0.01267960760742426
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.414438933134079
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.005716598127037287,
+          "evidential": 0.02538784220814705
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.0813828632235527,
+      "evidential": 0.08007471263408661
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.34575986862182617,
+          "evidential": 0.020099395886063576
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.983869731426239
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.038702674210071564,
+          "evidential": 0.0023704981431365013
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9942919611930847
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.09340865164995193,
+          "evidential": 0.014700490981340408
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.441140353679657
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.008045744150876999,
+          "evidential": 0.025301450863480568
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.030184943228960037,
+      "evidential": 0.07796146720647812
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.10793953388929367,
+          "evidential": 0.009791197255253792
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8999320864677429
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.01022807601839304,
+          "evidential": 0.0008922580746002495
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8936538696289062
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.056140441447496414,
+          "evidential": 0.012003849260509014
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.4158465266227722
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.005437896586954594,
+          "evidential": 0.025377672165632248
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.049180418252944946,
+      "evidential": 0.06748129427433014
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.5362168550491333,
+          "evidential": 0.02728736586868763
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9869318008422852
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.031722526997327805,
+          "evidential": 0.0015041343867778778
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9791578054428101
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.18062207102775574,
+          "evidential": 0.015980713069438934
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.5165321230888367
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.01995747908949852,
+          "evidential": 0.020216405391693115
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.029566820710897446,
+      "evidential": 0.06709543615579605
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.1478649377822876,
+          "evidential": 0.00933997705578804
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.905005931854248
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.008464951068162918,
+          "evidential": 0.0005939077818766236
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9094923138618469
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.055173784494400024,
+          "evidential": 0.016912784427404404
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.1513204276561737
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.004858070984482765,
+          "evidential": 0.019873421639204025
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.07474833726882935,
+      "evidential": 0.069572314620018
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.3523949682712555,
+          "evidential": 0.024941517040133476
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.980495274066925
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.03387836366891861,
+          "evidential": 0.002408467698842287
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9871022701263428
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.09791778028011322,
+          "evidential": 0.02902861125767231
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.3047671914100647
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.00468047009781003,
+          "evidential": 0.01976328343153
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.026911551132798195,
+      "evidential": 0.06726694107055664
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.13565067946910858,
+          "evidential": 0.011463304050266743
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9503029584884644
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.012319241650402546,
+          "evidential": 0.000849603908136487
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9528326988220215
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.07019245624542236,
+          "evidential": 0.010499068535864353
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.4304053783416748
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.00763783510774374,
+          "evidential": 0.01987346261739731
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "batch_idx": 0,
+    "loss_values": {
+      "focal_tversky": 0.05162833258509636,
+      "evidential": 0.06044489145278931
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.4641071856021881,
+          "evidential": 0.025069426745176315
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9944477081298828
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.04200594872236252,
+          "evidential": 0.002208059886470437
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.993721604347229
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.24168892204761505,
+          "evidential": 0.016358602792024612
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.804425060749054
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.02747003361582756,
+          "evidential": 0.01699923351407051
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "batch_idx": 1,
+    "loss_values": {
+      "focal_tversky": 0.028043100610375404,
+      "evidential": 0.05978609248995781
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.18677207827568054,
+          "evidential": 0.011067001149058342
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.937070369720459
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.01181251835078001,
+          "evidential": 0.0009074395638890564
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.8257453441619873
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.10125166922807693,
+          "evidential": 0.010436080396175385
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.53084796667099
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.011759085580706596,
+          "evidential": 0.016515938565135002
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "batch_idx": 2,
+    "loss_values": {
+      "focal_tversky": 0.06510008871555328,
+      "evidential": 0.06183597818017006
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.30242112278938293,
+          "evidential": 0.021223336458206177
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9507043361663818
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.04604917764663696,
+          "evidential": 0.003227482782676816
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9807936549186707
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.09993371367454529,
+          "evidential": 0.012710790149867535
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.6200411319732666
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.006852290127426386,
+          "evidential": 0.016360128298401833
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 30,
+    "batch_idx": 3,
+    "loss_values": {
+      "focal_tversky": 0.025327235460281372,
+      "evidential": 0.05997232720255852
+    },
+    "blocks": {
+      "encoder": {
+        "norms": {
+          "focal_tversky": 0.15379568934440613,
+          "evidential": 0.011793031357228756
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9698537588119507
+        }
+      },
+      "bottleneck": {
+        "norms": {
+          "focal_tversky": 0.013043992221355438,
+          "evidential": 0.0009745095740072429
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.9429627060890198
+        }
+      },
+      "decoder": {
+        "norms": {
+          "focal_tversky": 0.1040935069322586,
+          "evidential": 0.012205556035041809
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.7003412246704102
+        }
+      },
+      "heads": {
+        "norms": {
+          "focal_tversky": 0.01204180158674717,
+          "evidential": 0.016536902636289597
+        },
+        "cosines": {
+          "focal_tversky__evidential": 0.0
+        }
+      }
+    }
+  }
+]

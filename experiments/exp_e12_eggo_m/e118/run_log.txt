@@ -1,0 +1,31 @@
+Device: cuda
+Loaded canonical checkpoint: val_dice=0.9101624600589275
+[Sanity check] checkpoint identity PASS.
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00
+[Sanity check] PASS.
+
+Extracting 125 validation subjects (single forward pass each)...
+  extracted 25/125
+  extracted 50/125
+  extracted 75/125
+  extracted 100/125
+  extracted 125/125
+
+Total subjects: 125
+N_b: mean=0.2717 std=0.1733 (sanity check vs E48/E109's ~0.32 mean on this exact ablation construction)
+
+Q-fit: 93 subjects, Q-eval (held-out): 32 subjects (IDENTICAL split rule to E90-E92)
+Fit RIDGE-regularized linear Q: (93, 129) -> (93, 256), beta shape (129, 256), selected alpha=0.1
+Q in-sample R^2 (fit set, ridge): 0.8746
+
+I_rel on held-out eval set: mean=0.0060 std=0.0034
+
+=== Step 5: correlation tests (held-out eval subjects, n=32) ===
+Spearman(I_rel, N_b)          = -0.3127 (param p=8.1435e-02, perm p=0.0780)
+Spearman(I_rel, native_size)  = +0.1782 (param p=3.2930e-01, perm p=0.3310)
+Spearman(I_rel, dice_error)   = +0.1415 (param p=4.3983e-01, perm p=0.4380)
+Spearman(I_rel, G_b)          = +0.0348 (param p=8.4993e-01, perm p=0.8550)
+
+=== CASE A: I_rel does NOT significantly predict N_b -- KILL, stopping before partial correlation. ===
+
+Saved E118_summary.json

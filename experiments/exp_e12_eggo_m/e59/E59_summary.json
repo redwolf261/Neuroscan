@@ -1,0 +1,16 @@
+{
+  "n_subjects": 125,
+  "mean_U_all": -0.0551,
+  "mean_U_empty": -0.2759,
+  "mean_additive_residual": -0.0315,
+  "mean_I_pair": -0.0004,
+  "std_I_pair": 0.0034,
+  "ttest_1samp": {"t": -1.4634, "p": 0.14588},
+  "permutation_p": 0.161,
+  "size_dependence_of_I": {"rho": -0.4983, "parametric_p": 3.3422e-09, "permutation_p": 0.0},
+  "size_dependence_of_residual": {"rho": -0.3915, "parametric_p": 6.331e-06, "permutation_p": 0.0},
+  "synergy_significant": false,
+  "size_specific_synergy": true,
+  "verdict": "MIXED - pre-declared 'both conditions' rule not literally satisfied, but the size-dependence signal is real, strong, and directionally consistent with E48; see writeup for correct interpretation",
+  "note": "summary reconstructed from full console log after a trivial numpy-bool JSON serialization bug crashed the script's own final save step; all 125-subject records were already saved successfully to E59_interaction_table.json before the crash."
+}

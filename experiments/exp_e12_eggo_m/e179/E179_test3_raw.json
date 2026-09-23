@@ -1,0 +1,5180 @@
+[
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.00022544258448853327
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00011874036039397073
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 0.00020910254985380405
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.00020121436719229557
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00013945500121934074
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0001597040831190638
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00032873077509287807
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00013814658858260498
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0002082042922988414
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00027015710470248977
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.00013311872863795704
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00019533765030219086
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 0.00015602308598565429
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0002909911325977427
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00019861649818725402
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00032106354590465125
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00034882236432892677
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00012825342215719293
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00010017798909245368
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00015903664946610718
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00010152454985520865
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 6.221301117735611e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0001222525793621032
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00013077644741538164
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00022219907077104806
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00012875578836331336
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00015234923469191475
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00019231550106764417
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00019662172511761278
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.572418842234191e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.502048989543262e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.3587497544538816e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.862499181512939e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.144918678536779e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00011788324921613302
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.0001125430327933441
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 9.766998363594515e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.629916796910049e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 8.855437143399925e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 9.283364579477926e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.3185969058414106e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 6.40172665236638e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.326662077931922e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 7.112573570884628e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 9.806630936108618e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 3.5772708447401325e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 8.089054404718243e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 7.661451939545982e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.00011271060375470099
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 8.039151215377682e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.090843226617347e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.9702169768275333e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.1617127798126985e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 5.368444073222678e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.316973415085303e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.510745568886196e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.905213853860277e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.109215679756975e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 6.404660058295653e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00011004717154736166
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 9.304614082200624e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.855235487811251e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.37485679570865e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.2441677301827658e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 8.55444788905313e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.069339484710552e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.013688831597026e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 5.310264381290508e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 4.7796619576170873e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.904813932965878e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.454349620408194e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 5.822935986360411e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.176648943635507e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.662202926281056e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.8205735324634005e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.14455789222723e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.222343284569774e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.627172223286899e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.21759832608609e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.710898155217691e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.686564511972857e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.8169883640641324e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.185531681958176e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.1066485278484204e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.116663312588419e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.7606831659459106e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.296715939908601e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 6.592756245038522e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 9.589481031538338e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.3185574240848208e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.258623669402048e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 5.214875873330027e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.337470775592987e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.7980311668580606e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.419000217110614e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 4.8001209781489695e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.9530386620467706e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.951520277953701e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.2471640790704415e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.953059932750025e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.167479854770949e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.9131661235897175e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.914723725145398e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.4118403296695115e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.0439167947068384e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.5530237546843018e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.5530207158012677e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.1940211338274405e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.670680927095327e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.799798900102792e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.364596393922505e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 5.082430094124901e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.50599859912293e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.102581309159414e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 9.882991711770983e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.9765649135694563e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.207289824723458e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.5295278902156e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.235593925719372e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.4118646419064573e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 2.1920456727733684e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.5782815764531222e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.4550793228078627e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.192026357608623e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.8771787709575003e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.5782755404383786e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 5.26098687772536e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.0945763795590655e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.6304294561727004e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.3673970129978184e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.0521913392985693e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.0166677740310335e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.1920432583727445e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.8413164334540877e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.068787889790037e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.8058025258126396e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.4906004738038381e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.630469293829485e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 9.645017861339977e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.1920372224315532e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.4905871943818316e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.3673801122864324e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 8.768351704990796e-07
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.384127562193085e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.5073165367272008e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 3.225590427644032e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.9334993456424088e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 7.922343512115071e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.073690316936217e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.275004281377448e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.5334150572629546e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.1487556065555302e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.0121163035170522e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.3203292376947644e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.970504895734305e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 6.482661758039354e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.9014086406056738e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.526434190752938e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 6.308346587670377e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.703006031247457e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.0036997268796375e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.0763586648875343e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.455877698127884e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.205468581086001e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.3443569629932925e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.3951529293218523e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.1525738839321398e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.0188535783217656e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.0596458573111645e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.38765071714181e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 5.21302452302641e-07
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.780526361742755e-07
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.720540203749288e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 4.3148021311417706e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00013404067386148244
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 8.202273158246232e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 9.189266417325426e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 6.675667826495923e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 6.30172628057063e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 8.953738239327047e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00010466952828487586
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.248662137120498e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 7.662518601685153e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 6.6226366840782536e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.718670094532417e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 6.45397792027047e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.0001661903019873484
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00013714183313942585
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 8.410813770814984e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00018794008777442417
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.387668743829122e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00011215052091154143
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.6987201076526515e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.821385064913362e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0001495480902560381
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0001769061751940998
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0001500507754751551
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 8.853880101623857e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00015872854989718022
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.0199892635343044e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00015550652683653243
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.059728674573159e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00017335179687591462
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00026257607375271275
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 4.5413974430696946e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 4.716770410573279e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 4.4037292716320176e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.346281530953622e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.083132928237032e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.6512716042136923e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.5265842724244156e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.620096789907882e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 7.9225249431783e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.993008787844034e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 5.746773717604792e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.6937565423785772e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.7542993675873086e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.106252670453946e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.38550962038875e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00011167300694753246
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 8.360707875829099e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.55430470633167e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.910126748849941e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 8.243041020489228e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.3156422825316705e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.0001227852624060971
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 6.937490846320449e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 5.6127812194550764e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.327678355477374e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 8.974626477498138e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00010222199876173954
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.771212688045977e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 9.910357245342116e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00011664226064650451
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 3.337780333342866e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.533676877869041e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.7647037503551455e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.0341399024552684e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.956443885375083e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.133565811183625e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.447566218302666e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.6621147915767418e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.111942290999093e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.945032589206977e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 9.636892008224596e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 5.7101403593162736e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.3389699033904994e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.453750430925829e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.031850847351082e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.515927989306388e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.309665820812324e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 5.422440467439671e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.5635398034541965e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.1968165223595904e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.6206077613573067e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 7.181098207478809e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.75245896132126e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.07227602936444e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.182282791656555e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.6526124186410094e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.2993788836526687e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.4766270669028247e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.6537605572533587e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.00018637101359368635
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00017114440204921144
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 7.619436282031711e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0002066723334648024
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.0001902524710113429
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00016104981174926147
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.678022727605923e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0002724457236130684
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00014197202467723657
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00024081343616488837
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 9.637519025038066e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.00014199093218415781
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 8.891641349786927e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.826147145156612e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00025229679509521097
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00017113846384642084
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 7.743808185284307e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00022806768364976027
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.908357832462737e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00010521573102267867
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00011281269431896723
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00010645768080530527
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0002636219507540366
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0002927370268592383
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00017750139631890482
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0003117336199127546
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.0001657355420123935
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00013518212906364624
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 9.133578031139677e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 8.995480247575571e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00014588532891712802
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00010255640363240892
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00015484742647506322
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0002000731449779275
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00023322560933029812
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00017796905907416227
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 4.195725354477764e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.230372322794329e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.0002259382125247289
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00012171015413653397
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 9.39253673405277e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0001382729776908953
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00018420302514812747
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0002024892487662161
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.5194073170007871e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.5971572662397735e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.9569824680236194e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 7.147780519996261e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.0587555329564826e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00012274576244473978
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00033343341444715124
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.971498640092941e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.1913771854873967e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 8.338964639710567e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.956210268735773e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 3.726547324180152e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 4.9025112632841705e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.0233578497522164e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.3217340991524855e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.2687712937285998e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.649713968644942e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.8565317316806005e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.8565223828547204e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.449751437868911e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.473841905940467e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.3239653531144091e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.504735434042063e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.347395430071398e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.6258349862029462e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.5068448669937626e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.9043303392335398e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.7611612241524326e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.655058298549177e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.0711845013069987e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.309211480689243e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 9.669061895506426e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.197567880541206e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.3203825137776968e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.338723543176714e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.263974001339263e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.5279231872371577e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.00010616301851676391
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.5579463465759686e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.9917691714491665e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.5290859040956746e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00015273453925493397
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 9.342894844373284e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 7.260591270395744e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0001229305804617553
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.5415515418117947e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 9.777305997006602e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 9.458845075151212e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 8.388911674549193e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 9.95030478032205e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 8.822320495129043e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00010037757624761778
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.049763984663446e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.855671433139698e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.6033416690288136e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 5.4960389955199807e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00014318829573307934
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.3886163526002915e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 8.102162735512675e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 4.7294529644512084e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 6.040608387880564e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 6.461948261504702e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 6.999324540668539e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 6.929801172887717e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 8.287078252629254e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.066708343954505e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.57789060178604e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 7.328492070739212e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.549821564816704e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 6.976282987050664e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.9711109871796175e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.752714267031166e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 6.952831964313066e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.814006484638646e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 9.765666295342978e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.9786798807853185e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.33118786343778e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.2437464310203796e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 8.31020589237147e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.601126718448758e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.447560838533038e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.447560838533038e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 2.373683532379267e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.3214635429983912e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 9.938043468799007e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.2122406499739946e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.2077085173946576e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.7166410386987296e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.3514690964680498e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.0309789626693497e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.7258119377180914e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.4245114730855888e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.590770960112342e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.4173349703466842e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.6224288433189238e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.541572136729008e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.3468729706058178e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.900893723692787e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.731661277505625e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.650724134014738e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.9180310126830644e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.294760169201492e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.3335537871954637e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.6165857884803403e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.0430037283674105e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.0054374851282724e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.1196184466127912e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.1075962695391026e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.00036871419873325817
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.00039716554984051133
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 0.00034757916259056665
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0002921365670237597
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00047374007502225257
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00021271944098237572
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00030783968914363524
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00042401468759745153
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0003418230933999872
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0006069460879749716
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 8.939999706629453e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 0.00016886006718057345
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.0007155254114079024
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00020693869143936783
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00041126851023005895
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0006026693501566815
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0002822134091901851
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0003190368628016721
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00022257331107809752
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.00020856987680302475
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00020857392070920688
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0004070974109191827
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00041118323791508593
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00044782895181069704
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0002722944688780399
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0008208223355346544
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.944793564992891e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00014897347343335865
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0003871394924765126
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 0.00040828047540267254
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 0.0002912830802538069
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 0.0002173605783909044
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.00024273393810106403
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00031508855535575253
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0003205102017510564
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.00023060897133526936
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0003276585275436561
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0003768387070078455
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.00043688800445065845
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 9.104169842352738e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 0.00014565760997198307
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.0002846579461679294
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00026698227163110544
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0003761932138900692
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00034585401665489235
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0003337413578514692
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0003640259680735558
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.2139964744056764e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00016385791482641243
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.00016386702072905546
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0002487899983310421
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.00025372920655843123
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.00013958387734294697
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0003640307655402436
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00024872041426179936
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.0346696969010822e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 6.0693393938021645e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.820833959957635e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.4278321971604733e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 7.281514730188288e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 2.1691129194187364e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 2.3252565507211886e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.795726084808825e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.663327177173825e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.66475604480876e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.531764440989349e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.628089933060575e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.2547729266290135e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.482739715459816e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.249258879537865e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 1.4862648798186218e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.0604639897618395e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.47595394001665e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.3267631448484205e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.4148437617013685e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.390373801771818e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 7.20967351421492e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.9029039151729514e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 5.735891987986019e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.943000476971161e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 2.2268540222913913e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 5.999849396828849e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.0243822818497015e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.230375395142485e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.9041724076413487e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.96330980556897e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.138243264322164e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 7.608714087595225e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.781961687222059e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.0725783636779682e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.096941077927352e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 6.458607114678827e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 8.772174306351244e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 9.364386776652966e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.9565271073183084e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 9.707486468751858e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.026080012848766e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.889745269044901e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.468719212402273e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 6.242008441423308e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.992953978028402e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.7721756166578246e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 6.292047036506043e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.9537967396038303e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.1249302588568524e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 5.480985388178761e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.539179531472647e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.658628592558775e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.222174536567703e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.0476846782340195e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.430983143678292e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.4452485434756088e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.990367949551708e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.4208189267363456e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.858709131218663e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.5975419959679549e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 9.157900149621423e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 2.8480351847576246e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.8318782710260995e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.9356871057127356e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.129939851259257e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.3936291046920974e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 5.315177313924835e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.1660151332695294e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.277008146194583e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.925777323695369e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.1063813436316146e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.6023398416621406e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.6881648934172784e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.1190793959735554e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.0829791340715165e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.885984236430551e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.8931784696882854e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.791093696601689e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.889075752024686e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.34677926864335e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.8029008216818854e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.6935475272771292e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.0612191566404814e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.5447032436638475e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.5447032436638475e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 1.0273749315670155e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.3512601358067755e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.4263988906457192e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 9.372686239739192e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.507826935613632e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.3920141072820691e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.6965601271623498e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.1282261237921531e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 9.544646309353477e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.8595782326852328e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 6.005693526586753e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 5.555161172329792e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.2525747186256653e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.314316743015081e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.685868675631308e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.5442767477460984e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.1968356690802984e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.3169513153110657e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.754437989422153e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 8.150937295392513e-07
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.989471794973998e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 8.493912338675136e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 5.576659397668604e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.490660776125145e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.1368149969312458e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.4220513884360964e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 9.373113479177464e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 6.271489283908582e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 6.744587320227369e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.714883216529962e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.8824759289881587e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 8.799800600754748e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 5.7943515721081695e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 6.180094916286016e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 6.925876259861186e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 7.186664432090595e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 9.125838260301555e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.0297113224307384e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 5.759443420866317e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 0.00010451241747894136
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.92653073224103e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.1770120271824567e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 9.33748993312139e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.506163089956772e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.83566042257938e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.0452581314115972e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.1053058128768796e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.0905162641512987e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 7.169228415998541e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.3478216733710005e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 8.067831954505778e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 1.435934231144853e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 2.3931437588831095e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 7.236139031974176e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 8.366835308762366e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.7266056321063066e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.7474688582482254e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 9.53514414830936e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.9548228460060666e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.8718455200305026e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.1092778854602265e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.6180924241208112e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.008851811159673e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.548997093614446e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.3819119606444117e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 5.992486595635116e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.1332149781741472e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.322825910730907e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.0754613858624547e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.917121161880257e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 8.216394749641087e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.140715368430246e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.2060384441958671e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 3.781095861483952e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.33466566906776e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.8784736926874546e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 3.860534097555046e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.887981832881692e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.6379292399229e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.062594509307571e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.359118218283774e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.126361375993536e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.9837450564273476e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 5.512788937835078e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.42295259478692e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.5488519184542766e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.4290803560131358e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.1476201514977755e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.3249574660488825e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.3435028449064754e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.27964835420691e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.670570918115623e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 8.567155465682985e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.6278218586518456e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.442411121748091e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.192943555956838e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.257866167051925e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 9.79331958292362e-07
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 9.17639248004809e-07
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 7.330326993348901e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 2.2786071095320937e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.466174343510429e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.331045163936953e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.985543063481865e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 4.2977616312181444e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.624514212538122e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 8.435644552808041e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.5909813057506965e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.57069739354904e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.1584558555841635e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.071552927112365e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 5.730200002848629e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.399046644229296e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 6.157426447814252e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.264016793371905e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.5186109083137906e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 7.329899092227421e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.3122437657757677e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.8986616267323573e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.398043172962329e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 9.087648928116088e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.1918316468634855e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 9.089411991097807e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.4661354331646503e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 3.3320575445999756e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.220815934185106e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.7946042982909813e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.257191014273796e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.546966187424616e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.22455236495961e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.8872267049714906e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.457302629897684e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.472145067289322e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.0095928631720947e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.1823571800309574e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.2534835837195732e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.6834298329531103e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.6048270604501758e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.034792975980082e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.009558351074748e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.2171212814846584e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.0422169820885627e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.3743871490097295e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.9310170858655162e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.113247121777629e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.0748883290945255e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 3.224646821647914e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.0748883290945255e-06
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 4.893173711202625e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 4.933014215245668e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.807078533616225e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.814965992299634e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.020460714315721e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.6166869186022845e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.1646063494279444e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.687923860250242e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.798176263884346e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.115869398244043e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 2.680619450819155e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 4.140281615136465e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.3225752126105355e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 4.0923550791091556e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 7.613591381655516e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.3717581969302506e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.9102710507183938e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 4.290448169180783e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.322950400214131e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.5378364319483815e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 8.164665020002349e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 9.03518217108823e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 9.197386407810981e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.481353566868849e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.681107742651511e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.094059354214306e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.1499359053257496e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "region": "ET",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 4.4271861700057036e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 8.211494904451777e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 2.1622320293249175e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.865072146507943e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 6.512745414274934e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 6.0745314939783523e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.6251467539054052e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 5.7661598342612086e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.8788032595237758e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 5.147946992919983e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 3.964223758731733e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 4.761872840002013e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 7.284669940836597e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.0076794175413748e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.422777194364568e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 4.170189714949868e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 6.872268469997056e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.632948234184475e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.7028401192438767e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 7.720330535671005e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.084588747602867e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.548265645557768e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.2904239203411225e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.883174524025145e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "region": "TC",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 4.120519424728741e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 3.2328875295792314e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.3695017226436623e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.739744993699277e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 3.4914897482182794e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.3873669211336703e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 2.4683342341957903e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 3.826055976223486e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.6096886302534594e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 4.990519283641637e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 6.349637108993278e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.5167622137449155e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 5.1898038953890335e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 2.0104463523032412e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.3754577410943214e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 2.6632287093888984e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.66919447021452e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.0037458690651553e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.4682718353652433e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 9.873187178294218e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 3.762068981422173e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 9.873187178294218e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.0223190845450323e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.4045009167417142e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 7.762521238879883e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 2.587568127571105e-06
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.622155872137767e-05
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "region": "WT",
+  "cells": [
+   {
+    "d_pred_bin": 0,
+    "decile": 0,
+    "n": 8,
+    "mean_delta_dice": 1.591868706234123e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 1,
+    "n": 8,
+    "mean_delta_dice": 1.0502474613191537e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 1.2437564276393531e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 2.146224147857312e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 1.9924908293014743e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 9.431168562973324e-06
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.371657910749502e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.5618510247519812e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.6244941111839828e-05
+   },
+   {
+    "d_pred_bin": 0,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.4102062230833545e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 2,
+    "n": 8,
+    "mean_delta_dice": 7.5971444089273366e-06
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 3,
+    "n": 8,
+    "mean_delta_dice": 1.380554985511151e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 4,
+    "n": 8,
+    "mean_delta_dice": 2.3546113183114947e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 1.5440392665475033e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 1.2683623557163681e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.4072329182338028e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.4855938581803674e-05
+   },
+   {
+    "d_pred_bin": 1,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 2.1699443973663413e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 5,
+    "n": 8,
+    "mean_delta_dice": 3.4216683360149824e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 6,
+    "n": 8,
+    "mean_delta_dice": 4.7007119235165096e-06
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 7,
+    "n": 8,
+    "mean_delta_dice": 1.2158460846151131e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 1.5618547633169944e-05
+   },
+   {
+    "d_pred_bin": 2,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 1.0701307065943966e-05
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 8,
+    "n": 8,
+    "mean_delta_dice": 0.0
+   },
+   {
+    "d_pred_bin": 3,
+    "decile": 9,
+    "n": 8,
+    "mean_delta_dice": 3.252531904487932e-06
+   }
+  ]
+ }
+]

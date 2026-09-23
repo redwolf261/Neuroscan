@@ -1,0 +1,49 @@
+=== FULL EVAL: E131_v14_seed0 ===
+checkpoint: experiments/exp_e12_eggo_m/e131/runs/E131_v14_seed0/checkpoints/best.pth
+  epoch=38 best_mean_dice=0.8942 arch=v14 task=brats2023gli_4mod_3region
+evaluating 125 validation subjects (full volumes, sliding window)
+
+  25/125  (56s, 225s left)
+  50/125  (114s, 171s left)
+  75/125  (169s, 113s left)
+  100/125  (226s, 57s left)
+  125/125  (282s, 0s left)
+
+==================================================================
+FULL VALIDATION -- E131_v14_seed0  (n=125)
+==================================================================
+region   Dice mean     std   median  HD95 mean     std  n_hd95
+    ET      0.8191  0.2546   0.9104      3.638   6.722     120
+    TC      0.8440  0.2696   0.9512      4.186   7.196     120
+    WT      0.9164  0.0911   0.9478      6.568  10.358     125
+
+  MEAN Dice across regions: 0.8599
+
+  subjects with EMPTY ground-truth region: ET=0, TC=0, WT=0
+
+Saved E130_full_eval_E131_v14_seed0.json + per-subject table
+=== FULL EVAL: E131_v5control_seed0 ===
+checkpoint: experiments/exp_e12_eggo_m/e131/runs/E131_v5control_seed0/checkpoints/best.pth
+  epoch=34 best_mean_dice=0.8929 arch=v5 task=brats2023gli_4mod_3region
+evaluating 125 validation subjects (full volumes, sliding window)
+
+  25/125  (53s, 213s left)
+  50/125  (110s, 164s left)
+  75/125  (164s, 109s left)
+  100/125  (219s, 55s left)
+  125/125  (273s, 0s left)
+
+==================================================================
+FULL VALIDATION -- E131_v5control_seed0  (n=125)
+==================================================================
+region   Dice mean     std   median  HD95 mean     std  n_hd95
+    ET      0.8191  0.2506   0.9132      3.650   6.688     120
+    TC      0.8481  0.2635   0.9521      4.168   7.189     120
+    WT      0.9119  0.0860   0.9396     10.393  14.727     125
+
+  MEAN Dice across regions: 0.8597
+
+  subjects with EMPTY ground-truth region: ET=0, TC=0, WT=0
+
+Saved E130_full_eval_E131_v5control_seed0.json + per-subject table
+=== E131 EVAL COMPLETE ===

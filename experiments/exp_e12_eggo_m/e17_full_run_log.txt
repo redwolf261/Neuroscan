@@ -1,0 +1,69 @@
+Using 20 fixed validation subjects (same set as E12b.5/.../E16)
+
+Sampling fixed tracking voxel set (same scheme as E16)...
+
+Extracting dec1 at tracked voxels for all checkpoints...
+Done.
+
+======================================================================
+PART 1: Centroid Direction Stability
+======================================================================
+epoch  1-> 5: cos(dir_t, dir_t+1) = +0.8415 (dist: 25.56 -> 11.80)
+epoch  5->10: cos(dir_t, dir_t+1) = +0.9283 (dist: 11.80 -> 21.40)
+epoch 10->15: cos(dir_t, dir_t+1) = +0.9873 (dist: 21.40 -> 23.67)
+epoch 15->20: cos(dir_t, dir_t+1) = +0.9906 (dist: 23.67 -> 22.51)
+epoch 20->25: cos(dir_t, dir_t+1) = +0.9932 (dist: 22.51 -> 22.90)
+epoch 25->30: cos(dir_t, dir_t+1) = +0.9990 (dist: 22.90 -> 24.09)
+
+Direction relative to epoch 1 (long-range drift):
+  epoch  1: cos(dir_1, dir_1) = +1.0000
+  epoch  5: cos(dir_1, dir_5) = +0.8415
+  epoch 10: cos(dir_1, dir_10) = +0.8285
+  epoch 15: cos(dir_1, dir_15) = +0.8168
+  epoch 20: cos(dir_1, dir_20) = +0.7907
+  epoch 25: cos(dir_1, dir_25) = +0.7841
+  epoch 30: cos(dir_1, dir_30) = +0.7806
+
+======================================================================
+PART 2/3: Margin Gradient Stability and Transport
+======================================================================
+(Using a FIXED, STRATIFIED (low-evidence) anchor set across all checkpoints -- distinct from E16 Part C's live per-checkpoint stratified sampling -- so gradients at different epochs are directly comparable as vectors over the SAME anchors, while still landing on voxels where the hinge loss is actually active.
+
+Selecting fixed STRATIFIED anchor set (epoch 1's own low-evidence voxels)...
+Selected 40000 fixed stratified anchors (2000/subject x 20 subjects)
+epoch  1: computed gradients for 40000/40000 fixed stratified anchors (14835 nonzero)
+epoch  5: computed gradients for 38000/40000 fixed stratified anchors (28110 nonzero)
+epoch 10: computed gradients for 40000/40000 fixed stratified anchors (22539 nonzero)
+epoch 15: computed gradients for 40000/40000 fixed stratified anchors (19401 nonzero)
+epoch 20: computed gradients for 40000/40000 fixed stratified anchors (9751 nonzero)
+epoch 25: computed gradients for 40000/40000 fixed stratified anchors (12084 nonzero)
+epoch 30: computed gradients for 40000/40000 fixed stratified anchors (11200 nonzero)
+epoch  1-> 5: n=12402 mean_cos(g_margin_t, g_margin_t+1)=+0.1417 median=+0.1410 std=0.2118
+epoch  5->10: n=19094 mean_cos(g_margin_t, g_margin_t+1)=+0.5373 median=+0.5953 std=0.2799
+epoch 10->15: n=16488 mean_cos(g_margin_t, g_margin_t+1)=+0.6445 median=+0.7221 std=0.2740
+epoch 15->20: n=7391 mean_cos(g_margin_t, g_margin_t+1)=+0.6367 median=+0.7442 std=0.2971
+epoch 20->25: n=6890 mean_cos(g_margin_t, g_margin_t+1)=+0.7085 median=+0.8015 std=0.2451
+epoch 25->30: n=6569 mean_cos(g_margin_t, g_margin_t+1)=+0.7036 median=+0.7428 std=0.2396
+
+Part 3: Gradient transport (long-range)
+cos(g_margin(epoch5), g_margin(epoch30)): n=8692 mean=+0.4175 median=+0.4769 std=0.2970
+  cos(g_margin(1), g_margin(1)): n=14835 mean=+1.0000
+  cos(g_margin(1), g_margin(5)): n=12402 mean=+0.1417
+  cos(g_margin(1), g_margin(10)): n=10041 mean=+0.1419
+  cos(g_margin(1), g_margin(15)): n=9000 mean=+0.1516
+  cos(g_margin(1), g_margin(20)): n=5021 mean=+0.1336
+  cos(g_margin(1), g_margin(25)): n=5907 mean=+0.1388
+  cos(g_margin(1), g_margin(30)): n=4512 mean=+0.1361
+
+======================================================================
+PART 4 (added): Representation Rotation Check (Procrustes)
+======================================================================
+Distinguishes 'the whole point cloud is being rigidly reorganized' from 'only the specific class-separating axis drifts' (Part 1).
+epoch  1-> 5: rotation closeness to identity (trace(R)/dim) = +0.4682 | residual after best rotation = 1.1421
+epoch  5->10: rotation closeness to identity (trace(R)/dim) = +0.9303 | residual after best rotation = 0.4871
+epoch 10->15: rotation closeness to identity (trace(R)/dim) = +0.9479 | residual after best rotation = 0.4150
+epoch 15->20: rotation closeness to identity (trace(R)/dim) = +0.9255 | residual after best rotation = 0.3880
+epoch 20->25: rotation closeness to identity (trace(R)/dim) = +0.9856 | residual after best rotation = 0.3144
+epoch 25->30: rotation closeness to identity (trace(R)/dim) = +0.9929 | residual after best rotation = 0.1908
+
+All outputs saved to C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e17_target_stability_results

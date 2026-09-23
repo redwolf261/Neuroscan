@@ -1,0 +1,10 @@
+measured E2 within-window spread (median) -> delta = 0.1155
+  15/125 subj, 50 rows (49s)
+  30/125 subj, 102 rows (85s)
+  45/125 subj, 156 rows (648s)
+  60/125 subj, 220 rows (692s)
+  90/125 subj, 324 rows (767s)
+  105/125 subj, 364 rows (797s)
+  120/125 subj, 424 rows (839s)
+
+wrote E187_coherence.csv (438 rows) pops={'L': 74, 'H': 219, 'S': 145}  852s

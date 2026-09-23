@@ -1,0 +1,8 @@
+E194 HRS falsification, 125 subjects
+  built 15 donor texture patches
+  25/125 subj, 77 rows (75s)
+  50/125 subj, 173 rows (162s)
+  100/125 subj, 317 rows (311s)
+  125/125 subj, 394 rows (393s)
+
+wrote E194_hrs.csv (394 rows) pops={'L': 58, 'H': 218, 'S': 118}  393s

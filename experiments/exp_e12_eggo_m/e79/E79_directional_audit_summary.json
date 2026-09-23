@@ -1,0 +1,37 @@
+{
+  "n_subjects": 125,
+  "coherence_by_class": {
+    "background": 0.9544781446456909,
+    "boundary": 0.8773208856582642,
+    "interior": 0.9365934133529663
+  },
+  "S_smooth": {
+    "mean": 0.026465988636016846,
+    "ci_lo": 0.023520550429821013,
+    "ci_hi": 0.029580841648578642,
+    "ttest_p": 3.452001145453837e-35,
+    "wilcoxon_p": 1.1910810170121589e-21,
+    "perm_p": 0.0
+  },
+  "S_u_after_smooth": {
+    "mean": 0.18989059549570084,
+    "ci_lo": 0.17463112064450978,
+    "ci_hi": 0.206418494258821,
+    "ttest_p": 1.9444864215940332e-47,
+    "wilcoxon_p": 2.9643799464905646e-22,
+    "perm_p": 0.0
+  },
+  "recovery_fraction_from_smoothing": 0.11016590676803739,
+  "S_dir_local_perm": {
+    "mean": 0.03720998001098633,
+    "ci_lo": 0.03387674629688263,
+    "ci_hi": 0.04092135313749313,
+    "ttest_p": 5.146134284457528e-43,
+    "wilcoxon_p": 3.264911596747029e-22,
+    "perm_p": 0.0
+  },
+  "e78_S_u_reference": 0.2134,
+  "ratio_local_perm_to_translate": 0.17436729152289748,
+  "hypothesis_reading": "B (absolute coordinate): local permutation is much LESS damaging than translation -- direction is bound to ABSOLUTE spatial address, not just locally noisy. Preserving rough position (permutation) is far safer than losing it (translation).",
+  "smoothing_reading": "Smoothing does NOT meaningfully recover translation-robustness (argues against a simple local-smoothing intervention, consistent with hypothesis B)"
+}

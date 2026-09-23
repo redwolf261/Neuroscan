@@ -1,0 +1,13 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "mean_delta_D_low": 0.4741582454442978,
+  "mean_delta_D_mid": 0.32610381188988685,
+  "rho_Nb_deltaD_low": 0.8237050691244238,
+  "p_param_low": 4.2771964481878026e-32,
+  "p_perm_low": 0.0,
+  "rho_Nb_deltaD_mid": 0.7678402457757295,
+  "p_param_mid": 1.5208611844762174e-25,
+  "p_perm_mid": 0.0,
+  "verdict": "TIMING_NOT_SUPPORTED_STATIC_EFFECT_LIKELY",
+  "detail": "Necessity predicts context benefit roughly EQUALLY at both resolution gaps -- this is a general 'high-N_b subjects need more detail' effect, NOT specifically an early-training-timing effect. Conditioning curriculum TIMING on N_b is not well-motivated by this data; training high-N_b subjects at higher resolution THROUGHOUT (not a different schedule) would be the better-supported intervention instead."
+}

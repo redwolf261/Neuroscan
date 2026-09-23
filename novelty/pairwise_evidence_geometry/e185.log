@@ -1,0 +1,10 @@
+E185 on 125 subjects (15 tail)
+  20/125 subj, 86 regions (97s)
+  40/125 subj, 162 regions (183s)
+  60/125 subj, 242 regions (274s)
+  80/125 subj, 310 regions (355s)
+  100/125 subj, 374 regions (430s)
+  120/125 subj, 456 regions (518s)
+
+wrote E185_stages.csv (474 rows)  populations: {'L': 85, 'H': 237, 'S': 152}
+probe records: 3318   total 546s

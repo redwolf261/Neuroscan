@@ -1,0 +1,59 @@
+Device: cuda
+Loaded canonical checkpoint: val_dice=0.9101624600589275
+[Sanity check] checkpoint identity PASS.
+
+Building training labels (200 training subjects, real ablation)...
+  [train] labeled 50/200
+  [train] labeled 100/200
+  [train] labeled 150/200
+  [train] labeled 200/200
+
+Building validation labels (all 125 held-out subjects, real ablation)...
+  [val] labeled 50/125
+  [val] labeled 100/125
+
+Training N_b: mean=0.2543 std=0.1669
+Validation N_b: mean=0.2717 std=0.1733
+
+=== FRACTION=0.0 ===
+    [draw 0 diagnostic] loss: epoch1=0.043496 epoch15=0.013813 epoch30=0.007723 | pred_val std=0.134556 (n_val std=0.173331) | pred_train std=0.135687, TRAIN-SET fit rho=+0.8771
+  rho draws: ['+0.850'] (1/1 valid, 0 capacity-limited)
+  mean rho=+0.8500, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.8771
+
+=== FRACTION=0.125 ===
+    [draw 0 diagnostic] loss: epoch1=0.043369 epoch15=0.015627 epoch30=0.006555 | pred_val std=0.137471 (n_val std=0.173331) | pred_train std=0.145409, TRAIN-SET fit rho=+0.8804
+  rho draws: ['+0.857', '+0.784', '+0.855', '+0.817', '+0.807'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.8240, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.8652
+
+=== FRACTION=0.25 ===
+    [draw 0 diagnostic] loss: epoch1=0.045985 epoch15=0.019252 epoch30=0.011447 | pred_val std=0.111336 (n_val std=0.173331) | pred_train std=0.116761, TRAIN-SET fit rho=+0.7982
+  rho draws: ['+0.767', '+0.767', '+0.765', '+0.784', '+0.780'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.7727, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.8269
+
+=== FRACTION=0.5 ===
+    [draw 0 diagnostic] loss: epoch1=0.046926 epoch15=0.019304 epoch30=0.011941 | pred_val std=0.095790 (n_val std=0.173331) | pred_train std=0.103371, TRAIN-SET fit rho=+0.7984
+  rho draws: ['+0.639', '+0.578', '+0.571', '+0.607', '+0.598'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.5988, worst-case permutation p=0.0000, mean TRAIN-SET fit rho=+0.7811
+
+=== FRACTION=0.75 ===
+    [draw 0 diagnostic] loss: epoch1=0.046785 epoch15=0.024620 epoch30=0.016932 | pred_val std=0.068512 (n_val std=0.173331) | pred_train std=0.072251, TRAIN-SET fit rho=+0.6599
+  rho draws: ['+0.271', '+0.310', '+0.200', '+0.420', '+0.271'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.2944, worst-case permutation p=0.0270, mean TRAIN-SET fit rho=+0.6618
+
+=== FRACTION=1.0 ===
+    [draw 0 diagnostic] loss: epoch1=0.054052 epoch15=0.027072 epoch30=0.021738 | pred_val std=0.043999 (n_val std=0.173331) | pred_train std=0.045806, TRAIN-SET fit rho=+0.5520
+  rho draws: ['-0.064', '+0.018', '-0.051', '-0.018', '+0.166'] (5/5 valid, 0 capacity-limited)
+  mean rho=+0.0102, worst-case permutation p=0.8550, mean TRAIN-SET fit rho=+0.5206
+
+
+======================================================================
+PRE-DECLARED INTERPRETATION
+======================================================================
+Sweep: f=0.0: rho=+0.8500, f=0.125: rho=+0.8240, f=0.25: rho=+0.7727, f=0.5: rho=+0.5988, f=0.75: rho=+0.2944, f=1.0: rho=+0.0102
+
+First fraction meeting sharp-drop criterion (rho<0.4250 AND p>0.05): 1.0
+
+=== FINAL VERDICT: FLAT_THEN_CLIFF_DISTRIBUTED_CODE ===
+(Convenience label only -- inspect the actual rho/p sweep above directly, per this project's own established convention of not trusting an auto-classifier's label without checking the underlying numbers.)
+
+Saved E111_summary.json

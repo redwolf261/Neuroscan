@@ -1,0 +1,1142 @@
+[
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 1,
+    "median_d_gt": 2.449489742783178,
+    "error_rate": 0.0002634814684700509
+   },
+   {
+    "decile": 2,
+    "median_d_gt": 2.449489742783178,
+    "error_rate": 0.0005269629369401019
+   },
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.003688740558580713
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.009485332864921835
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.03460389952573336
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.082733181099596
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.06130335499736519
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.13894256103987354
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.3266596417281349
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.035280006617586235
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 1.7320508075688772,
+    "error_rate": 0.1057246856386499
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.23593646591661152
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.2544251447477254
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.27068166776968894
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.27829252150893447
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.43507030603804797
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01041-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.0,
+    "error_rate": 0.01650106005261948
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.8284271247461903,
+    "error_rate": 0.007291139240506329
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.7320508075688772,
+    "error_rate": 0.08913819479857216
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.1584047327621379
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.19449260581336053
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.24926058133605303
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.43069862315145335
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.0
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.002425648597342333
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.013499261759122548
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.03248602468094083
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.11538867208100412
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.32071292976165366
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 5,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.0
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.0017831090938563786
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.016050583657587547
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.10527169505271695
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.32285760570225175
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01161-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.012377016922471468
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.012278630460448641
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.07178841309823678
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.10853140248701401
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.1184573002754821
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.17638724911452183
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.38556587439005197
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 1.7320508075688772,
+    "error_rate": 0.040657919053779336
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.14491682070240297
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.0,
+    "error_rate": 0.15471349353049907
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.20861049519586106
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.15024949177601182
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.2376640177416374
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.3777490297542044
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.07272513887802207
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.39627113288039184
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.0,
+    "error_rate": 0.2024178549287043
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.24757433489827857
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.3630104834924112
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.36056338028169016
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.40744797371303393
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01189-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.0397839982367203
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.1083392101551481
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.13365070968879486
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 4.0,
+    "error_rate": 0.15763025654588733
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.19095477386934673
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.20893943401216608
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.3937230009697611
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.0,
+    "error_rate": 0.0010353915662650603
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.01882530120481928
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.0,
+    "error_rate": 0.06927710843373494
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.08019578313253012
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.07567771084337349
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 0.0,
+    "error_rate": 0.09977409638554217
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.2499059089198344
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.00011665888940737284
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.005135387488328665
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.02379841343910406
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.07279514699020065
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.13719085394307046
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.14885674288380774
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.31031264582361173
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01336-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.00039856516540454366
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.0,
+    "error_rate": 0.004877228388832829
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.0266994266994267
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.05462394155736344
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.09065249875477337
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.328407770214179
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 6,
+    "median_d_gt": 1.7320508075688772,
+    "error_rate": 0.002647887323943662
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.035482475118996104
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.05489443378119002
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.18914901523597175
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.001053001053001053
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.449489742783178,
+    "error_rate": 0.0004385964912280702
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.007456140350877193
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.024434389140271493
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.04995730145175064
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.19816272965879264
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00250-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.010170462684429164
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.09912327786723922
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.12389222092919165
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.13579804851848537
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.18127293885954704
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.32393483709273185
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 1.7320508075688772,
+    "error_rate": 0.01670406382448267
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.08751864743908504
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.0,
+    "error_rate": 0.11615154536390827
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.1245640259093174
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.193419740777667
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 0.0,
+    "error_rate": 0.24763328350772296
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.33134030891878424
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.0,
+    "error_rate": 0.015481572818194273
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.011513157894736841
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.07405345211581292
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.09546925566343042
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.18914473684210525
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.30575342465753425
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.42027397260273974
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00501-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 1,
+    "median_d_gt": 2.8284271247461903,
+    "error_rate": 0.08910123966942149
+   },
+   {
+    "decile": 2,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.33431174089068827
+   },
+   {
+    "decile": 3,
+    "median_d_gt": 3.3166247903554,
+    "error_rate": 0.2316610239047912
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 4.123105625617661,
+    "error_rate": 0.17929513158569743
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 4.242640687119285,
+    "error_rate": 0.22838967834607296
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 4.47213595499958,
+    "error_rate": 0.28331794398276394
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 3.1622776601683795,
+    "error_rate": 0.35741035243420716
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.39927153337095367
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 3.0,
+    "error_rate": 0.45716630758182003
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 5,
+    "median_d_gt": 2.0,
+    "error_rate": 6.154035508784885e-05
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.027695716395864108
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.06793428096732508
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.11059822747415067
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.30607347240169835
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.00086194512282718
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.8284271247461903,
+    "error_rate": 0.0
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.025855877423988507
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.07734674329501916
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.09169260234618147
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.2772324634905435
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01093-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 3,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.0004764173415912339
+   },
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.005202989887146416
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.007182644385810613
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.03004983875696277
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.06464379947229551
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.15941072999120492
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.3476253298153034
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.002890173410404624
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.03507062834875792
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.04984575418087352
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.015911673973047574
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.09433349569735347
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.24874167884396817
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 5,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.0008183864147855146
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.01411620294599018
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.027840327533265097
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.0762625230014312
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.21890343698854337
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01168-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.004640507518796993
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.0,
+    "error_rate": 0.008066881783514227
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.05461753046542358
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.07933010136624064
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.1263389581804842
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.33705226071638283
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.00019251748700506964
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.0,
+    "error_rate": 0.006897658004491498
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.01588065447545717
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.04989571634846783
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 0.0,
+    "error_rate": 0.09578052302262154
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.2707731793391081
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.0
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.0,
+    "error_rate": 0.0
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.0013886133703630231
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.020630827216822058
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.09462408252330887
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 0.0,
+    "error_rate": 0.29736163459631026
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-00506-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.053775555712039055
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.05985213003168642
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.13449125689473065
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.1596244131455399
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.16864217814810467
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.35124985330360287
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "region": "ET",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.0030408340573414424
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 1.0,
+    "error_rate": 0.041530944625407164
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.0716709651147007
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.0600054303556883
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.11388624949097326
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.28030405863988056
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "region": "TC",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.0020886050528176087
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.23606797749979,
+    "error_rate": 0.004418557943362121
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.4142135623730951,
+    "error_rate": 0.030120481927710843
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.05081341634866439
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.09399477806788512
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.2781124497991968
+   }
+  ]
+ },
+ {
+  "sid": "BraTS-GLI-01065-000",
+  "region": "WT",
+  "deciles": [
+   {
+    "decile": 4,
+    "median_d_gt": 2.0,
+    "error_rate": 0.007459985002456494
+   },
+   {
+    "decile": 5,
+    "median_d_gt": 2.0,
+    "error_rate": 0.030324768488326593
+   },
+   {
+    "decile": 6,
+    "median_d_gt": 1.0,
+    "error_rate": 0.07041351939572398
+   },
+   {
+    "decile": 7,
+    "median_d_gt": 1.0,
+    "error_rate": 0.11073044602456367
+   },
+   {
+    "decile": 8,
+    "median_d_gt": 1.0,
+    "error_rate": 0.17882763523557163
+   },
+   {
+    "decile": 9,
+    "median_d_gt": 1.0,
+    "error_rate": 0.3470785935884178
+   }
+  ]
+ }
+]

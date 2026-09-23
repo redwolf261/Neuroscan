@@ -1,0 +1,242 @@
+[
+  {
+    "epoch": 5,
+    "n_fn_anchors_in_last_batch": 10,
+    "realized_full_trajectory": {
+      "cos_mean": 0.22586612403392792,
+      "frac_correct_sign": 0.10000000149011612
+    },
+    "isolated_single_anchor_probes": [
+      {
+        "voxel_idx": 145116,
+        "cos_isolated_probe": 0.3825198709964752,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 153943,
+        "cos_isolated_probe": 0.4286811351776123,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 174745,
+        "cos_isolated_probe": 0.43128329515457153,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 178532,
+        "cos_isolated_probe": 0.35474395751953125,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 178914,
+        "cos_isolated_probe": 0.42059430480003357,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 178324,
+        "cos_isolated_probe": 0.35643020272254944,
+        "correct_sign": false
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "n_fn_anchors_in_last_batch": 79,
+    "realized_full_trajectory": {
+      "cos_mean": 0.2707870304584503,
+      "frac_correct_sign": 0.06329113990068436
+    },
+    "isolated_single_anchor_probes": [
+      {
+        "voxel_idx": 157539,
+        "cos_isolated_probe": 0.465779572725296,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 137074,
+        "cos_isolated_probe": 0.37541595101356506,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 152803,
+        "cos_isolated_probe": 0.4156067371368408,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 148772,
+        "cos_isolated_probe": 0.4016460180282593,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 145448,
+        "cos_isolated_probe": 0.3765318989753723,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 157735,
+        "cos_isolated_probe": 0.5977063179016113,
+        "correct_sign": false
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "n_fn_anchors_in_last_batch": 64,
+    "realized_full_trajectory": {
+      "cos_mean": 0.29404762387275696,
+      "frac_correct_sign": 0.125
+    },
+    "isolated_single_anchor_probes": [
+      {
+        "voxel_idx": 145448,
+        "cos_isolated_probe": 0.3699427545070648,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 141173,
+        "cos_isolated_probe": 0.4729941189289093,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 165667,
+        "cos_isolated_probe": 0.523606538772583,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 133153,
+        "cos_isolated_probe": 0.39136144518852234,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 137251,
+        "cos_isolated_probe": 0.43332695960998535,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 124958,
+        "cos_isolated_probe": 0.2357550412416458,
+        "correct_sign": false
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "n_fn_anchors_in_last_batch": 100,
+    "realized_full_trajectory": {
+      "cos_mean": 0.2522134780883789,
+      "frac_correct_sign": 0.10999999940395355
+    },
+    "isolated_single_anchor_probes": [
+      {
+        "voxel_idx": 140981,
+        "cos_isolated_probe": 0.4496336579322815,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 124762,
+        "cos_isolated_probe": 0.46147453784942627,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 153377,
+        "cos_isolated_probe": 0.3599179983139038,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 144731,
+        "cos_isolated_probe": 0.5642394423484802,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 161774,
+        "cos_isolated_probe": 0.5469591021537781,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 152861,
+        "cos_isolated_probe": 0.566321849822998,
+        "correct_sign": false
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "n_fn_anchors_in_last_batch": 141,
+    "realized_full_trajectory": {
+      "cos_mean": 0.34992092847824097,
+      "frac_correct_sign": 0.021276595070958138
+    },
+    "isolated_single_anchor_probes": [
+      {
+        "voxel_idx": 137074,
+        "cos_isolated_probe": 0.2685316801071167,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 145269,
+        "cos_isolated_probe": 0.48882779479026794,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 153377,
+        "cos_isolated_probe": 0.322145015001297,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 144923,
+        "cos_isolated_probe": 0.3538551330566406,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 124762,
+        "cos_isolated_probe": 0.41442883014678955,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 149556,
+        "cos_isolated_probe": 0.5284612774848938,
+        "correct_sign": false
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "n_fn_anchors_in_last_batch": 116,
+    "realized_full_trajectory": {
+      "cos_mean": 0.30713164806365967,
+      "frac_correct_sign": 0.043103449046611786
+    },
+    "isolated_single_anchor_probes": [
+      {
+        "voxel_idx": 137074,
+        "cos_isolated_probe": 0.3138333261013031,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 140825,
+        "cos_isolated_probe": 0.4036426246166229,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 124762,
+        "cos_isolated_probe": 0.44015586376190186,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 165667,
+        "cos_isolated_probe": 0.6113318800926208,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 153706,
+        "cos_isolated_probe": 0.44196444749832153,
+        "correct_sign": false
+      },
+      {
+        "voxel_idx": 140653,
+        "cos_isolated_probe": 0.5293861031532288,
+        "correct_sign": false
+      }
+    ]
+  }
+]

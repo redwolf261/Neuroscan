@@ -1,0 +1,13 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_subjects": 125,
+  "mean_delta_D_context": 0.293822646856308,
+  "spearman_rho_Nb_deltaD": 0.43596927803379415,
+  "parametric_p": 3.7364867897400566e-07,
+  "permutation_p": 0.0,
+  "spearman_rho_size_deltaD_confound_check": -0.10858986175115207,
+  "size_confound_p": 0.22803239532948139,
+  "partial_rho_Nb_deltaD_given_size": 0.43656760633172437,
+  "partial_p": 3.5866537841623875e-07,
+  "hypothesis_supported": true
+}

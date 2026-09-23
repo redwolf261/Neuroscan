@@ -1,0 +1,35 @@
+Device: cuda
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+[Sanity check] manual trunk vs real forward(): max abs diff = 0.000000e+00 PASS.
+
+Running 4 forward passes (intact + 3 stage ablations) per subject, 125 subjects...
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+Total subjects: 125
+
+=== Raw magnitude (mean +/- std) ===
+N_1 (pool1, 64->32 ablated): 0.6525 +/- 0.1480
+N_2 (pool2, 32->16 ablated): 0.6143 +/- 0.0879
+N_3 (pool3, 16->8  ablated): 0.2717 +/- 0.1733  (= N_b; cross-check vs E48/E109/E118/E119/E120's ~0.27-0.32 range)
+
+=== Correlation with native_size ===
+  N_1 vs native_size: rho=-0.4482 (perm p=0.0000)
+  N_2 vs native_size: rho=-0.0362 (perm p=0.6970)
+  N_3 vs native_size: rho=-0.3833 (perm p=0.0000)
+
+=== Correlation with dice_error (1-dice_intact) ===
+  N_1 vs dice_error: rho=-0.2263 (perm p=0.0090)
+  N_2 vs dice_error: rho=-0.2790 (perm p=0.0030)
+  N_3 vs dice_error: rho=+0.0120 (perm p=0.9010)
+
+=== Small-vs-large lesion stratification (median split, E92 convention) ===
+Median native_size: 90377  (n_small=63, n_large=62)
+  N_1: small_mean=0.7007, large_mean=0.6036, diff=+0.0972, perm p=0.0010
+  N_2: small_mean=0.6103, large_mean=0.6185, diff=-0.0082, perm p=0.6350
+  N_3: small_mean=0.3245, large_mean=0.2181, diff=+0.1064, perm p=0.0000
+
+Saved E121_summary.json, E121_per_subject_table.json

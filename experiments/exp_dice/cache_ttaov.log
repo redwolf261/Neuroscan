@@ -1,0 +1,7 @@
+caching 125 subjects | tag=ttaov overlap=0.75 tta=1
+  25/125 (104s, ~418s left)
+  50/125 (224s, ~335s left)
+  75/125 (336s, ~224s left)
+  100/125 (450s, ~113s left)
+  125/125 (555s, ~0s left)
+done in 555s -> C:\Users\Rivan\Projects\Neuroscan\experiments\exp_dice\cache

@@ -1,0 +1,14 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_eval_subjects": 32,
+  "q_fit_r2": 0.8745945063475573,
+  "I_rel_mean": 0.00597065399448302,
+  "I_rel_std": 0.0034220272792631896,
+  "spearman_I_rel_vs_N_b": -0.31268328445747795,
+  "perm_p_I_rel_vs_N_b": 0.078,
+  "spearman_I_rel_vs_native_size": 0.17815249266862168,
+  "spearman_I_rel_vs_dice_error": 0.1414956011730205,
+  "spearman_I_rel_vs_G_b": 0.03482404692082111,
+  "verdict": "CASE_A_KILL_NO_MARGINAL_CORRELATION"
+}

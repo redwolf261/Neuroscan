@@ -1,0 +1,629 @@
+{
+ "step_b_nullspace_source_stats": [
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "frac_tied_windows": 0.4772834777832031,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "frac_tied_windows": 0.4569835662841797,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "frac_tied_windows": 0.4855175018310547,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "frac_tied_windows": 0.4797821044921875,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "frac_tied_windows": 0.46769142150878906,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "frac_tied_windows": 0.48865699768066406,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "frac_tied_windows": 0.489837646484375,
+   "n_windows": 524288
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "frac_tied_windows": 0.4730567932128906,
+   "n_windows": 524288
+  }
+ ],
+ "step_d_records": [
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 0.0002822736569214612,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 0.00026076086214743555,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 0.0002469027822371572,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 0.0002949511690530926,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 2.47955322265625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 0.0002706983359530568,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 0.0002779287751764059,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 2.288818359375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 0.000278360559605062,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 9.5367431640625e-06,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01041-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 0.0002804092364385724,
+   "epsilon_subject": 0.0002432895707897842,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 0.00028491151169873774,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.47955322265625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 0.0002692381094675511,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 0.00031562463846057653,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 0.00030236656311899424,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 0.00029534660279750824,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.47955322265625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 0.00029471228481270373,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 0.00032671631197445095,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01189-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 0.00029599835397675633,
+   "epsilon_subject": 0.0004919761558994651,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 7.550206646556035e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 8.364429959328845e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.1444091796875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 7.651771738892421e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 7.517507037846372e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 2.288818359375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 8.021743269637227e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 7.720400026300922e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.33514404296875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 7.492789154639468e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.33514404296875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01336-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 7.393279520329088e-05,
+   "epsilon_subject": 4.989325316273607e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 9.438188135391101e-05,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 0.00010434505384182557,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 0.00010284120071446523,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 2.288818359375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 0.00010033166472567245,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 0.00010882722563110292,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 0.00010215440852334723,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 9.500045416643843e-05,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00250-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 0.00010011554695665836,
+   "epsilon_subject": 6.331365875666961e-05,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 0.0002882186963688582,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 0.0002996432885993272,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 0.00031235962524078786,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 9.5367431640625e-06,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 0.0002832275931723416,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 0.0003047329664696008,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 0.00032739577000029385,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.33514404296875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 0.0003063449403271079,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00501-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 0.00028877545264549553,
+   "epsilon_subject": 0.00019103534577880055,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 0.00015907832130324095,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 0.00015105634520296007,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.47955322265625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 0.0001518267672508955,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.86102294921875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 0.00015533673285972327,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.47955322265625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 0.00015810156764928252,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.6702880859375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 0.00015497850836254656,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.86102294921875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 0.00017206200573127717,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01093-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 0.000157232498168014,
+   "epsilon_subject": 9.897032578010112e-05,
+   "frac_argmax_changed": 2.6702880859375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 6.062421016395092e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 6.0074522480135784e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 1.1444091796875e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 5.6876742746680975e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 5.8882225857814774e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 9.5367431640625e-06,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 6.244623364182189e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 1.52587890625e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 6.495862908195704e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 7.62939453125e-06,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 5.82071952521801e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-00506-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 6.502896576421335e-05,
+   "epsilon_subject": 6.4297259086743e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 0,
+   "seed": 812001,
+   "output_distance_from_Z0": 0.0001622738636797294,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 1,
+   "seed": 812002,
+   "output_distance_from_Z0": 0.00018247166008222848,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 2,
+   "seed": 812003,
+   "output_distance_from_Z0": 0.00015949881344567984,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 3,
+   "seed": 812004,
+   "output_distance_from_Z0": 0.0001725375623209402,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 4,
+   "seed": 812005,
+   "output_distance_from_Z0": 0.00016254026559181511,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 2.09808349609375e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 5,
+   "seed": 812006,
+   "output_distance_from_Z0": 0.00017393250891473144,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 6,
+   "seed": 812007,
+   "output_distance_from_Z0": 0.00018704822286963463,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 1.71661376953125e-05,
+   "passed": false
+  },
+  {
+   "sid": "BraTS-GLI-01065-000",
+   "candidate_idx": 7,
+   "seed": 812008,
+   "output_distance_from_Z0": 0.00016523855447303504,
+   "epsilon_subject": 9.289265290135518e-05,
+   "frac_argmax_changed": 1.9073486328125e-05,
+   "passed": false
+  }
+ ],
+ "gamma_records_passing_only": [],
+ "n_total_candidates": 64,
+ "n_passed_step_d": 0,
+ "GAP_FRACTION": 0.5,
+ "N_CANDIDATES_PER_TILE": 8,
+ "CANDIDATE_SEED_BASE": 812001,
+ "note": "NO ground truth / Dice used anywhere. Gamma computed ONLY for candidates that passed Step D's hard gate (output-equivalence AND argmax-pattern-preserved). If n_passed_step_d==0, this is a KILL per the prereg's decision table -- gamma_records_passing_only will be empty and must be reported as such, not rescued."
+}

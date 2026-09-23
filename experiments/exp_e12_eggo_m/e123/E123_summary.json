@@ -1,0 +1,24 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "val_dice_check": 0.9101624600589275,
+  "n_subjects": 125,
+  "n_complete_case": 125,
+  "S_stage_means": {
+    "N_1": 0.5884260901901018,
+    "N_2": 0.3446941547190416,
+    "N_3": 0.4983244498290774
+  },
+  "S_stage_stds": {
+    "N_1": 0.0354759539275174,
+    "N_2": 0.02584107942381483,
+    "N_3": 0.04423463267365199
+  },
+  "visible_pattern": true,
+  "pooled_r2_stage_size_only": 0.6385591669526974,
+  "pooled_r2_with_S": 0.6399801953693818,
+  "delta_r2_from_S": 0.0014210284166843445,
+  "S_coefficient": -0.24351459425883887,
+  "within_subject_permutation_p": 0.0,
+  "decision": "CASE_B_KILL_REDUNDANT_WITH_STAGE_SIZE",
+  "detail": "Raw S_stage shows the visible pattern, but this is redundant with stage identity + size once controlled (Delta R^2=0.0014, perm p=0.0000). KILL as non-differentiating."
+}

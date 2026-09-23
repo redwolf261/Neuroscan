@@ -1,0 +1,37 @@
+Device: cuda
+[Sanity check] Decomposition identity verified (recon diff 2.38e-07), translate/decompose commutativity verified (r_diff 0.00e+00, u_diff 0.00e+00). PASS.
+
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 subject records.
+
+=== MAGNITUDE-DIRECTION DECOMPOSITION RESULTS ===
+
+=== S_full (both r and u translated -- E65's own quantity): mean = 0.3174 (95% CI [0.3003, 0.3355]) ===
+  t-test p=2.0145e-64, Wilcoxon p=2.9644e-22, sign-flip permutation p=0.0000
+
+=== S_r (ONLY magnitude translated, direction held intact): mean = 0.0223 (95% CI [0.0181, 0.0277]) ===
+  t-test p=2.2563e-15, Wilcoxon p=3.7795e-20, sign-flip permutation p=0.0000
+
+=== S_u (ONLY direction translated, magnitude held intact): mean = 0.2134 (95% CI [0.1989, 0.2293]) ===
+  t-test p=7.7392e-55, Wilcoxon p=2.9644e-22, sign-flip permutation p=0.0000
+
+=== S_r vs S_u (which component dominates?) ===
+  mean S_r=0.0223, mean S_u=0.2134, diff=-0.1911
+  paired t-test: t=-27.956, p=2.2402e-55, Wilcoxon p=2.9644e-22
+
+=== Additivity check: S_full vs S_r + S_u ===
+  S_full mean = 0.3174
+  S_r + S_u   = 0.2357
+  Gap (S_full - (S_r+S_u)) = +0.0816 (super-additive/interaction)
+
+=== READING ===
+DIRECTION dominates: S_u >> S_r -- direction carries the positional structure; magnitude mainly amplifies the downstream consequence
+
+Saved E78_decomposition_summary.json

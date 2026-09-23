@@ -1,0 +1,9 @@
+E189 relief-vs-recovery, enc3 SKIP ONLY, 125 subjects
+  20/125 subj, 71 rows (69s)
+  40/125 subj, 137 rows (128s)
+  60/125 subj, 202 rows (189s)
+  80/125 subj, 261 rows (243s)
+  100/125 subj, 317 rows (294s)
+  120/125 subj, 383 rows (353s)
+
+wrote E189_relief.csv (394 rows) pops={'L': 57, 'H': 218, 'S': 119}  366s

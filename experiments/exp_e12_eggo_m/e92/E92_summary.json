@@ -1,0 +1,28 @@
+{
+  "checkpoint_lineage": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "checkpoint_val_dice": 0.9101624600589275,
+  "per_stage_strat_means": {
+    "enc3": {
+      "small_mean": 0.7244086191058159,
+      "large_mean": 0.8057988062500954
+    },
+    "pool3_output": {
+      "small_mean": 0.5975266247987747,
+      "large_mean": 0.7441980056464672
+    },
+    "bottleneck": {
+      "small_mean": 0.6517492376733571,
+      "large_mean": 0.7590891942381859
+    }
+  },
+  "delta_pool_small_mean": 0.12688199430704117,
+  "delta_pool_large_mean": 0.06160080060362816,
+  "delta_transform_small_mean": -0.05422261287458241,
+  "delta_transform_large_mean": -0.014891188591718674,
+  "delta_pool_diff": 0.06528119370341301,
+  "delta_pool_diff_p": 0.022,
+  "delta_transform_diff": -0.039331424282863736,
+  "delta_transform_diff_p": 0.121,
+  "decision": "H1_POOLING_DOMINANT",
+  "detail": "Spatial downsampling (pool3) disproportionately destroys small-lesion information; the subsequent channel transformation does not show a comparable size-specific effect. Motivates selective-preservation-across-downsampling mechanisms, not bigger bottleneck channels."
+}

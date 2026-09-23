@@ -1,0 +1,234 @@
+Device: cuda
+[Sanity] checkpoint identity PASS (best_mean_dice=0.8929357248544694).
+[1/125] BraTS-GLI-01041-000
+[2/125] BraTS-GLI-01161-000
+[3/125] BraTS-GLI-01189-000
+[4/125] BraTS-GLI-01336-000
+[5/125] BraTS-GLI-00250-000
+[6/125] BraTS-GLI-00501-000
+[7/125] BraTS-GLI-01093-000
+[8/125] BraTS-GLI-01168-000
+[9/125] BraTS-GLI-00506-000
+[10/125] BraTS-GLI-01065-000
+[11/125] BraTS-GLI-01444-000
+[12/125] BraTS-GLI-01326-000
+[13/125] BraTS-GLI-00764-000
+[14/125] BraTS-GLI-00731-001
+[15/125] BraTS-GLI-01258-000
+[16/125] BraTS-GLI-01025-000
+[17/125] BraTS-GLI-00811-000
+[18/125] BraTS-GLI-00103-000
+[19/125] BraTS-GLI-01103-000
+[20/125] BraTS-GLI-00514-001
+[21/125] BraTS-GLI-00611-001
+[22/125] BraTS-GLI-01369-000
+[23/125] BraTS-GLI-01354-000
+[24/125] BraTS-GLI-01227-000
+[25/125] BraTS-GLI-01078-000
+[26/125] BraTS-GLI-00241-000
+[27/125] BraTS-GLI-00146-000
+[28/125] BraTS-GLI-01349-000
+[29/125] BraTS-GLI-00044-000
+[30/125] BraTS-GLI-01315-000
+[31/125] BraTS-GLI-00286-000
+[32/125] BraTS-GLI-00491-000
+[33/125] BraTS-GLI-00367-000
+[34/125] BraTS-GLI-00525-001
+[35/125] BraTS-GLI-00500-001
+[36/125] BraTS-GLI-00708-001
+[37/125] BraTS-GLI-01384-000
+[38/125] BraTS-GLI-00768-001
+[39/125] BraTS-GLI-01450-000
+[40/125] BraTS-GLI-00628-000
+[41/125] BraTS-GLI-00066-000
+[42/125] BraTS-GLI-00016-001
+[43/125] BraTS-GLI-01362-000
+[44/125] BraTS-GLI-00604-000
+[45/125] BraTS-GLI-00491-001
+[46/125] BraTS-GLI-00222-000
+[47/125] BraTS-GLI-01062-000
+[48/125] BraTS-GLI-00266-000
+[49/125] BraTS-GLI-01090-000
+[50/125] BraTS-GLI-01374-000
+[51/125] BraTS-GLI-01176-000
+[52/125] BraTS-GLI-00436-000
+[53/125] BraTS-GLI-01019-000
+[54/125] BraTS-GLI-00377-000
+[55/125] BraTS-GLI-01314-000
+[56/125] BraTS-GLI-00559-000
+[57/125] BraTS-GLI-01114-000
+[58/125] BraTS-GLI-00338-000
+[59/125] BraTS-GLI-01293-000
+[60/125] BraTS-GLI-00242-000
+[61/125] BraTS-GLI-00186-000
+[62/125] BraTS-GLI-01028-000
+[63/125] BraTS-GLI-00511-000
+[64/125] BraTS-GLI-01001-000
+[65/125] BraTS-GLI-01427-000
+[66/125] BraTS-GLI-00683-000
+[67/125] BraTS-GLI-01319-000
+[68/125] BraTS-GLI-01323-000
+[69/125] BraTS-GLI-01402-000
+[70/125] BraTS-GLI-00249-000
+[71/125] BraTS-GLI-00032-001
+[72/125] BraTS-GLI-01074-000
+[73/125] BraTS-GLI-00616-000
+[74/125] BraTS-GLI-01530-000
+[75/125] BraTS-GLI-00098-000
+[76/125] BraTS-GLI-01195-000
+[77/125] BraTS-GLI-00682-001
+[78/125] BraTS-GLI-01075-000
+[79/125] BraTS-GLI-00299-000
+[80/125] BraTS-GLI-00016-000
+[81/125] BraTS-GLI-00404-000
+[82/125] BraTS-GLI-00723-000
+[83/125] BraTS-GLI-00498-001
+[84/125] BraTS-GLI-00193-000
+[85/125] BraTS-GLI-01139-000
+[86/125] BraTS-GLI-00020-001
+[87/125] BraTS-GLI-00768-000
+[88/125] BraTS-GLI-01452-000
+[89/125] BraTS-GLI-01130-000
+[90/125] BraTS-GLI-00680-001
+[91/125] BraTS-GLI-01516-000
+[92/125] BraTS-GLI-00818-000
+[93/125] BraTS-GLI-01255-000
+[94/125] BraTS-GLI-00228-000
+[95/125] BraTS-GLI-01273-000
+[96/125] BraTS-GLI-00840-000
+[97/125] BraTS-GLI-00619-000
+[98/125] BraTS-GLI-01380-000
+[99/125] BraTS-GLI-00582-000
+[100/125] BraTS-GLI-01155-000
+[101/125] BraTS-GLI-01046-000
+[102/125] BraTS-GLI-00313-000
+[103/125] BraTS-GLI-00021-000
+[104/125] BraTS-GLI-00565-000
+[105/125] BraTS-GLI-01482-000
+[106/125] BraTS-GLI-00347-000
+[107/125] BraTS-GLI-01253-000
+[108/125] BraTS-GLI-01513-000
+[109/125] BraTS-GLI-00496-000
+[110/125] BraTS-GLI-01104-000
+[111/125] BraTS-GLI-00445-000
+[112/125] BraTS-GLI-01068-000
+[113/125] BraTS-GLI-00140-000
+[114/125] BraTS-GLI-01169-000
+[115/125] BraTS-GLI-01421-000
+[116/125] BraTS-GLI-00096-000
+[117/125] BraTS-GLI-00425-000
+[118/125] BraTS-GLI-01536-000
+[119/125] BraTS-GLI-00574-000
+[120/125] BraTS-GLI-00130-000
+[121/125] BraTS-GLI-01342-000
+[122/125] BraTS-GLI-01393-000
+[123/125] BraTS-GLI-01428-000
+[124/125] BraTS-GLI-01159-000
+[125/125] BraTS-GLI-01424-000
+[Features] wrote C:\Users\Rivan\Projects\Neuroscan\experiments\exp_e12_eggo_m\e169\E169_features.json
+[Data] 125 subjects with both features and E165 targets
+
+======================================================================
+{
+ "question": "Is R*_{i,l} predictable from a SINGLE intact forward pass?",
+ "prereg": "docs/phases/PHASE_E169_RSTAR_PREDICTABILITY_PREREG.md",
+ "non_circularity": "all predictors from ONE intact forward pass; E165 agree_curve FORBIDDEN",
+ "n_subjects": 125,
+ "n_features": 77,
+ "n_folds": 5,
+ "cross_fitting": "by subject, folds seeded before features were modelled",
+ "per_stage": {
+  "enc1": {
+   "C": 32,
+   "R_star_distribution": {
+    "4": 1,
+    "8": 20,
+    "16": 65,
+    "32": 39
+   },
+   "target_std_log2": 0.6967811708133335,
+   "r2_oos": 0.6341044298308554,
+   "spearman_oos": 0.8015026665667729,
+   "r2_oos_volume_controlled": 0.5184294431882148,
+   "retained_fraction": 0.8175773875708512,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.08796347097831027
+  },
+  "enc2": {
+   "C": 64,
+   "R_star_distribution": {
+    "2": 28,
+    "4": 38,
+    "8": 22,
+    "16": 24,
+    "32": 9,
+    "64": 4
+   },
+   "target_std_log2": 1.3658696863171098,
+   "r2_oos": 0.7341096977992526,
+   "spearman_oos": 0.8925551499484304,
+   "r2_oos_volume_controlled": 0.5815397709201409,
+   "retained_fraction": 0.7921701247967534,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.09286827822526088
+  },
+  "enc3": {
+   "C": 128,
+   "R_star_distribution": {
+    "1": 42,
+    "2": 25,
+    "4": 17,
+    "8": 18,
+    "16": 16,
+    "32": 5,
+    "64": 2
+   },
+   "target_std_log2": 1.6531956931954548,
+   "r2_oos": 0.7893110820975422,
+   "spearman_oos": 0.8969874412236373,
+   "r2_oos_volume_controlled": 0.6087982454038003,
+   "retained_fraction": 0.7713033038709645,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.1014933721228034
+  },
+  "bottleneck": {
+   "C": 256,
+   "R_star_distribution": {
+    "1": 22,
+    "2": 30,
+    "4": 60,
+    "8": 6,
+    "16": 2,
+    "32": 5
+   },
+   "target_std_log2": 1.1235372712998888,
+   "r2_oos": 0.38800921944174827,
+   "spearman_oos": 0.6455466636925423,
+   "r2_oos_volume_controlled": 0.30707387824661525,
+   "retained_fraction": 0.7914087162372598,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.0932945338390066
+  },
+  "dec1": {
+   "C": 32,
+   "R_star_distribution": {
+    "2": 6,
+    "4": 97,
+    "8": 19,
+    "16": 2,
+    "32": 1
+   },
+   "target_std_log2": 0.5571355310873646,
+   "r2_oos": 0.35684813191507536,
+   "spearman_oos": 0.5397676799093718,
+   "r2_oos_volume_controlled": 0.3452963618174768,
+   "retained_fraction": 0.9676283296325404,
+   "permutation_p": 0.0,
+   "permutation_null_mean": -0.11509430344335504
+  }
+ },
+ "PREREGISTERED_VERDICT": "C_PARK_PLUS",
+ "decision_rule": "A_KILL if no stage has R2>0.10 with perm p<=0.05; C_PARK_PLUS if best retains >=50% after volume control and p<0.01; else B_PARK_SIZE_PROXY",
+ "allocation_note": "A pass does NOT authorise an allocation design -- closed by E71 (sign -0.290 backwards), E147 (inverse, no scarcity), E72/E73 (inert)."
+}
+======================================================================

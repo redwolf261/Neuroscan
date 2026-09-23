@@ -1,0 +1,33 @@
+Device: cuda
+[Unit test] participation_ratio_per_window: identical->PR=1.000 (expect ~1), orthogonal->PR=8.000 (expect ~8). PASS.
+Loaded 125 subjects from E121's per-subject table.
+[Sanity check] checkpoint identity PASS (val_dice=0.9101624600589275).
+
+Extracting pre-pooling activations + computing E_frac for 125 subjects...
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+Total subjects: 125
+
+=== Raw per-stage effective-rank fraction E_stage ===
+  E_N_1: mean=0.1477 std=0.0023
+  E_N_2: mean=0.1600 std=0.0033
+  E_N_3: mean=0.1912 std=0.0083
+
+  Visible pattern check (e1~=e3, both differ from e2): e1=0.1477, e2=0.1600, e3=0.1912 -> NO
+
+=== Pooled cross-stage regression: does E_stage explain N beyond stage+size? ===
+Pooled n=375 observations (125 subjects x 3 stages)
+Model P1 (N ~ stage + size):     R^2=0.6386
+Model P2 (N ~ stage + size + E): R^2=0.7227, E coefficient=+12.1598
+Delta R^2 from adding E: +0.0841
+Within-subject-permutation test on E's coefficient: p=0.0000
+
+=== DECISION ===
+CASE_D_NO_CLEAN_PROPERTY_UNEXPECTED
+E_stage adds explanatory power but no visible raw pattern -- report honestly.
+
+Saved E124_summary.json, E124_per_subject_table.json

@@ -1,0 +1,128 @@
+{
+  "test_A_resolution_effect": {
+    "frac_H_D4_greater": 0.5947136563876652,
+    "mean_H_D4": 0.31567366136924546,
+    "mean_H_D2": 0.3209676146068705,
+    "mean_diff": -0.005293953237625054,
+    "wilcoxon_stat": 10997.0,
+    "wilcoxon_p": 0.049666538067460034,
+    "frac_H_D4_greater_among_small_le20": 0.0,
+    "note": "H_D4>H_D2 does NOT hold universally -- binary entropy is non-monotonic in grid coarseness (a component's coverage fraction pi can be pushed TOWARD 0 rather than toward 0.5 when diluted into a much larger coarse cell, which LOWERS entropy). Verified directly during data construction on a synthetic single-voxel case (pi_D4=1/64 vs pi_D2=1/8, H(1/64)=0.080 < H(1/8)=0.377) before trusting the aggregate statistic reported here."
+  },
+  "test_B_entropy_predicts_error": {
+    "D4": {
+      "spearman_rho": -0.37167410367382203,
+      "spearman_p": 7.594979681890976e-09
+    },
+    "D2": {
+      "spearman_rho": 0.8695754865345706,
+      "spearman_p": 6.830383525946176e-71
+    }
+  },
+  "test_C_nonlinear_size_control": {
+    "D4": {
+      "r2_size_only": 0.9241424797859729,
+      "r2_size_plus_H": 0.9304474450257803,
+      "delta_r2": 0.006304965239807392,
+      "spearman_raw": {
+        "rho": -0.37167410367382203,
+        "p": 7.594979681890976e-09
+      },
+      "spearman_partial_size_controlled": {
+        "rho": 0.3404326703918057,
+        "p": 1.4504668284718179e-07
+      }
+    },
+    "D2": {
+      "r2_size_only": 0.9413964149720518,
+      "r2_size_plus_H": 0.9487550459706657,
+      "delta_r2": 0.007358630998613891,
+      "spearman_raw": {
+        "rho": 0.8695754865345706,
+        "p": 6.830383525946176e-71
+      },
+      "spearman_partial_size_controlled": {
+        "rho": 0.447034037916842,
+        "p": 1.4965902285885536e-12
+      }
+    }
+  },
+  "test_D_entropy_vs_boundary_fraction": {
+    "D4": {
+      "spearman_H_vs_B": {
+        "rho": -0.19014068354934774,
+        "p": 0.004037466948716887
+      },
+      "r2_H_explained_by_B": 0.21249841666826863
+    },
+    "D2": {
+      "spearman_H_vs_B": {
+        "rho": 0.9430774150502942,
+        "p": 1.4970525896985974e-109
+      },
+      "r2_H_explained_by_B": 0.8017639868702162
+    }
+  },
+  "test_E_permutation_safeguard": {
+    "D4": {
+      "real_partial_rho": 0.3404326703918057,
+      "perm_mean_abs_rho": 0.055798758532247326,
+      "perm_sd": 0.06351769218986876,
+      "empirical_p": 0.0,
+      "percentile_of_real": 100.0,
+      "n_perm": 500
+    },
+    "D2": {
+      "real_partial_rho": 0.447034037916842,
+      "perm_mean_abs_rho": 0.06168557233042633,
+      "perm_sd": 0.0741382175206401,
+      "empirical_p": 0.0,
+      "percentile_of_real": 100.0,
+      "n_perm": 500
+    }
+  },
+  "differential_test_delta_H_vs_delta_E": {
+    "spearman_rho": 0.7813562546951536,
+    "spearman_p": 5.770150335448917e-48,
+    "n": 227
+  },
+  "outlier_sensitivity": {
+    "rho_excl_top5": -0.39231075537949417,
+    "p_excl_top5": 1.3880067090818525e-09,
+    "rho_full": -0.37167410367382203
+  },
+  "subject_clustered_bootstrap": {
+    "D4": {
+      "raw": {
+        "mean": -0.3608140197688919,
+        "ci_95": [
+          -0.5171877418201626,
+          -0.14361857939882533
+        ]
+      },
+      "partial_size_controlled": {
+        "mean": 0.34605558624851485,
+        "ci_95": [
+          0.17825005077294576,
+          0.5052938575585442
+        ]
+      }
+    },
+    "D2": {
+      "raw": {
+        "mean": 0.8694476064019659,
+        "ci_95": [
+          0.8184596576840437,
+          0.9064314211150633
+        ]
+      },
+      "partial_size_controlled": {
+        "mean": 0.4351719773580568,
+        "ci_95": [
+          0.23409459560641394,
+          0.6086171167228805
+        ]
+      }
+    }
+  }
+}

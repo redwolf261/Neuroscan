@@ -1,0 +1,6743 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 1,
+    "native_size": 90684,
+    "size_64": 2566,
+    "d4_footprint_voxels": 40,
+    "mae": 0.20475883781909943,
+    "tversky_component": 0.8830536421531386
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 4,
+    "native_size": 5,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 5,
+    "native_size": 560,
+    "size_64": 17,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 7,
+    "native_size": 35,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 8,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 9,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 11,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 12,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 13,
+    "native_size": 2,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 14,
+    "native_size": 51,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 16,
+    "native_size": 26,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 17,
+    "native_size": 11,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 18,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 19,
+    "native_size": 10,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 20,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01041-000",
+    "native_component_id": 22,
+    "native_size": 67,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01161-000",
+    "native_component_id": 1,
+    "native_size": 109939,
+    "size_64": 3132,
+    "d4_footprint_voxels": 43,
+    "mae": 0.16821277141571045,
+    "tversky_component": 0.9007964771299677
+  },
+  {
+    "subject_id": "BraTS-GLI-01189-000",
+    "native_component_id": 1,
+    "native_size": 114711,
+    "size_64": 3263,
+    "d4_footprint_voxels": 45,
+    "mae": 0.21711835265159607,
+    "tversky_component": 0.8724303826960779
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_component_id": 1,
+    "native_size": 50003,
+    "size_64": 1420,
+    "d4_footprint_voxels": 16,
+    "mae": 0.15176770091056824,
+    "tversky_component": 0.9112031353508128
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_component_id": 2,
+    "native_size": 5,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_component_id": 1,
+    "native_size": 102947,
+    "size_64": 2912,
+    "d4_footprint_voxels": 41,
+    "mae": 0.21825852990150452,
+    "tversky_component": 0.8665438672479512
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_component_id": 2,
+    "native_size": 373,
+    "size_64": 9,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00250-000",
+    "native_component_id": 3,
+    "native_size": 694,
+    "size_64": 24,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00501-000",
+    "native_component_id": 1,
+    "native_size": 194150,
+    "size_64": 5501,
+    "d4_footprint_voxels": 76,
+    "mae": 0.12556852400302887,
+    "tversky_component": 0.9247281000997296
+  },
+  {
+    "subject_id": "BraTS-GLI-01093-000",
+    "native_component_id": 1,
+    "native_size": 158406,
+    "size_64": 4506,
+    "d4_footprint_voxels": 67,
+    "mae": 0.16251635551452637,
+    "tversky_component": 0.9053131554684974
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_component_id": 1,
+    "native_size": 64403,
+    "size_64": 1833,
+    "d4_footprint_voxels": 24,
+    "mae": 0.1650894731283188,
+    "tversky_component": 0.9124025641058207
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_component_id": 2,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "native_component_id": 1,
+    "native_size": 88284,
+    "size_64": 2511,
+    "d4_footprint_voxels": 34,
+    "mae": 0.16590073704719543,
+    "tversky_component": 0.9123573676595592
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_component_id": 1,
+    "native_size": 157476,
+    "size_64": 4455,
+    "d4_footprint_voxels": 63,
+    "mae": 0.17628544569015503,
+    "tversky_component": 0.9008481698784067
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01065-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 1,
+    "native_size": 168102,
+    "size_64": 4724,
+    "d4_footprint_voxels": 65,
+    "mae": 0.1534019410610199,
+    "tversky_component": 0.9107906021766564
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 2,
+    "native_size": 19,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 4,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 6,
+    "native_size": 45,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 7,
+    "native_size": 9,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01444-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_component_id": 1,
+    "native_size": 215379,
+    "size_64": 6080,
+    "d4_footprint_voxels": 81,
+    "mae": 0.1150580495595932,
+    "tversky_component": 0.9339898133874882
+  },
+  {
+    "subject_id": "BraTS-GLI-01326-000",
+    "native_component_id": 2,
+    "native_size": 390,
+    "size_64": 9,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_component_id": 1,
+    "native_size": 87415,
+    "size_64": 2484,
+    "d4_footprint_voxels": 31,
+    "mae": 0.356471449136734,
+    "tversky_component": 0.7433075316302283
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "native_component_id": 2,
+    "native_size": 837,
+    "size_64": 24,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 1,
+    "native_size": 21661,
+    "size_64": 627,
+    "d4_footprint_voxels": 10,
+    "mae": 0.3338773846626282,
+    "tversky_component": 0.7724941456564974
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 2,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "native_component_id": 5,
+    "native_size": 1424,
+    "size_64": 34,
+    "d4_footprint_voxels": 1,
+    "mae": 0.14062431454658508,
+    "tversky_component": 0.9343063609610824
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 1,
+    "native_size": 40542,
+    "size_64": 1148,
+    "d4_footprint_voxels": 15,
+    "mae": 0.2487647831439972,
+    "tversky_component": 0.8542858244706176
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 2,
+    "native_size": 1461,
+    "size_64": 36,
+    "d4_footprint_voxels": 2,
+    "mae": 0.2187398076057434,
+    "tversky_component": 0.8205098471809966
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 4,
+    "native_size": 8,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 5,
+    "native_size": 17231,
+    "size_64": 479,
+    "d4_footprint_voxels": 6,
+    "mae": 0.3359355032444,
+    "tversky_component": 0.8318121204041526
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "native_component_id": 7,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "native_component_id": 1,
+    "native_size": 46623,
+    "size_64": 1323,
+    "d4_footprint_voxels": 15,
+    "mae": 0.18299132585525513,
+    "tversky_component": 0.900927505986301
+  },
+  {
+    "subject_id": "BraTS-GLI-00811-000",
+    "native_component_id": 1,
+    "native_size": 117869,
+    "size_64": 3301,
+    "d4_footprint_voxels": 44,
+    "mae": 0.1402381807565689,
+    "tversky_component": 0.922539643661049
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_component_id": 1,
+    "native_size": 225524,
+    "size_64": 6373,
+    "d4_footprint_voxels": 82,
+    "mae": 0.14531244337558746,
+    "tversky_component": 0.921569636153632
+  },
+  {
+    "subject_id": "BraTS-GLI-00103-000",
+    "native_component_id": 2,
+    "native_size": 11,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_component_id": 1,
+    "native_size": 92462,
+    "size_64": 2624,
+    "d4_footprint_voxels": 39,
+    "mae": 0.15284311771392822,
+    "tversky_component": 0.9136860899268793
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01103-000",
+    "native_component_id": 3,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 1,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 2,
+    "native_size": 40,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 4,
+    "native_size": 119645,
+    "size_64": 3369,
+    "d4_footprint_voxels": 44,
+    "mae": 0.21331070363521576,
+    "tversky_component": 0.8713331283188976
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 5,
+    "native_size": 55,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 6,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 8,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 9,
+    "native_size": 39,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 10,
+    "native_size": 41,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 11,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 12,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 14,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 15,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 18,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 20,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 22,
+    "native_size": 11,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 23,
+    "native_size": 81,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 24,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 25,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 26,
+    "native_size": 40,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 27,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 28,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 29,
+    "native_size": 11,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 30,
+    "native_size": 31,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 31,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 32,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00514-001",
+    "native_component_id": 33,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "native_component_id": 1,
+    "native_size": 88316,
+    "size_64": 2468,
+    "d4_footprint_voxels": 39,
+    "mae": 0.24607795476913452,
+    "tversky_component": 0.8406961732886834
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 1,
+    "native_size": 20929,
+    "size_64": 572,
+    "d4_footprint_voxels": 6,
+    "mae": 0.22410793602466583,
+    "tversky_component": 0.8666434031375089
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 2,
+    "native_size": 524,
+    "size_64": 11,
+    "d4_footprint_voxels": 1,
+    "mae": 0.17187358438968658,
+    "tversky_component": 0.9208629319137388
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 3,
+    "native_size": 35318,
+    "size_64": 1036,
+    "d4_footprint_voxels": 11,
+    "mae": 0.18995675444602966,
+    "tversky_component": 0.8946545906328897
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 5,
+    "native_size": 38,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "native_component_id": 6,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 1,
+    "native_size": 2623,
+    "size_64": 96,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 2,
+    "native_size": 1254,
+    "size_64": 43,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 3,
+    "native_size": 55293,
+    "size_64": 1570,
+    "d4_footprint_voxels": 21,
+    "mae": 0.19702395796775818,
+    "tversky_component": 0.889759408737111
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 4,
+    "native_size": 2129,
+    "size_64": 70,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 5,
+    "native_size": 278,
+    "size_64": 10,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 1,
+    "native_size": 774,
+    "size_64": 25,
+    "d4_footprint_voxels": 1,
+    "mae": 0.2031225711107254,
+    "tversky_component": 0.9078008655713173
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 2,
+    "native_size": 7,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 3,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 4,
+    "native_size": 72640,
+    "size_64": 2054,
+    "d4_footprint_voxels": 28,
+    "mae": 0.20752528309822083,
+    "tversky_component": 0.8832357637762334
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01078-000",
+    "native_component_id": 1,
+    "native_size": 122261,
+    "size_64": 3470,
+    "d4_footprint_voxels": 55,
+    "mae": 0.19691231846809387,
+    "tversky_component": 0.8816387627679166
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 1,
+    "native_size": 43564,
+    "size_64": 1234,
+    "d4_footprint_voxels": 17,
+    "mae": 0.27113956212997437,
+    "tversky_component": 0.8531607777590507
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 1,
+    "native_size": 184615,
+    "size_64": 5276,
+    "d4_footprint_voxels": 75,
+    "mae": 0.1921231895685196,
+    "tversky_component": 0.8915608577728532
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 3,
+    "native_size": 48,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 10,
+    "native_size": 13,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 11,
+    "native_size": 14,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 16,
+    "native_size": 8,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 18,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 20,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00146-000",
+    "native_component_id": 21,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 1,
+    "native_size": 7095,
+    "size_64": 196,
+    "d4_footprint_voxels": 3,
+    "mae": 0.42591238021850586,
+    "tversky_component": 0.7669402147652935
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 2,
+    "native_size": 1845,
+    "size_64": 47,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 3,
+    "native_size": 268,
+    "size_64": 4,
+    "d4_footprint_voxels": 1,
+    "mae": 0.06242688372731209,
+    "tversky_component": 0.9696670258789297
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 4,
+    "native_size": 9,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "native_component_id": 5,
+    "native_size": 776,
+    "size_64": 19,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "native_component_id": 1,
+    "native_size": 16636,
+    "size_64": 473,
+    "d4_footprint_voxels": 6,
+    "mae": 0.27995893359184265,
+    "tversky_component": 0.8414948942899735
+  },
+  {
+    "subject_id": "BraTS-GLI-01315-000",
+    "native_component_id": 1,
+    "native_size": 135030,
+    "size_64": 3809,
+    "d4_footprint_voxels": 51,
+    "mae": 0.1255565881729126,
+    "tversky_component": 0.9331091365868901
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 1,
+    "native_size": 16,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 2,
+    "native_size": 7402,
+    "size_64": 194,
+    "d4_footprint_voxels": 2,
+    "mae": 0.3437483012676239,
+    "tversky_component": 0.7441859954034782
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 3,
+    "native_size": 51038,
+    "size_64": 1445,
+    "d4_footprint_voxels": 24,
+    "mae": 0.3138318955898285,
+    "tversky_component": 0.7284504016673568
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 4,
+    "native_size": 19,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 5,
+    "native_size": 717,
+    "size_64": 18,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 6,
+    "native_size": 6,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 8,
+    "native_size": 16,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 11,
+    "native_size": 331,
+    "size_64": 12,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 13,
+    "native_size": 17692,
+    "size_64": 507,
+    "d4_footprint_voxels": 8,
+    "mae": 0.2885276675224304,
+    "tversky_component": 0.7383280538816308
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 15,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "native_component_id": 16,
+    "native_size": 567,
+    "size_64": 15,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-000",
+    "native_component_id": 1,
+    "native_size": 99834,
+    "size_64": 2827,
+    "d4_footprint_voxels": 36,
+    "mae": 0.14800286293029785,
+    "tversky_component": 0.9224116796559634
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 1,
+    "native_size": 13146,
+    "size_64": 378,
+    "d4_footprint_voxels": 6,
+    "mae": 0.3381413519382477,
+    "tversky_component": 0.6060273955109668
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 2,
+    "native_size": 74631,
+    "size_64": 2126,
+    "d4_footprint_voxels": 33,
+    "mae": 0.32231372594833374,
+    "tversky_component": 0.7790182242200062
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_component_id": 1,
+    "native_size": 103063,
+    "size_64": 2895,
+    "d4_footprint_voxels": 38,
+    "mae": 0.14226973056793213,
+    "tversky_component": 0.9255273335849058
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_component_id": 2,
+    "native_size": 17,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00525-001",
+    "native_component_id": 3,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "native_component_id": 1,
+    "native_size": 61602,
+    "size_64": 1749,
+    "d4_footprint_voxels": 24,
+    "mae": 0.2504257261753082,
+    "tversky_component": 0.8596441517388868
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "native_component_id": 1,
+    "native_size": 38741,
+    "size_64": 1091,
+    "d4_footprint_voxels": 16,
+    "mae": 0.2744140625,
+    "tversky_component": 0.8517150395778365
+  },
+  {
+    "subject_id": "BraTS-GLI-01384-000",
+    "native_component_id": 1,
+    "native_size": 111382,
+    "size_64": 3172,
+    "d4_footprint_voxels": 39,
+    "mae": 0.16025085747241974,
+    "tversky_component": 0.9152543042322565
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 1,
+    "native_size": 110341,
+    "size_64": 3123,
+    "d4_footprint_voxels": 48,
+    "mae": 0.15689882636070251,
+    "tversky_component": 0.9129598324245564
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 6,
+    "native_size": 46,
+    "size_64": 3,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 10,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 12,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-001",
+    "native_component_id": 14,
+    "native_size": 17,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 1,
+    "native_size": 3065,
+    "size_64": 93,
+    "d4_footprint_voxels": 5,
+    "mae": 0.21249957382678986,
+    "tversky_component": 0.6530611024555074
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 3,
+    "native_size": 86297,
+    "size_64": 2421,
+    "d4_footprint_voxels": 40,
+    "mae": 0.2866148352622986,
+    "tversky_component": 0.805746706820073
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 8,
+    "native_size": 12,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 10,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 16,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 18,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 20,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 23,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 24,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 25,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 26,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 27,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 28,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 29,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 31,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 32,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 33,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 35,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 36,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 37,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 38,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 39,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 40,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 41,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 42,
+    "native_size": 2,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 43,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 44,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 45,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 46,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 47,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 48,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 49,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 50,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 51,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 52,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 53,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 54,
+    "native_size": 1,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 55,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 56,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 57,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 58,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 59,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 60,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 61,
+    "native_size": 13,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 62,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 63,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 64,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 65,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 66,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 67,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 68,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 69,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 70,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 71,
+    "native_size": 8,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 72,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 73,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 74,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 75,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 76,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 77,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 78,
+    "native_size": 1,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 79,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 80,
+    "native_size": 8,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 81,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 82,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "native_component_id": 83,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 1,
+    "native_size": 54547,
+    "size_64": 1518,
+    "d4_footprint_voxels": 19,
+    "mae": 0.23093228042125702,
+    "tversky_component": 0.8754440707417948
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 2,
+    "native_size": 561,
+    "size_64": 15,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 3,
+    "native_size": 17,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 7,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 9,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 10,
+    "native_size": 9,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 11,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 12,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 14,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "native_component_id": 1,
+    "native_size": 38714,
+    "size_64": 1066,
+    "d4_footprint_voxels": 17,
+    "mae": 0.3069852888584137,
+    "tversky_component": 0.8304568497767054
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_component_id": 1,
+    "native_size": 71715,
+    "size_64": 2029,
+    "d4_footprint_voxels": 28,
+    "mae": 0.20076291263103485,
+    "tversky_component": 0.8833313003056059
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 1,
+    "native_size": 140993,
+    "size_64": 3987,
+    "d4_footprint_voxels": 58,
+    "mae": 0.17039614915847778,
+    "tversky_component": 0.8974132642065832
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01362-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00604-000",
+    "native_component_id": 1,
+    "native_size": 149786,
+    "size_64": 4245,
+    "d4_footprint_voxels": 60,
+    "mae": 0.11977484077215195,
+    "tversky_component": 0.9346514930286031
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_component_id": 1,
+    "native_size": 97042,
+    "size_64": 2765,
+    "d4_footprint_voxels": 37,
+    "mae": 0.17972959578037262,
+    "tversky_component": 0.9019046142776495
+  },
+  {
+    "subject_id": "BraTS-GLI-00491-001",
+    "native_component_id": 2,
+    "native_size": 21,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "native_component_id": 1,
+    "native_size": 17539,
+    "size_64": 479,
+    "d4_footprint_voxels": 6,
+    "mae": 0.34635400772094727,
+    "tversky_component": 0.8256880541615019
+  },
+  {
+    "subject_id": "BraTS-GLI-01062-000",
+    "native_component_id": 1,
+    "native_size": 136499,
+    "size_64": 3896,
+    "d4_footprint_voxels": 51,
+    "mae": 0.17065328359603882,
+    "tversky_component": 0.9069578535365522
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 1,
+    "native_size": 175355,
+    "size_64": 4975,
+    "d4_footprint_voxels": 63,
+    "mae": 0.0984622910618782,
+    "tversky_component": 0.9490699131733554
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 2,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00266-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 1,
+    "native_size": 50284,
+    "size_64": 1416,
+    "d4_footprint_voxels": 20,
+    "mae": 0.25203737616539,
+    "tversky_component": 0.8382786931596073
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 2,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_component_id": 1,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01374-000",
+    "native_component_id": 2,
+    "native_size": 140455,
+    "size_64": 4002,
+    "d4_footprint_voxels": 52,
+    "mae": 0.14042797684669495,
+    "tversky_component": 0.9237390512290972
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "native_component_id": 1,
+    "native_size": 74456,
+    "size_64": 2121,
+    "d4_footprint_voxels": 24,
+    "mae": 0.13611258566379547,
+    "tversky_component": 0.9280488349209556
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_component_id": 1,
+    "native_size": 113357,
+    "size_64": 3205,
+    "d4_footprint_voxels": 43,
+    "mae": 0.1431685984134674,
+    "tversky_component": 0.9247804483647935
+  },
+  {
+    "subject_id": "BraTS-GLI-00436-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 1,
+    "native_size": 161090,
+    "size_64": 4517,
+    "d4_footprint_voxels": 63,
+    "mae": 0.14798155426979065,
+    "tversky_component": 0.913000754573721
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 2,
+    "native_size": 8,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 4,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 6,
+    "native_size": 119,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 7,
+    "native_size": 12,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 9,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01019-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_component_id": 1,
+    "native_size": 28729,
+    "size_64": 817,
+    "d4_footprint_voxels": 10,
+    "mae": 0.23591680824756622,
+    "tversky_component": 0.8676575823862628
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_component_id": 2,
+    "native_size": 1872,
+    "size_64": 49,
+    "d4_footprint_voxels": 1,
+    "mae": 0.7941901087760925,
+    "tversky_component": 0.7515089085121038
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 1,
+    "native_size": 70428,
+    "size_64": 1988,
+    "d4_footprint_voxels": 25,
+    "mae": 0.18873679637908936,
+    "tversky_component": 0.8974873525293284
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_component_id": 1,
+    "native_size": 105140,
+    "size_64": 2965,
+    "d4_footprint_voxels": 41,
+    "mae": 0.12433798611164093,
+    "tversky_component": 0.9281448299197245
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_component_id": 2,
+    "native_size": 53128,
+    "size_64": 1543,
+    "d4_footprint_voxels": 27,
+    "mae": 0.46897804737091064,
+    "tversky_component": 0.461477118007002
+  },
+  {
+    "subject_id": "BraTS-GLI-00559-000",
+    "native_component_id": 3,
+    "native_size": 565,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_component_id": 1,
+    "native_size": 76329,
+    "size_64": 2145,
+    "d4_footprint_voxels": 31,
+    "mae": 0.2156999707221985,
+    "tversky_component": 0.8542040735976213
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00338-000",
+    "native_component_id": 1,
+    "native_size": 113856,
+    "size_64": 3241,
+    "d4_footprint_voxels": 47,
+    "mae": 0.1979350596666336,
+    "tversky_component": 0.8847585180130066
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 1,
+    "native_size": 129311,
+    "size_64": 3707,
+    "d4_footprint_voxels": 47,
+    "mae": 0.2644517719745636,
+    "tversky_component": 0.8373010731245184
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 2,
+    "native_size": 67,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 7,
+    "native_size": 120,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 8,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01293-000",
+    "native_component_id": 9,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 1,
+    "native_size": 158673,
+    "size_64": 4463,
+    "d4_footprint_voxels": 64,
+    "mae": 0.3610248565673828,
+    "tversky_component": 0.722241679358059
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 2,
+    "native_size": 7222,
+    "size_64": 212,
+    "d4_footprint_voxels": 5,
+    "mae": 0.3093731999397278,
+    "tversky_component": 0.5638764650937126
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 4,
+    "native_size": 1099,
+    "size_64": 26,
+    "d4_footprint_voxels": 1,
+    "mae": 0.23437488079071045,
+    "tversky_component": 0.8951048729787803
+  },
+  {
+    "subject_id": "BraTS-GLI-00242-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_component_id": 1,
+    "native_size": 117119,
+    "size_64": 3315,
+    "d4_footprint_voxels": 45,
+    "mae": 0.15390148758888245,
+    "tversky_component": 0.9147049654192162
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_component_id": 2,
+    "native_size": 11,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00186-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 1,
+    "native_size": 73131,
+    "size_64": 2066,
+    "d4_footprint_voxels": 24,
+    "mae": 0.19507940113544464,
+    "tversky_component": 0.8912796901374347
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 3,
+    "native_size": 8,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "native_component_id": 4,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "native_component_id": 1,
+    "native_size": 90377,
+    "size_64": 2571,
+    "d4_footprint_voxels": 30,
+    "mae": 0.2015572488307953,
+    "tversky_component": 0.8869273689359143
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 1,
+    "native_size": 9,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 2,
+    "native_size": 39615,
+    "size_64": 1119,
+    "d4_footprint_voxels": 13,
+    "mae": 0.13941919803619385,
+    "tversky_component": 0.9307875139771253
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 4,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 1,
+    "native_size": 100867,
+    "size_64": 2863,
+    "d4_footprint_voxels": 41,
+    "mae": 0.2065400779247284,
+    "tversky_component": 0.8788445237485788
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01427-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 1,
+    "native_size": 119558,
+    "size_64": 3415,
+    "d4_footprint_voxels": 42,
+    "mae": 0.11362995207309723,
+    "tversky_component": 0.9351747464547333
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 2,
+    "native_size": 27,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 4,
+    "native_size": 104,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00683-000",
+    "native_component_id": 5,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 1,
+    "native_size": 65299,
+    "size_64": 1822,
+    "d4_footprint_voxels": 27,
+    "mae": 0.23621556162834167,
+    "tversky_component": 0.8617169513836316
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 5,
+    "native_size": 17,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 1,
+    "native_size": 86814,
+    "size_64": 2459,
+    "d4_footprint_voxels": 36,
+    "mae": 0.15900640189647675,
+    "tversky_component": 0.9142809476313974
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 1,
+    "native_size": 73286,
+    "size_64": 2067,
+    "d4_footprint_voxels": 30,
+    "mae": 0.22977615892887115,
+    "tversky_component": 0.8732869213952722
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 2,
+    "native_size": 1943,
+    "size_64": 54,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 1,
+    "native_size": 131596,
+    "size_64": 3737,
+    "d4_footprint_voxels": 49,
+    "mae": 0.1297244131565094,
+    "tversky_component": 0.9317850615866461
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00249-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00032-001",
+    "native_component_id": 1,
+    "native_size": 122552,
+    "size_64": 3504,
+    "d4_footprint_voxels": 52,
+    "mae": 0.16270104050636292,
+    "tversky_component": 0.9071478005984368
+  },
+  {
+    "subject_id": "BraTS-GLI-01074-000",
+    "native_component_id": 1,
+    "native_size": 95372,
+    "size_64": 2718,
+    "d4_footprint_voxels": 34,
+    "mae": 0.17003676295280457,
+    "tversky_component": 0.9099756671202393
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_component_id": 1,
+    "native_size": 132714,
+    "size_64": 3744,
+    "d4_footprint_voxels": 54,
+    "mae": 0.188837930560112,
+    "tversky_component": 0.8910567230747576
+  },
+  {
+    "subject_id": "BraTS-GLI-00616-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 1,
+    "native_size": 17077,
+    "size_64": 489,
+    "d4_footprint_voxels": 5,
+    "mae": 0.26739177107810974,
+    "tversky_component": 0.8624803559046148
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_component_id": 1,
+    "native_size": 66156,
+    "size_64": 1886,
+    "d4_footprint_voxels": 25,
+    "mae": 0.6419941782951355,
+    "tversky_component": 0.3555471798286532
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "native_component_id": 2,
+    "native_size": 13,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 1,
+    "native_size": 129177,
+    "size_64": 3680,
+    "d4_footprint_voxels": 44,
+    "mae": 0.1775568127632141,
+    "tversky_component": 0.9049429657794676
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01195-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_component_id": 1,
+    "native_size": 114031,
+    "size_64": 3231,
+    "d4_footprint_voxels": 44,
+    "mae": 0.14452852308750153,
+    "tversky_component": 0.9239679861058938
+  },
+  {
+    "subject_id": "BraTS-GLI-00682-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_component_id": 1,
+    "native_size": 140709,
+    "size_64": 3923,
+    "d4_footprint_voxels": 50,
+    "mae": 0.31619617342948914,
+    "tversky_component": 0.7733887643579199
+  },
+  {
+    "subject_id": "BraTS-GLI-01075-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_component_id": 1,
+    "native_size": 59334,
+    "size_64": 1692,
+    "d4_footprint_voxels": 24,
+    "mae": 0.2948092222213745,
+    "tversky_component": 0.8122349260094017
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_component_id": 1,
+    "native_size": 74543,
+    "size_64": 2127,
+    "d4_footprint_voxels": 30,
+    "mae": 0.2230641096830368,
+    "tversky_component": 0.8437535849613296
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_component_id": 1,
+    "native_size": 148740,
+    "size_64": 4223,
+    "d4_footprint_voxels": 57,
+    "mae": 0.12905851006507874,
+    "tversky_component": 0.9257286939261181
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_component_id": 1,
+    "native_size": 83041,
+    "size_64": 2361,
+    "d4_footprint_voxels": 32,
+    "mae": 0.1782224476337433,
+    "tversky_component": 0.905415900456248
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "native_component_id": 2,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 1,
+    "native_size": 102451,
+    "size_64": 2902,
+    "d4_footprint_voxels": 39,
+    "mae": 0.12217774987220764,
+    "tversky_component": 0.9333034217436004
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 2,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 3,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00498-001",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_component_id": 1,
+    "native_size": 71097,
+    "size_64": 2009,
+    "d4_footprint_voxels": 30,
+    "mae": 0.21532756090164185,
+    "tversky_component": 0.8327106290872958
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 1,
+    "native_size": 138021,
+    "size_64": 3916,
+    "d4_footprint_voxels": 51,
+    "mae": 0.169168621301651,
+    "tversky_component": 0.8999414592373425
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 4,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 7,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 8,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 9,
+    "native_size": 2,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 11,
+    "native_size": 14,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01139-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_component_id": 1,
+    "native_size": 48698,
+    "size_64": 1396,
+    "d4_footprint_voxels": 17,
+    "mae": 0.19282996654510498,
+    "tversky_component": 0.8777906552889195
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "native_component_id": 3,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00768-000",
+    "native_component_id": 1,
+    "native_size": 109201,
+    "size_64": 3087,
+    "d4_footprint_voxels": 45,
+    "mae": 0.15520156919956207,
+    "tversky_component": 0.9178446856641941
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 1,
+    "native_size": 31106,
+    "size_64": 864,
+    "d4_footprint_voxels": 10,
+    "mae": 0.271232932806015,
+    "tversky_component": 0.8363891785933677
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "native_component_id": 1,
+    "native_size": 38502,
+    "size_64": 1086,
+    "d4_footprint_voxels": 16,
+    "mae": 0.3467788100242615,
+    "tversky_component": 0.7905134036955078
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "native_component_id": 1,
+    "native_size": 62146,
+    "size_64": 1760,
+    "d4_footprint_voxels": 26,
+    "mae": 0.18579481542110443,
+    "tversky_component": 0.8952556815782027
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 1,
+    "native_size": 42,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 2,
+    "native_size": 30226,
+    "size_64": 840,
+    "d4_footprint_voxels": 12,
+    "mae": 0.2818024456501007,
+    "tversky_component": 0.8501115963726109
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 9,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 10,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 11,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 14,
+    "native_size": 2,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 15,
+    "native_size": 27,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "native_component_id": 18,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00818-000",
+    "native_component_id": 1,
+    "native_size": 146677,
+    "size_64": 4105,
+    "d4_footprint_voxels": 60,
+    "mae": 0.19551505148410797,
+    "tversky_component": 0.8832580546612626
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 1,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 2,
+    "native_size": 7509,
+    "size_64": 211,
+    "d4_footprint_voxels": 3,
+    "mae": 0.3745616376399994,
+    "tversky_component": 0.8333786061145196
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "native_component_id": 1,
+    "native_size": 51320,
+    "size_64": 1454,
+    "d4_footprint_voxels": 19,
+    "mae": 0.1971723884344101,
+    "tversky_component": 0.8925745413093872
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_component_id": 1,
+    "native_size": 7282,
+    "size_64": 203,
+    "d4_footprint_voxels": 2,
+    "mae": 0.3671830892562866,
+    "tversky_component": 0.821291932194516
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00840-000",
+    "native_component_id": 1,
+    "native_size": 121324,
+    "size_64": 3449,
+    "d4_footprint_voxels": 51,
+    "mae": 0.20877692103385925,
+    "tversky_component": 0.8808443206574893
+  },
+  {
+    "subject_id": "BraTS-GLI-00619-000",
+    "native_component_id": 1,
+    "native_size": 128899,
+    "size_64": 3663,
+    "d4_footprint_voxels": 48,
+    "mae": 0.21998445689678192,
+    "tversky_component": 0.8599956036844506
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "native_component_id": 1,
+    "native_size": 70109,
+    "size_64": 2000,
+    "d4_footprint_voxels": 27,
+    "mae": 0.347884863615036,
+    "tversky_component": 0.7426985373023663
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "native_component_id": 1,
+    "native_size": 51782,
+    "size_64": 1471,
+    "d4_footprint_voxels": 20,
+    "mae": 0.19339504837989807,
+    "tversky_component": 0.8924781245519929
+  },
+  {
+    "subject_id": "BraTS-GLI-01155-000",
+    "native_component_id": 1,
+    "native_size": 196777,
+    "size_64": 5587,
+    "d4_footprint_voxels": 79,
+    "mae": 0.15107335150241852,
+    "tversky_component": 0.9169535082086058
+  },
+  {
+    "subject_id": "BraTS-GLI-01046-000",
+    "native_component_id": 1,
+    "native_size": 95466,
+    "size_64": 2691,
+    "d4_footprint_voxels": 36,
+    "mae": 0.1788194328546524,
+    "tversky_component": 0.9047178511452628
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 1,
+    "native_size": 36218,
+    "size_64": 1018,
+    "d4_footprint_voxels": 11,
+    "mae": 0.17187495529651642,
+    "tversky_component": 0.914487630197553
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 1,
+    "native_size": 89256,
+    "size_64": 2562,
+    "d4_footprint_voxels": 36,
+    "mae": 0.2331017404794693,
+    "tversky_component": 0.8623752685431217
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_component_id": 1,
+    "native_size": 102,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_component_id": 2,
+    "native_size": 82727,
+    "size_64": 2334,
+    "d4_footprint_voxels": 35,
+    "mae": 0.2386394441127777,
+    "tversky_component": 0.8553082599383501
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "native_component_id": 3,
+    "native_size": 461,
+    "size_64": 13,
+    "d4_footprint_voxels": 1,
+    "mae": 0.8238596320152283,
+    "tversky_component": 0.7394483643332463
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 1,
+    "native_size": 161,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 4,
+    "native_size": 52,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 5,
+    "native_size": 29718,
+    "size_64": 858,
+    "d4_footprint_voxels": 11,
+    "mae": 0.2177904099225998,
+    "tversky_component": 0.813499507325786
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 6,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 9,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 13,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 14,
+    "native_size": 29,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 15,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 16,
+    "native_size": 50,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 18,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 19,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 20,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 23,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 24,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 25,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 26,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 27,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 28,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 29,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 31,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 32,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 33,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "native_component_id": 35,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "native_component_id": 1,
+    "native_size": 87535,
+    "size_64": 2467,
+    "d4_footprint_voxels": 37,
+    "mae": 0.20031163096427917,
+    "tversky_component": 0.8839515600833731
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 1,
+    "native_size": 93712,
+    "size_64": 2638,
+    "d4_footprint_voxels": 38,
+    "mae": 0.1574336290359497,
+    "tversky_component": 0.8987161210912172
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 3,
+    "native_size": 8,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 7,
+    "native_size": 97,
+    "size_64": 3,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 8,
+    "native_size": 9,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 9,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 11,
+    "native_size": 1672,
+    "size_64": 46,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 13,
+    "native_size": 74,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 15,
+    "native_size": 130,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 17,
+    "native_size": 44,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 18,
+    "native_size": 30,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 19,
+    "native_size": 17,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01253-000",
+    "native_component_id": 20,
+    "native_size": 11,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 1,
+    "native_size": 21,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 2,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 3,
+    "native_size": 202292,
+    "size_64": 5712,
+    "d4_footprint_voxels": 82,
+    "mae": 0.12237805873155594,
+    "tversky_component": 0.9292369849913108
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 5,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 9,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 11,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 15,
+    "native_size": 3,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 16,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 18,
+    "native_size": 8,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 20,
+    "native_size": 22,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 21,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 23,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 24,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 25,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 26,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 27,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 28,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 29,
+    "native_size": 15,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 31,
+    "native_size": 9,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 32,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 33,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 35,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 36,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 37,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 38,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01513-000",
+    "native_component_id": 39,
+    "native_size": 1,
+    "size_64": 1,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "native_component_id": 1,
+    "native_size": 45528,
+    "size_64": 1303,
+    "d4_footprint_voxels": 14,
+    "mae": 0.4488716423511505,
+    "tversky_component": 0.6300033713600431
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 1,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 2,
+    "native_size": 6,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 3,
+    "native_size": 99715,
+    "size_64": 2831,
+    "d4_footprint_voxels": 37,
+    "mae": 0.2865822911262512,
+    "tversky_component": 0.7945467431352278
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 4,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 6,
+    "native_size": 10,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 7,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 9,
+    "native_size": 7,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 12,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 13,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 18,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 20,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 21,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 23,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 24,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 25,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 26,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 27,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 28,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 29,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 30,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 31,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 32,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 33,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 34,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01104-000",
+    "native_component_id": 35,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00445-000",
+    "native_component_id": 1,
+    "native_size": 153071,
+    "size_64": 4334,
+    "d4_footprint_voxels": 59,
+    "mae": 0.19951681792736053,
+    "tversky_component": 0.8835488930840676
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_component_id": 1,
+    "native_size": 31883,
+    "size_64": 893,
+    "d4_footprint_voxels": 12,
+    "mae": 0.2330729216337204,
+    "tversky_component": 0.8794612794612795
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_component_id": 2,
+    "native_size": 6990,
+    "size_64": 197,
+    "d4_footprint_voxels": 3,
+    "mae": 0.6510378122329712,
+    "tversky_component": 0.6770029162574737
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "native_component_id": 3,
+    "native_size": 138,
+    "size_64": 4,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "native_component_id": 1,
+    "native_size": 16748,
+    "size_64": 474,
+    "d4_footprint_voxels": 5,
+    "mae": 0.2899833619594574,
+    "tversky_component": 0.8177380764978929
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_component_id": 1,
+    "native_size": 140257,
+    "size_64": 3975,
+    "d4_footprint_voxels": 64,
+    "mae": 0.24831828474998474,
+    "tversky_component": 0.8324184299080939
+  },
+  {
+    "subject_id": "BraTS-GLI-01169-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 1,
+    "native_size": 137141,
+    "size_64": 3905,
+    "d4_footprint_voxels": 59,
+    "mae": 0.1684688925743103,
+    "tversky_component": 0.9084307852570481
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 2,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 6,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 7,
+    "native_size": 147,
+    "size_64": 2,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01421-000",
+    "native_component_id": 8,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_component_id": 1,
+    "native_size": 119314,
+    "size_64": 3397,
+    "d4_footprint_voxels": 47,
+    "mae": 0.1430608630180359,
+    "tversky_component": 0.9207294535976843
+  },
+  {
+    "subject_id": "BraTS-GLI-00096-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "native_component_id": 1,
+    "native_size": 25776,
+    "size_64": 729,
+    "d4_footprint_voxels": 9,
+    "mae": 0.14616118371486664,
+    "tversky_component": 0.9111202265796263
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 1,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 3,
+    "native_size": 47,
+    "size_64": 3,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 4,
+    "native_size": 12,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 6,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 7,
+    "native_size": 49781,
+    "size_64": 1410,
+    "d4_footprint_voxels": 17,
+    "mae": 0.13143382966518402,
+    "tversky_component": 0.933826931975937
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 12,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_component_id": 1,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00574-000",
+    "native_component_id": 3,
+    "native_size": 98993,
+    "size_64": 2782,
+    "d4_footprint_voxels": 38,
+    "mae": 0.22678078711032867,
+    "tversky_component": 0.8556932784351874
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 1,
+    "native_size": 149588,
+    "size_64": 4276,
+    "d4_footprint_voxels": 58,
+    "mae": 0.15119841694831848,
+    "tversky_component": 0.9144588875524456
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 6,
+    "native_size": 8,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-00130-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 1,
+    "native_size": 67761,
+    "size_64": 1930,
+    "d4_footprint_voxels": 28,
+    "mae": 0.2313804179430008,
+    "tversky_component": 0.8618782016349325
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 2,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 3,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "native_component_id": 5,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "native_component_id": 1,
+    "native_size": 66727,
+    "size_64": 1857,
+    "d4_footprint_voxels": 26,
+    "mae": 0.22530366480350494,
+    "tversky_component": 0.8742171494719803
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 1,
+    "native_size": 139229,
+    "size_64": 3945,
+    "d4_footprint_voxels": 54,
+    "mae": 0.1532364934682846,
+    "tversky_component": 0.9124877295196393
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 3,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 4,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 8,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 11,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 12,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 13,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 14,
+    "native_size": 4,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 15,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01428-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_component_id": 1,
+    "native_size": 2638,
+    "size_64": 73,
+    "d4_footprint_voxels": 1,
+    "mae": 0.40616682171821594,
+    "tversky_component": 0.8311681870359636
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_component_id": 2,
+    "native_size": 23168,
+    "size_64": 641,
+    "d4_footprint_voxels": 13,
+    "mae": 0.36525359749794006,
+    "tversky_component": 0.7376357382575327
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "native_component_id": 3,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 1,
+    "native_size": 147740,
+    "size_64": 4203,
+    "d4_footprint_voxels": 61,
+    "mae": 0.126249298453331,
+    "tversky_component": 0.9313496596397998
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 2,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 3,
+    "native_size": 18,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 4,
+    "native_size": 5,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 5,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 6,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 7,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 8,
+    "native_size": 3,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 9,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 10,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 11,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 12,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 13,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 14,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 15,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 16,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 17,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 18,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 19,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 20,
+    "native_size": 2,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 21,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  },
+  {
+    "subject_id": "BraTS-GLI-01424-000",
+    "native_component_id": 22,
+    "native_size": 1,
+    "size_64": 0,
+    "d4_footprint_voxels": 0,
+    "mae": null,
+    "tversky_component": null
+  }
+]

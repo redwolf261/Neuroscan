@@ -1,0 +1,165 @@
+{
+  "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+  "checkpoint_note": "v5/E46 attention-gate checkpoint, matches E48's CausalDrop exactly; differs from E58/E59's plain v3/D4-only checkpoint (step-12 is qualitative only)",
+  "n_subjects": 125,
+  "median_native_size_split": 90377.0,
+  "n_small": 63,
+  "n_large": 62,
+  "group_tests": {
+    "r_eff_spatial": {
+      "mean_small": 95.14541759188214,
+      "mean_large": 98.14831099971649,
+      "diff": -3.0028934078343497,
+      "mannwhitney_p_greater": 0.9999999391495591,
+      "permutation_p": 1.0,
+      "bootstrap_95ci": [
+        -3.972163425588138,
+        -2.0501845501412848
+      ]
+    },
+    "r_stable_spatial": {
+      "mean_small": 2.384019688954429,
+      "mean_large": 2.370960704741939,
+      "diff": 0.013058984212489744,
+      "mannwhitney_p_greater": 0.18506696087261781,
+      "permutation_p": 0.292,
+      "bootstrap_95ci": [
+        -0.04360481964217301,
+        0.06869260333344927
+      ]
+    },
+    "pr_spatial": {
+      "mean_small": 5.014005146329365,
+      "mean_large": 5.009640339882143,
+      "diff": 0.004364806447221703,
+      "mannwhitney_p_greater": 0.2742695714984711,
+      "permutation_p": 0.459,
+      "bootstrap_95ci": [
+        -0.18430959784062884,
+        0.19048728037356547
+      ]
+    },
+    "r_eff_channel": {
+      "mean_small": 99.22967105441623,
+      "mean_large": 102.55944344305223,
+      "diff": -3.329772388636002,
+      "mannwhitney_p_greater": 0.9999999683874081,
+      "permutation_p": 1.0,
+      "bootstrap_95ci": [
+        -4.431054816463333,
+        -2.254986310676622
+      ]
+    },
+    "r_stable_channel": {
+      "mean_small": 2.8958444103362067,
+      "mean_large": 2.9095984620432698,
+      "diff": -0.01375405170706312,
+      "mannwhitney_p_greater": 0.4596854348397631,
+      "permutation_p": 0.661,
+      "bootstrap_95ci": [
+        -0.07004964095900368,
+        0.04357723083425267
+      ]
+    },
+    "pr_channel": {
+      "mean_small": 6.777765538957384,
+      "mean_large": 6.902378912894957,
+      "diff": -0.12461337393757255,
+      "mannwhitney_p_greater": 0.6831423183643569,
+      "permutation_p": 0.883,
+      "bootstrap_95ci": [
+        -0.316888238549904,
+        0.06608242143805765
+      ]
+    },
+    "r_eff_normalized": {
+      "mean_small": 95.14542667449467,
+      "mean_large": 98.1483164141255,
+      "diff": -3.002889739630831,
+      "mannwhitney_p_greater": 0.9999999391495591,
+      "permutation_p": 1.0,
+      "bootstrap_95ci": [
+        -3.972160777176458,
+        -2.0501851964228908
+      ]
+    },
+    "r_stable_normalized": {
+      "mean_small": 2.3840196851700073,
+      "mean_large": 2.3709606855146346,
+      "diff": 0.013058999655372716,
+      "mannwhitney_p_greater": 0.18506696087261781,
+      "permutation_p": 0.292,
+      "bootstrap_95ci": [
+        -0.04360475738232885,
+        0.06869254829147438
+      ]
+    },
+    "pr_normalized": {
+      "mean_small": 5.01400509713188,
+      "mean_large": 5.009640416791362,
+      "diff": 0.004364680340517957,
+      "mannwhitney_p_greater": 0.2742695714984711,
+      "permutation_p": 0.459,
+      "bootstrap_95ci": [
+        -0.18430957449318736,
+        0.19048741691794893
+      ]
+    }
+  },
+  "scale_controls": {
+    "fro_norm": {
+      "mean_small": 232.09863910977802,
+      "mean_large": 248.6662590272965,
+      "p_two_sided": 1.344538105296058e-05
+    },
+    "spec_norm": {
+      "mean_small": 162.3971141028026,
+      "mean_large": 175.6670451010427,
+      "p_two_sided": 0.0005522621817949765
+    },
+    "mean_activation": {
+      "mean_small": 0.35891840666059466,
+      "mean_large": 0.37452813742622254,
+      "p_two_sided": 0.004349745332208783
+    },
+    "var_activation": {
+      "mean_small": 0.28355400619052706,
+      "mean_large": 0.33408584734124525,
+      "p_two_sided": 8.628693692063749e-07
+    }
+  },
+  "scale_survives": false,
+  "burden_control": {
+    "r2_size_only": 0.3833756214081764,
+    "r2_size_plus_dice": 0.49469459433031693,
+    "incremental_r2_dice": 0.11131897292214055,
+    "residualized_p_small_gt_large": 0.44989938164496596
+  },
+  "burden_survives": false,
+  "dimensionality_locus": "neither",
+  "randomized_null": {
+    "real_r_eff_mean": 96.63485272216796,
+    "null_r_eff_mean": 233.33882470703125,
+    "wilcoxon_p": 2.9643799464905646e-22
+  },
+  "e48_causal_link": {
+    "n_matched": 125,
+    "spearman_rho": -0.20157296466973884,
+    "parametric_p": 0.024183314184954757,
+    "permutation_p": 0.022,
+    "partial_rho_controlling_size": 0.0812780337941628,
+    "partial_p": 0.3675464327557074
+  },
+  "e59_qualitative_crosscheck": "MIXED - pre-declared 'both conditions' rule not literally satisfied, but the size-dependence signal is real, strong, and directionally consistent with E48; see writeup for correct interpretation",
+  "robustness_variants_agreeing": 0,
+  "criteria": {
+    "1_consistent_small_gt_large": false,
+    "2_scale_control": false,
+    "3_burden_control": false,
+    "4_metrics_agree": false,
+    "5_permutation_bootstrap": false,
+    "6_causal_link": false,
+    "7_not_trivial": false
+  },
+  "decision": "KILL"
+}

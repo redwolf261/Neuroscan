@@ -1,0 +1,10 @@
+building lesion prototypes from non-tail subjects...
+  prototypes built from 12 non-tail subjects: enc3(dim 128), bottleneck(dim 256), dec3(dim 128)
+injecting into 15 tail subjects
+  3/15 subjects, 84 records (47s)
+  6/15 subjects, 336 records (184s)
+  9/15 subjects, 399 records (220s)
+  12/15 subjects, 483 records (267s)
+  15/15 subjects, 672 records (371s)
+
+wrote INJECTION_results.csv (672 records) in 371s

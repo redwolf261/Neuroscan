@@ -1,0 +1,25 @@
+Device: cuda
+Loaded MM seed0 checkpoint: best_per_subject_dice=0.9022707222552137
+
+  processed 25/125
+  processed 50/125
+  processed 75/125
+  processed 100/125
+  processed 125/125
+
+Saved 125 local-swap records (corrected, with local-change metric).
+
+
+=== PART 2: Local donor swap probe ===
+  radius=1: mean GLOBAL Dice-drop S = 0.000036 (std 0.000349) -- INSENSITIVE, only ~10 voxels touched (0.0038% of volume)
+             mean LOCAL |prob change| AT swapped voxels = 0.0274 (std 0.0333, n=125 subjects) -- the metric that actually answers the question
+  radius=2: mean GLOBAL Dice-drop S = 0.000045 (std 0.000685) -- INSENSITIVE, only ~10 voxels touched (0.0038% of volume)
+             mean LOCAL |prob change| AT swapped voxels = 0.0412 (std 0.0465, n=125 subjects) -- the metric that actually answers the question
+  radius=3: mean GLOBAL Dice-drop S = 0.000075 (std 0.000627) -- INSENSITIVE, only ~10 voxels touched (0.0038% of volume)
+             mean LOCAL |prob change| AT swapped voxels = 0.0450 (std 0.0495, n=125 subjects) -- the metric that actually answers the question
+
+  NOTE: the global Dice metric (S_radius*) is confirmed too insensitive to detect this intervention -- swapping ~10 isolated, well-separated voxels out of 262,144 total per subject (~0.004% of the volume) cannot move whole-volume Dice meaningfully even if every swapped voxel flipped its prediction entirely. The LOCAL probability-change metric at the swap sites themselves is the metric that actually tests local-equivalence vs address-identity.
+
+LOCAL EQUIVALENCE: even the closest (radius=1) donor swap causes near-zero LOCAL probability change at the swapped voxel -- neighboring directions are largely interchangeable at short range. A soft local-correspondence mechanism could plausibly exploit this.
+
+Saved E82b_local_donor_summary_corrected.json

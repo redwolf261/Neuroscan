@@ -1,0 +1,90 @@
+{
+  "v5_gated": {
+    "label": "v5_gated",
+    "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e46\\runs\\AttnGate_seed0\\checkpoints\\best.pth",
+    "n_subjects": 125,
+    "mean_dice_control": 0.892215856552124,
+    "stats_pool": {
+      "mean": 0.0,
+      "t_p": NaN,
+      "wilcoxon_p": 1.0,
+      "perm_p": 1.0,
+      "bootstrap_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "stats_skip": {
+      "mean": 0.022621438324451446,
+      "t_p": 2.0143078350492237e-28,
+      "wilcoxon_p": 8.275303492246448e-20,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.019587788023054598,
+        0.02566782077848911
+      ]
+    },
+    "stats_both": {
+      "mean": 0.022621438324451446,
+      "t_p": 2.0143078350492237e-28,
+      "wilcoxon_p": 8.275303492246448e-20,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.019587788023054598,
+        0.02566782077848911
+      ]
+    },
+    "pool_significant": false,
+    "skip_significant": true,
+    "skip_size_dependence": {
+      "rho": -0.35464208909370193,
+      "parametric_p": 4.951799486066325e-05,
+      "permutation_p": 0.0
+    },
+    "verdict": "SKIP_PATH_EFFECT_CONFIRMED"
+  },
+  "v3_ungated": {
+    "label": "v3_ungated",
+    "checkpoint": "C:\\Users\\Rivan\\Projects\\Neuroscan\\experiments\\exp_e12_eggo_m\\e25\\deep_sup_runs\\DeepSup_D4only_seed0\\checkpoints\\best.pth",
+    "n_subjects": 125,
+    "mean_dice_control": 0.8957643356323243,
+    "stats_pool": {
+      "mean": 0.0,
+      "t_p": NaN,
+      "wilcoxon_p": 1.0,
+      "perm_p": 1.0,
+      "bootstrap_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "stats_skip": {
+      "mean": 0.02703010195493698,
+      "t_p": 4.389160133831383e-33,
+      "wilcoxon_p": 3.5223987969879738e-22,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.02394248332977295,
+        0.030305692051351068
+      ]
+    },
+    "stats_both": {
+      "mean": 0.02703010195493698,
+      "t_p": 4.389160133831383e-33,
+      "wilcoxon_p": 3.5223987969879738e-22,
+      "perm_p": 0.0,
+      "bootstrap_95ci": [
+        0.02394248332977295,
+        0.030305692051351068
+      ]
+    },
+    "pool_significant": false,
+    "skip_significant": true,
+    "skip_size_dependence": {
+      "rho": -0.40349615975422426,
+      "parametric_p": 3.0734630846372714e-06,
+      "permutation_p": 0.0
+    },
+    "verdict": "SKIP_PATH_EFFECT_CONFIRMED"
+  }
+}

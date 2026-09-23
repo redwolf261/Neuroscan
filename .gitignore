@@ -27,3 +27,9 @@ experiments/**/runs/**/checkpoints/
 *.nii
 *.nii.gz
 *.npz
+
+# --- large cached probe/feature dumps: regenerable, not source ---
+# (E185_probe.pkl was 9.67GB on disk, 1GB+ compressed -- exceeds GitHub's
+# 100MB hard limit; caught when a push was rejected on 2026-09-24)
+novelty/**/*_probe.pkl
+novelty/**/*_vectors.pkl

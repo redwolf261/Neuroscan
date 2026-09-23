@@ -1,0 +1,67 @@
+Device: cuda
+
+====================================================================
+ARM: v5_amp_control  (arch=v5)
+====================================================================
+loaded best_val_dice=0.911262 epoch=29
+[sanity] manual trunk vs forward(): 0.00e+00 PASS
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+effective rank: 0.2010 +/- 0.0077
+stage      mean    small    large      s-l       p   rho_size       p   rho_err       p
+N_1      0.5997   0.6358   0.5631  +0.0727  0.0040    -0.3468  0.0000   -0.1097  0.2120
+N_2      0.7041   0.7297   0.6781  +0.0516  0.0050    -0.2850  0.0000   -0.1600  0.0780
+N_3      0.4646   0.5446   0.3834  +0.1612  0.0000    -0.5687  0.0000   -0.0280  0.7640
+
+E126 coupling  Spearman(eff_rank, N_3) = +0.5801 (p=0.0000)
+               partial | log(size)      = +0.7705 (p=0.0000)
+
+====================================================================
+ARM: v12_capacity  (arch=v12)
+====================================================================
+loaded best_val_dice=0.912649 epoch=28
+[sanity] manual trunk vs forward(): 0.00e+00 PASS
+  25/125
+  50/125
+  75/125
+  100/125
+  125/125
+
+effective rank: 0.2007 +/- 0.0067
+stage      mean    small    large      s-l       p   rho_size       p   rho_err       p
+N_1      0.3936   0.4227   0.3640  +0.0588  0.0890    -0.1938  0.0320   +0.0515  0.5650
+N_2      0.4803   0.5421   0.4175  +0.1246  0.0000    -0.4051  0.0000   -0.0092  0.9300
+N_3      0.5300   0.6018   0.4571  +0.1447  0.0000    -0.4779  0.0000   -0.0502  0.5760
+
+E126 coupling  Spearman(eff_rank, N_3) = +0.5482 (p=0.0000)
+               partial | log(size)      = +0.7569 (p=0.0000)
+
+
+====================================================================
+PHASE-2 COMPARISON  (v12 vs AMP-matched v5 control)
+====================================================================
+quantity                              v5_ctrl        v12       delta
+best_val_dice                         0.91126    0.91265     +0.139pp
+effective rank (mean)                  0.2010     0.2007     -0.0003
+  [random-data PR baseline]            0.9361     0.9674     +0.0312   <- width artifact, NOT a result
+N_1 mean                               0.5997     0.3936     -0.2061
+N_1 small-large gap                    0.0727     0.0588     -0.0139
+N_2 mean                               0.7041     0.4803     -0.2238
+N_2 small-large gap                    0.0516     0.1246     +0.0730
+N_3 mean                               0.4646     0.5300     +0.0654
+N_3 small-large gap                    0.1612     0.1447     -0.0165
+rho(eff_rank,N_3) partial|size         0.7705     0.7569     -0.0135
+
+paired N_3 shift (v12 - v5): +0.0654  t p=5.543e-26  wilcoxon p=1.120e-17
+
+[reference only, NOT a control] fp32 canonical: dice=0.91016 N_3=0.2717 eff_rank=0.1912
+
+=== VERDICT ===
+OUTCOME_B_VULNERABILITY_UNCHANGED
+Dice essentially flat AND the causal vulnerability is intact and statistically indistinguishable from the control: the N_3 small-lesion gap and the effective-rank/N_3 coupling both survive 3x capacity. The deficit is NOT a capacity problem -- this strengthens the case for a mechanism-level intervention and supports freezing the architecture/capacity axis.
+
+Saved E129_summary.json + per-arm tables

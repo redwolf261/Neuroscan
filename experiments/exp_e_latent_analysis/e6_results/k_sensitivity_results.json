@@ -1,0 +1,37 @@
+{
+  "k=5": {
+    "mean_rho_correct": 0.18674953257173532,
+    "mean_rho_incorrect": 2.1616997190450284,
+    "cohens_d": -3.020841027633453,
+    "pearson_r_evidence": -0.22127926427015496,
+    "pearson_p_evidence": 0.0
+  },
+  "k=10": {
+    "mean_rho_correct": 0.20568071035028113,
+    "mean_rho_incorrect": 2.374830277165461,
+    "cohens_d": -3.0273298020183006,
+    "pearson_r_evidence": -0.21795730969340474,
+    "pearson_p_evidence": 0.0
+  },
+  "k=20": {
+    "mean_rho_correct": 0.22905873485794062,
+    "mean_rho_incorrect": 2.660016902612519,
+    "cohens_d": -3.0053736216953437,
+    "pearson_r_evidence": -0.2135574004605366,
+    "pearson_p_evidence": 0.0
+  },
+  "k=40": {
+    "mean_rho_correct": 0.2576626576945364,
+    "mean_rho_incorrect": 3.0510575148715082,
+    "cohens_d": -2.965170282751788,
+    "pearson_r_evidence": -0.21033006026820672,
+    "pearson_p_evidence": 0.0
+  },
+  "k=80": {
+    "mean_rho_correct": 0.29384905958719226,
+    "mean_rho_incorrect": 3.6491587356323434,
+    "cohens_d": -2.9847234595576504,
+    "pearson_r_evidence": -0.21145773765033798,
+    "pearson_p_evidence": 0.0
+  }
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "subject_id": "BraTS-GLI-01336-000",
+    "n_fn": 91,
+    "n_disagree": 9,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.3333333333333333
+  },
+  {
+    "subject_id": "BraTS-GLI-01168-000",
+    "n_fn": 217,
+    "n_disagree": 29,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.13793103448275862
+  },
+  {
+    "subject_id": "BraTS-GLI-00506-000",
+    "n_fn": 93,
+    "n_disagree": 15,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.26666666666666666
+  },
+  {
+    "subject_id": "BraTS-GLI-00764-000",
+    "n_fn": 957,
+    "n_disagree": 119,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.3865546218487395
+  },
+  {
+    "subject_id": "BraTS-GLI-00731-001",
+    "n_fn": 294,
+    "n_disagree": 27,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2222222222222222
+  },
+  {
+    "subject_id": "BraTS-GLI-01258-000",
+    "n_fn": 94,
+    "n_disagree": 12,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.16666666666666666
+  },
+  {
+    "subject_id": "BraTS-GLI-01025-000",
+    "n_fn": 83,
+    "n_disagree": 12,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.16666666666666666
+  },
+  {
+    "subject_id": "BraTS-GLI-00611-001",
+    "n_fn": 351,
+    "n_disagree": 43,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.16279069767441862
+  },
+  {
+    "subject_id": "BraTS-GLI-01369-000",
+    "n_fn": 396,
+    "n_disagree": 50,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.26
+  },
+  {
+    "subject_id": "BraTS-GLI-01354-000",
+    "n_fn": 163,
+    "n_disagree": 17,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.17647058823529413
+  },
+  {
+    "subject_id": "BraTS-GLI-01227-000",
+    "n_fn": 241,
+    "n_disagree": 33,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.06060606060606061
+  },
+  {
+    "subject_id": "BraTS-GLI-00241-000",
+    "n_fn": 32,
+    "n_disagree": 4,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.5
+  },
+  {
+    "subject_id": "BraTS-GLI-01349-000",
+    "n_fn": 118,
+    "n_disagree": 16,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.375
+  },
+  {
+    "subject_id": "BraTS-GLI-00044-000",
+    "n_fn": 19,
+    "n_disagree": 2,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 1.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00286-000",
+    "n_fn": 665,
+    "n_disagree": 66,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.3484848484848485
+  },
+  {
+    "subject_id": "BraTS-GLI-00367-000",
+    "n_fn": 710,
+    "n_disagree": 69,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.14492753623188406
+  },
+  {
+    "subject_id": "BraTS-GLI-00500-001",
+    "n_fn": 150,
+    "n_disagree": 13,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.5384615384615384
+  },
+  {
+    "subject_id": "BraTS-GLI-00708-001",
+    "n_fn": 58,
+    "n_disagree": 8,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.375
+  },
+  {
+    "subject_id": "BraTS-GLI-01450-000",
+    "n_fn": 310,
+    "n_disagree": 35,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.14285714285714285
+  },
+  {
+    "subject_id": "BraTS-GLI-00628-000",
+    "n_fn": 42,
+    "n_disagree": 2,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.5
+  },
+  {
+    "subject_id": "BraTS-GLI-00066-000",
+    "n_fn": 41,
+    "n_disagree": 5,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-001",
+    "n_fn": 186,
+    "n_disagree": 26,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2692307692307692
+  },
+  {
+    "subject_id": "BraTS-GLI-00222-000",
+    "n_fn": 29,
+    "n_disagree": 5,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.4
+  },
+  {
+    "subject_id": "BraTS-GLI-01090-000",
+    "n_fn": 197,
+    "n_disagree": 21,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.42857142857142855
+  },
+  {
+    "subject_id": "BraTS-GLI-01176-000",
+    "n_fn": 175,
+    "n_disagree": 24,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2916666666666667
+  },
+  {
+    "subject_id": "BraTS-GLI-00377-000",
+    "n_fn": 75,
+    "n_disagree": 9,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2222222222222222
+  },
+  {
+    "subject_id": "BraTS-GLI-01314-000",
+    "n_fn": 224,
+    "n_disagree": 27,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.14814814814814814
+  },
+  {
+    "subject_id": "BraTS-GLI-01114-000",
+    "n_fn": 222,
+    "n_disagree": 22,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.09090909090909091
+  },
+  {
+    "subject_id": "BraTS-GLI-01028-000",
+    "n_fn": 562,
+    "n_disagree": 64,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.09375
+  },
+  {
+    "subject_id": "BraTS-GLI-00511-000",
+    "n_fn": 158,
+    "n_disagree": 20,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.15
+  },
+  {
+    "subject_id": "BraTS-GLI-01001-000",
+    "n_fn": 41,
+    "n_disagree": 8,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.125
+  },
+  {
+    "subject_id": "BraTS-GLI-01319-000",
+    "n_fn": 127,
+    "n_disagree": 13,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.15384615384615385
+  },
+  {
+    "subject_id": "BraTS-GLI-01323-000",
+    "n_fn": 225,
+    "n_disagree": 38,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.07894736842105263
+  },
+  {
+    "subject_id": "BraTS-GLI-01402-000",
+    "n_fn": 95,
+    "n_disagree": 10,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2
+  },
+  {
+    "subject_id": "BraTS-GLI-01530-000",
+    "n_fn": 153,
+    "n_disagree": 19,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.15789473684210525
+  },
+  {
+    "subject_id": "BraTS-GLI-00098-000",
+    "n_fn": 1153,
+    "n_disagree": 154,
+    "frac_disagree_at_boundary": 0.9935064935064936,
+    "largest_component_frac": 0.23376623376623376
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "n_fn": 37,
+    "n_disagree": 1,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 1.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00016-000",
+    "n_fn": 687,
+    "n_disagree": 102,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.22549019607843138
+  },
+  {
+    "subject_id": "BraTS-GLI-00723-000",
+    "n_fn": 123,
+    "n_disagree": 16,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.125
+  },
+  {
+    "subject_id": "BraTS-GLI-00193-000",
+    "n_fn": 572,
+    "n_disagree": 60,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2
+  },
+  {
+    "subject_id": "BraTS-GLI-00020-001",
+    "n_fn": 157,
+    "n_disagree": 22,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.13636363636363635
+  },
+  {
+    "subject_id": "BraTS-GLI-01452-000",
+    "n_fn": 70,
+    "n_disagree": 8,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.125
+  },
+  {
+    "subject_id": "BraTS-GLI-01130-000",
+    "n_fn": 53,
+    "n_disagree": 7,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2857142857142857
+  },
+  {
+    "subject_id": "BraTS-GLI-00680-001",
+    "n_fn": 109,
+    "n_disagree": 11,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.18181818181818182
+  },
+  {
+    "subject_id": "BraTS-GLI-01516-000",
+    "n_fn": 174,
+    "n_disagree": 19,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.10526315789473684
+  },
+  {
+    "subject_id": "BraTS-GLI-01255-000",
+    "n_fn": 7,
+    "n_disagree": 1,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 1.0
+  },
+  {
+    "subject_id": "BraTS-GLI-00228-000",
+    "n_fn": 80,
+    "n_disagree": 6,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.3333333333333333
+  },
+  {
+    "subject_id": "BraTS-GLI-01273-000",
+    "n_fn": 87,
+    "n_disagree": 12,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.16666666666666666
+  },
+  {
+    "subject_id": "BraTS-GLI-01380-000",
+    "n_fn": 188,
+    "n_disagree": 18,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2222222222222222
+  },
+  {
+    "subject_id": "BraTS-GLI-00582-000",
+    "n_fn": 168,
+    "n_disagree": 22,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.13636363636363635
+  },
+  {
+    "subject_id": "BraTS-GLI-00313-000",
+    "n_fn": 50,
+    "n_disagree": 6,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.3333333333333333
+  },
+  {
+    "subject_id": "BraTS-GLI-00021-000",
+    "n_fn": 217,
+    "n_disagree": 16,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.0625
+  },
+  {
+    "subject_id": "BraTS-GLI-00565-000",
+    "n_fn": 115,
+    "n_disagree": 18,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2222222222222222
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "n_fn": 267,
+    "n_disagree": 32,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.28125
+  },
+  {
+    "subject_id": "BraTS-GLI-00347-000",
+    "n_fn": 171,
+    "n_disagree": 24,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.125
+  },
+  {
+    "subject_id": "BraTS-GLI-00496-000",
+    "n_fn": 535,
+    "n_disagree": 49,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.16326530612244897
+  },
+  {
+    "subject_id": "BraTS-GLI-01068-000",
+    "n_fn": 57,
+    "n_disagree": 10,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.2
+  },
+  {
+    "subject_id": "BraTS-GLI-00140-000",
+    "n_fn": 48,
+    "n_disagree": 7,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.42857142857142855
+  },
+  {
+    "subject_id": "BraTS-GLI-00425-000",
+    "n_fn": 13,
+    "n_disagree": 0,
+    "frac_disagree_at_boundary": 0.0,
+    "largest_component_frac": 0.0
+  },
+  {
+    "subject_id": "BraTS-GLI-01536-000",
+    "n_fn": 24,
+    "n_disagree": 3,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.3333333333333333
+  },
+  {
+    "subject_id": "BraTS-GLI-01342-000",
+    "n_fn": 333,
+    "n_disagree": 50,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.16
+  },
+  {
+    "subject_id": "BraTS-GLI-01393-000",
+    "n_fn": 57,
+    "n_disagree": 11,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.18181818181818182
+  },
+  {
+    "subject_id": "BraTS-GLI-01159-000",
+    "n_fn": 111,
+    "n_disagree": 22,
+    "frac_disagree_at_boundary": 1.0,
+    "largest_component_frac": 0.18181818181818182
+  }
+]

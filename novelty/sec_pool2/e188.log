@@ -1,0 +1,10 @@
+E188 cross-depth correspondence, enc3 SKIP ONLY, 125 subjects
+  15/125 subj, 208 rows (66s)
+  30/125 subj, 388 rows (119s)
+  45/125 subj, 588 rows (172s)
+  60/125 subj, 816 rows (234s)
+  90/125 subj, 1188 rows (338s)
+  105/125 subj, 1344 rows (382s)
+  120/125 subj, 1540 rows (436s)
+
+wrote E188_correspondence.csv (1584 rows) pops={'L': 232, 'H': 876, 'S': 476}  452s

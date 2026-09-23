@@ -1,0 +1,45 @@
+{
+ "E169_summary.json": {
+  "sha256_16": "a39edbfcebe80e77",
+  "bytes": 2949
+ },
+ "E169b_summary.json": {
+  "sha256_16": "1adc7f19bb70c11b",
+  "bytes": 5915
+ },
+ "E169_per_stage.csv": {
+  "sha256_16": "a00866136896bc54",
+  "bytes": 293
+ },
+ "E169b_nested.csv": {
+  "sha256_16": "6e98b9690080510f",
+  "bytes": 357
+ },
+ "E169_features.json": {
+  "sha256_16": "d72a07ff616b6b02",
+  "bytes": 385979
+ },
+ "FROZEN_HEADLINE": {
+  "enc1": {
+   "A_raw": 0.6341,
+   "D_both": 0.3929
+  },
+  "enc2": {
+   "A_raw": 0.7341,
+   "D_both": 0.4514
+  },
+  "enc3": {
+   "A_raw": 0.7893,
+   "D_both": 0.5178
+  },
+  "bottleneck": {
+   "A_raw": 0.388,
+   "D_both": 0.1117
+  },
+  "dec1": {
+   "A_raw": 0.3568,
+   "D_both": 0.0042
+  }
+ },
+ "note": "FROZEN 2026-09-16 before rank unification. Do NOT regenerate or optimize."
+}

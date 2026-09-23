@@ -1,0 +1,114 @@
+{
+ "A_full_125": {
+  "T1_rank": {
+   "gamma_alone_beta": 0.5821513887936152,
+   "gamma_alone_p": 0.11165068867642414,
+   "boundary_alone_beta": -0.0020942135271056614,
+   "boundary_alone_p": 0.06576778467454902,
+   "gamma_over_boundary_control": {
+    "r2_base": 0.962608923468387,
+    "r2_full": 0.9652047006777964,
+    "observed_delta_r2": 0.0025957772094094,
+    "null_mean": 0.00015572555490696617,
+    "null_std": 0.0002248036990729874,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "CLASSIFICATION": "D_survives_boundary_control"
+  },
+  "T4_spectral": {
+   "gamma_alone_beta": 0.7490816720840331,
+   "gamma_alone_p": 2.607960514211527e-10,
+   "boundary_alone_beta": -0.0017708383450306332,
+   "boundary_alone_p": 0.08503566508399474,
+   "gamma_over_boundary_control": {
+    "r2_base": 0.9497116429847087,
+    "r2_full": 0.9560062053948314,
+    "observed_delta_r2": 0.006294562410122717,
+    "null_mean": 0.000290285715097963,
+    "null_std": 0.00039632848562290066,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "CLASSIFICATION": "D_survives_boundary_control"
+  },
+  "T5_smooth": {
+   "gamma_alone_beta": 0.44846858829629366,
+   "gamma_alone_p": 0.1243227942510261,
+   "boundary_alone_beta": -0.001309356009665352,
+   "boundary_alone_p": 0.08982645359037766,
+   "gamma_over_boundary_control": {
+    "r2_base": 0.9517338530799426,
+    "r2_full": 0.9652506444416382,
+    "observed_delta_r2": 0.01351679136169559,
+    "null_mean": 0.0012017849086586548,
+    "null_std": 0.0017066571366473678,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 868,
+   "n_subjects": 125,
+   "CLASSIFICATION": "D_survives_boundary_control"
+  }
+ },
+ "B_E167_110": {
+  "T1_rank": {
+   "gamma_alone_beta": 0.8257192970916182,
+   "gamma_alone_p": 0.10183783014492853,
+   "boundary_alone_beta": -0.0019559711484335375,
+   "boundary_alone_p": 0.10896207480915976,
+   "gamma_over_boundary_control": {
+    "r2_base": 0.9625149197965088,
+    "r2_full": 0.9665219078488356,
+    "observed_delta_r2": 0.004006988052326799,
+    "null_mean": 0.00024350496397435617,
+    "null_std": 0.0003396633079173413,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 772,
+   "n_subjects": 110,
+   "CLASSIFICATION": "D_survives_boundary_control"
+  },
+  "T4_spectral": {
+   "gamma_alone_beta": 0.7827726643456623,
+   "gamma_alone_p": 7.0120041106847e-08,
+   "boundary_alone_beta": -0.0016536596096221197,
+   "boundary_alone_p": 0.1334077200546262,
+   "gamma_over_boundary_control": {
+    "r2_base": 0.9488549992921373,
+    "r2_full": 0.9550937441980922,
+    "observed_delta_r2": 0.006238744905954885,
+    "null_mean": 0.000344905381929248,
+    "null_std": 0.00047484102178543786,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 772,
+   "n_subjects": 110,
+   "CLASSIFICATION": "D_survives_boundary_control"
+  },
+  "T5_smooth": {
+   "gamma_alone_beta": 1.017762641471236,
+   "gamma_alone_p": 0.0,
+   "boundary_alone_beta": -0.001285187804563149,
+   "boundary_alone_p": 0.1209632801089009,
+   "gamma_over_boundary_control": {
+    "r2_base": 0.9505483291578957,
+    "r2_full": 0.9835896750669153,
+    "observed_delta_r2": 0.03304134590901964,
+    "null_mean": 0.0031351663006423895,
+    "null_std": 0.004203875488785588,
+    "permutation_p": 0.0,
+    "n_perm": 1000
+   },
+   "n_tiles": 772,
+   "n_subjects": 110,
+   "CLASSIFICATION": "D_survives_boundary_control"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "per_radius": {
+    "r1_original_cell": {
+      "small_mean": 0.5964183420874178,
+      "large_mean": 0.7364707253873348
+    },
+    "r2_neighborhood4": {
+      "small_mean": 0.5993968369439244,
+      "large_mean": 0.7678886577486992
+    },
+    "r3_neighborhood6": {
+      "small_mean": 0.5582492109388113,
+      "large_mean": 0.7534629218280315
+    },
+    "r4_neighborhood8": {
+      "small_mean": 0.5507844192907214,
+      "large_mean": 0.7286400161683559
+    }
+  },
+  "small_gain_r1_to_r4": -0.045633922796696424,
+  "large_gain_r1_to_r4": -0.007830709218978882,
+  "gain_diff_small_vs_large": -0.03780321357771754,
+  "gain_diff_p": 0.409,
+  "early_gain_small_r1_r2": 0.002978494856506586,
+  "late_gain_small_r3_r4": -0.007464791648089886,
+  "decision": "LOCAL_IRRECOVERABLE",
+  "detail": "No substantial, significantly disproportionate gain for small lesions as radius grows. Information is not simply sitting in the wider spatial neighborhood either. Per pre-declared one-shot stopping rule: STOP this branch. Report E48-E94 as a complete causal-localization finding (bottleneck -> pooling -> local cell -> neighborhood, all tested) without a derived intervention.",
+  "per_radius_convergence": {
+    "r1_original_cell": {
+      "converged": true,
+      "tail_cv": 0.017491226736190257
+    },
+    "r2_neighborhood4": {
+      "converged": true,
+      "tail_cv": 0.08968823686903683
+    },
+    "r3_neighborhood6": {
+      "converged": true,
+      "tail_cv": 0.07153086836846068
+    },
+    "r4_neighborhood8": {
+      "converged": true,
+      "tail_cv": 0.05536074735606089
+    }
+  }
+}

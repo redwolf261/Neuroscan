@@ -1,0 +1,2442 @@
+[
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.006981174151102665,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.0069764057795206336,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.0062236785888671875,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.0062464872996012,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.006962954998016357,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.006958186626434326,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.006209452946980831,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.006232261657714844,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35004947227185645,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.50142605183571,
+   "rel_eff_rank_error": 2.4898753869992795e-14,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.016026655832926395,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.016035159428914425,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.013728221257527706,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.013752301534016964,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.016019662221272823,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.01602814594904578,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.013738532861073849,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.013762613137563107,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49998059806839973,
+   "converged": true,
+   "eff_rank_orig": 58.50142605183425,
+   "eff_rank_new": 58.501426051834464,
+   "rel_eff_rank_error": 3.643720078535531e-15,
+   "energy_orig": 1417.41403293299,
+   "energy_new": 1417.4140329329903,
+   "rel_energy_error": 1.6041443795553379e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0030982494354248047
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0030882954597473145
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0027709205945333215
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0027650992075601843
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0030982494354248047
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0030882954597473145
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0027709205945333215
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0027650992075601843
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.004282931486765507
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.004268983999888065
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0038335720698038367
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.003839850425720215
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.004281878471374512
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0042679508527120325
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.003832538922627804
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.003838817278544071
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004794259866078732
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.0047699809074401855
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004290401935577393
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004292925198872921
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004794259866078732
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.0047699809074401855
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004290401935577393
+ },
+ {
+  "sid": "BraTS-GLI-01444-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004292925198872921
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.004449446996053097,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.00445755322774255,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.00299072265625,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.0029949545860290527,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.0039900938669840125,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.003998458385467529,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.002713640530904171,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.0027171770731607703,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.35015264585484907,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605201057,
+   "rel_eff_rank_error": 8.784193989666141e-16,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.014185388882954952,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.014211595058441162,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.0051300724347432825,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.005143264929453495,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.01286095380783081,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.012879729270935059,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.00479501485824585,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.004803597927093506,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.507918472314548,
+   "converged": true,
+   "eff_rank_orig": 56.62214605201062,
+   "eff_rank_new": 56.62214605198598,
+   "rel_eff_rank_error": 4.35194067945174e-13,
+   "energy_orig": 1482.5375143095798,
+   "energy_new": 1482.5375143095798,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.004044294357299805
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0040595332781473425
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.002780735492706299
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.00278516610463464
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0036450823148092004
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.003649155298868778
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0025184154510498047
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.002522150675455692
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.004235645135243771
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0042470494906107215
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0028096636136373254
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.002808213233947754
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.003748595714569092
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.003750463326772091
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.002524534861246708
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0025223692258199426
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.005168159802754757
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.005168000857035282
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.003594815731048584
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.003594060738881466
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004687607288360596
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.004695792992909786
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.003246764341990116
+ },
+ {
+  "sid": "BraTS-GLI-01326-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.0032445788383483887
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.031707505385080936,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.03169957796732581,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.027454574902852413,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.027431845664978027,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.02894880374272668,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.028944651285807255,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.02467554807662964,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.024658560752868652,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.34990878021544386,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060607566,
+   "rel_eff_rank_error": 9.888250029434214e-15,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546923,
+   "rel_energy_error": 1.8518711363988168e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.03053063154220581,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.030562222003936768,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.025497476259867313,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.025509119033813477,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.027975698312123654,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.028001924355824825,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.022960563500722286,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.0229701201121012,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996795519445,
+   "converged": true,
+   "eff_rank_orig": 64.6715506060763,
+   "eff_rank_new": 64.67155060588173,
+   "rel_eff_rank_error": 3.008445136732974e-12,
+   "energy_orig": 1227.8050614546926,
+   "energy_new": 1227.8050614546926,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.01772882541020715
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.0177384614944458
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.014741579691568973
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.014738321304321289
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.017072300116221073
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.017101426919301388
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.014110902945200565
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.01411449909210205
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.029454072316487667
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.029442787170410156
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.025974313418070438
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.02595663070678711
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.026956895987192753
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.026957571506500244
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.023462454477945927
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.023456792036692264
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.030227959156036377
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.030233482519785526
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.027088503042856815
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.027097980181376102
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.0284827550252279
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.028502563635508182
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.025397996107737186
+ },
+ {
+  "sid": "BraTS-GLI-00764-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.0254175066947937
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.025502880414327023,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.025480667750040653,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.024562478065490723,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.024562478065490723,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.02752598126729333,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.02752598126729333,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.02658422787984216,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.02658422787984216,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.3499922521077775,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.9699925051662,
+   "rel_eff_rank_error": 5.861412774460932e-13,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.019587894280751583,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.019576668739318848,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.018971741199493408,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.018949369589487675,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.020118693510691288,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.020118693510691288,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.019456982612609863,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.019456982612609863,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.49999920506640627,
+   "converged": true,
+   "eff_rank_orig": 65.96999250512754,
+   "eff_rank_new": 65.96999250512754,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 841.847862709474,
+   "energy_new": 841.847862709474,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.17412859201431274
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.17412859201431274
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.16914633909861243
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.16914633909861243
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.20518008867899573
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.20518008867899573
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.1987205147743225
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.1987205147743225
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.025804142157236698
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.025781532128651974
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.024083415667215946
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.024072209993998173
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0343796809514364
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.0343796809514364
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.032587409019470215
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.03257566690444946
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.008353869120279911
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.00839887062708533
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.008143583933512333
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.008170604705810547
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.007942477862040165
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.007960180441538456
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.007719099521636963
+ },
+ {
+  "sid": "BraTS-GLI-00731-001",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.007736821969350216
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.012393792470296261,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.012393792470296261,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.010908027489980099,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.010908027489980099,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.01143137613932288,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.01143137613932288,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.010440965493520138,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.35,
+  "gamma_dice": 0.010440965493520138,
+  "t6_diag": {
+   "requested_budget": 0.35,
+   "achieved_shape_distance": 0.349991499206996,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780488942,
+   "rel_eff_rank_error": 1.6860251651975996e-14,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921821,
+   "rel_energy_error": 0.0,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 0,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.009733955065409305,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 1,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.009733955065409305,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 2,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.00818844636281335,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 3,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.00818844636281335,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 4,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.008803824583689335,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 5,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.008803824583689335,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 6,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.007818341255187988,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 7,
+  "transform": "T6",
+  "severity": 0.5,
+  "gamma_dice": 0.007818341255187988,
+  "t6_diag": {
+   "requested_budget": 0.5,
+   "achieved_shape_distance": 0.4999996131369941,
+   "converged": true,
+   "eff_rank_orig": 66.58604780489054,
+   "eff_rank_new": 66.58604780489054,
+   "rel_eff_rank_error": 0.0,
+   "energy_orig": 1024.9057184921821,
+   "energy_new": 1024.9057184921824,
+   "rel_energy_error": 2.2184838209092932e-16,
+   "UV_preserved_pass": true,
+   "UV_reconstruction_max_diff": 0.0
+  }
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.007357080777486202
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.007357080777486202
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.006551305452982548
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.006551305452982548
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.006813764572143555
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.006813764572143555
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.006127337614695194
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 0.7,
+  "gamma_dice": 0.006127337614695194
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.012419184048970577
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.012419184048970577
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.011138061682383182
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.011138061682383182
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.011809051036834717
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.011809051036834717
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.010741670926411984
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.0,
+  "gamma_dice": 0.010741670926411984
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 0,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.010464489459991455
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 1,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.010464489459991455
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 2,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.008328338464101193
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 3,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.008328338464101193
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 4,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.009929239749908447
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 5,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.009929239749908447
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 6,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.007983028888702393
+ },
+ {
+  "sid": "BraTS-GLI-01258-000",
+  "window_id": 7,
+  "transform": "T7",
+  "severity": 1.3,
+  "gamma_dice": 0.007983028888702393
+ }
+]

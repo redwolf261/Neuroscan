@@ -1,0 +1,15 @@
+{
+  "condition": "R_alpha_c",
+  "L_seg_init": 0.8972165584564209,
+  "L_cw_init": 0.18888503313064575,
+  "lambda_cw_value_matched": 4.750066977704077,
+  "grad_norm_L_seg": 0.5253127196465693,
+  "grad_norm_L_cw_unweighted": 4.771906011410383,
+  "raw_gradient_ratio": 9.083933879653484,
+  "blowup_factor_at_value_matched_lambda": 43.149294349389294,
+  "target_ratio": 1.0,
+  "final_lambda_cw": 0.11008446486382242,
+  "n_components_seen": 13,
+  "n_components_matched": 13,
+  "seed": 0
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "epoch": 1,
+    "margin_efficiency_pct": 0.0
+  },
+  {
+    "epoch": 5,
+    "margin_efficiency_pct": 35.40097177028656
+  },
+  {
+    "epoch": 10,
+    "margin_efficiency_pct": 20.608018338680267
+  },
+  {
+    "epoch": 15,
+    "margin_efficiency_pct": 17.305919528007507
+  },
+  {
+    "epoch": 20,
+    "margin_efficiency_pct": 17.51842051744461
+  },
+  {
+    "epoch": 25,
+    "margin_efficiency_pct": 17.199306190013885
+  },
+  {
+    "epoch": 30,
+    "margin_efficiency_pct": 15.697301924228668
+  }
+]

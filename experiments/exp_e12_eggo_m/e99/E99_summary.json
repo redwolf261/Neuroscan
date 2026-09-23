@@ -1,0 +1,13 @@
+{
+  "checkpoint_val_dice": 0.9101624600589275,
+  "n_subjects": 125,
+  "mean_fragility": 0.0037536492347717285,
+  "spearman_rho_Nb_fragility": 0.1010937019969278,
+  "parametric_p": 0.2619544658262024,
+  "permutation_p": 0.246,
+  "spearman_rho_size_fragility": -0.22282027649769584,
+  "size_confound_p": 0.012501498318772807,
+  "partial_rho_Nb_fragility_given_size": -0.00010596088388144457,
+  "partial_p": 0.9990642595821106,
+  "hypothesis_supported": false
+}
