@@ -1,0 +1,37 @@
+E236 D2 recoverability: detected=1665 high_contrast_missed=178 (t1c split at 2.8173)
+Extracting D2 features (only stage needed)...
+  extracted 100/1843 (60s)
+  extracted 200/1843 (119s)
+  extracted 300/1843 (175s)
+  extracted 400/1843 (233s)
+  extracted 500/1843 (290s)
+  extracted 600/1843 (349s)
+  extracted 700/1843 (406s)
+  extracted 800/1843 (463s)
+  extracted 900/1843 (522s)
+  extracted 1000/1843 (581s)
+  extracted 1100/1843 (634s)
+  extracted 1200/1843 (693s)
+  extracted 1300/1843 (754s)
+  extracted 1400/1843 (812s)
+  extracted 1500/1843 (870s)
+  extracted 1600/1843 (930s)
+  extracted 1700/1843 (992s)
+  extracted 1800/1843 (1055s)
+Extraction complete: 1843 lesions (1079s)
+
+Experiment A: detected-trained probe -> high_contrast_missed
+  fold 0: AUC=0.6086 (n_pos=413, n_neg=865)
+  fold 1: AUC=0.7333 (n_pos=445, n_neg=869)
+  fold 2: AUC=0.6927 (n_pos=421, n_neg=810)
+  fold 3: AUC=0.6863 (n_pos=589, n_neg=1200)
+  fold 4: AUC=0.6862 (n_pos=407, n_neg=1010)
+
+Experiment B: within-group (missed-only) probe recoverability
+  fold 0: AUC=0.7435 (n_pos=413, n_neg=865)
+  fold 1: AUC=0.7443 (n_pos=445, n_neg=869)
+  fold 2: AUC=0.7245 (n_pos=421, n_neg=810)
+  fold 3: AUC=0.7446 (n_pos=589, n_neg=1200)
+  fold 4: AUC=0.7177 (n_pos=407, n_neg=1010)
+
+wrote E236_d2_recoverability.csv (1085s)

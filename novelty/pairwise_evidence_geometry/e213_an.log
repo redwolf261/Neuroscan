@@ -1,0 +1,49 @@
+rows=436  pops={'L': 73, 'S': 145, 'H': 218}  subjects=107
+
+============================================================================================
+MANDATORY E153-STYLE INERT CONTROL
+============================================================================================
+If q changes substantially when N is resampled at matched boundary-
+distance with z(x) held fixed, the score is denominator-driven.
+
+  q_rank_spatial:
+    corr(original, resampled) = 0.6587  (want close to 1.0)
+    median |diff| = 0.0502  mean |diff| = 0.1310
+  q_robust_spatial:
+    corr(original, resampled) = 0.7966  (want close to 1.0)
+    median |diff| = 0.6886  mean |diff| = 1.5131
+
+  INERT CONTROL: FAILS -- denominator-driven, treat everything below with suspicion
+
+============================================================================================
+DISCRIMINATION: does each score separate L from H?
+============================================================================================
+  z                    L median=-17.2722  H median=-18.3627  AUC(L>H)=0.6129  p=3.890e-03
+  q_rank_spatial       L median= +0.9808  H median= +0.7041  AUC(L>H)=0.8451  p=1.090e-18
+  q_robust_spatial     L median= +1.7043  H median= +0.3987  AUC(L>H)=0.8497  p=3.821e-19
+  q_rank_subject       L median= +0.9941  H median= +0.9466  AUC(L>H)=0.6091  p=5.262e-03
+  q_robust_subject     L median= +0.9919  H median= +0.6099  AUC(L>H)=0.6306  p=8.375e-04
+  s_h                  L median= +7.7859  H median= +6.4339  AUC(L>H)=0.8457  p=9.505e-19
+
+============================================================================================
+COUNTERFACTUAL DICE-PROXY: z>0 vs each relative score, LOSO threshold
+============================================================================================
+Dice-proxy = 2TP/(2TP+FP+FN) on the fixed L/S/H component set.
+Positive class = L or S (real lesion); negative = H.
+
+  z                    Dice-proxy=0.8905  TP=179  FP=  5  FN= 39
+  q_rank_spatial       Dice-proxy=0.8805  TP=199  FP= 35  FN= 19
+  q_robust_spatial     Dice-proxy=0.8937  TP=185  FP= 11  FN= 33
+  q_rank_subject       Dice-proxy=0.8778  TP=176  FP=  7  FN= 42
+  q_robust_subject     Dice-proxy=0.8722  TP=174  FP=  7  FN= 44
+  s_h                  Dice-proxy=0.9175  TP=189  FP=  5  FN= 29
+
+============================================================================================
+VERDICT
+============================================================================================
+  baseline z Dice-proxy = 0.8905 (TP=179 FP=5 FN=39)
+  best alternative: s_h Dice-proxy=0.9175 (TP=189 FP=5 FN=29)
+  FP explosion (>1.5x baseline)? False
+  Dice-proxy improvement = +0.0269
+
+  ==> KILL -- inert control fails, relative scores are denominator-driven (E153 pattern).

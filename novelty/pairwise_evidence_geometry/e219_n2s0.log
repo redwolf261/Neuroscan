@@ -1,0 +1,17 @@
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+E219 self-prototype steering, 125 subjects, shard 0/2
+  cross bank 49
+  resume: 15 subjects already complete
+  25/125 subj (101s) no-core so far 0
+  35/125 subj (221s) no-core so far 0
+  45/125 subj (324s) no-core so far 0
+  55/125 subj (400s) no-core so far 2
+  65/125 subj (518s) no-core so far 2
+  75/125 subj (612s) no-core so far 3
+  85/125 subj (726s) no-core so far 3
+  95/125 subj (806s) no-core so far 5
+  105/125 subj (880s) no-core so far 7
+  115/125 subj (961s) no-core so far 8
+  125/125 subj (1061s) no-core so far 9
+wrote E219_counts_n2s0.csv 1061s  no-core subjects 9

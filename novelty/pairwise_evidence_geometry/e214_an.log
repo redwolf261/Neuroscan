@@ -1,0 +1,37 @@
+rows=434  subjects=106
+
+============================================================================================
+STABILITY: correlation of s_h across mu_B constructions
+============================================================================================
+  corner vs corner             corr=1.0000  median|diff|=0.0000
+  corner vs opposite           corr=0.9975  median|diff|=0.2209
+  corner vs edge               corr=0.9998  median|diff|=0.2266
+  corner vs spatial_global     corr=0.9155  median|diff|=5.0883
+  corner vs spatial_subject    corr=0.9172  median|diff|=4.9321
+
+============================================================================================
+DISCRIMINATION (AUC L vs H) for each mu_B construction
+============================================================================================
+  corner             L median= +7.7859  H median= +6.4823  AUC=0.8510  p=2.989e-19
+  opposite           L median= +7.6469  H median= +6.4737  AUC=0.8038  p=8.237e-15
+  edge               L median= +7.4770  H median= +6.1288  AUC=0.8519  p=2.399e-19
+  spatial_global     L median= +1.8628  H median= -0.2995  AUC=0.8996  p=1.733e-24
+  spatial_subject    L median= +2.2796  H median= -0.2484  AUC=0.9195  p=8.085e-27
+
+============================================================================================
+COUNTERFACTUAL DICE-PROXY, LOSO threshold, for spatial_subject vs corner
+============================================================================================
+  corner             Dice-proxy=0.9272  TP=191  FP=  4  FN= 26
+  opposite           Dice-proxy=0.9136  TP=185  FP=  3  FN= 32
+  edge               Dice-proxy=0.9246  TP=190  FP=  4  FN= 27
+  spatial_global     Dice-proxy=0.9082  TP=188  FP=  9  FN= 29
+  spatial_subject    Dice-proxy=0.9356  TP=196  FP=  6  FN= 21
+
+============================================================================================
+VERDICT
+============================================================================================
+  corr(corner, spatial_subject) = 0.9172  (want > 0.7)
+  AUC(spatial_subject) = 0.9195  (E213 corner reference: 0.846)
+  Dice-proxy(spatial_subject) = 0.9356  (E213 corner reference: 0.9175; raw z: 0.8905)
+
+  ==> PASS -- s_h survives the missing inert control. Stable across mu_B constructions, and the proper per-subject spatial background reference reproduces E213's discrimination and Dice-proxy improvement. This is the first result in the E204-E214 chain to survive every control applied to it.

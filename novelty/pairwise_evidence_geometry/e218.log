@@ -1,0 +1,9 @@
+E218: 125 subjects, 422 GT ET components
+  epoch 005 done (114s)
+  epoch 010 done (224s)
+  epoch 015 done (334s)
+  epoch 020 done (445s)
+  epoch 025 done (556s)
+  epoch 030 done (664s)
+  epoch 035 done (776s)
+wrote E218_trajectory.csv 776s

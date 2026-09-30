@@ -1,0 +1,27 @@
+merged 5 files -> 125 complete subjects
+subjects=125  no-core (fallback, unsteered) subjects=18
+
+============================================================================================
+SPLIT-HALF test-half Delta vs tuned baseline (pp), 200 splits
+============================================================================================
+  SELF    mean3 -0.303 (frac>0 0.000)  ET -0.204  TC -0.323  WT -0.381   chosen [(('self', 0.5, 99.0), 200)]
+  CROSS   mean3 -1.298 (frac>0 0.000)  ET -0.540  TC -2.405  WT -0.950   chosen [(('cross', 0.5, 99.0), 200)]
+  RANDOM  mean3 -0.207 (frac>0 0.000)  ET -0.041  TC -0.119  WT -0.462   chosen [(('random', 0.5, 99.0), 200)]
+
+============================================================================================
+G2 DECOMPOSITION, SELF modal config ('self', 0.5, 99.0), ET @ z>0
+============================================================================================
+  dTP=+25659  in missed comps +366 (1.43%)  dFP=+26750  recovered 0->12 of 168  FPcomp 26->34
+  [cross same cfg] dTP=+49890 in-missed +912 recovered 35 FPcomp 68
+  [random same cfg] dTP=+5280 in-missed +37 recovered 3 FPcomp 33
+
+============================================================================================
+VERDICT (signed gates)
+============================================================================================
+  G1 FAIL  -- SELF mean3 >0 in >=95% splits & ET>0
+  G2 FAIL  -- ET gain positive & >=50% from missed lesions
+  G3 FAIL  -- WT >= -0.2pp
+  G4 PASS  -- SELF > CROSS in >=95% splits
+  G5 FAIL  -- SELF > RANDOM in >=95% splits
+
+  ==> KILL

@@ -1,0 +1,29 @@
+components=422  L=155 S=227 M=40  transitions/comp=6
+
+==========================================================================================
+TEST 1: does SACRIFICE (recall drop while rest improves) exceed chance?
+==========================================================================================
+  ALL  n= 422  sacrifice obs= 167  null mean=  192.1 95th= 204.0  p=0.9995  |  P(rest_up|drop)=0.449  P(rest_up)=0.444  drops=372
+  L    n= 155  sacrifice obs=  33  null mean=   36.3 95th=  42.0  p=0.8600  |  P(rest_up|drop)=0.508  P(rest_up)=0.512  drops=65
+  S    n= 227  sacrifice obs= 106  null mean=  116.5 95th= 127.0  p=0.9640  |  P(rest_up|drop)=0.442  P(rest_up)=0.389  drops=240
+  M    n=  40  sacrifice obs=  28  null mean=   39.1 95th=  44.0  p=1.0000  |  P(rest_up|drop)=0.418  P(rest_up)=0.496  drops=67
+
+==========================================================================================
+TEST 2: per-component counts by final label
+==========================================================================================
+  L: sacrifice mean=0.213  forget mean=0.419  frac with >=2 sacrifices=0.026
+  M: sacrifice mean=0.700  forget mean=1.675  frac with >=2 sacrifices=0.125
+  S: sacrifice mean=0.467  forget mean=1.057  frac with >=2 sacrifices=0.093
+  Mann-Whitney sacrifice L vs S: p=1.381e-04
+  Mann-Whitney forget    L vs S: p=2.682e-12
+
+==========================================================================================
+TEST 3 (collision gate): does early SACRIFICE predict final miss beyond FORGETTING?
+==========================================================================================
+  at-risk components (recall25>0): 246, of which end missed: 7
+  AUC baseline (forget+recall+size) = 0.7059
+  AUC +sacrifice                    = 0.8069
+  Delta AUC = +0.1010  (repeats >0: 1.00)
+  sacrifice coefficient (standardized): median -1.119  95% CI [-1.876, -0.355]
+
+  COLLISION GATE: PASS

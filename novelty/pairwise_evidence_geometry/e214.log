@@ -1,0 +1,11 @@
+E214 s_h inert control, 125 subjects
+Pass 1: building prototype bank + FOUR mu_B constructions...
+  bank size = 49
+  ||mu_B_corner - mu_B_spatial|| = 9.9842
+  ||mu_B_corner|| = 12.3593  ||mu_B_spatial|| = 4.4908
+  25/125 subj, 80 rows (52s)
+  50/125 subj, 184 rows (113s)
+  100/125 subj, 344 rows (213s)
+  125/125 subj, 434 rows (263s)
+
+wrote E214_sh_inert.csv (434 rows) pops={'L': 73, 'H': 217, 'S': 144}  263s

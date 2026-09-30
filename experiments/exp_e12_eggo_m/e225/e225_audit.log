@@ -1,0 +1,16 @@
+E225 mechanism audit: 125 val subjects
+[E225_baseline] loaded epoch5.pth
+  [E225_baseline] 25/125
+  [E225_baseline] 50/125
+  [E225_baseline] 75/125
+  [E225_baseline] 100/125
+  [E225_baseline] 125/125
+[E225_baseline] wrote distributions + 2241 component rows
+[E225_cc] loaded epoch5.pth
+  [E225_cc] 25/125
+  [E225_cc] 50/125
+  [E225_cc] 75/125
+  [E225_cc] 100/125
+  [E225_cc] 125/125
+[E225_cc] wrote distributions + 2433 component rows
+E225 mechanism audit complete.

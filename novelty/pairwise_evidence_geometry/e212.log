@@ -1,0 +1,6 @@
+E212 hypothesis-response selectivity, 125 subjects
+Pass 1: building detected-lesion bottleneck prototype bank...
+  bank size = 49 S-component prototypes from 49 subjects
+  125/125 subj, 592 rows (461s)
+
+wrote E212_selectivity.csv (592 rows) pops={'L': 296, 'H': 296}  461s

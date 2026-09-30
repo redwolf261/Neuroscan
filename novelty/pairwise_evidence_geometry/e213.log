@@ -1,0 +1,9 @@
+E213 relative-evidence-readout, 125 subjects
+Pass 1: building detected-lesion bottleneck prototype bank...
+  bank size = 49
+  25/125 subj, 82 rows (96s)
+  50/125 subj, 186 rows (209s)
+  100/125 subj, 346 rows (386s)
+  125/125 subj, 436 rows (485s)
+
+wrote E213_relative.csv (436 rows) pops={'L': 73, 'H': 218, 'S': 145}  485s

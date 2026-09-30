@@ -1,0 +1,16 @@
+E220 PS-PDS, 125 subjects, shard 1/2
+  cross bank 49
+  resume: 0 complete
+  10/125 subj (45s) no-core 1
+  20/125 subj (110s) no-core 2
+  30/125 subj (174s) no-core 3
+  40/125 subj (240s) no-core 4
+  50/125 subj (319s) no-core 4
+  60/125 subj (398s) no-core 4
+  70/125 subj (473s) no-core 4
+  80/125 subj (529s) no-core 5
+  90/125 subj (605s) no-core 5
+  100/125 subj (673s) no-core 6
+  110/125 subj (749s) no-core 6
+  120/125 subj (807s) no-core 8
+wrote E220_counts_n2s1.csv 819s no-core 9

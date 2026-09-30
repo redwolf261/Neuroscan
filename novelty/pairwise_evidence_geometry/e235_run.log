@@ -1,0 +1,98 @@
+E235 linear-probe layerwise test: detected=1665 high_contrast_missed=178 matched_missed=1156 (t1c split at 2.8173)
+Extracting features for all lesions (this is the expensive step)...
+  extracted 50/2999 (32s)
+  extracted 100/2999 (63s)
+  extracted 150/2999 (94s)
+  extracted 200/2999 (126s)
+  extracted 250/2999 (157s)
+  extracted 300/2999 (186s)
+  extracted 350/2999 (216s)
+  extracted 400/2999 (245s)
+  extracted 450/2999 (275s)
+  extracted 500/2999 (304s)
+  extracted 550/2999 (334s)
+  extracted 600/2999 (363s)
+  extracted 650/2999 (392s)
+  extracted 700/2999 (420s)
+  extracted 750/2999 (448s)
+  extracted 800/2999 (476s)
+  extracted 850/2999 (506s)
+  extracted 900/2999 (534s)
+  extracted 950/2999 (563s)
+  extracted 1000/2999 (592s)
+  extracted 1050/2999 (619s)
+  extracted 1100/2999 (644s)
+  extracted 1150/2999 (673s)
+  extracted 1200/2999 (702s)
+  extracted 1250/2999 (731s)
+  extracted 1300/2999 (760s)
+  extracted 1350/2999 (789s)
+  extracted 1400/2999 (816s)
+  extracted 1450/2999 (845s)
+  extracted 1500/2999 (874s)
+  extracted 1550/2999 (903s)
+  extracted 1600/2999 (932s)
+  extracted 1650/2999 (961s)
+  extracted 1700/2999 (989s)
+  extracted 1750/2999 (1018s)
+  extracted 1800/2999 (1046s)
+  extracted 1850/2999 (1072s)
+  extracted 1900/2999 (1099s)
+  extracted 1950/2999 (1127s)
+  extracted 2000/2999 (1154s)
+  extracted 2050/2999 (1181s)
+  extracted 2100/2999 (1209s)
+  extracted 2150/2999 (1238s)
+  extracted 2200/2999 (1267s)
+  extracted 2250/2999 (1296s)
+  extracted 2300/2999 (1323s)
+  extracted 2350/2999 (1351s)
+  extracted 2400/2999 (1380s)
+  extracted 2450/2999 (1408s)
+  extracted 2500/2999 (1436s)
+  extracted 2550/2999 (1461s)
+  extracted 2600/2999 (1488s)
+  extracted 2650/2999 (1516s)
+  extracted 2700/2999 (1543s)
+  extracted 2750/2999 (1569s)
+  extracted 2800/2999 (1592s)
+  extracted 2850/2999 (1620s)
+  extracted 2900/2999 (1647s)
+  extracted 2950/2999 (1673s)
+Extraction complete: 2999 unique lesions (1702s)
+  stage raw done (1703s)
+  stage E1 done (1704s)
+  stage E2 done (1712s)
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 500 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=500).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 500 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=500).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+  stage E3 done (1738s)
+  stage E4_BN done (1765s)
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 500 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=500).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+  stage D3 done (1786s)
+  stage D2 done (1795s)
+  stage D1 done (1810s)
+wrote E235_probe_auc.csv (1810s)

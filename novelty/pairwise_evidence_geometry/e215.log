@@ -1,0 +1,17 @@
+E215 full-volume decision-rule swap (ET only), 125/125 subjects
+Pass 0: building mu_L/mu_B banks (E214 spatial_subject method)...
+  pass0 20/60
+  pass0 40/60
+  pass0 60/60
+  bank: 49 prototypes, 49 bg vecs
+
+Pass 1: whole-cohort inference...
+  pass1 20/125 subj (14s)
+  pass1 40/125 subj (28s)
+  pass1 60/125 subj (42s)
+  pass1 80/125 subj (56s)
+  pass1 100/125 subj (72s)
+  pass1 120/125 subj (86s)
+
+Pass 1 complete (89s). Saving field cache (per-subject, shapes vary across the cohort)...
+wrote 125 field caches to C:\Users\Rivan\Projects\Neuroscan\novelty\pairwise_evidence_geometry\E215_fields_cache/

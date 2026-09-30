@@ -1,0 +1,64 @@
+models: ['v13', 'v14', 'v15', 'v16', 'v5']
+
+============================================================================================
+Q1/Q2: ET component cross-detection (component-level, MIN_VOX=5, overlap>=0.5)
+============================================================================================
+total GT ET components: 422
+
+  v13: detects 261/422 (61.8%)
+  v14: detects 225/422 (53.3%)
+  v15: detects 246/422 (58.3%)
+  v16: detects 219/422 (51.9%)
+  v5: detects 217/422 (51.4%)
+
+  Cross-recovery: of model A's MISSED components, % detected by >=1 other model
+    v13: 161 missed, 15 recovered by >=1 other = 9.3%
+    v14: 197 missed, 51 recovered by >=1 other = 25.9%
+    v15: 176 missed, 30 recovered by >=1 other = 17.0%
+    v16: 203 missed, 57 recovered by >=1 other = 28.1%
+    v5: 205 missed, 59 recovered by >=1 other = 28.8%
+
+  Pairwise: of A misses, % B specifically catches
+    v13 misses (161): v14=3(2%) v15=10(6%) v16=9(6%) v5=1(1%) 
+    v14 misses (197): v13=39(20%) v15=33(17%) v16=18(9%) v5=11(6%) 
+    v15 misses (176): v13=25(14%) v14=12(7%) v16=15(9%) v5=5(3%) 
+    v16 misses (203): v13=51(25%) v14=24(12%) v15=42(21%) v5=23(11%) 
+    v5 misses (205): v13=45(22%) v14=19(9%) v15=34(17%) v16=25(12%) 
+
+============================================================================================
+Q3: voxel-level disagreement informativeness (ET, brain voxels)
+============================================================================================
+  (computed from TP+FP per model on shared subject/region rows -- see
+   note: full voxel disagreement needs raw prediction maps, not just
+   aggregate counts; this reports the AGGREGATE proxy: does total FP
+   volume correlate with total TP volume across models, i.e. are
+   models that catch more true lesion also making more false calls)
+  v13: TP=2213669 FP=270500 FN=332401  precision=0.891  recall=0.869
+  v14: TP=2210244 FP=222926 FN=335826  precision=0.908  recall=0.868
+  v15: TP=2134329 FP=180036 FN=411741  precision=0.922  recall=0.838
+  v16: TP=2199188 FP=251294 FN=346882  precision=0.897  recall=0.864
+  v5: TP=2146590 FP=167512 FN=399480  precision=0.928  recall=0.843
+
+============================================================================================
+Q4: naive ensemble arms, whole-volume Dice by region (fixed z>0 / count-vote)
+============================================================================================
+
+  Per-model solo Dice (mean over subjects, from per-subject TP/FP/FN):
+  ET: v13=0.8165  v14=0.8192  v15=0.8149  v16=0.8123  v5=0.8190
+  TC: v13=0.8436  v14=0.8441  v15=0.8432  v16=0.8391  v5=0.8480
+  WT: v13=0.9050  v14=0.9167  v15=0.9013  v16=0.9000  v5=0.9123
+
+  NOTE: majority/mean/unanimous/any ensemble arms require RAW per-voxel
+  prediction maps (not just aggregate TP/FP/FN), which E222 did not cache
+  (avoided ~5x storage: 125 subjects x 5 models x 3 regions x full volume).
+  If Q1/Q2 justify it, a targeted re-run on the TAIL subjects only (where
+  disagreement matters) is cheap; a blind full-cohort voxel cache is not.
+
+============================================================================================
+DECISION
+============================================================================================
+  cross-recovery rates: {'v13': np.float64(0.09316770186335403), 'v14': np.float64(0.25888324873096447), 'v15': np.float64(0.17045454545454544), 'v16': np.float64(0.28078817733990147), 'v5': np.float64(0.28780487804878047)}
+  mean=21.8%  best=28.8%  worst=9.3%
+
+  Complementary-error budget >=25% (mean)?  NO
+  ==> KILL -- insufficient complementary error, do not design a fusion rule

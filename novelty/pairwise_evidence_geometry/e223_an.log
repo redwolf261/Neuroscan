@@ -1,0 +1,57 @@
+total components=2999  detected=1665 (55.5%)  missed=1334
+
+==========================================================================================
+RAW: E_l and C_l, detected vs missed
+==========================================================================================
+  E_l (inclusion)
+    detected: median=1.0000  mean=0.9861  (n=1665)
+    missed  : median=1.0000  mean=0.9666  (n=1334)
+    Mann-Whitney p=7.68e-20
+  C_l (centering)
+    detected: median=0.0780  mean=0.1063  (n=1665)
+    missed  : median=0.0000  mean=0.0050  (n=1334)
+    Mann-Whitney p=3.75e-232
+
+==========================================================================================
+SIZE: does missed correlate with smaller lesions? (confound check)
+==========================================================================================
+  detected size: median=7275  mean=14350
+  missed size  : median=13  mean=284
+  Mann-Whitney p=5.80e-227
+
+  Spearman(size, C_l) = 0.8904  p=0.00e+00
+  Spearman(size, E_l) = 0.2630  p=1.26e-48
+
+==========================================================================================
+SIZE-MATCHED comparison: C_l for detected vs missed within size bins
+==========================================================================================
+  size [5,8] (n=653): detected C_l=0.0000 (n=167)  missed C_l=0.0000 (n=486)  p=0.110
+  size [8,26] (n=671): detected C_l=0.0000 (n=206)  missed C_l=0.0000 (n=465)  p=0.076
+  size [26,749] (n=605): detected C_l=0.0000 (n=207)  missed C_l=0.0000 (n=398)  p=0.086
+  size [749,15356] (n=600): detected C_l=0.0760 (n=525)  missed C_l=0.0320 (n=75)  p=0.000
+  size [15356,111228] (n=600): detected C_l=0.1900 (n=597)  missed C_l=0.1780 (n=3)  p=0.850
+
+==========================================================================================
+MULTIVARIATE: does "missed" predict C_l after controlling for size, distance, isolation?
+==========================================================================================
+  partial corr(missed, C_l | log_size, dist, isolated) = -0.0030  p=8.70e-01
+  raw corr(detected, C_l) = +0.5045  p=1.96e-193
+
+==========================================================================================
+ISOLATION: does spatial separation from main WT mass predict low C_l?
+==========================================================================================
+  isolated (n=194): median C_l=0.0000
+  connected (n=2805): median C_l=0.0000
+  Mann-Whitney p=5.771e-06
+  fraction isolated among missed: 0.106
+  fraction isolated among detected: 0.032
+
+==========================================================================================
+VERDICT
+==========================================================================================
+  E_l ceiling effect (median > 0.95)? True  (median E_l = 1.0000)
+  Missed lesions have lower raw C_l? True
+  Gap survives size/distance/isolation control? False
+
+  ==> CONFOUNDED. Missed lesions have lower C_l, but this is fully
+      explained by size/distance/isolation, not "missedness" itself.

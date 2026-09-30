@@ -1,0 +1,7 @@
+E234 layerwise separability: 117 matched pairs
+  20/117 pairs, 34 rows (44s)
+  40/117 pairs, 71 rows (88s)
+  60/117 pairs, 102 rows (128s)
+  80/117 pairs, 135 rows (171s)
+  100/117 pairs, 164 rows (209s)
+wrote E234_layerwise.csv: 190 rows (242s)

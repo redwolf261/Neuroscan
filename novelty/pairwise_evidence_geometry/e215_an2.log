@@ -1,0 +1,66 @@
+125 subjects loaded from cache
+
+============================================================================================
+SYSTEM 1: raw z threshold
+============================================================================================
+  mean ET Dice = 0.8224
+  (production reference threshold on sigmoid(z): 0.0177, i.e. z>~ -4.02)
+
+============================================================================================
+SYSTEM 2: s_h alone
+============================================================================================
+  mean ET Dice = 0.4657
+
+============================================================================================
+SYSTEM 3: z + alpha*s_h  (alpha fit on train, threshold on the combo)
+============================================================================================
+  alpha=0.0   mean ET Dice = 0.8226
+  alpha=0.25  mean ET Dice = 0.8209
+  alpha=0.5   mean ET Dice = 0.8202
+  alpha=1.0   mean ET Dice = 0.8162
+  alpha=2.0   mean ET Dice = 0.7958
+  alpha=4.0   mean ET Dice = 0.6751
+  best alpha = 0.0
+
+============================================================================================
+SYSTEM 4: gated substitution -- z where s_h<tau_gate, s_h where s_h>=tau_gate
+============================================================================================
+  tau_gate=  -0.077  mean ET Dice = 0.4654
+  tau_gate=   0.216  mean ET Dice = 0.4654
+  tau_gate=   0.439  mean ET Dice = 0.4655
+  tau_gate=   0.890  mean ET Dice = 0.4656
+  tau_gate=   2.062  mean ET Dice = 0.4701
+  tau_gate=   9.176  mean ET Dice = 0.7102
+
+============================================================================================
+COMPONENT-LEVEL TAIL ANALYSIS (best system per family)
+============================================================================================
+  tail subjects (>=1 missed ET component under z>0): 46/125
+
+============================================================================================
+SUMMARY TABLE
+============================================================================================
+System                           Mean ET Dice
+z (raw logit)                          0.8224
+s_h alone                              0.4657
+z + alpha*s_h (best)                   0.8224
+gated substitution (best)              0.7102
+
+============================================================================================
+TAIL vs BULK (z-only baseline, for context)
+============================================================================================
+  tail (n=46): mean Dice = 0.6914
+  bulk (n=79): mean Dice = 0.8986
+
+============================================================================================
+VERDICT
+============================================================================================
+  baseline z Dice = 0.8224
+  best alternative: z + alpha*s_h = 0.8224  (delta = +0.0000)
+
+  METHODOLOGICAL NOTE: this is discovery/validation evidence on the SAME
+  125-subject population E204-E214 were built on, NOT a held-out test.
+  A positive result here licenses freezing the construction and testing
+  on genuinely unseen subjects -- it does not itself constitute that test.
+
+  ==> KILL -- no real whole-volume Dice improvement. The proxy result did not translate.

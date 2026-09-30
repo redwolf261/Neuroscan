@@ -1,0 +1,30 @@
+complete subjects=125  no-core=18
+
+================================================================================================
+SPLIT-HALF test-half Delta vs tuned baseline (pp), 200 splits
+================================================================================================
+  PSPDS   mean3 -0.007 [-0.073,+0.028] frac>0 0.570  ET +0.010 TC -0.015 WT -0.017  chosen [(('pspds', 0.5, 1.0), 95)]
+  INTERP  mean3 -0.331 [-0.552,-0.133] frac>0 0.000  ET -0.209 TC -0.410 WT -0.373  chosen [(('interp', 0.5, 0.0), 200)]
+  GLOBAL  mean3 -1.317 [-1.954,-0.699] frac>0 0.000  ET -0.548 TC -2.339 WT -1.063  chosen [(('global', 0.5, 0.0), 200)]
+  DILATE  mean3 -4.168 [-4.643,-3.769] frac>0 0.000  ET -12.503 TC +0.000 WT +0.000  chosen [(('dilate', 0.0, 0.0), 200)]
+  BOOST   mean3 -0.039 [-0.067,-0.004] frac>0 0.010  ET -0.118 TC +0.000 WT +0.000  chosen [(('boost', 2.0, 0.0), 200)]
+
+================================================================================================
+ET DECOMPOSITION @ z>0 (modal PSPDS ('pspds', 0.5, 1.0)) vs controls at their modal configs
+================================================================================================
+  pspds   ('pspds', 0.5, 1.0)        dTP=  +3571 in-missed     +7 (0.2%)  dFP=  +2583  recovered 4/168  FPcomp 26->27
+  interp  ('interp', 0.5, 0.0)       dTP= +32323 in-missed   +368 (1.1%)  dFP= +35003  recovered 12/168  FPcomp 26->28
+  global  ('global', 0.5, 0.0)       dTP= +60804 in-missed   +884 (1.5%)  dFP= +83622  recovered 35/168  FPcomp 26->93
+  dilate  ('dilate', 0.0, 0.0)       dTP=+203893 in-missed    +36 (0.0%)  dFP=+1219585  recovered 17/168  FPcomp 26->15
+  boost   ('boost', 2.0, 0.0)        dTP= +32032 in-missed    +11 (0.0%)  dFP= +30836  recovered 8/168  FPcomp 26->24
+  PSPDS beats best control in 85.0% of splits
+
+================================================================================================
+VERDICT (signed gates)
+================================================================================================
+  G1 FAIL  -- PSPDS mean3>0 in >=95% splits & ET>0
+  G2 FAIL  -- PSPDS > best control in >=95% splits
+  G3 FAIL  -- ET gain >0 and >=50% from missed lesions
+  G4 PASS  -- WT >= -0.2pp
+
+  ==> KILL

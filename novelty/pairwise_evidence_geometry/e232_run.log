@@ -1,0 +1,8 @@
+E232 intersection-consensus test: 125 VAL subjects, K=20 perturbations, tau=0.5
+  [verify] replay mechanism matches real forward() exactly (max diff 0.00e+00)
+  25/125 subj (68s)
+  50/125 subj (135s)
+  75/125 subj (203s)
+  100/125 subj (271s)
+  125/125 subj (339s)
+wrote E232_ambiguity.csv (339s)

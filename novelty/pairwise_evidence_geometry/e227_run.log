@@ -1,0 +1,8 @@
+E227 D4 gradient audit, 1126 TRAIN subjects (scanned), 298 lesions in STRATIFIED SAMPLE (gradient-computed), 50 candidate draws/subject, patch=(128, 128, 128)
+  25/1126 subj, 5 lesions measured (89s)
+  125/1126 subj, 36 lesions measured (580s)
+  425/1126 subj, 113 lesions measured (1791s)
+  450/1126 subj, 119 lesions measured (1884s)
+  800/1126 subj, 213 lesions measured (3431s)
+  1050/1126 subj, 280 lesions measured (4552s)
+wrote E227_gradient.csv: 298 lesions (4842s)

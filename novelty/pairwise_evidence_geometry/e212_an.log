@@ -1,0 +1,49 @@
+rows=592  pops={'L': 296, 'H': 296}  subjects=42
+
+============================================================================================
+MANDATORY GATE: E210 replication (prototype condition == delta_L here)
+============================================================================================
+  any-alpha crossings (L, prototype/delta_L): 27/74 (36.5%)
+  E210 reference: 27/74 (36.5%)
+  reproduction: HOLDS (within tolerance)
+
+============================================================================================
+E212-D: S_H(L) vs S_H(H), alpha=1.0
+============================================================================================
+  S_H_L: median=+10.5100  mean=+12.2135  n=74
+  S_H_H: median=+0.0000  mean=+0.0017  n=74
+  Mann-Whitney: p=4.629e-23
+  subject-permutation (500 iters): observed diff=+10.5100  p=0.0000
+  bootstrap 95% CI on median(S_H_L)-median(S_H_H): [+5.9616, +13.7500]
+  effect size (rank-biserial / Cliff's delta approx): +0.8908
+
+============================================================================================
+E212-E: S_H -> crossing (subject-grouped CV), vs |Delta_L| alone
+============================================================================================
+  AUC(S_H -> crossing)       = 0.9628   PR-AUC = 0.8433
+  AUC(|Delta_L| -> crossing) = 0.9585   PR-AUC = 0.8479
+  S_H median: crossing=+21.7456  non-crossing=+0.8643
+
+============================================================================================
+E212-F: reactivity control (R_mag)
+============================================================================================
+  logistic beta_1 (S_H, standardized) = +0.7668
+  logistic beta_2 (R_mag, standardized) = +1.7102
+  partial corr(S_H, crossing | R_mag) = -0.0156  p=7.895e-01   DOES NOT SURVIVE -- KILL
+
+============================================================================================
+E212-G: negative control -- same machinery on H
+============================================================================================
+  S_H_H median = +0.0000  (want ~0)
+  H crossings = 0/296
+  H has no crossing variance -- cannot compute AUC (itself consistent with G)
+
+============================================================================================
+VERDICT
+============================================================================================
+  D (S_H(L) > S_H(H), significant)      : True
+  E (AUC>=0.65 AND beats |Delta_L| alone) : True (AUC_SH=0.963 vs AUC_DL=0.958)
+  F (survives R_mag control)             : False
+  G (H dissociates -- not predictive)     : True
+
+  ==> KILL -- one or more gates failed. See which gate(s) above are False before deciding whether a narrower variant is worth testing, or whether to close the HRS principle entirely.

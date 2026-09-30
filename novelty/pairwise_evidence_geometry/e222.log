@@ -1,0 +1,26 @@
+Loading candidate checkpoints...
+  v5       loaded, arch tag = v5
+  v13      loaded, arch tag = v13
+  v14      loaded, arch tag = v14
+  v15      loaded, arch tag = v15
+  v16      loaded, arch tag = v16
+  A96      LOAD FAILED (arch mismatch or missing keys): Error(s) in loading state_dict for UNet3D_v3:
+	size mismatch for enc1.0.conv.wei
+  DualRes  LOAD FAILED (arch mismatch or missing keys): Error(s) in loading state_dict for UNet3D_v9:
+	size mismatch for enc1.0.conv.wei
+
+5 usable models: ['v5', 'v13', 'v14', 'v15', 'v16']
+
+  10/125 subj (38s)
+  20/125 subj (76s)
+  30/125 subj (112s)
+  40/125 subj (150s)
+  50/125 subj (187s)
+  60/125 subj (222s)
+  70/125 subj (261s)
+  80/125 subj (296s)
+  90/125 subj (335s)
+  100/125 subj (373s)
+  110/125 subj (408s)
+  120/125 subj (444s)
+wrote E222_predictions.csv, E222_components.csv (462s)
