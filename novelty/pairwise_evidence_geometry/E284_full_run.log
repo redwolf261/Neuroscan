@@ -1,0 +1,127 @@
+Computing population-baseline pbar (scalar, det_train voxels only)...
+  pbar = 0.015122 (over 267827246 det_train brain voxels, 1513s)
+Subject-level derangement over 143 det_train subjects (no self-maps), e.g. [('BraTS-GLI-00018-000', 'BraTS-GLI-01514-000'), ('BraTS-GLI-00024-000', 'BraTS-GLI-00694-001'), ('BraTS-GLI-00053-000', 'BraTS-GLI-00550-000')]
+Precomputing production p-maps for all det_train subjects (for H2 lookup)...
+  cached 143 p-maps (1603s)
+
+--- seed=999 ---
+  pool: 5003 ET, 14895 neg (1828s)
+  fit h0_ordinary (1830s)
+  fit h1_true_prod (1830s)
+  fit h2_shuffled_prod (1830s)
+  fit h3_population_baseline (1830s)
+  fit h4_alt_model (1830s)
+  fit h5_sign_reversed (1830s)
+  fit h6_normalized_prod (1830s)
+
+--- seed=4242 ---
+  pool: 5003 ET, 14895 neg (1993s)
+  fit h0_ordinary (1994s)
+  fit h1_true_prod (1994s)
+  fit h2_shuffled_prod (1994s)
+  fit h3_population_baseline (1994s)
+  fit h4_alt_model (1994s)
+  fit h5_sign_reversed (1994s)
+  fit h6_normalized_prod (1994s)
+
+--- seed=7 ---
+  pool: 5003 ET, 14895 neg (2189s)
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 500 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=500).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+  fit h0_ordinary (2193s)
+  fit h1_true_prod (2193s)
+  fit h2_shuffled_prod (2193s)
+  fit h3_population_baseline (2193s)
+  fit h4_alt_model (2193s)
+  fit h5_sign_reversed (2193s)
+  fit h6_normalized_prod (2193s)
+
+--- seed=123 ---
+  pool: 5003 ET, 14895 neg (2390s)
+  fit h0_ordinary (2392s)
+  fit h1_true_prod (2392s)
+  fit h2_shuffled_prod (2392s)
+  fit h3_population_baseline (2392s)
+  fit h4_alt_model (2392s)
+  fit h5_sign_reversed (2392s)
+  fit h6_normalized_prod (2392s)
+
+--- seed=2024 ---
+  pool: 5003 ET, 14895 neg (2584s)
+  fit h0_ordinary (2587s)
+  fit h1_true_prod (2587s)
+  fit h2_shuffled_prod (2587s)
+  fit h3_population_baseline (2587s)
+  fit h4_alt_model (2587s)
+  fit h5_sign_reversed (2587s)
+  fit h6_normalized_prod (2587s)
+
+Building non-circular phenotype groups on 67 TEST subjects...
+  20/67 (2597s)
+  40/67 (2610s)
+  60/67 (2625s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (raw-r evaluation, E282-B's fixed grid)...
+  20/67 (4562s)
+  40/67 (6784s)
+  60/67 (8499s)
+
+Computing matched-FP sensitivity...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999998688455502), 1000: np.float64(0.999839037347316)} (actual FP: [0.0, 483.7, 995.7])
+  999::h0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [96.3, 471.6, 929.4])
+  999::h1_true_prod: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [83.9, 434.6, 741.4])
+  999::h2_shuffled_prod: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [67.1, 392.0, 1110.8])
+  999::h3_population_baseline: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [79.4, 427.1, 881.4])
+  999::h4_alt_model: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.95082877089122)} (actual FP: [77.1, 410.5, 1224.0])
+  999::h5_sign_reversed: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [47.5, 486.7, 976.2])
+  999::h6_normalized_prod: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [78.6, 373.3, 1058.6])
+  4242::h0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [102.5, 462.9, 890.6])
+  4242::h1_true_prod: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [127.1, 462.6, 874.7])
+  4242::h2_shuffled_prod: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.857894736842105)} (actual FP: [68.0, 590.1, 1037.8])
+  4242::h3_population_baseline: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [84.6, 416.5, 1082.7])
+  4242::h4_alt_model: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [113.6, 424.7, 801.4])
+  4242::h5_sign_reversed: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [74.5, 537.7, 1001.9])
+  4242::h6_normalized_prod: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.9)} (actual FP: [119.5, 650.7, 955.0])
+  7::h0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [107.6, 488.4, 921.3])
+  7::h1_true_prod: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [96.1, 487.6, 821.1])
+  7::h2_shuffled_prod: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [76.2, 408.9, 1085.4])
+  7::h3_population_baseline: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [89.6, 445.8, 1114.1])
+  7::h4_alt_model: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [86.2, 451.9, 765.4])
+  7::h5_sign_reversed: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [132.4, 637.1, 1081.7])
+  7::h6_normalized_prod: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [79.8, 391.3, 1091.3])
+  123::h0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [92.0, 440.2, 878.5])
+  123::h1_true_prod: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.95082877089122)} (actual FP: [74.5, 393.8, 1165.3])
+  123::h2_shuffled_prod: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.857894736842105)} (actual FP: [70.0, 593.8, 1052.3])
+  123::h3_population_baseline: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [77.2, 399.7, 1078.3])
+  123::h4_alt_model: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [124.2, 629.6, 1092.0])
+  123::h5_sign_reversed: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [91.7, 549.3, 1008.6])
+  123::h6_normalized_prod: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [93.7, 375.6, 1062.4])
+  2024::h0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [94.3, 442.3, 883.4])
+  2024::h1_true_prod: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [122.3, 614.9, 1074.4])
+  2024::h2_shuffled_prod: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.857894736842105)} (actual FP: [68.8, 596.4, 1053.6])
+  2024::h3_population_baseline: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [79.5, 401.6, 1083.2])
+  2024::h4_alt_model: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [110.5, 556.5, 971.2])
+  2024::h5_sign_reversed: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [95.1, 590.7, 1065.9])
+  2024::h6_normalized_prod: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [91.7, 390.9, 1076.3])
+
+======================================================================
+SUMMARY: G1 (confidently-missed) sensitivity, mean +/- SD across seeds
+======================================================================
+  h0_ordinary              FP~100: 8.8%±1.9%  FP~500: 19.6%±1.5%  FP~1000: 26.5%±2.7%
+  h1_true_prod             FP~100: 15.8%±3.2%  FP~500: 31.3%±3.9%  FP~1000: 40.0%±2.8%
+  h2_shuffled_prod         FP~100: 7.6%±2.4%  FP~500: 21.1%±2.3%  FP~1000: 28.3%±2.5%
+  h3_population_baseline   FP~100: 7.6%±2.5%  FP~500: 19.1%±1.3%  FP~1000: 27.4%±3.5%
+  h4_alt_model             FP~100: 16.5%±3.0%  FP~500: 32.7%±4.2%  FP~1000: 40.7%±3.3%
+  h5_sign_reversed         FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 0.0%±0.0%
+  h6_normalized_prod       FP~100: 23.7%±1.0%  FP~500: 35.6%±1.5%  FP~1000: 40.9%±0.7%
+
+E284 complete (9187s). wrote E284_matched_fp.csv

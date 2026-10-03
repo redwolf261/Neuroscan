@@ -1,0 +1,2 @@
+n_difficult_lesions,n_recovered_seed999,n_recovered_seed4242,n_intersection,n_union,jaccard
+119,64,65,63,66,0.9545454545454546

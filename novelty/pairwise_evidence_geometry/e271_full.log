@@ -1,0 +1,37 @@
+Fitting R1-B (identical to E257-B/E269/E270)...
+R1-B fit (154s)
+A_C/E_C/Q_C computation verified exact.
+
+PART 1: extracting component D1 features from 67 TEST subjects...
+  10/67 (166s), 255 components so far
+  20/67 (176s), 402 components so far
+  30/67 (187s), 570 components so far
+  40/67 (198s), 756 components so far
+  50/67 (211s), 1007 components so far
+  60/67 (221s), 1218 components so far
+Total: 1419 (251 TP, 1168 FP)
+Computing A_C/E_C/Q_C/ratio under 103 projections...
+Done (261s)
+A_C             sep(M_P)=0.7578 sep(M_R)=0.7302 sep(M_I)=0.7302 random=[0.6851,0.7521] perm_p=0.0000
+E_C             sep(M_P)=0.7720 sep(M_R)=0.7495 sep(M_I)=0.7495 random=[0.7153,0.7716] perm_p=0.0000
+Q_C             sep(M_P)=0.2439 sep(M_R)=0.2211 sep(M_I)=0.2209 random=[0.2106,0.2364] perm_p=0.0000
+A_C_over_E_C    sep(M_P)=0.2500 sep(M_R)=0.2257 sep(M_I)=0.2257 random=[0.2146,0.2459] perm_p=0.0000
+Part 1 complete, wrote E271_part1_discrimination.csv
+
+PART 2: R1-B+Delta_C vs R1-B+Delta_C+A_C on TEST...
+VAL-selected thresholds: Delta_C>=0.3810  A_C>=8.1006 (363s)
+
+Evaluating on 158 TEST subjects...
+  20/158 (474s)
+  40/158 (577s)
+  60/158 (662s)
+  80/158 (715s)
+  100/158 (781s)
+  120/158 (867s)
+  140/158 (939s)
+
+=== E271 PART 2 RESULTS ===
+delta_only: {'g2a_recovery': 0.5833333333333334, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.772927534565657, 'fp_total': 518516}
+delta_plus_A: {'g2a_recovery': 0.5555555555555556, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7660954194089254, 'fp_total': 516519}
+
+E271 complete (1019s). wrote E271_part1_discrimination.csv, E271_part2_pipeline.csv

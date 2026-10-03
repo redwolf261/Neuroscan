@@ -1,0 +1,18 @@
+{
+  "n_test_subjects": 15,
+  "n_lesions_total": 74,
+  "n_by_phenotype": {
+    "G3_confidently_detected": 49,
+    "G1_confidently_missed": 24,
+    "G2_low_confidence": 1
+  },
+  "size_cutoffs": [
+    8,
+    18
+  ],
+  "seeds": [
+    999,
+    4242
+  ],
+  "elapsed_s": 476.34760427474976
+}

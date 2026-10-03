@@ -1,0 +1,175 @@
+Building TRAIN voxel pool...
+  pool: lesion=5003 neg=14895 (173s)
+R1-B (R_full) fit (173s)
+Total variants: 104 (4 core + 100 random)
+Fitting readouts per projection (TRAIN only)...
+All readouts fit (213s)
+
+--- Batch 1/7: ['D1_full', 'P_P_only', 'perp_P', 'perp_PR', 'perp_rand0', 'perp_rand1', 'perp_rand2', 'perp_rand3', 'perp_rand4', 'perp_rand5', 'perp_rand6', 'perp_rand7', 'perp_rand8', 'perp_rand9', 'perp_rand10', 'perp_rand11'] ---
+  20/158 (226s)
+  40/158 (238s)
+  60/158 (250s)
+  80/158 (263s)
+  100/158 (275s)
+  120/158 (288s)
+  140/158 (300s)
+  D1_full: g2a_recovery=0.5833 dice=0.7669 auc=0.9895 fp=540054
+  P_P_only: g2a_recovery=0.0278 dice=0.7745 auc=0.9732 fp=390397
+  perp_P: g2a_recovery=0.6111 dice=0.7661 auc=0.9892 fp=551952
+  perp_PR: g2a_recovery=0.6111 dice=0.7676 auc=0.9860 fp=553560
+  perp_rand0: g2a_recovery=0.5833 dice=0.7689 auc=0.9887 fp=527754
+  perp_rand1: g2a_recovery=0.5833 dice=0.7675 auc=0.9895 fp=536906
+  perp_rand2: g2a_recovery=0.5833 dice=0.7679 auc=0.9891 fp=533462
+  perp_rand3: g2a_recovery=0.5833 dice=0.7680 auc=0.9887 fp=529553
+  perp_rand4: g2a_recovery=0.5833 dice=0.7670 auc=0.9894 fp=540076
+  perp_rand5: g2a_recovery=0.5833 dice=0.7669 auc=0.9895 fp=539608
+  perp_rand6: g2a_recovery=0.5833 dice=0.7673 auc=0.9890 fp=539087
+  perp_rand7: g2a_recovery=0.5833 dice=0.7673 auc=0.9895 fp=535862
+  perp_rand8: g2a_recovery=0.5833 dice=0.7671 auc=0.9895 fp=539020
+  perp_rand9: g2a_recovery=0.6111 dice=0.7673 auc=0.9896 fp=540351
+  perp_rand10: g2a_recovery=0.5833 dice=0.7672 auc=0.9894 fp=537945
+  perp_rand11: g2a_recovery=0.5833 dice=0.7672 auc=0.9893 fp=536850
+
+--- Batch 2/7: ['perp_rand12', 'perp_rand13', 'perp_rand14', 'perp_rand15', 'perp_rand16', 'perp_rand17', 'perp_rand18', 'perp_rand19', 'perp_rand20', 'perp_rand21', 'perp_rand22', 'perp_rand23', 'perp_rand24', 'perp_rand25', 'perp_rand26', 'perp_rand27'] ---
+  20/158 (355s)
+  40/158 (366s)
+  60/158 (377s)
+  80/158 (388s)
+  100/158 (400s)
+  120/158 (411s)
+  140/158 (424s)
+  perp_rand12: g2a_recovery=0.5833 dice=0.7674 auc=0.9891 fp=535277
+  perp_rand13: g2a_recovery=0.5833 dice=0.7670 auc=0.9892 fp=536034
+  perp_rand14: g2a_recovery=0.5833 dice=0.7677 auc=0.9896 fp=536741
+  perp_rand15: g2a_recovery=0.5833 dice=0.7649 auc=0.9891 fp=542729
+  perp_rand16: g2a_recovery=0.5833 dice=0.7657 auc=0.9889 fp=544047
+  perp_rand17: g2a_recovery=0.5833 dice=0.7677 auc=0.9886 fp=534251
+  perp_rand18: g2a_recovery=0.5833 dice=0.7672 auc=0.9894 fp=537124
+  perp_rand19: g2a_recovery=0.5833 dice=0.7677 auc=0.9892 fp=531417
+  perp_rand20: g2a_recovery=0.5833 dice=0.7662 auc=0.9895 fp=543557
+  perp_rand21: g2a_recovery=0.5833 dice=0.7661 auc=0.9894 fp=543039
+  perp_rand22: g2a_recovery=0.5833 dice=0.7654 auc=0.9895 fp=546750
+  perp_rand23: g2a_recovery=0.5833 dice=0.7658 auc=0.9894 fp=544645
+  perp_rand24: g2a_recovery=0.5833 dice=0.7670 auc=0.9896 fp=539429
+  perp_rand25: g2a_recovery=0.5833 dice=0.7679 auc=0.9892 fp=533733
+  perp_rand26: g2a_recovery=0.5833 dice=0.7671 auc=0.9893 fp=540316
+  perp_rand27: g2a_recovery=0.6389 dice=0.7671 auc=0.9883 fp=531592
+
+--- Batch 3/7: ['perp_rand28', 'perp_rand29', 'perp_rand30', 'perp_rand31', 'perp_rand32', 'perp_rand33', 'perp_rand34', 'perp_rand35', 'perp_rand36', 'perp_rand37', 'perp_rand38', 'perp_rand39', 'perp_rand40', 'perp_rand41', 'perp_rand42', 'perp_rand43'] ---
+  20/158 (473s)
+  40/158 (485s)
+  60/158 (497s)
+  80/158 (509s)
+  100/158 (521s)
+  120/158 (535s)
+  140/158 (548s)
+  perp_rand28: g2a_recovery=0.5833 dice=0.7646 auc=0.9889 fp=548004
+  perp_rand29: g2a_recovery=0.5833 dice=0.7669 auc=0.9895 fp=539748
+  perp_rand30: g2a_recovery=0.5833 dice=0.7683 auc=0.9883 fp=527040
+  perp_rand31: g2a_recovery=0.5833 dice=0.7675 auc=0.9894 fp=536328
+  perp_rand32: g2a_recovery=0.5833 dice=0.7691 auc=0.9894 fp=532957
+  perp_rand33: g2a_recovery=0.5833 dice=0.7676 auc=0.9895 fp=536502
+  perp_rand34: g2a_recovery=0.5833 dice=0.7669 auc=0.9890 fp=535880
+  perp_rand35: g2a_recovery=0.5833 dice=0.7678 auc=0.9894 fp=535633
+  perp_rand36: g2a_recovery=0.5833 dice=0.7671 auc=0.9894 fp=537346
+  perp_rand37: g2a_recovery=0.5833 dice=0.7688 auc=0.9896 fp=532400
+  perp_rand38: g2a_recovery=0.6111 dice=0.7689 auc=0.9895 fp=532236
+  perp_rand39: g2a_recovery=0.5833 dice=0.7651 auc=0.9891 fp=545011
+  perp_rand40: g2a_recovery=0.5833 dice=0.7666 auc=0.9895 fp=541431
+  perp_rand41: g2a_recovery=0.5833 dice=0.7684 auc=0.9891 fp=530444
+  perp_rand42: g2a_recovery=0.6111 dice=0.7678 auc=0.9896 fp=537070
+  perp_rand43: g2a_recovery=0.5833 dice=0.7670 auc=0.9896 fp=539981
+
+--- Batch 4/7: ['perp_rand44', 'perp_rand45', 'perp_rand46', 'perp_rand47', 'perp_rand48', 'perp_rand49', 'perp_rand50', 'perp_rand51', 'perp_rand52', 'perp_rand53', 'perp_rand54', 'perp_rand55', 'perp_rand56', 'perp_rand57', 'perp_rand58', 'perp_rand59'] ---
+  20/158 (608s)
+  40/158 (620s)
+  60/158 (633s)
+  80/158 (646s)
+  100/158 (659s)
+  120/158 (671s)
+  140/158 (684s)
+  perp_rand44: g2a_recovery=0.5833 dice=0.7668 auc=0.9896 fp=541014
+  perp_rand45: g2a_recovery=0.5833 dice=0.7682 auc=0.9890 fp=532440
+  perp_rand46: g2a_recovery=0.6111 dice=0.7688 auc=0.9876 fp=524609
+  perp_rand47: g2a_recovery=0.5833 dice=0.7668 auc=0.9895 fp=540888
+  perp_rand48: g2a_recovery=0.5833 dice=0.7669 auc=0.9895 fp=539953
+  perp_rand49: g2a_recovery=0.5833 dice=0.7695 auc=0.9889 fp=522109
+  perp_rand50: g2a_recovery=0.6111 dice=0.7650 auc=0.9894 fp=547519
+  perp_rand51: g2a_recovery=0.5833 dice=0.7646 auc=0.9886 fp=550119
+  perp_rand52: g2a_recovery=0.6111 dice=0.7691 auc=0.9893 fp=527352
+  perp_rand53: g2a_recovery=0.5833 dice=0.7681 auc=0.9893 fp=531017
+  perp_rand54: g2a_recovery=0.5833 dice=0.7654 auc=0.9888 fp=544921
+  perp_rand55: g2a_recovery=0.5833 dice=0.7673 auc=0.9884 fp=528964
+  perp_rand56: g2a_recovery=0.5833 dice=0.7670 auc=0.9895 fp=539210
+  perp_rand57: g2a_recovery=0.6111 dice=0.7676 auc=0.9889 fp=538577
+  perp_rand58: g2a_recovery=0.5833 dice=0.7660 auc=0.9896 fp=544242
+  perp_rand59: g2a_recovery=0.5833 dice=0.7677 auc=0.9894 fp=534421
+
+--- Batch 5/7: ['perp_rand60', 'perp_rand61', 'perp_rand62', 'perp_rand63', 'perp_rand64', 'perp_rand65', 'perp_rand66', 'perp_rand67', 'perp_rand68', 'perp_rand69', 'perp_rand70', 'perp_rand71', 'perp_rand72', 'perp_rand73', 'perp_rand74', 'perp_rand75'] ---
+  20/158 (728s)
+  40/158 (740s)
+  60/158 (753s)
+  80/158 (765s)
+  100/158 (778s)
+  120/158 (790s)
+  140/158 (803s)
+  perp_rand60: g2a_recovery=0.5833 dice=0.7677 auc=0.9893 fp=536512
+  perp_rand61: g2a_recovery=0.5833 dice=0.7673 auc=0.9898 fp=540372
+  perp_rand62: g2a_recovery=0.5833 dice=0.7667 auc=0.9892 fp=536178
+  perp_rand63: g2a_recovery=0.6111 dice=0.7669 auc=0.9895 fp=540534
+  perp_rand64: g2a_recovery=0.5833 dice=0.7656 auc=0.9890 fp=540059
+  perp_rand65: g2a_recovery=0.6111 dice=0.7659 auc=0.9892 fp=545836
+  perp_rand66: g2a_recovery=0.5833 dice=0.7668 auc=0.9894 fp=538525
+  perp_rand67: g2a_recovery=0.6111 dice=0.7675 auc=0.9890 fp=533780
+  perp_rand68: g2a_recovery=0.5833 dice=0.7665 auc=0.9893 fp=539929
+  perp_rand69: g2a_recovery=0.6111 dice=0.7664 auc=0.9891 fp=540627
+  perp_rand70: g2a_recovery=0.5833 dice=0.7677 auc=0.9896 fp=535749
+  perp_rand71: g2a_recovery=0.6389 dice=0.7688 auc=0.9888 fp=527581
+  perp_rand72: g2a_recovery=0.5833 dice=0.7666 auc=0.9895 fp=540052
+  perp_rand73: g2a_recovery=0.5833 dice=0.7665 auc=0.9894 fp=540026
+  perp_rand74: g2a_recovery=0.5833 dice=0.7669 auc=0.9894 fp=538888
+  perp_rand75: g2a_recovery=0.5833 dice=0.7664 auc=0.9895 fp=542125
+
+--- Batch 6/7: ['perp_rand76', 'perp_rand77', 'perp_rand78', 'perp_rand79', 'perp_rand80', 'perp_rand81', 'perp_rand82', 'perp_rand83', 'perp_rand84', 'perp_rand85', 'perp_rand86', 'perp_rand87', 'perp_rand88', 'perp_rand89', 'perp_rand90', 'perp_rand91'] ---
+  20/158 (849s)
+  40/158 (861s)
+  60/158 (873s)
+  80/158 (885s)
+  100/158 (897s)
+  120/158 (909s)
+  140/158 (922s)
+  perp_rand76: g2a_recovery=0.6111 dice=0.7669 auc=0.9892 fp=539319
+  perp_rand77: g2a_recovery=0.5833 dice=0.7668 auc=0.9896 fp=539870
+  perp_rand78: g2a_recovery=0.5833 dice=0.7683 auc=0.9890 fp=528057
+  perp_rand79: g2a_recovery=0.5833 dice=0.7672 auc=0.9899 fp=544241
+  perp_rand80: g2a_recovery=0.5833 dice=0.7672 auc=0.9896 fp=539102
+  perp_rand81: g2a_recovery=0.5833 dice=0.7666 auc=0.9895 fp=543048
+  perp_rand82: g2a_recovery=0.5833 dice=0.7682 auc=0.9890 fp=528664
+  perp_rand83: g2a_recovery=0.6111 dice=0.7673 auc=0.9894 fp=538269
+  perp_rand84: g2a_recovery=0.5833 dice=0.7693 auc=0.9875 fp=514147
+  perp_rand85: g2a_recovery=0.6111 dice=0.7675 auc=0.9893 fp=547598
+  perp_rand86: g2a_recovery=0.5833 dice=0.7665 auc=0.9896 fp=542292
+  perp_rand87: g2a_recovery=0.6111 dice=0.7675 auc=0.9895 fp=538702
+  perp_rand88: g2a_recovery=0.5833 dice=0.7683 auc=0.9893 fp=532231
+  perp_rand89: g2a_recovery=0.5833 dice=0.7668 auc=0.9894 fp=539835
+  perp_rand90: g2a_recovery=0.5833 dice=0.7657 auc=0.9896 fp=545792
+  perp_rand91: g2a_recovery=0.5833 dice=0.7667 auc=0.9895 fp=540305
+
+--- Batch 7/7: ['perp_rand92', 'perp_rand93', 'perp_rand94', 'perp_rand95', 'perp_rand96', 'perp_rand97', 'perp_rand98', 'perp_rand99'] ---
+  20/158 (965s)
+  40/158 (974s)
+  60/158 (984s)
+  80/158 (994s)
+  100/158 (1003s)
+  120/158 (1013s)
+  140/158 (1022s)
+  perp_rand92: g2a_recovery=0.5833 dice=0.7698 auc=0.9892 fp=528271
+  perp_rand93: g2a_recovery=0.5833 dice=0.7667 auc=0.9895 fp=540956
+  perp_rand94: g2a_recovery=0.5833 dice=0.7669 auc=0.9896 fp=541898
+  perp_rand95: g2a_recovery=0.5833 dice=0.7664 auc=0.9892 fp=540616
+  perp_rand96: g2a_recovery=0.5833 dice=0.7668 auc=0.9894 fp=541274
+  perp_rand97: g2a_recovery=0.5833 dice=0.7671 auc=0.9895 fp=539420
+  perp_rand98: g2a_recovery=0.6111 dice=0.7677 auc=0.9895 fp=535844
+  perp_rand99: g2a_recovery=0.6111 dice=0.7661 auc=0.9895 fp=545215
+
+E272 complete (1039s). wrote E272_results.csv

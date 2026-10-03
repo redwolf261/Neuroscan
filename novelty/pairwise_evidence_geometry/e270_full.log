@@ -1,0 +1,32 @@
+Fitting R1-B (identical to E257-B/E269)...
+R1-B fit (170s)
+A_C/Q_C computation verified exact.
+
+Extracting component D1 features from 67 TEST subjects...
+  10/67 (183s), 255 components so far
+  20/67 (194s), 402 components so far
+  30/67 (205s), 570 components so far
+  40/67 (216s), 756 components so far
+  50/67 (230s), 1007 components so far
+  60/67 (240s), 1218 components so far
+
+Total components: 1419 (251 TP, 1168 FP)
+
+Computing A_C, Q_C under M_P, M_R, M_I, and 100 random-direction projections...
+A_C/Q_C computed for all components x 103 projections (279s)
+
+=== E270 RESULTS (Q_C separation, Mann-Whitney AUC-equivalent, TP vs FP) ===
+sep(Q_C | M_P)    = 0.2439   (hypothesis)
+sep(Q_C | M_R)    = 0.2211   (Control 3: R1-B-orthogonal)
+sep(Q_C | M_I)    = 0.2209   (Control 1: raw D1, no projection)
+sep(Q_C | random) = median 0.2200, range [0.2106, 0.2364] (n=100, Control 2)
+Permutation p-value (M_P >= random): 0.0000
+
+=== A_C separation (magnitude only, secondary) ===
+sep(A_C | M_P)    = 0.7578
+sep(A_C | M_R)    = 0.7302
+sep(A_C | M_I)    = 0.7302
+sep(A_C | random) = median 0.7296, range [0.6851, 0.7521]
+Permutation p-value (M_P >= random): 0.0000
+
+E270 complete (279s). wrote E270_summary.csv, E270_components.csv

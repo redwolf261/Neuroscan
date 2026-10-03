@@ -1,0 +1,64 @@
+Extracting R1-B shell negatives with hardness properties...
+  262 lesions, 7860 shell negatives, 5003 ET positives (208s)
+
+Building cross-lesion WT candidate pool...
+  262 lesions contributed WT candidates (349s)
+  total candidate pool: 3930 voxels (349s)
+
+Matching each shell negative to its nearest cross-lesion candidate...
+  matched=7859 dropped=1 (drop_rate=0.0001) (350s)
+R1-B fit: n_shell=7447 n_distant=7035 (404s)
+R_matched fit: n_matched=7447 n_distant=7035 (405s)
+
+Building non-circular phenotype groups on 67 TEST subjects...
+  20/67 (410s)
+  40/67 (416s)
+  60/67 (422s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (identical grid to E274-E279)...
+  20/67 (439s)
+  40/67 (453s)
+  60/67 (468s)
+
+Computing matched-FP sensitivity per head...
+  H0_prod FP~100 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  H0_prod FP~100 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  H0_prod FP~100 (t=1.0000): G3_confidently_detected      sensitivity=0.0000
+  H0_prod FP~100 (t=1.0000): ALL                          sensitivity=0.0000
+  H0_prod FP~500 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  H0_prod FP~500 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  H0_prod FP~500 (t=1.0000): G3_confidently_detected      sensitivity=0.7500
+  H0_prod FP~500 (t=1.0000): ALL                          sensitivity=0.4390
+  H0_prod FP~1000 (t=0.9998): G1_confidently_missed        sensitivity=0.0000
+  H0_prod FP~1000 (t=0.9998): G2_low_confidence            sensitivity=0.0000
+  H0_prod FP~1000 (t=0.9998): G3_confidently_detected      sensitivity=0.8452
+  H0_prod FP~1000 (t=0.9998): ALL                          sensitivity=0.4948
+  H1_r1b FP~100 (t=0.9684): G1_confidently_missed        sensitivity=0.0973
+  H1_r1b FP~100 (t=0.9684): G2_low_confidence            sensitivity=0.3333
+  H1_r1b FP~100 (t=0.9684): G3_confidently_detected      sensitivity=0.6964
+  H1_r1b FP~100 (t=0.9684): ALL                          sensitivity=0.4530
+  H1_r1b FP~500 (t=0.9223): G1_confidently_missed        sensitivity=0.2035
+  H1_r1b FP~500 (t=0.9223): G2_low_confidence            sensitivity=0.8333
+  H1_r1b FP~500 (t=0.9223): G3_confidently_detected      sensitivity=0.9524
+  H1_r1b FP~500 (t=0.9223): ALL                          sensitivity=0.6551
+  H1_r1b FP~1000 (t=0.8808): G1_confidently_missed        sensitivity=0.2389
+  H1_r1b FP~1000 (t=0.8808): G2_low_confidence            sensitivity=0.8333
+  H1_r1b FP~1000 (t=0.8808): G3_confidently_detected      sensitivity=0.9821
+  H1_r1b FP~1000 (t=0.8808): ALL                          sensitivity=0.6864
+  H5_matched FP~100 (t=0.9875): G1_confidently_missed        sensitivity=0.0531
+  H5_matched FP~100 (t=0.9875): G2_low_confidence            sensitivity=0.3333
+  H5_matched FP~100 (t=0.9875): G3_confidently_detected      sensitivity=0.7262
+  H5_matched FP~100 (t=0.9875): ALL                          sensitivity=0.4530
+  H5_matched FP~500 (t=0.9502): G1_confidently_missed        sensitivity=0.1681
+  H5_matched FP~500 (t=0.9502): G2_low_confidence            sensitivity=0.6667
+  H5_matched FP~500 (t=0.9502): G3_confidently_detected      sensitivity=0.9702
+  H5_matched FP~500 (t=0.9502): ALL                          sensitivity=0.6481
+  H5_matched FP~1000 (t=0.9000): G1_confidently_missed        sensitivity=0.2566
+  H5_matched FP~1000 (t=0.9000): G2_low_confidence            sensitivity=0.8333
+  H5_matched FP~1000 (t=0.9000): G3_confidently_detected      sensitivity=0.9821
+  H5_matched FP~1000 (t=0.9000): ALL                          sensitivity=0.6934
+
+Match quality: 7859 matched, 1 dropped (drop_rate=0.0001)
+E280 complete (509s). wrote E280_results.csv

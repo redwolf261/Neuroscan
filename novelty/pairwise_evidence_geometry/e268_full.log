@@ -1,0 +1,68 @@
+Building training voxel pool (TRAIN subjects only)...
+  pool: lesion=5003 neg=14895 (138s)
+R-full (R1-B) fit (138s)
+R-P, R-perpP fit (139s)
+
+SVD per-direction usage (|w_P.v_k|, |w_R.v_k|):
+  v0: a_k=1.4132 b_k=0.2859 diff=1.1273 singular_value=1256.2199
+  v1: a_k=1.0182 b_k=0.2273 diff=0.7909 singular_value=1002.4451
+  v2: a_k=0.3476 b_k=0.1338 diff=0.2139 singular_value=717.0567
+  v3: a_k=0.5278 b_k=0.2110 diff=0.3167 singular_value=434.7633
+  v4: a_k=0.7181 b_k=0.0424 diff=0.6757 singular_value=255.9546
+  v5: a_k=1.5406 b_k=0.8165 diff=0.7241 singular_value=224.6356
+  v6: a_k=1.3045 b_k=0.5818 diff=0.7227 singular_value=203.7723
+  v7: a_k=0.7453 b_k=0.0004 diff=0.7449 singular_value=188.9721
+  v8: a_k=0.4940 b_k=0.7311 diff=0.2371 singular_value=147.5733
+  v9: a_k=0.9678 b_k=0.1817 diff=0.7861 singular_value=128.4355
+  v10: a_k=0.0494 b_k=0.2454 diff=0.1961 singular_value=97.8820
+  v11: a_k=0.4453 b_k=0.5703 diff=0.1250 singular_value=89.4893
+  v12: a_k=0.4506 b_k=0.5071 diff=0.0565 singular_value=82.5561
+  v13: a_k=0.0747 b_k=0.2286 diff=0.1539 singular_value=75.2666
+  v14: a_k=0.1298 b_k=0.3756 diff=0.2459 singular_value=71.9713
+  v15: a_k=0.0864 b_k=0.0470 diff=0.0394 singular_value=61.3494
+  v16: a_k=0.3334 b_k=0.1714 diff=0.1620 singular_value=58.3808
+  v17: a_k=0.1564 b_k=0.6001 diff=0.4437 singular_value=49.6016
+  v18: a_k=0.0577 b_k=0.0120 diff=0.0457 singular_value=47.6338
+  v19: a_k=0.0896 b_k=0.7833 diff=0.6937 singular_value=42.4798
+  v20: a_k=0.3747 b_k=0.0266 diff=0.3481 singular_value=39.0266
+  v21: a_k=0.0098 b_k=0.6292 diff=0.6194 singular_value=36.5495
+  v22: a_k=0.2106 b_k=0.3411 diff=0.1305 singular_value=32.2715
+  v23: a_k=0.1320 b_k=1.5990 diff=1.4670 singular_value=26.5257
+  v24: a_k=0.0439 b_k=0.4811 diff=0.4372 singular_value=19.9150
+  v25: a_k=0.1544 b_k=1.9843 diff=1.8299 singular_value=16.2428
+  v26: a_k=0.0825 b_k=1.0051 diff=0.9226 singular_value=13.8346
+  v27: a_k=0.1178 b_k=0.6350 diff=0.5172 singular_value=12.6693
+  v28: a_k=0.2012 b_k=1.1463 diff=0.9451 singular_value=10.6291
+  v29: a_k=0.0404 b_k=1.6090 diff=1.5686 singular_value=8.0291
+  v30: a_k=0.2710 b_k=0.3830 diff=0.1120 singular_value=7.0152
+  v31: a_k=0.0342 b_k=0.0173 diff=0.0169 singular_value=2.1327
+K-sweep readouts fit (140s)
+span(w_P,w_R): cos(theta)=0.2092 theta=77.92deg (140s)
+
+Evaluating 12 variants on 158 TEST subjects...
+  20/158 (158s)
+  40/158 (178s)
+  60/158 (199s)
+  80/158 (220s)
+  100/158 (240s)
+  120/158 (261s)
+  140/158 (282s)
+
+Computing recovery + AUC/PR-AUC per variant...
+
+=== E268 TEST results ===
+R_full: {'g2a_recovery': 0.5833333333333334, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7668671627436342, 'voxel_auc': 0.9897769207425062, 'voxel_pr_auc': 0.8864060219763624, 'fp_total': 540054, 'fp_wt_not_tc': 229450, 'fp_distant_bg': 45589}
+R_P: {'g2a_recovery': 0.027777777777777776, 'det_recovery': 0.984375, 'g2b_recovery': 0.9821428571428571, 'et_dice_mean': 0.7745276777850044, 'voxel_auc': 0.9740351553858273, 'voxel_pr_auc': 0.9100857848292899, 'fp_total': 390397, 'fp_wt_not_tc': 108732, 'fp_distant_bg': 3021}
+R_perpP: {'g2a_recovery': 0.6111111111111112, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7659907829044621, 'voxel_auc': 0.9894489798561523, 'voxel_pr_auc': 0.8864417982838705, 'fp_total': 552449, 'fp_wt_not_tc': 229268, 'fp_distant_bg': 52926}
+R_k1: {'g2a_recovery': 0.8611111111111112, 'det_recovery': 0.875, 'g2b_recovery': 0.9732142857142857, 'et_dice_mean': 0.020075906225491155, 'voxel_auc': 0.4783023297216092, 'voxel_pr_auc': 0.016334260678999384, 'fp_total': 92120014, 'fp_wt_not_tc': 1961665, 'fp_distant_bg': 87303290}
+R_k2: {'g2a_recovery': 0.9166666666666666, 'det_recovery': 0.859375, 'g2b_recovery': 0.9821428571428571, 'et_dice_mean': 0.02705086343120047, 'voxel_auc': 0.5060729946733696, 'voxel_pr_auc': 0.016325922508310435, 'fp_total': 83928960, 'fp_wt_not_tc': 2944071, 'fp_distant_bg': 77784155}
+R_k4: {'g2a_recovery': 0.1111111111111111, 'det_recovery': 0.984375, 'g2b_recovery': 0.9017857142857143, 'et_dice_mean': 0.6407254264640556, 'voxel_auc': 0.993523834110997, 'voxel_pr_auc': 0.8501295748192682, 'fp_total': 1708258, 'fp_wt_not_tc': 185794, 'fp_distant_bg': 73226}
+R_k8: {'g2a_recovery': 0.19444444444444445, 'det_recovery': 0.984375, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7633509571044835, 'voxel_auc': 0.9832188800001527, 'voxel_pr_auc': 0.9097619377557854, 'fp_total': 433519, 'fp_wt_not_tc': 149055, 'fp_distant_bg': 2308}
+R_k16: {'g2a_recovery': 0.19444444444444445, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7774378146235679, 'voxel_auc': 0.9739501236929105, 'voxel_pr_auc': 0.9028291705711734, 'fp_total': 398845, 'fp_wt_not_tc': 131286, 'fp_distant_bg': 4450}
+R_k24: {'g2a_recovery': 0.4444444444444444, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.779366215317524, 'voxel_auc': 0.9887182836819984, 'voxel_pr_auc': 0.8929960117024017, 'fp_total': 484726, 'fp_wt_not_tc': 196845, 'fp_distant_bg': 12697}
+R_k32: {'g2a_recovery': 0.5833333333333334, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.766980452450832, 'voxel_auc': 0.9897718302043507, 'voxel_pr_auc': 0.8864052103113039, 'fp_total': 539588, 'fp_wt_not_tc': 229329, 'fp_distant_bg': 45314}
+R_S: {'g2a_recovery': 0.5833333333333334, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.766910286994729, 'voxel_auc': 0.9897790693967743, 'voxel_pr_auc': 0.8864880652616889, 'fp_total': 540192, 'fp_wt_not_tc': 229484, 'fp_distant_bg': 45575}
+R_Sperp: {'g2a_recovery': 0.6111111111111112, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7677992334792135, 'voxel_auc': 0.9864035171512954, 'voxel_pr_auc': 0.88349415512516, 'fp_total': 553022, 'fp_wt_not_tc': 231091, 'fp_distant_bg': 65723}
+
+cos(w_P,w_R)=0.2092  theta=77.92deg
+E268 complete (829s). wrote E268_results.csv, E268_svd_usage.csv

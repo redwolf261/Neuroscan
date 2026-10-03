@@ -1,0 +1,22 @@
+Processing 262 training lesions (R1-B shell + SAM-equivalent local, with coordinates)...
+  50/262 lesions (57s)
+  100/262 lesions (113s)
+  150/262 lesions (171s)
+  200/262 lesions (226s)
+  250/262 lesions (282s)
+
+Total rows: 12863 (296s)
+
+=== Summary: R1B_shell vs SAM_local ===
+R1B_shell: n=7860
+  dist_to_et: mean=1.643 median=1.414 min=1.000 max=3.000
+  prod_prob: mean=0.1615 median=0.0000
+  d1_dist_to_et_mean: mean=15.1199 median=15.1264
+  category: WT_not_TC=25.9% TC=60.1% outside_tumor=14.0%
+SAM_local: n=5003
+  dist_to_et: mean=2.763 median=2.236 min=1.000 max=9.899
+  prod_prob: mean=0.1049 median=0.0000
+  d1_dist_to_et_mean: mean=17.2776 median=17.3474
+  category: WT_not_TC=29.4% TC=48.9% outside_tumor=21.6%
+
+E279 complete (296s). wrote E279_negatives.csv

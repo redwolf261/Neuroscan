@@ -1,0 +1,61 @@
+Fitting R1-B (B, curated negatives)...
+  R1-B pool size=19898 (5003 ET, 14895 curated neg) (129s)
+
+Fitting conventional head (C, uniform-random negatives)...
+  conventional pool: 4162737 ET voxels (ALL, dense), 14895 uniform-random non-ET voxels (target matched to R1-B's 14895) (200s)
+Conventional head fit (235s)
+
+Building non-circular phenotype groups on 67 TEST subjects (IDENTICAL to E274, production + ground truth ONLY)...
+  20/67 (241s)
+  40/67 (247s)
+  60/67 (254s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (IDENTICAL grid to E274, logit-spaced near 1.0)...
+  20/67 (272s)
+  40/67 (286s)
+  60/67 (301s)
+prod: matched thresholds = {100: np.float64(1.0), 500: np.float64(0.99999847), 1000: np.float64(0.99982386)} (actual mean FP: [0.0, 490.6, 1006.5])
+r1b: matched thresholds = {100: np.float64(0.96843795), 500: np.float64(0.92234019), 1000: np.float64(0.88079708)} (actual mean FP: [99.5, 475.8, 929.4])
+conv: matched thresholds = {100: np.float64(0.99997361), 500: np.float64(0.99971692), 1000: np.float64(0.99882553)} (actual mean FP: [114.7, 514.6, 1117.3])
+
+Computing matched-FP sensitivity by phenotype...
+  prod FP~100 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~100 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  prod FP~100 (t=1.0000): G3_confidently_detected      sensitivity=0.0000
+  prod FP~100 (t=1.0000): ALL                          sensitivity=0.0000
+  prod FP~500 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~500 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  prod FP~500 (t=1.0000): G3_confidently_detected      sensitivity=0.7500
+  prod FP~500 (t=1.0000): ALL                          sensitivity=0.4390
+  prod FP~1000 (t=0.9998): G1_confidently_missed        sensitivity=0.0000
+  prod FP~1000 (t=0.9998): G2_low_confidence            sensitivity=0.0000
+  prod FP~1000 (t=0.9998): G3_confidently_detected      sensitivity=0.8452
+  prod FP~1000 (t=0.9998): ALL                          sensitivity=0.4948
+  r1b FP~100 (t=0.9684): G1_confidently_missed        sensitivity=0.0973
+  r1b FP~100 (t=0.9684): G2_low_confidence            sensitivity=0.3333
+  r1b FP~100 (t=0.9684): G3_confidently_detected      sensitivity=0.7083
+  r1b FP~100 (t=0.9684): ALL                          sensitivity=0.4599
+  r1b FP~500 (t=0.9223): G1_confidently_missed        sensitivity=0.2035
+  r1b FP~500 (t=0.9223): G2_low_confidence            sensitivity=0.6667
+  r1b FP~500 (t=0.9223): G3_confidently_detected      sensitivity=0.9524
+  r1b FP~500 (t=0.9223): ALL                          sensitivity=0.6516
+  r1b FP~1000 (t=0.8808): G1_confidently_missed        sensitivity=0.2478
+  r1b FP~1000 (t=0.8808): G2_low_confidence            sensitivity=0.8333
+  r1b FP~1000 (t=0.8808): G3_confidently_detected      sensitivity=0.9762
+  r1b FP~1000 (t=0.8808): ALL                          sensitivity=0.6864
+  conv FP~100 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  conv FP~100 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  conv FP~100 (t=1.0000): G3_confidently_detected      sensitivity=0.5000
+  conv FP~100 (t=1.0000): ALL                          sensitivity=0.2927
+  conv FP~500 (t=0.9997): G1_confidently_missed        sensitivity=0.0000
+  conv FP~500 (t=0.9997): G2_low_confidence            sensitivity=0.0000
+  conv FP~500 (t=0.9997): G3_confidently_detected      sensitivity=0.6667
+  conv FP~500 (t=0.9997): ALL                          sensitivity=0.3902
+  conv FP~1000 (t=0.9988): G1_confidently_missed        sensitivity=0.0531
+  conv FP~1000 (t=0.9988): G2_low_confidence            sensitivity=0.1667
+  conv FP~1000 (t=0.9988): G3_confidently_detected      sensitivity=0.7857
+  conv FP~1000 (t=0.9988): ALL                          sensitivity=0.4843
+
+E275 complete (343s). wrote E275_matched_fp.csv

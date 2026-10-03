@@ -1,0 +1,48 @@
+======================================================================
+FROZEN THRESHOLDS (set before touching the test cohort)
+======================================================================
+  tau_P = 0.5 (= TAU, the existing G1-definition threshold)
+  tau_R = 0.95082877089122 (T2's own FP~500 threshold, E283 development cohort)
+  s (min component size) = 5 (= MIN_VOX, existing constant)
+
+Rebuilding E286's exact 125-subject locked test cohort...
+  rebuilt test cohort: 125 subjects (must match E286's own N3=125)
+  leakage audit: PASS (0 overlap with production training, 0 overlap with prior experiments)
+
+Fitting H1 (ordinary, for reference)/H3 (MRD-T2) on det_train, 5 seeds...
+  seed=999 fit (207s)
+  seed=4242 fit (361s)
+  seed=7 fit (510s)
+  seed=123 fit (662s)
+  seed=2024 fit (813s)
+
+Building G1/G2/G3 phenotype groups on 125 subjects...
+  20/125 (820s)
+  40/125 (826s)
+  60/125 (833s)
+  80/125 (839s)
+  100/125 (846s)
+  120/125 (854s)
+  phenotype group sizes: {'G3_confidently_detected': 250, 'G1_confidently_missed': 162, 'G2_low_confidence': 10}
+
+Computing 5 conditions (A-E) per subject per seed...
+  20/125 (866s)
+  40/125 (875s)
+  60/125 (884s)
+  80/125 (893s)
+  100/125 (903s)
+  120/125 (912s)
+
+======================================================================
+RESULTS: pooled voxel confusion matrix + G1 recovery, per seed
+======================================================================
+wrote E287_results.csv
+
+SUMMARY (mean +/- SD across seeds):
+  A_prod                       Dice=0.8830±0.0000  Precision=0.9264  Recall=0.8435  IoU=0.7905  G1_sens=0.0%±0.0%
+  B_mrd_alone                  Dice=0.0243±0.0020  Precision=0.5118  Recall=0.0125  IoU=0.0123  G1_sens=18.8%±1.3%
+  C_prod_plus_raw_mrd          Dice=0.8812±0.0003  Precision=0.9185  Recall=0.8467  IoU=0.7876  G1_sens=18.8%±1.3%
+  D_prod_plus_unfiltered_cc    Dice=0.8812±0.0003  Precision=0.9185  Recall=0.8467  IoU=0.7876  G1_sens=18.8%±1.3%
+  E_prod_plus_filtered_cc      Dice=0.8818±0.0002  Precision=0.9227  Recall=0.8444  IoU=0.7886  G1_sens=10.5%±0.4%
+
+E287 complete (915s).

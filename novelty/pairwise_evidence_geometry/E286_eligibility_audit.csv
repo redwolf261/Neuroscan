@@ -1,0 +1,8 @@
+stage,n
+Original discovered cohort (train+val),1251
+Excluded: used in production training (train split),1126
+Production-val (never seen by production),125
+Excluded: touched by a prior E240-E285 experiment,0
+Fresh + never-seen-by-production,125
+Excluded: preprocessing/D1-feature failure,0
+FINAL E286 TEST COHORT,125

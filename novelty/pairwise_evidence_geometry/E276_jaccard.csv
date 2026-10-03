@@ -1,0 +1,5 @@
+condition,mean_jaccard,pairwise
+R0_random,0.956280193236715,0.9457;0.9565;0.9667
+R1_distant,1.0,1.0000;1.0000;1.0000
+R2_shell,1.0,1.0000;1.0000;1.0000
+R3_shell_distant,1.0,1.0000;1.0000;1.0000

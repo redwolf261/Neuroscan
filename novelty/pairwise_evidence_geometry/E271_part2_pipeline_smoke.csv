@@ -1,0 +1,3 @@
+variant,g2a_recovery,det_recovery,g2b_recovery,et_dice_mean,fp_total
+delta_only,0.4666666666666667,1.0,1.0,0.6895846482028403,58450
+delta_plus_A,0.4666666666666667,1.0,1.0,0.6895885860793526,58429

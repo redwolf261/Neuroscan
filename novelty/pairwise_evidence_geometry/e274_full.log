@@ -1,0 +1,49 @@
+Fitting R1-B seed=999 (primary)...
+  done (141s)
+Fitting R1-B seed=4242 (reproducibility check)...
+  done (279s)
+
+Building non-circular phenotype groups on 67 TEST subjects (production + ground truth ONLY)...
+  20/67 (285s)
+  40/67 (292s)
+  60/67 (300s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds for production and R1-B (matched-FP search)...
+  20/67 (315s)
+  40/67 (328s)
+  60/67 (341s)
+prod: matched thresholds = {100: np.float64(1.0), 500: np.float64(0.99999847), 1000: np.float64(0.99982386)} (actual mean FP: [0.0, 490.6, 1006.5])
+r1b: matched thresholds = {100: np.float64(0.96843795), 500: np.float64(0.92234019), 1000: np.float64(0.88079708)} (actual mean FP: [99.5, 475.8, 929.4])
+
+Computing matched-FP sensitivity by phenotype...
+  prod FP~100 (t=1.000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~100 (t=1.000): G2_low_confidence            sensitivity=0.0000
+  prod FP~100 (t=1.000): G3_confidently_detected      sensitivity=0.0000
+  prod FP~100 (t=1.000): ALL                          sensitivity=0.0000
+  prod FP~500 (t=1.000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~500 (t=1.000): G2_low_confidence            sensitivity=0.0000
+  prod FP~500 (t=1.000): G3_confidently_detected      sensitivity=0.7500
+  prod FP~500 (t=1.000): ALL                          sensitivity=0.4390
+  prod FP~1000 (t=1.000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~1000 (t=1.000): G2_low_confidence            sensitivity=0.0000
+  prod FP~1000 (t=1.000): G3_confidently_detected      sensitivity=0.8452
+  prod FP~1000 (t=1.000): ALL                          sensitivity=0.4948
+  r1b FP~100 (t=0.968): G1_confidently_missed        sensitivity=0.0973
+  r1b FP~100 (t=0.968): G2_low_confidence            sensitivity=0.3333
+  r1b FP~100 (t=0.968): G3_confidently_detected      sensitivity=0.7083
+  r1b FP~100 (t=0.968): ALL                          sensitivity=0.4599
+  r1b FP~500 (t=0.922): G1_confidently_missed        sensitivity=0.2035
+  r1b FP~500 (t=0.922): G2_low_confidence            sensitivity=0.6667
+  r1b FP~500 (t=0.922): G3_confidently_detected      sensitivity=0.9524
+  r1b FP~500 (t=0.922): ALL                          sensitivity=0.6516
+  r1b FP~1000 (t=0.881): G1_confidently_missed        sensitivity=0.2478
+  r1b FP~1000 (t=0.881): G2_low_confidence            sensitivity=0.8333
+  r1b FP~1000 (t=0.881): G3_confidently_detected      sensitivity=0.9762
+  r1b FP~1000 (t=0.881): ALL                          sensitivity=0.6864
+
+Computing 2-seed Jaccard overlap (TAU=0.5, G1+G2 difficult lesions)...
+seed999 recovered: 64/119  seed4242 recovered: 65/119  intersection: 63  union: 66  Jaccard: 0.9545
+
+E274 complete (378s). wrote E274_phenotypes.csv, E274_matched_fp.csv, E274_reproducibility.csv

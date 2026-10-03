@@ -1,0 +1,91 @@
+Computing population-baseline pbar (scalar, det_train voxels only)...
+  pbar = 0.013902 (over 27101762 det_train brain voxels, 178s)
+Subject-level derangement over 25 det_train subjects (no self-maps), e.g. [('BraTS-GLI-00105-000', 'BraTS-GLI-01216-000'), ('BraTS-GLI-00109-000', 'BraTS-GLI-01414-000'), ('BraTS-GLI-00111-000', 'BraTS-GLI-01134-000')]
+Precomputing production p-maps for all det_train subjects (for H2 lookup)...
+  cached 25 p-maps (188s)
+
+--- seed=999 ---
+  pool: 502 ET, 1600 neg (207s)
+  fit h0_ordinary (207s)
+  fit h1_true_prod (207s)
+  fit h2_shuffled_prod (207s)
+  fit h3_population_baseline (207s)
+  fit h4_alt_model (207s)
+  fit h5_sign_reversed (207s)
+  fit h6_normalized_prod (207s)
+
+--- seed=4242 ---
+  pool: 502 ET, 1600 neg (225s)
+  fit h0_ordinary (226s)
+  fit h1_true_prod (226s)
+  fit h2_shuffled_prod (226s)
+  fit h3_population_baseline (226s)
+  fit h4_alt_model (226s)
+  fit h5_sign_reversed (226s)
+  fit h6_normalized_prod (226s)
+
+Building non-circular phenotype groups on 15 TEST subjects...
+  1/15 (226s)
+  2/15 (226s)
+  3/15 (227s)
+  4/15 (227s)
+  5/15 (227s)
+  6/15 (227s)
+  7/15 (228s)
+  8/15 (228s)
+  9/15 (228s)
+  10/15 (229s)
+  11/15 (229s)
+  12/15 (229s)
+  13/15 (230s)
+  14/15 (230s)
+  15/15 (230s)
+
+Phenotype group sizes: {'G3_confidently_detected': 36, 'G1_confidently_missed': 24, 'G2_low_confidence': 3}
+
+Sweeping thresholds (raw-r evaluation, E282-B's fixed grid)...
+  1/15 (242s)
+  2/15 (259s)
+  3/15 (297s)
+  4/15 (322s)
+  5/15 (343s)
+  6/15 (359s)
+  7/15 (376s)
+  8/15 (405s)
+  9/15 (422s)
+  10/15 (456s)
+  11/15 (512s)
+  12/15 (537s)
+  13/15 (558s)
+  14/15 (587s)
+  15/15 (621s)
+
+Computing matched-FP sensitivity...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999961974486518)} (actual FP: [0.0, 502.6, 1000.1])
+  999::h0_ordinary: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.880797077977882)} (actual FP: [121.0, 395.7, 1045.9])
+  999::h1_true_prod: thresholds={100: np.float64(0.997122928906232), 500: np.float64(0.987932080391847), 1000: np.float64(0.969022838532718)} (actual FP: [102.6, 464.6, 1199.1])
+  999::h2_shuffled_prod: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [72.9, 537.0, 919.5])
+  999::h3_population_baseline: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [105.9, 628.1, 1008.0])
+  999::h4_alt_model: thresholds={100: np.float64(0.997122928906232), 500: np.float64(0.987932080391847), 1000: np.float64(0.969022838532718)} (actual FP: [108.9, 482.3, 1209.1])
+  999::h5_sign_reversed: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.922799970717367)} (actual FP: [100.3, 495.7, 1091.6])
+  999::h6_normalized_prod: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.922799970717367)} (actual FP: [98.9, 627.9, 1054.9])
+  4242::h0_ordinary: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [89.1, 487.3, 999.9])
+  4242::h1_true_prod: thresholds={100: np.float64(0.998219562126865), 500: np.float64(0.987932080391847), 1000: np.float64(0.980622037447513)} (actual FP: [85.1, 537.7, 883.9])
+  4242::h2_shuffled_prod: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [75.1, 584.9, 994.5])
+  4242::h3_population_baseline: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [72.3, 445.0, 951.4])
+  4242::h4_alt_model: thresholds={100: np.float64(0.998219562126865), 500: np.float64(0.987932080391847), 1000: np.float64(0.980622037447513)} (actual FP: [86.3, 513.1, 822.7])
+  4242::h5_sign_reversed: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.922799970717367)} (actual FP: [75.7, 437.6, 927.3])
+  4242::h6_normalized_prod: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [134.9, 496.7, 879.7])
+
+======================================================================
+SUMMARY: G1 (confidently-missed) sensitivity, mean +/- SD across seeds
+======================================================================
+  h0_ordinary              FP~100: 4.2%±4.2%  FP~500: 12.5%±4.2%  FP~1000: 18.8%±2.1%
+  h1_true_prod             FP~100: 6.2%±2.1%  FP~500: 25.0%±4.2%  FP~1000: 31.2%±2.1%
+  h2_shuffled_prod         FP~100: 4.2%±4.2%  FP~500: 16.7%±4.2%  FP~1000: 20.8%±0.0%
+  h3_population_baseline   FP~100: 4.2%±4.2%  FP~500: 14.6%±6.2%  FP~1000: 18.8%±2.1%
+  h4_alt_model             FP~100: 6.2%±2.1%  FP~500: 25.0%±4.2%  FP~1000: 31.2%±2.1%
+  h5_sign_reversed         FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 0.0%±0.0%
+  h6_normalized_prod       FP~100: 10.4%±2.1%  FP~500: 20.8%±0.0%  FP~1000: 27.1%±2.1%
+
+E284 complete (621s). wrote E284_matched_fp_smoke.csv

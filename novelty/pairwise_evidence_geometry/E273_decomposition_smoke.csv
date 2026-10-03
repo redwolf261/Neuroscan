@@ -1,0 +1,5 @@
+variant,g2a_recovery,det_recovery,g2b_recovery,et_dice_mean,fp_total
+A_production,0.0,0.875,1.0,0.703753270340649,31147
+B_direction_replaced,0.5,1.0,1.0,0.6935607019422316,71218
+C_bias_replaced,0.0,0.875,1.0,0.7027858977220091,30665
+D_full_R1B,0.5,1.0,1.0,0.6886754171123837,59145

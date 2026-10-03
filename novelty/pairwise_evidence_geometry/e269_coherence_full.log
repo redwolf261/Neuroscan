@@ -1,0 +1,13 @@
+Fitting R1-B (identical to E257-B)...
+R1-B fit (175s)
+Projection convention verified exact.
+
+Processing 67 TEST subjects...
+  10/67 (223s)
+  20/67 (269s)
+  30/67 (313s)
+  40/67 (357s)
+  50/67 (409s)
+  60/67 (449s)
+
+E269 (residual coherence, phase 1) complete (479s). wrote E269b_voxel.csv, E269b_component.csv

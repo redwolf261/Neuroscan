@@ -1,0 +1,27 @@
+Fitting R1-B (seed=999, identical to E257-B)...
+R1-B fit (144s)
+
+Building component tables on 23 VAL subjects...
+  20/23 (183s)
+VAL: recovered_G2A=25 WT_not_TC_FP=1578 distant_bg_FP=431 (193s)
+
+H1 (sigma_C): VAL threshold=3.8442 (lower=positive), Youden J=0.0112
+H2 (mu_C): VAL threshold=4.7507 (higher=positive), Youden J=0.0075
+H3 (mu_C+sigma_C logistic): coef=[-0.07745251  0.92649844], intercept=0.2268
+
+Building component tables on 158 TEST subjects...
+  20/158 (243s)
+  40/158 (294s)
+  60/158 (352s)
+  80/158 (390s)
+  100/158 (423s)
+  120/158 (462s)
+  140/158 (494s)
+TEST: recovered_G2A=21 (21 with sigma) WT_not_TC_FP=15385 distant_bg_FP=3634 (528s)
+
+=== E267 TEST component-level results ===
+H1 (sigma_C <= 3.8442): {'sensitivity': 1.0, 'specificity': 0.003861003861003861, 'tp': 21, 'fn': 0, 'fp': 7740, 'tn': 30}
+H2 (mu_C >= 4.7507): {'sensitivity': 1.0, 'specificity': 0.0052578999947421, 'tp': 21, 'fn': 0, 'fp': 18919, 'tn': 100}
+H3 (logistic mu_C+sigma_C): {'sensitivity': 0.3333333333333333, 'specificity': 0.780952380952381, 'tp': 7, 'fn': 14, 'fp': 1702, 'tn': 6068}
+
+E267 complete (529s). wrote E267_results.csv

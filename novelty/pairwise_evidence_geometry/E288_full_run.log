@@ -1,0 +1,93 @@
+Rebuilding E286's exact locked test cohort...
+  test cohort: 125 subjects, leakage audit PASS
+
+Fitting MRD-T2 on det_train, 5 seeds...
+  seed=999 fit (207s)
+  seed=4242 fit (366s)
+  seed=7 fit (521s)
+  seed=123 fit (673s)
+  seed=2024 fit (826s)
+
+Running sliding-window inference (production + MRD-T2) per subject...
+  seed=999 10/125 (845s)
+  seed=999 20/125 (867s)
+  seed=999 30/125 (889s)
+  seed=999 40/125 (910s)
+  seed=999 50/125 (928s)
+  seed=999 60/125 (949s)
+  seed=999 70/125 (970s)
+  seed=999 80/125 (989s)
+  seed=999 90/125 (1002s)
+  seed=999 100/125 (1021s)
+  seed=999 110/125 (1041s)
+  seed=999 120/125 (1062s)
+  seed=999: A ET=0.8191 mean=0.8597  |  C ET=0.8174 mean=0.8591
+  seed=4242 10/125 (1091s)
+  seed=4242 20/125 (1113s)
+  seed=4242 30/125 (1135s)
+  seed=4242 40/125 (1156s)
+  seed=4242 50/125 (1175s)
+  seed=4242 60/125 (1195s)
+  seed=4242 70/125 (1217s)
+  seed=4242 80/125 (1236s)
+  seed=4242 90/125 (1248s)
+  seed=4242 100/125 (1267s)
+  seed=4242 110/125 (1287s)
+  seed=4242 120/125 (1309s)
+  seed=4242: A ET=0.8191 mean=0.8597  |  C ET=0.8178 mean=0.8593
+  seed=7 10/125 (1337s)
+  seed=7 20/125 (1358s)
+  seed=7 30/125 (1381s)
+  seed=7 40/125 (1401s)
+  seed=7 50/125 (1420s)
+  seed=7 60/125 (1440s)
+  seed=7 70/125 (1462s)
+  seed=7 80/125 (1480s)
+  seed=7 90/125 (1492s)
+  seed=7 100/125 (1511s)
+  seed=7 110/125 (1531s)
+  seed=7 120/125 (1553s)
+  seed=7: A ET=0.8191 mean=0.8597  |  C ET=0.8173 mean=0.8591
+  seed=123 10/125 (1582s)
+  seed=123 20/125 (1603s)
+  seed=123 30/125 (1626s)
+  seed=123 40/125 (1647s)
+  seed=123 50/125 (1665s)
+  seed=123 60/125 (1686s)
+  seed=123 70/125 (1708s)
+  seed=123 80/125 (1726s)
+  seed=123 90/125 (1739s)
+  seed=123 100/125 (1758s)
+  seed=123 110/125 (1778s)
+  seed=123 120/125 (1800s)
+  seed=123: A ET=0.8191 mean=0.8597  |  C ET=0.8169 mean=0.8590
+  seed=2024 10/125 (1829s)
+  seed=2024 20/125 (1850s)
+  seed=2024 30/125 (1873s)
+  seed=2024 40/125 (1894s)
+  seed=2024 50/125 (1913s)
+  seed=2024 60/125 (1933s)
+  seed=2024 70/125 (1955s)
+  seed=2024 80/125 (1974s)
+  seed=2024 90/125 (1987s)
+  seed=2024 100/125 (2005s)
+  seed=2024 110/125 (2026s)
+  seed=2024 120/125 (2048s)
+  seed=2024: A ET=0.8191 mean=0.8597  |  C ET=0.8173 mean=0.8591
+
+wrote E288_sliding_window_dice.csv
+
+======================================================================
+SUMMARY (mean +/- SD across seeds) -- compare against checkpoint's own
+epoch-33 reference: ET=0.8399 TC=0.9137 WT=0.9253 mean=0.8929
+======================================================================
+  A_production_alone       dice_ET: 0.8191±0.0000
+  A_production_alone       dice_TC: 0.8481±0.0000
+  A_production_alone       dice_WT: 0.9119±0.0000
+  A_production_alone       dice_mean: 0.8597±0.0000
+  C_production_plus_mrd    dice_ET: 0.8173±0.0003
+  C_production_plus_mrd    dice_TC: 0.8481±0.0000
+  C_production_plus_mrd    dice_WT: 0.9119±0.0000
+  C_production_plus_mrd    dice_mean: 0.8591±0.0001
+
+E288 complete (2058s).

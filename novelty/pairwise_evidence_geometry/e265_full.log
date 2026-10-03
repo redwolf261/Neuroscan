@@ -1,0 +1,24 @@
+Refitting R1-B (frozen Stage A, identical to E257-B)...
+R1-B refit (181s)
+
+Collecting component table on 23 VAL subjects...
+  components: 20/23 subjects (265s)
+val component table: 2832 components (225 TP, 2607 FP) (288s)
+
+VAL-selected lesion-level zero-cost thresholds: {'Delta_C': 0.3806530833244324, 'R_C': 0.4583831891152255, 'Psi_C': 1.122938374542704}
+VAL FP-voxel-burden removed at zero lesion-recovery cost: {'Delta_C': 0.31572683998535334, 'R_C': 0.25256316367630904, 'Psi_C': 0.16083852068839252}
+E265 winner on VAL: Delta_C
+
+Applying val-selected thresholds ONCE on 158 TEST subjects...
+  Delta_C_raw_contrast (1133s)
+  R_C_normalized (1133s)
+  Psi_C_scale_compensated (1133s)
+
+=== E265 TEST results ===
+no_filter: {'recovery': 0.5833333333333334, 'fp_voxels': 540231, 'threshold': None}
+Delta_C_raw_contrast: {'recovery': 0.5833333333333334, 'fp_voxels': 71356, 'threshold': 0.3806530833244324}
+R_C_normalized: {'recovery': 0.5833333333333334, 'fp_voxels': 78029, 'threshold': 0.4583831891152255}
+Psi_C_scale_compensated: {'recovery': 0.5833333333333334, 'fp_voxels': 77364, 'threshold': 1.122938374542704}
+winner: {'stat': 'Delta_C', 'recovery': 0.5833333333333334, 'fp_voxels': 71356, 'threshold': 0.3806530833244324}
+
+E265 complete (1133s). wrote E265_results.csv

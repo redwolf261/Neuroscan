@@ -1,0 +1,93 @@
+Verifying fit_soft_target helper on a hand-built hard-label example...
+  [verify] fit_soft_target matches ordinary LogisticRegression on hard labels (max coef diff=1.11e-16, intercept diff=1.94e-16)
+
+Building R1-B's shared lesion+shell+distant-background pool (seed=999)...
+  pool: 5003 ET positives, 14895 negatives (shell+distant) (131s)
+  y_marg stats: positives mean=0.6848 (min=0.0000, max=1.0000), negatives mean=0.000000 (should be ~0)
+
+Fitting H1 R1-B (x_i, target=y)...
+Fitting H2 R_MRD ([x_i,p_i], target=y_marg)...
+Fitting H3 MRD-no-p (x_i, target=y_marg)...
+Fitting H4 MRD-ordinary-Y ([x_i,p_i], target=y)...
+All 4 readouts fit (132s)
+
+Building non-circular phenotype groups on 67 TEST subjects (IDENTICAL to E274, production + ground truth ONLY)...
+  20/67 (138s)
+  40/67 (145s)
+  60/67 (151s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (IDENTICAL grid to E274, logit-spaced near 1.0)...
+  20/67 (178s)
+  40/67 (203s)
+  60/67 (227s)
+prod: matched thresholds = {100: np.float64(1.0), 500: np.float64(0.99999847), 1000: np.float64(0.99982386)} (actual mean FP: [0.0, 490.6, 1006.5])
+h1_r1b: matched thresholds = {100: np.float64(0.96843795), 500: np.float64(0.92234019), 1000: np.float64(0.88079708)} (actual mean FP: [99.5, 475.8, 929.4])
+h2_mrd: matched thresholds = {100: np.float64(0.98012671), 500: np.float64(0.95022342), 1000: np.float64(0.9)} (actual mean FP: [73.7, 418.7, 1072.2])
+h3_mrd_no_p: matched thresholds = {100: np.float64(0.98012671), 500: np.float64(0.95022342), 1000: np.float64(0.9)} (actual mean FP: [81.9, 381.5, 1058.6])
+h4_mrd_ordinary_y: matched thresholds = {100: np.float64(0.96843795), 500: np.float64(0.92234019), 1000: np.float64(0.88079708)} (actual mean FP: [99.3, 475.1, 928.5])
+
+Computing matched-FP sensitivity by phenotype...
+  prod FP~100 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~100 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  prod FP~100 (t=1.0000): G3_confidently_detected      sensitivity=0.0000
+  prod FP~100 (t=1.0000): ALL                          sensitivity=0.0000
+  prod FP~500 (t=1.0000): G1_confidently_missed        sensitivity=0.0000
+  prod FP~500 (t=1.0000): G2_low_confidence            sensitivity=0.0000
+  prod FP~500 (t=1.0000): G3_confidently_detected      sensitivity=0.7500
+  prod FP~500 (t=1.0000): ALL                          sensitivity=0.4390
+  prod FP~1000 (t=0.9998): G1_confidently_missed        sensitivity=0.0000
+  prod FP~1000 (t=0.9998): G2_low_confidence            sensitivity=0.0000
+  prod FP~1000 (t=0.9998): G3_confidently_detected      sensitivity=0.8452
+  prod FP~1000 (t=0.9998): ALL                          sensitivity=0.4948
+  h1_r1b FP~100 (t=0.9684): G1_confidently_missed        sensitivity=0.0973
+  h1_r1b FP~100 (t=0.9684): G2_low_confidence            sensitivity=0.3333
+  h1_r1b FP~100 (t=0.9684): G3_confidently_detected      sensitivity=0.7083
+  h1_r1b FP~100 (t=0.9684): ALL                          sensitivity=0.4599
+  h1_r1b FP~500 (t=0.9223): G1_confidently_missed        sensitivity=0.2035
+  h1_r1b FP~500 (t=0.9223): G2_low_confidence            sensitivity=0.6667
+  h1_r1b FP~500 (t=0.9223): G3_confidently_detected      sensitivity=0.9524
+  h1_r1b FP~500 (t=0.9223): ALL                          sensitivity=0.6516
+  h1_r1b FP~1000 (t=0.8808): G1_confidently_missed        sensitivity=0.2478
+  h1_r1b FP~1000 (t=0.8808): G2_low_confidence            sensitivity=0.8333
+  h1_r1b FP~1000 (t=0.8808): G3_confidently_detected      sensitivity=0.9762
+  h1_r1b FP~1000 (t=0.8808): ALL                          sensitivity=0.6864
+  h2_mrd FP~100 (t=0.9801): G1_confidently_missed        sensitivity=0.1858
+  h2_mrd FP~100 (t=0.9801): G2_low_confidence            sensitivity=0.8333
+  h2_mrd FP~100 (t=0.9801): G3_confidently_detected      sensitivity=0.6845
+  h2_mrd FP~100 (t=0.9801): ALL                          sensitivity=0.4913
+  h2_mrd FP~500 (t=0.9502): G1_confidently_missed        sensitivity=0.2743
+  h2_mrd FP~500 (t=0.9502): G2_low_confidence            sensitivity=1.0000
+  h2_mrd FP~500 (t=0.9502): G3_confidently_detected      sensitivity=0.8810
+  h2_mrd FP~500 (t=0.9502): ALL                          sensitivity=0.6446
+  h2_mrd FP~1000 (t=0.9000): G1_confidently_missed        sensitivity=0.3982
+  h2_mrd FP~1000 (t=0.9000): G2_low_confidence            sensitivity=1.0000
+  h2_mrd FP~1000 (t=0.9000): G3_confidently_detected      sensitivity=0.9464
+  h2_mrd FP~1000 (t=0.9000): ALL                          sensitivity=0.7317
+  h3_mrd_no_p FP~100 (t=0.9801): G1_confidently_missed        sensitivity=0.2301
+  h3_mrd_no_p FP~100 (t=0.9801): G2_low_confidence            sensitivity=0.6667
+  h3_mrd_no_p FP~100 (t=0.9801): G3_confidently_detected      sensitivity=0.6310
+  h3_mrd_no_p FP~100 (t=0.9801): ALL                          sensitivity=0.4739
+  h3_mrd_no_p FP~500 (t=0.9502): G1_confidently_missed        sensitivity=0.3451
+  h3_mrd_no_p FP~500 (t=0.9502): G2_low_confidence            sensitivity=1.0000
+  h3_mrd_no_p FP~500 (t=0.9502): G3_confidently_detected      sensitivity=0.8333
+  h3_mrd_no_p FP~500 (t=0.9502): ALL                          sensitivity=0.6446
+  h3_mrd_no_p FP~1000 (t=0.9000): G1_confidently_missed        sensitivity=0.3982
+  h3_mrd_no_p FP~1000 (t=0.9000): G2_low_confidence            sensitivity=1.0000
+  h3_mrd_no_p FP~1000 (t=0.9000): G3_confidently_detected      sensitivity=0.9107
+  h3_mrd_no_p FP~1000 (t=0.9000): ALL                          sensitivity=0.7108
+  h4_mrd_ordinary_y FP~100 (t=0.9684): G1_confidently_missed        sensitivity=0.0973
+  h4_mrd_ordinary_y FP~100 (t=0.9684): G2_low_confidence            sensitivity=0.3333
+  h4_mrd_ordinary_y FP~100 (t=0.9684): G3_confidently_detected      sensitivity=0.7083
+  h4_mrd_ordinary_y FP~100 (t=0.9684): ALL                          sensitivity=0.4599
+  h4_mrd_ordinary_y FP~500 (t=0.9223): G1_confidently_missed        sensitivity=0.2035
+  h4_mrd_ordinary_y FP~500 (t=0.9223): G2_low_confidence            sensitivity=0.6667
+  h4_mrd_ordinary_y FP~500 (t=0.9223): G3_confidently_detected      sensitivity=0.9524
+  h4_mrd_ordinary_y FP~500 (t=0.9223): ALL                          sensitivity=0.6516
+  h4_mrd_ordinary_y FP~1000 (t=0.8808): G1_confidently_missed        sensitivity=0.2566
+  h4_mrd_ordinary_y FP~1000 (t=0.8808): G2_low_confidence            sensitivity=0.8333
+  h4_mrd_ordinary_y FP~1000 (t=0.8808): G3_confidently_detected      sensitivity=0.9762
+  h4_mrd_ordinary_y FP~1000 (t=0.8808): ALL                          sensitivity=0.6899
+
+E281 complete (297s). wrote E281_phenotypes.csv, E281_matched_fp.csv

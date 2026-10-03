@@ -1,0 +1,46 @@
+======================================================================
+AUDIT 1: LEAKAGE -- tracing how p_i is computed
+======================================================================
+
+  p_i is computed by p_prod_of(x) = sigmoid(x @ w_P + b_P), where:
+    - w_P, b_P come from get_w_prod(model) -- extracts
+      model.seg_head[0].weight/bias, the FROZEN production checkpoint's
+      ET-channel weights, loaded once via load_model() and never
+      updated (all model.parameters() have requires_grad_(False)).
+    - x is the D1 feature vector (relu2_out, 32-dim) from
+      forward_to_dec1_internal(model, img_t) -- a function of the
+      INPUT IMAGE ONLY (img_t), not of the target/ground-truth tensor
+      tgt_c at any point in the call graph.
+  Ground truth (tgt_c, loaded separately via load_patch()) is used
+  ONLY to supply y_i (the hard ET label) when constructing y_marg =
+  clip((y_i - p_i)/(1-p_i+eps), 0, 1) -- p_i itself never depends on
+  tgt_c, confirmed by inspection of p_prod_of's signature (takes x,
+  derived from img_t alone) and get_w_prod's signature (takes model
+  only, no data). This holds for TRAIN, VAL, and TEST subjects alike --
+  the frozen checkpoint is identical in all three splits, so there is
+  no sense in which p_i on a test subject could be "informed" by that
+  subject's own test-time ground truth, or by any other subject's.
+  VERDICT: no leakage path exists in this construction.
+
+Building R1-B's shared lesion+shell+distant-background pool (seed=999, IDENTICAL to E281)...
+  pool: 5003 ET positives, 14895 negatives (133s)
+
+======================================================================
+AUDIT 2: NUMERICAL STABILITY -- p-binned y_marg behavior
+======================================================================
+  p in    [0.00,0.10): n_pos=  701 n_neg= 13433  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.10,0.20): n_pos=   74 n_neg=    74  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.20,0.30): n_pos=   44 n_neg=    53  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.30,0.40): n_pos=   46 n_neg=    42  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.40,0.50): n_pos=   43 n_neg=    50  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.50,0.60): n_pos=   40 n_neg=    31  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.60,0.70): n_pos=   44 n_neg=    28  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.70,0.80): n_pos=   66 n_neg=    29  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.80,0.90): n_pos=   99 n_neg=    56  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.90,0.99): n_pos=  343 n_neg=   159  mean_y_marg(pos)=1.0000  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.0000
+  p in    [0.99,1.00): n_pos= 3503 n_neg=   940  mean_y_marg(pos)=0.5498  frac_clipped(pos)=0.0000  max_unclipped(pos)=1.00e+00  frac_eps_dominated(pos)=0.5849
+
+OVERALL: 5003 total positives. 0 (0.00%) needed clipping. 2049 (40.96%) are in the epsilon-dominated regime (1-p < 10*eps, i.e. p > 0.999990).
+Negatives: max unclipped y_marg = -8.96e-23 (should be <=0, since y=0 implies y-p<=0 always)
+
+E282-A complete (133s). wrote E282A_numerical_audit.csv

@@ -1,0 +1,123 @@
+======================================================================
+SECTION 42: mathematical implementation audit
+======================================================================
+  T2 closed-form verified: y=0 -> T2=0 always; y=1 -> T2=(1-p)/(1-p+eps); always in [0,1]. PASS.
+  Inference rule hard-coded below as score(x)=R_phi(x) ONLY -- p+(1-p)*R_phi(x) does not appear anywhere in this script. VERIFIED by inspection.
+
+======================================================================
+SECTION 2: dataset eligibility audit
+======================================================================
+  Original discovered cohort (train+val, i.e. all subjects with a valid -seg.nii.gz found by _discover): N0=1251
+  Production-training-excluded (val split, never seen by frozen E131_v5control_seed0): N1=125
+  Also excluded from ANY prior E240-E285 experiment: N2=125 (dropped 0 that overlapped a prior experiment's population)
+  Successful preprocessing + valid D1 features: N3=15 (excluded 0: [])
+  wrote E286_eligibility_audit_smoke.csv
+
+  FINAL E286 TEST COHORT: 15 subjects (frozen, locked -- no further exclusion after this point)
+
+======================================================================
+SECTION 41: leakage audit
+======================================================================
+  Check 1/6 (test subjects in production training set): 0 (must be 0) -- PASS
+  Check 2/6 (test subjects touched by any prior E240-E285 experiment): 0 (must be 0) -- PASS
+  Check 3/6 (production weights unchanged during MRD training): by construction -- model.parameters() all have requires_grad_(False), verified in load_model(). PASS.
+  Check 4/6 (p comes only from frozen production): p_prod_of() takes model-derived x only, no ground truth. PASS (same verification as E282-A).
+  Check 5/6 (MRD receives x not y at inference): dense_eval() below applies w_phi/b_phi to D1 features only. PASS by inspection.
+  Check 6/6 (size cutoffs/lesion-matching/combination-rule frozen BEFORE this run): SIZE_CUTOFFS=(8,18) computed from E281 det_test tertiles, logged in this file's own docstring before touching test_subjects. PASS.
+
+======================================================================
+Fitting H1 (ordinary)/H2 (T1)/H3 (MRD-T2) on det_train, 5 seeds
+======================================================================
+
+--- seed=999 ---
+  pool: 502 ET, 1600 neg (25s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (26s)
+
+--- seed=4242 ---
+  pool: 502 ET, 1600 neg (44s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (45s)
+
+Building non-circular phenotype groups (G1/G2/G3) on 15 LOCKED test subjects...
+  1/15 (45s)
+  2/15 (45s)
+  3/15 (46s)
+  4/15 (46s)
+  5/15 (46s)
+  6/15 (46s)
+  7/15 (47s)
+  8/15 (47s)
+  9/15 (47s)
+  10/15 (48s)
+  11/15 (48s)
+  12/15 (48s)
+  13/15 (49s)
+  14/15 (50s)
+  15/15 (50s)
+
+LOCKED test-cohort phenotype group sizes: {'G3_confidently_detected': 49, 'G1_confidently_missed': 24, 'G2_low_confidence': 1}
+
+======================================================================
+SECTION 43: numerical stability audit (test-cohort p distribution)
+======================================================================
+  min(1-p) = 0.000e+00
+  n(p==1.0 exactly) = 129704
+  n(p>0.999999) = 157902
+  n(p>0.9999999) = 129704
+  n(denominator==0) = 0 (must be 0)
+  n(NaN in p) = 0  n(Inf in p) = 0
+  PASS.
+
+Sweeping thresholds (raw-r evaluation, locked test cohort)...
+  1/15 (77s)
+  2/15 (100s)
+  3/15 (121s)
+  4/15 (141s)
+  5/15 (161s)
+  6/15 (182s)
+  7/15 (204s)
+  8/15 (226s)
+  9/15 (250s)
+  10/15 (269s)
+  11/15 (296s)
+  12/15 (318s)
+  13/15 (372s)
+  14/15 (389s)
+  15/15 (415s)
+
+Writing FROC curve...
+
+Computing matched-FP sensitivity, confusion matrix, Dice/IoU/HD95/ASSD...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999997878300758), 1000: np.float64(0.999961974486518)} (actual FP: [0.0, 513.3, 962.0])
+  999::h1_ordinary: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.95082877089122), 1000: np.float64(0.880797077977882)} (actual FP: [83.4, 462.4, 1037.3])
+  999::h2_t1: thresholds={100: np.float64(0.997122928906232), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [80.7, 565.9, 883.1])
+  999::h3_mrd_t2: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [90.2, 479.8, 1096.4])
+  999::h4_combined: thresholds={100: np.float64(1.0), 500: np.float64(0.999997878300758), 1000: np.float64(0.999961974486518)} (actual FP: [0.0, 513.3, 962.0])
+  4242::h1_ordinary: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.95082877089122), 1000: np.float64(0.880797077977882)} (actual FP: [87.3, 479.6, 1050.6])
+  4242::h2_t1: thresholds={100: np.float64(0.997122928906232), 500: np.float64(0.987932080391847), 1000: np.float64(0.969022838532718)} (actual FP: [85.0, 370.1, 1126.3])
+  4242::h3_mrd_t2: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.922799970717367)} (actual FP: [110.5, 365.5, 1181.5])
+  4242::h4_combined: thresholds={100: np.float64(1.0), 500: np.float64(0.999997878300758), 1000: np.float64(0.999961974486518)} (actual FP: [0.0, 513.3, 962.0])
+  wrote E286_matched_fp_smoke.csv
+  wrote E286_persubject_smoke.csv
+  wrote E286_size_stratified_smoke.csv
+  wrote E286_confusion_matrix_smoke.csv
+  wrote E286_boundary_metrics_smoke.csv
+
+Computing complementarity analysis (P vs MRD-T2 lesion detection, FP~500)...
+  seed=999: P^R=18 P\R=18 R\P=7 neither=31 (total lesions=74)
+  seed=4242: P^R=17 P\R=19 R\P=8 neither=30 (total lesions=74)
+  wrote E286_complementarity_smoke.csv
+
+Computing subject-level bootstrap 95% CI for T2-T0 and T2-T1 (G1, FP~500)...
+  seed=999: T2-H1ordinary delta mean=0.1136 95%CI=[0.0000,0.3333]
+  seed=4242: T2-H1ordinary delta mean=-0.0065 95%CI=[-0.1429,0.3350]
+  wrote E286_bootstrap_ci_smoke.csv
+
+======================================================================
+SUMMARY: G1 sensitivity, mean +/- SD across seeds, LOCKED test cohort
+======================================================================
+  h1_ordinary    FP~100: 0.0%±0.0%  FP~500: 14.6%±10.4%  FP~1000: 39.6%±2.1%
+  h2_t1          FP~100: 10.4%±6.2%  FP~500: 27.1%±2.1%  FP~1000: 35.4%±6.2%
+  h3_mrd_t2      FP~100: 6.2%±2.1%  FP~500: 16.7%±4.2%  FP~1000: 29.2%±8.3%
+  h4_combined    FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 0.0%±0.0%
+
+E286 complete (476s).

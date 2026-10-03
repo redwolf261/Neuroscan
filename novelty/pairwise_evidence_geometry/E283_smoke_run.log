@@ -1,0 +1,79 @@
+Verifying target transforms on hand-built (y,p) pairs...
+  y=1 p=0.01: t0_ordinary=1.0000  t1_subtract=0.9900  t2_marginal=1.0000  t3_divide_only=1.0000
+  y=1 p=0.5: t0_ordinary=1.0000  t1_subtract=0.5000  t2_marginal=1.0000  t3_divide_only=1.0000
+  y=1 p=0.99: t0_ordinary=1.0000  t1_subtract=0.0100  t2_marginal=0.9999  t3_divide_only=1.0000
+  y=1 p=0.999999: t0_ordinary=1.0000  t1_subtract=0.0000  t2_marginal=0.5000  t3_divide_only=1.0000
+  y=0 p=0.01: t0_ordinary=0.0000  t1_subtract=0.0000  t2_marginal=0.0000  t3_divide_only=0.0000
+  y=0 p=0.5: t0_ordinary=0.0000  t1_subtract=0.0000  t2_marginal=0.0000  t3_divide_only=0.0000
+  y=0 p=0.99: t0_ordinary=0.0000  t1_subtract=0.0000  t2_marginal=0.0000  t3_divide_only=0.0000
+
+--- seed=999 ---
+  pool: 502 ET, 1600 neg (19s)
+  fit t0_ordinary (19s)
+  fit t1_subtract (19s)
+  fit t2_marginal (19s)
+  fit t3_divide_only (19s)
+
+--- seed=4242 ---
+  pool: 502 ET, 1600 neg (38s)
+  fit t0_ordinary (38s)
+  fit t1_subtract (38s)
+  fit t2_marginal (38s)
+  fit t3_divide_only (38s)
+
+Building non-circular phenotype groups on 15 TEST subjects...
+  1/15 (39s)
+  2/15 (39s)
+  3/15 (40s)
+  4/15 (40s)
+  5/15 (40s)
+  6/15 (41s)
+  7/15 (41s)
+  8/15 (41s)
+  9/15 (42s)
+  10/15 (42s)
+  11/15 (43s)
+  12/15 (43s)
+  13/15 (43s)
+  14/15 (44s)
+  15/15 (44s)
+
+Phenotype group sizes: {'G3_confidently_detected': 36, 'G1_confidently_missed': 24, 'G2_low_confidence': 3}
+
+Sweeping thresholds (raw-r evaluation, E282-B's fixed grid)...
+  1/15 (55s)
+  2/15 (69s)
+  3/15 (104s)
+  4/15 (125s)
+  5/15 (141s)
+  6/15 (154s)
+  7/15 (165s)
+  8/15 (182s)
+  9/15 (192s)
+  10/15 (213s)
+  11/15 (246s)
+  12/15 (262s)
+  13/15 (274s)
+  14/15 (292s)
+  15/15 (312s)
+
+Computing matched-FP sensitivity...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999961974486518)} (actual FP: [0.0, 502.6, 1000.1])
+  999::t0_ordinary: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.880797077977882)} (actual FP: [121.0, 395.7, 1045.9])
+  999::t1_subtract: thresholds={100: np.float64(0.997122928906232), 500: np.float64(0.987932080391847), 1000: np.float64(0.969022838532718)} (actual FP: [102.9, 465.1, 1198.9])
+  999::t2_marginal: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.922799970717367)} (actual FP: [98.9, 627.9, 1054.9])
+  999::t3_divide_only: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.880797077977882)} (actual FP: [121.9, 397.8, 1049.5])
+  4242::t0_ordinary: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [89.1, 487.3, 999.9])
+  4242::t1_subtract: thresholds={100: np.float64(0.998219562126865), 500: np.float64(0.987932080391847), 1000: np.float64(0.980622037447513)} (actual FP: [85.1, 537.7, 883.9])
+  4242::t2_marginal: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [134.9, 496.7, 879.7])
+  4242::t3_divide_only: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [89.3, 487.7, 999.0])
+
+======================================================================
+SUMMARY: G1 (confidently-missed) sensitivity, mean +/- SD across seeds
+======================================================================
+  t0_ordinary      FP~100: 4.2%±4.2%  FP~500: 12.5%±4.2%  FP~1000: 18.8%±2.1%
+  t1_subtract      FP~100: 6.2%±2.1%  FP~500: 25.0%±4.2%  FP~1000: 31.2%±2.1%
+  t2_marginal      FP~100: 10.4%±2.1%  FP~500: 20.8%±0.0%  FP~1000: 27.1%±2.1%
+  t3_divide_only   FP~100: 4.2%±4.2%  FP~500: 12.5%±4.2%  FP~1000: 18.8%±2.1%
+
+E283 complete (312s). wrote E283_matched_fp_smoke.csv

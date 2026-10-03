@@ -1,0 +1,135 @@
+======================================================================
+SECTION 42: mathematical implementation audit
+======================================================================
+  T2 closed-form verified: y=0 -> T2=0 always; y=1 -> T2=(1-p)/(1-p+eps); always in [0,1]. PASS.
+  Inference rule hard-coded below as score(x)=R_phi(x) ONLY -- p+(1-p)*R_phi(x) does not appear anywhere in this script. VERIFIED by inspection.
+
+======================================================================
+SECTION 2: dataset eligibility audit
+======================================================================
+  Original discovered cohort (train+val, i.e. all subjects with a valid -seg.nii.gz found by _discover): N0=1251
+  Production-training-excluded (val split, never seen by frozen E131_v5control_seed0): N1=125
+  Also excluded from ANY prior E240-E285 experiment: N2=125 (dropped 0 that overlapped a prior experiment's population)
+  Successful preprocessing + valid D1 features: N3=125 (excluded 0: [])
+  wrote E286_eligibility_audit.csv
+
+  FINAL E286 TEST COHORT: 125 subjects (frozen, locked -- no further exclusion after this point)
+
+======================================================================
+SECTION 41: leakage audit
+======================================================================
+  Check 1/6 (test subjects in production training set): 0 (must be 0) -- PASS
+  Check 2/6 (test subjects touched by any prior E240-E285 experiment): 0 (must be 0) -- PASS
+  Check 3/6 (production weights unchanged during MRD training): by construction -- model.parameters() all have requires_grad_(False), verified in load_model(). PASS.
+  Check 4/6 (p comes only from frozen production): p_prod_of() takes model-derived x only, no ground truth. PASS (same verification as E282-A).
+  Check 5/6 (MRD receives x not y at inference): dense_eval() below applies w_phi/b_phi to D1 features only. PASS by inspection.
+  Check 6/6 (size cutoffs/lesion-matching/combination-rule frozen BEFORE this run): SIZE_CUTOFFS=(8,18) computed from E281 det_test tertiles, logged in this file's own docstring before touching test_subjects. PASS.
+
+======================================================================
+Fitting H1 (ordinary)/H2 (T1)/H3 (MRD-T2) on det_train, 5 seeds
+======================================================================
+
+--- seed=999 ---
+  pool: 5003 ET, 14895 neg (161s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (162s)
+
+--- seed=4242 ---
+  pool: 5003 ET, 14895 neg (286s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (287s)
+
+--- seed=7 ---
+  pool: 5003 ET, 14895 neg (412s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (412s)
+
+--- seed=123 ---
+  pool: 5003 ET, 14895 neg (537s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (538s)
+
+--- seed=2024 ---
+  pool: 5003 ET, 14895 neg (663s)
+  fit h1_ordinary, h2_t1, h3_mrd_t2 (664s)
+
+Building non-circular phenotype groups (G1/G2/G3) on 125 LOCKED test subjects...
+  20/125 (671s)
+  40/125 (678s)
+  60/125 (687s)
+  80/125 (697s)
+  100/125 (705s)
+  120/125 (714s)
+
+LOCKED test-cohort phenotype group sizes: {'G3_confidently_detected': 250, 'G1_confidently_missed': 162, 'G2_low_confidence': 10}
+
+======================================================================
+SECTION 43: numerical stability audit (test-cohort p distribution)
+======================================================================
+  min(1-p) = 0.000e+00
+  n(p==1.0 exactly) = 1298917
+  n(p>0.999999) = 1555477
+  n(p>0.9999999) = 1298917
+  n(denominator==0) = 0 (must be 0)
+  n(NaN in p) = 0  n(Inf in p) = 0
+  PASS.
+
+Sweeping thresholds (raw-r evaluation, locked test cohort)...
+  20/125 (1609s)
+  40/125 (2424s)
+  60/125 (3216s)
+  80/125 (4073s)
+  100/125 (4887s)
+  120/125 (5760s)
+
+Writing FROC curve...
+
+Computing matched-FP sensitivity, confusion matrix, Dice/IoU/HD95/ASSD...
+  prod: thresholds={100: np.float64(0.999999881620137), 500: np.float64(0.999839037347316), 1000: np.float64(0.95082877089122)} (actual FP: [129.6, 491.0, 1011.3])
+  999::h1_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.81578947368421)} (actual FP: [57.7, 468.1, 968.4])
+  999::h2_t1: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.95082877089122)} (actual FP: [71.6, 378.4, 1133.7])
+  999::h3_mrd_t2: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [114.8, 484.7, 893.2])
+  999::h4_combined: thresholds={100: np.float64(0.999999881620137), 500: np.float64(0.999839037347316), 1000: np.float64(0.980622037447513)} (actual FP: [129.6, 491.0, 975.1])
+  4242::h1_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.81578947368421)} (actual FP: [62.7, 446.4, 917.5])
+  4242::h2_t1: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [111.4, 403.1, 756.4])
+  4242::h3_mrd_t2: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [84.6, 418.3, 1021.0])
+  4242::h4_combined: thresholds={100: np.float64(0.999999881620137), 500: np.float64(0.999839037347316), 1000: np.float64(0.969022838532718)} (actual FP: [129.6, 491.0, 1041.2])
+  7::h1_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.81578947368421)} (actual FP: [65.8, 468.7, 937.0])
+  7::h2_t1: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.95082877089122)} (actual FP: [82.2, 415.6, 1216.5])
+  7::h3_mrd_t2: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [120.4, 509.2, 917.2])
+  7::h4_combined: thresholds={100: np.float64(0.999999881620137), 500: np.float64(0.999839037347316), 1000: np.float64(0.980622037447513)} (actual FP: [129.6, 491.0, 976.2])
+  123::h1_ordinary: thresholds={100: np.float64(0.95082877089122), 500: np.float64(0.880797077977882), 1000: np.float64(0.81578947368421)} (actual FP: [137.2, 557.9, 932.4])
+  123::h2_t1: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [112.0, 570.0, 993.2])
+  123::h3_mrd_t2: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [126.3, 486.8, 896.0])
+  123::h4_combined: thresholds={100: np.float64(0.999999881620137), 500: np.float64(0.999839037347316), 1000: np.float64(0.980622037447513)} (actual FP: [129.6, 491.0, 986.9])
+  2024::h1_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.9), 1000: np.float64(0.81578947368421)} (actual FP: [58.3, 449.2, 934.8])
+  2024::h2_t1: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [99.0, 508.6, 902.2])
+  2024::h3_mrd_t2: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [127.4, 505.0, 913.2])
+  2024::h4_combined: thresholds={100: np.float64(0.999999881620137), 500: np.float64(0.999839037347316), 1000: np.float64(0.980622037447513)} (actual FP: [129.6, 491.0, 984.6])
+  wrote E286_matched_fp.csv
+  wrote E286_persubject.csv
+  wrote E286_size_stratified.csv
+  wrote E286_confusion_matrix.csv
+  wrote E286_boundary_metrics.csv
+
+Computing complementarity analysis (P vs MRD-T2 lesion detection, FP~500)...
+  seed=999: P^R=181 P\R=27 R\P=80 neither=134 (total lesions=422)
+  seed=4242: P^R=181 P\R=27 R\P=81 neither=133 (total lesions=422)
+  seed=7: P^R=182 P\R=26 R\P=86 neither=128 (total lesions=422)
+  seed=123: P^R=181 P\R=27 R\P=85 neither=129 (total lesions=422)
+  seed=2024: P^R=181 P\R=27 R\P=88 neither=126 (total lesions=422)
+  wrote E286_complementarity.csv
+
+Computing subject-level bootstrap 95% CI for T2-T0 and T2-T1 (G1, FP~500)...
+  seed=999: T2-H1ordinary delta mean=0.0809 95%CI=[0.0233,0.1511]
+  seed=4242: T2-H1ordinary delta mean=0.0950 95%CI=[0.0312,0.1750]
+  seed=7: T2-H1ordinary delta mean=0.1005 95%CI=[0.0406,0.1757]
+  seed=123: T2-H1ordinary delta mean=0.0744 95%CI=[0.0108,0.1460]
+  seed=2024: T2-H1ordinary delta mean=0.1130 95%CI=[0.0507,0.1899]
+  wrote E286_bootstrap_ci.csv
+
+======================================================================
+SUMMARY: G1 sensitivity, mean +/- SD across seeds, LOCKED test cohort
+======================================================================
+  h1_ordinary    FP~100: 4.9%±2.0%  FP~500: 13.1%±1.4%  FP~1000: 21.6%±1.2%
+  h2_t1          FP~100: 7.8%±0.8%  FP~500: 21.1%±1.5%  FP~1000: 28.1%±2.0%
+  h3_mrd_t2      FP~100: 14.7%±0.7%  FP~500: 22.2%±1.7%  FP~1000: 31.0%±1.6%
+  h4_combined    FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 11.9%±1.4%
+
+E286 complete (7468s).

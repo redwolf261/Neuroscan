@@ -1,0 +1,88 @@
+Verifying target transforms on hand-built (y,p) pairs...
+  y=1 p=0.01: t0_ordinary=1.0000  t1_subtract=0.9900  t2_marginal=1.0000  t3_divide_only=1.0000
+  y=1 p=0.5: t0_ordinary=1.0000  t1_subtract=0.5000  t2_marginal=1.0000  t3_divide_only=1.0000
+  y=1 p=0.99: t0_ordinary=1.0000  t1_subtract=0.0100  t2_marginal=0.9999  t3_divide_only=1.0000
+  y=1 p=0.999999: t0_ordinary=1.0000  t1_subtract=0.0000  t2_marginal=0.5000  t3_divide_only=1.0000
+  y=0 p=0.01: t0_ordinary=0.0000  t1_subtract=0.0000  t2_marginal=0.0000  t3_divide_only=0.0000
+  y=0 p=0.5: t0_ordinary=0.0000  t1_subtract=0.0000  t2_marginal=0.0000  t3_divide_only=0.0000
+  y=0 p=0.99: t0_ordinary=0.0000  t1_subtract=0.0000  t2_marginal=0.0000  t3_divide_only=0.0000
+
+--- seed=999 ---
+  pool: 5003 ET, 14895 neg (131s)
+  fit t0_ordinary (131s)
+  fit t1_subtract (131s)
+  fit t2_marginal (132s)
+  fit t3_divide_only (132s)
+
+--- seed=4242 ---
+  pool: 5003 ET, 14895 neg (258s)
+  fit t0_ordinary (259s)
+  fit t1_subtract (259s)
+  fit t2_marginal (259s)
+  fit t3_divide_only (259s)
+
+--- seed=7 ---
+  pool: 5003 ET, 14895 neg (386s)
+  fit t0_ordinary (386s)
+  fit t1_subtract (387s)
+  fit t2_marginal (387s)
+  fit t3_divide_only (387s)
+
+--- seed=123 ---
+  pool: 5003 ET, 14895 neg (514s)
+  fit t0_ordinary (514s)
+  fit t1_subtract (514s)
+  fit t2_marginal (515s)
+  fit t3_divide_only (515s)
+
+--- seed=2024 ---
+  pool: 5003 ET, 14895 neg (641s)
+  fit t0_ordinary (642s)
+  fit t1_subtract (642s)
+  fit t2_marginal (642s)
+  fit t3_divide_only (642s)
+
+Building non-circular phenotype groups on 67 TEST subjects...
+  20/67 (649s)
+  40/67 (657s)
+  60/67 (666s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (raw-r evaluation, E282-B's fixed grid)...
+  20/67 (1371s)
+  40/67 (2010s)
+  60/67 (2723s)
+
+Computing matched-FP sensitivity...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999998688455502), 1000: np.float64(0.999839037347316)} (actual FP: [0.0, 483.7, 995.7])
+  999::t0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [96.3, 471.6, 929.4])
+  999::t1_subtract: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [84.5, 436.8, 744.2])
+  999::t2_marginal: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [78.6, 373.3, 1058.6])
+  999::t3_divide_only: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [95.0, 469.4, 928.6])
+  4242::t0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [102.5, 462.9, 890.6])
+  4242::t1_subtract: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [127.1, 463.0, 874.7])
+  4242::t2_marginal: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.9)} (actual FP: [119.5, 650.7, 955.0])
+  4242::t3_divide_only: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [102.6, 462.6, 890.2])
+  7::t0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [107.6, 488.4, 921.3])
+  7::t1_subtract: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [95.4, 486.5, 819.1])
+  7::t2_marginal: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [79.8, 391.3, 1091.3])
+  7::t3_divide_only: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [107.1, 488.7, 922.1])
+  123::t0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [92.0, 440.2, 878.5])
+  123::t1_subtract: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.95082877089122)} (actual FP: [75.0, 396.8, 1170.8])
+  123::t2_marginal: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [93.7, 375.6, 1062.4])
+  123::t3_divide_only: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [91.3, 439.9, 879.7])
+  2024::t0_ordinary: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [94.3, 442.3, 883.4])
+  2024::t1_subtract: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [121.5, 611.9, 1069.9])
+  2024::t2_marginal: thresholds={100: np.float64(0.980622037447513), 500: np.float64(0.95082877089122), 1000: np.float64(0.9)} (actual FP: [91.7, 390.9, 1076.3])
+  2024::t3_divide_only: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [94.5, 442.9, 882.8])
+
+======================================================================
+SUMMARY: G1 (confidently-missed) sensitivity, mean +/- SD across seeds
+======================================================================
+  t0_ordinary      FP~100: 8.8%±1.9%  FP~500: 19.6%±1.5%  FP~1000: 26.5%±2.7%
+  t1_subtract      FP~100: 15.8%±3.2%  FP~500: 31.3%±3.9%  FP~1000: 40.0%±2.8%
+  t2_marginal      FP~100: 23.7%±1.0%  FP~500: 35.6%±1.5%  FP~1000: 40.9%±0.7%
+  t3_divide_only   FP~100: 8.8%±1.9%  FP~500: 19.5%±1.5%  FP~1000: 26.2%±2.5%
+
+E283 complete (3052s). wrote E283_matched_fp.csv

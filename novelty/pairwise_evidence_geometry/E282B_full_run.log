@@ -1,0 +1,98 @@
+Precomputing conventional-head (H5 negative source) candidate pools (E275-style, dense ET + per-subject non-ET subsample)...
+  conventional candidates: 4162737 ET (dense), 100500 non-ET candidates (72s)
+
+--- seed=999 ---
+  R1-B pool: 5003 ET, 14895 shell+distant neg (197s)
+  H5 conventional pool: 4162737 ET (dense), 14895 uniform-random neg (389s)
+  all 5 conditions fit for seed=999 (389s)
+
+--- seed=4242 ---
+  R1-B pool: 5003 ET, 14895 shell+distant neg (514s)
+  H5 conventional pool: 4162737 ET (dense), 14895 uniform-random neg (710s)
+  all 5 conditions fit for seed=4242 (710s)
+
+--- seed=7 ---
+  R1-B pool: 5003 ET, 14895 shell+distant neg (836s)
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 500 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=500).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+  H5 conventional pool: 4162737 ET (dense), 14895 uniform-random neg (1049s)
+  all 5 conditions fit for seed=7 (1049s)
+
+--- seed=123 ---
+  R1-B pool: 5003 ET, 14895 shell+distant neg (1174s)
+  H5 conventional pool: 4162737 ET (dense), 14895 uniform-random neg (1353s)
+  all 5 conditions fit for seed=123 (1353s)
+
+--- seed=2024 ---
+  R1-B pool: 5003 ET, 14895 shell+distant neg (1479s)
+C:\Users\Rivan\AppData\Roaming\Python\Python314\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 500 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=500).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+  H5 conventional pool: 4162737 ET (dense), 14895 uniform-random neg (1688s)
+  all 5 conditions fit for seed=2024 (1688s)
+
+Building non-circular phenotype groups on 67 TEST subjects...
+  20/67 (1695s)
+  40/67 (1703s)
+  60/67 (1714s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (full grid, per seed per condition, for FROC curves)...
+  20/67 (2679s)
+  40/67 (3578s)
+  60/67 (4663s)
+
+Writing FROC curve (all thresholds)...
+
+Computing matched-FP sensitivity (per-subject records for bootstrap)...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999998688455502), 1000: np.float64(0.999839037347316)} (actual FP: [0.0, 483.7, 995.7])
+  999::h1_r1b: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [96.3, 471.6, 929.4])
+  999::h2_mrd: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 481.2, 1014.4])
+  999::h3_mrd_no_p: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 478.9, 983.9])
+  999::h4_mrd_ordinary_y: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [96.0, 470.5, 928.5])
+  999::h5_mrd_conv_neg: thresholds={100: np.float64(1.0), 500: np.float64(1.0), 1000: np.float64(1.0)} (actual FP: [0.0, 0.0, 0.0])
+  4242::h1_r1b: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [102.5, 462.9, 890.6])
+  4242::h2_mrd: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 480.2, 1003.0])
+  4242::h3_mrd_no_p: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 478.0, 978.4])
+  4242::h4_mrd_ordinary_y: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [104.2, 452.7, 1108.0])
+  4242::h5_mrd_conv_neg: thresholds={100: np.float64(1.0), 500: np.float64(1.0), 1000: np.float64(1.0)} (actual FP: [0.0, 0.0, 0.0])
+  7::h1_r1b: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [107.6, 488.4, 921.3])
+  7::h2_mrd: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 479.6, 1011.3])
+  7::h3_mrd_no_p: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 477.8, 984.1])
+  7::h4_mrd_ordinary_y: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [107.5, 480.7, 909.2])
+  7::h5_mrd_conv_neg: thresholds={100: np.float64(1.0), 500: np.float64(1.0), 1000: np.float64(1.0)} (actual FP: [0.0, 0.0, 0.0])
+  123::h1_r1b: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [92.0, 440.2, 878.5])
+  123::h2_mrd: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 477.6, 996.6])
+  123::h3_mrd_no_p: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 475.9, 977.6])
+  123::h4_mrd_ordinary_y: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [96.3, 432.4, 1103.4])
+  123::h5_mrd_conv_neg: thresholds={100: np.float64(1.0), 500: np.float64(1.0), 1000: np.float64(1.0)} (actual FP: [0.0, 0.0, 0.0])
+  2024::h1_r1b: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.880797077977882)} (actual FP: [94.3, 442.3, 883.4])
+  2024::h2_mrd: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 477.0, 1000.2])
+  2024::h3_mrd_no_p: thresholds={100: np.float64(1.0), 500: np.float64(0.999999498834582), 1000: np.float64(0.999976493917828)} (actual FP: [0.0, 475.7, 980.8])
+  2024::h4_mrd_ordinary_y: thresholds={100: np.float64(0.969022838532718), 500: np.float64(0.922799970717367), 1000: np.float64(0.857894736842105)} (actual FP: [97.0, 433.9, 1112.1])
+  2024::h5_mrd_conv_neg: thresholds={100: np.float64(1.0), 500: np.float64(1.0), 1000: np.float64(1.0)} (actual FP: [0.0, 0.0, 0.0])
+
+======================================================================
+SUMMARY: G1 (confidently-missed) sensitivity, mean +/- SD across seeds
+======================================================================
+  h1_r1b                 FP~100: 8.8%±1.9%  FP~500: 19.6%±1.5%  FP~1000: 26.5%±2.7%
+  h2_mrd                 FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 0.0%±0.0%
+  h3_mrd_no_p            FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 0.0%±0.0%
+  h4_mrd_ordinary_y      FP~100: 9.7%±2.0%  FP~500: 20.7%±1.3%  FP~1000: 28.1%±3.4%
+  h5_mrd_conv_neg        FP~100: 0.0%±0.0%  FP~500: 0.0%±0.0%  FP~1000: 0.0%±0.0%
+
+E282-B complete (5437s). wrote E282B_phenotypes.csv, E282B_froc.csv, E282B_matched_fp.csv, E282B_persubject.csv

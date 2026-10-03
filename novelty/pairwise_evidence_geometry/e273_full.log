@@ -1,0 +1,30 @@
+Building TRAIN voxel pool and fitting R1-B...
+R1-B fit (179s)
+cos(w_P, w_R) = 0.2092 (E252 reported 0.055 in a different geometry; reused-unchanged R1-B direction here)
+
+Evaluating 2x2 decomposition on 158 TEST subjects...
+  20/158 (191s)
+  40/158 (202s)
+  60/158 (214s)
+  80/158 (225s)
+  100/158 (237s)
+  120/158 (248s)
+  140/158 (259s)
+
+Computing final metrics...
+
+=== E273 2x2 DECOMPOSITION RESULTS ===
+A_production: {'g2a_recovery': 0.0, 'det_recovery': 0.96875, 'g2b_recovery': 0.9642857142857143, 'et_dice_mean': 0.7587405921434403, 'fp_total': 270430}
+B_direction_replaced: {'g2a_recovery': 0.25, 'det_recovery': 1.0, 'g2b_recovery': 0.9642857142857143, 'et_dice_mean': 0.6722358802658995, 'fp_total': 140357}
+C_bias_replaced: {'g2a_recovery': 0.0, 'det_recovery': 0.984375, 'g2b_recovery': 0.9732142857142857, 'et_dice_mean': 0.7658019092367347, 'fp_total': 311152}
+D_full_R1B: {'g2a_recovery': 0.5833333333333334, 'det_recovery': 1.0, 'g2b_recovery': 0.9910714285714286, 'et_dice_mean': 0.7668671627436342, 'fp_total': 540054}
+
+=== Delta_w^T x ANALYSIS (Delta_w = w_R - w_P) ===
+recovered_G2A: n=357 mean=13.5113 median=13.6159 frac_positive=1.0000
+missed_G2A: n=1386 mean=14.9434 median=14.7633 frac_positive=1.0000
+detected_ET: n=14457 mean=-10.0369 median=-12.1733 frac_positive=0.2229
+distant_bg: n=31600 mean=14.2776 median=14.2665 frac_positive=1.0000
+MWU (recovered_G2A > distant_bg): p=1.00e+00
+MWU (missed_G2A > distant_bg): p=5.87e-17
+
+E273 complete (269s). wrote E273_decomposition.csv, E273_delta_w.csv

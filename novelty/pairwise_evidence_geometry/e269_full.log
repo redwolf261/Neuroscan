@@ -1,0 +1,27 @@
+Building training voxel pool (TRAIN subjects only)...
+  pool: lesion=5003 neg=14895 (175s)
+R1-B (R-full) fit (175s)
+Random-subspace controls fit (20/band) (180s)
+Scrambled-basis controls fit (180s)
+Per-direction (32x) readouts fit (180s)
+
+Total variants: 121
+
+Calibrating per-variant thresholds on 23 VAL subjects...
+  10/23 (191s)
+  20/23 (202s)
+Threshold calibration done (223s)
+
+Evaluating 121 variants on 158 TEST subjects...
+  20/158 (302s)
+  40/158 (374s)
+  60/158 (444s)
+  80/158 (516s)
+Traceback (most recent call last):
+  File "C:\Users\Rivan\Projects\Neuroscan\novelty\pairwise_evidence_geometry\e269_information_localization.py", line 420, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Rivan\Projects\Neuroscan\novelty\pairwise_evidence_geometry\e269_information_localization.py", line 344, in main
+    mask = (p_map > tau_v) & brain_mask
+           ~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.00 MiB for an array with shape (128, 128, 128) and data type bool

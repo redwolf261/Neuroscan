@@ -1,0 +1,59 @@
+Verifying T_focal on hand-built (y,p) pairs...
+  y=1 p=0.01: T_focal=0.9801
+  y=1 p=0.5: T_focal=0.2500
+  y=1 p=0.9: T_focal=0.0100
+  y=1 p=0.99: T_focal=0.0001
+  y=1 p=0.999999: T_focal=0.0000
+  y=0 p=0.01: T_focal=0.0000
+  y=0 p=0.5: T_focal=0.0000
+  y=0 p=0.99: T_focal=0.0000
+
+--- seed=999 ---
+  pool: 5003 ET, 14895 neg (167s)
+  fit t_focal (167s)
+
+--- seed=4242 ---
+  pool: 5003 ET, 14895 neg (318s)
+  fit t_focal (318s)
+
+--- seed=7 ---
+  pool: 5003 ET, 14895 neg (470s)
+  fit t_focal (471s)
+
+--- seed=123 ---
+  pool: 5003 ET, 14895 neg (621s)
+  fit t_focal (622s)
+
+--- seed=2024 ---
+  pool: 5003 ET, 14895 neg (770s)
+  fit t_focal (770s)
+
+Building non-circular phenotype groups on 67 TEST subjects...
+  20/67 (778s)
+  40/67 (786s)
+  60/67 (795s)
+
+Sweeping thresholds (raw-r evaluation, E282-B's fixed grid)...
+  20/67 (1100s)
+  40/67 (1394s)
+  60/67 (1696s)
+
+Computing matched-FP sensitivity...
+  prod: thresholds={100: np.float64(1.0), 500: np.float64(0.999998688455502), 1000: np.float64(0.999839037347316)} (actual FP: [0.0, 483.7, 995.7])
+  999::t_focal: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [86.3, 479.8, 833.8])
+  4242::t_focal: thresholds={100: np.float64(0.987932080391847), 500: np.float64(0.969022838532718), 1000: np.float64(0.95082877089122)} (actual FP: [126.9, 497.3, 960.2])
+  7::t_focal: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [96.0, 524.0, 897.9])
+  123::t_focal: thresholds={100: np.float64(0.995353985151741), 500: np.float64(0.980622037447513), 1000: np.float64(0.969022838532718)} (actual FP: [73.0, 416.9, 725.2])
+  2024::t_focal: thresholds={100: np.float64(0.992505595310084), 500: np.float64(0.980622037447513), 1000: np.float64(0.95082877089122)} (actual FP: [116.0, 364.1, 1157.7])
+
+======================================================================
+SUMMARY: G1 sensitivity, mean +/- SD across seeds, T_FOCAL
+======================================================================
+  t_focal (gamma=2.0)   FP~100: 13.5%±3.2%  FP~500: 28.5%±0.7%  FP~1000: 37.7%±2.9%
+
+  for comparison, E283's own saved numbers (NOT refit here):
+  h0_ordinary      FP~100: 8.8%±1.9%  FP~500: 19.6%±1.5%  FP~1000: 26.5%±2.7%
+  h1_subtract      FP~100: 15.8%±3.2%  FP~500: 31.3%±3.9%  FP~1000: 40.0%±2.8%
+  h6_normalized(T2) FP~100: 23.7%±1.0%  FP~500: 35.6%±1.5%  FP~1000: 40.9%±0.7%
+
+E285 complete (1842s). wrote E285_matched_fp.csv

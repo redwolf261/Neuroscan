@@ -1,0 +1,92 @@
+Building candidate feature pools (ET, shell, distant, random)...
+  ET pool: 5003  shell candidates: 7860  distant candidates: 7035  random candidates: 100500 (185s)
+
+Fitting readouts (4 conditions x 3 seeds)...
+  R0_random seed=999: n_neg=14895 (185s)
+  R0_random seed=4242: n_neg=14895 (185s)
+  R0_random seed=7777: n_neg=14895 (185s)
+  R1_distant seed=999: n_neg=7035 (185s)
+  R1_distant seed=4242: n_neg=7035 (185s)
+  R1_distant seed=7777: n_neg=7035 (185s)
+  R2_shell seed=999: n_neg=7860 (185s)
+  R2_shell seed=4242: n_neg=7860 (186s)
+  R2_shell seed=7777: n_neg=7860 (186s)
+  R3_shell_distant seed=999: n_neg=14482 (186s)
+  R3_shell_distant seed=4242: n_neg=14482 (186s)
+  R3_shell_distant seed=7777: n_neg=14482 (187s)
+
+Building non-circular phenotype groups on 67 TEST subjects...
+  20/67 (193s)
+  40/67 (200s)
+  60/67 (207s)
+
+Phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Sweeping thresholds (identical grid to E274/E275)...
+  20/67 (270s)
+  40/67 (332s)
+  60/67 (395s)
+
+Computing matched-FP sensitivity per condition/seed...
+  R0_random done (455s)
+  R1_distant done (492s)
+  R2_shell done (530s)
+  R3_shell_distant done (567s)
+
+=== E276 summary (mean +/- SD across seeds) ===
+R0_random          FP~  100 G1_confidently_missed        0.0000 +/- 0.0000
+R0_random          FP~  100 G2_low_confidence            0.0000 +/- 0.0000
+R0_random          FP~  100 G3_confidently_detected      0.5893 +/- 0.0129
+R0_random          FP~  100 ALL                          0.3449 +/- 0.0075
+R0_random          FP~  500 G1_confidently_missed        0.0177 +/- 0.0000
+R0_random          FP~  500 G2_low_confidence            0.0556 +/- 0.0786
+R0_random          FP~  500 G3_confidently_detected      0.7698 +/- 0.0156
+R0_random          FP~  500 ALL                          0.4588 +/- 0.0108
+R0_random          FP~ 1000 G1_confidently_missed        0.0590 +/- 0.0167
+R0_random          FP~ 1000 G2_low_confidence            0.5556 +/- 0.0786
+R0_random          FP~ 1000 G3_confidently_detected      0.9226 +/- 0.0129
+R0_random          FP~ 1000 ALL                          0.5749 +/- 0.0099
+R1_distant         FP~  100 G1_confidently_missed        0.0000 +/- 0.0000
+R1_distant         FP~  100 G2_low_confidence            0.0000 +/- 0.0000
+R1_distant         FP~  100 G3_confidently_detected      0.0000 +/- 0.0000
+R1_distant         FP~  100 ALL                          0.0000 +/- 0.0000
+R1_distant         FP~  500 G1_confidently_missed        0.0000 +/- 0.0000
+R1_distant         FP~  500 G2_low_confidence            0.0000 +/- 0.0000
+R1_distant         FP~  500 G3_confidently_detected      0.0000 +/- 0.0000
+R1_distant         FP~  500 ALL                          0.0000 +/- 0.0000
+R1_distant         FP~ 1000 G1_confidently_missed        0.0354 +/- 0.0000
+R1_distant         FP~ 1000 G2_low_confidence            0.1667 +/- 0.0000
+R1_distant         FP~ 1000 G3_confidently_detected      0.9464 +/- 0.0000
+R1_distant         FP~ 1000 ALL                          0.5714 +/- 0.0000
+R2_shell           FP~  100 G1_confidently_missed        0.0000 +/- 0.0000
+R2_shell           FP~  100 G2_low_confidence            0.0000 +/- 0.0000
+R2_shell           FP~  100 G3_confidently_detected      0.2321 +/- 0.0000
+R2_shell           FP~  100 ALL                          0.1359 +/- 0.0000
+R2_shell           FP~  500 G1_confidently_missed        0.0000 +/- 0.0000
+R2_shell           FP~  500 G2_low_confidence            0.0000 +/- 0.0000
+R2_shell           FP~  500 G3_confidently_detected      0.2321 +/- 0.0000
+R2_shell           FP~  500 ALL                          0.1359 +/- 0.0000
+R2_shell           FP~ 1000 G1_confidently_missed        0.0000 +/- 0.0000
+R2_shell           FP~ 1000 G2_low_confidence            0.0000 +/- 0.0000
+R2_shell           FP~ 1000 G3_confidently_detected      0.2679 +/- 0.0505
+R2_shell           FP~ 1000 ALL                          0.1568 +/- 0.0296
+R3_shell_distant   FP~  100 G1_confidently_missed        0.0973 +/- 0.0000
+R3_shell_distant   FP~  100 G2_low_confidence            0.3333 +/- 0.0000
+R3_shell_distant   FP~  100 G3_confidently_detected      0.7202 +/- 0.0097
+R3_shell_distant   FP~  100 ALL                          0.4669 +/- 0.0057
+R3_shell_distant   FP~  500 G1_confidently_missed        0.2094 +/- 0.0042
+R3_shell_distant   FP~  500 G2_low_confidence            0.8333 +/- 0.0000
+R3_shell_distant   FP~  500 G3_confidently_detected      0.9524 +/- 0.0000
+R3_shell_distant   FP~  500 ALL                          0.6574 +/- 0.0016
+R3_shell_distant   FP~ 1000 G1_confidently_missed        0.2507 +/- 0.0042
+R3_shell_distant   FP~ 1000 G2_low_confidence            0.8333 +/- 0.0000
+R3_shell_distant   FP~ 1000 G3_confidently_detected      0.9782 +/- 0.0028
+R3_shell_distant   FP~ 1000 ALL                          0.6887 +/- 0.0033
+
+=== Pairwise seed Jaccard overlap (G1+G2 lesions, TAU=0.5) ===
+R0_random: pairwise Jaccard = [0.9457, 0.9565, 0.9667]  mean=0.9563
+R1_distant: pairwise Jaccard = [1.0, 1.0, 1.0]  mean=1.0000
+R2_shell: pairwise Jaccard = [1.0, 1.0, 1.0]  mean=1.0000
+R3_shell_distant: pairwise Jaccard = [1.0, 1.0, 1.0]  mean=1.0000
+
+E276 complete (596s). wrote E276_results.csv, E276_summary.csv, E276_jaccard.csv
