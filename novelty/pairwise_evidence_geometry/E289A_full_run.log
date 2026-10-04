@@ -1,0 +1,52 @@
+Fitting MRD-T2 on det_train, 5 seeds...
+  seed=999 fit (166s)
+  seed=4242 fit (322s)
+  seed=7 fit (468s)
+  seed=123 fit (614s)
+  seed=2024 fit (759s)
+
+Building G1/G2/G3 phenotype groups on 67 DEV (det_test) subjects...
+  20/67 (767s)
+  40/67 (774s)
+  60/67 (783s)
+  phenotype group sizes: {'G3_confidently_detected': 168, 'G1_confidently_missed': 113, 'G2_low_confidence': 6}
+
+Evaluating 25 gate configurations x 5 seeds on dev cohort...
+  [1/25] G0_G1_raw            tau_R=0.8500 k=None gamma=None: Dice=0.8790 G1=45.7% (798s)
+  [2/25] G0_G1_raw            tau_R=0.9000 k=None gamma=None: Dice=0.8832 G1=40.9% (810s)
+  [3/25] G0_G1_raw            tau_R=0.9228 k=None gamma=None: Dice=0.8847 G1=39.5% (823s)
+  [4/25] G0_G1_raw            tau_R=0.9508 k=None gamma=None: Dice=0.8863 G1=34.2% (836s)
+  [5/25] G0_G1_raw            tau_R=0.9690 k=None gamma=None: Dice=0.8874 G1=28.3% (850s)
+  [6/25] G0_G1_raw            tau_R=0.9806 k=None gamma=None: Dice=0.8880 G1=22.3% (863s)
+  [7/25] G0_G1_raw            tau_R=0.9879 k=None gamma=None: Dice=0.8884 G1=15.8% (877s)
+  [8/25] G0_G1_raw            tau_R=0.9954 k=None gamma=None: Dice=0.8888 G1=6.5% (889s)
+  [9/25] G2_component_size    tau_R=0.9508 k=1 gamma=None: Dice=0.8863 G1=34.2% (916s)
+  [10/25] G2_component_size    tau_R=0.9508 k=2 gamma=None: Dice=0.8868 G1=28.8% (944s)
+  [11/25] G2_component_size    tau_R=0.9508 k=4 gamma=None: Dice=0.8873 G1=23.2% (972s)
+  [12/25] G2_component_size    tau_R=0.9508 k=8 gamma=None: Dice=0.8877 G1=14.3% (999s)
+  [13/25] G2_component_size    tau_R=0.9508 k=16 gamma=None: Dice=0.8882 G1=8.0% (1027s)
+  [14/25] G2_component_size    tau_R=0.9508 k=32 gamma=None: Dice=0.8886 G1=0.9% (1054s)
+  [15/25] G2_component_size    tau_R=0.9508 k=64 gamma=None: Dice=0.8888 G1=0.9% (1082s)
+  [16/25] G4_confidence        tau_R=0.9508 k=None gamma=0.9: Dice=0.8863 G1=34.2% (1119s)
+  [17/25] G4_confidence        tau_R=0.9508 k=None gamma=0.95: Dice=0.8863 G1=34.2% (1155s)
+  [18/25] G4_confidence        tau_R=0.9508 k=None gamma=0.97: Dice=0.8871 G1=23.5% (1189s)
+  [19/25] G4_confidence        tau_R=0.9508 k=None gamma=0.99: Dice=0.8890 G1=0.5% (1224s)
+  [20/25] G5_combined          tau_R=0.9508 k=4 gamma=0.95: Dice=0.8873 G1=23.2% (1262s)
+  [21/25] G5_combined          tau_R=0.9508 k=4 gamma=0.97: Dice=0.8875 G1=17.2% (1299s)
+  [22/25] G5_combined          tau_R=0.9508 k=8 gamma=0.95: Dice=0.8877 G1=14.3% (1337s)
+  [23/25] G5_combined          tau_R=0.9508 k=8 gamma=0.97: Dice=0.8878 G1=13.3% (1374s)
+  [24/25] G5_combined          tau_R=0.9508 k=16 gamma=0.95: Dice=0.8882 G1=8.0% (1412s)
+  [25/25] G5_combined          tau_R=0.9508 k=16 gamma=0.97: Dice=0.8882 G1=8.0% (1446s)
+
+wrote E289A_dev_sweep.csv
+
+Production alone on dev cohort: Dice=0.8890 G1=0.0% (by definition)
+
+======================================================================
+PRE-REGISTERED SELECTION: R_min=15%, among qualifying configs pick max Dice
+======================================================================
+  15/25 configs meet G1 recovery >= 15%
+  SELECTED: {'config_id': 6, 'gate': 'G0_G1_raw', 'tau_R': 0.987932080391847, 'k': None, 'gamma': None, 'dice_mean': 0.8884157149871683, 'dice_sd': 0.0001391881863406916, 'g1_recovery_mean': 0.15752212389380532, 'g1_recovery_sd': 0.03185840707964602}
+  wrote E289A_selected_gate.json
+
+E289-A complete (1447s).

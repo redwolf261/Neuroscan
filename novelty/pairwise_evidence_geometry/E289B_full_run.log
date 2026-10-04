@@ -1,0 +1,71 @@
+FROZEN SELECTED GATE (from E289-A, never re-tuned here):
+  {'config_id': 6, 'gate': 'G0_G1_raw', 'tau_R': 0.987932080391847, 'k': None, 'gamma': None, 'dice_mean': 0.8884157149871683, 'dice_sd': 0.0001391881863406916, 'g1_recovery_mean': 0.15752212389380532, 'g1_recovery_sd': 0.03185840707964602}
+  dev-cohort reference: production_dice=0.8890, R_min=0.15
+
+Rebuilding E286/E288's exact locked test cohort...
+  test cohort: 125 subjects, leakage audit PASS
+
+Fitting MRD-T2 on det_train, 5 seeds (identical to E286-E289A)...
+  seed=999 fit (205s)
+  seed=4242 fit (369s)
+  seed=7 fit (533s)
+  seed=123 fit (697s)
+  seed=2024 fit (844s)
+
+Building G1/G2/G3 phenotype groups on 125 LOCKED test subjects...
+  20/125 (851s)
+  40/125 (859s)
+  60/125 (866s)
+  80/125 (874s)
+  100/125 (884s)
+  120/125 (892s)
+  phenotype group sizes: {'G3_confidently_detected': 250, 'G1_confidently_missed': 162, 'G2_low_confidence': 10}
+
+--- PROTOCOL 1: center-crop + pooled voxels (E286/E287 convention) ---
+  seed=999: Dice=0.8825 Precision=0.9250 Recall=0.8438 IoU=0.7898 G1=7.4% (903s)
+  seed=4242: Dice=0.8827 Precision=0.9255 Recall=0.8437 IoU=0.7900 G1=6.2% (908s)
+  seed=7: Dice=0.8825 Precision=0.9250 Recall=0.8438 IoU=0.7898 G1=8.0% (914s)
+  seed=123: Dice=0.8824 Precision=0.9245 Recall=0.8439 IoU=0.7895 G1=8.6% (920s)
+  seed=2024: Dice=0.8824 Precision=0.9246 Recall=0.8439 IoU=0.7896 G1=7.4% (926s)
+  production alone (protocol 1): Dice=0.8830
+  wrote E289B_protocol1.csv
+
+--- PROTOCOL 2: sliding-window + per-subject averaging (E288 convention) ---
+  seed=999 20/125 (972s)
+  seed=999 40/125 (1015s)
+  seed=999 60/125 (1056s)
+  seed=999 80/125 (1098s)
+  seed=999 100/125 (1132s)
+  seed=999 120/125 (1175s)
+  seed=999: A ET=0.8191  |  gated ET=0.8186 G1=11.1%
+  seed=4242 20/125 (1229s)
+  seed=4242 40/125 (1272s)
+  seed=4242 60/125 (1313s)
+  seed=4242 80/125 (1354s)
+  seed=4242 100/125 (1389s)
+  seed=4242 120/125 (1430s)
+  seed=4242: A ET=0.8191  |  gated ET=0.8187 G1=9.3%
+  seed=7 20/125 (1485s)
+  seed=7 40/125 (1528s)
+  seed=7 60/125 (1569s)
+  seed=7 80/125 (1611s)
+  seed=7 100/125 (1646s)
+  seed=7 120/125 (1687s)
+  seed=7: A ET=0.8191  |  gated ET=0.8186 G1=11.1%
+  seed=123 20/125 (1741s)
+  seed=123 40/125 (1784s)
+  seed=123 60/125 (1823s)
+  seed=123 80/125 (1865s)
+  seed=123 100/125 (1899s)
+  seed=123 120/125 (1940s)
+  seed=123: A ET=0.8191  |  gated ET=0.8184 G1=12.3%
+  seed=2024 20/125 (1993s)
+  seed=2024 40/125 (2035s)
+  seed=2024 60/125 (2075s)
+  seed=2024 80/125 (2115s)
+  seed=2024 100/125 (2149s)
+  seed=2024 120/125 (2190s)
+  seed=2024: A ET=0.8191  |  gated ET=0.8185 G1=13.0%
+  wrote E289B_protocol2.csv
+
+E289-B complete (2201s).

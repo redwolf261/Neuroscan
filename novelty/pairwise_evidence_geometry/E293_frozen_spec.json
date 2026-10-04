@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-04 14:24:38",
+  "locked_tau_et_star": 0.15,
+  "locked_tau_wt_star": 0.5,
+  "primary_endpoint": "mean_per_subject_dice",
+  "n_locked_test_subjects": 125,
+  "seeds": [
+    999,
+    4242,
+    7,
+    123,
+    2024
+  ],
+  "tau_r_base": 0.95082877089122,
+  "tau_acceptance": 0.8,
+  "dist_zone_boundary_voxels": 2.0
+}

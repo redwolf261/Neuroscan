@@ -1,0 +1,15 @@
+{
+  "production_dev_dice": 0.8890015035424034,
+  "R_min": 0.15,
+  "selected_config": {
+    "config_id": 6,
+    "gate": "G0_G1_raw",
+    "tau_R": 0.987932080391847,
+    "k": null,
+    "gamma": null,
+    "dice_mean": 0.8884157149871683,
+    "dice_sd": 0.0001391881863406916,
+    "g1_recovery_mean": 0.15752212389380532,
+    "g1_recovery_sd": 0.03185840707964602
+  }
+}

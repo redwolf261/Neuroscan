@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-10-04 14:21:34",
+  "best_tau_et": 0.2,
+  "best_tau_tc": null,
+  "best_min_vox": 3,
+  "best_mean_dice": 0.8802011246843586,
+  "delta_vs_raw_prod": 0.009422888894287884
+}

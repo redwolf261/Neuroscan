@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-10-04 13:28:29",
+  "n_dev_subjects": 13,
+  "raw_production": {
+    "mean_per_subject_dice": 0.8707782357900707,
+    "median_per_subject_dice": 0.8877047341260937,
+    "global_pooled_dice": 0.8882700515332465,
+    "mean_precision": 0.9016036808790955,
+    "mean_recall": 0.8649607795034581,
+    "total_fp_voxels": 44153,
+    "total_fn_voxels": 48729
+  },
+  "selected_tau_star": 0.25,
+  "selected_mean_dice": 0.8799714233475717,
+  "curve": [
+    {
+      "threshold": 0.25,
+      "mean_per_subject_dice": 0.8799714233475717,
+      "median_per_subject_dice": 0.8855630474510051,
+      "global_pooled_dice": 0.8902733024713072,
+      "delta_mean_dice": 0.009193187557500981,
+      "mean_precision": 0.8822969848391838,
+      "mean_recall": 0.8935756764903698,
+      "total_fp_voxels": 55261,
+      "total_fn_voxels": 38317
+    },
+    {
+      "threshold": 0.28,
+      "mean_per_subject_dice": 0.8796133927365317,
+      "median_per_subject_dice": 0.8828549753445442,
+      "global_pooled_dice": 0.8905261276011159,
+      "delta_mean_dice": 0.008835156946460976,
+      "mean_precision": 0.8848656271061743,
+      "mean_recall": 0.8906537516740813,
+      "total_fp_voxels": 53702,
+      "total_fn_voxels": 39374
+    },
+    {
+      "threshold": 0.3,
+      "mean_per_subject_dice": 0.8794237968583404,
+      "median_per_subject_dice": 0.8841144383836135,
+      "global_pooled_dice": 0.8905782989737482,
+      "delta_mean_dice": 0.008645561068269636,
+      "mean_precision": 0.8862918843854359,
+      "mean_recall": 0.8890220671385962,
+      "total_fp_voxels": 52906,
+      "total_fn_voxels": 39973
+    },
+    {
+      "threshold": 0.32,
+      "mean_per_subject_dice": 0.8792962546434471,
+      "median_per_subject_dice": 0.8850248007579558,
+      "global_pooled_dice": 0.8906520661742147,
+      "delta_mean_dice": 0.00851801885337633,
+      "mean_precision": 0.8876898253768376,
+      "mean_recall": 0.8875172287999581,
+      "total_fp_voxels": 52122,
+      "total_fn_voxels": 40546
+    },
+    {
+      "threshold": 0.35,
+      "mean_per_subject_dice": 0.8789834524336005,
+      "median_per_subject_dice": 0.8855166257531801,
+      "global_pooled_dice": 0.8907264636791816,
+      "delta_mean_dice": 0.0082052166435298,
+      "mean_precision": 0.8896230456193539,
+      "mean_recall": 0.8852156732651701,
+      "total_fp_voxels": 50969,
+      "total_fn_voxels": 41415
+    },
+    {
+      "threshold": 0.38,
+      "mean_per_subject_dice": 0.8777561453278154,
+      "median_per_subject_dice": 0.8868145995193114,
+      "global_pooled_dice": 0.8905746722651976,
+      "delta_mean_dice": 0.0069779095377446865,
+      "mean_precision": 0.8923029057989715,
+      "mean_recall": 0.881328730029203,
+      "total_fp_voxels": 49460,
+      "total_fn_voxels": 42742
+    },
+    {
+      "threshold": 0.4,
+      "mean_per_subject_dice": 0.8772244543138167,
+      "median_per_subject_dice": 0.8872357086922474,
+      "global_pooled_dice": 0.8905001194751652,
+      "delta_mean_dice": 0.006446218523745939,
+      "mean_precision": 0.8935816594014767,
+      "mean_recall": 0.8794726091377425,
+      "total_fp_voxels": 48702,
+      "total_fn_voxels": 43407
+    },
+    {
+      "threshold": 0.42,
+      "mean_per_subject_dice": 0.876807805340851,
+      "median_per_subject_dice": 0.8880179171332587,
+      "global_pooled_dice": 0.8903986607323584,
+      "delta_mean_dice": 0.006029569550780267,
+      "mean_precision": 0.8947710089203011,
+      "mean_recall": 0.8777886944068933,
+      "total_fp_voxels": 48014,
+      "total_fn_voxels": 44036
+    },
+    {
+      "threshold": 0.45,
+      "mean_per_subject_dice": 0.8762715334930656,
+      "median_per_subject_dice": 0.888726946577723,
+      "global_pooled_dice": 0.8902665174213658,
+      "delta_mean_dice": 0.005493297702994893,
+      "mean_precision": 0.8964429560227638,
+      "mean_recall": 0.8754531194113018,
+      "total_fp_voxels": 47033,
+      "total_fn_voxels": 44923
+    },
+    {
+      "threshold": 0.48,
+      "mean_per_subject_dice": 0.875606779336075,
+      "median_per_subject_dice": 0.8897995845730646,
+      "global_pooled_dice": 0.8901304874649978,
+      "delta_mean_dice": 0.00482854354600426,
+      "mean_precision": 0.8982260305051691,
+      "mean_recall": 0.8729116791788272,
+      "total_fp_voxels": 45994,
+      "total_fn_voxels": 45859
+    },
+    {
+      "threshold": 0.5,
+      "mean_per_subject_dice": 0.8746030210291227,
+      "median_per_subject_dice": 0.8905749452031698,
+      "global_pooled_dice": 0.889965809567325,
+      "delta_mean_dice": 0.003824785239051942,
+      "mean_precision": 0.9001522092112559,
+      "mean_recall": 0.8700051276751672,
+      "total_fp_voxels": 44864,
+      "total_fn_voxels": 46889
+    }
+  ]
+}

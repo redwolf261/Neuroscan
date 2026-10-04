@@ -1,0 +1,25 @@
+{
+  "selected_variant": "V1_size_only",
+  "selection_note": "normal",
+  "feature_indices": [
+    0
+  ],
+  "feature_names": [
+    "size"
+  ],
+  "tau_r_extraction": 0.95082877089122,
+  "lr_coef": [
+    0.08138692858274196
+  ],
+  "lr_intercept": -0.0013730037871894838,
+  "scaler_mean": [
+    3.9868253968253966
+  ],
+  "scaler_scale": [
+    14.280522346655365
+  ],
+  "dev_dice": 0.8641829625530678,
+  "dev_g1": 0.20833333333333334,
+  "prod_dev_dice": 0.8757540221271595,
+  "R_min": 0.15
+}
