@@ -1,0 +1,29 @@
+[
+  {
+    "subject_id": "BraTS-GLI-00404-000",
+    "slice_idx": 65,
+    "dice_b0": 0.8211623335682231,
+    "dice_b3": 0.8630288554417885,
+    "g1_total": 8,
+    "g1_recovered_b0": 0,
+    "g1_recovered_b3": 3
+  },
+  {
+    "subject_id": "BraTS-GLI-00299-000",
+    "slice_idx": 30,
+    "dice_b0": 0.7299382716049383,
+    "dice_b3": 0.7663432479720057,
+    "g1_total": 3,
+    "g1_recovered_b0": 0,
+    "g1_recovered_b3": 3
+  },
+  {
+    "subject_id": "BraTS-GLI-01482-000",
+    "slice_idx": 104,
+    "dice_b0": 0.8944,
+    "dice_b3": 0.9150428682774747,
+    "g1_total": 1,
+    "g1_recovered_b0": 0,
+    "g1_recovered_b3": 1
+  }
+]
