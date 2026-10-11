@@ -1,35 +1,207 @@
-﻿research_infra/ood_crossshift/hf_cache/
-research_infra/ood_crossshift/GeneralisationGeneralises/
+# ==============================================================================
+# NeuroScan .gitignore
+# Comprehensive rules to ensure anyone can clone, develop, train, preprocess,
+# and evaluate NeuroScan without accidental large file tracking or bloat.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python Virtual Environments & Packages
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+venv_gpu/
+env/
+ENV/
+env.bak/
+venv.bak/
+conda/
+.conda/
+*_env/
+.env
+.env.*
+
+# ------------------------------------------------------------------------------
+# 2. Python Caching & Build Artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+**/.cache/
+*.cache
+
+# ------------------------------------------------------------------------------
+# 3. Medical Imaging Datasets & Raw Cohorts (Large Binaries, Never Tracked)
+# ------------------------------------------------------------------------------
+# Ignore all cohort data, training, validation, and cache subdirectories in Dataset/
+Dataset/*/
+!Dataset/*.py
+!Dataset/__init__.py
+Dataset/Training/
+Dataset/Validation/
+Dataset/Testing/
+Dataset/Test/
+Dataset/BraTS*/
+Dataset/brats*/
+Dataset/_resize_cache/
+Dataset/cache_*/
+Dataset/*_cache/
+Dataset/raw/
+Dataset/Raw/
+Dataset/processed/
+Dataset/preprocessed/
+Dataset/downloads/
+PediMS/
+data/
+**/data/
+
+# Medical image volume formats
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.mha
+*.mhd
+*.nrrd
+
+# ------------------------------------------------------------------------------
+# 4. Numerical Dumps, Large Arrays & Feature Extractions
+# ------------------------------------------------------------------------------
+*.npz
+*.npy
 *.arrow
-*.safetensors
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Pickle & serialized dumps (keeps small tracked configs/manifests whitelisted)
+*.pkl
+*.pickle
+*.joblib
+!experiments/exp_e12_eggo_m/e170/rhat_enc1_predictor.pkl
+!experiments/exp_forensics/TRAJECTORY_vectors.pkl
+
+# Large probe/vector dumps (e.g. E185_probe.pkl was 9.67GB)
+*_probe.pkl
+*_vectors.pkl
+novelty/**/*_probe.pkl
+novelty/**/*_vectors.pkl
+
+# Extracted volume feature dumps
+**/extracted/
+experiments/**/extracted/
+
+# ------------------------------------------------------------------------------
+# 5. Model Weights, Checkpoints & Serialization Formats
+# ------------------------------------------------------------------------------
 *.pt
 *.pth
 *.ckpt
-__pycache__/
-.venv/
-venv/
-.env
+*.safetensors
+*.bin
+*.onnx
+*.engine
+*.weights
+*.pb
 
-# --- environments (venv_gpu was missing; 47k files) ---
-venv_gpu/
-
-# --- data and weights: large binaries, never tracked ---
-Dataset/Training/
-Dataset/Validation/
-Dataset/_resize_cache/
-Dataset/cache_brats2023gli/
-PediMS/
+# Checkpoint and weight directories anywhere in repo
 checkpoints/
-
-# --- experiment run artifacts (checkpoints/logs), keep results JSON ---
+**/checkpoints/
+weights/
+**/weights/
+saved_models/
+**/saved_models/
 experiments/**/checkpoints/
 experiments/**/runs/**/checkpoints/
-*.nii
-*.nii.gz
-*.npz
 
-# --- large cached probe/feature dumps: regenerable, not source ---
-# (E185_probe.pkl was 9.67GB on disk, 1GB+ compressed -- exceeds GitHub's
-# 100MB hard limit; caught when a push was rejected on 2026-09-24)
-novelty/**/*_probe.pkl
-novelty/**/*_vectors.pkl
+# ------------------------------------------------------------------------------
+# 6. ML Experiment Tracking, Run Artifacts & Profiling
+# ------------------------------------------------------------------------------
+wandb/
+**/wandb/
+runs/
+**/runs/
+lightning_logs/
+**/lightning_logs/
+mlruns/
+**/mlruns/
+tensorboard/
+**/tensorboard/
+
+# PyTorch profiler traces
+*.pt.trace.json
+*.pt.trace.json.gz
+
+# ------------------------------------------------------------------------------
+# 7. Model Predictions & Inference Outputs
+# ------------------------------------------------------------------------------
+predictions/
+**/predictions/
+inference_outputs/
+**/inference_outputs/
+outputs/
+**/outputs/
+eval_outputs/
+**/eval_outputs/
+
+# ------------------------------------------------------------------------------
+# 8. External Research Infra Caches & HuggingFace Models
+# ------------------------------------------------------------------------------
+research_infra/ood_crossshift/hf_cache/
+research_infra/ood_crossshift/GeneralisationGeneralises/
+hf_cache/
+**/hf_cache/
+torch_cache/
+
+# ------------------------------------------------------------------------------
+# 9. Downloaded Archives & Compressed Data
+# ------------------------------------------------------------------------------
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.zip
+# Whitelist small evidence archive already tracked in repository
+!neuroscan_experimental_evidence.zip
+
+# ------------------------------------------------------------------------------
+# 10. OS & IDE Configuration Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+.gemini/
